@@ -3,7 +3,7 @@ from scrapy.selector import Selector
 from tutorial.items import MatchStatsItem
 
 class TISpider(Spider):
-	name = "tennisinsightfederer"
+	name = "tennisinsightwawrinka"
 	allowed_domains = ["tennisinsight.com"]
 	start_urls = [
 		"http://www.tennisinsight.com/match_stats_popup.php?matchID=183704701"
@@ -14,8 +14,10 @@ class TISpider(Spider):
 
 	def parse(self,response):
 		sel = Selector(response)
+		listOfStats = []
 		stats = sel.xpath("//table//td//text()").extract()
 		tennisStats = MatchStatsItem()
+		#change into for loop. loop through entire array, and if for eg we find the word "1st serve percentage", take the array position+2 for p1 serve percentage
 		tennisStats['matchId'] = 183704701
 		tennisStats['tournament'] = stats[8]
 		tennisStats['t_round'] = stats[14]
@@ -51,8 +53,9 @@ class TISpider(Spider):
 		tennisStats['p2AverageFirstServeSpeed'] = stats[216]
                 tennisStats['p1AverageSecondServeSpeed'] = stats[222]
                 tennisStats['p2AverageSecondServeSpeed'] = stats[224]
-		print "winners", stats[174], stats[176]
-'''
+		listOfStats.append(tennisStats)
+		return listOfStats
+#		print stats[214], "testp1avgfirstservespeed"
 '''
 		items = hxs.select('//table/td')
 		tennisStats['matchId'] = 183704701
