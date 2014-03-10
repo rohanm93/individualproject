@@ -1,18 +1,24 @@
 from scrapy.spider import Spider
-from scrapy.selector import Selector
+from scrapy.contrib.spiders import CrawlSpider, Rule
+from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
+from scrapy.selector import Selector, HtmlXPathSelector
 from tutorial.items import MatchStatsItem
 
-class TISpider(Spider):
+class TISpider(CrawlSpider):
 	name = "tennisinsightwawrinka"
 	allowed_domains = ["tennisinsight.com"]
-	start_urls = [
-		"http://www.tennisinsight.com/match_stats_popup.php?matchID=183704701"
-	]
 #	start_urls = [
-#		"http://www.tennisinsight.com/player_activity.php?player_id=1"
+#		"http://www.tennisinsight.com/match_stats_popup.php?matchID=183704701"
 #	]
+	start_urls = [
+		"http://www.tennisinsight.com/player_activity.php?player_id=1"
+	]
+	rules = (
+		Rule(SgmlLinkExtractor(allow='/match_stats_popup.php?matchID=\d+'),'parse', follow=True),
+	)
 
-	def parse(self,response):
+
+	def parse_match(self,response):
 		sel = Selector(response)
 		listOfStats = []
 		stats = sel.xpath("//table//td//text()").extract()
@@ -41,18 +47,20 @@ class TISpider(Spider):
 		tennisStats['p2SecondReturnPointsWon'] = stats[120]
 		tennisStats['p1BreakPointsWon'] = stats[126]
 		tennisStats['p2BreakPointsWon'] = stats[128]
-		tennisStats['p1Winners'] = stats[174]
-		tennisStats['p2Winners'] = stats[176]
-		tennisStats['p1UnforcedErrors'] = stats[182]
-                tennisStats['p2UnforcedErrors'] = stats[184]
-		tennisStats['p1NetApproaches'] = stats[190]
-		tennisStats['p2NetApproaches'] = stats[192]
-		tennisStats['p1PointsWonAtNet'] = stats[198]
-		tennisStats['p2PointsWonAtNet'] = stats[200]
-		tennisStats['p1AverageFirstServeSpeed'] = stats[214]
-		tennisStats['p2AverageFirstServeSpeed'] = stats[216]
-                tennisStats['p1AverageSecondServeSpeed'] = stats[222]
-                tennisStats['p2AverageSecondServeSpeed'] = stats[224]
+		if stats[168]=="Detailed Statistics":
+			print "detailed statistics are available"
+			tennisStats['p1Winners'] = stats[174]
+			tennisStats['p2Winners'] = stats[176]
+			tennisStats['p1UnforcedErrors'] = stats[182]
+	                tennisStats['p2UnforcedErrors'] = stats[184]
+			tennisStats['p1NetApproaches'] = stats[190]
+			tennisStats['p2NetApproaches'] = stats[192]
+			tennisStats['p1PointsWonAtNet'] = stats[198]
+			tennisStats['p2PointsWonAtNet'] = stats[200]
+			tennisStats['p1AverageFirstServeSpeed'] = stats[214]
+			tennisStats['p2AverageFirstServeSpeed'] = stats[216]
+	                tennisStats['p1AverageSecondServeSpeed'] = stats[222]
+        	        tennisStats['p2AverageSecondServeSpeed'] = stats[224]
 		listOfStats.append(tennisStats)
 		return listOfStats
 #		print stats[214], "testp1avgfirstservespeed"
