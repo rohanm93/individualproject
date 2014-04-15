@@ -3,6 +3,7 @@ from scrapy.contrib.spiders import CrawlSpider, Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.selector import Selector, HtmlXPathSelector
 from tutorial.items import MatchStatsItem
+import re
 
 class TISpider(CrawlSpider):
 	name = "tennisinsightwawrinka"
@@ -13,9 +14,21 @@ class TISpider(CrawlSpider):
 	start_urls = [
 		"http://www.tennisinsight.com/player_activity.php?player_id=1"
 	]
+
+	def getPopupLink(value):
+		m = re.search("javascript:makePopup\('(.+?)'\)", value)
+		if m:
+			return m.group(1)
+
 	rules = (
-		Rule(SgmlLinkExtractor(allow='/match_stats_popup.php?matchID=\d+'),'parse', follow=True),
-	)
+			Rule(SgmlLinkExtractor(allow=r"match_stats_popup.php\?matchID=\d+",
+				restrict_xpaths='//td[@class="matchStyle"]',
+				tags='a', attrs='href', process_value=getPopupLink), callback='parse_match', follow=True),
+			)
+
+	#rules = (
+	#	Rule(SgmlLinkExtractor(allow='/match_stats_popup.php?matchID=\d+'),'parse', follow=True),
+	#)
 
 
 	def parse_match(self,response):
