@@ -41,3 +41,4 @@ class MatchStatsItem(Item):
         p2PointsWonAtNet = Field()
         p2AverageFirstServeSpeed = Field()
         p2AverageSecondServeSpeed = Field()
+        urlVisited = Field()

@@ -60,6 +60,7 @@ class TISpider(CrawlSpider):
 		tennisStats['p2SecondReturnPointsWon'] = stats[120]
 		tennisStats['p1BreakPointsWon'] = stats[126]
 		tennisStats['p2BreakPointsWon'] = stats[128]
+		tennisStats['urlVisited'] = response.url
 		if stats[168]=="Detailed Statistics":
 			print "detailed statistics are available"
 			tennisStats['p1Winners'] = stats[174]
