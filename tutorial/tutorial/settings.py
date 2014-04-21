@@ -25,7 +25,7 @@ EXPORT_FIELDS = [
     'player2',
     'winner',
     't_round',
-    'duration'
+    'duration',
     'p1Aces',
     'p1DoubleFaults',
     'p1FirstServePercentage',
