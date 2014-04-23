@@ -7,7 +7,7 @@ import re
 
 class TISpider(CrawlSpider):
 	name = "tennisinsightwawrinka"
-	allowed_domains = ["tennisinsight.com"]
+	allowed_domains = ["tennisinsight.com", "atpworldtour.com"]
 #	start_urls = [
 #		"http://www.tennisinsight.com/match_stats_popup.php?matchID=183704701"
 #	]
@@ -20,16 +20,95 @@ class TISpider(CrawlSpider):
 		if m:
 			return m.group(1)
 
+	def getPopupLinkATP(value):
+		m = re.search("javascript:makePopup\('(.+?)'\)", value)
+		if m:
+			return m.group(1)
+			#group(1) is the www.atp..etc link
+
+
 	rules = (
 			Rule(SgmlLinkExtractor(allow=r"match_stats_popup.php\?matchID=\d+",
 				restrict_xpaths='//td[@class="matchStyle"]',
 				tags='a', attrs='href', process_value=getPopupLink), callback='parse_match', follow=True),
+			Rule(SgmlLinkExtractor(allow=r"http://www\.atpworldtour\.com/Share/Match-Facts-Pop-Up\.aspx\?t=\d+&y=\d+&r=\d+&p=....",	
+				restrict_xpaths='//td[@class="matchStyle"]',
+				tags='a', attrs='href', process_value=getPopupLinkATP), callback='parse_match_atp', follow=True),
 			)
 
 	#rules = (
 	#	Rule(SgmlLinkExtractor(allow='/match_stats_popup.php?matchID=\d+'),'parse', follow=True),
 	#)
+#javascript:makePopup('http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=410&y=2014&r=7&p=W367')
+#javascript:makePopup('match_stats_popup.php?matchID=183704502')
+#javascript:makePopup('http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=352&y=2013&r=5&p=F324')
 
+
+	def parse_match_atp(self,response):
+		sel = Selector(response)
+		listOfStats = []
+		stats = sel.xpath("//table//td//text()").extract()
+		tennisStats = MatchStatsItem()
+		for i in range(0, len(stats)):
+			stats[i] = stats[i].replace(u'\xa0', u' ')
+			if stats[i]=="Tournament":
+				tennisStats['tournament'] = stats[i+1]
+			if stats[i]=="Round":
+				tennisStats['t_round'] = stats[i+1]
+			if stats[i]=="Winner":
+				tennisStats['winner'] = stats[i+1]
+			if stats[i]=="Time":
+				duration = stats[i+1].replace(u'\xa0', u' ')
+				tennisStats['duration'] = duration
+			if stats[i]=="Players":
+				tennisStats['player1'] = stats[i+1]
+				tennisStats['player2'] = stats[i+2]
+			if stats[i]=="Aces":
+				tennisStats['p1Aces'] = stats[i+1]
+				tennisStats['p2Aces'] = stats[i+2]
+			if stats[i]=="Double Faults":
+				tennisStats['p1DoubleFaults'] = stats[i+1]
+				tennisStats['p2DoubleFaults'] = stats[i+2]
+			if stats[i]=="1st Serve":
+				tennisStats['p1FirstServePercentage'] = stats[i+1]
+				tennisStats['p2FirstServePercentage'] = stats[i+2]
+			if stats[i]=="1st Serve Points Won":
+				tennisStats['p1FirstServePointsWonPercentage'] = stats[i+1]
+				tennisStats['p2FirstServePointsWonPercentage'] = stats[i+2]
+			if stats[i]=="2nd Serve Points Won":
+				tennisStats['p1SecondServePointsWon'] = stats[i+1]
+				tennisStats['p2SecondServePointsWon'] = stats[i+2]
+			if stats[i]=="1st Serve Return Points Won":
+				tennisStats['p1FirstReturnPointsWon'] = stats[i+1]
+				tennisStats['p2FirstReturnPointsWon'] = stats[i+2]
+			if stats[i]=="2nd Serve Return Points Won":
+				tennisStats['p1SecondReturnPointsWon'] = stats[i+1]
+				tennisStats['p1SecondReturnPointsWon'] = stats[i+2]
+			if stats[i]=="Break Points Converted":
+				tennisStats['p1BreakPointsWon'] = stats[i+1]
+				tennisStats['p2BreakPointsWon'] = stats[i+2]
+			tennisStats['urlVisited'] = response.url
+			# not checked below this line
+			if stats[i]=="Winners":
+				tennisStats['p1Winners'] = stats[i+1]
+				tennisStats['p2Winners'] = stats[i+2]
+			if stats[i]=="Unforced Errors":
+				tennisStats['p1UnforcedErrors'] = stats[i+1]
+				tennisStats['p2UnforcedErrors'] = stats[i+2]
+			if stats[i]=="Net Approaches":
+				tennisStats['p1NetApproaches'] = stats[i+1]
+				tennisStats['p2NetApproaches'] = stats[i+2]
+			if stats[i]=="Points Won at Net":
+				tennisStats['p1PointsWonAtNet'] = stats[i+1]
+				tennisStats['p2PointsWonAtNet'] = stats[i+2]
+			if stats[i]=="Average 1st Serve":
+				tennisStats['p1AverageFirstServeSpeed'] = stats[i+1]
+				tennisStats['p2AverageFirstServeSpeed'] = stats[i+2]
+			if stats[i]=="Average 2nd Serve":
+				tennisStats['p1AverageSecondServeSpeed'] = stats[i+1]
+				tennisStats['p2AverageSecondServeSpeed'] = stats[i+2]
+		listOfStats.append(tennisStats)
+		return listOfStats
 
 	def parse_match(self,response):
 		sel = Selector(response)
@@ -46,8 +125,8 @@ class TISpider(CrawlSpider):
 				tennisStats['winner'] = stats[i+2]
 			if stats[i]=="Duration":
 				tennisStats['duration'] = stats[i+2]
-			if stats[i]=="Duration":
-				tennisStats['duration'] = stats[i+2]
+			#if stats[i]=="Duration":
+			#	tennisStats['duration'] = stats[i+2]
 			tennisStats['player1'] = stats[34]
 			tennisStats['player2'] = stats[36]
 			if stats[i]=="Aces":
@@ -62,9 +141,9 @@ class TISpider(CrawlSpider):
 			if stats[i]=="1st Serve Points Won":
 				tennisStats['p1FirstServePointsWonPercentage'] = stats[i+2]
 				tennisStats['p2FirstServePointsWonPercentage'] = stats[i+4]
-			if stats[i]=="1st Serve Points Won":
-				tennisStats['p1FirstServePointsWonPercentage'] = stats[i+2]
-				tennisStats['p2FirstServePointsWonPercentage'] = stats[i+4]
+			# if stats[i]=="1st Serve Points Won":
+			# 	tennisStats['p1FirstServePointsWonPercentage'] = stats[i+2]
+			# 	tennisStats['p2FirstServePointsWonPercentage'] = stats[i+4]
 			if stats[i]=="2nd Serve Points Won":
 				tennisStats['p1SecondServePointsWon'] = stats[i+2]
 				tennisStats['p2SecondServePointsWon'] = stats[i+4]
