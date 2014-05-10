@@ -1,3 +1,3 @@
 for export to csv:
 
-scrapy crawl tennisinsightwawrinka -o data.csv -t csv
+scrapy crawl getdata -o data.csv -t csv

@@ -11,6 +11,7 @@ BOT_NAME = 'tutorial'
 SPIDER_MODULES = ['tutorial.spiders']
 NEWSPIDER_MODULE = 'tutorial.spiders'
 ITEM_PIPELINES = {'tutorial.pipelines.TutorialPipeline' : 100}
+CONCURRENT_REQUESTS = 1
 
 FEED_EXPORTERS = {
     'csv': 'tutorial.feedexport.CSVkwItemExporter'

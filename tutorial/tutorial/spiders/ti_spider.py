@@ -6,13 +6,14 @@ from tutorial.items import MatchStatsItem
 import re
 
 class TISpider(CrawlSpider):
-	name = "tennisinsightwawrinka"
+	name = "getdata"
 	allowed_domains = ["tennisinsight.com", "atpworldtour.com"]
 #	start_urls = [
 #		"http://www.tennisinsight.com/match_stats_popup.php?matchID=183704701"
 #	]
 	start_urls = [
-		"http://www.tennisinsight.com/player_activity.php?player_id=1"
+		"http://www.tennisinsight.com/player_activity.php?player_id=1",
+		"http://www.tennisinsight.com/player_activity.php?player_id=1&min_activity=50&activity=1"
 	]
 
 	def getPopupLink(value):
@@ -31,18 +32,10 @@ class TISpider(CrawlSpider):
 			Rule(SgmlLinkExtractor(allow=r"match_stats_popup.php\?matchID=\d+",
 				restrict_xpaths='//td[@class="matchStyle"]',
 				tags='a', attrs='href', process_value=getPopupLink), callback='parse_match', follow=True),
-			Rule(SgmlLinkExtractor(allow=r"http://www\.atpworldtour\.com/Share/Match-Facts-Pop-Up\.aspx\?t=\d+&y=\d+&r=\d+&p=....",	
-				restrict_xpaths='//td[@class="matchStyle"]',
+			Rule(SgmlLinkExtractor(allow=r"http\:\/\/www\.atpworldtour\.com\/Share\/Match\-Facts\-Pop\-Up\.aspx\?t=\d+&y=\d+&r=\d+&p=....",	
+				restrict_xpaths='//td[@class="matchStyle"]', canonicalize=False,
 				tags='a', attrs='href', process_value=getPopupLinkATP), callback='parse_match_atp', follow=True),
 			)
-
-	#rules = (
-	#	Rule(SgmlLinkExtractor(allow='/match_stats_popup.php?matchID=\d+'),'parse', follow=True),
-	#)
-#javascript:makePopup('http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=410&y=2014&r=7&p=W367')
-#javascript:makePopup('match_stats_popup.php?matchID=183704502')
-#javascript:makePopup('http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=352&y=2013&r=5&p=F324')
-
 
 	def parse_match_atp(self,response):
 		sel = Selector(response)
