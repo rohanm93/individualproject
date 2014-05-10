@@ -16,6 +16,8 @@ class OddsSpider(Spider):
 		for i in range(len(urls)):
 			urls[i] = urls[i][:-2]
 			urls[i] = urls[i][22:]
+			if urls[i][0]=='m':
+				urls[i] = 'http://www.tennisinsight.com/'+urls[i]
 		return urls
 
 	def parse(self, response):
