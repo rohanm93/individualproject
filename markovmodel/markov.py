@@ -42,5 +42,23 @@ def game_win_probability(p):
 	return result
 
 def tiebreak_win_probability(p,q):
-	#probabilities of winning pt on his serve: p is player 1, q is player 2
-	print "abc"
+	#p is probability of winning point serve 
+	#q is probability of winning point return 
+	total_probability = 0
+	for i in range(28):
+		first = matrix_A_tiebreak[i,0]
+		second = math.pow(p,matrix_A_tiebreak[i,1])
+		third = math.pow(1-p,matrix_A_tiebreak[i,2])
+		fourth = math.pow(q,matrix_A_tiebreak[i,3])
+		fifth = math.pow(1-q,matrix_A_tiebreak[i,4])
+		d_pq = d_p_q(p,q)
+		sixth = math.pow(d_pq,matrix_A_tiebreak[i,5])
+		result = first*second*third*fourth*fifth*sixth
+		total_probability = total_probability + result
+	return total_probability
+#matrix_A_tiebreak[row, column]
+
+def d_p_q(p,q):
+	top_fraction = p*q
+	bottom_fraction = 1/(1-(p*(1-q) + (1-p)*q))
+	return top_fraction*bottom_fraction
