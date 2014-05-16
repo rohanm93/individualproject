@@ -9,7 +9,7 @@ class OddsSpider(Spider):
 	name = "ti_odds"
 	allowed_domains = ["tennisinsight.com"]
 	start_urls = [
-		"http://www.tennisinsight.com/player_activity.php?player_id=1"
+		"http://www.tennisinsight.com/player_activity.php?player_id=1&min_activity=50&activity=1"
 	]
 
 	def fix_urls(self, urls):
@@ -57,12 +57,12 @@ class OddsSpider(Spider):
 			item = OddsItem()
 			item["opponent"] = opponents[i*3]
 			item["odds"] = odds[i]
-			next_odds_position = self.get_next_odds_position(odds_and_dates_cleaned,date_index)
+			#next_odds_position = self.get_next_odds_position(odds_and_dates_cleaned,date_index)
 			if (odds_and_dates_cleaned[date_index][0]!='$'):
-				current_date = odds_and_dates_cleaned[next_odds_position]
+				current_date = odds_and_dates_cleaned[date_index]
 				date_index+=1
-			if (odds_and_dates_cleaned[next_odds_position-1][0]!='$'):
-				current_date = odds_and_dates_cleaned[next_odds_position-1]
+			#if (odds_and_dates_cleaned[next_odds_position-1][0]!='$'):
+			#	current_date = odds_and_dates_cleaned[next_odds_position-1]
 			item["date"] = current_date
 			#if odds_and_dates_cleaned[date_index][0]!='$':
 			#	current_date = odds_and_dates_cleaned[date_index]
