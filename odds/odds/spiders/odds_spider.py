@@ -9,7 +9,8 @@ class OddsSpider(Spider):
 	name = "ti_odds"
 	allowed_domains = ["tennisinsight.com"]
 	start_urls = [
-		"http://www.tennisinsight.com/player_activity.php?player_id=1&min_activity=50&activity=1"
+		"http://www.tennisinsight.com/player_activity.php?player_id=168",
+		"http://www.tennisinsight.com/player_activity.php?player_id=168&min_activity=50&activity=1"
 	]
 
 	def fix_urls(self, urls):
@@ -53,9 +54,12 @@ class OddsSpider(Spider):
 		items = []
 		date_index = index_of_first_odds-1
 		current_date = odds_and_dates_cleaned[date_index]
+		#if (len(new_urls)<50):
+		#	print "mismatch, some fields with no match stats"
+		var = 0
+		links_index = 0
 		for i in range(50):
 			item = OddsItem()
-			item["opponent"] = opponents[i*3]
 			item["odds"] = odds[i]
 			#next_odds_position = self.get_next_odds_position(odds_and_dates_cleaned,date_index)
 			if (odds_and_dates_cleaned[date_index][0]!='$'):
@@ -67,8 +71,17 @@ class OddsSpider(Spider):
 			#if odds_and_dates_cleaned[date_index][0]!='$':
 			#	current_date = odds_and_dates_cleaned[date_index]
 			date_index+=1
-			item["matchStatsUrl"] = new_urls[i]
-			items.append(item)
+			if opponents[var+2]!='Match Stats':
+				#skip record
+				var+=2
+				#set var = next opponent
+				continue
+			if opponents[var]!='Recap' or opponents[var]!='Match Stats':
+				item["opponent"] = opponents[var]
+				var+=3
+				item["matchStatsUrl"] = new_urls[links_index]
+				links_index+=1
+				items.append(item)
 		return items
 
 
