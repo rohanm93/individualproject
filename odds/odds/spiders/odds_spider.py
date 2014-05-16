@@ -9,8 +9,8 @@ class OddsSpider(Spider):
 	name = "ti_odds"
 	allowed_domains = ["tennisinsight.com"]
 	start_urls = [
-		"http://www.tennisinsight.com/player_activity.php?player_id=168",
-		"http://www.tennisinsight.com/player_activity.php?player_id=168&min_activity=50&activity=1"
+		"http://www.tennisinsight.com/player_activity.php?player_id=186",
+		"http://www.tennisinsight.com/player_activity.php?player_id=186&min_activity=50&activity=1"
 	]
 
 	def fix_urls(self, urls):
