@@ -1,0 +1,116 @@
+matchId,tournament,player1,player2,winner,t_round,duration,p1Aces,p1DoubleFaults,p1FirstServePercentage,p1FirstServePointsWonPercentage,p1SecondServePointsWon,p1FirstReturnPointsWon,p1SecondReturnPointsWon,p1BreakPointsWon,p1Winners,p1UnforcedErrors,p1NetApproaches,p1PointsWonAtNet,p1AverageFirstServeSpeed,p1AverageSecondServeSpeed,p2Aces,p2DoubleFaults,p2FirstServePercentage,p2FirstServePointsWonPercentage,p2SecondServePointsWon,p2FirstReturnPointsWon,p2SecondReturnPointsWon,p2BreakPointsWon,p2Winners,p2UnforcedErrors,p2NetApproaches,p2PointsWonAtNet,p2AverageFirstServeSpeed,p2AverageSecondServeSpeed,urlVisited
+,Kuala Lumpur,Stan Wawrinka,Marcos Baghdatis,Stan Wawrinka,R16,65,6,3,49,85,67,15,67,75,,,,,,,2,3,52,84,37,14,37,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=6003&y=2013&r=4&p=W367
+,Buenos Aires,Stan Wawrinka,Paolo Lorenzi,Stan Wawrinka,R32,59,2,1,64,81,47,37,47,50,,,,,,,0,0,68,62,66,18,66,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=506&y=2013&r=3&p=W367
+,Buenos Aires,Stan Wawrinka,Daniel Gimeno-Traver,Stan Wawrinka,R16,58,2,0,57,73,68,35,68,40,,,,,,,4,3,53,64,33,26,33,33,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=506&y=2013&r=4&p=W367
+,Buenos Aires,Stan Wawrinka,Albert Ramos,Stan Wawrinka,Q,101,3,3,58,69,53,38,53,44,,,,,,,1,2,60,61,40,30,40,50,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=506&y=2013&r=5&p=W367
+,Buenos Aires,Stan Wawrinka,Nicolas Almagro,Stan Wawrinka,S,70,4,0,76,78,80,16,80,66,,,,,,,7,2,65,83,36,22,36,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=506&y=2013&r=6&p=W367
+,Buenos Aires,David Ferrer,Stan Wawrinka,David Ferrer,F,105,1,2,64,69,48,35,48,54,,,,,,,4,3,56,64,34,30,34,57,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=506&y=2013&r=7&p=F401
+,Acapulco,Fabio Fognini,Stan Wawrinka,Fabio Fognini,R32,90,1,3,58,74,54,42,54,25,,,,,,,2,1,70,57,52,25,52,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=807&y=2013&r=3&p=F510
+,ATP World Tour Masters 1000 Indian Wells,Stan Wawrinka,Wayne Odesnik,Stan Wawrinka,R64,87,9,1,69,79,57,37,57,66,,,,,,,1,1,75,62,52,20,52,33,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=404&y=2013&r=2&p=W367
+,ATP World Tour Masters 1000 Indian Wells,Stan Wawrinka,Lleyton Hewitt,Stan Wawrinka,R32,84,5,4,51,76,67,27,67,42,,,,,,,1,3,48,72,45,23,45,25,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=404&y=2013&r=3&p=W367
+,ATP World Tour Masters 1000 Indian Wells,Roger Federer,Stan Wawrinka,Roger Federer,R16,140,5,2,59,66,50,38,50,33,,,,,,,6,3,60,61,53,33,53,42,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=404&y=2013&r=4&p=F324
+,Casablanca,Stan Wawrinka,Blaz Kavcic,Stan Wawrinka,R16,94,7,4,67,68,52,39,52,50,,,,,,,0,3,65,60,48,31,48,100,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=360&y=2013&r=4&p=W367
+,Casablanca,Stan Wawrinka,Guillermo Garcia-Lopez,Stan Wawrinka,Q,59,5,2,48,76,62,53,62,66,,,,,,,0,2,39,46,43,24,43,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=360&y=2013&r=5&p=W367
+,Casablanca,Tommy Robredo,Stan Wawrinka,Tommy Robredo,S,95,3,0,70,67,32,31,32,50,,,,,,,1,5,67,68,30,32,30,33,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=360&y=2013&r=6&p=R419
+,ATP World Tour Masters 1000 Monte Carlo,Stan Wawrinka,Denis Istomin,Stan Wawrinka,R64,71,3,0,62,80,42,53,42,71,,,,,,,1,0,73,46,62,20,62,40,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=410&y=2013&r=2&p=W367
+,ATP World Tour Masters 1000 Monte Carlo,Stan Wawrinka,Albert Montanes,Stan Wawrinka,R32,54,2,0,68,63,85,46,85,41,,,,,,,0,4,55,53,30,36,30,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=410&y=2013&r=3&p=W367
+,ATP World Tour Masters 1000 Monte Carlo,Stan Wawrinka,Andy Murray,Stan Wawrinka,R16,58,5,0,65,80,64,51,64,50,,,,,,,0,2,57,48,40,19,40,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=410&y=2013&r=4&p=W367
+,ATP World Tour Masters 1000 Monte Carlo,Jo-Wilfried Tsonga,Stan Wawrinka,Jo-Wilfried Tsonga,Q,131,6,3,51,70,52,35,52,33,,,,,,,2,4,50,64,65,29,65,16,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=410&y=2013&r=5&p=T786
+,Oeiras,Stan Wawrinka,Albert Ramos,Stan Wawrinka,R16,105,4,3,56,79,51,32,51,28,,,,,,,0,5,74,67,47,20,47,33,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=468&y=2013&r=4&p=W367
+,Oeiras,Stan Wawrinka,Gastao Elias,Stan Wawrinka,Q,71,2,1,67,71,82,38,82,42,,,,,,,1,1,53,61,54,28,54,100,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=468&y=2013&r=5&p=W367
+,Oeiras,Stan Wawrinka,Pablo Carreno Busta,Stan Wawrinka,S,95,10,1,71,71,60,25,60,37,,,,,,,1,4,50,75,43,28,43,33,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=468&y=2013&r=6&p=W367
+,Oeiras,Stan Wawrinka,David Ferrer,Stan Wawrinka,F,64,2,1,64,88,80,32,80,30,,,,,,,3,1,61,67,42,11,42,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=468&y=2013&r=7&p=W367
+,ATP World Tour Masters 1000 Madrid,Stan Wawrinka,Marius Copil,Stan Wawrinka,R64,61,6,0,76,88,72,27,72,50,,,,,,,6,0,58,72,50,11,50,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2013&r=2&p=W367
+,ATP World Tour Masters 1000 Madrid,Stan Wawrinka,Santiago Giraldo,Stan Wawrinka,R32,63,4,3,64,87,52,44,52,44,,,,,,,3,1,62,55,47,12,47,20,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2013&r=3&p=W367
+,ATP World Tour Masters 1000 Madrid,Stan Wawrinka,Grigor Dimitrov,Stan Wawrinka,R16,102,3,3,71,67,56,34,56,57,,,,,,,4,1,67,66,50,32,50,50,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2013&r=4&p=W367
+,ATP World Tour Masters 1000 Madrid,Stan Wawrinka,Jo-Wilfried Tsonga,Stan Wawrinka,Q,137,1,1,72,70,46,34,46,50,,,,,,,5,2,62,65,40,29,40,40,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2013&r=5&p=W367
+,ATP World Tour Masters 1000 Madrid,Stan Wawrinka,Tomas Berdych,Stan Wawrinka,S,115,5,4,52,71,54,17,54,50,,,,,,,8,1,65,82,40,28,40,25,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2013&r=6&p=W367
+,ATP World Tour Masters 1000 Madrid,Rafael Nadal,Stan Wawrinka,Rafael Nadal,F,72,3,1,65,89,73,33,73,27,,,,,,,5,4,61,66,47,10,47,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2013&r=7&p=N409
+,ATP World Tour Masters 1000 Rome,Stan Wawrinka,Carlos Berlocq,Stan Wawrinka,R64,133,2,2,64,69,43,44,43,60,,,,,,,2,1,65,55,62,30,62,50,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2013&r=2&p=W367
+,ATP World Tour Masters 1000 Rome,Alexandr Dolgopolov,Stan Wawrinka,Alexandr Dolgopolov,R32,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2013&r=3&p=D801
+,s-Hertogenbosch,Stan Wawrinka,Steve Darcis,Stan Wawrinka,R32,92,10,3,59,75,54,25,54,50,,,,,,,4,1,70,74,55,24,55,12,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=440&y=2013&r=3&p=W367
+,s-Hertogenbosch,Stan Wawrinka,Paolo Lorenzi,Stan Wawrinka,R16,73,7,1,62,75,68,30,68,50,,,,,,,2,1,60,69,61,24,61,100,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=440&y=2013&r=4&p=W367
+,s-Hertogenbosch,Stan Wawrinka,Jeremy Chardy,Stan Wawrinka,Q,75,7,0,61,78,66,18,66,66,,,,,,,10,6,72,81,29,21,29,50,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=440&y=2013&r=5&p=W367
+,s-Hertogenbosch,Stan Wawrinka,Guillermo Garcia-Lopez,Stan Wawrinka,S,76,6,1,62,79,42,41,42,37,,,,,,,5,0,67,58,50,20,50,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=440&y=2013&r=6&p=W367
+,s-Hertogenbosch,Nicolas Mahut,Stan Wawrinka,Nicolas Mahut,F,83,5,4,51,83,62,37,62,50,,,,,,,3,4,59,62,68,16,68,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=440&y=2013&r=7&p=M873
+,Gstaad,Stan Wawrinka,Daniel Gimeno-Traver,Stan Wawrinka,R16,95,12,2,70,79,60,33,60,25,,,,,,,4,8,58,66,50,20,50,50,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=314&y=2013&r=4&p=W367
+,Gstaad,Feliciano Lopez,Stan Wawrinka,Feliciano Lopez,Q,124,8,4,55,76,45,28,45,15,,,,,,,15,4,54,71,45,23,45,14,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=314&y=2013&r=5&p=L397
+,ATP World Tour Masters 1000 Canada,Benoit Paire,Stan Wawrinka,Benoit Paire,R32,74,8,4,56,69,48,26,48,50,,,,,,,3,4,61,73,30,30,30,28,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=421&y=2013&r=3&p=PD31
+,ATP World Tour Masters 1000 Cincinnati,Stan Wawrinka,Andreas Seppi,Stan Wawrinka,R64,68,8,3,61,90,60,25,60,16,,,,,,,5,5,50,75,38,9,38,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=422&y=2013&r=2&p=W367
+,ATP World Tour Masters 1000 Cincinnati,Tommy Robredo,Stan Wawrinka,Tommy Robredo,R32,124,7,4,64,69,50,20,50,30,,,,,,,11,4,54,79,33,30,33,50,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=422&y=2013&r=3&p=R419
+,French Open Slam,Stanislas Wawrinka,Thiemo de Bakker,Stanislas Wawrinka,Round of 128,151,9,3,69,78,56,29,56,27,55,50,"
+								","
+								",175,156,7,2,69,71,56,22,56,25,38,30,"
+                            ","
+                            ",191,141,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224125
+,French Open Slam,Stanislas Wawrinka,Horacio Zeballos,Stanislas Wawrinka,Round of 64,121,19,6,66,80,55,28,55,50,50,33,"
+								","
+								",189,161,4,3,62,72,41,20,41,0,25,26,"
+                            ","
+                            ",178,148,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224213
+,French Open Slam,Stanislas Wawrinka,Jerzy Janowicz,Stanislas Wawrinka,Round of 32,162,9,2,58,77,62,28,62,36,48,29,"
+								","
+								",189,159,6,10,61,73,44,23,44,20,37,46,"
+                            ","
+                            ",183,155,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224307
+,French Open Slam,Stanislas Wawrinka,Richard Gasquet,Stanislas Wawrinka,Round of 16,256,13,6,63,73,64,26,64,20,92,55,"
+								","
+								",184,156,10,2,60,74,49,27,49,18,57,46,"
+                            ","
+                            ",178,150,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224404
+,French Open Slam,Rafael Nadal,Stanislas Wawrinka,Rafael Nadal,Quarter Final,116,5,0,75,73,61,42,61,58,31,17,"
+								","
+								",182,141,3,4,60,58,34,27,34,20,23,40,"
+                            ","
+                            ",187,163,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224502
+,Wimbledon Slam,Lleyton Hewitt,Stanislas Wawrinka,Lleyton Hewitt,Round of 128,132,5,1,57,66,60,35,60,40,32,11,"
+								","
+								",172,140,12,2,60,65,48,34,48,20,44,37,"
+                            ","
+                            ",183,159,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604140
+,US Open Slam,Stanislas Wawrinka,Radek Stepanek,Stanislas Wawrinka,Round of 128,152,7,2,51,67,59,42,59,46,36,24,11,18,189,154,1,3,66,58,48,33,48,43,27,34,37,64,183,156,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634125
+,US Open Slam,Stanislas Wawrinka,Ivo Karlovic,Stanislas Wawrinka,Round of 64,137,9,5,60,84,63,24,63,43,45,20,25,36,188,151,12,6,63,76,53,16,53,50,35,25,37,59,202,172,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634213
+,US Open Slam,Stanislas Wawrinka,Marcos Baghdatis,Stanislas Wawrinka,Round of 32,201,11,5,52,81,59,31,59,33,53,50,25,30,180,151,16,8,47,69,54,19,54,22,47,48,25,37,186,140,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634307
+,US Open Slam,Stanislas Wawrinka,Tomas Berdych,Stanislas Wawrinka,Round of 16,167,14,6,58,77,53,24,53,55,36,28,11,15,175,148,3,3,58,76,40,23,40,50,32,45,29,42,188,144,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634404
+,Kuala Lumpur,Stan Wawrinka,Dmitry Tursunov,Stan Wawrinka,Q,125,12,3,61,71,55,28,55,33,,,,,,,7,7,59,71,57,28,57,28,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=6003&y=2013&r=5&p=W367
+,Kuala Lumpur,Julien Benneteau,Stan Wawrinka,Julien Benneteau,S,79,3,1,69,68,44,45,44,83,,,,,,,0,1,62,54,45,31,45,50,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=6003&y=2013&r=6&p=B747
+,Beijing,Stan Wawrinka,Andreas Seppi,Stan Wawrinka,R32,108,10,3,55,89,43,34,43,60,,,,,,,4,3,62,65,56,10,56,40,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=747&y=2013&r=3&p=W367
+,Beijing,Sam Querrey,Stan Wawrinka,Sam Querrey,R16,76,11,2,45,96,51,30,51,75,,,,,,,3,4,55,69,48,3,48,50,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=747&y=2013&r=4&p=Q927
+,ATP World Tour Masters 1000 Shanghai,Stan Wawrinka,Kevin Anderson,Stan Wawrinka,R32,136,14,1,52,81,66,30,66,18,,,,,,,21,3,66,70,52,18,52,66,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=5014&y=2013&r=3&p=W367
+,ATP World Tour Masters 1000 Shanghai,Stan Wawrinka,Milos Raonic,Stan Wawrinka,R16,81,10,0,61,84,75,17,75,50,,,,,,,11,0,69,82,55,15,55,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=5014&y=2013&r=4&p=W367
+,ATP World Tour Masters 1000 Shanghai,Rafael Nadal,Stan Wawrinka,Rafael Nadal,Q,106,1,0,72,75,65,22,65,33,,,,,,,5,1,50,77,50,24,50,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=5014&y=2013&r=5&p=N409
+,Basel,Edouard Roger-Vasselin,Stan Wawrinka,Edouard Roger-Vasselin,R32,71,1,3,59,75,60,35,60,50,,,,,,,3,5,35,65,56,24,56,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=328&y=2013&r=3&p=R613
+,ATP World Tour Masters 1000 Paris,Stan Wawrinka,Feliciano Lopez,Stan Wawrinka,R32,107,19,4,47,91,64,31,64,50,,,,,,,5,6,67,68,44,8,44,33,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=352&y=2013&r=3&p=W367
+,ATP World Tour Masters 1000 Paris,Stan Wawrinka,Nicolas Almagro,Stan Wawrinka,R16,75,9,3,45,73,61,36,61,66,,,,,,,3,1,46,64,34,26,34,50,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=352&y=2013&r=4&p=W367
+,ATP World Tour Masters 1000 Paris,Novak Djokovic,Stan Wawrinka,Novak Djokovic,Q,81,2,0,60,71,64,39,64,37,,,,,,,3,2,66,60,41,28,41,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=352&y=2013&r=5&p=D643
+,Barclays ATP World Tour Finals,Novak Djokovic,Stan Wawrinka,Novak Djokovic,S,85,2,0,67,72,75,38,75,40,,,,,,,4,0,54,61,39,27,39,33,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=605&y=2013&r=6&p=D643
+,Chennai,Stan Wawrinka,Benjamin Becker,Stan Wawrinka,R16,55,4,3,63,86,58,46,58,50,,,,,,,2,3,50,53,44,13,44,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=891&y=2014&r=4&p=W367
+,Chennai,Stan Wawrinka,Aljaz Bedene,Stan Wawrinka,Q,66,4,4,59,62,45,60,45,63,,,,,,,3,4,44,39,37,37,37,28,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=891&y=2014&r=5&p=W367
+,Chennai,Stan Wawrinka,Vasek Pospisil,Stan Wawrinka,S,111,4,3,56,74,43,28,43,50,,,,,,,3,5,57,71,50,25,50,10,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=891&y=2014&r=6&p=W367
+,Chennai,Stan Wawrinka,Edouard Roger-Vasselin,Stan Wawrinka,F,96,5,2,55,71,71,33,71,37,,,,,,,1,1,68,66,36,28,36,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=891&y=2014&r=7&p=W367
+,ATP World Tour Masters 1000 Indian Wells,Stan Wawrinka,Ivo Karlovic,Stan Wawrinka,R64,64,8,1,57,87,70,18,70,100,,,,,,,9,1,69,81,57,12,57,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=404&y=2014&r=2&p=W367
+,ATP World Tour Masters 1000 Indian Wells,Stan Wawrinka,Andreas Seppi,Stan Wawrinka,R32,49,7,3,57,86,62,56,62,35,,,,,,,0,3,53,44,36,13,36,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=404&y=2014&r=3&p=W367
+,ATP World Tour Masters 1000 Indian Wells,Kevin Anderson,Stan Wawrinka,Kevin Anderson,R16,140,12,8,63,71,42,26,42,50,,,,,,,5,2,42,73,45,28,45,23,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=404&y=2014&r=4&p=A678
+,ATP World Tour Masters 1000 Miami,Stan Wawrinka,Daniel Gimeno-Traver,Stan Wawrinka,R64,89,8,3,59,81,44,40,44,83,,,,,,,4,2,60,59,42,18,42,33,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=403&y=2014&r=2&p=W367
+,ATP World Tour Masters 1000 Miami,Stan Wawrinka,Edouard Roger-Vasselin,Stan Wawrinka,R32,94,6,2,53,76,58,41,58,30,,,,,,,1,0,69,58,56,23,56,33,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=403&y=2014&r=3&p=W367
+,ATP World Tour Masters 1000 Miami,Alexandr Dolgopolov,Stan Wawrinka,Alexandr Dolgopolov,R16,105,5,2,44,80,60,34,60,66,,,,,,,4,7,45,65,50,20,50,50,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=403&y=2014&r=4&p=D801
+,ATP World Tour Masters 1000 Monte Carlo,Stan Wawrinka,Marin Cilic,Stan Wawrinka,R32,46,3,1,67,78,90,29,90,71,,,,,,,0,1,47,70,15,21,15,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=410&y=2014&r=3&p=W367
+,ATP World Tour Masters 1000 Monte Carlo,Stan Wawrinka,Nicolas Almagro,Stan Wawrinka,R16,0,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=410&y=2014&r=4&p=W367
+,ATP World Tour Masters 1000 Monte Carlo,Stan Wawrinka,Milos Raonic,Stan Wawrinka,Q,91,5,3,47,80,66,26,66,66,,,,,,,6,0,61,73,58,20,58,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=410&y=2014&r=5&p=W367
+,ATP World Tour Masters 1000 Monte Carlo,Stan Wawrinka,David Ferrer,Stan Wawrinka,S,90,6,1,51,85,56,30,56,33,,,,,,,1,2,60,69,50,14,50,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=410&y=2014&r=6&p=W367
+,ATP World Tour Masters 1000 Monte Carlo,Stan Wawrinka,Roger Federer,Stan Wawrinka,F,134,5,2,58,79,56,26,56,42,,,,,,,3,1,66,73,44,20,44,66,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=410&y=2014&r=7&p=W367
+,ATP World Tour Masters 1000 Madrid,Dominic Thiem,Stan Wawrinka,Dominic Thiem,R32,105,1,1,60,78,41,31,41,50,,,,,,,7,0,66,68,58,21,58,18,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2014&r=3&p=TB69
+,ATP World Tour Masters 1000 Rome,Stan Wawrinka,Pere Riba,Stan Wawrinka,R32,51,3,0,60,96,56,47,56,44,,,,,,,2,0,75,52,36,4,36,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2014&r=3&p=W367
+,ATP World Tour Masters 1000 Rome,Tommy Haas,Stan Wawrinka,Tommy Haas,R16,120,7,0,66,75,59,38,59,35,,,,,,,8,4,50,61,47,24,47,100,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2014&r=4&p=H355
+,US Open Slam,Stanislas Wawrinka,Andy Murray,Stanislas Wawrinka,Quarter Final,135,4,4,55,88,59,46,59,36,45,37,31,42,189,156,5,4,63,54,55,12,55,0,15,30,10,22,177,135,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634502
+,US Open Slam,Novak Djokovic,Stanislas Wawrinka,Novak Djokovic,Semi Final,249,9,6,67,69,56,29,56,21,38,46,29,40,180,138,8,7,50,71,50,31,50,56,57,69,26,41,188,149,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634601
+,Davis Cup,Stanislas Wawrinka,Emilio Gomez,Stanislas Wawrinka,Singles,102,10,3,69,76,54,43,54,86,,,,,,,3,5,59,57,51,24,51,29,,,,,,,http://www.tennisinsight.com/match_stats_popup.php?matchID=182013101
+,Australian Open Slam,Stanislas Wawrinka,Andrey Golubev,Stanislas Wawrinka,Round of 128,65,4,1,63,91,46,50,46,44,23,11,13,14,189,149,0,0,64,50,50,9,50,50,8,15,6,12,174,148,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704149
+,Australian Open Slam,Stanislas Wawrinka,Alejandro Falla,Stanislas Wawrinka,Round of 64,167,9,4,56,83,56,31,56,35,61,46,23,29,180,152,1,3,60,69,46,17,46,29,26,37,24,39,176,135,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704225
+,Australian Open Slam,Stanislas Wawrinka,Tommy Robredo,Stanislas Wawrinka,Round of 16,143,14,3,56,90,51,30,51,40,57,37,17,25,197,155,1,0,71,70,45,10,45,25,24,22,13,16,185,149,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704407
+,Australian Open Slam,Stanislas Wawrinka,Novak Djokovic,Stanislas Wawrinka,Quarter Final,240,17,5,58,72,50,29,50,50,51,60,20,30,194,156,7,1,73,71,59,28,59,57,45,60,26,35,187,146,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704504
+,Australian Open Slam,Stanislas Wawrinka,Tomas Berdych,Stanislas Wawrinka,Semi Final,211,18,4,61,82,56,18,56,25,57,49,14,18,189,154,21,7,62,82,57,18,57,0,60,49,23,31,195,152,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704602
+,Australian Open Slam,Stanislas Wawrinka,Rafael Nadal,Stanislas Wawrinka,Final,141,19,2,55,87,51,40,51,33,53,49,11,12,192,156,1,3,78,60,42,13,42,33,19,32,5,8,162,134,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704701
+,Davis Cup,Stanislas Wawrinka,Dusan Lajovic,Stanislas Wawrinka,Singles,158,5,4,60,81,47,38,47,40,,,,,,,6,4,65,62,55,19,55,44,,,,,,,http://www.tennisinsight.com/match_stats_popup.php?matchID=183913102
+,Davis Cup,Andrey Golubev,Stanislas Wawrinka,Andrey Golubev,Singles,194,10,6,57,82,53,26,53,17,,,,,,,19,6,60,74,48,18,48,10,,,,,,,http://www.tennisinsight.com/match_stats_popup.php?matchID=184973101
+,Davis Cup,Stanislas Wawrinka,Mikhail Kukushkin,Stanislas Wawrinka,Reverse Singles,189,26,3,57,94,60,33,60,30,,,,,,,6,7,56,67,57,6,57,0,,,,,,,http://www.tennisinsight.com/match_stats_popup.php?matchID=184973103
