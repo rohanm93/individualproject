@@ -112,9 +112,3 @@ def match_win_probability_5(p,q):
 	exp1 = math.pow(set_win_probability(p,q),3)
 	exp2 = 1+3*(1-set_win_probability(p,q))+6*math.pow(1-set_win_probability(p,q),2)
 	return exp1*exp2
-
-print match_win_probability_3(0.4,0.5)
-print match_win_probability_3(0.6,0.5)
-print match_win_probability_3(0.45,0.45)
-print match_win_probability_3(0.5,0.52)
-print match_win_probability_3(0.4,0.62)
