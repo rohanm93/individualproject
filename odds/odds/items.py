@@ -9,3 +9,4 @@ class OddsItem(Item):
     opponent = Field()
     odds = Field()
     matchStatsUrl = Field()
+    date = Field()
