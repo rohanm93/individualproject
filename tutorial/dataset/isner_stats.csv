@@ -34,46 +34,14 @@ matchId,tournament,player1,player2,winner,t_round,duration,p1Aces,p1DoubleFaults
 ,Atlanta,John Isner,Christian Harrison,John Isner,R16,144,29,3,69,85,50,25,50,14,,,,,,,9,3,59,74,71,14,71,50,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=6116&y=2013&r=4&p=I186
 ,Atlanta,John Isner,James Blake,John Isner,Q,88,21,2,65,81,65,22,65,100,,,,,,,7,3,60,77,58,18,58,33,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=6116&y=2013&r=5&p=I186
 ,Atlanta,John Isner,Lleyton Hewitt,John Isner,S,143,21,3,65,75,60,23,60,33,,,,,,,12,3,59,76,54,24,54,28,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=6116&y=2013&r=6&p=I186
-,US Open Slam,John Isner,Xavier Malisse,John Isner,Round of 128,,20,4,66,80,64,22,64,29,59,43,"
-								","
-								",204,177,11,4,58,78,67,20,67,40,47,27,"
-                            ","
-                            ",185,138,http://www.tennisinsight.com/match_stats_popup.php?matchID=176114140
-,US Open Slam,John Isner,Jarkko Nieminen,John Isner,Round of 64,,23,5,72,82,55,27,55,57,69,44,"
-								","
-								",204,175,5,4,61,73,45,18,45,25,28,22,"
-                            ","
-                            ",168,127,http://www.tennisinsight.com/match_stats_popup.php?matchID=176114220
-,US Open Slam,Philipp Kohlschreiber,John Isner,Philipp Kohlschreiber,Round of 32,,5,1,77,72,59,25,59,100,43,31,"
-								","
-								",170,152,22,3,64,75,60,28,60,18,62,57,"
-                            ","
-                            ",199,172,http://www.tennisinsight.com/match_stats_popup.php?matchID=176114310
-,French Open Slam,John Isner,Carlos Berlocq,John Isner,Round of 128,116,14,1,63,80,48,32,48,44,52,29,"
-								","
-								",202,164,3,3,73,68,40,20,40,20,27,11,"
-                            ","
-                            ",175,145,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224112
-,French Open Slam,John Isner,Ryan Harrison,John Isner,Round of 64,230,15,2,65,79,66,26,66,28,61,52,"
-								","
-								",202,163,9,9,64,74,48,21,48,14,52,37,"
-                            ","
-                            ",188,164,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224206
-,French Open Slam,Tommy Haas,John Isner,Tommy Haas,Round of 32,277,15,9,63,76,67,26,67,13,85,43,"
-								","
-								",179,155,27,0,78,74,47,24,47,15,92,58,"
-                            ","
-                            ",198,154,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224303
-,Wimbledon Slam,John Isner,Evgeny Donskoy,John Isner,Round of 128,103,22,1,75,77,79,24,79,50,40,20,"
-								","
-								",,,4,4,65,76,45,23,45,0,27,20,"
-                            ","
-                            ",,,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604137
-,Wimbledon Slam,Adrian Mannarino,John Isner,Adrian Mannarino,Round of 64,15,1,1,80,100,0,0,0,0,2,1,"
-								","
-								",177,0,1,0,80,100,100,0,100,0,1,0,"
-                            ","
-                            ",180,172,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604219
+,US Open Slam,John Isner,Xavier Malisse,John Isner,Round of 128,,20,4,66,80,64,22,64,29,59,43,,,204,177,11,4,58,78,67,20,67,40,47,27,,,185,138,http://www.tennisinsight.com/match_stats_popup.php?matchID=176114140
+,US Open Slam,John Isner,Jarkko Nieminen,John Isner,Round of 64,,23,5,72,82,55,27,55,57,69,44,,,204,175,5,4,61,73,45,18,45,25,28,22,,,168,127,http://www.tennisinsight.com/match_stats_popup.php?matchID=176114220
+,US Open Slam,Philipp Kohlschreiber,John Isner,Philipp Kohlschreiber,Round of 32,,5,1,77,72,59,25,59,100,43,31,,,170,152,22,3,64,75,60,28,60,18,62,57,,,199,172,http://www.tennisinsight.com/match_stats_popup.php?matchID=176114310
+,French Open Slam,John Isner,Carlos Berlocq,John Isner,Round of 128,116,14,1,63,80,48,32,48,44,52,29,,,202,164,3,3,73,68,40,20,40,20,27,11,,,175,145,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224112
+,French Open Slam,John Isner,Ryan Harrison,John Isner,Round of 64,230,15,2,65,79,66,26,66,28,61,52,,,202,163,9,9,64,74,48,21,48,14,52,37,,,188,164,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224206
+,French Open Slam,Tommy Haas,John Isner,Tommy Haas,Round of 32,277,15,9,63,76,67,26,67,13,85,43,,,179,155,27,0,78,74,47,24,47,15,92,58,,,198,154,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224303
+,Wimbledon Slam,John Isner,Evgeny Donskoy,John Isner,Round of 128,103,22,1,75,77,79,24,79,50,40,20,,,,,4,4,65,76,45,23,45,0,27,20,,,,,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604137
+,Wimbledon Slam,Adrian Mannarino,John Isner,Adrian Mannarino,Round of 64,15,1,1,80,100,0,0,0,0,2,1,,,177,0,1,0,80,100,100,0,100,0,1,0,,,180,172,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604219
 ,Atlanta,John Isner,Kevin Anderson,John Isner,F,174,24,0,66,81,52,15,52,0,,,,,,,21,6,63,84,58,18,58,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=6116&y=2013&r=7&p=I186
 ,Washington,John Isner,Alex Kuznetsov,John Isner,R32,102,19,2,64,83,45,18,45,50,,,,,,,8,2,62,81,50,16,50,10,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=418&y=2013&r=3&p=I186
 ,Washington,John Isner,Somdev Devvarman,John Isner,R16,94,12,0,72,92,62,29,62,20,,,,,,,4,1,54,70,56,7,56,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=418&y=2013&r=4&p=I186
