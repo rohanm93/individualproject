@@ -37,51 +37,15 @@ matchId,tournament,player1,player2,winner,t_round,duration,p1Aces,p1DoubleFaults
 ,London / Queen's Club,Andy Murray,Benjamin Becker,Andy Murray,Q,90,8,0,63,75,45,38,45,50,,,,,,,2,2,80,61,35,24,35,50,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=311&y=2013&r=5&p=MC10
 ,London / Queen's Club,Andy Murray,Jo-Wilfried Tsonga,Andy Murray,S,109,5,3,60,80,53,32,53,27,,,,,,,10,2,64,67,50,20,50,16,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=311&y=2013&r=6&p=MC10
 ,London / Queen's Club,Andy Murray,Marin Cilic,Andy Murray,F,153,4,0,61,75,61,19,61,18,,,,,,,4,6,58,80,40,24,40,25,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=311&y=2013&r=7&p=MC10
-,Australian Open Slam,Andy Murray,Robin Haase,Andy Murray,Round of 128,97,4,1,73,72,50,45,50,62,25,20,"
-								","
-								",160,131,2,1,49,55,38,28,38,29,18,35,"
-                            ","
-                            ",184,157,http://www.tennisinsight.com/match_stats_popup.php?matchID=177954148
-,Australian Open Slam,Andy Murray,Joao Sousa,Andy Murray,Round of 64,101,14,0,58,80,66,38,66,63,28,22,"
-								","
-								",180,136,3,1,62,63,45,20,45,0,17,33,"
-                            ","
-                            ",183,151,http://www.tennisinsight.com/match_stats_popup.php?matchID=177954224
-,Australian Open Slam,Andy Murray,Richard Berankis,Andy Murray,Round of 32,132,13,0,68,71,38,38,38,46,24,27,"
-								","
-								",175,136,6,3,57,62,41,29,41,25,37,47,"
-                            ","
-                            ",186,156,http://www.tennisinsight.com/match_stats_popup.php?matchID=177954312
-,Australian Open Slam,Andy Murray,Gilles Simon,Andy Murray,Round of 16,95,12,0,62,77,58,43,58,53,32,26,"
-								","
-								",179,136,1,2,67,57,30,23,30,100,21,41,"
-                            ","
-                            ",160,138,http://www.tennisinsight.com/match_stats_popup.php?matchID=177954406
-,Australian Open Slam,Andy Murray,Jeremy Chardy,Andy Murray,Quarter Final,111,7,1,68,80,29,40,29,73,32,20,"
-								","
-								",187,141,6,3,68,60,20,20,20,40,25,30,"
-                            ","
-                            ",199,164,http://www.tennisinsight.com/match_stats_popup.php?matchID=177954503
-,Australian Open Slam,Andy Murray,Roger Federer,Andy Murray,Semi Final,240,21,0,64,75,63,27,63,38,62,47,"
-								","
-								",192,140,5,2,61,73,42,25,42,33,43,60,"
-                            ","
-                            ",186,155,http://www.tennisinsight.com/match_stats_popup.php?matchID=177954602
-,Australian Open Slam,Novak Djokovic,Andy Murray,Novak Djokovic,Final,220,8,3,63,75,66,19,66,27,47,61,"
-								","
-								",188,155,7,5,60,81,46,25,46,0,29,46,"
-                            ","
-                            ",186,133,http://www.tennisinsight.com/match_stats_popup.php?matchID=177954701
-,Wimbledon Slam,Andy Murray,Benjamin Becker,Andy Murray,Round of 128,113,11,2,57,80,54,38,54,50,38,16,"
-								","
-								",188,133,5,1,59,62,44,20,44,20,26,18,"
-                            ","
-                            ",193,154,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604164
-,Wimbledon Slam,Andy Murray,Yen-Hsun Lu,Andy Murray,Round of 64,121,11,1,63,85,67,31,67,27,41,14,"
-								","
-								",185,133,1,5,66,69,35,15,35,0,29,27,"
-                            ","
-                            ",177,154,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604232
+,Australian Open Slam,Andy Murray,Robin Haase,Andy Murray,Round of 128,97,4,1,73,72,50,45,50,62,25,20,,,160,131,2,1,49,55,38,28,38,29,18,35,,,184,157,http://www.tennisinsight.com/match_stats_popup.php?matchID=177954148
+,Australian Open Slam,Andy Murray,Joao Sousa,Andy Murray,Round of 64,101,14,0,58,80,66,38,66,63,28,22,,,180,136,3,1,62,63,45,20,45,0,17,33,,,183,151,http://www.tennisinsight.com/match_stats_popup.php?matchID=177954224
+,Australian Open Slam,Andy Murray,Richard Berankis,Andy Murray,Round of 32,132,13,0,68,71,38,38,38,46,24,27,,,175,136,6,3,57,62,41,29,41,25,37,47,,,186,156,http://www.tennisinsight.com/match_stats_popup.php?matchID=177954312
+,Australian Open Slam,Andy Murray,Gilles Simon,Andy Murray,Round of 16,95,12,0,62,77,58,43,58,53,32,26,,,179,136,1,2,67,57,30,23,30,100,21,41,,,160,138,http://www.tennisinsight.com/match_stats_popup.php?matchID=177954406
+,Australian Open Slam,Andy Murray,Jeremy Chardy,Andy Murray,Quarter Final,111,7,1,68,80,29,40,29,73,32,20,,,187,141,6,3,68,60,20,20,20,40,25,30,,,199,164,http://www.tennisinsight.com/match_stats_popup.php?matchID=177954503
+,Australian Open Slam,Andy Murray,Roger Federer,Andy Murray,Semi Final,240,21,0,64,75,63,27,63,38,62,47,,,192,140,5,2,61,73,42,25,42,33,43,60,,,186,155,http://www.tennisinsight.com/match_stats_popup.php?matchID=177954602
+,Australian Open Slam,Novak Djokovic,Andy Murray,Novak Djokovic,Final,220,8,3,63,75,66,19,66,27,47,61,,,188,155,7,5,60,81,46,25,46,0,29,46,,,186,133,http://www.tennisinsight.com/match_stats_popup.php?matchID=177954701
+,Wimbledon Slam,Andy Murray,Benjamin Becker,Andy Murray,Round of 128,113,11,2,57,80,54,38,54,50,38,16,,,188,133,5,1,59,62,44,20,44,20,26,18,,,193,154,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604164
+,Wimbledon Slam,Andy Murray,Yen-Hsun Lu,Andy Murray,Round of 64,121,11,1,63,85,67,31,67,27,41,14,,,185,133,1,5,66,69,35,15,35,0,29,27,,,177,154,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604232
 ,ATP World Tour Masters 1000 Canada,Ernests Gulbis,Andy Murray,Ernests Gulbis,R16,89,7,3,58,74,56,32,56,60,,,,,,,3,3,71,67,33,25,33,33,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=421&y=2013&r=4&p=G858
 ,ATP World Tour Masters 1000 Cincinnati,Andy Murray,Mikhail Youzhny,Andy Murray,R32,71,1,0,69,71,57,38,57,71,,,,,,,1,7,64,61,25,28,25,50,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=422&y=2013&r=3&p=MC10
 ,ATP World Tour Masters 1000 Cincinnati,Andy Murray,Julien Benneteau,Andy Murray,R16,69,7,2,67,75,62,34,62,80,,,,,,,2,5,56,65,31,24,31,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=422&y=2013&r=4&p=MC10
@@ -107,31 +71,11 @@ matchId,tournament,player1,player2,winner,t_round,duration,p1Aces,p1DoubleFaults
 ,ATP World Tour Masters 1000 Rome,Andy Murray,Marcel Granollers,Andy Murray,R32,86,0,0,81,72,88,35,88,50,,,,,,,0,2,66,65,40,27,40,100,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2014&r=3&p=MC10
 ,ATP World Tour Masters 1000 Rome,Andy Murray,Jurgen Melzer,Andy Murray,R16,102,6,1,61,67,58,40,58,60,,,,,,,4,1,73,59,47,32,47,20,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2014&r=4&p=MC10
 ,ATP World Tour Masters 1000 Rome,Rafael Nadal,Andy Murray,Rafael Nadal,Q,161,6,1,70,67,52,30,52,33,,,,,,,5,4,64,69,31,32,31,40,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2014&r=5&p=N409
-,Wimbledon Slam,Andy Murray,Tommy Robredo,Andy Murray,Round of 32,121,9,0,65,85,57,30,57,71,40,14,"
-								","
-								",181,138,6,1,67,70,36,15,36,33,34,25,"
-                            ","
-                            ",188,152,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604316
-,Wimbledon Slam,Andy Murray,Mikhail Youzhny,Andy Murray,Round of 16,157,15,4,63,81,40,37,40,50,45,16,"
-								","
-								",188,125,1,1,61,63,44,19,44,40,33,20,"
-                            ","
-                            ",180,149,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604408
-,Wimbledon Slam,Andy Murray,Fernando Verdasco,Andy Murray,Quarter Final,207,14,3,69,77,55,28,55,45,36,27,"
-								","
-								",183,136,11,9,59,72,48,23,48,43,45,45,"
-                            ","
-                            ",191,168,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604504
-,Wimbledon Slam,Andy Murray,Jerzy Janowicz,Andy Murray,Semi Final,172,20,1,70,76,71,25,71,38,49,15,"
-								","
-								",188,133,9,11,55,75,47,24,47,14,43,43,"
-                            ","
-                            ",205,173,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604602
-,Wimbledon Slam,Andy Murray,Novak Djokovic,Andy Murray,Final,189,9,2,64,72,42,41,42,41,36,21,"
-								","
-								",188,128,4,4,65,59,41,28,41,31,31,40,"
-                            ","
-                            ",189,156,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604701
+,Wimbledon Slam,Andy Murray,Tommy Robredo,Andy Murray,Round of 32,121,9,0,65,85,57,30,57,71,40,14,,,181,138,6,1,67,70,36,15,36,33,34,25,,,188,152,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604316
+,Wimbledon Slam,Andy Murray,Mikhail Youzhny,Andy Murray,Round of 16,157,15,4,63,81,40,37,40,50,45,16,,,188,125,1,1,61,63,44,19,44,40,33,20,,,180,149,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604408
+,Wimbledon Slam,Andy Murray,Fernando Verdasco,Andy Murray,Quarter Final,207,14,3,69,77,55,28,55,45,36,27,,,183,136,11,9,59,72,48,23,48,43,45,45,,,191,168,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604504
+,Wimbledon Slam,Andy Murray,Jerzy Janowicz,Andy Murray,Semi Final,172,20,1,70,76,71,25,71,38,49,15,,,188,133,9,11,55,75,47,24,47,14,43,43,,,205,173,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604602
+,Wimbledon Slam,Andy Murray,Novak Djokovic,Andy Murray,Final,189,9,2,64,72,42,41,42,41,36,21,,,188,128,4,4,65,59,41,28,41,31,31,40,,,189,156,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604701
 ,US Open Slam,Andy Murray,Michael Llodra,Andy Murray,Round of 128,98,3,0,67,78,65,40,65,75,34,5,19,26,177,131,2,6,63,60,39,22,39,50,24,29,33,60,185,154,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634117
 ,US Open Slam,Andy Murray,Leonardo Mayer,Andy Murray,Round of 64,161,5,3,57,67,76,34,76,56,28,26,17,26,172,125,6,5,63,66,44,33,44,11,39,49,29,50,191,167,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634209
 ,US Open Slam,Andy Murray,Florian Mayer,Andy Murray,Round of 32,119,7,2,51,90,63,30,63,40,42,21,8,12,181,133,0,2,62,70,43,10,43,0,17,26,21,39,178,136,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634305

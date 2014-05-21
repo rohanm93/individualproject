@@ -25,71 +25,19 @@ matchId,tournament,player1,player2,winner,t_round,duration,p1Aces,p1DoubleFaults
 ,Beijing,Novak Djokovic,Fernando Verdasco,Novak Djokovic,R16,115,5,2,71,71,56,30,56,36,,,,,,,4,6,60,70,45,28,45,37,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=747&y=2013&r=4&p=D643
 ,Beijing,Novak Djokovic,Sam Querrey,Novak Djokovic,Q,53,7,1,75,89,77,42,77,33,,,,,,,4,2,58,57,30,10,30,0,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=747&y=2013&r=5&p=D643
 ,Beijing,Novak Djokovic,Richard Gasquet,Novak Djokovic,S,80,6,0,69,79,53,41,53,40,,,,,,,3,3,65,58,44,20,44,50,,,,,,,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=747&y=2013&r=6&p=D643
-,French Open Slam,Novak Djokovic,David Goffin,Novak Djokovic,Round of 128,133,5,0,69,76,65,32,65,27,26,31,"
-								","
-								",187,151,7,2,61,68,57,24,57,50,32,38,"
-                            ","
-                            ",181,142,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224101
-,French Open Slam,Novak Djokovic,Guido Pella,Novak Djokovic,Round of 64,86,1,2,72,78,53,45,53,44,29,26,"
-								","
-								",183,150,1,4,57,55,33,22,33,0,10,34,"
-                            ","
-                            ",185,150,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224201
-,French Open Slam,Novak Djokovic,Grigor Dimitrov,Novak Djokovic,Round of 32,104,2,0,68,81,57,43,57,44,13,22,"
-								","
-								",177,148,0,2,69,57,35,19,35,20,18,48,"
-                            ","
-                            ",177,162,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224301
-,French Open Slam,Novak Djokovic,Philipp Kohlschreiber,Novak Djokovic,Round of 16,162,2,2,74,68,64,25,64,50,38,42,"
-								","
-								",178,142,4,3,55,75,54,32,54,15,48,48,"
-                            ","
-                            ",187,147,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224401
-,French Open Slam,Novak Djokovic,Tommy Haas,Novak Djokovic,Quarter Final,133,11,0,64,82,79,34,79,42,46,25,"
-								","
-								",178,144,4,5,60,66,43,18,43,100,19,34,"
-                            ","
-                            ",184,155,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224501
-,French Open Slam,Rafael Nadal,Novak Djokovic,Rafael Nadal,Semi Final,277,6,3,64,72,60,36,60,50,61,44,"
-								","
-								",179,139,5,2,67,64,53,28,53,56,54,75,"
-                            ","
-                            ",184,143,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224601
-,Wimbledon Slam,Novak Djokovic,Florian Mayer,Novak Djokovic,Round of 128,116,5,0,63,75,81,29,81,27,40,20,"
-								","
-								",186,156,3,0,60,71,47,25,47,0,25,12,"
-                            ","
-                            ",181,149,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604101
-,Wimbledon Slam,Novak Djokovic,Bobby Reynolds,Novak Djokovic,Round of 64,114,12,0,59,91,73,35,73,22,41,12,"
-								","
-								",188,152,8,5,68,65,38,9,38,0,25,19,"
-                            ","
-                            ",189,165,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604201
-,Wimbledon Slam,Novak Djokovic,Jeremy Chardy,Novak Djokovic,Round of 32,86,8,1,74,93,80,46,80,31,38,3,"
-								","
-								",186,162,6,4,66,54,50,7,50,0,18,14,"
-                            ","
-                            ",197,170,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604301
-,Wimbledon Slam,Novak Djokovic,Tommy Haas,Novak Djokovic,Round of 16,132,13,3,65,76,55,45,55,46,40,16,"
-								","
-								",183,149,4,2,73,55,48,24,48,29,25,26,"
-                            ","
-                            ",185,162,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604401
-,Wimbledon Slam,Novak Djokovic,Tomas Berdych,Novak Djokovic,Quarter Final,135,16,1,61,78,60,37,60,40,36,13,"
-								","
-								",183,156,6,4,53,63,57,22,57,100,31,25,"
-                            ","
-                            ",189,160,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604501
-,Wimbledon Slam,Novak Djokovic,Juan Martin del Potro,Novak Djokovic,Semi Final,283,22,2,69,83,39,28,39,20,80,48,"
-								","
-								",189,154,4,4,60,72,55,17,55,29,48,37,"
-                            ","
-                            ",193,157,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604601
-,Wimbledon Slam,Andy Murray,Novak Djokovic,Andy Murray,Final,189,9,2,64,72,42,41,42,41,36,21,"
-								","
-								",188,128,4,4,65,59,41,28,41,31,31,40,"
-                            ","
-                            ",189,156,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604701
+,French Open Slam,Novak Djokovic,David Goffin,Novak Djokovic,Round of 128,133,5,0,69,76,65,32,65,27,26,31,,,187,151,7,2,61,68,57,24,57,50,32,38,,,181,142,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224101
+,French Open Slam,Novak Djokovic,Guido Pella,Novak Djokovic,Round of 64,86,1,2,72,78,53,45,53,44,29,26,,,183,150,1,4,57,55,33,22,33,0,10,34,,,185,150,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224201
+,French Open Slam,Novak Djokovic,Grigor Dimitrov,Novak Djokovic,Round of 32,104,2,0,68,81,57,43,57,44,13,22,,,177,148,0,2,69,57,35,19,35,20,18,48,,,177,162,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224301
+,French Open Slam,Novak Djokovic,Philipp Kohlschreiber,Novak Djokovic,Round of 16,162,2,2,74,68,64,25,64,50,38,42,,,178,142,4,3,55,75,54,32,54,15,48,48,,,187,147,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224401
+,French Open Slam,Novak Djokovic,Tommy Haas,Novak Djokovic,Quarter Final,133,11,0,64,82,79,34,79,42,46,25,,,178,144,4,5,60,66,43,18,43,100,19,34,,,184,155,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224501
+,French Open Slam,Rafael Nadal,Novak Djokovic,Rafael Nadal,Semi Final,277,6,3,64,72,60,36,60,50,61,44,,,179,139,5,2,67,64,53,28,53,56,54,75,,,184,143,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224601
+,Wimbledon Slam,Novak Djokovic,Florian Mayer,Novak Djokovic,Round of 128,116,5,0,63,75,81,29,81,27,40,20,,,186,156,3,0,60,71,47,25,47,0,25,12,,,181,149,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604101
+,Wimbledon Slam,Novak Djokovic,Bobby Reynolds,Novak Djokovic,Round of 64,114,12,0,59,91,73,35,73,22,41,12,,,188,152,8,5,68,65,38,9,38,0,25,19,,,189,165,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604201
+,Wimbledon Slam,Novak Djokovic,Jeremy Chardy,Novak Djokovic,Round of 32,86,8,1,74,93,80,46,80,31,38,3,,,186,162,6,4,66,54,50,7,50,0,18,14,,,197,170,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604301
+,Wimbledon Slam,Novak Djokovic,Tommy Haas,Novak Djokovic,Round of 16,132,13,3,65,76,55,45,55,46,40,16,,,183,149,4,2,73,55,48,24,48,29,25,26,,,185,162,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604401
+,Wimbledon Slam,Novak Djokovic,Tomas Berdych,Novak Djokovic,Quarter Final,135,16,1,61,78,60,37,60,40,36,13,,,183,156,6,4,53,63,57,22,57,100,31,25,,,189,160,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604501
+,Wimbledon Slam,Novak Djokovic,Juan Martin del Potro,Novak Djokovic,Semi Final,283,22,2,69,83,39,28,39,20,80,48,,,189,154,4,4,60,72,55,17,55,29,48,37,,,193,157,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604601
+,Wimbledon Slam,Andy Murray,Novak Djokovic,Andy Murray,Final,189,9,2,64,72,42,41,42,41,36,21,,,188,128,4,4,65,59,41,28,41,31,31,40,,,189,156,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604701
 ,US Open Slam,Novak Djokovic,Richard Berankis,Novak Djokovic,Round of 128,82,10,1,68,72,61,50,61,50,28,9,15,23,178,148,3,4,53,50,28,28,28,13,16,27,7,15,185,154,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634101
 ,US Open Slam,Novak Djokovic,Benjamin Becker,Novak Djokovic,Round of 64,111,13,2,74,81,52,41,52,36,40,26,15,22,175,138,6,4,59,59,49,19,49,100,19,36,6,10,189,149,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634201
 ,US Open Slam,Novak Djokovic,Joao Sousa,Novak Djokovic,Round of 32,100,3,2,68,79,67,44,67,62,34,26,22,30,175,143,2,3,59,56,26,21,26,50,10,27,10,21,175,140,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634301
