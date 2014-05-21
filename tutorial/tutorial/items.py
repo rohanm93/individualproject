@@ -6,7 +6,7 @@
 from scrapy.item import Item, Field
 
 class MatchStatsItem(Item):
-        matchId = Field()
+        #matchId = Field()
 	tournament = Field()
 	t_round = Field()
 	winner = Field()
@@ -42,3 +42,7 @@ class MatchStatsItem(Item):
         p2AverageFirstServeSpeed = Field()
         p2AverageSecondServeSpeed = Field()
         urlVisited = Field()
+        p1ServePointsWon = Field()
+        p1ReturnPointsWon = Field()
+        p2ServePointsWon = Field()
+        p2ReturnPointsWon = Field()

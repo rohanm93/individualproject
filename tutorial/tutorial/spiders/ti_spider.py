@@ -13,8 +13,10 @@ class TISpider(CrawlSpider):
 #	]
 	start_urls = [
 		"http://www.tennisinsight.com/player_activity.php?player_id=1",
-		"http://www.tennisinsight.com/player_activity.php?player_id=1&min_activity=50&activity=1"
+		"http://www.tennisinsight.com/player_activity.php?player_id=1"
 	]
+	#player name that must be player 1. give only the last name
+	player_name = "Federer"
 
 	def getPopupLink(value):
 		m = re.search("javascript:makePopup\('(.+?)'\)", value)
@@ -42,6 +44,7 @@ class TISpider(CrawlSpider):
 		listOfStats = []
 		stats = sel.xpath("//table//td//text()").extract()
 		tennisStats = MatchStatsItem()
+		swapped = 0
 		for i in range(0, len(stats)):
 			stats[i] = stats[i].replace(u'\xa0', u' ')
 			if stats[i]=="Tournament":
@@ -54,53 +57,87 @@ class TISpider(CrawlSpider):
 				duration = stats[i+1].replace(u'\xa0', u' ')
 				tennisStats['duration'] = duration
 			if stats[i]=="Players":
-				tennisStats['player1'] = stats[i+1]
-				tennisStats['player2'] = stats[i+2]
+				if self.player_name in stats[i+1]:
+					tennisStats['player1'] = stats[i+1]
+					tennisStats['player2'] = stats[i+2]
+					swapped = 0
+				if self.player_name in stats[i+2]:
+					swapped = 1
+					tennisStats['player1'] = stats[i+2]
+					tennisStats['player2'] = stats[i+1]
 			if stats[i]=="Aces":
-				tennisStats['p1Aces'] = stats[i+1]
-				tennisStats['p2Aces'] = stats[i+2]
+				if swapped:
+					tennisStats['p1Aces'] = stats[i+2]
+					tennisStats['p2Aces'] = stats[i+1]
+				else:
+					tennisStats['p1Aces'] = stats[i+1]
+					tennisStats['p2Aces'] = stats[i+2]
 			if stats[i]=="Double Faults":
-				tennisStats['p1DoubleFaults'] = stats[i+1]
-				tennisStats['p2DoubleFaults'] = stats[i+2]
+				if swapped:
+					tennisStats['p1DoubleFaults'] = stats[i+2]
+					tennisStats['p2DoubleFaults'] = stats[i+1]
+				else:
+					tennisStats['p1DoubleFaults'] = stats[i+1]
+					tennisStats['p2DoubleFaults'] = stats[i+2]
 			if stats[i]=="1st Serve":
-				tennisStats['p1FirstServePercentage'] = stats[i+1]
-				tennisStats['p2FirstServePercentage'] = stats[i+2]
+				if swapped:
+					tennisStats['p1FirstServePercentage'] = stats[i+2]
+					tennisStats['p2FirstServePercentage'] = stats[i+1]
+				else:
+					tennisStats['p1FirstServePercentage'] = stats[i+1]
+					tennisStats['p2FirstServePercentage'] = stats[i+2]
 			if stats[i]=="1st Serve Points Won":
-				tennisStats['p1FirstServePointsWonPercentage'] = stats[i+1]
-				tennisStats['p2FirstServePointsWonPercentage'] = stats[i+2]
+				if swapped:
+					tennisStats['p1FirstServePointsWonPercentage'] = stats[i+2]
+					tennisStats['p2FirstServePointsWonPercentage'] = stats[i+1]
+				else:
+					tennisStats['p1FirstServePointsWonPercentage'] = stats[i+1]
+					tennisStats['p2FirstServePointsWonPercentage'] = stats[i+2]
 			if stats[i]=="2nd Serve Points Won":
-				tennisStats['p1SecondServePointsWon'] = stats[i+1]
-				tennisStats['p2SecondServePointsWon'] = stats[i+2]
+				if swapped:
+					tennisStats['p1SecondServePointsWon'] = stats[i+2]
+					tennisStats['p2SecondServePointsWon'] = stats[i+1]
+				else:
+					tennisStats['p1SecondServePointsWon'] = stats[i+1]
+					tennisStats['p2SecondServePointsWon'] = stats[i+2]
 			if stats[i]=="1st Serve Return Points Won":
-				tennisStats['p1FirstReturnPointsWon'] = stats[i+1]
-				tennisStats['p2FirstReturnPointsWon'] = stats[i+2]
+				if swapped:
+					tennisStats['p1FirstReturnPointsWon'] = stats[i+2]
+					tennisStats['p2FirstReturnPointsWon'] = stats[i+1]
+				else:
+					tennisStats['p1FirstReturnPointsWon'] = stats[i+1]
+					tennisStats['p2FirstReturnPointsWon'] = stats[i+2]
 			if stats[i]=="2nd Serve Return Points Won":
-				tennisStats['p1SecondReturnPointsWon'] = stats[i+1]
-				tennisStats['p1SecondReturnPointsWon'] = stats[i+2]
+				if swapped:
+					tennisStats['p1SecondReturnPointsWon'] = stats[i+2]
+					tennisStats['p1SecondReturnPointsWon'] = stats[i+1]
+				else:	
+					tennisStats['p1SecondReturnPointsWon'] = stats[i+1]
+					tennisStats['p1SecondReturnPointsWon'] = stats[i+2]
 			if stats[i]=="Break Points Converted":
-				tennisStats['p1BreakPointsWon'] = stats[i+1]
-				tennisStats['p2BreakPointsWon'] = stats[i+2]
+				if swapped:
+					tennisStats['p1BreakPointsWon'] = stats[i+2]
+					tennisStats['p2BreakPointsWon'] = stats[i+1]
+				else:
+					tennisStats['p1BreakPointsWon'] = stats[i+1]
+					tennisStats['p2BreakPointsWon'] = stats[i+2]
+			if stats[i]=="Total Service Points Won":
+				if swapped:
+					tennisStats['p1ServePointsWon'] = stats[i+2]
+					tennisStats['p2ServePointsWon'] = stats[i+1]
+				else:
+					tennisStats['p1ServePointsWon'] = stats[i+1]
+					tennisStats['p2ServePointsWon'] = stats[i+2]
+			if stats[i]=="Total Return Points Won":
+				if swapped:
+					tennisStats['p1ReturnPointsWon'] = stats[i+2]
+					tennisStats['p2ReturnPointsWon'] = stats[i+1]
+				else:
+					tennisStats['p1ReturnPointsWon'] = stats[i+1]
+					tennisStats['p2ReturnPointsWon'] = stats[i+2]
 			tennisStats['urlVisited'] = response.url
-			# not checked below this line
-			if stats[i]=="Winners":
-				tennisStats['p1Winners'] = stats[i+1]
-				tennisStats['p2Winners'] = stats[i+2]
-			if stats[i]=="Unforced Errors":
-				tennisStats['p1UnforcedErrors'] = stats[i+1]
-				tennisStats['p2UnforcedErrors'] = stats[i+2]
-			if stats[i]=="Net Approaches":
-				tennisStats['p1NetApproaches'] = stats[i+1]
-				tennisStats['p2NetApproaches'] = stats[i+2]
-			if stats[i]=="Points Won at Net":
-				tennisStats['p1PointsWonAtNet'] = stats[i+1]
-				tennisStats['p2PointsWonAtNet'] = stats[i+2]
-			if stats[i]=="Average 1st Serve":
-				tennisStats['p1AverageFirstServeSpeed'] = stats[i+1]
-				tennisStats['p2AverageFirstServeSpeed'] = stats[i+2]
-			if stats[i]=="Average 2nd Serve":
-				tennisStats['p1AverageSecondServeSpeed'] = stats[i+1]
-				tennisStats['p2AverageSecondServeSpeed'] = stats[i+2]
 		listOfStats.append(tennisStats)
+		swapped = 0
 		return listOfStats
 
 	def parse_match(self,response):
@@ -109,6 +146,7 @@ class TISpider(CrawlSpider):
 		stats = sel.xpath("//table//td//text()").extract()
 		tennisStats = MatchStatsItem()
 		#change into for loop. loop through entire array, and if for eg we find the word "1st serve percentage", take the array position+2 for p1 serve percentage
+		swapped = 0
 		for i in range(0, len(stats)):
 			if stats[i]=="Tournament":
 				tennisStats['tournament'] = stats[i+2]
@@ -120,54 +158,130 @@ class TISpider(CrawlSpider):
 				tennisStats['duration'] = stats[i+2]
 			#if stats[i]=="Duration":
 			#	tennisStats['duration'] = stats[i+2]
-			tennisStats['player1'] = stats[34]
-			tennisStats['player2'] = stats[36]
+			if self.player_name in stats[34]:
+				tennisStats['player1'] = stats[34]
+				tennisStats['player2'] = stats[36]
+			else:
+				tennisStats['player2'] = stats[34]
+				tennisStats['player1'] = stats[36]
+				swapped = 1
 			if stats[i]=="Aces":
-				tennisStats['p1Aces'] = stats[i+2]
-				tennisStats['p2Aces'] = stats[i+4]
+				if swapped:
+					tennisStats['p1Aces'] = stats[i+4]
+					tennisStats['p2Aces'] = stats[i+2]					
+				else:
+					tennisStats['p1Aces'] = stats[i+2]
+					tennisStats['p2Aces'] = stats[i+4]
 			if stats[i]=="Double Faults":
-				tennisStats['p1DoubleFaults'] = stats[i+2]
-				tennisStats['p2DoubleFaults'] = stats[i+4]
+				if swapped:
+					tennisStats['p1DoubleFaults'] = stats[i+4]
+					tennisStats['p2DoubleFaults'] = stats[i+2]
+				else:
+					tennisStats['p1DoubleFaults'] = stats[i+2]
+					tennisStats['p2DoubleFaults'] = stats[i+4]
 			if stats[i]=="1st Serve Percentage":
-				tennisStats['p1FirstServePercentage'] = stats[i+2]
-				tennisStats['p2FirstServePercentage'] = stats[i+4]
+				if swapped:
+					tennisStats['p2FirstServePercentage'] = stats[i+2]
+					tennisStats['p1FirstServePercentage'] = stats[i+4]
+				else:
+					tennisStats['p1FirstServePercentage'] = stats[i+2]
+					tennisStats['p2FirstServePercentage'] = stats[i+4]
 			if stats[i]=="1st Serve Points Won":
-				tennisStats['p1FirstServePointsWonPercentage'] = stats[i+2]
-				tennisStats['p2FirstServePointsWonPercentage'] = stats[i+4]
+				if swapped:
+					tennisStats['p2FirstServePointsWonPercentage'] = stats[i+2]
+					tennisStats['p1FirstServePointsWonPercentage'] = stats[i+4]
+				else:	
+					tennisStats['p1FirstServePointsWonPercentage'] = stats[i+2]
+					tennisStats['p2FirstServePointsWonPercentage'] = stats[i+4]
 			# if stats[i]=="1st Serve Points Won":
 			# 	tennisStats['p1FirstServePointsWonPercentage'] = stats[i+2]
 			# 	tennisStats['p2FirstServePointsWonPercentage'] = stats[i+4]
 			if stats[i]=="2nd Serve Points Won":
-				tennisStats['p1SecondServePointsWon'] = stats[i+2]
-				tennisStats['p2SecondServePointsWon'] = stats[i+4]
+				if swapped:
+					tennisStats['p2SecondServePointsWon'] = stats[i+2]
+					tennisStats['p1SecondServePointsWon'] = stats[i+4]
+				else:
+					tennisStats['p1SecondServePointsWon'] = stats[i+2]
+					tennisStats['p2SecondServePointsWon'] = stats[i+4]
 			if stats[i]=="1st Return Points Won":
-				tennisStats['p1FirstReturnPointsWon'] = stats[i+2]
-				tennisStats['p2FirstReturnPointsWon'] = stats[i+4]
+				if swapped:
+					tennisStats['p2FirstReturnPointsWon'] = stats[i+2]
+					tennisStats['p1FirstReturnPointsWon'] = stats[i+4]
+				else:
+					tennisStats['p2FirstReturnPointsWon'] = stats[i+4]
+					tennisStats['p1FirstReturnPointsWon'] = stats[i+2]
 			if stats[i]=="2nd Return Points Won":
-				tennisStats['p1SecondReturnPointsWon'] = stats[i+2]
-				tennisStats['p1SecondReturnPointsWon'] = stats[i+4]
+				if swapped:
+					tennisStats['p2SecondReturnPointsWon'] = stats[i+2]
+					tennisStats['p1SecondReturnPointsWon'] = stats[i+4]
+				else:
+					tennisStats['p1SecondReturnPointsWon'] = stats[i+2]
+					tennisStats['p1SecondReturnPointsWon'] = stats[i+4]
 			if stats[i]=="Break Points Won":
-				tennisStats['p1BreakPointsWon'] = stats[i+2]
-				tennisStats['p2BreakPointsWon'] = stats[i+4]
+				if swapped:
+					tennisStats['p2BreakPointsWon'] = stats[i+2]
+					tennisStats['p1BreakPointsWon'] = stats[i+4]
+				else:
+					tennisStats['p1BreakPointsWon'] = stats[i+2]
+					tennisStats['p2BreakPointsWon'] = stats[i+4]
+			if stats[i]=="Total Service Points Won":
+				if swapped:
+					tennisStats['p1ServePointsWon'] = stats[i+4]
+					tennisStats['p2ServePointsWon'] = stats[i+2]
+				else:
+					tennisStats['p1ServePointsWon'] = stats[i+2]
+					tennisStats['p2ServePointsWon'] = stats[i+4]
+			if stats[i]=="Total Return Points Won":
+				if swapped:
+					tennisStats['p1ReturnPointsWon'] = stats[i+4]
+					tennisStats['p2ReturnPointsWon'] = stats[i+2]
+				else:	
+					tennisStats['p1ReturnPointsWon'] = stats[i+2]
+					tennisStats['p2ReturnPointsWon'] = stats[i+4]
 			tennisStats['urlVisited'] = response.url
 			if stats[i]=="Winners":
-				tennisStats['p1Winners'] = stats[i+2]
-				tennisStats['p2Winners'] = stats[i+4]
+				if swapped:
+					tennisStats['p1Winners'] = stats[i+4]
+					tennisStats['p2Winners'] = stats[i+2]
+				else:
+					tennisStats['p1Winners'] = stats[i+2]
+					tennisStats['p2Winners'] = stats[i+4]
 			if stats[i]=="Unforced Errors":
-				tennisStats['p1UnforcedErrors'] = stats[i+2]
-				tennisStats['p2UnforcedErrors'] = stats[i+4]
+				if swapped:
+					tennisStats['p1UnforcedErrors'] = stats[i+4]
+					tennisStats['p2UnforcedErrors'] = stats[i+2]
+				else:
+					tennisStats['p1UnforcedErrors'] = stats[i+2]
+					tennisStats['p2UnforcedErrors'] = stats[i+4]
 			if stats[i]=="Net Approaches":
-				tennisStats['p1NetApproaches'] = stats[i+2]
-				tennisStats['p2NetApproaches'] = stats[i+4]
+				if swapped:
+					tennisStats['p1NetApproaches'] = stats[i+4]
+					tennisStats['p2NetApproaches'] = stats[i+2]	
+				else:
+					tennisStats['p1NetApproaches'] = stats[i+2]
+					tennisStats['p2NetApproaches'] = stats[i+4]
 			if stats[i]=="Points Won at Net":
-				tennisStats['p1PointsWonAtNet'] = stats[i+2]
-				tennisStats['p2PointsWonAtNet'] = stats[i+4]
+				if swapped:
+					tennisStats['p2PointsWonAtNet'] = stats[i+2]
+					tennisStats['p1PointsWonAtNet'] = stats[i+4]
+				else:
+					tennisStats['p1PointsWonAtNet'] = stats[i+2]
+					tennisStats['p2PointsWonAtNet'] = stats[i+4]
 			if stats[i]=="Average 1st Serve":
-				tennisStats['p1AverageFirstServeSpeed'] = stats[i+2]
-				tennisStats['p2AverageFirstServeSpeed'] = stats[i+4]
+				if swapped:
+					tennisStats['p2AverageFirstServeSpeed'] = stats[i+2]
+					tennisStats['p1AverageFirstServeSpeed'] = stats[i+4]
+				else:
+					tennisStats['p1AverageFirstServeSpeed'] = stats[i+2]
+					tennisStats['p2AverageFirstServeSpeed'] = stats[i+4]
 			if stats[i]=="Average 2nd Serve":
-				tennisStats['p1AverageSecondServeSpeed'] = stats[i+2]
-				tennisStats['p2AverageSecondServeSpeed'] = stats[i+4]
+				if swapped:
+					tennisStats['p2AverageSecondServeSpeed'] = stats[i+2]
+					tennisStats['p1AverageSecondServeSpeed'] = stats[i+4]
+				else:
+					tennisStats['p1AverageSecondServeSpeed'] = stats[i+2]
+					tennisStats['p2AverageSecondServeSpeed'] = stats[i+4]
+		swapped=0
 		listOfStats.append(tennisStats)
 		return listOfStats
 #		print stats[214], "testp1avgfirstservespeed"
