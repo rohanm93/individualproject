@@ -20,7 +20,7 @@ FEED_EXPORTERS = {
 # By specifying the fields to export, the CSV export honors the order
 # rather than using a random order.
 EXPORT_FIELDS = [
-    'matchId',
+#    'matchId',
     'tournament',
     'player1',
     'player2',
@@ -28,7 +28,7 @@ EXPORT_FIELDS = [
     't_round',
     'duration',
     'p1Aces',
-    'p1DoubleFaults',
+#    'p1DoubleFaults',
     'p1FirstServePercentage',
     'p1FirstServePointsWonPercentage',
     'p1SecondServePointsWon',
@@ -41,8 +41,10 @@ EXPORT_FIELDS = [
     'p1PointsWonAtNet',
     'p1AverageFirstServeSpeed',
     'p1AverageSecondServeSpeed',
+    'p1ServePointsWon',
+    'p1ReturnPointsWon',
     'p2Aces',
-    'p2DoubleFaults',
+ #   'p2DoubleFaults',
     'p2FirstServePercentage',
     'p2FirstServePointsWonPercentage',
     'p2SecondServePointsWon',
@@ -55,6 +57,8 @@ EXPORT_FIELDS = [
     'p2PointsWonAtNet',
     'p2AverageFirstServeSpeed',
     'p2AverageSecondServeSpeed',
+    'p2ServePointsWon',
+    'p2ReturnPointsWon',
     'urlVisited'
 ]
 

@@ -29,4 +29,8 @@ class TutorialPipeline(object):
 		if item.has_key('p2AverageSecondServeSpeed'):
 			item['p2AverageSecondServeSpeed'] = item['p2AverageSecondServeSpeed'].split('k')[0]
 		item['duration'] = item['duration'].split(' ')[0]
+		item['p1ServePointsWon'] = item['p1ServePointsWon'].split('%')[0]
+		item['p2ServePointsWon'] = item['p2ServePointsWon'].split('%')[0]
+		item['p1ReturnPointsWon'] = item['p1ReturnPointsWon'].split('%')[0]
+		item['p2ReturnPointsWon'] = item['p2ReturnPointsWon'].split('%')[0]
 		return item
