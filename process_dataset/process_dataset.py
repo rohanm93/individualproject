@@ -2,7 +2,7 @@
 from __future__ import division
 import csv
 
-input_file = csv.DictReader(open("djokovic_stats.csv"))
+input_file = csv.DictReader(open("berdych_stats.csv"))
 
 #finds average net approaches and average first serve
 def get_info_serve_net(player_name):
@@ -15,7 +15,7 @@ def get_info_serve_net(player_name):
 		serve_speed = 0
 		player1 = row["player1"]
 		player2 = row["player2"]
-		if (player1==player_name):
+		if (player_name in player1):
 			if row["p1AverageFirstServeSpeed"] == "":
 				serve_speed = 0
 			else:
@@ -24,7 +24,7 @@ def get_info_serve_net(player_name):
 				net_approaches = 0
 			else:
 				net_approaches = int(float(row["p1NetApproaches"]))
-		if (player2==player_name):
+		if (player_name in player2):
 			if row["p2AverageFirstServeSpeed"] == "":
 				serve_speed = 0
 			else:
@@ -39,9 +39,11 @@ def get_info_serve_net(player_name):
 		if (serve_speed>0):
 			total_serve_speed+=serve_speed
 			count_serve+=1
+
 	print player_name
-	print total_net_approaches/count_net
+	if not count_net==0:
+		print total_net_approaches/count_net
 	print total_serve_speed/count_serve
 
-get_info_serve_net("Novak Djokovic")
+get_info_serve_net("Berdych")
 
