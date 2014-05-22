@@ -21,7 +21,8 @@ class TutorialPipeline(object):
 		item['p2FirstServePointsWonPercentage'] = item['p2FirstServePointsWonPercentage'].split('%')[0]
 		item['p2SecondServePointsWon'] = item['p2SecondServePointsWon'].split('%')[0]
 		item['p2FirstReturnPointsWon'] = item['p2FirstReturnPointsWon'].split('%')[0]
-		item['p2SecondReturnPointsWon'] = item['p2SecondServePointsWon'].split('%')[0]
+		if item.has_key('p2SecondReturnPointsWon'):
+			item['p2SecondReturnPointsWon'] = item['p2SecondReturnPointsWon'].split('%')[0]
 		if '%' in item['p2BreakPointsWon']:
 			item['p2BreakPointsWon'] = item['p2BreakPointsWon'].split('%')[0]
 		if item.has_key('p2AverageFirstServeSpeed'):

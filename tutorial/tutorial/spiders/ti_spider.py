@@ -12,11 +12,11 @@ class TISpider(CrawlSpider):
 #		"http://www.tennisinsight.com/match_stats_popup.php?matchID=183704701"
 #	]
 	start_urls = [
-		"http://www.tennisinsight.com/player_activity.php?player_id=1",
-		"http://www.tennisinsight.com/player_activity.php?player_id=1"
+		"http://www.tennisinsight.com/player_activity.php?player_id=3",
+		"http://www.tennisinsight.com/player_activity.php?player_id=3&min_activity=50&activity=1"
 	]
 	#player name that must be player 1. give only the last name
-	player_name = "Federer"
+	player_name = "Hewitt"
 
 	def getPopupLink(value):
 		m = re.search("javascript:makePopup\('(.+?)'\)", value)
