@@ -93,4 +93,131 @@ matchId,tournament,player1,player2,winner,t_round,duration,p1Aces,p1DoubleFaults
 ,Australian Open Slam,Rafael Nadal,Kei Nishikori,Rafael Nadal,Round of 16,197,12,1,71,76,39,33,39,63,36,28,10,19,185,148,2,1,66,67,41,24,41,40,36,51,20,25,178,148,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704401
 ,Australian Open Slam,Rafael Nadal,Grigor Dimitrov,Rafael Nadal,Quarter Final,217,3,7,73,73,67,29,67,36,42,47,32,36,168,140,16,5,58,71,49,27,49,50,54,61,28,41,189,152,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704501
 ,Australian Open Slam,Rafael Nadal,Roger Federer,Rafael Nadal,Semi Final,144,3,1,65,73,73,35,73,29,28,25,3,10,175,143,8,1,66,65,50,27,50,50,34,50,23,42,181,152,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704601
-,Australian Open Slam,Stanislas Wawrinka,Rafael Nadal,Stanislas Wawrinka,Final,141,19,2,55,87,51,40,51,33,53,49,11,12,192,156,1,3,78,60,42,13,42,33,19,32,5,8,162,134,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704701
+,Australian Open Slam,Stanislas Wawrinka,Rafael Nadal,Stanislas Wawrinka,Final,141,19,2,55,87,51,40,51,33,53,49,11,12,192,156,1,3,78,60,42,13,42,33,19,32,5,8,162,134,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704701tournament,player1,player2,winner,t_round,duration,p1Aces,p1FirstServePercentage,p1FirstServePointsWonPercentage,p1SecondServePointsWon,p1FirstReturnPointsWon,p1SecondReturnPointsWon,p1BreakPointsWon,p1Winners,p1UnforcedErrors,p1NetApproaches,p1PointsWonAtNet,p1AverageFirstServeSpeed,p1AverageSecondServeSpeed,p1ServePointsWon,p1ReturnPointsWon,p2Aces,p2FirstServePercentage,p2FirstServePointsWonPercentage,p2SecondServePointsWon,p2FirstReturnPointsWon,p2SecondReturnPointsWon,p2BreakPointsWon,p2Winners,p2UnforcedErrors,p2NetApproaches,p2PointsWonAtNet,p2AverageFirstServeSpeed,p2AverageSecondServeSpeed,p2ServePointsWon,p2ReturnPointsWon,urlVisited
+Australian Open Slam,Rafael Nadal,Stan Wawrinka,Stan Wawrinka,Final,141,1,78,60,42,13,42,33,19,32,5,8,162,134,56,29,19,55,87,51,40,58,33,53,49,11,12,192,156,71,44,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704701
+Davis Cup,Rafael Nadal,Sergiy Stakhovsky,Rafael Nadal,Singles,102,2,76,78,71,39,71,47,,,,,,,76,53,5,52,61,33,22,,0,,,,,,,47,24,http://www.tennisinsight.com/match_stats_popup.php?matchID=181983102
+ATP World Tour Masters 1000 Rome,Rafael Nadal,Novak Djokovic,Novak Djokovic,F,139,0,75,54,43,28,43,66,,,,,,,51,34,7,62,71,55,45,,42,,,,,,,65,48,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2014&r=7&p=D643
+Wimbledon Slam,Rafael Nadal,Steve Darcis,Steve Darcis,Round of 128,175,6,67,65,54,26,54,29,32,24,"
+                            ","
+                            ",180,144,61,33,13,60,74,57,35,46,27,53,24,"
+								","
+								",181,149,67,39,http://www.tennisinsight.com/match_stats_popup.php?matchID=180604133
+US Open Slam,Rafael Nadal,Novak Djokovic,Rafael Nadal,Final,201,1,64,65,56,42,56,58,27,20,17,23,177,136,62,45,6,68,58,48,35,,27,46,53,22,36,180,141,55,38,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634701
+Australian Open Slam,Rafael Nadal,Grigor Dimitrov,Rafael Nadal,Quarter Final,217,3,73,73,67,29,67,36,42,47,32,36,168,140,71,38,16,58,71,49,27,,50,54,61,28,41,189,152,62,29,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704501
+Australian Open Slam,Rafael Nadal,Roger Federer,Rafael Nadal,Semi Final,144,3,65,73,73,35,73,29,28,25,3,10,175,143,73,40,8,66,65,50,27,,50,34,50,23,42,181,152,60,27,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704601
+Beijing,Rafael Nadal,Santiago Giraldo,Rafael Nadal,R32,89,5,55,63,58,38,58,83,,,,,,,61,51,1,50,61,34,36,,50,,,,,,,48,38,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=747&y=2013&r=3&p=N409
+Barcelona,Rafael Nadal,Albert Ramos,Rafael Nadal,Q,66,1,67,83,46,53,46,80,,,,,,,71,52,0,41,46,47,16,,0,,,,,,,47,28,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=425&y=2013&r=5&p=N409
+Australian Open Slam,Rafael Nadal,Bernard Tomic,Rafael Nadal,Round of 128,41,5,62,88,60,25,60,100,13,5,5,5,181,142,77,36,3,71,75,38,13,,0,13,7,3,5,186,143,64,23,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704101
+Barcelona,Rafael Nadal,Milos Raonic,Rafael Nadal,S,72,4,73,70,63,42,63,45,,,,,,,69,52,6,66,57,26,29,,100,,,,,,,47,30,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=425&y=2013&r=6&p=N409
+French Open Slam,Rafael Nadal,David Ferrer,Rafael Nadal,Final,136,5,70,70,42,42,42,50,35,25,"
+								","
+								",177,142,62,54,1,62,58,25,30,,25,22,35,"
+                            ","
+                            ",177,150,46,38,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224701
+French Open Slam,Rafael Nadal,Novak Djokovic,Rafael Nadal,Semi Final,277,6,64,72,60,36,60,50,61,44,"
+								","
+								",179,139,68,39,5,67,64,53,28,,56,54,75,"
+                            ","
+                            ",184,143,61,33,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224601
+ATP World Tour Masters 1000 Paris,Rafael Nadal,Richard Gasquet,Rafael Nadal,Q,67,5,58,73,68,31,68,83,,,,,,,71,51,5,59,68,20,26,,100,,,,,,,48,28,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=352&y=2013&r=5&p=N409
+ATP World Tour Masters 1000 Madrid,Rafael Nadal,Mikhail Youzhny,Rafael Nadal,R16,75,0,75,75,54,42,54,50,,,,,,,70,50,1,70,57,33,24,,33,,,,,,,50,29,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2013&r=4&p=N409
+Australian Open Slam,Rafael Nadal,Thanasi Kokkinakis,Rafael Nadal,Round of 64,113,7,74,82,58,37,58,50,39,19,11,14,179,142,76,45,4,67,63,38,18,,0,21,24,8,10,187,153,55,24,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704201
+US Open Slam,Rafael Nadal,Rogerio Dutra Silva,Rafael Nadal,Round of 64,92,3,69,81,65,52,65,57,30,15,9,10,173,144,76,57,2,58,48,38,19,,0,9,22,4,12,173,143,43,24,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634232
+ATP World Tour Masters 1000 Paris,Rafael Nadal,David Ferrer,David Ferrer,S,98,1,69,68,38,28,38,14,,,,,,,59,32,3,68,72,56,31,,37,,,,,,,67,40,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=352&y=2013&r=6&p=F401
+US Open Slam,Rafael Nadal,Ryan Harrison,Rafael Nadal,Round of 128,126,3,72,82,55,28,55,71,28,21,25,31,175,141,75,45,11,62,72,29,18,,0,28,34,12,21,188,149,55,25,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634164
+Barcelona,Rafael Nadal,Nicolas Almagro,Rafael Nadal,F,92,1,70,70,50,38,50,44,,,,,,,64,44,2,60,61,45,29,,40,,,,,,,55,35,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=425&y=2013&r=7&p=N409
+ATP World Tour Masters 1000 Madrid,Rafael Nadal,Benoit Paire,Rafael Nadal,R32,87,3,79,74,75,23,75,28,,,,,,,74,39,6,49,76,45,25,,0,,,,,,,60,25,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2013&r=3&p=N409
+Australian Open Slam,Rafael Nadal,Kei Nishikori,Rafael Nadal,Round of 16,197,12,71,76,39,33,39,63,36,28,10,19,185,148,65,42,2,66,67,41,24,,40,36,51,20,25,178,148,58,35,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704401
+ATP World Tour Masters 1000 Madrid,Rafael Nadal,David Ferrer,Rafael Nadal,Q,157,2,71,64,32,43,32,53,,,,,,,55,52,0,48,56,40,35,,45,,,,,,,47,44,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2013&r=5&p=N409
+US Open Slam,Rafael Nadal,Philipp Kohlschreiber,Rafael Nadal,Round of 16,192,3,66,76,70,34,70,24,48,29,23,31,172,136,74,40,12,63,66,50,24,,0,49,47,22,34,181,143,60,26,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634408
+Australian Open Slam,Rafael Nadal,Gael Monfils,Rafael Nadal,Round of 32,124,2,67,72,77,43,77,50,21,18,9,13,182,143,73,50,10,69,57,33,28,,0,33,57,4,9,190,154,50,27,http://www.tennisinsight.com/match_stats_popup.php?matchID=183704301
+ATP World Tour Masters 1000 Madrid,Rafael Nadal,Pablo Andujar,Rafael Nadal,S,77,2,60,78,72,40,72,57,,,,,,,76,48,0,65,59,35,21,,0,,,,,,,51,23,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2013&r=6&p=N409
+ATP World Tour Masters 1000 Rome,Rafael Nadal,Fabio Fognini,Rafael Nadal,R32,61,0,79,76,66,54,66,45,,,,,,,74,56,0,71,45,38,23,,33,,,,,,,43,25,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2013&r=3&p=N409
+Barclays ATP World Tour Finals,Rafael Nadal,Novak Djokovic,Novak Djokovic,F,96,1,73,57,50,31,50,33,,,,,,,55,31,6,65,68,70,42,,27,,,,,,,68,44,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=605&y=2013&r=7&p=D643
+Doha,Rafael Nadal,Lukas Rosol,Rafael Nadal,R32,104,3,68,67,58,43,58,50,,,,,,,64,45,3,57,56,52,32,,20,,,,,,,54,35,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=451&y=2014&r=3&p=N409
+ATP World Tour Masters 1000 Rome,Rafael Nadal,David Ferrer,Rafael Nadal,Q,166,1,69,66,34,40,34,50,,,,,,,56,45,1,66,59,47,33,,18,,,,,,,55,43,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2013&r=5&p=N409
+ATP World Tour Masters 1000 Rome,Rafael Nadal,Ernests Gulbis,Rafael Nadal,R16,158,0,76,62,45,28,45,36,,,,,,,58,40,15,60,71,41,37,,44,,,,,,,59,41,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2013&r=4&p=N409
+Barclays ATP World Tour Finals,Rafael Nadal,Roger Federer,Rafael Nadal,S,80,2,76,74,69,30,69,100,,,,,,,73,40,6,66,69,40,25,,25,,,,,,,59,26,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=605&y=2013&r=6&p=N409
+ATP World Tour Masters 1000 Madrid,Rafael Nadal,Stan Wawrinka,Rafael Nadal,F,72,3,65,89,73,33,73,27,,,,,,,84,40,5,61,66,47,10,,0,,,,,,,59,15,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2013&r=7&p=N409
+Doha,Rafael Nadal,Tobias Kamke,Rafael Nadal,R16,146,5,73,73,62,27,62,25,,,,,,,70,38,3,54,72,50,26,,50,,,,,,,62,29,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=451&y=2014&r=4&p=N409
+ATP World Tour Masters 1000 Rome,Rafael Nadal,Roger Federer,Rafael Nadal,F,69,1,73,70,72,43,72,83,,,,,,,71,54,3,56,56,30,29,,50,,,,,,,45,28,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2013&r=7&p=N409
+ATP World Tour Masters 1000 Canada,Rafael Nadal,Novak Djokovic,Rafael Nadal,S,149,7,70,71,57,28,57,40,,,,,,,67,34,8,64,71,54,28,,33,,,,,,,65,32,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=421&y=2013&r=6&p=N409
+US Open Slam,Rafael Nadal,Ivan Dodig,Rafael Nadal,Round of 32,128,3,65,80,74,28,74,57,37,26,14,17,172,136,78,39,6,52,72,50,20,,0,19,28,13,27,185,149,61,22,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634316
+ATP World Tour Masters 1000 Rome,Rafael Nadal,Tomas Berdych,Rafael Nadal,S,78,0,77,77,100,40,100,75,,,,,,,82,41,5,62,60,55,22,,0,,,,,,,58,17,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2013&r=6&p=N409
+ATP World Tour Masters 1000 Canada,Rafael Nadal,Jesse Levine,Rafael Nadal,R32,72,3,61,75,61,48,61,50,,,,,,,70,56,2,50,51,35,24,,0,,,,,,,43,29,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=421&y=2013&r=3&p=N409
+ATP World Tour Masters 1000 Canada,Rafael Nadal,Milos Raonic,Rafael Nadal,F,68,4,70,78,91,39,91,100,,,,,,,82,47,4,50,60,43,21,,0,,,,,,,52,17,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=421&y=2013&r=7&p=N409
+ATP World Tour Masters 1000 Canada,Rafael Nadal,Jerzy Janowicz,Rafael Nadal,R16,110,6,70,66,63,33,63,42,,,,,,,65,41,6,48,66,50,33,,50,,,,,,,58,34,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=421&y=2013&r=4&p=N409
+ATP World Tour Masters 1000 Canada,Rafael Nadal,Marinko Matosevic,Rafael Nadal,Q,79,2,70,82,60,30,60,42,,,,,,,76,39,5,61,69,45,17,,0,,,,,,,60,24,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=421&y=2013&r=5&p=N409
+Doha,Rafael Nadal,Gael Monfils,Rafael Nadal,F,120,2,76,73,84,33,84,45,,,,,,,75,39,13,72,66,45,26,,20,,,,,,,60,24,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=451&y=2014&r=7&p=N409
+Rio de Janeiro,Rafael Nadal,Daniel Gimeno-Traver,Rafael Nadal,R32,101,1,57,77,65,30,65,50,,,,,,,72,42,5,56,69,42,22,,33,,,,,,,57,27,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=6932&y=2014&r=3&p=N409
+ATP World Tour Masters 1000 Cincinnati,Rafael Nadal,Roger Federer,Rafael Nadal,Q,134,3,73,73,60,32,60,22,,,,,,,70,34,4,63,67,62,26,,50,,,,,,,65,29,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=422&y=2013&r=5&p=N409
+Doha,Rafael Nadal,Ernests Gulbis,Rafael Nadal,Q,115,3,80,63,64,26,64,50,,,,,,,63,40,9,62,73,37,36,,40,,,,,,,59,36,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=451&y=2014&r=5&p=N409
+Rio de Janeiro,Rafael Nadal,Joao Sousa,Rafael Nadal,Q,76,4,70,72,50,43,50,50,,,,,,,65,57,1,52,56,25,27,,0,,,,,,,42,34,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=6932&y=2014&r=5&p=N409
+Rio de Janeiro,Rafael Nadal,Albert Montanes,Rafael Nadal,R16,75,0,64,63,55,55,55,60,,,,,,,60,59,0,63,44,33,36,,33,,,,,,,40,39,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=6932&y=2014&r=4&p=N409
+ATP World Tour Masters 1000 Cincinnati,Rafael Nadal,John Isner,Rafael Nadal,F,115,6,72,83,71,25,71,0,,,,,,,80,27,11,76,74,68,16,,0,,,,,,,72,19,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=422&y=2013&r=7&p=N409
+ATP World Tour Masters 1000 Cincinnati,Rafael Nadal,Benjamin Becker,Rafael Nadal,R32,78,3,52,95,60,33,60,33,,,,,,,78,48,2,52,66,34,4,,0,,,,,,,51,21,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=422&y=2013&r=3&p=N409
+Doha,Rafael Nadal,Peter Gojowczyk,Rafael Nadal,S,120,5,63,76,42,36,42,37,,,,,,,63,45,1,54,63,44,23,,75,,,,,,,54,36,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=451&y=2014&r=6&p=N409
+Rio de Janeiro,Rafael Nadal,Pablo Andujar,Rafael Nadal,S,167,4,59,72,44,32,44,50,,,,,,,61,34,0,76,67,59,27,,21,,,,,,,65,38,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=6932&y=2014&r=6&p=N409
+ATP World Tour Masters 1000 Cincinnati,Rafael Nadal,Tomas Berdych,Rafael Nadal,S,126,7,71,75,60,17,60,50,,,,,,,71,38,6,52,82,38,24,,16,,,,,,,61,28,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=422&y=2013&r=6&p=N409
+ATP World Tour Masters 1000 Indian Wells,Rafael Nadal,Radek Stepanek,Rafael Nadal,R64,144,2,65,83,39,27,39,30,,,,,,,67,39,12,56,72,45,16,,37,,,,,,,60,32,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=404&y=2014&r=2&p=N409
+Rio de Janeiro,Rafael Nadal,Alexandr Dolgopolov,Rafael Nadal,F,101,3,63,79,56,26,56,66,,,,,,,70,41,10,44,73,45,20,,25,,,,,,,58,29,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=6932&y=2014&r=7&p=N409
+Beijing,Rafael Nadal,Novak Djokovic,Novak Djokovic,F,87,2,65,79,33,9,33,0,,,,,,,63,13,5,71,90,76,20,,50,,,,,,,86,36,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=747&y=2013&r=7&p=D643
+Beijing,Rafael Nadal,Tomas Berdych,Rafael Nadal,S,37,0,57,45,62,33,62,66,,,,,,,52,57,1,63,66,0,54,,50,,,,,,,42,47,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=747&y=2013&r=6&p=N409
+Beijing,Rafael Nadal,Philipp Kohlschreiber,Rafael Nadal,R16,115,3,60,67,60,26,60,60,,,,,,,64,39,2,50,73,47,32,,33,,,,,,,60,35,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=747&y=2013&r=4&p=N409
+ATP World Tour Masters 1000 Cincinnati,Rafael Nadal,Grigor Dimitrov,Rafael Nadal,R16,122,4,73,70,47,29,47,50,,,,,,,64,39,12,65,70,41,29,,40,,,,,,,60,35,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=422&y=2013&r=4&p=N409
+ATP World Tour Masters 1000 Indian Wells,Rafael Nadal,Alexandr Dolgopolov,Alexandr Dolgopolov,R32,139,2,63,70,53,23,53,66,,,,,,,64,40,11,40,76,47,29,,80,,,,,,,59,35,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=404&y=2014&r=3&p=D801
+Beijing,Rafael Nadal,Fabio Fognini,Rafael Nadal,Q,135,3,63,62,44,43,44,42,,,,,,,55,47,3,63,56,44,38,,50,,,,,,,52,44,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=747&y=2013&r=5&p=N409
+ATP World Tour Masters 1000 Miami,Rafael Nadal,Lleyton Hewitt,Rafael Nadal,R64,69,1,62,80,86,48,86,80,,,,,,,82,48,3,74,51,53,20,,0,,,,,,,52,17,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=403&y=2014&r=2&p=N409
+ATP World Tour Masters 1000 Miami,Rafael Nadal,Denis Istomin,Rafael Nadal,R32,60,3,77,70,87,56,87,85,,,,,,,74,63,4,56,44,26,29,,0,,,,,,,36,25,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=403&y=2014&r=3&p=N409
+ATP World Tour Masters 1000 Shanghai,Rafael Nadal,Alexandr Dolgopolov,Rafael Nadal,R32,59,9,83,82,50,25,50,60,,,,,,,77,39,7,58,75,41,17,,0,,,,,,,60,22,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=5014&y=2013&r=3&p=N409
+ATP World Tour Masters 1000 Shanghai,Rafael Nadal,Stan Wawrinka,Rafael Nadal,Q,106,1,72,75,65,22,65,33,,,,,,,72,36,5,50,77,50,24,,0,,,,,,,63,27,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=5014&y=2013&r=5&p=N409
+ATP World Tour Masters 1000 Shanghai,Rafael Nadal,Carlos Berlocq,Rafael Nadal,R16,110,2,78,75,53,38,53,27,,,,,,,70,43,6,69,61,45,25,,0,,,,,,,56,29,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=5014&y=2013&r=4&p=N409
+ATP World Tour Masters 1000 Miami,Rafael Nadal,Novak Djokovic,Novak Djokovic,F,84,2,71,59,46,14,46,0,,,,,,,55,22,5,71,85,57,40,,75,,,,,,,77,44,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=403&y=2014&r=7&p=D643
+ATP World Tour Masters 1000 Shanghai,Rafael Nadal,Juan Martin Del Potro,Juan Martin Del Potro,S,106,0,70,55,60,34,60,0,,,,,,,56,33,5,80,65,69,44,,27,,,,,,,66,43,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=5014&y=2013&r=6&p=D683
+ATP World Tour Masters 1000 Paris,Rafael Nadal,Marcel Granollers,Rafael Nadal,R32,102,2,72,86,64,31,64,33,,,,,,,80,38,5,58,68,50,13,,0,,,,,,,61,19,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=352&y=2013&r=3&p=N409
+ATP World Tour Masters 1000 Miami,Rafael Nadal,Fabio Fognini,Rafael Nadal,R16,62,3,65,95,83,37,83,50,,,,,,,91,45,2,56,62,42,4,,0,,,,,,,54,8,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=403&y=2014&r=4&p=N409
+French Open Slam,Rafael Nadal,Stan Wawrinka,Rafael Nadal,Quarter Final,116,5,75,73,61,42,61,58,31,17,"
+								","
+								",182,141,70,52,3,60,58,34,27,,20,23,40,"
+                            ","
+                            ",187,163,48,30,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224502
+ATP World Tour Masters 1000 Miami,Rafael Nadal,Milos Raonic,Rafael Nadal,Q,156,2,75,74,57,24,57,33,,,,,,,70,40,8,55,75,39,25,,33,,,,,,,59,29,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=403&y=2014&r=5&p=N409
+ATP World Tour Masters 1000 Paris,Rafael Nadal,Jerzy Janowicz,Rafael Nadal,R16,103,4,73,67,57,33,57,50,,,,,,,65,37,8,69,66,52,32,,14,,,,,,,62,35,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=352&y=2013&r=4&p=N409
+ATP World Tour Masters 1000 Miami,Rafael Nadal,Tomas Berdych,Rafael Nadal,S,0,0,0,0,0,0,0,0,,,,,,,0,0,0,0,0,0,0,,0,,,,,,,0,0,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=403&y=2014&r=6&p=N409
+French Open Slam,Rafael Nadal,Fabio Fognini,Rafael Nadal,Round of 32,165,5,78,64,61,45,61,28,24,40,"
+								","
+								",174,135,63,43,3,67,55,60,36,,27,47,59,"
+                            ","
+                            ",175,144,57,37,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224305
+ATP World Tour Masters 1000 Monte Carlo,Rafael Nadal,David Ferrer,David Ferrer,Q,134,1,61,59,45,40,45,30,,,,,,,53,41,1,61,60,57,40,,40,,,,,,,58,46,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=410&y=2014&r=5&p=F401
+French Open Slam,Rafael Nadal,Kei Nishikori,Rafael Nadal,Round of 16,122,1,69,72,67,47,67,63,20,25,"
+								","
+								",176,139,71,46,0,65,53,56,28,,0,14,39,"
+                            ","
+                            ",169,139,54,29,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224403
+Barcelona,Rafael Nadal,Albert Ramos,Rafael Nadal,R32,117,1,72,68,63,35,63,100,,,,,,,67,44,1,59,65,40,31,,50,,,,,,,55,32,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=425&y=2014&r=3&p=N409
+ATP World Tour Masters 1000 Monte Carlo,Rafael Nadal,Teymuraz Gabashvili,Rafael Nadal,R32,73,2,75,79,23,52,23,100,,,,,,,65,61,1,50,47,28,20,,50,,,,,,,38,34,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=410&y=2014&r=3&p=N409
+French Open Slam,Rafael Nadal,Martin Klizan,Rafael Nadal,Round of 64,164,5,74,74,38,48,38,70,27,29,"
+								","
+								",171,136,65,47,6,56,52,56,26,,57,32,57,"
+                            ","
+                            ",178,142,53,35,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224209
+ATP World Tour Masters 1000 Monte Carlo,Rafael Nadal,Andreas Seppi,Rafael Nadal,R16,74,2,64,82,43,44,43,100,,,,,,,68,55,1,55,55,31,17,,16,,,,,,,44,31,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=410&y=2014&r=4&p=N409
+Barcelona,Rafael Nadal,Ivan Dodig,Rafael Nadal,R16,84,1,75,69,75,34,75,50,,,,,,,70,47,5,56,65,36,30,,100,,,,,,,52,29,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=425&y=2014&r=4&p=N409
+French Open Slam,Rafael Nadal,Daniel Brands,Rafael Nadal,Round of 128,174,2,84,78,67,37,67,38,40,26,"
+								","
+								",173,139,76,38,10,74,63,59,22,,25,51,53,"
+                            ","
+                            ",197,162,62,24,http://www.tennisinsight.com/match_stats_popup.php?matchID=180224117
+Barcelona,Rafael Nadal,Nicolas Almagro,Nicolas Almagro,Q,167,2,67,70,46,33,46,27,,,,,,,62,43,4,53,66,44,29,,57,,,,,,,56,37,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=425&y=2014&r=5&p=A479
+ATP World Tour Masters 1000 Madrid,Rafael Nadal,Roberto Bautista Agut,Rafael Nadal,S,103,2,68,71,56,40,56,38,,,,,,,66,49,0,71,60,27,28,,50,,,,,,,50,33,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2014&r=6&p=N409
+ATP World Tour Masters 1000 Rome,Rafael Nadal,Gilles Simon,Rafael Nadal,R32,199,4,78,61,56,37,56,46,,,,,,,60,44,7,59,62,44,38,,40,,,,,,,55,39,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2014&r=3&p=N409
+ATP World Tour Masters 1000 Rome,Rafael Nadal,Mikhail Youzhny,Rafael Nadal,R16,164,1,75,73,29,47,29,40,,,,,,,62,48,0,71,52,51,26,,22,,,,,,,51,37,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2014&r=4&p=N409
+ATP World Tour Masters 1000 Madrid,Rafael Nadal,Jarkko Nieminen,Rafael Nadal,R16,80,2,74,65,61,43,61,45,,,,,,,64,51,2,78,56,18,34,,25,,,,,,,48,35,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2014&r=4&p=N409
+US Open Slam,Rafael Nadal,Tommy Robredo,Rafael Nadal,Quarter Final,100,2,61,86,61,41,61,70,28,15,15,16,173,135,76,56,3,52,59,28,14,,0,10,21,7,15,185,146,44,24,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634504
+ATP World Tour Masters 1000 Madrid,Rafael Nadal,Tomas Berdych,Rafael Nadal,Q,88,4,75,78,53,41,53,60,,,,,,,72,41,0,70,58,56,21,,0,,,,,,,58,27,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2014&r=5&p=N409
+ATP World Tour Masters 1000 Madrid,Rafael Nadal,Juan Monaco,Rafael Nadal,R32,69,3,79,68,55,63,55,60,,,,,,,65,71,0,57,36,18,31,,50,,,,,,,28,34,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2014&r=3&p=N409
+ATP World Tour Masters 1000 Rome,Rafael Nadal,Andy Murray,Rafael Nadal,Q,161,6,70,67,52,30,52,33,,,,,,,62,43,5,64,69,31,32,,40,,,,,,,56,37,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2014&r=5&p=N409
+US Open Slam,Rafael Nadal,Richard Gasquet,Rafael Nadal,Semi Final,141,3,71,76,57,29,57,100,35,24,22,28,177,138,71,38,6,64,71,45,24,,17,26,32,24,35,178,141,62,29,http://www.tennisinsight.com/match_stats_popup.php?matchID=181634602
+ATP World Tour Masters 1000 Madrid,Rafael Nadal,Kei Nishikori,Rafael Nadal,F,103,4,78,72,58,34,58,33,,,,,,,69,41,2,58,65,48,27,,50,,,,,,,58,30,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=1536&y=2014&r=7&p=N409
+ATP World Tour Masters 1000 Rome,Rafael Nadal,Grigor Dimitrov,Rafael Nadal,S,83,1,80,65,72,41,72,57,,,,,,,67,54,2,63,58,23,34,,0,,,,,,,45,32,http://www.atpworldtour.com/Share/Match-Facts-Pop-Up.aspx?t=416&y=2014&r=6&p=N409
