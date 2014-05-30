@@ -1,0 +1,84 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,outlier,odds,winner,date,tournament,t_round,id,cluster
+51.0,35.0,Marinko Matosevic,false,$1.105,Marin Cilic,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,1.0,cluster_4
+79.0,41.0,Edouard Roger-Vasselin,false,$1.189,Edouard Roger-Vasselin,Mar 3 2014,ATP World Tour Masters 1000 Miami,R64,2.0,cluster_3
+65.0,35.0,Novak Djokovic,false,$5.489,Novak Djokovic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,3.0,cluster_1
+58.0,26.0,Tommy Robredo,false,$1.341,Marin Cilic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,4.0,cluster_2
+44.0,29.0,Paolo Lorenzi,false,$1.126,Marin Cilic,Feb 17 2014,ATP World Tour Masters 1000 Indian Wells,R64,5.0,cluster_4
+61.0,34.0,Kevin Anderson,false,$1.357,Marin Cilic,Feb 17 2014,Delray Beach,F,6.0,cluster_1
+61.0,25.0,John Isner,false,$1.470,Marin Cilic,Feb 17 2014,Delray Beach,S,7.0,cluster_2
+42.0,42.0,Teymuraz Gabashvili,false,$1.119,Marin Cilic,Feb 17 2014,Delray Beach,Q,8.0,cluster_4
+64.0,22.0,Ryan Harrison,false,$1.192,Marin Cilic,Feb 17 2014,Delray Beach,R16,9.0,cluster_2
+45.0,26.0,Benjamin Becker,false,$1.208,Marin Cilic,Feb 10 2014,Delray Beach,R32,10.0,cluster_4
+76.0,40.0,Tomas Berdych,false,$2.962,Tomas Berdych,Feb 10 2014,Rotterdam,F,11.0,cluster_3
+59.0,29.0,Igor Sijsling,false,$1.357,Marin Cilic,Feb 10 2014,Rotterdam,S,12.0,cluster_1
+70.0,27.0,Andy Murray,false,$2.752,Marin Cilic,Feb 10 2014,Rotterdam,Q,13.0,cluster_3
+66.0,20.0,Jo-Wilfried Tsonga,false,$2.619,Marin Cilic,Feb 10 2014,Rotterdam,R16,14.0,cluster_2
+48.0,28.0,Lukas Rosol,false,$1.207,Marin Cilic,Feb 3 2014,Rotterdam,R32,15.0,cluster_4
+58.0,33.0,Tommy Haas,false,$1.530,Marin Cilic,Feb 3 2014,Zagreb,F,16.0,cluster_1
+51.0,36.0,Bjorn Phau,false,$1.134,Marin Cilic,Feb 3 2014,Zagreb,S,17.0,cluster_4
+60.0,35.0,Ivan Dodig,false,$1.598,Marin Cilic,Feb 3 2014,Zagreb,Q,18.0,cluster_1
+56.0,30.0,Dusan Lajovic,false,$1.103,Marin Cilic,Feb 3 2014,Zagreb,R16,19.0,cluster_1
+62.0,18.0,Mate Delic,false,$1.041,Marin Cilic,Jan 13 2014,Zagreb,R32,20.0,cluster_2
+59.0,44.0,Gilles Simon,false,$1.275,Gilles Simon,Jan 13 2014,Australian Open Slam,Round of 64,21.0,cluster_0
+61.0,28.0,Marcel Granollers,false,$1.209,Marin Cilic,Jan 6 2014,Australian Open Slam,Round of 128,22.0,cluster_1
+71.0,38.0,Denis Istomin,false,$1.464,Denis Istomin,Jan 6 2014,Sydney,R16,23.0,cluster_3
+62.0,30.0,Jan-Lennard Struff,false,$1.186,Marin Cilic,Dec 30 2013,Sydney,R32,24.0,cluster_1
+67.0,40.0,Kei Nishikori,false,$1.816,Kei Nishikori,Dec 30 2013,Brisbane,Q,25.0,cluster_0
+66.0,27.0,Grigor Dimitrov,false,$2.394,Marin Cilic,Dec 30 2013,Brisbane,R16,26.0,cluster_2
+74.0,29.0,Denis Istomin,false,$1.404,Marin Cilic,Oct 28 2013,Brisbane,R32,27.0,cluster_3
+74.0,37.0,Juan Martin Del Potro,false,$3.824,Juan Martin Del Potro,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,28.0,cluster_3
+61.0,28.0,Igor Sijsling,false,$1.900,Marin Cilic,Jun 24 2013,ATP World Tour Masters 1000 Paris,R64,29.0,cluster_1
+66.0,24.0,Marcos Baghdatis,false,$1.224,Marin Cilic,Jun 10 2013,Wimbledon Slam,Round of 128,30.0,cluster_2
+70.0,36.0,Andy Murray,false,$4.996,Andy Murray,Jun 10 2013,London / Queen's Club,F,31.0,cluster_3
+55.0,36.0,Lleyton Hewitt,false,$1.713,Marin Cilic,Jun 10 2013,London / Queen's Club,S,32.0,cluster_1
+70.0,29.0,Tomas Berdych,false,$3.326,Marin Cilic,Jun 10 2013,London / Queen's Club,Q,33.0,cluster_3
+67.0,33.0,Feliciano Lopez,false,$1.420,Marin Cilic,Jun 10 2013,London / Queen's Club,R16,34.0,cluster_3
+59.0,22.0,Ivan Dodig,false,$1.388,Marin Cilic,May 27 2013,London / Queen's Club,R32,35.0,cluster_2
+64.0,40.0,Viktor Troicki,false,$1.279,Viktor Troicki,May 21 2014,French Open Slam,Round of 32,36.0,cluster_0
+54.0,20.0,Nick Kyrgios,false,$1.072,Marin Cilic,May 27 2013,French Open Slam,Round of 64,37.0,cluster_2
+47.0,23.0,Philipp Petzschner,false,$1.072,Marin Cilic,May 27 2013,French Open Slam,Round of 128,38.0,cluster_4
+70.0,36.0,Kevin Anderson,false,$1.528,Kevin Anderson,May 12 2013,ATP World Tour Masters 1000 Rome,R32,39.0,cluster_3
+60.0,28.0,Andrey Golubev,false,$1.171,Marin Cilic,May 12 2013,ATP World Tour Masters 1000 Rome,R64,40.0,cluster_1
+70.0,32.0,Pablo Andujar,false,$1.279,Pablo Andujar,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,41.0,cluster_3
+66.0,45.0,Ivan Dodig,false,$1.224,Ivan Dodig,Apr 29 2013,Munich,R16,42.0,cluster_0
+61.0,46.0,Richard Gasquet,false,$2.370,Richard Gasquet,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R16,43.0,cluster_0
+51.0,27.0,Kevin Anderson,false,$1.369,Marin Cilic,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,44.0,cluster_4
+51.0,36.0,Horacio Zeballos,false,$1.283,Marin Cilic,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,45.0,cluster_4
+58.0,54.0,Andy Murray,false,$5.248,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,Q,46.0,cluster_0
+59.0,24.0,Jo-Wilfried Tsonga,false,$2.791,Marin Cilic,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,47.0,cluster_2
+61.0,22.0,John Isner,false,$1.598,Marin Cilic,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,48.0,cluster_2
+57.0,35.0,Santiago Giraldo,false,$1.233,Marin Cilic,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,49.0,cluster_1
+67.0,34.0,Milos Raonic,false,$2.096,Milos Raonic,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,50.0,cluster_3
+67.0,20.0,Albert Ramos,false,$1.240,Marin Cilic,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,51.0,cluster_2
+68.0,43.0,Kei Nishikori,false,$1.799,Kei Nishikori,Feb 18 2013,Memphis,Q,52.0,cluster_0
+66.0,31.0,Igor Sijsling,false,$1.216,Marin Cilic,Feb 18 2013,Memphis,R16,53.0,cluster_3
+59.0,25.0,Ivan Dodig,false,$1.260,Marin Cilic,Feb 18 2013,Memphis,R32,54.0,cluster_2
+50.0,19.0,Jurgen Melzer,false,$1.243,Marin Cilic,Feb 4 2013,Zagreb,F,55.0,cluster_2
+56.0,37.0,Mikhail Youzhny,false,$1.609,Marin Cilic,Feb 4 2013,Zagreb,S,56.0,cluster_1
+61.0,34.0,Blaz Kavcic,false,$1.059,Marin Cilic,Feb 4 2013,Zagreb,Q,57.0,cluster_1
+56.0,24.0,Grega Zemlja,false,$1.135,Marin Cilic,Feb 4 2013,Zagreb,R16,58.0,cluster_2
+59.0,42.0,Andreas Seppi,false,$1.437,Andreas Seppi,Jan 14 2013,Australian Open Slam,Round of 32,59.0,cluster_0
+60.0,20.0,Rajeev Ram,false,$1.075,Marin Cilic,Jan 14 2013,Australian Open Slam,Round of 64,60.0,cluster_2
+60.0,31.0,Marinko Matosevic,false,$1.187,Marin Cilic,Jan 14 2013,Australian Open Slam,Round of 128,61.0,cluster_1
+59.0,37.0,Benoit Paire,false,$1.369,Benoit Paire,Dec 31 2012,Chennai,Q,62.0,cluster_1
+61.0,26.0,Sergiy Stakhovsky,false,$1.231,Marin Cilic,Dec 31 2012,Chennai,R16,63.0,cluster_2
+81.0,35.0,Jerzy Janowicz,false,$1.350,Jerzy Janowicz,Oct 29 2012,ATP World Tour Masters 1000 Paris,R32,64.0,cluster_3
+61.0,45.0,Ivan Dodig,false,$1.264,Ivan Dodig,Oct 21 2012,Valencia,Q,65.0,cluster_0
+51.0,24.0,Fernando Verdasco,false,$1.623,Marin Cilic,Oct 21 2012,Valencia,R16,66.0,cluster_2
+53.0,38.0,Martin Klizan,false,$1.257,Marin Cilic,Oct 21 2012,Valencia,R32,67.0,cluster_4
+61.0,51.0,Roger Federer,false,$6.968,Roger Federer,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,Q,68.0,cluster_0
+59.0,31.0,Fernando Verdasco,false,$1.705,Marin Cilic,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R16,69.0,cluster_1
+50.0,37.0,Martin Klizan,false,$1.343,Marin Cilic,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R32,70.0,cluster_4
+55.0,35.0,Lukasz Kubot,false,$1.203,Marin Cilic,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R64,71.0,cluster_1
+59.0,39.0,Marius Copil,false,$1.048,Marius Copil,Oct 1 2012,Beijing,R32,72.0,cluster_1
+61.0,48.0,Andy Murray,false,$6.430,Andy Murray,Aug 27 2012,US Open Slam,Quarter Final,73.0,cluster_0
+53.0,36.0,Martin Klizan,false,$1.289,Marin Cilic,Aug 27 2012,US Open Slam,Round of 16,74.0,cluster_4
+63.0,30.0,Kei Nishikori,false,$2.238,Marin Cilic,Aug 27 2012,US Open Slam,Round of 32,75.0,cluster_1
+61.0,25.0,Daniel Brands,false,$1.053,Marin Cilic,Aug 27 2012,US Open Slam,Round of 64,76.0,cluster_2
+60.0,35.0,Marinko Matosevic,false,$1.085,Marin Cilic,Aug 27 2012,US Open Slam,Round of 128,77.0,cluster_1
+74.0,48.0,Novak Djokovic,false,$7.892,Novak Djokovic,Aug 13 2012,ATP World Tour Masters 1000 Cincinnati,Q,78.0,cluster_0
+48.0,39.0,Pablo Andujar,false,$1.162,Marin Cilic,Aug 13 2012,ATP World Tour Masters 1000 Cincinnati,R16,79.0,cluster_4
+61.0,32.0,Jesse Levine,false,$1.162,Marin Cilic,Aug 13 2012,ATP World Tour Masters 1000 Cincinnati,R32,80.0,cluster_1
+60.0,32.0,Sergiy Stakhovsky,false,$1.231,Marin Cilic,Aug 13 2012,ATP World Tour Masters 1000 Cincinnati,R64,81.0,cluster_1
+70.0,42.0,Janko Tipsarevic,false,$1.769,Janko Tipsarevic,Aug 6 2012,ATP World Tour Masters 1000 Canada,R16,82.0,cluster_0
+56.0,35.0,Marcos Baghdatis,false,$1.580,Marin Cilic,Aug 6 2012,ATP World Tour Masters 1000 Canada,R32,83.0,cluster_1

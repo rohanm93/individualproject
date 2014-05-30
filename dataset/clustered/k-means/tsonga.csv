@@ -1,0 +1,72 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,outlier,odds,winner,date,tournament,t_round,id,cluster
+53.0,26.0,Roger Federer,false,$2.480,Jo-Wilfried Tsonga,May 27 2013,French Open Slam,Quarter Final,1.0,cluster_4
+73.0,27.0,Kevin Anderson,false,$1.397,Jo-Wilfried Tsonga,May 12 2014,ATP World Tour Masters 1000 Rome,R32,2.0,cluster_1
+56.0,26.0,Viktor Troicki,false,$1.097,Jo-Wilfried Tsonga,May 27 2013,French Open Slam,Round of 16,3.0,cluster_2
+65.0,31.0,Alexandr Dolgopolov,false,$2.014,Jo-Wilfried Tsonga,May 12 2014,ATP World Tour Masters 1000 Rome,R64,4.0,cluster_1
+75.0,36.0,Santiago Giraldo,false,$1.479,Santiago Giraldo,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,5.0,cluster_1
+61.0,21.0,Jeremy Chardy,false,$1.276,Jo-Wilfried Tsonga,May 27 2013,French Open Slam,Round of 32,6.0,cluster_2
+61.0,21.0,Jarkko Nieminen,false,$1.130,Jo-Wilfried Tsonga,May 27 2013,French Open Slam,Round of 64,7.0,cluster_2
+55.0,35.0,Edouard Roger-Vasselin,false,$1.261,Jo-Wilfried Tsonga,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,8.0,cluster_4
+65.0,43.0,Roger Federer,false,$4.118,Roger Federer,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,Q,9.0,cluster_3
+52.0,36.0,Fabio Fognini,false,$2.270,Jo-Wilfried Tsonga,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,10.0,cluster_4
+50.0,31.0,Aljaz Bedene,false,$1.087,Jo-Wilfried Tsonga,May 27 2013,French Open Slam,Round of 128,11.0,cluster_4
+74.0,28.0,Jerzy Janowicz,false,$1.349,Jerzy Janowicz,May 12 2013,ATP World Tour Masters 1000 Rome,R32,12.0,cluster_1
+63.0,33.0,Philipp Kohlschreiber,false,$1.571,Jo-Wilfried Tsonga,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,13.0,cluster_1
+60.0,21.0,Tobias Kamke,false,$1.176,Jo-Wilfried Tsonga,Apr 4 2014,Davis Cup,Reverse Singles,14.0,cluster_2
+67.0,26.0,Peter Gojowczyk,false,$1.057,Peter Gojowczyk,Apr 4 2014,Davis Cup,Singles,15.0,cluster_1
+64.0,43.0,Stan Wawrinka,false,$2.428,Stan Wawrinka,May 5 2013,ATP World Tour Masters 1000 Madrid,Q,16.0,cluster_3
+63.0,31.0,Fernando Verdasco,false,$1.389,Jo-Wilfried Tsonga,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,17.0,cluster_2
+63.0,28.0,Robin Haase,false,$1.228,Jo-Wilfried Tsonga,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,18.0,cluster_2
+68.0,44.0,Rafael Nadal,false,$7.895,Rafael Nadal,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,S,19.0,cluster_3
+84.0,50.0,Andy Murray,false,$3.114,Andy Murray,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,20.0,cluster_0
+71.0,33.0,Marcos Baghdatis,false,$1.188,Jo-Wilfried Tsonga,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,21.0,cluster_1
+56.0,21.0,Adrian Mannarino,false,$1.153,Jo-Wilfried Tsonga,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,22.0,cluster_2
+65.0,37.0,Stan Wawrinka,false,$2.125,Jo-Wilfried Tsonga,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,Q,23.0,cluster_3
+45.0,23.0,Jurgen Melzer,false,$1.229,Jo-Wilfried Tsonga,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R16,24.0,cluster_4
+58.0,30.0,Nikolay Davydenko,false,$1.351,Jo-Wilfried Tsonga,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,25.0,cluster_2
+75.0,40.0,Marin Cilic,false,$1.518,Marin Cilic,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,26.0,cluster_0
+64.0,43.0,Julien Benneteau,false,$1.252,Julien Benneteau,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,27.0,cluster_3
+70.0,37.0,Tomas Berdych,false,$3.397,Tomas Berdych,Feb 24 2014,Dubai,Q,28.0,cluster_1
+50.0,27.0,Victor Hanescu,false,$1.178,Jo-Wilfried Tsonga,Feb 24 2014,Dubai,R32,29.0,cluster_4
+54.0,25.0,Jarkko Nieminen,false,$1.287,Jo-Wilfried Tsonga,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,30.0,cluster_2
+54.0,38.0,Viktor Troicki,false,$1.179,Jo-Wilfried Tsonga,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,31.0,cluster_4
+86.0,50.0,Novak Djokovic,false,$8.616,Novak Djokovic,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,Q,32.0,cluster_0
+77.0,31.0,Ernests Gulbis,false,$1.703,Ernests Gulbis,Feb 17 2014,Marseille,F,33.0,cluster_1
+75.0,27.0,Milos Raonic,false,$1.780,Jo-Wilfried Tsonga,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,34.0,cluster_1
+57.0,36.0,Mardy Fish,false,$1.202,Jo-Wilfried Tsonga,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,35.0,cluster_4
+63.0,23.0,Jan-Lennard Struff,false,$1.174,Jo-Wilfried Tsonga,Feb 17 2014,Marseille,S,36.0,cluster_2
+58.0,38.0,James Blake,false,$1.183,Jo-Wilfried Tsonga,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,37.0,cluster_3
+62.0,27.0,Edouard Roger-Vasselin,false,$1.202,Jo-Wilfried Tsonga,Feb 17 2014,Marseille,Q,38.0,cluster_2
+70.0,28.0,Nikolay Davydenko,false,$1.196,Jo-Wilfried Tsonga,Feb 17 2014,Marseille,R16,39.0,cluster_1
+70.0,39.0,Michael Llodra,false,$1.256,Michael Llodra,Feb 25 2013,Dubai,R32,40.0,cluster_3
+79.0,33.0,Marin Cilic,false,$1.574,Marin Cilic,Feb 10 2014,Rotterdam,R16,41.0,cluster_1
+75.0,33.0,Tomas Berdych,false,$2.270,Jo-Wilfried Tsonga,Feb 18 2013,Marseille,F,42.0,cluster_1
+53.0,23.0,Gilles Simon,false,$1.518,Jo-Wilfried Tsonga,Feb 18 2013,Marseille,S,43.0,cluster_2
+57.0,28.0,Florian Mayer,false,$1.208,Jo-Wilfried Tsonga,Feb 10 2014,Rotterdam,R32,44.0,cluster_2
+80.0,38.0,Roger Federer,false,$2.460,Roger Federer,Jan 13 2014,Australian Open Slam,Round of 16,45.0,cluster_0
+64.0,24.0,Bernard Tomic,false,$1.268,Jo-Wilfried Tsonga,Feb 18 2013,Marseille,Q,46.0,cluster_2
+60.0,28.0,Nikolay Davydenko,false,$1.361,Jo-Wilfried Tsonga,Feb 18 2013,Marseille,R16,47.0,cluster_2
+69.0,25.0,Gilles Simon,false,$1.153,Jo-Wilfried Tsonga,Jan 13 2014,Australian Open Slam,Round of 32,48.0,cluster_1
+61.0,25.0,Thomaz Bellucci,false,$1.089,Jo-Wilfried Tsonga,Jan 13 2014,Australian Open Slam,Round of 64,49.0,cluster_2
+56.0,27.0,Filippo Volandri,false,$1.011,Jo-Wilfried Tsonga,Jan 13 2014,Australian Open Slam,Round of 128,50.0,cluster_2
+68.0,31.0,Igor Sijsling,false,$1.129,Igor Sijsling,Feb 11 2013,Rotterdam,R32,51.0,cluster_1
+69.0,34.0,Roger Federer,false,$5.448,Roger Federer,Jan 14 2013,Australian Open Slam,Quarter Final,52.0,cluster_1
+66.0,30.0,Richard Gasquet,false,$1.515,Jo-Wilfried Tsonga,Jan 14 2013,Australian Open Slam,Round of 16,53.0,cluster_1
+47.0,28.0,Blaz Kavcic,false,$1.020,Jo-Wilfried Tsonga,Jan 14 2013,Australian Open Slam,Round of 32,54.0,cluster_4
+67.0,35.0,Kei Nishikori,false,$1.456,Kei Nishikori,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,55.0,cluster_1
+66.0,39.0,Robin Haase,false,$1.240,Robin Haase,Oct 14 2013,Vienna,S,56.0,cluster_3
+67.0,28.0,Go Soeda,false,$1.056,Jo-Wilfried Tsonga,Jan 14 2013,Australian Open Slam,Round of 64,57.0,cluster_1
+62.0,25.0,Michael Llodra,false,$1.103,Jo-Wilfried Tsonga,Jan 14 2013,Australian Open Slam,Round of 128,58.0,cluster_2
+66.0,31.0,Dominic Thiem,false,$1.113,Jo-Wilfried Tsonga,Oct 14 2013,Vienna,Q,59.0,cluster_1
+68.0,30.0,Daniel Brands,false,$1.214,Jo-Wilfried Tsonga,Oct 14 2013,Vienna,R16,60.0,cluster_1
+65.0,51.0,Novak Djokovic,false,$5.684,Novak Djokovic,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,S,61.0,cluster_3
+58.0,28.0,Florian Mayer,false,$1.347,Jo-Wilfried Tsonga,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,Q,62.0,cluster_2
+73.0,37.0,David Ferrer,false,$1.787,David Ferrer,Oct 29 2012,ATP World Tour Masters 1000 Paris,Q,63.0,cluster_1
+72.0,23.0,Nicolas Almagro,false,$1.220,Jo-Wilfried Tsonga,Oct 29 2012,ATP World Tour Masters 1000 Paris,R16,64.0,cluster_1
+53.0,21.0,Kei Nishikori,false,$1.671,Jo-Wilfried Tsonga,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R16,65.0,cluster_2
+50.0,34.0,Pablo Andujar,false,$1.091,Jo-Wilfried Tsonga,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,66.0,cluster_4
+72.0,29.0,Ivan Dodig,false,$1.437,Ivan Dodig,Sep 30 2013,Tokyo,R16,67.0,cluster_1
+63.0,30.0,Gael Monfils,false,$1.543,Jo-Wilfried Tsonga,Sep 30 2013,Tokyo,R32,68.0,cluster_2
+67.0,43.0,Gilles Simon,false,$1.415,Gilles Simon,Sep 16 2013,Metz,F,69.0,cluster_3
+61.0,29.0,Florian Mayer,false,$1.258,Jo-Wilfried Tsonga,Sep 16 2013,Metz,S,70.0,cluster_2
+62.0,29.0,Tobias Kamke,false,$1.119,Jo-Wilfried Tsonga,Sep 16 2013,Metz,Q,71.0,cluster_2
