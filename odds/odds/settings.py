@@ -11,5 +11,6 @@ BOT_NAME = 'odds'
 SPIDER_MODULES = ['odds.spiders']
 NEWSPIDER_MODULE = 'odds.spiders'
 
+CONCURRENT_REQUESTS = 1
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'odds (+http://www.yourdomain.com)'
