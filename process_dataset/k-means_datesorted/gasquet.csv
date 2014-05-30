@@ -1,0 +1,83 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,outlier,odds,winner,date,tournament,t_round,id,cluster
+67.0,55.0,Juan Martin Del Potro,false,$2.847,Juan Martin Del Potro,Oct 22 2012,Basel,S,80.0,cluster_0
+60.0,30.0,Mikhail Youzhny,false,$1.806,Richard Gasquet,Oct 22 2012,Basel,Q,81.0,cluster_4
+59.0,14.0,Marco Chiudinelli,false,$1.154,Richard Gasquet,Oct 22 2012,Basel,R16,82.0,cluster_1
+75.0,33.0,Kevin Anderson,false,$1.521,Kevin Anderson,Oct 29 2012,ATP World Tour Masters 1000 Paris,R32,79.0,cluster_3
+57.0,37.0,Nikolay Davydenko,false,$2.380,Richard Gasquet,Dec 31 2012,Doha,F,74.0,cluster_4
+63.0,25.0,Daniel Brands,false,$1.264,Richard Gasquet,Dec 31 2012,Doha,S,75.0,cluster_1
+44.0,35.0,Lukas Lacko,false,$1.364,Richard Gasquet,Dec 31 2012,Doha,Q,76.0,cluster_2
+65.0,31.0,Grega Zemlja,false,$1.183,Richard Gasquet,Dec 31 2012,Doha,R16,77.0,cluster_4
+59.0,33.0,Jan Hernych,false,$1.123,Richard Gasquet,Dec 31 2012,Doha,R32,78.0,cluster_4
+70.0,34.0,Jo-Wilfried Tsonga,false,$2.837,Jo-Wilfried Tsonga,Jan 14 2013,Australian Open Slam,Round of 16,70.0,cluster_3
+58.0,29.0,Ivan Dodig,false,$1.104,Richard Gasquet,Jan 14 2013,Australian Open Slam,Round of 32,71.0,cluster_4
+49.0,28.0,Alejandro Falla,false,$1.116,Richard Gasquet,Jan 14 2013,Australian Open Slam,Round of 64,72.0,cluster_2
+53.0,22.0,Albert Montanes,false,$1.025,Richard Gasquet,Jan 14 2013,Australian Open Slam,Round of 128,73.0,cluster_2
+50.0,21.0,Benoit Paire,false,$1.274,Richard Gasquet,Feb 4 2013,Montpellier,F,66.0,cluster_2
+57.0,33.0,Jarkko Nieminen,false,$1.270,Richard Gasquet,Feb 4 2013,Montpellier,S,67.0,cluster_4
+46.0,35.0,Julien Benneteau,false,$1.423,Richard Gasquet,Feb 4 2013,Montpellier,Q,68.0,cluster_2
+58.0,36.0,Gael Monfils,false,$1.630,Richard Gasquet,Feb 4 2013,Montpellier,R16,69.0,cluster_4
+71.0,36.0,Marcos Baghdatis,false,$1.527,Marcos Baghdatis,Feb 11 2013,Rotterdam,R16,64.0,cluster_3
+52.0,29.0,Viktor Troicki,false,$1.180,Richard Gasquet,Feb 11 2013,Rotterdam,R32,65.0,cluster_2
+65.0,25.0,Gilles Muller,false,$1.129,Gilles Muller,Feb 18 2013,Marseille,R32,63.0,cluster_1
+62.0,50.0,Tomas Berdych,false,$2.509,Tomas Berdych,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,60.0,cluster_0
+58.0,24.0,Jerzy Janowicz,false,$1.352,Richard Gasquet,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,61.0,cluster_1
+55.0,31.0,Bernard Tomic,false,$1.482,Richard Gasquet,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,62.0,cluster_2
+66.0,49.0,Andy Murray,false,$4.205,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,S,55.0,cluster_0
+60.0,30.0,Tomas Berdych,false,$3.071,Richard Gasquet,Mar 18 2013,ATP World Tour Masters 1000 Miami,Q,56.0,cluster_4
+59.0,30.0,Nicolas Almagro,false,$1.845,Richard Gasquet,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,57.0,cluster_4
+51.0,35.0,Mikhail Youzhny,false,$1.272,Richard Gasquet,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,58.0,cluster_2
+51.0,32.0,Olivier Rochus,false,$1.138,Richard Gasquet,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,59.0,cluster_2
+67.0,48.0,Fabio Fognini,false,$1.376,Fabio Fognini,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,Q,52.0,cluster_0
+53.0,38.0,Marin Cilic,false,$1.680,Richard Gasquet,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R16,53.0,cluster_4
+53.0,34.0,Benoit Paire,false,$1.228,Richard Gasquet,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,54.0,cluster_2
+59.0,44.0,Daniel Gimeno-Traver,false,$1.190,Daniel Gimeno-Traver,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,51.0,cluster_4
+68.0,36.0,Jerzy Janowicz,false,$1.401,Jerzy Janowicz,May 12 2013,ATP World Tour Masters 1000 Rome,R16,48.0,cluster_3
+58.0,23.0,Grigor Dimitrov,false,$1.860,Richard Gasquet,May 12 2013,ATP World Tour Masters 1000 Rome,R32,49.0,cluster_1
+63.0,22.0,Sam Querrey,false,$1.261,Richard Gasquet,May 12 2013,ATP World Tour Masters 1000 Rome,R64,50.0,cluster_1
+70.0,36.0,Stan Wawrinka,false,$2.125,Stan Wawrinka,May 27 2013,French Open Slam,Round of 16,44.0,cluster_3
+57.0,32.0,Nikolay Davydenko,false,$1.177,Richard Gasquet,May 27 2013,French Open Slam,Round of 32,45.0,cluster_4
+43.0,28.0,Michal Przysiezny,false,$1.030,Richard Gasquet,May 27 2013,French Open Slam,Round of 64,46.0,cluster_2
+52.0,26.0,Sergiy Stakhovsky,false,$1.099,Richard Gasquet,May 27 2013,French Open Slam,Round of 128,47.0,cluster_2
+74.0,39.0,Mikhail Youzhny,false,$1.559,Mikhail Youzhny,Jun 10 2013,Halle,S,41.0,cluster_3
+68.0,26.0,Florian Mayer,false,$1.389,Richard Gasquet,Jun 10 2013,Halle,Q,42.0,cluster_1
+49.0,23.0,Jurgen Melzer,false,$1.142,Richard Gasquet,Jun 10 2013,Halle,R16,43.0,cluster_2
+70.0,22.0,Bernard Tomic,false,$1.412,Bernard Tomic,Jun 24 2013,Wimbledon Slam,Round of 32,38.0,cluster_1
+52.0,35.0,Go Soeda,false,$1.037,Richard Gasquet,Jun 24 2013,Wimbledon Slam,Round of 64,39.0,cluster_2
+60.0,33.0,Marcel Granollers,false,$1.061,Richard Gasquet,Jun 24 2013,Wimbledon Slam,Round of 128,40.0,cluster_4
+62.0,44.0,Albert Montanes,false,$1.203,Albert Montanes,Jul 22 2013,Umag,R16,37.0,cluster_0
+60.0,40.0,Kei Nishikori,false,$1.639,Richard Gasquet,Aug 5 2013,ATP World Tour Masters 1000 Canada,R16,35.0,cluster_4
+55.0,30.0,Martin Klizan,false,$1.238,Richard Gasquet,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,36.0,cluster_2
+79.0,51.0,Novak Djokovic,false,$6.791,Novak Djokovic,Aug 12 2013,ATP World Tour Masters 1000 Canada,Q,34.0,cluster_0
+60.0,38.0,David Ferrer,false,$3.194,Richard Gasquet,Aug 26 2013,US Open Slam,Quarter Final,28.0,cluster_4
+65.0,38.0,Milos Raonic,false,$2.197,Richard Gasquet,Aug 26 2013,US Open Slam,Round of 16,29.0,cluster_4
+59.0,32.0,Dmitry Tursunov,false,$1.357,Richard Gasquet,Aug 26 2013,US Open Slam,Round of 32,30.0,cluster_4
+57.0,37.0,Stephane Robert,false,$1.057,Richard Gasquet,Aug 26 2013,US Open Slam,Round of 64,31.0,cluster_4
+55.0,32.0,Michael Russell,false,$1.099,Richard Gasquet,Aug 26 2013,US Open Slam,Round of 128,32.0,cluster_4
+74.0,32.0,John Isner,false,$1.884,John Isner,Aug 26 2013,ATP World Tour Masters 1000 Cincinnati,R32,33.0,cluster_3
+51.0,29.0,Mikhail Youzhny,false,$1.680,Richard Gasquet,Sep 23 2013,Bangkok,Q,25.0,cluster_2
+53.0,27.0,Lukas Lacko,false,$1.209,Richard Gasquet,Sep 23 2013,Bangkok,R16,26.0,cluster_2
+71.0,38.0,Rafael Nadal,false,$12.500,Rafael Nadal,Sep 23 2013,US Open Slam,Semi Final,27.0,cluster_3
+58.0,33.0,David Ferrer,false,$1.958,Richard Gasquet,Sep 30 2013,Beijing,Q,21.0,cluster_4
+55.0,33.0,Bernard Tomic,false,$1.364,Richard Gasquet,Sep 30 2013,Beijing,R16,22.0,cluster_4
+61.0,35.0,Florian Mayer,false,$1.367,Richard Gasquet,Sep 30 2013,Beijing,R32,23.0,cluster_4
+67.0,21.0,Milos Raonic,false,$1.875,Milos Raonic,Sep 30 2013,Bangkok,S,24.0,cluster_1
+71.0,46.0,Novak Djokovic,false,$8.672,Novak Djokovic,Oct 6 2013,Beijing,S,20.0,cluster_0
+70.0,22.0,Ivo Karlovic,false,$1.287,Richard Gasquet,Oct 14 2013,Moscow,S,16.0,cluster_1
+53.0,27.0,Teymuraz Gabashvili,false,$1.113,Richard Gasquet,Oct 14 2013,Moscow,Q,17.0,cluster_2
+56.0,32.0,Evgeny Donskoy,false,$1.256,Richard Gasquet,Oct 14 2013,Moscow,R16,18.0,cluster_4
+71.0,32.0,Vasek Pospisil,false,$1.204,Vasek Pospisil,Oct 14 2013,ATP World Tour Masters 1000 Shanghai,R64,19.0,cluster_3
+59.0,38.0,Mikhail Kukushkin,false,$1.231,Richard Gasquet,Oct 21 2013,Moscow,F,15.0,cluster_4
+55.0,28.0,Kei Nishikori,false,$1.479,Richard Gasquet,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,12.0,cluster_2
+58.0,30.0,Fernando Verdasco,false,$1.345,Richard Gasquet,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,13.0,cluster_4
+72.0,42.0,Michael Llodra,false,$1.340,Michael Llodra,Oct 28 2013,Basel,R32,14.0,cluster_3
+71.0,51.0,Rafael Nadal,false,$5.407,Rafael Nadal,Nov 4 2013,ATP World Tour Masters 1000 Paris,Q,11.0,cluster_0
+46.0,31.0,Karim Hossam,false,$1.040,Richard Gasquet,Dec 30 2013,Doha,R32,10.0,cluster_2
+75.0,42.0,Gael Monfils,false,$2.465,Gael Monfils,Jan 7 2014,Doha,R16,9.0,cluster_3
+55.0,38.0,Nikolay Davydenko,false,$1.235,Richard Gasquet,Jan 13 2014,Australian Open Slam,Round of 64,7.0,cluster_4
+50.0,34.0,David Guez,false,$1.057,Richard Gasquet,Jan 13 2014,Australian Open Slam,Round of 128,8.0,cluster_2
+65.0,36.0,Tommy Robredo,false,$1.510,Tommy Robredo,Jan 31 2014,Australian Open Slam,Round of 32,6.0,cluster_4
+67.0,22.0,Jerzy Janowicz,false,$1.567,Richard Gasquet,Feb 3 2014,Montpellier,S,3.0,cluster_1
+54.0,16.0,Albano Olivetti,false,$1.102,Richard Gasquet,Feb 3 2014,Montpellier,Q,4.0,cluster_1
+52.0,34.0,Paul-Henri Mathieu,false,$1.183,Richard Gasquet,Feb 3 2014,Montpellier,R16,5.0,cluster_2
+66.0,24.0,Thiemo de Bakker,false,$1.122,Richard Gasquet,Feb 10 2014,Rotterdam,R32,1.0,cluster_1
+80.0,38.0,Gael Monfils,false,$1.852,Gael Monfils,Feb 10 2014,Montpellier,F,2.0,cluster_3
