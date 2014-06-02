@@ -1,0 +1,95 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+58.0,35.0,James Ward,$1.081,Tommy Robredo,May 21 2014,French Open Slam,Round of 128,Tommy Robredo,false,1.0,cluster_0
+65.0,46.0,Philipp Kohlschreiber,$1.636,Philipp Kohlschreiber,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Tommy Robredo,false,2.0,cluster_3
+53.0,38.0,Juan Monaco,$1.443,Tommy Robredo,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Tommy Robredo,false,3.0,cluster_0
+67.0,34.0,Roberto Bautista Agut,$1.711,Roberto Bautista Agut,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Tommy Robredo,false,4.0,cluster_4
+68.0,31.0,Marin Cilic,$1.752,Marin Cilic,Apr 21 2014,Barcelona,R16,Tommy Robredo,false,5.0,cluster_1
+52.0,37.0,Marinko Matosevic,$1.142,Tommy Robredo,Apr 21 2014,Barcelona,R32,Tommy Robredo,false,6.0,cluster_0
+77.0,34.0,Milos Raonic,$1.837,Milos Raonic,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,Tommy Robredo,false,7.0,cluster_4
+48.0,29.0,Julien Benneteau,$1.241,Tommy Robredo,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,Tommy Robredo,false,8.0,cluster_2
+51.0,35.0,David Goffin,$1.329,Tommy Robredo,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Tommy Robredo,false,9.0,cluster_0
+69.0,41.0,Santiago Giraldo,$1.391,Santiago Giraldo,Apr 7 2014,Houston,R16,Tommy Robredo,false,10.0,cluster_4
+76.0,36.0,Novak Djokovic,$14.508,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,Tommy Robredo,false,11.0,cluster_4
+58.0,36.0,Julien Benneteau,$1.661,Tommy Robredo,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Tommy Robredo,false,12.0,cluster_0
+60.0,34.0,Dominic Thiem,$1.786,Tommy Robredo,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Tommy Robredo,false,13.0,cluster_0
+73.0,41.0,Marin Cilic,$3.689,Marin Cilic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Tommy Robredo,false,14.0,cluster_4
+67.0,33.0,Marinko Matosevic,$1.550,Tommy Robredo,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Tommy Robredo,false,15.0,cluster_4
+66.0,58.0,Pablo Andujar,$1.343,Pablo Andujar,Feb 17 2014,Rio de Janeiro,Q,Tommy Robredo,false,16.0,cluster_3
+43.0,23.0,Dusan Lajovic,$1.165,Tommy Robredo,Feb 17 2014,Rio de Janeiro,R16,Tommy Robredo,false,17.0,cluster_2
+65.0,25.0,Pablo Carreno Busta,$1.292,Tommy Robredo,Feb 17 2014,Rio de Janeiro,R32,Tommy Robredo,false,18.0,cluster_1
+59.0,40.0,Fabio Fognini,$2.289,Fabio Fognini,Feb 10 2014,Buenos Aires,S,Tommy Robredo,false,19.0,cluster_0
+62.0,23.0,Guido Pella,$1.268,Tommy Robredo,Feb 10 2014,Buenos Aires,R16,Tommy Robredo,false,20.0,cluster_1
+55.0,36.0,Pablo Carreno Busta,$1.333,Tommy Robredo,Feb 10 2014,Buenos Aires,R32,Tommy Robredo,false,21.0,cluster_0
+76.0,32.0,Leonardo Mayer,$1.439,Leonardo Mayer,Feb 3 2014,Vina del Mar,R16,Tommy Robredo,false,22.0,cluster_4
+73.0,37.0,Stan Wawrinka,$3.191,Stan Wawrinka,Jan 13 2014,Australian Open Slam,Round of 16,Tommy Robredo,false,23.0,cluster_4
+64.0,35.0,Richard Gasquet,$2.579,Tommy Robredo,Jan 13 2014,Australian Open Slam,Round of 32,Tommy Robredo,false,24.0,cluster_0
+61.0,30.0,Julien Benneteau,$1.900,Tommy Robredo,Jan 13 2014,Australian Open Slam,Round of 64,Tommy Robredo,false,25.0,cluster_1
+61.0,27.0,Lukas Rosol,$1.922,Tommy Robredo,Jan 13 2014,Australian Open Slam,Round of 128,Tommy Robredo,false,26.0,cluster_1
+67.0,42.0,Fabio Fognini,$1.691,Fabio Fognini,Dec 28 2013,ATP World Tour Masters 1000 Shanghai,R32,Tommy Robredo,false,27.0,cluster_3
+51.0,20.0,Albert Montanes,$1.176,Tommy Robredo,Dec 28 2013,ATP World Tour Masters 1000 Shanghai,R64,Tommy Robredo,false,28.0,cluster_2
+59.0,46.0,Fabio Fognini,$1.467,Fabio Fognini,Dec 28 2013,Beijing,R32,Tommy Robredo,false,29.0,cluster_3
+63.0,38.0,Roger Federer,$15.130,Tommy Robredo,Aug 26 2013,US Open Slam,Round of 16,Tommy Robredo,false,30.0,cluster_0
+57.0,34.0,Daniel Evans,$1.291,Tommy Robredo,Aug 26 2013,US Open Slam,Round of 32,Tommy Robredo,false,31.0,cluster_0
+52.0,29.0,Frank Dancevic,$1.311,Tommy Robredo,Aug 26 2013,US Open Slam,Round of 64,Tommy Robredo,false,32.0,cluster_2
+55.0,38.0,Marinko Matosevic,$1.681,Tommy Robredo,Aug 26 2013,US Open Slam,Round of 128,Tommy Robredo,false,33.0,cluster_0
+69.0,37.0,Gael Monfils,$2.523,Gael Monfils,Aug 26 2013,Winston-Salem,R16,Tommy Robredo,false,34.0,cluster_4
+61.0,38.0,Guillaume Rufin,$1.420,Tommy Robredo,Aug 18 2013,Winston-Salem,R32,Tommy Robredo,false,35.0,cluster_0
+72.0,48.0,Tomas Berdych,$4.996,Tomas Berdych,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,R16,Tommy Robredo,false,36.0,cluster_3
+58.0,37.0,Stan Wawrinka,$3.178,Tommy Robredo,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Tommy Robredo,false,37.0,cluster_0
+65.0,26.0,Thomaz Bellucci,$1.547,Tommy Robredo,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R64,Tommy Robredo,false,38.0,cluster_1
+59.0,38.0,Andreas Seppi,$1.592,Tommy Robredo,Jul 22 2013,Umag,S,Tommy Robredo,false,39.0,cluster_0
+50.0,32.0,Aljaz Bedene,$1.457,Tommy Robredo,Jul 22 2013,Umag,Q,Tommy Robredo,false,40.0,cluster_2
+51.0,17.0,Viktor Troicki,$1.619,Tommy Robredo,Jul 22 2013,Umag,R16,Tommy Robredo,false,41.0,cluster_2
+49.0,31.0,Jan Hajek,$1.350,Tommy Robredo,Jul 22 2013,Umag,R32,Tommy Robredo,false,42.0,cluster_2
+71.0,39.0,Federico Delbonis,$1.706,Federico Delbonis,Jul 22 2013,Hamburg,R32,Tommy Robredo,false,43.0,cluster_4
+82.0,37.0,Albert Ramos,$1.550,Albert Ramos,Jul 15 2013,Bastad,R16,Tommy Robredo,false,44.0,cluster_4
+75.0,41.0,Andy Murray,$16.054,Andy Murray,Jul 8 2013,Wimbledon Slam,Round of 32,Tommy Robredo,false,45.0,cluster_4
+70.0,20.0,Nicolas Mahut,$3.089,Tommy Robredo,Jun 24 2013,Wimbledon Slam,Round of 64,Tommy Robredo,false,46.0,cluster_1
+57.0,20.0,Alex Bogomolov Jr.,$1.381,Tommy Robredo,Jun 24 2013,Wimbledon Slam,Round of 128,Tommy Robredo,false,47.0,cluster_1
+61.0,38.0,Nicolas Almagro,$5.047,Tommy Robredo,May 27 2013,French Open Slam,Round of 16,Tommy Robredo,false,48.0,cluster_0
+60.0,34.0,Gael Monfils,$2.809,Tommy Robredo,May 27 2013,French Open Slam,Round of 32,Tommy Robredo,false,49.0,cluster_0
+57.0,35.0,Igor Sijsling,$1.306,Tommy Robredo,May 27 2013,French Open Slam,Round of 64,Tommy Robredo,false,50.0,cluster_0
+49.0,22.0,Jurgen Zopp,$1.049,Tommy Robredo,May 27 2013,French Open Slam,Round of 128,Tommy Robredo,false,51.0,cluster_2
+62.0,47.0,Tommy Haas,$2.547,Tommy Haas,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Tommy Robredo,false,52.0,cluster_3
+51.0,26.0,Marcos Baghdatis,$1.357,Tommy Robredo,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,Tommy Robredo,false,53.0,cluster_2
+66.0,46.0,Andreas Seppi,$1.755,Andreas Seppi,Apr 29 2013,Oeiras,Q,Tommy Robredo,false,54.0,cluster_3
+62.0,35.0,Robin Haase,$1.345,Tommy Robredo,Apr 29 2013,Oeiras,R16,Tommy Robredo,false,55.0,cluster_0
+64.0,40.0,Daniel Gimeno-Traver,$1.396,Tommy Robredo,Apr 29 2013,Oeiras,R32,Tommy Robredo,false,56.0,cluster_3
+71.0,35.0,Milos Raonic,$3.075,Milos Raonic,Apr 22 2013,Barcelona,Q,Tommy Robredo,false,57.0,cluster_4
+63.0,37.0,Tomas Berdych,$2.975,Tommy Robredo,Apr 22 2013,Barcelona,R16,Tommy Robredo,false,58.0,cluster_0
+51.0,31.0,Grigor Dimitrov,$2.523,Tommy Robredo,Apr 22 2013,Barcelona,R32,Tommy Robredo,false,59.0,cluster_2
+47.0,41.0,Marc Lopez,$1.173,Tommy Robredo,Apr 22 2013,Barcelona,R64,Tommy Robredo,false,60.0,cluster_0
+67.0,31.0,Kevin Anderson,$2.226,Tommy Robredo,Apr 8 2013,Casablanca,F,Tommy Robredo,false,61.0,cluster_1
+55.0,42.0,Stan Wawrinka,$4.328,Tommy Robredo,Apr 8 2013,Casablanca,S,Tommy Robredo,false,62.0,cluster_0
+58.0,41.0,Benoit Paire,$1.883,Tommy Robredo,Apr 8 2013,Casablanca,Q,Tommy Robredo,false,63.0,cluster_0
+52.0,34.0,Tobias Kamke,$1.598,Tommy Robredo,Apr 8 2013,Casablanca,R16,Tommy Robredo,false,64.0,cluster_0
+58.0,34.0,Guillaume Rufin,$1.558,Tommy Robredo,Apr 8 2013,Casablanca,R32,Tommy Robredo,false,65.0,cluster_0
+62.0,46.0,Marinko Matosevic,$2.014,Marinko Matosevic,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R128,Tommy Robredo,false,66.0,cluster_3
+68.0,41.0,Nicolas Almagro,$6.453,Nicolas Almagro,Feb 25 2013,Acapulco,R16,Tommy Robredo,false,67.0,cluster_4
+55.0,39.0,Filippo Volandri,$1.508,Tommy Robredo,Feb 25 2013,Acapulco,R32,Tommy Robredo,false,68.0,cluster_0
+67.0,48.0,David Ferrer,$12.327,David Ferrer,Feb 18 2013,Buenos Aires,S,Tommy Robredo,false,69.0,cluster_3
+50.0,30.0,Julian Reister,$1.424,Tommy Robredo,Feb 18 2013,Buenos Aires,Q,Tommy Robredo,false,70.0,cluster_2
+50.0,21.0,Diego Sebastian Schwartzman,$1.597,Tommy Robredo,Feb 18 2013,Buenos Aires,R16,Tommy Robredo,false,71.0,cluster_2
+40.0,37.0,Gastao Elias,$1.699,Tommy Robredo,Feb 18 2013,Buenos Aires,R32,Tommy Robredo,false,72.0,cluster_2
+74.0,43.0,Simone Bolelli,$1.623,Simone Bolelli,Feb 11 2013,Sao Paulo,R32,Tommy Robredo,false,73.0,cluster_4
+74.0,35.0,Paolo Lorenzi,$1.623,Paolo Lorenzi,Feb 4 2013,Vina del Mar,R16,Tommy Robredo,false,74.0,cluster_4
+50.0,25.0,Pere Riba,$1.125,Tommy Robredo,Feb 4 2013,Vina del Mar,R32,Tommy Robredo,false,75.0,cluster_2
+65.0,30.0,Jesse Levine,$2.248,Jesse Levine,Jan 14 2013,Australian Open Slam,Round of 128,Tommy Robredo,false,76.0,cluster_1
+71.0,36.0,John Millman,$1.590,John Millman,Jan 7 2013,Sydney,R32,Tommy Robredo,false,77.0,cluster_4
+71.0,43.0,Kei Nishikori,$4.228,Kei Nishikori,Dec 31 2012,Brisbane,R16,Tommy Robredo,false,78.0,cluster_4
+67.0,20.0,Ryan Harrison,$2.959,Tommy Robredo,Dec 31 2012,Brisbane,R32,Tommy Robredo,false,79.0,cluster_1
+63.0,48.0,Fernando Verdasco,$3.791,Fernando Verdasco,Oct 21 2012,Valencia,R32,Tommy Robredo,false,80.0,cluster_3
+69.0,50.0,Tommy Haas,$3.253,Tommy Haas,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R32,Tommy Robredo,false,81.0,cluster_3
+66.0,26.0,Alex Bogomolov Jr.,$1.793,Tommy Robredo,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R64,Tommy Robredo,false,82.0,cluster_1
+70.0,48.0,Kei Nishikori,$4.167,Kei Nishikori,Oct 1 2012,Tokyo,R16,Tommy Robredo,false,83.0,cluster_3
+58.0,26.0,Jarkko Nieminen,$2.959,Tommy Robredo,Oct 1 2012,Tokyo,R32,Tommy Robredo,false,84.0,cluster_1
+79.0,45.0,Daniel Gimeno-Traver,$2.150,Daniel Gimeno-Traver,Sep 10 2012,Seville,F,Tommy Robredo,false,85.0,cluster_4
+66.0,31.0,Inigo Cervantes,$1.340,Tommy Robredo,Sep 10 2012,Seville,S,Tommy Robredo,false,86.0,cluster_1
+65.0,40.0,Facundo Arguello,$1.160,Tommy Robredo,Sep 10 2012,Seville,Q,Tommy Robredo,false,87.0,cluster_3
+58.0,20.0,Ivan Navarro,$1.180,Tommy Robredo,Sep 10 2012,Seville,R32,Tommy Robredo,false,88.0,cluster_1
+63.0,46.0,Albert Montanes,$1.460,Albert Montanes,Sep 3 2012,Genova,F,Tommy Robredo,false,89.0,cluster_3
+56.0,30.0,Simone Bolelli,$1.680,Tommy Robredo,Sep 3 2012,Genova,S,Tommy Robredo,false,90.0,cluster_0
+52.0,39.0,Walter Trusendi,$1.070,Tommy Robredo,Sep 3 2012,Genova,Q,Tommy Robredo,false,91.0,cluster_0
+48.0,46.0,Simone Vagnozzi,$1.220,Tommy Robredo,Sep 3 2012,Genova,R16,Tommy Robredo,false,92.0,cluster_0
+60.0,32.0,Lukas Rosol,$1.600,Tommy Robredo,Sep 3 2012,Genova,R32,Tommy Robredo,false,93.0,cluster_0
+70.0,38.0,Leonardo Mayer,$1.580,Leonardo Mayer,Aug 27 2012,US Open Slam,Round of 64,Tommy Robredo,false,94.0,cluster_4
