@@ -46,7 +46,6 @@ def get_info_serve_net(player_name):
 		print total_net_approaches/count_net
 	print total_serve_speed/count_serve
 
-#';f  cd'
 def sort_dataset_by_date():
 	reader1 = csv.reader(open("outliers_fixed/almagro.csv"), delimiter=",")
 	headers = reader1.next()
