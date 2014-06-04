@@ -1,5 +1,6 @@
 from __future__ import division
 import csv
+import markov
 
 
 def get_filename(player1):
@@ -123,7 +124,9 @@ def get_fixtures_to_predict():
 
 def simulate_bets():
 	fixtures = csv.DictReader(open("final_fixtures.csv"))
+	roi = 0
 	for fixture in fixtures:
+		delta_a_b = 0
 		winner = -1
 		five_setter=0
 		if (fixture["winner"]==fixture["player1"]):
@@ -147,18 +150,58 @@ def simulate_bets():
 			#dont bet because there isnt enough clustering info
 			continue
 		#normalizing values
+		'''
 		if p1_spwcount>p2_spwcount:
 			multiple = float(p1_spwcount/p2_spwcount)
 			p2spw = p2spw*multiple
 		elif p1_spwcount<p2_spwcount:
 			multiple = float(p2_spwcount/p1_spwcount)
 			p1spw = p1spw*multiple
+		'''
 		#if they are equal do nothing
-		delta_a_b = p1spw - p2spw
+		#get difference (triangle)
+		#delta_a_b = p1spw - p2spw
+		#delta_b_a = p2spw - p1spw
+		avg_p1spw = p1spw/p1_spwcount
+		avg_p2spw = p2spw/p2_spwcount
+		delta_a_b = avg_p1spw - avg_p2spw
+		delta_b_a = avg_p2spw - avg_p1spw
 
 		if (five_setter):
 			#use five setter formula
+			p1_win_probability = markov.match_win_probability_5(0.6+delta_a_b,(1-0.6))+markov.match_win_probability_5(0.6,(1-(0.6-delta_a_b)))
+			p1_win_probability = p1_win_probability/2
+			p2_win_probability = 1-p1_win_probability
+		else:
+			#use three sets formula (default)
+			p1_win_probability = markov.match_win_probability_3(0.6+delta_a_b,(1-0.6))+markov.match_win_probability_3(0.6,(1-(0.6-delta_a_b)))
+			p1_win_probability = p1_win_probability/2
+			p2_win_probability = 1-p1_win_probability
 
+		predicted_odds_p1 = 1/p1_win_probability
+		predicted_odds_p2 = 1/p2_win_probability
+
+		#betted = 1 if bet on player 1, =2 if bet on player 2
+		betted = -1
+		print market_odds_p1
+		print predicted_odds_p1
+		if (market_odds_p1>predicted_odds_p1 and predicted_odds_p1<2):
+			# bet pound on p1
+			betted = 1
+		elif (market_odds_p2>predicted_odds_p2 and predicted_odds_p2<2):
+			# bet pound on p2
+			betted = 2
+		if betted<0:
+			print "NO BET, check!"
+			continue
+
+		if (betted==1 and winner==1):
+			roi+=(market_odds_p1-1)
+		elif (betted==2 and winner==2):
+			roi+=(market_odds_p2-1)
+		elif (betted==1 and winner==2) or (betted==2 and winner==1):
+			roi-=1
+	print roi
 		# normalize the p1spw and p2spw using the p1_spwcount and p2_spwcount
 		# get difference (triangle)
 		# predict the probability of winning using methods in markov.py
