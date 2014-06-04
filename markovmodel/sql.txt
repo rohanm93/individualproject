@@ -1,6 +1,10 @@
 fixtures with spws and duplicates, both player 1 and 2's odds and spws on the same row
 select f1.player1, f1.player2, f1.winner, f1.date, f1.tournament, f1.t_round, f1.odds as p1odds, f2.odds as p2odds, f1.spw as p1spw, f2.spw as p2spw from fixtures_spw f1 join fixtures_spw f2 on f1.player2 = f2.player1 and f1.t_round=f2.t_round and f1.tournament = f2.tournament and f1.player1 = f2.player2
 
+same as above with spw count
+select f1.player1, f1.player2, f1.winner, f1.date, f1.tournament, f1.t_round, f1.odds as p1odds, f2.odds as p2odds, f1.spw as p1spw, f2.spw as p2spw, f1.spw_count as p1_spwcount, f2.spw_count as p2_spwcount 
+from fixtures_with_spw_normalized f1 join fixtures_with_spw_normalized f2 on f1.player2 = f2.player1 and f1.t_round=f2.t_round and f1.tournament = f2.tournament and f1.player1 = f2.player2
+
 for odds and stats:
 inner join on matchstatsurl
 
@@ -18,3 +22,14 @@ ON t1.player1 = t2.player2
     AND t1.p1spw = t2.p2spw
     AND t1.p2spw = t2.p1spw
     AND t1.p1spw <> t1.p2spw
+
+# use this: it puts less restrictions and returns more matches
+select t1.*
+FROM fixtures_selfjoined_normalised AS t1
+JOIN fixtures_selfjoined_normalised AS t2 
+ON t1.player1 = t2.player2 
+    AND t1.player2 = t2.player1 
+    AND t1.player1 > t1.player2
+    AND t1.p1odds = t2.p2odds
+    AND t1.p2odds = t2.p1odds
+    AND t1.p1odds <> t1.p2odds

@@ -1,6 +1,7 @@
 from __future__ import division
 import csv
 
+
 def get_filename(player1):
 	if ("Almagro" in player1):
 		return "almagro.csv"
@@ -56,7 +57,7 @@ def get_filename(player1):
 def predictions():
 	input_file = csv.reader(open("fixtures.csv"), delimiter=',')
 	fixtures_with_spw = csv.writer(open("fixtures_with_spw.csv", "wb"), delimiter=',')
-	#skip first 60 matches, from start of 2013
+	#skip first 60 matches (dont predict these fixtures), only predict matches from start of 2013
 	for i in range(60):
 		input_file.next()
 	for row in input_file:
@@ -85,13 +86,15 @@ def predictions():
 			continue
 		#at this point player_list contains all required data to do spw calculation for Player 1 - the same needs to be done for player 2
 		#important note - this just takes into account player 2's most recent cluster. ie. Haas vs Djokovic, will only take into account for Djokovic the cluster of their most recent match, say Djokovic is in multiple clusters
-		spw_value = calculate_spw(player1_cluster, player_list)
+		spw_value,total_spws = calculate_spw(player1_cluster, player_list)
 		row.append(spw_value)
+		row.append(total_spws)
 		fixtures_with_spw.writerow(row)
 
 def calculate_spw(cluster_name, player_list):
 	difference_a_c = 0
 	difference_spw_rpw_p1 = 0
+	normalisation_counter = 0
 	for rec in player_list: #of form [p2serve, p2return, p2, odds, winner, date, tournament, t_round, p1, outlier, id, cluster]
 		if cluster_name == rec[11]:
 			swp_p2 = float(rec[0])
@@ -100,7 +103,9 @@ def calculate_spw(cluster_name, player_list):
 			#below is the same as spw(A,Ci)-(1-rpw(A,Ci))
 			difference_spw_rpw_p1 = (100.0-rwp_p2-swp_p2)/100
 			difference_a_c += difference_spw_rpw_p1
-	return difference_a_c
+			normalisation_counter+=1
+			# TODO NEEDS to be normalised; number of items included in the spw is not the same for both players
+	return (difference_a_c, normalisation_counter)
 
 def get_fixtures_to_predict():
 	players_list = ["Almagro", "Kevin Anderson", "Berdych", "Jeremy Chardy", "Cilic", "Potro", "Grigor Dimitrov", "Djokovic", "Federer", "David Ferrer", "Gasquet", "Gulbis", "Haas", "Hewitt", "Isner", "Monfils", "Nadal", "Nishikori", "Raonic", "Robredo", "Seppi", "Tsonga", "Verdasco", "Wawrinka", "Youzhny"]
@@ -116,11 +121,53 @@ def get_fixtures_to_predict():
 			if any(x in rec[2] for x in players_list):
 				writer.writerow(rec)
 
+def simulate_bets():
+	fixtures = csv.DictReader(open("final_fixtures.csv"))
+	for fixture in fixtures:
+		winner = -1
+		five_setter=0
+		if (fixture["winner"]==fixture["player1"]):
+			winner=1
+		elif (fixture["winner"]==fixture["player2"]):
+			winner=2
+		if winner<0:
+			print "ERROR, DOES NOT READ PLAYER 1 AND 2 CORRECTLY"
+		# remove the $ symbol and convert to float
+		market_odds_p1 = float(fixture["p1odds"][1:])
+		market_odds_p2 = float(fixture["p2odds"][1:])
+		tournament = fixture["tournament"]
+		# if grand slam or davis cup, its a 5 setter match
+		if "Slam" in tournament:
+			five_setter = 1
+		p1spw = float(fixture["p1spw"])
+		p2spw = float(fixture["p2spw"])
+		p1_spwcount = float(fixture["p1_spwcount"])
+		p2_spwcount = float(fixture["p2_spwcount"])
+		if (p1_spwcount==0 or p2_spwcount==0):
+			#dont bet because there isnt enough clustering info
+			continue
+		#normalizing values
+		if p1_spwcount>p2_spwcount:
+			multiple = float(p1_spwcount/p2_spwcount)
+			p2spw = p2spw*multiple
+		elif p1_spwcount<p2_spwcount:
+			multiple = float(p2_spwcount/p1_spwcount)
+			p1spw = p1spw*multiple
+		#if they are equal do nothing
+		delta_a_b = p1spw - p2spw
 
-		#data = list(list(rec) for rec in reader)
+		if (five_setter):
+			#use five setter formula
 
+		# normalize the p1spw and p2spw using the p1_spwcount and p2_spwcount
+		# get difference (triangle)
+		# predict the probability of winning using methods in markov.py
+		# if  predicted odds > market odds then bet a pound; check for both p1 and p2
+		# check winner; if winner is p1 and bet on p1 then add winnings
+		# if loss then subtract from total roi
+
+# odds = 1/p where p is the probability of a player winning a match 
 
 #get_fixtures_to_predict()
-#get_info_serve_net("Berdych")
-
-predictions()
+#predictions()
+simulate_bets()
