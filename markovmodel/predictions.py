@@ -34,6 +34,8 @@ def get_filename(player1):
 		return "hewitt.csv"
 	elif ("Isner" in player1):
 		return "isner.csv"
+	elif ("Murray" in player1):
+		return "murray.csv"
 	elif ("Monfils" in player1):
 		return "monfils.csv"
 	elif ("Nadal" in player1):
@@ -58,7 +60,7 @@ def get_filename(player1):
 def predictions():
 	input_file = csv.reader(open("fixtures.csv"), delimiter=',')
 	fixtures_with_spw = csv.writer(open("fixtures_with_spw.csv", "wb"), delimiter=',')
-	#skip first 60 matches (dont predict these fixtures), only predict matches from start of 2013
+	#skip first 60 matches (dont predict these fixtures), only predict matches from nov 2012 onwards
 	for i in range(60):
 		input_file.next()
 	for row in input_file:
@@ -73,18 +75,22 @@ def predictions():
 		if player2.split()[-1]=="Haase" or player1.split()[-1]=="Haase":
 			continue
 		filename = get_filename(player1)
-		file_path = "dataset/"+ str(filename)
+		file_path = "dataset/sorted/"+ str(filename)
 		reader = csv.reader(open(file_path), delimiter=',')
 		player_list = []
+		player1_cluster = "cluster_000"
 		for player_row in reader:
 			if (player1==player_row[8] and float(p2Serve)==float(player_row[0]) and float(p2ReturnPointsWon)==float(player_row[1]) and odds==player_row[3] and player2==player_row[2]):
 				# reached the record so stop
 				# use data so far to calculate spw
-				player1_cluster = player_row[11]
+				#player1_cluster = player_row[11]
 				break
 			else:
-				player_list.append(player_row)
-
+				#also add the case if a player is in multiple clusters
+				#average them out for both players
+				if (player2==player_row[2]):
+					player1_cluster = player_row[11]
+				player_list.append(player_row)	
 		
 		if not player_list:
 			print "no one before player1 or ERROR"
@@ -134,9 +140,9 @@ def get_similar_profile_players(player2):
 	return list_of_players
 
 def get_fixtures_to_predict():
-	players_list = ["Almagro", "Kevin Anderson", "Berdych", "Jeremy Chardy", "Cilic", "Potro", "Grigor Dimitrov", "Djokovic", "Federer", "David Ferrer", "Gasquet", "Gulbis", "Haas", "Hewitt", "Isner", "Monfils", "Nadal", "Nishikori", "Raonic", "Robredo", "Seppi", "Tsonga", "Verdasco", "Wawrinka", "Youzhny"]
-	filepath_list = ["almagro", "anderson", "berdych", "chardy", "cilic", "delpotro", "dimitrov", "djokovic", "federer", "ferrer", "gasquet", "gulbis", "haas", "hewitt", "isner", "monfils", "nadal", "nishikori", "raonic", "robredo", "seppi", "tsonga", "verdasco", "wawrinka", "youzhny"]
-	filepath_string = "outliers_fixed/"
+	players_list = ["Almagro", "Kevin Anderson", "Berdych", "Jeremy Chardy", "Cilic", "Potro", "Grigor Dimitrov", "Djokovic", "Federer", "David Ferrer", "Gasquet", "Gulbis", "Haas", "Hewitt", "Isner", "Monfils", "Murray", "Nadal", "Nishikori", "Raonic", "Robredo", "Seppi", "Tsonga", "Verdasco", "Wawrinka", "Youzhny"]
+	filepath_list = ["almagro", "anderson", "berdych", "chardy", "cilic", "delpotro", "dimitrov", "djokovic", "federer", "ferrer", "gasquet", "gulbis", "haas", "hewitt", "isner", "monfils", "murray", "nadal", "nishikori", "raonic", "robredo", "seppi", "tsonga", "verdasco", "wawrinka", "youzhny"]
+	filepath_string = "dataset/sorted/"
 	all_fixtures = []
 	output = open("fixtures.csv", "wb")
 	writer = csv.writer(output, delimiter=',')
@@ -151,6 +157,8 @@ def simulate_bets():
 	fixtures = csv.DictReader(open("final_fixtures.csv"))
 	roi = 0
 	matches_bet_on = 0
+	correct_bets = 0
+	wrong_bets = 0
 	for fixture in fixtures:
 		delta_a_b = 0
 		winner = -1
@@ -212,18 +220,32 @@ def simulate_bets():
 
 		if (betted==1 and winner==1):
 			roi+=(market_odds_p1-1)
+			correct_bets+=1
 		elif (betted==2 and winner==2):
 			roi+=(market_odds_p2-1)
-		elif (betted==1 and winner==2) or (betted==2 and winner==1):
+			correct_bets+=1
+		elif (betted==1 and winner==2):
+			print fixture["date"] + "  "+ fixture["player1"] + " vs " + fixture["player2"] + ", bet on :"+ fixture["player1"]
 			roi-=1
-	print roi
-	print matches_bet_on
+			wrong_bets+=1
+		elif (betted==2 and winner==1):
+			print fixture["date"] + "  "+ fixture["player1"] + " vs " + fixture["player2"] + ", bet on :"+ fixture["player2"]
+			roi-=1
+			wrong_bets+=1
+	print "$"+str(roi)
+	print "Bet on " + str(matches_bet_on) + " matches"
+	print "Correct bets:" + str(correct_bets)
+	print "Incorrect bets:" + str(wrong_bets)
+
 		# normalize the p1spw and p2spw using the p1_spwcount and p2_spwcount
 		# get difference (triangle)
 		# predict the probability of winning using methods in markov.py
 		# if  predicted odds > market odds then bet a pound; check for both p1 and p2
 		# check winner; if winner is p1 and bet on p1 then add winnings
 		# if loss then subtract from total roi
+
+#def predict_matchup(player1, player2):
+
 
 # odds = 1/p where p is the probability of a player winning a match 
 
