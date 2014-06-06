@@ -1,0 +1,93 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+66.0,46.0,Grega Zemlja,$1.186,Grega Zemlja,Oct 21 2012,Vienna,Q,Tommy Haas,false,92.0,cluster_1
+62.0,32.0,Gael Monfils,$1.686,Gael Monfils,Jan 7 2013,Auckland,Q,Tommy Haas,false,90.0,cluster_4
+62.0,20.0,Igor Sijsling,$1.526,Tommy Haas,Jan 7 2013,Auckland,R16,Tommy Haas,false,91.0,cluster_0
+63.0,37.0,Jarkko Nieminen,$1.414,Jarkko Nieminen,Jan 14 2013,Australian Open Slam,Round of 128,Tommy Haas,false,89.0,cluster_2
+76.0,42.0,Milos Raonic,$2.710,Milos Raonic,Feb 11 2013,San Jose,F,Tommy Haas,false,85.0,cluster_1
+64.0,19.0,John Isner,$1.773,Tommy Haas,Feb 11 2013,San Jose,S,Tommy Haas,false,86.0,cluster_0
+53.0,24.0,Steve Johnson,$1.296,Tommy Haas,Feb 11 2013,San Jose,Q,Tommy Haas,false,87.0,cluster_3
+53.0,20.0,Jesse Levine,$1.452,Tommy Haas,Feb 11 2013,San Jose,R16,Tommy Haas,false,88.0,cluster_3
+68.0,19.0,Evgeny Donskoy,$1.219,Tommy Haas,Feb 18 2013,Memphis,R32,Tommy Haas,false,84.0,cluster_0
+65.0,36.0,Ernests Gulbis,$1.967,Ernests Gulbis,Feb 25 2013,Delray Beach,S,Tommy Haas,false,80.0,cluster_4
+56.0,41.0,Ivan Dodig,$1.359,Tommy Haas,Feb 25 2013,Delray Beach,Q,Tommy Haas,false,81.0,cluster_2
+51.0,25.0,Denis Istomin,$1.764,Tommy Haas,Feb 25 2013,Delray Beach,R16,Tommy Haas,false,82.0,cluster_3
+61.0,32.0,Igor Sijsling,$1.474,Tommy Haas,Feb 25 2013,Delray Beach,R32,Tommy Haas,false,83.0,cluster_4
+72.0,56.0,Juan Martin Del Potro,$4.328,Juan Martin Del Potro,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Tommy Haas,false,77.0,cluster_1
+63.0,31.0,Nicolas Almagro,$2.428,Tommy Haas,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Tommy Haas,false,78.0,cluster_4
+61.0,33.0,Pablo Andujar,$1.108,Tommy Haas,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,Tommy Haas,false,79.0,cluster_4
+60.0,46.0,David Ferrer,$2.881,David Ferrer,Mar 18 2013,ATP World Tour Masters 1000 Miami,S,Tommy Haas,false,72.0,cluster_2
+52.0,21.0,Gilles Simon,$1.571,Tommy Haas,Mar 18 2013,ATP World Tour Masters 1000 Miami,Q,Tommy Haas,false,73.0,cluster_3
+52.0,25.0,Novak Djokovic,$16.054,Tommy Haas,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,Tommy Haas,false,74.0,cluster_3
+50.0,32.0,Alexandr Dolgopolov,$1.735,Tommy Haas,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,Tommy Haas,false,75.0,cluster_3
+60.0,25.0,Igor Sijsling,$1.376,Tommy Haas,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,Tommy Haas,false,76.0,cluster_0
+63.0,46.0,Ricardas Berankis,$1.256,Ricardas Berankis,Apr 8 2013,Houston,R16,Tommy Haas,false,71.0,cluster_2
+63.0,27.0,Philipp Kohlschreiber,$1.578,Tommy Haas,Apr 29 2013,Munich,F,Tommy Haas,false,67.0,cluster_4
+56.0,32.0,Ivan Dodig,$1.319,Tommy Haas,Apr 29 2013,Munich,S,Tommy Haas,false,68.0,cluster_3
+52.0,25.0,Florian Mayer,$1.312,Tommy Haas,Apr 29 2013,Munich,Q,Tommy Haas,false,69.0,cluster_3
+60.0,34.0,Ernests Gulbis,$2.139,Tommy Haas,Apr 29 2013,Munich,R16,Tommy Haas,false,70.0,cluster_4
+71.0,36.0,David Ferrer,$3.284,David Ferrer,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Tommy Haas,false,64.0,cluster_4
+52.0,37.0,Tommy Robredo,$1.602,Tommy Haas,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Tommy Haas,false,65.0,cluster_2
+50.0,25.0,Andreas Seppi,$1.594,Tommy Haas,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,Tommy Haas,false,66.0,cluster_3
+67.0,46.0,Mikhail Youzhny,$1.444,Mikhail Youzhny,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Tommy Haas,false,63.0,cluster_1
+61.0,36.0,Ivan Dodig,$1.255,Tommy Haas,May 19 2013,Dusseldorf,R16,Tommy Haas,false,62.0,cluster_2
+43.0,37.0,Mikhail Youzhny,$1.823,Tommy Haas,May 27 2013,French Open Slam,Round of 16,Tommy Haas,false,58.0,cluster_3
+68.0,27.0,John Isner,$1.373,Tommy Haas,May 27 2013,French Open Slam,Round of 32,Tommy Haas,false,59.0,cluster_4
+61.0,31.0,Jack Sock,$1.167,Tommy Haas,May 27 2013,French Open Slam,Round of 64,Tommy Haas,false,60.0,cluster_4
+57.0,29.0,Guillaume Rufin,$1.261,Tommy Haas,May 27 2013,French Open Slam,Round of 128,Tommy Haas,false,61.0,cluster_3
+71.0,36.0,Roger Federer,$3.501,Roger Federer,Jun 10 2013,Halle,S,Tommy Haas,false,55.0,cluster_4
+66.0,24.0,Gael Monfils,$1.426,Tommy Haas,Jun 10 2013,Halle,Q,Tommy Haas,false,56.0,cluster_0
+63.0,20.0,Ernests Gulbis,$1.498,Tommy Haas,Jun 10 2013,Halle,R16,Tommy Haas,false,57.0,cluster_0
+69.0,47.0,Novak Djokovic,$7.120,Novak Djokovic,Jun 24 2013,Wimbledon Slam,Round of 16,Tommy Haas,false,51.0,cluster_1
+62.0,27.0,Feliciano Lopez,$1.515,Tommy Haas,Jun 24 2013,Wimbledon Slam,Round of 32,Tommy Haas,false,52.0,cluster_4
+58.0,18.0,Jimmy Wang,$1.057,Tommy Haas,Jun 24 2013,Wimbledon Slam,Round of 64,Tommy Haas,false,53.0,cluster_0
+64.0,24.0,Dmitry Tursunov,$1.105,Tommy Haas,Jun 24 2013,Wimbledon Slam,Round of 128,Tommy Haas,false,54.0,cluster_0
+71.0,41.0,Fabio Fognini,$1.446,Fabio Fognini,Jul 8 2013,Stuttgart,Q,Tommy Haas,false,49.0,cluster_1
+62.0,28.0,Ernests Gulbis,$1.669,Tommy Haas,Jul 8 2013,Stuttgart,R16,Tommy Haas,false,50.0,cluster_4
+56.0,31.0,Carlos Berlocq,$1.397,Tommy Haas,Jul 15 2013,Hamburg,R16,Tommy Haas,false,47.0,cluster_3
+57.0,33.0,Blaz Kavcic,$1.190,Tommy Haas,Jul 15 2013,Hamburg,R32,Tommy Haas,false,48.0,cluster_3
+72.0,25.0,Grigor Dimitrov,$1.976,Tommy Haas,Jul 29 2013,Washington,Q,Tommy Haas,false,43.0,cluster_4
+61.0,41.0,Ivan Dodig,$1.462,Tommy Haas,Jul 29 2013,Washington,R16,Tommy Haas,false,44.0,cluster_2
+57.0,35.0,Tim Smyczek,$1.228,Tommy Haas,Jul 29 2013,Washington,R32,Tommy Haas,false,45.0,cluster_2
+66.0,50.0,Fabio Fognini,$1.592,Fabio Fognini,Jul 29 2013,Hamburg,Q,Tommy Haas,false,46.0,cluster_1
+66.0,23.0,David Goffin,$1.335,Tommy Haas,Aug 5 2013,ATP World Tour Masters 1000 Canada,R64,Tommy Haas,false,41.0,cluster_0
+62.0,37.0,Juan Martin Del Potro,$4.247,Juan Martin Del Potro,Aug 5 2013,Washington,S,Tommy Haas,false,42.0,cluster_2
+51.0,27.0,Marcel Granollers,$1.327,Tommy Haas,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Tommy Haas,false,39.0,cluster_3
+70.0,21.0,Kevin Anderson,$1.930,Tommy Haas,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R64,Tommy Haas,false,40.0,cluster_0
+55.0,38.0,Yen-Hsun Lu,$1.142,Tommy Haas,Aug 26 2013,US Open Slam,Round of 64,Tommy Haas,false,36.0,cluster_2
+56.0,25.0,Paul-Henri Mathieu,$1.070,Tommy Haas,Aug 26 2013,US Open Slam,Round of 128,Tommy Haas,false,37.0,cluster_3
+61.0,38.0,Roger Federer,$3.184,Roger Federer,Aug 26 2013,ATP World Tour Masters 1000 Cincinnati,R16,Tommy Haas,false,38.0,cluster_2
+64.0,43.0,Mikhail Youzhny,$1.527,Mikhail Youzhny,Sep 30 2013,US Open Slam,Round of 32,Tommy Haas,false,35.0,cluster_2
+68.0,29.0,Daniel Brands,$1.211,Tommy Haas,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Tommy Haas,false,32.0,cluster_4
+63.0,26.0,Sam Querrey,$1.574,Tommy Haas,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,Tommy Haas,false,33.0,cluster_4
+58.0,45.0,Lleyton Hewitt,$1.589,Lleyton Hewitt,Oct 6 2013,Beijing,R32,Tommy Haas,false,34.0,cluster_2
+73.0,25.0,Lukas Rosol,$1.224,Tommy Haas,Oct 14 2013,Vienna,S,Tommy Haas,false,29.0,cluster_4
+68.0,33.0,Radek Stepanek,$1.755,Tommy Haas,Oct 14 2013,Vienna,Q,Tommy Haas,false,30.0,cluster_4
+65.0,32.0,Miloslav Mecir,$1.105,Tommy Haas,Oct 14 2013,Vienna,R16,Tommy Haas,false,31.0,cluster_4
+58.0,42.0,Tommy Haas,$1.365,Tommy Haas,Oct 21 2013,Vienna,F,Robin Haase,false,28.0,cluster_2
+64.0,41.0,Philipp Kohlschreiber,$1.683,Philipp Kohlschreiber,Oct 28 2013,Valencia,R32,Tommy Haas,false,27.0,cluster_2
+64.0,47.0,Philipp Kohlschreiber,$1.706,Philipp Kohlschreiber,Jan 6 2014,ATP World Tour Masters 1000 Paris,R32,Tommy Haas,false,26.0,cluster_1
+68.0,35.0,Jack Sock,$1.377,Jack Sock,Jan 13 2014,Auckland,R16,Tommy Haas,false,25.0,cluster_4
+62.0,29.0,Daniel Evans,$1.365,Tommy Haas,Feb 3 2014,Zagreb,S,Tommy Haas,false,21.0,cluster_4
+70.0,28.0,Andrey Kuznetsov,$1.252,Tommy Haas,Feb 3 2014,Zagreb,Q,Tommy Haas,false,22.0,cluster_4
+62.0,31.0,Benjamin Becker,$1.443,Tommy Haas,Feb 3 2014,Zagreb,R16,Tommy Haas,false,23.0,cluster_4
+63.0,45.0,Guillermo Garcia-Lopez,$1.504,Guillermo Garcia-Lopez,Feb 3 2014,Australian Open Slam,Round of 128,Tommy Haas,false,24.0,cluster_2
+62.0,31.0,Fernando Verdasco,$1.853,Tommy Haas,Feb 10 2014,Rotterdam,R32,Tommy Haas,false,19.0,cluster_4
+66.0,41.0,Marin Cilic,$2.752,Marin Cilic,Feb 10 2014,Zagreb,F,Tommy Haas,false,20.0,cluster_1
+47.0,20.0,Wayne Odesnik,$1.245,Tommy Haas,Feb 17 2014,Delray Beach,R32,Tommy Haas,false,17.0,cluster_3
+77.0,40.0,Jerzy Janowicz,$2.288,Jerzy Janowicz,Feb 17 2014,Rotterdam,R16,Tommy Haas,false,18.0,cluster_1
+63.0,23.0,Horacio Zeballos,$1.268,Tommy Haas,Feb 24 2014,Sao Paulo,Q,Tommy Haas,false,14.0,cluster_0
+62.0,29.0,Potito Starace,$1.408,Tommy Haas,Feb 24 2014,Sao Paulo,R16,Tommy Haas,false,15.0,cluster_4
+60.0,37.0,Steve Johnson,$1.345,Steve Johnson,Feb 24 2014,Delray Beach,R16,Tommy Haas,false,16.0,cluster_2
+69.0,40.0,Roger Federer,$5.170,Roger Federer,Mar 17 2014,ATP World Tour Masters 1000 Indian Wells,R16,Tommy Haas,false,10.0,cluster_1
+52.0,39.0,Kei Nishikori,$2.828,Tommy Haas,Mar 17 2014,ATP World Tour Masters 1000 Indian Wells,R32,Tommy Haas,false,11.0,cluster_2
+64.0,32.0,Jeremy Chardy,$2.014,Tommy Haas,Mar 17 2014,ATP World Tour Masters 1000 Indian Wells,R64,Tommy Haas,false,12.0,cluster_4
+69.0,41.0,Paolo Lorenzi,$1.366,Paolo Lorenzi,Mar 17 2014,Sao Paulo,S,Tommy Haas,false,13.0,cluster_1
+69.0,54.0,Martin Klizan,$1.530,Martin Klizan,Apr 28 2014,Munich,S,Tommy Haas,false,7.0,cluster_1
+62.0,34.0,Andreas Seppi,$1.445,Tommy Haas,Apr 28 2014,Munich,Q,Tommy Haas,false,8.0,cluster_4
+50.0,36.0,Alejandro Falla,$1.495,Tommy Haas,Apr 28 2014,Munich,R16,Tommy Haas,false,9.0,cluster_3
+62.0,44.0,Igor Sijsling,$1.651,Igor Sijsling,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Tommy Haas,false,6.0,cluster_2
+79.0,50.0,Grigor Dimitrov,$2.980,Grigor Dimitrov,May 12 2014,ATP World Tour Masters 1000 Rome,Q,Tommy Haas,false,2.0,cluster_1
+54.0,29.0,Stan Wawrinka,$5.821,Tommy Haas,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Tommy Haas,false,3.0,cluster_3
+57.0,22.0,Igor Sijsling,$1.527,Tommy Haas,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Tommy Haas,false,4.0,cluster_0
+56.0,36.0,Andreas Seppi,$2.004,Tommy Haas,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Tommy Haas,false,5.0,cluster_2
+62.0,11.0,Jurgen Zopp,$1.096,Jurgen Zopp,May 21 2014,French Open Slam,Round of 128,Tommy Haas,false,1.0,cluster_0

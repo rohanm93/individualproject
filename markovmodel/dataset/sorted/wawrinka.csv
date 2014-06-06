@@ -1,0 +1,87 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+63.0,30.0,Paolo Lorenzi,$1.195,Stan Wawrinka,Feb 1 2013,Buenos Aires,R32,Stan Wawrinka,false,86.0,cluster_2
+66.0,44.0,Fabio Fognini,$1.226,Fabio Fognini,Feb 18 2013,Acapulco,R32,Stan Wawrinka,false,81.0,cluster_3
+61.0,48.0,David Ferrer,$3.814,David Ferrer,Feb 18 2013,Buenos Aires,F,Stan Wawrinka,false,82.0,cluster_1
+67.0,21.0,Nicolas Almagro,$2.236,Stan Wawrinka,Feb 18 2013,Buenos Aires,S,Stan Wawrinka,false,83.0,cluster_0
+53.0,37.0,Albert Ramos,$1.334,Stan Wawrinka,Feb 18 2013,Buenos Aires,Q,Stan Wawrinka,false,84.0,cluster_1
+50.0,28.0,Daniel Gimeno-Traver,$1.222,Stan Wawrinka,Feb 18 2013,Buenos Aires,R16,Stan Wawrinka,false,85.0,cluster_4
+60.0,26.0,Wayne Odesnik,$1.155,Stan Wawrinka,Feb 25 2013,ATP World Tour Masters 1000 Indian Wells,R64,Stan Wawrinka,false,80.0,cluster_2
+56.0,36.0,Blaz Kavcic,$1.165,Stan Wawrinka,Mar 6 2013,Casablanca,R16,Stan Wawrinka,false,77.0,cluster_1
+59.0,42.0,Roger Federer,$4.432,Roger Federer,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Stan Wawrinka,false,78.0,cluster_1
+58.0,27.0,Lleyton Hewitt,$1.306,Stan Wawrinka,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Stan Wawrinka,false,79.0,cluster_2
+50.0,33.0,Denis Istomin,$1.171,Stan Wawrinka,Apr 8 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Stan Wawrinka,false,74.0,cluster_4
+57.0,44.0,Tommy Robredo,$1.272,Tommy Robredo,Apr 8 2013,Casablanca,S,Stan Wawrinka,false,75.0,cluster_1
+44.0,30.0,Guillermo Garcia-Lopez,$1.171,Stan Wawrinka,Apr 8 2013,Casablanca,Q,Stan Wawrinka,false,76.0,cluster_4
+62.0,32.0,Albert Ramos,$1.306,Stan Wawrinka,Apr 15 2013,Oeiras,R16,Stan Wawrinka,false,70.0,cluster_2
+62.0,34.0,Jo-Wilfried Tsonga,$1.830,Jo-Wilfried Tsonga,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,Q,Stan Wawrinka,false,71.0,cluster_2
+44.0,25.0,Andy Murray,$3.085,Stan Wawrinka,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R16,Stan Wawrinka,false,72.0,cluster_4
+43.0,29.0,Albert Montanes,$1.205,Stan Wawrinka,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Stan Wawrinka,false,73.0,cluster_4
+63.0,14.0,Marius Copil,$1.096,Stan Wawrinka,Apr 29 2013,ATP World Tour Masters 1000 Madrid,R64,Stan Wawrinka,false,58.0,cluster_0
+58.0,14.0,David Ferrer,$2.980,Stan Wawrinka,Apr 29 2013,Oeiras,F,Stan Wawrinka,false,62.0,cluster_0
+59.0,31.0,Pablo Carreno Busta,$1.144,Stan Wawrinka,Apr 29 2013,Oeiras,S,Stan Wawrinka,false,63.0,cluster_2
+58.0,25.0,Gastao Elias,$1.136,Stan Wawrinka,Apr 29 2013,Oeiras,Q,Stan Wawrinka,false,67.0,cluster_2
+57.0,39.0,Carlos Berlocq,$1.329,Stan Wawrinka,May 5 2013,ATP World Tour Masters 1000 Rome,R64,Stan Wawrinka,false,49.0,cluster_1
+68.0,36.0,Tomas Berdych,$1.995,Stan Wawrinka,May 5 2013,ATP World Tour Masters 1000 Madrid,S,Stan Wawrinka,false,50.0,cluster_3
+56.0,35.0,Jo-Wilfried Tsonga,$1.653,Stan Wawrinka,May 5 2013,ATP World Tour Masters 1000 Madrid,Q,Stan Wawrinka,false,52.0,cluster_2
+60.0,35.0,Grigor Dimitrov,$1.503,Stan Wawrinka,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Stan Wawrinka,false,53.0,cluster_2
+52.0,25.0,Santiago Giraldo,$1.235,Stan Wawrinka,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Stan Wawrinka,false,57.0,cluster_4
+66.0,29.0,Thiemo de Bakker,$1.096,Stan Wawrinka,May 12 2013,French Open Slam,Round of 128,Stan Wawrinka,false,46.0,cluster_2
+70.0,52.0,Rafael Nadal,$12.872,Rafael Nadal,May 27 2013,French Open Slam,Quarter Final,Stan Wawrinka,false,40.0,cluster_3
+64.0,30.0,Richard Gasquet,$1.830,Stan Wawrinka,May 27 2013,French Open Slam,Round of 16,Stan Wawrinka,false,41.0,cluster_2
+61.0,29.0,Jerzy Janowicz,$1.396,Stan Wawrinka,May 27 2013,French Open Slam,Round of 32,Stan Wawrinka,false,44.0,cluster_2
+60.0,29.0,Horacio Zeballos,$1.082,Stan Wawrinka,May 27 2013,French Open Slam,Round of 64,Stan Wawrinka,false,45.0,cluster_2
+73.0,35.0,Nicolas Mahut,$1.384,Nicolas Mahut,Jun 16 2013,s-Hertogenbosch,F,Stan Wawrinka,false,29.0,cluster_3
+55.0,34.0,Guillermo Garcia-Lopez,$1.276,Stan Wawrinka,Jun 16 2013,s-Hertogenbosch,S,Stan Wawrinka,false,31.0,cluster_2
+67.0,25.0,Jeremy Chardy,$1.439,Stan Wawrinka,Jun 16 2013,s-Hertogenbosch,Q,Stan Wawrinka,false,32.0,cluster_0
+66.0,27.0,Paolo Lorenzi,$1.124,Stan Wawrinka,Jun 16 2013,s-Hertogenbosch,R16,Stan Wawrinka,false,36.0,cluster_0
+64.0,42.0,Lleyton Hewitt,$1.676,Lleyton Hewitt,Jun 24 2013,Wimbledon Slam,Round of 128,Stan Wawrinka,false,28.0,cluster_1
+62.0,40.0,Feliciano Lopez,$1.256,Feliciano Lopez,Jul 22 2013,Gstaad,Q,Stan Wawrinka,false,23.0,cluster_1
+59.0,26.0,Daniel Gimeno-Traver,$1.161,Stan Wawrinka,Jul 22 2013,Gstaad,R16,Stan Wawrinka,false,24.0,cluster_2
+60.0,43.0,Benoit Paire,$1.430,Benoit Paire,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,Stan Wawrinka,false,22.0,cluster_1
+62.0,41.0,Tommy Robredo,$1.424,Tommy Robredo,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Stan Wawrinka,false,18.0,cluster_1
+56.0,21.0,Andreas Seppi,$1.416,Stan Wawrinka,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R64,Stan Wawrinka,false,19.0,cluster_0
+54.0,25.0,Andy Murray,$4.080,Stan Wawrinka,Aug 26 2013,US Open Slam,Quarter Final,Stan Wawrinka,false,8.0,cluster_4
+61.0,33.0,Tomas Berdych,$3.467,Stan Wawrinka,Aug 26 2013,US Open Slam,Round of 16,Stan Wawrinka,false,9.0,cluster_2
+61.0,30.0,Marcos Baghdatis,$1.407,Stan Wawrinka,Aug 26 2013,US Open Slam,Round of 32,Stan Wawrinka,false,12.0,cluster_2
+68.0,25.0,Ivo Karlovic,$1.213,Stan Wawrinka,Aug 26 2013,US Open Slam,Round of 64,Stan Wawrinka,false,13.0,cluster_0
+55.0,37.0,Radek Stepanek,$1.498,Stan Wawrinka,Aug 26 2013,US Open Slam,Round of 128,Stan Wawrinka,false,17.0,cluster_1
+64.0,40.0,Novak Djokovic,$5.170,Novak Djokovic,Aug 26 2013,US Open Slam,Semi Final,Stan Wawrinka,false,69.0,cluster_1
+55.0,31.0,Emilio Gomez,$1.020,Stan Wawrinka,Sep 13 2013,Davis Cup,Singles,Stan Wawrinka,false,68.0,cluster_2
+61.0,49.0,Julien Benneteau,$1.347,Julien Benneteau,Sep 23 2013,Kuala Lumpur,S,Stan Wawrinka,false,64.0,cluster_1
+65.0,34.0,Dmitry Tursunov,$1.330,Stan Wawrinka,Sep 23 2013,Kuala Lumpur,Q,Stan Wawrinka,false,65.0,cluster_2
+62.0,23.0,Marcos Baghdatis,$1.390,Stan Wawrinka,Sep 23 2013,Kuala Lumpur,R16,Stan Wawrinka,false,66.0,cluster_0
+72.0,40.0,Sam Querrey,$1.319,Sam Querrey,Sep 30 2013,Beijing,R16,Stan Wawrinka,false,60.0,cluster_3
+62.0,30.0,Andreas Seppi,$1.216,Stan Wawrinka,Sep 30 2013,Beijing,R32,Stan Wawrinka,false,61.0,cluster_2
+72.0,36.0,Rafael Nadal,$5.327,Rafael Nadal,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,Q,Stan Wawrinka,false,55.0,cluster_3
+74.0,19.0,Milos Raonic,$2.067,Stan Wawrinka,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R16,Stan Wawrinka,false,56.0,cluster_0
+64.0,25.0,Kevin Anderson,$1.397,Stan Wawrinka,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Stan Wawrinka,false,59.0,cluster_0
+69.0,40.0,Edouard Roger-Vasselin,$1.125,Edouard Roger-Vasselin,Oct 21 2013,Basel,R32,Stan Wawrinka,false,54.0,cluster_3
+68.0,46.0,Novak Djokovic,$5.701,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Paris,Q,Stan Wawrinka,false,47.0,cluster_3
+48.0,33.0,Nicolas Almagro,$1.609,Stan Wawrinka,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Stan Wawrinka,false,48.0,cluster_4
+60.0,22.0,Feliciano Lopez,$1.359,Stan Wawrinka,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Stan Wawrinka,false,51.0,cluster_0
+73.0,48.0,Novak Djokovic,$5.658,Novak Djokovic,Nov 4 2013,Barclays ATP World Tour Finals,S,Stan Wawrinka,false,43.0,cluster_3
+56.0,28.0,Edouard Roger-Vasselin,$1.221,Stan Wawrinka,Dec 30 2013,Chennai,F,Stan Wawrinka,false,38.0,cluster_2
+62.0,38.0,Vasek Pospisil,$1.255,Stan Wawrinka,Dec 30 2013,Chennai,S,Stan Wawrinka,false,39.0,cluster_1
+49.0,23.0,Benjamin Becker,$1.200,Stan Wawrinka,Dec 30 2013,Chennai,R16,Stan Wawrinka,false,42.0,cluster_4
+56.0,29.0,Rafael Nadal,$6.025,Stan Wawrinka,Jan 13 2014,Australian Open Slam,Final,Stan Wawrinka,false,27.0,cluster_2
+72.0,28.0,Tomas Berdych,$1.815,Stan Wawrinka,Jan 13 2014,Australian Open Slam,Semi Final,Stan Wawrinka,false,30.0,cluster_0
+68.0,37.0,Novak Djokovic,$7.979,Stan Wawrinka,Jan 13 2014,Australian Open Slam,Quarter Final,Stan Wawrinka,false,33.0,cluster_3
+63.0,27.0,Tommy Robredo,$1.358,Stan Wawrinka,Jan 13 2014,Australian Open Slam,Round of 16,Stan Wawrinka,false,34.0,cluster_2
+60.0,29.0,Alejandro Falla,$1.096,Stan Wawrinka,Jan 13 2014,Australian Open Slam,Round of 64,Stan Wawrinka,false,35.0,cluster_2
+50.0,26.0,Andrey Golubev,$1.052,Stan Wawrinka,Jan 13 2014,Australian Open Slam,Round of 128,Stan Wawrinka,false,37.0,cluster_4
+60.0,32.0,Dusan Lajovic,$1.036,Stan Wawrinka,Jan 31 2014,Davis Cup,Singles,Stan Wawrinka,false,26.0,cluster_2
+60.0,42.0,Kevin Anderson,$1.264,Kevin Anderson,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Stan Wawrinka,false,20.0,cluster_1
+40.0,23.0,Andreas Seppi,$1.127,Stan Wawrinka,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Stan Wawrinka,false,21.0,cluster_4
+73.0,19.0,Ivo Karlovic,$1.249,Stan Wawrinka,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Stan Wawrinka,false,25.0,cluster_0
+69.0,42.0,Alexandr Dolgopolov,$1.381,Alexandr Dolgopolov,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,Stan Wawrinka,false,14.0,cluster_3
+58.0,31.0,Edouard Roger-Vasselin,$1.205,Stan Wawrinka,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Stan Wawrinka,false,15.0,cluster_2
+52.0,33.0,Daniel Gimeno-Traver,$1.057,Stan Wawrinka,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Stan Wawrinka,false,16.0,cluster_4
+63.0,21.0,Mikhail Kukushkin,$1.192,Stan Wawrinka,Apr 4 2014,Davis Cup,Reverse Singles,Stan Wawrinka,false,10.0,cluster_0
+69.0,36.0,Andrey Golubev,$1.057,Andrey Golubev,Apr 4 2014,Davis Cup,Singles,Stan Wawrinka,false,11.0,cluster_3
+64.0,30.0,Roger Federer,$2.357,Stan Wawrinka,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,F,Stan Wawrinka,false,5.0,cluster_2
+61.0,28.0,David Ferrer,$2.347,Stan Wawrinka,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,S,Stan Wawrinka,false,6.0,cluster_2
+67.0,26.0,Milos Raonic,$1.391,Stan Wawrinka,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,Q,Stan Wawrinka,false,7.0,cluster_0
+63.0,35.0,Dominic Thiem,$1.170,Dominic Thiem,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Stan Wawrinka,false,4.0,cluster_2
+70.0,45.0,Tommy Haas,$1.183,Tommy Haas,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Stan Wawrinka,false,2.0,cluster_3
+48.0,19.0,Pere Riba,$1.072,Stan Wawrinka,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Stan Wawrinka,false,3.0,cluster_4
+63.0,46.0,Guillermo Garcia-Lopez,$1.116,Guillermo Garcia-Lopez,May 21 2014,French Open Slam,Round of 128,Stan Wawrinka,false,1.0,cluster_1

@@ -1,0 +1,87 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+66,36,Alejandro Falla,$1.069,Tomas Berdych,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,Tomas Berdych,FALSE,83,cluster_4
+64,31,Daniel Gimeno-Traver,$1.042,Tomas Berdych,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,Tomas Berdych,FALSE,84,cluster_1
+65,40,Rafael Nadal,$2.809,Rafael Nadal,Mar 18 2013,ATP World Tour Masters 1000 Indian Wells,S,Tomas Berdych,FALSE,85,cluster_4
+62,30,Kevin Anderson,$1.229,Tomas Berdych,Mar 18 2013,ATP World Tour Masters 1000 Indian Wells,Q,Tomas Berdych,FALSE,86,cluster_1
+70,39,Richard Gasquet,$1.446,Richard Gasquet,Apr 15 2013,ATP World Tour Masters 1000 Miami,Q,Tomas Berdych,FALSE,81,cluster_4
+45,28,Sam Querrey,$1.335,Tomas Berdych,Apr 15 2013,ATP World Tour Masters 1000 Miami,R16,Tomas Berdych,FALSE,82,cluster_0
+67,48,Fabio Fognini,$1.276,Fabio Fognini,Apr 22 2013,ATP World Tour Masters 1000 Monte Carlo,R16,Tomas Berdych,FALSE,79,cluster_4
+54,39,Marcel Granollers,$1.136,Tomas Berdych,Apr 22 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Tomas Berdych,FALSE,80,cluster_3
+60,36,Kevin Anderson,$1.366,Tomas Berdych,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Tomas Berdych,FALSE,75,cluster_3
+64,38,Jerzy Janowicz,$1.351,Tomas Berdych,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Tomas Berdych,FALSE,76,cluster_4
+62,36,Tommy Robredo,$1.469,Tommy Robredo,May 5 2013,Barcelona,R16,Tomas Berdych,FALSE,77,cluster_4
+56,45,Nikolay Davydenko,$1.454,Tomas Berdych,May 5 2013,Barcelona,R32,Tomas Berdych,FALSE,78,cluster_3
+64,36,Novak Djokovic,$5.701,Tomas Berdych,May 19 2013,ATP World Tour Masters 1000 Rome,Q,Tomas Berdych,FALSE,70,cluster_4
+58,30,Kevin Anderson,$1.325,Tomas Berdych,May 19 2013,ATP World Tour Masters 1000 Rome,R16,Tomas Berdych,FALSE,71,cluster_1
+50,23,Denis Istomin,$1.138,Tomas Berdych,May 19 2013,ATP World Tour Masters 1000 Rome,R32,Tomas Berdych,FALSE,72,cluster_2
+63,31,Stan Wawrinka,$1.939,Stan Wawrinka,May 19 2013,ATP World Tour Masters 1000 Madrid,S,Tomas Berdych,FALSE,73,cluster_1
+58,37,Andy Murray,$2.058,Tomas Berdych,May 19 2013,ATP World Tour Masters 1000 Madrid,Q,Tomas Berdych,FALSE,74,cluster_3
+57,21,Grega Zemlja,$1.096,Tomas Berdych,Jun 10 2013,London / Queen's Club,R16,Tomas Berdych,FALSE,67,cluster_2
+54,28,Thiemo de Bakker,$1.129,Tomas Berdych,Jun 10 2013,London / Queen's Club,R32,Tomas Berdych,FALSE,68,cluster_2
+72,32,Gael Monfils,$1.252,Gael Monfils,Jun 10 2013,French Open Slam,Round of 128,Tomas Berdych,FALSE,69,cluster_1
+61,29,Bernard Tomic,$1.407,Tomas Berdych,Jun 24 2013,Wimbledon Slam,Round of 16,Tomas Berdych,FALSE,62,cluster_1
+64,35,Kevin Anderson,$1.208,Tomas Berdych,Jun 24 2013,Wimbledon Slam,Round of 32,Tomas Berdych,FALSE,63,cluster_4
+63,19,Daniel Brands,$1.077,Tomas Berdych,Jun 24 2013,Wimbledon Slam,Round of 64,Tomas Berdych,FALSE,64,cluster_2
+58,22,Martin Klizan,$1.057,Tomas Berdych,Jun 24 2013,Wimbledon Slam,Round of 128,Tomas Berdych,FALSE,65,cluster_2
+70,29,Marin Cilic,$1.396,Marin Cilic,Jun 24 2013,London / Queen's Club,Q,Tomas Berdych,FALSE,66,cluster_1
+38,38,Martin Alund,$1.057,Tomas Berdych,Jul 8 2013,Bastad,R16,Tomas Berdych,FALSE,60,cluster_0
+71,39,Novak Djokovic,$8.023,Novak Djokovic,Jul 8 2013,Wimbledon Slam,Quarter Final,Tomas Berdych,FALSE,61,cluster_4
+60,31,Alexandr Dolgopolov,$1.300,Tomas Berdych,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,Tomas Berdych,FALSE,58,cluster_1
+58,43,Thiemo de Bakker,$1.073,Thiemo de Bakker,Aug 5 2013,Bastad,Q,Tomas Berdych,FALSE,59,cluster_3
+71,38,Rafael Nadal,$3.668,Rafael Nadal,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,S,Tomas Berdych,FALSE,53,cluster_4
+64,30,Andy Murray,$3.156,Tomas Berdych,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,Q,Tomas Berdych,FALSE,54,cluster_1
+51,28,Tommy Robredo,$1.224,Tomas Berdych,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,R16,Tomas Berdych,FALSE,55,cluster_0
+47,29,Jarkko Nieminen,$1.158,Tomas Berdych,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,R32,Tomas Berdych,FALSE,56,cluster_0
+64,33,Vasek Pospisil,$1.168,Vasek Pospisil,Aug 18 2013,ATP World Tour Masters 1000 Canada,R16,Tomas Berdych,FALSE,57,cluster_1
+67,39,Stan Wawrinka,$1.373,Stan Wawrinka,Aug 26 2013,US Open Slam,Round of 16,Tomas Berdych,FALSE,49,cluster_4
+48,33,Julien Benneteau,$1.133,Tomas Berdych,Aug 26 2013,US Open Slam,Round of 32,Tomas Berdych,FALSE,50,cluster_0
+54,34,Denis Kudla,$1.030,Tomas Berdych,Aug 26 2013,US Open Slam,Round of 64,Tomas Berdych,FALSE,51,cluster_0
+45,34,Paolo Lorenzi,$1.024,Tomas Berdych,Aug 26 2013,US Open Slam,Round of 128,Tomas Berdych,FALSE,52,cluster_0
+62,33,Leonardo Mayer,$1.049,Tomas Berdych,Sep 13 2013,Davis Cup,Singles,Tomas Berdych,FALSE,48,cluster_1
+53,37,Gilles Simon,$1.373,Tomas Berdych,Sep 23 2013,Bangkok,S,Tomas Berdych,FALSE,45,cluster_3
+62,32,Yen-Hsun Lu,$1.174,Tomas Berdych,Sep 23 2013,Bangkok,Q,Tomas Berdych,FALSE,46,cluster_1
+56,29,Roberto Bautista Agut,$1.200,Tomas Berdych,Sep 23 2013,Bangkok,R16,Tomas Berdych,FALSE,47,cluster_2
+52,40,John Isner,$1.467,Tomas Berdych,Sep 30 2013,Beijing,Q,Tomas Berdych,FALSE,43,cluster_3
+52,35,Pablo Andujar,$1.083,Tomas Berdych,Sep 30 2013,Beijing,R32,Tomas Berdych,FALSE,44,cluster_0
+73,29,Nicolas Almagro,$1.395,Nicolas Almagro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R16,Tomas Berdych,FALSE,41,cluster_1
+62,20,Feliciano Lopez,$1.491,Tomas Berdych,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Tomas Berdych,FALSE,42,cluster_2
+47,32,Pablo Andujar,$1.057,Tomas Berdych,Oct 21 2013,ATP World Tour Masters 1000 Paris,R32,Tomas Berdych,FALSE,39,cluster_0
+69,21,Ivo Karlovic,$1.249,Ivo Karlovic,Oct 21 2013,Basel,R32,Tomas Berdych,FALSE,40,cluster_1
+65,37,David Ferrer,$1.958,David Ferrer,Oct 28 2013,ATP World Tour Masters 1000 Paris,Q,Tomas Berdych,FALSE,37,cluster_4
+65,26,Milos Raonic,$2.087,Tomas Berdych,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Tomas Berdych,FALSE,38,cluster_1
+65,22,Dusan Lajovic,$1.028,Tomas Berdych,Nov 4 2013,Davis Cup,Singles,Tomas Berdych,FALSE,36,cluster_1
+74,22,Ivo Karlovic,$1.215,Ivo Karlovic,Nov 15 2013,Doha,R32,Tomas Berdych,FALSE,34,cluster_1
+75,37,Novak Djokovic,$10.342,Novak Djokovic,Nov 15 2013,Davis Cup,Reverse Singles,Tomas Berdych,FALSE,35,cluster_4
+58,18,Aleksandr Nedovyesov,$1.024,Tomas Berdych,Jan 7 2014,Australian Open Slam,Round of 128,Tomas Berdych,FALSE,33,cluster_2
+72,28,Stan Wawrinka,$2.145,Stan Wawrinka,Jan 13 2014,Australian Open Slam,Semi Final,Tomas Berdych,FALSE,28,cluster_1
+58,39,David Ferrer,$1.554,Tomas Berdych,Jan 13 2014,Australian Open Slam,Quarter Final,Tomas Berdych,FALSE,29,cluster_3
+56,24,Kevin Anderson,$1.109,Tomas Berdych,Jan 13 2014,Australian Open Slam,Round of 16,Tomas Berdych,FALSE,30,cluster_2
+53,22,Damir Dzumhur,$1.033,Tomas Berdych,Jan 13 2014,Australian Open Slam,Round of 32,Tomas Berdych,FALSE,31,cluster_2
+51,21,Kenny De Schepper,$1.036,Tomas Berdych,Jan 13 2014,Australian Open Slam,Round of 64,Tomas Berdych,FALSE,32,cluster_2
+59,23,Marin Cilic,$1.472,Tomas Berdych,Feb 10 2014,Rotterdam,F,Tomas Berdych,FALSE,23,cluster_2
+58,28,Ernests Gulbis,$1.574,Tomas Berdych,Feb 10 2014,Rotterdam,S,Tomas Berdych,FALSE,24,cluster_2
+59,31,Jerzy Janowicz,$1.366,Tomas Berdych,Feb 10 2014,Rotterdam,Q,Tomas Berdych,FALSE,25,cluster_1
+60,17,Nicolas Mahut,$1.105,Tomas Berdych,Feb 10 2014,Rotterdam,R16,Tomas Berdych,FALSE,26,cluster_2
+55,16,Andreas Seppi,$1.132,Tomas Berdych,Feb 10 2014,Rotterdam,R32,Tomas Berdych,FALSE,27,cluster_2
+65,44,Roger Federer,$2.298,Roger Federer,Feb 24 2014,Dubai,F,Tomas Berdych,FALSE,18,cluster_4
+65,28,Philipp Kohlschreiber,$1.152,Tomas Berdych,Feb 24 2014,Dubai,S,Tomas Berdych,FALSE,19,cluster_1
+62,29,Jo-Wilfried Tsonga,$1.384,Tomas Berdych,Feb 24 2014,Dubai,Q,Tomas Berdych,FALSE,20,cluster_1
+45,27,Sergiy Stakhovsky,$1.082,Tomas Berdych,Feb 24 2014,Dubai,R16,Tomas Berdych,FALSE,21,cluster_0
+58,22,Marius Copil,$1.041,Tomas Berdych,Feb 24 2014,Dubai,R32,Tomas Berdych,FALSE,22,cluster_2
+59,43,Roberto Bautista Agut,$1.147,Roberto Bautista Agut,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Tomas Berdych,FALSE,17,cluster_3
+57,28,Alexandr Dolgopolov,$1.376,Tomas Berdych,Mar 17 2014,ATP World Tour Masters 1000 Miami,Q,Tomas Berdych,FALSE,13,cluster_2
+58,23,John Isner,$1.412,Tomas Berdych,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,Tomas Berdych,FALSE,14,cluster_2
+50,34,Joao Sousa,$1.082,Tomas Berdych,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Tomas Berdych,FALSE,15,cluster_0
+55,24,Stephane Robert,$1.065,Tomas Berdych,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Tomas Berdych,FALSE,16,cluster_2
+62,48,Guillermo Garcia-Lopez,$1.258,Guillermo Garcia-Lopez,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,Tomas Berdych,FALSE,11,cluster_3
+55,29,Dmitry Tursunov,$1.096,Tomas Berdych,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,Tomas Berdych,FALSE,12,cluster_2
+49,51,Carlos Berlocq,$1.248,Carlos Berlocq,Apr 28 2014,Oeiras,F,Tomas Berdych,FALSE,7,cluster_3
+50,23,Victor Hanescu,$1.177,Tomas Berdych,Apr 28 2014,Oeiras,S,Tomas Berdych,FALSE,8,cluster_2
+57,40,Leonardo Mayer,$1.167,Tomas Berdych,Apr 28 2014,Oeiras,Q,Tomas Berdych,FALSE,9,cluster_3
+54,27,Somdev Devvarman,$1.046,Tomas Berdych,Apr 28 2014,Oeiras,R16,Tomas Berdych,FALSE,10,cluster_2
+72,41,Rafael Nadal,$6.296,Rafael Nadal,May 5 2014,ATP World Tour Masters 1000 Madrid,Q,Tomas Berdych,FALSE,4,cluster_4
+66,32,Grigor Dimitrov,$1.713,Tomas Berdych,May 5 2014,ATP World Tour Masters 1000 Madrid,R16,Tomas Berdych,FALSE,5,cluster_1
+53,20,Kevin Anderson,$1.199,Tomas Berdych,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Tomas Berdych,FALSE,6,cluster_2
+70,40,Grigor Dimitrov,$1.661,Grigor Dimitrov,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Tomas Berdych,FALSE,2,cluster_4
+53,37,Dmitry Tursunov,$1.110,Tomas Berdych,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Tomas Berdych,FALSE,3,cluster_3
+59,30,Peter Polansky,$1.024,Tomas Berdych,May 21 2014,French Open Slam,Round of 128,Tomas Berdych,FALSE,1,cluster_1

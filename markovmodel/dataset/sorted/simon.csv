@@ -1,0 +1,89 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+59.0,45.0,Janko Tipsarevic,$2.695,Janko Tipsarevic,Oct 1 2012,Tokyo,R32,Gilles Simon,false,42.0,cluster_3
+70.0,41.0,Alexandr Dolgopolov,$1.839,Alexandr Dolgopolov,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R32,Gilles Simon,false,45.0,cluster_0
+57.0,34.0,Jurgen Melzer,$1.270,Gilles Simon,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R64,Gilles Simon,false,48.0,cluster_2
+51.0,37.0,Janko Tipsarevic,$1.958,Gilles Simon,Oct 21 2012,Valencia,R32,Gilles Simon,false,51.0,cluster_1
+66.0,36.0,Marcel Granollers,$1.573,Marcel Granollers,Oct 21 2012,Valencia,R16,Gilles Simon,false,55.0,cluster_4
+77.0,38.0,Jerzy Janowicz,$1.642,Jerzy Janowicz,Oct 29 2012,ATP World Tour Masters 1000 Paris,S,Gilles Simon,false,54.0,cluster_0
+49.0,29.0,Marcos Baghdatis,$1.668,Gilles Simon,Oct 29 2012,ATP World Tour Masters 1000 Paris,R64,Gilles Simon,false,56.0,cluster_2
+57.0,31.0,Victor Hanescu,$1.135,Gilles Simon,Oct 29 2012,ATP World Tour Masters 1000 Paris,R32,Gilles Simon,false,57.0,cluster_2
+56.0,35.0,Tomas Berdych,$3.670,Gilles Simon,Oct 29 2012,ATP World Tour Masters 1000 Paris,Q,Gilles Simon,false,59.0,cluster_2
+61.0,37.0,Alejandro Falla,$1.294,Gilles Simon,Dec 31 2012,Brisbane,R16,Gilles Simon,false,62.0,cluster_3
+66.0,42.0,Marcos Baghdatis,$2.340,Marcos Baghdatis,Dec 31 2012,Brisbane,Q,Gilles Simon,false,63.0,cluster_3
+54.0,33.0,Filippo Volandri,$1.050,Gilles Simon,Jan 14 2013,Australian Open Slam,Round of 128,Gilles Simon,false,2.0,cluster_2
+59.0,45.0,Gael Monfils,$1.583,Gilles Simon,Jan 14 2013,Australian Open Slam,Round of 32,Gilles Simon,false,9.0,cluster_3
+60.0,35.0,Jesse Levine,$1.438,Gilles Simon,Jan 14 2013,Australian Open Slam,Round of 64,Gilles Simon,false,10.0,cluster_3
+70.0,52.0,Andy Murray,$24.940,Andy Murray,Jan 14 2013,Australian Open Slam,Round of 16,Gilles Simon,false,14.0,cluster_0
+61.0,39.0,Benoit Paire,$1.543,Benoit Paire,Feb 4 2013,Montpellier,Q,Gilles Simon,false,66.0,cluster_3
+56.0,25.0,Arnau Brugues-Davi,$1.109,Gilles Simon,Feb 4 2013,Montpellier,R16,Gilles Simon,false,67.0,cluster_2
+75.0,40.0,Julien Benneteau,$2.207,Julien Benneteau,Feb 11 2013,Rotterdam,S,Gilles Simon,false,68.0,cluster_0
+56.0,29.0,Daniel Brands,$1.619,Gilles Simon,Feb 11 2013,Rotterdam,R32,Gilles Simon,false,70.0,cluster_2
+46.0,32.0,Matteo Viola,$1.147,Gilles Simon,Feb 11 2013,Rotterdam,R16,Gilles Simon,false,72.0,cluster_2
+51.0,33.0,Martin Klizan,$1.387,Gilles Simon,Feb 11 2013,Rotterdam,Q,Gilles Simon,false,73.0,cluster_2
+38.0,38.0,Roberto Bautista Agut,$1.252,Gilles Simon,Feb 18 2013,Marseille,R16,Gilles Simon,false,74.0,cluster_1
+76.0,46.0,Jo-Wilfried Tsonga,$2.791,Jo-Wilfried Tsonga,Feb 18 2013,Marseille,S,Gilles Simon,false,76.0,cluster_0
+58.0,32.0,Robin Haase,$1.319,Gilles Simon,Feb 18 2013,Marseille,R32,Gilles Simon,false,78.0,cluster_2
+64.0,32.0,Juan Martin Del Potro,$3.860,Gilles Simon,Feb 18 2013,Marseille,Q,Gilles Simon,false,79.0,cluster_4
+68.0,40.0,Kevin Anderson,$2.809,Kevin Anderson,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Gilles Simon,false,6.0,cluster_3
+51.0,49.0,Benoit Paire,$1.633,Gilles Simon,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Gilles Simon,false,13.0,cluster_1
+49.0,47.0,Paolo Lorenzi,$1.219,Gilles Simon,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,Gilles Simon,false,80.0,cluster_1
+48.0,35.0,Lleyton Hewitt,$1.544,Gilles Simon,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,Gilles Simon,false,5.0,cluster_2
+53.0,38.0,Grega Zemlja,$1.240,Gilles Simon,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,Gilles Simon,false,7.0,cluster_1
+78.0,48.0,Tommy Haas,$2.628,Tommy Haas,Mar 18 2013,ATP World Tour Masters 1000 Miami,Q,Gilles Simon,false,8.0,cluster_0
+52.0,42.0,Janko Tipsarevic,$1.948,Gilles Simon,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,Gilles Simon,false,11.0,cluster_1
+55.0,42.0,Jarkko Nieminen,$1.845,Gilles Simon,Apr 22 2013,Bucharest,R16,Gilles Simon,false,12.0,cluster_1
+70.0,45.0,Lukas Rosol,$1.479,Lukas Rosol,Apr 22 2013,Bucharest,S,Gilles Simon,false,81.0,cluster_0
+51.0,30.0,Daniel Brands,$1.398,Gilles Simon,Apr 22 2013,Bucharest,Q,Gilles Simon,false,82.0,cluster_2
+53.0,39.0,Julien Benneteau,$1.446,Gilles Simon,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,Gilles Simon,false,77.0,cluster_1
+63.0,40.0,Andy Murray,$5.209,Andy Murray,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Gilles Simon,false,83.0,cluster_3
+57.0,32.0,Jeremy Chardy,$1.669,Gilles Simon,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Gilles Simon,false,85.0,cluster_2
+49.0,44.0,Mikhail Youzhny,$2.148,Gilles Simon,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Gilles Simon,false,84.0,cluster_1
+77.0,54.0,Roger Federer,$5.262,Roger Federer,May 12 2013,ATP World Tour Masters 1000 Rome,R16,Gilles Simon,false,86.0,cluster_0
+63.0,37.0,Filippo Volandri,$1.452,Gilles Simon,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Gilles Simon,false,87.0,cluster_3
+68.0,39.0,Pablo Andujar,$1.438,Pablo Andujar,May 19 2013,Nice,Q,Gilles Simon,false,4.0,cluster_3
+50.0,38.0,Guillaume Rufin,$1.443,Gilles Simon,May 19 2013,Nice,R16,Gilles Simon,false,88.0,cluster_1
+49.0,33.0,Pablo Cuevas,$1.123,Gilles Simon,May 27 2013,French Open Slam,Round of 64,Gilles Simon,false,1.0,cluster_2
+50.0,43.0,Lleyton Hewitt,$1.155,Gilles Simon,May 27 2013,French Open Slam,Round of 128,Gilles Simon,false,3.0,cluster_1
+58.0,36.0,Kyle Edmund,$1.170,Gilles Simon,Jun 17 2013,Eastbourne,R16,Gilles Simon,false,20.0,cluster_3
+66.0,28.0,Bernard Tomic,$2.116,Gilles Simon,Jun 17 2013,Eastbourne,Q,Gilles Simon,false,25.0,cluster_4
+62.0,39.0,Sam Querrey,$1.437,Gilles Simon,Jun 17 2013,French Open Slam,Round of 32,Gilles Simon,false,58.0,cluster_3
+68.0,42.0,Roger Federer,$14.400,Roger Federer,Jun 17 2013,French Open Slam,Round of 16,Gilles Simon,false,65.0,cluster_3
+49.0,44.0,Andreas Seppi,$1.708,Gilles Simon,Jun 24 2013,Eastbourne,S,Gilles Simon,false,22.0,cluster_1
+68.0,41.0,Feliciano Lopez,$2.288,Feliciano Lopez,Jul 29 2013,Eastbourne,F,Gilles Simon,false,15.0,cluster_3
+85.0,36.0,Feliciano Lopez,$2.360,Feliciano Lopez,Aug 5 2013,Wimbledon Slam,Round of 128,Gilles Simon,false,60.0,cluster_0
+60.0,45.0,Dmitry Tursunov,$1.651,Dmitry Tursunov,Aug 12 2013,Washington,R32,Gilles Simon,false,21.0,cluster_3
+49.0,34.0,Kenny De Schepper,$1.456,Gilles Simon,Sep 16 2013,Metz,R16,Gilles Simon,false,23.0,cluster_2
+78.0,39.0,Vasek Pospisil,$1.676,Vasek Pospisil,Sep 16 2013,ATP World Tour Masters 1000 Cincinnati,R64,Gilles Simon,false,26.0,cluster_0
+58.0,51.0,Nikolay Davydenko,$1.676,Nikolay Davydenko,Sep 16 2013,ATP World Tour Masters 1000 Canada,R64,Gilles Simon,false,27.0,cluster_3
+69.0,22.0,Sam Querrey,$1.749,Gilles Simon,Sep 16 2013,Metz,Q,Gilles Simon,false,28.0,cluster_4
+66.0,31.0,Nicolas Mahut,$1.585,Gilles Simon,Sep 30 2013,Metz,S,Gilles Simon,false,24.0,cluster_4
+66.0,38.0,Igor Sijsling,$1.359,Gilles Simon,Sep 30 2013,Bangkok,Q,Gilles Simon,false,29.0,cluster_3
+68.0,21.0,Bernard Tomic,$1.706,Gilles Simon,Sep 30 2013,Bangkok,R16,Gilles Simon,false,30.0,cluster_4
+56.0,32.0,Jo-Wilfried Tsonga,$3.222,Gilles Simon,Sep 30 2013,Metz,F,Gilles Simon,false,46.0,cluster_2
+62.0,46.0,Tomas Berdych,$3.467,Tomas Berdych,Oct 6 2013,Bangkok,S,Gilles Simon,false,32.0,cluster_3
+70.0,34.0,Benoit Paire,$1.516,Benoit Paire,Oct 21 2013,ATP World Tour Masters 1000 Shanghai,R64,Gilles Simon,false,33.0,cluster_4
+68.0,36.0,Nicolas Mahut,$1.685,Gilles Simon,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Gilles Simon,false,17.0,cluster_4
+71.0,45.0,David Ferrer,$3.467,David Ferrer,Dec 30 2013,ATP World Tour Masters 1000 Paris,R16,Gilles Simon,false,18.0,cluster_0
+74.0,39.0,Marius Copil,$1.464,Marius Copil,Jan 7 2014,Brisbane,R16,Gilles Simon,false,31.0,cluster_0
+71.0,33.0,Daniel Brands,$2.942,Gilles Simon,Jan 13 2014,Australian Open Slam,Round of 128,Gilles Simon,false,61.0,cluster_4
+56.0,41.0,Marin Cilic,$4.292,Gilles Simon,Jan 13 2014,Australian Open Slam,Round of 64,Gilles Simon,false,69.0,cluster_3
+66.0,45.0,Marc Gicquel,$1.275,Marc Gicquel,Feb 10 2014,Montpellier,R16,Gilles Simon,false,34.0,cluster_3
+75.0,31.0,Jo-Wilfried Tsonga,$5.478,Jo-Wilfried Tsonga,Feb 10 2014,Australian Open Slam,Round of 32,Gilles Simon,false,64.0,cluster_4
+43.0,43.0,Donald Young,$1.357,Gilles Simon,Feb 24 2014,Acapulco,R16,Gilles Simon,false,35.0,cluster_1
+50.0,19.0,Tim Smyczek,$1.440,Gilles Simon,Feb 24 2014,Acapulco,R32,Gilles Simon,false,36.0,cluster_2
+57.0,44.0,Andy Murray,$6.609,Andy Murray,Feb 24 2014,Acapulco,Q,Gilles Simon,false,37.0,cluster_3
+70.0,42.0,Dominic Thiem,$1.574,Dominic Thiem,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Gilles Simon,false,40.0,cluster_0
+58.0,41.0,Joao Sousa,$1.417,Joao Sousa,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Gilles Simon,false,38.0,cluster_3
+69.0,35.0,Federico Delbonis,$2.273,Federico Delbonis,Apr 7 2014,Casablanca,R32,Gilles Simon,false,39.0,cluster_4
+54.0,45.0,Teymuraz Gabashvili,$1.538,Teymuraz Gabashvili,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Gilles Simon,false,41.0,cluster_1
+59.0,38.0,Victor Hanescu,$1.948,Gilles Simon,Apr 21 2014,Bucharest,R16,Gilles Simon,false,43.0,cluster_3
+61.0,49.0,Lukas Rosol,$2.226,Lukas Rosol,Apr 21 2014,Bucharest,Q,Gilles Simon,false,44.0,cluster_3
+60.0,38.0,Lukasz Kubot,$1.355,Lukasz Kubot,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Gilles Simon,false,49.0,cluster_3
+60.0,44.0,Rafael Nadal,$19.367,Rafael Nadal,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Gilles Simon,false,47.0,cluster_3
+43.0,40.0,Filippo Volandri,$1.516,Gilles Simon,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Gilles Simon,false,50.0,cluster_1
+65.0,43.0,Federico Delbonis,$1.767,Federico Delbonis,May 19 2014,Nice,S,Gilles Simon,false,19.0,cluster_3
+57.0,38.0,Dominic Thiem,$1.611,Gilles Simon,May 19 2014,Nice,R16,Gilles Simon,false,52.0,cluster_3
+49.0,34.0,Carlos Berlocq,$2.096,Gilles Simon,May 19 2014,Nice,Q,Gilles Simon,false,53.0,cluster_2
+62.0,38.0,Milos Raonic,$3.024,Milos Raonic,May 21 2014,French Open Slam,Round of 32,Gilles Simon,false,16.0,cluster_3
+47.0,30.0,Ante Pavic,$1.096,Gilles Simon,May 21 2014,French Open Slam,Round of 128,Gilles Simon,false,71.0,cluster_2
+46.0,32.0,Alejandro Gonzalez,$1.158,Gilles Simon,May 21 2014,French Open Slam,Round of 64,Gilles Simon,false,75.0,cluster_2

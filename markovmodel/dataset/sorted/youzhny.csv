@@ -1,0 +1,94 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+70.0,35.0,Janko Tipsarevic,$2.360,Janko Tipsarevic,Aug 6 2012,ATP World Tour Masters 1000 Canada,R32,Mikhail Youzhny,false,93.0,cluster_0
+68.0,40.0,Lleyton Hewitt,$1.526,Lleyton Hewitt,Aug 13 2012,ATP World Tour Masters 1000 Cincinnati,R64,Mikhail Youzhny,false,92.0,cluster_0
+65.0,30.0,Gilles Muller,$1.331,Gilles Muller,Aug 27 2012,US Open Slam,Round of 128,Mikhail Youzhny,false,91.0,cluster_0
+56.0,43.0,Martin Klizan,$1.483,Martin Klizan,Sep 17 2012,St. Petersburg,S,Mikhail Youzhny,false,87.0,cluster_4
+58.0,39.0,Guillermo Garcia-Lopez,$1.231,Mikhail Youzhny,Sep 17 2012,St. Petersburg,Q,Mikhail Youzhny,false,88.0,cluster_4
+54.0,22.0,Rajeev Ram,$1.130,Mikhail Youzhny,Sep 17 2012,St. Petersburg,R16,Mikhail Youzhny,false,89.0,cluster_3
+58.0,25.0,Vasek Pospisil,$1.154,Mikhail Youzhny,Sep 17 2012,St. Petersburg,R32,Mikhail Youzhny,false,90.0,cluster_3
+68.0,41.0,Jo-Wilfried Tsonga,$3.060,Jo-Wilfried Tsonga,Oct 1 2012,Beijing,Q,Mikhail Youzhny,false,84.0,cluster_0
+51.0,35.0,Kevin Anderson,$1.634,Mikhail Youzhny,Oct 1 2012,Beijing,R16,Mikhail Youzhny,false,85.0,cluster_1
+58.0,38.0,Tommy Haas,$2.269,Mikhail Youzhny,Oct 1 2012,Beijing,R32,Mikhail Youzhny,false,86.0,cluster_4
+59.0,39.0,Viktor Troicki,$1.432,Viktor Troicki,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R64,Mikhail Youzhny,false,83.0,cluster_4
+62.0,40.0,Tomas Berdych,$4.015,Tomas Berdych,Oct 15 2012,Stockholm,Q,Mikhail Youzhny,false,80.0,cluster_4
+44.0,31.0,Patrik Rosenholm,$1.055,Mikhail Youzhny,Oct 15 2012,Stockholm,R16,Mikhail Youzhny,false,81.0,cluster_1
+46.0,35.0,Brian Baker,$1.312,Mikhail Youzhny,Oct 15 2012,Stockholm,R32,Mikhail Youzhny,false,82.0,cluster_1
+69.0,40.0,Richard Gasquet,$2.177,Richard Gasquet,Oct 22 2012,Basel,Q,Mikhail Youzhny,false,78.0,cluster_0
+53.0,17.0,Matthew Ebden,$1.134,Mikhail Youzhny,Oct 22 2012,Basel,R16,Mikhail Youzhny,false,79.0,cluster_3
+65.0,48.0,Marcel Granollers,$1.266,Marcel Granollers,Oct 29 2012,ATP World Tour Masters 1000 Paris,R64,Mikhail Youzhny,false,77.0,cluster_2
+70.0,40.0,Nikolay Davydenko,$2.106,Nikolay Davydenko,Dec 31 2012,Doha,R16,Mikhail Youzhny,false,75.0,cluster_0
+60.0,34.0,Benjamin Becker,$1.282,Mikhail Youzhny,Dec 31 2012,Doha,R32,Mikhail Youzhny,false,76.0,cluster_1
+70.0,38.0,Evgeny Donskoy,$1.339,Evgeny Donskoy,Jan 14 2013,Australian Open Slam,Round of 64,Mikhail Youzhny,false,73.0,cluster_0
+66.0,37.0,Matthew Ebden,$1.188,Mikhail Youzhny,Jan 14 2013,Australian Open Slam,Round of 128,Mikhail Youzhny,false,74.0,cluster_0
+62.0,43.0,Marin Cilic,$2.528,Marin Cilic,Feb 4 2013,Zagreb,S,Mikhail Youzhny,false,70.0,cluster_4
+56.0,27.0,Ivan Dodig,$1.634,Mikhail Youzhny,Feb 4 2013,Zagreb,Q,Mikhail Youzhny,false,71.0,cluster_3
+55.0,24.0,Igor Sijsling,$1.574,Mikhail Youzhny,Feb 4 2013,Zagreb,R16,Mikhail Youzhny,false,72.0,cluster_3
+63.0,33.0,Thiemo de Bakker,$1.207,Thiemo de Bakker,Feb 11 2013,Rotterdam,R32,Mikhail Youzhny,false,69.0,cluster_0
+76.0,39.0,Daniel Brands,$1.450,Daniel Brands,Feb 25 2013,Dubai,R16,Mikhail Youzhny,false,67.0,cluster_0
+54.0,43.0,Blaz Kavcic,$1.356,Mikhail Youzhny,Feb 25 2013,Dubai,R32,Mikhail Youzhny,false,68.0,cluster_4
+63.0,53.0,Leonardo Mayer,$1.457,Leonardo Mayer,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,Mikhail Youzhny,false,66.0,cluster_2
+64.0,48.0,Richard Gasquet,$4.328,Richard Gasquet,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,Mikhail Youzhny,false,64.0,cluster_2
+56.0,40.0,Yen-Hsun Lu,$2.077,Mikhail Youzhny,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,Mikhail Youzhny,false,65.0,cluster_4
+63.0,46.0,Novak Djokovic,$10.139,Novak Djokovic,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Mikhail Youzhny,false,62.0,cluster_2
+50.0,28.0,Daniel Gimeno-Traver,$1.700,Mikhail Youzhny,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Mikhail Youzhny,false,63.0,cluster_1
+69.0,37.0,Victor Hanescu,$1.685,Victor Hanescu,Apr 22 2013,Bucharest,R16,Mikhail Youzhny,false,61.0,cluster_0
+60.0,43.0,Radek Stepanek,$1.514,Radek Stepanek,Apr 29 2013,Munich,R32,Mikhail Youzhny,false,60.0,cluster_4
+70.0,50.0,Rafael Nadal,$26.377,Rafael Nadal,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Mikhail Youzhny,false,57.0,cluster_2
+65.0,40.0,Nicolas Almagro,$4.779,Mikhail Youzhny,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Mikhail Youzhny,false,58.0,cluster_0
+63.0,37.0,Fabio Fognini,$2.465,Mikhail Youzhny,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,Mikhail Youzhny,false,59.0,cluster_0
+55.0,50.0,Gilles Simon,$1.813,Gilles Simon,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Mikhail Youzhny,false,55.0,cluster_4
+53.0,32.0,Tommy Haas,$3.084,Mikhail Youzhny,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Mikhail Youzhny,false,56.0,cluster_1
+63.0,57.0,Tommy Haas,$2.135,Tommy Haas,May 27 2013,French Open Slam,Round of 16,Mikhail Youzhny,false,51.0,cluster_2
+60.0,28.0,Janko Tipsarevic,$1.671,Mikhail Youzhny,May 27 2013,French Open Slam,Round of 32,Mikhail Youzhny,false,52.0,cluster_3
+59.0,35.0,Federico Delbonis,$1.408,Mikhail Youzhny,May 27 2013,French Open Slam,Round of 64,Mikhail Youzhny,false,53.0,cluster_1
+55.0,36.0,Pablo Andujar,$1.900,Mikhail Youzhny,May 27 2013,French Open Slam,Round of 128,Mikhail Youzhny,false,54.0,cluster_1
+75.0,34.0,Roger Federer,$6.678,Roger Federer,Jun 10 2013,Halle,F,Mikhail Youzhny,false,47.0,cluster_0
+60.0,25.0,Richard Gasquet,$2.662,Mikhail Youzhny,Jun 10 2013,Halle,S,Mikhail Youzhny,false,48.0,cluster_3
+62.0,33.0,Philipp Kohlschreiber,$3.131,Mikhail Youzhny,Jun 10 2013,Halle,Q,Mikhail Youzhny,false,49.0,cluster_0
+65.0,33.0,Kei Nishikori,$2.350,Mikhail Youzhny,Jun 10 2013,Halle,R16,Mikhail Youzhny,false,50.0,cluster_0
+60.0,28.0,Viktor Troicki,$1.657,Mikhail Youzhny,Jun 24 2013,Wimbledon Slam,Round of 32,Mikhail Youzhny,false,44.0,cluster_3
+68.0,29.0,Vasek Pospisil,$1.142,Mikhail Youzhny,Jun 24 2013,Wimbledon Slam,Round of 64,Mikhail Youzhny,false,45.0,cluster_0
+62.0,24.0,Robin Haase,$1.155,Mikhail Youzhny,Jun 24 2013,Wimbledon Slam,Round of 128,Mikhail Youzhny,false,46.0,cluster_3
+66.0,44.0,Andy Murray,$11.256,Andy Murray,Jul 15 2013,Wimbledon Slam,Round of 16,Mikhail Youzhny,false,43.0,cluster_2
+56.0,33.0,Victor Hanescu,$1.653,Mikhail Youzhny,Jul 22 2013,Gstaad,S,Mikhail Youzhny,false,38.0,cluster_1
+59.0,42.0,Juan Monaco,$2.752,Mikhail Youzhny,Jul 22 2013,Gstaad,Q,Mikhail Youzhny,false,39.0,cluster_4
+54.0,35.0,Pablo Andujar,$1.602,Mikhail Youzhny,Jul 22 2013,Gstaad,R16,Mikhail Youzhny,false,40.0,cluster_1
+58.0,29.0,Paul-Henri Mathieu,$1.464,Mikhail Youzhny,Jul 22 2013,Gstaad,R32,Mikhail Youzhny,false,41.0,cluster_3
+61.0,47.0,Guillermo Garcia-Lopez,$1.685,Guillermo Garcia-Lopez,Jul 22 2013,Hamburg,R32,Mikhail Youzhny,false,42.0,cluster_4
+59.0,27.0,Jurgen Melzer,$1.245,Mikhail Youzhny,Aug 5 2013,ATP World Tour Masters 1000 Canada,R64,Mikhail Youzhny,false,36.0,cluster_3
+62.0,23.0,Robin Haase,$1.484,Mikhail Youzhny,Aug 5 2013,Gstaad,F,Mikhail Youzhny,false,37.0,cluster_3
+65.0,26.0,Ernests Gulbis,$2.494,Mikhail Youzhny,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R64,Mikhail Youzhny,false,35.0,cluster_3
+58.0,42.0,Lleyton Hewitt,$1.594,Mikhail Youzhny,Aug 26 2013,US Open Slam,Round of 16,Mikhail Youzhny,false,30.0,cluster_4
+57.0,36.0,Tommy Haas,$2.762,Mikhail Youzhny,Aug 26 2013,US Open Slam,Round of 32,Mikhail Youzhny,false,31.0,cluster_1
+53.0,35.0,Alexandr Dolgopolov,$1.646,Mikhail Youzhny,Aug 26 2013,US Open Slam,Round of 64,Mikhail Youzhny,false,32.0,cluster_1
+62.0,24.0,Nicolas Mahut,$1.214,Mikhail Youzhny,Aug 26 2013,US Open Slam,Round of 128,Mikhail Youzhny,false,33.0,cluster_3
+67.0,51.0,Andy Murray,$5.147,Andy Murray,Aug 26 2013,ATP World Tour Masters 1000 Cincinnati,R32,Mikhail Youzhny,false,34.0,cluster_2
+57.0,30.0,Aslan Karatsev,$1.031,Mikhail Youzhny,Sep 16 2013,St. Petersburg,R32,Mikhail Youzhny,false,28.0,cluster_1
+66.0,47.0,Novak Djokovic,$17.000,Novak Djokovic,Sep 16 2013,US Open Slam,Quarter Final,Mikhail Youzhny,false,29.0,cluster_2
+54.0,25.0,Denis Istomin,$1.460,Mikhail Youzhny,Sep 23 2013,Bangkok,R16,Mikhail Youzhny,false,25.0,cluster_3
+52.0,25.0,Paolo Lorenzi,$1.157,Mikhail Youzhny,Sep 23 2013,Bangkok,R32,Mikhail Youzhny,false,26.0,cluster_3
+65.0,44.0,Guillermo Garcia-Lopez,$1.296,Guillermo Garcia-Lopez,Sep 23 2013,St. Petersburg,R16,Mikhail Youzhny,false,27.0,cluster_2
+70.0,48.0,Richard Gasquet,$2.370,Richard Gasquet,Sep 30 2013,Bangkok,Q,Mikhail Youzhny,false,24.0,cluster_2
+59.0,48.0,Sam Querrey,$1.532,Sam Querrey,Oct 6 2013,Beijing,R32,Mikhail Youzhny,false,23.0,cluster_4
+50.0,30.0,Dmitry Tursunov,$1.698,Mikhail Youzhny,Oct 21 2013,Valencia,S,Mikhail Youzhny,false,18.0,cluster_1
+66.0,29.0,Jarkko Nieminen,$1.531,Mikhail Youzhny,Oct 21 2013,Valencia,Q,Mikhail Youzhny,false,19.0,cluster_0
+66.0,30.0,Philipp Kohlschreiber,$2.057,Mikhail Youzhny,Oct 21 2013,Valencia,R16,Mikhail Youzhny,false,20.0,cluster_0
+56.0,39.0,Bernard Tomic,$1.447,Mikhail Youzhny,Oct 21 2013,Valencia,R32,Mikhail Youzhny,false,21.0,cluster_4
+70.0,50.0,Pablo Andujar,$1.205,Pablo Andujar,Oct 21 2013,ATP World Tour Masters 1000 Shanghai,R64,Mikhail Youzhny,false,22.0,cluster_2
+57.0,35.0,David Ferrer,$3.945,Mikhail Youzhny,Oct 28 2013,Valencia,F,Mikhail Youzhny,false,17.0,cluster_1
+67.0,40.0,Kevin Anderson,$1.538,Kevin Anderson,Jan 7 2014,ATP World Tour Masters 1000 Paris,R64,Mikhail Youzhny,false,16.0,cluster_0
+48.0,35.0,Jan-Lennard Struff,$1.292,Mikhail Youzhny,Jan 13 2014,Australian Open Slam,Round of 128,Mikhail Youzhny,false,15.0,cluster_1
+72.0,33.0,Florian Mayer,$1.611,Florian Mayer,Feb 3 2014,Australian Open Slam,Round of 64,Mikhail Youzhny,false,14.0,cluster_0
+61.0,44.0,Bjorn Phau,$1.178,Bjorn Phau,Feb 10 2014,Zagreb,R16,Mikhail Youzhny,false,13.0,cluster_4
+56.0,31.0,James Ward,$1.134,Mikhail Youzhny,Mar 3 2014,Dubai,R16,Mikhail Youzhny,false,10.0,cluster_1
+54.0,27.0,Michal Przysiezny,$1.280,Mikhail Youzhny,Mar 3 2014,Dubai,R32,Mikhail Youzhny,false,11.0,cluster_3
+71.0,49.0,Igor Sijsling,$1.663,Igor Sijsling,Mar 3 2014,Rotterdam,R32,Mikhail Youzhny,false,12.0,cluster_2
+68.0,41.0,Andreas Seppi,$1.985,Andreas Seppi,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Mikhail Youzhny,false,9.0,cluster_0
+73.0,46.0,Robin Haase,$1.706,Robin Haase,Apr 21 2014,Bucharest,R16,Mikhail Youzhny,false,8.0,cluster_2
+66.0,41.0,Martin Klizan,$2.628,Martin Klizan,Apr 28 2014,Munich,R16,Mikhail Youzhny,false,7.0,cluster_0
+68.0,36.0,Feliciano Lopez,$1.827,Feliciano Lopez,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Mikhail Youzhny,false,5.0,cluster_0
+55.0,29.0,Benjamin Becker,$1.314,Mikhail Youzhny,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Mikhail Youzhny,false,6.0,cluster_1
+62.0,48.0,Rafael Nadal,$11.442,Rafael Nadal,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Mikhail Youzhny,false,2.0,cluster_2
+51.0,38.0,Andrey Golubev,$1.724,Mikhail Youzhny,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Mikhail Youzhny,false,3.0,cluster_1
+61.0,16.0,Nicolas Mahut,$1.241,Mikhail Youzhny,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Mikhail Youzhny,false,4.0,cluster_3
+55.0,44.0,Pablo Carreno Busta,$1.479,Mikhail Youzhny,May 21 2014,French Open Slam,Round of 128,Mikhail Youzhny,false,1.0,cluster_4

@@ -1,0 +1,88 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+76.0,33.0,Adrian Mannarino,$1.250,Adrian Mannarino,Sep 24 2012,Orleans,R32,Philipp Kohlschreiber,false,19.0,cluster_2
+76.0,37.0,Feliciano Lopez,$1.564,Feliciano Lopez,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R32,Philipp Kohlschreiber,false,21.0,cluster_2
+62.0,24.0,Ryan Harrison,$1.505,Philipp Kohlschreiber,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R64,Philipp Kohlschreiber,false,23.0,cluster_3
+70.0,40.0,Ivan Dodig,$1.570,Ivan Dodig,Oct 21 2012,Valencia,R32,Philipp Kohlschreiber,false,22.0,cluster_0
+78.0,26.0,Jerzy Janowicz,$1.655,Jerzy Janowicz,Oct 29 2012,ATP World Tour Masters 1000 Paris,R64,Philipp Kohlschreiber,false,15.0,cluster_2
+63.0,22.0,Ivan Dodig,$1.549,Philipp Kohlschreiber,Dec 31 2012,Doha,R32,Philipp Kohlschreiber,false,20.0,cluster_3
+61.0,34.0,Gael Monfils,$1.634,Gael Monfils,Dec 31 2012,Doha,R16,Philipp Kohlschreiber,false,24.0,cluster_0
+64.0,42.0,David Ferrer,$5.170,David Ferrer,Jan 7 2013,Auckland,F,Philipp Kohlschreiber,false,25.0,cluster_4
+63.0,30.0,Alejandro Falla,$1.403,Philipp Kohlschreiber,Jan 7 2013,Auckland,R16,Philipp Kohlschreiber,false,26.0,cluster_0
+74.0,20.0,Xavier Malisse,$1.461,Philipp Kohlschreiber,Jan 7 2013,Auckland,Q,Philipp Kohlschreiber,false,27.0,cluster_3
+66.0,26.0,Sam Querrey,$2.401,Philipp Kohlschreiber,Jan 7 2013,Auckland,S,Philipp Kohlschreiber,false,28.0,cluster_3
+65.0,19.0,Amir Weintraub,$1.064,Philipp Kohlschreiber,Jan 14 2013,Australian Open Slam,Round of 64,Philipp Kohlschreiber,false,56.0,cluster_3
+80.0,32.0,Milos Raonic,$2.401,Milos Raonic,Jan 14 2013,Australian Open Slam,Round of 32,Philipp Kohlschreiber,false,59.0,cluster_2
+60.0,24.0,Steve Darcis,$1.127,Philipp Kohlschreiber,Jan 14 2013,Australian Open Slam,Round of 128,Philipp Kohlschreiber,false,67.0,cluster_3
+83.0,43.0,Benoit Paire,$2.116,Benoit Paire,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,Philipp Kohlschreiber,false,12.0,cluster_2
+56.0,48.0,David Goffin,$1.636,David Goffin,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,Philipp Kohlschreiber,false,32.0,cluster_4
+47.0,32.0,Thomaz Bellucci,$1.948,Philipp Kohlschreiber,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Philipp Kohlschreiber,false,29.0,cluster_1
+62.0,35.0,Pablo Andujar,$1.443,Philipp Kohlschreiber,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Philipp Kohlschreiber,false,30.0,cluster_0
+80.0,43.0,Rafael Nadal,$26.377,Rafael Nadal,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R16,Philipp Kohlschreiber,false,33.0,cluster_2
+61.0,32.0,Andrey Kuznetsov,$1.583,Philipp Kohlschreiber,Apr 22 2013,Barcelona,R32,Philipp Kohlschreiber,false,31.0,cluster_0
+63.0,38.0,Martin Klizan,$1.837,Philipp Kohlschreiber,Apr 22 2013,Barcelona,R16,Philipp Kohlschreiber,false,34.0,cluster_0
+70.0,33.0,Viktor Troicki,$1.437,Philipp Kohlschreiber,Apr 29 2013,Munich,Q,Philipp Kohlschreiber,false,35.0,cluster_0
+72.0,36.0,Tommy Haas,$2.610,Tommy Haas,Apr 29 2013,Munich,F,Philipp Kohlschreiber,false,38.0,cluster_0
+67.0,28.0,Daniel Brands,$1.546,Philipp Kohlschreiber,Apr 29 2013,Munich,S,Philipp Kohlschreiber,false,39.0,cluster_0
+66.0,21.0,Milos Raonic,$2.737,Philipp Kohlschreiber,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Philipp Kohlschreiber,false,36.0,cluster_3
+48.0,38.0,Albert Ramos,$1.759,Philipp Kohlschreiber,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Philipp Kohlschreiber,false,37.0,cluster_1
+69.0,30.0,Igor Sijsling,$1.233,Igor Sijsling,May 19 2013,Dusseldorf,R16,Philipp Kohlschreiber,false,41.0,cluster_0
+63.0,31.0,Jiri Vesely,$1.306,Philipp Kohlschreiber,May 27 2013,French Open Slam,Round of 128,Philipp Kohlschreiber,false,65.0,cluster_0
+48.0,34.0,Victor Hanescu,$1.513,Philipp Kohlschreiber,May 27 2013,French Open Slam,Round of 32,Philipp Kohlschreiber,false,69.0,cluster_1
+67.0,34.0,Novak Djokovic,$15.130,Novak Djokovic,May 27 2013,French Open Slam,Round of 16,Philipp Kohlschreiber,false,70.0,cluster_0
+62.0,24.0,Tobias Kamke,$1.176,Philipp Kohlschreiber,Jun 10 2013,Halle,R16,Philipp Kohlschreiber,false,40.0,cluster_3
+66.0,37.0,Mikhail Youzhny,$1.433,Mikhail Youzhny,Jun 10 2013,Halle,Q,Philipp Kohlschreiber,false,42.0,cluster_0
+66.0,38.0,Radek Stepanek,$1.827,Radek Stepanek,Jun 17 2013,Eastbourne,R16,Philipp Kohlschreiber,false,47.0,cluster_0
+70.0,33.0,Ivan Dodig,$1.454,Ivan Dodig,Jun 24 2013,Wimbledon Slam,Round of 128,Philipp Kohlschreiber,false,73.0,cluster_0
+61.0,40.0,Fabio Fognini,$1.792,Fabio Fognini,Jul 8 2013,Stuttgart,F,Philipp Kohlschreiber,false,44.0,cluster_4
+56.0,32.0,Nils Langer,$1.089,Philipp Kohlschreiber,Jul 8 2013,Stuttgart,R16,Philipp Kohlschreiber,false,48.0,cluster_1
+51.0,33.0,Victor Hanescu,$1.330,Philipp Kohlschreiber,Jul 8 2013,Stuttgart,S,Philipp Kohlschreiber,false,49.0,cluster_1
+56.0,33.0,Gael Monfils,$2.571,Philipp Kohlschreiber,Jul 8 2013,Stuttgart,Q,Philipp Kohlschreiber,false,50.0,cluster_1
+71.0,33.0,Leonardo Mayer,$1.397,Leonardo Mayer,Jul 28 2013,Kitzb��hel,R16,Philipp Kohlschreiber,false,55.0,cluster_0
+71.0,33.0,Benoit Paire,$1.508,Benoit Paire,Aug 5 2013,ATP World Tour Masters 1000 Canada,R64,Philipp Kohlschreiber,false,51.0,cluster_0
+77.0,40.0,Roger Federer,$4.940,Roger Federer,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Philipp Kohlschreiber,false,18.0,cluster_2
+50.0,25.0,Mardy Fish,$2.129,Philipp Kohlschreiber,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R64,Philipp Kohlschreiber,false,52.0,cluster_1
+55.0,29.0,Edouard Roger-Vasselin,$1.319,Philipp Kohlschreiber,Aug 26 2013,US Open Slam,Round of 64,Philipp Kohlschreiber,false,2.0,cluster_1
+74.0,28.0,John Isner,$3.600,Philipp Kohlschreiber,Aug 26 2013,US Open Slam,Round of 32,Philipp Kohlschreiber,false,6.0,cluster_2
+47.0,24.0,Collin Altamirano,$1.016,Philipp Kohlschreiber,Aug 26 2013,US Open Slam,Round of 128,Philipp Kohlschreiber,false,14.0,cluster_1
+74.0,40.0,Rafael Nadal,$14.400,Rafael Nadal,Aug 26 2013,US Open Slam,Round of 16,Philipp Kohlschreiber,false,16.0,cluster_2
+61.0,26.0,Rogerio Dutra Silva,$1.060,Philipp Kohlschreiber,Sep 13 2013,Davis Cup,Singles,Philipp Kohlschreiber,false,13.0,cluster_3
+82.0,34.0,Carlos Berlocq,$1.314,Carlos Berlocq,Sep 16 2013,Metz,R16,Philipp Kohlschreiber,false,43.0,cluster_2
+61.0,35.0,Albert Montanes,$1.205,Philipp Kohlschreiber,Sep 30 2013,Beijing,R32,Philipp Kohlschreiber,false,45.0,cluster_0
+64.0,39.0,Rafael Nadal,$12.462,Rafael Nadal,Sep 30 2013,Beijing,R16,Philipp Kohlschreiber,false,46.0,cluster_0
+59.0,16.0,Mao-Xin Gong,$1.020,Philipp Kohlschreiber,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,Philipp Kohlschreiber,false,53.0,cluster_3
+70.0,34.0,Juan Martin Del Potro,$4.493,Juan Martin Del Potro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Philipp Kohlschreiber,false,54.0,cluster_0
+71.0,37.0,Ruben Bemelmans,$1.359,Ruben Bemelmans,Oct 14 2013,Vienna,R16,Philipp Kohlschreiber,false,58.0,cluster_0
+58.0,35.0,Tommy Haas,$2.364,Philipp Kohlschreiber,Oct 21 2013,Valencia,R32,Philipp Kohlschreiber,false,57.0,cluster_1
+69.0,33.0,Mikhail Youzhny,$1.884,Mikhail Youzhny,Oct 21 2013,Valencia,R16,Philipp Kohlschreiber,false,62.0,cluster_0
+52.0,35.0,Tommy Haas,$2.322,Philipp Kohlschreiber,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Philipp Kohlschreiber,false,60.0,cluster_1
+59.0,31.0,Andreas Seppi,$1.799,Philipp Kohlschreiber,Oct 28 2013,ATP World Tour Masters 1000 Paris,R64,Philipp Kohlschreiber,false,61.0,cluster_1
+76.0,37.0,Roger Federer,$4.632,Roger Federer,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Philipp Kohlschreiber,false,63.0,cluster_2
+46.0,42.0,Pablo Andujar,$1.157,Philipp Kohlschreiber,Dec 30 2013,Doha,R32,Philipp Kohlschreiber,false,64.0,cluster_1
+70.0,34.0,Peter Gojowczyk,$1.268,Peter Gojowczyk,Dec 30 2013,Doha,R16,Philipp Kohlschreiber,false,68.0,cluster_0
+81.0,27.0,John Isner,$1.749,John Isner,Jan 13 2014,Auckland,Q,Philipp Kohlschreiber,false,66.0,cluster_2
+61.0,32.0,Pablo Carreno Busta,$1.226,Philipp Kohlschreiber,Jan 13 2014,Auckland,R32,Philipp Kohlschreiber,false,71.0,cluster_0
+54.0,12.0,Horacio Zeballos,$1.192,Philipp Kohlschreiber,Jan 13 2014,Auckland,R16,Philipp Kohlschreiber,false,72.0,cluster_3
+60.0,35.0,Daniel Evans,$1.219,Daniel Evans,Feb 3 2014,Zagreb,Q,Philipp Kohlschreiber,false,74.0,cluster_0
+55.0,14.0,Andrey Golubev,$1.374,Philipp Kohlschreiber,Feb 3 2014,Zagreb,R16,Philipp Kohlschreiber,false,77.0,cluster_3
+59.0,20.0,Sergiy Stakhovsky,$1.640,Philipp Kohlschreiber,Feb 10 2014,Rotterdam,R32,Philipp Kohlschreiber,false,75.0,cluster_3
+56.0,34.0,Richard Gasquet,$2.129,Philipp Kohlschreiber,Feb 10 2014,Rotterdam,R16,Philipp Kohlschreiber,false,76.0,cluster_1
+68.0,39.0,Igor Sijsling,$1.687,Igor Sijsling,Feb 10 2014,Rotterdam,Q,Philipp Kohlschreiber,false,78.0,cluster_0
+58.0,31.0,Thiemo de Bakker,$1.247,Philipp Kohlschreiber,Feb 24 2014,Dubai,R32,Philipp Kohlschreiber,false,79.0,cluster_1
+55.0,33.0,Andreas Seppi,$1.384,Philipp Kohlschreiber,Feb 24 2014,Dubai,R16,Philipp Kohlschreiber,false,80.0,cluster_1
+52.0,23.0,Malek Jaziri,$1.127,Philipp Kohlschreiber,Feb 24 2014,Dubai,Q,Philipp Kohlschreiber,false,81.0,cluster_1
+71.0,34.0,Tomas Berdych,$6.716,Tomas Berdych,Feb 24 2014,Dubai,S,Philipp Kohlschreiber,false,85.0,cluster_0
+73.0,48.0,Yen-Hsun Lu,$1.345,Yen-Hsun Lu,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Philipp Kohlschreiber,false,82.0,cluster_4
+69.0,30.0,Marcos Baghdatis,$1.399,Marcos Baghdatis,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Philipp Kohlschreiber,false,9.0,cluster_0
+66.0,36.0,Jo-Wilfried Tsonga,$2.628,Jo-Wilfried Tsonga,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,Philipp Kohlschreiber,false,10.0,cluster_0
+62.0,27.0,Simone Bolelli,$1.388,Philipp Kohlschreiber,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Philipp Kohlschreiber,false,11.0,cluster_3
+62.0,42.0,Santiago Giraldo,$1.671,Santiago Giraldo,Apr 21 2014,Barcelona,Q,Philipp Kohlschreiber,false,3.0,cluster_4
+63.0,28.0,Edouard Roger-Vasselin,$1.489,Philipp Kohlschreiber,Apr 21 2014,Barcelona,R32,Philipp Kohlschreiber,false,4.0,cluster_3
+58.0,29.0,Jurgen Melzer,$1.283,Philipp Kohlschreiber,Apr 21 2014,Barcelona,R16,Philipp Kohlschreiber,false,5.0,cluster_1
+63.0,34.0,Denis Istomin,$1.304,Denis Istomin,Apr 28 2014,Munich,R32,Philipp Kohlschreiber,false,8.0,cluster_0
+65.0,49.0,Marinko Matosevic,$1.300,Marinko Matosevic,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Philipp Kohlschreiber,false,83.0,cluster_4
+57.0,38.0,Jerzy Janowicz,$1.868,Philipp Kohlschreiber,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Philipp Kohlschreiber,false,84.0,cluster_1
+65.0,50.0,Novak Djokovic,$7.365,Novak Djokovic,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Philipp Kohlschreiber,false,86.0,cluster_4
+53.0,34.0,Tommy Robredo,$2.465,Philipp Kohlschreiber,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Philipp Kohlschreiber,false,87.0,cluster_1
+60.0,42.0,Andy Murray,$3.075,Andy Murray,May 21 2014,French Open Slam,Round of 32,Philipp Kohlschreiber,false,1.0,cluster_4
+55.0,31.0,Pere Riba,$1.130,Philipp Kohlschreiber,May 21 2014,French Open Slam,Round of 128,Philipp Kohlschreiber,false,7.0,cluster_1
+54.0,28.0,Denis Istomin,$1.340,Philipp Kohlschreiber,May 21 2014,French Open Slam,Round of 64,Philipp Kohlschreiber,false,17.0,cluster_1

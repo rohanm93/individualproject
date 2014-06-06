@@ -1,0 +1,92 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+50.0,35.0,Donald Young,$1.479,Feliciano Lopez,Aug 20 2012,Winston-Salem,R32,Feliciano Lopez,false,47.0,cluster_2
+63.0,22.0,Robin Haase,$1.812,Feliciano Lopez,Aug 27 2012,US Open Slam,Round of 128,Feliciano Lopez,false,9.0,cluster_1
+58.0,39.0,Pablo Andujar,$1.344,Feliciano Lopez,Aug 27 2012,US Open Slam,Round of 64,Feliciano Lopez,false,21.0,cluster_2
+72.0,43.0,Sam Querrey,$3.487,Sam Querrey,Aug 27 2012,Winston-Salem,R16,Feliciano Lopez,false,48.0,cluster_3
+65.0,30.0,Andy Murray,$19.270,Andy Murray,Sep 24 2012,US Open Slam,Round of 32,Feliciano Lopez,false,3.0,cluster_0
+58.0,30.0,Lukas Lacko,$1.314,Feliciano Lopez,Sep 24 2012,Kuala Lumpur,R32,Feliciano Lopez,false,46.0,cluster_2
+61.0,31.0,Yen-Hsun Lu,$1.500,Feliciano Lopez,Oct 1 2012,Beijing,R16,Feliciano Lopez,false,49.0,cluster_0
+75.0,32.0,Igor Sijsling,$1.470,Igor Sijsling,Oct 1 2012,Kuala Lumpur,R16,Feliciano Lopez,false,50.0,cluster_3
+65.0,27.0,Ryan Harrison,$1.634,Feliciano Lopez,Oct 1 2012,Beijing,R32,Feliciano Lopez,false,51.0,cluster_0
+59.0,43.0,Sam Querrey,$2.878,Feliciano Lopez,Oct 1 2012,Beijing,Q,Feliciano Lopez,false,52.0,cluster_4
+62.0,23.0,Philipp Kohlschreiber,$2.644,Feliciano Lopez,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R32,Feliciano Lopez,false,58.0,cluster_1
+67.0,39.0,Alejandro Falla,$1.443,Feliciano Lopez,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R64,Feliciano Lopez,false,61.0,cluster_0
+83.0,42.0,Novak Djokovic,$25.868,Novak Djokovic,Oct 15 2012,ATP World Tour Masters 1000 Shanghai,R16,Feliciano Lopez,false,62.0,cluster_3
+64.0,36.0,Paul-Henri Mathieu,$1.531,Feliciano Lopez,Oct 15 2012,Stockholm,R32,Feliciano Lopez,false,65.0,cluster_0
+71.0,29.0,Sergiy Stakhovsky,$1.416,Sergiy Stakhovsky,Oct 21 2012,Stockholm,R16,Feliciano Lopez,false,69.0,cluster_0
+72.0,30.0,Sam Querrey,$2.451,Sam Querrey,Oct 29 2012,Valencia,R32,Feliciano Lopez,false,66.0,cluster_0
+68.0,33.0,Albert Ramos,$1.395,Albert Ramos,Dec 31 2012,ATP World Tour Masters 1000 Paris,R64,Feliciano Lopez,false,71.0,cluster_0
+62.0,53.0,Lukasz Kubot,$1.531,Lukasz Kubot,Jan 7 2013,Doha,R32,Feliciano Lopez,false,67.0,cluster_4
+62.0,29.0,Jeremy Chardy,$1.923,Feliciano Lopez,Jan 7 2013,Sydney,R32,Feliciano Lopez,false,72.0,cluster_0
+60.0,21.0,Arnau Brugues-Davi,$1.211,Feliciano Lopez,Jan 14 2013,Australian Open Slam,Round of 128,Feliciano Lopez,false,11.0,cluster_1
+76.0,38.0,Kevin Anderson,$3.253,Kevin Anderson,Jan 14 2013,Sydney,R16,Feliciano Lopez,false,73.0,cluster_3
+53.0,32.0,Jack Sock,$1.692,Feliciano Lopez,Feb 25 2013,Memphis,Q,Feliciano Lopez,false,4.0,cluster_2
+71.0,43.0,Radek Stepanek,$1.860,Radek Stepanek,Feb 25 2013,Australian Open Slam,Round of 64,Feliciano Lopez,false,5.0,cluster_3
+69.0,33.0,Benjamin Becker,$1.793,Feliciano Lopez,Feb 25 2013,Memphis,R32,Feliciano Lopez,false,7.0,cluster_0
+79.0,45.0,Kei Nishikori,$4.328,Kei Nishikori,Feb 25 2013,Memphis,F,Feliciano Lopez,false,76.0,cluster_3
+62.0,32.0,Denis Istomin,$2.447,Feliciano Lopez,Feb 25 2013,Memphis,S,Feliciano Lopez,false,77.0,cluster_0
+69.0,49.0,Ernests Gulbis,$2.403,Ernests Gulbis,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R128,Feliciano Lopez,false,81.0,cluster_4
+64.0,38.0,Daniel Gimeno-Traver,$2.096,Daniel Gimeno-Traver,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,Feliciano Lopez,false,80.0,cluster_0
+71.0,39.0,Jeremy Chardy,$2.474,Jeremy Chardy,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Feliciano Lopez,false,83.0,cluster_3
+64.0,39.0,Marcel Granollers,$3.178,Feliciano Lopez,May 27 2013,French Open Slam,Round of 128,Feliciano Lopez,false,14.0,cluster_0
+67.0,51.0,David Ferrer,$14.400,David Ferrer,May 27 2013,French Open Slam,Round of 32,Feliciano Lopez,false,18.0,cluster_4
+64.0,28.0,Joao Sousa,$1.443,Feliciano Lopez,May 27 2013,French Open Slam,Round of 64,Feliciano Lopez,false,23.0,cluster_0
+66.0,28.0,Ricardas Berankis,$1.478,Feliciano Lopez,Jun 10 2013,London / Queen's Club,R64,Feliciano Lopez,false,84.0,cluster_0
+66.0,32.0,Marin Cilic,$2.810,Marin Cilic,Jun 10 2013,London / Queen's Club,R16,Feliciano Lopez,false,85.0,cluster_0
+57.0,32.0,Juan Monaco,$1.454,Feliciano Lopez,Jun 17 2013,Eastbourne,R16,Feliciano Lopez,false,82.0,cluster_2
+72.0,25.0,Jarkko Nieminen,$1.663,Feliciano Lopez,Jun 17 2013,Eastbourne,R32,Feliciano Lopez,false,86.0,cluster_0
+58.0,31.0,Gilles Simon,$1.724,Feliciano Lopez,Jun 17 2013,Eastbourne,F,Feliciano Lopez,false,87.0,cluster_2
+67.0,18.0,Ivan Dodig,$1.729,Feliciano Lopez,Jun 17 2013,Eastbourne,S,Feliciano Lopez,false,88.0,cluster_1
+70.0,21.0,Fernando Verdasco,$1.729,Feliciano Lopez,Jun 17 2013,Eastbourne,Q,Feliciano Lopez,false,89.0,cluster_1
+73.0,38.0,Tommy Haas,$2.801,Tommy Haas,Jun 24 2013,Wimbledon Slam,Round of 32,Feliciano Lopez,false,1.0,cluster_3
+64.0,15.0,Gilles Simon,$1.685,Feliciano Lopez,Jun 24 2013,Wimbledon Slam,Round of 128,Feliciano Lopez,false,15.0,cluster_1
+53.0,15.0,Paul-Henri Mathieu,$1.241,Feliciano Lopez,Jun 24 2013,Wimbledon Slam,Round of 64,Feliciano Lopez,false,22.0,cluster_1
+50.0,36.0,Jan-Lennard Struff,$1.669,Feliciano Lopez,Jul 15 2013,Hamburg,R32,Feliciano Lopez,false,90.0,cluster_2
+69.0,43.0,Florian Mayer,$2.394,Florian Mayer,Jul 15 2013,Hamburg,R16,Feliciano Lopez,false,91.0,cluster_4
+64.0,16.0,Jan Hernych,$1.266,Feliciano Lopez,Jul 22 2013,Gstaad,R32,Feliciano Lopez,false,8.0,cluster_1
+70.0,37.0,Robin Haase,$1.735,Robin Haase,Jul 29 2013,Gstaad,S,Feliciano Lopez,false,10.0,cluster_3
+59.0,37.0,Stan Wawrinka,$4.527,Feliciano Lopez,Jul 29 2013,Gstaad,Q,Feliciano Lopez,false,12.0,cluster_2
+75.0,39.0,Ernests Gulbis,$2.808,Ernests Gulbis,Jul 29 2013,ATP World Tour Masters 1000 Canada,R64,Feliciano Lopez,false,13.0,cluster_3
+61.0,27.0,Andrey Kuznetsov,$1.466,Feliciano Lopez,Jul 29 2013,Gstaad,R16,Feliciano Lopez,false,16.0,cluster_0
+64.0,30.0,Kei Nishikori,$3.151,Feliciano Lopez,Aug 5 2013,ATP World Tour Masters 1000 Cincinnati,R64,Feliciano Lopez,false,44.0,cluster_0
+60.0,36.0,Juan Martin Del Potro,$4.879,Juan Martin Del Potro,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R16,Feliciano Lopez,false,17.0,cluster_2
+61.0,34.0,Jeremy Chardy,$1.806,Feliciano Lopez,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Feliciano Lopez,false,19.0,cluster_0
+59.0,26.0,Florent Serra,$1.209,Feliciano Lopez,Aug 12 2013,US Open Slam,Round of 128,Feliciano Lopez,false,63.0,cluster_1
+55.0,20.0,Laslo Djere,$1.041,Feliciano Lopez,Aug 26 2013,Bangkok,R32,Feliciano Lopez,false,20.0,cluster_1
+66.0,35.0,Bradley Klahn,$1.309,Feliciano Lopez,Aug 26 2013,US Open Slam,Round of 64,Feliciano Lopez,false,68.0,cluster_0
+75.0,37.0,Milos Raonic,$3.114,Milos Raonic,Aug 26 2013,US Open Slam,Round of 32,Feliciano Lopez,false,70.0,cluster_3
+81.0,37.0,Milos Raonic,$2.834,Milos Raonic,Sep 23 2013,Bangkok,Q,Feliciano Lopez,false,24.0,cluster_3
+66.0,35.0,Tatsuma Ito,$1.234,Feliciano Lopez,Sep 23 2013,Tokyo,R32,Feliciano Lopez,false,25.0,cluster_0
+68.0,31.0,Go Soeda,$1.318,Feliciano Lopez,Sep 23 2013,Bangkok,R16,Feliciano Lopez,false,26.0,cluster_0
+66.0,52.0,Kei Nishikori,$3.036,Kei Nishikori,Sep 30 2013,Tokyo,R16,Feliciano Lopez,false,27.0,cluster_4
+65.0,37.0,Jarkko Nieminen,$1.730,Feliciano Lopez,Sep 30 2013,ATP World Tour Masters 1000 Shanghai,R64,Feliciano Lopez,false,28.0,cluster_0
+64.0,54.0,Julien Benneteau,$1.957,Julien Benneteau,Oct 6 2013,Valencia,R32,Feliciano Lopez,false,30.0,cluster_4
+79.0,37.0,Tomas Berdych,$2.889,Tomas Berdych,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Feliciano Lopez,false,31.0,cluster_3
+63.0,30.0,Bernard Tomic,$2.178,Feliciano Lopez,Oct 21 2013,ATP World Tour Masters 1000 Paris,R64,Feliciano Lopez,false,32.0,cluster_0
+77.0,39.0,Stan Wawrinka,$3.557,Stan Wawrinka,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Feliciano Lopez,false,29.0,cluster_3
+53.0,30.0,Mikhail Kukushkin,$1.771,Feliciano Lopez,Oct 28 2013,Brisbane,R32,Feliciano Lopez,false,33.0,cluster_2
+66.0,38.0,Lleyton Hewitt,$2.690,Lleyton Hewitt,Dec 30 2013,Brisbane,R16,Feliciano Lopez,false,34.0,cluster_0
+60.0,28.0,Somdev Devvarman,$1.248,Feliciano Lopez,Dec 30 2013,Australian Open Slam,Round of 128,Feliciano Lopez,false,75.0,cluster_0
+62.0,30.0,Michael Berrer,$1.292,Feliciano Lopez,Jan 13 2014,Australian Open Slam,Round of 64,Feliciano Lopez,false,74.0,cluster_0
+73.0,40.0,Andy Murray,$6.802,Andy Murray,Jan 13 2014,Australian Open Slam,Round of 32,Feliciano Lopez,false,78.0,cluster_3
+55.0,28.0,Sam Querrey,$2.263,Feliciano Lopez,Feb 17 2014,Delray Beach,R32,Feliciano Lopez,false,35.0,cluster_2
+61.0,29.0,Adrian Mannarino,$1.417,Feliciano Lopez,Feb 17 2014,Delray Beach,R16,Feliciano Lopez,false,38.0,cluster_0
+68.0,45.0,Steve Johnson,$1.598,Steve Johnson,Feb 17 2014,Delray Beach,Q,Feliciano Lopez,false,39.0,cluster_4
+72.0,35.0,David Ferrer,$3.909,David Ferrer,Feb 24 2014,Acapulco,R16,Feliciano Lopez,false,36.0,cluster_3
+53.0,31.0,Edouard Roger-Vasselin,$1.777,Feliciano Lopez,Feb 24 2014,Acapulco,R32,Feliciano Lopez,false,37.0,cluster_2
+62.0,35.0,James Ward,$1.213,Feliciano Lopez,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Feliciano Lopez,false,40.0,cluster_0
+61.0,32.0,Dudi Sela,$1.607,Feliciano Lopez,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R128,Feliciano Lopez,false,41.0,cluster_0
+70.0,36.0,Mikhail Kukushkin,$1.609,Feliciano Lopez,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Feliciano Lopez,false,42.0,cluster_3
+80.0,37.0,Julien Benneteau,$2.571,Julien Benneteau,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Feliciano Lopez,false,43.0,cluster_3
+61.0,30.0,Jiri Vesely,$1.598,Feliciano Lopez,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Feliciano Lopez,false,45.0,cluster_0
+68.0,53.0,Andy Murray,$5.170,Andy Murray,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Feliciano Lopez,false,53.0,cluster_4
+51.0,35.0,Robby Ginepri,$1.380,Feliciano Lopez,Apr 7 2014,Houston,R32,Feliciano Lopez,false,54.0,cluster_2
+78.0,43.0,Alejandro Gonzalez,$1.472,Alejandro Gonzalez,Apr 7 2014,Houston,R16,Feliciano Lopez,false,55.0,cluster_3
+80.0,43.0,Ivan Dodig,$1.685,Ivan Dodig,Apr 21 2014,Barcelona,R32,Feliciano Lopez,false,56.0,cluster_3
+72.0,43.0,Jan-Lennard Struff,$2.335,Jan-Lennard Struff,Apr 28 2014,Munich,R32,Feliciano Lopez,false,59.0,cluster_3
+63.0,31.0,Mikhail Youzhny,$2.129,Feliciano Lopez,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Feliciano Lopez,false,57.0,cluster_0
+71.0,31.0,Federico Delbonis,$2.394,Feliciano Lopez,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Feliciano Lopez,false,60.0,cluster_0
+72.0,41.0,Kei Nishikori,$6.402,Kei Nishikori,May 5 2014,ATP World Tour Masters 1000 Madrid,Q,Feliciano Lopez,false,64.0,cluster_3
+70.0,45.0,Marcel Granollers,$2.077,Marcel Granollers,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Feliciano Lopez,false,6.0,cluster_4
+69.0,40.0,Donald Young,$1.417,Donald Young,May 21 2014,French Open Slam,Round of 64,Feliciano Lopez,false,2.0,cluster_3
+64.0,32.0,Damir Dzumhur,$1.527,Feliciano Lopez,May 21 2014,French Open Slam,Round of 128,Feliciano Lopez,false,79.0,cluster_0
