@@ -1,0 +1,77 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,outlier,odds,winner,date,tournament,t_round,id,cluster
+78.0,25.0,Grigor Dimitrov,false,$1.495,Grigor Dimitrov,Oct 29 2012,Brisbane,R16,59.0,cluster_2
+85.0,36.0,Roger Federer,false,$7.186,Roger Federer,Jan 14 2013,Australian Open Slam,Round of 16,53.0,cluster_2
+68.0,20.0,Philipp Kohlschreiber,false,$1.677,Milos Raonic,Jan 14 2013,Australian Open Slam,Round of 32,56.0,cluster_1
+58.0,23.0,Lukas Rosol,false,$1.210,Milos Raonic,Jan 14 2013,Australian Open Slam,Round of 64,57.0,cluster_4
+59.0,25.0,Jan Hajek,false,$1.039,Milos Raonic,Jan 14 2013,Australian Open Slam,Round of 128,58.0,cluster_0
+57.0,23.0,Tommy Haas,false,$1.543,Milos Raonic,Feb 11 2013,San Jose,F,46.0,cluster_4
+58.0,12.0,Sam Querrey,false,$1.540,Milos Raonic,Feb 11 2013,San Jose,S,47.0,cluster_4
+62.0,21.0,Denis Istomin,false,$1.335,Milos Raonic,Feb 11 2013,San Jose,Q,51.0,cluster_4
+61.0,20.0,Michael Russell,false,$1.196,Milos Raonic,Feb 11 2013,San Jose,R16,52.0,cluster_4
+66.0,31.0,Jack Sock,false,$1.075,Jack Sock,Feb 18 2013,Memphis,R32,45.0,cluster_0
+72.0,25.0,Jo-Wilfried Tsonga,false,$2.197,Jo-Wilfried Tsonga,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,40.0,cluster_1
+65.0,32.0,Marin Cilic,false,$1.852,Milos Raonic,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,41.0,cluster_0
+56.0,19.0,Guillaume Rufin,false,$1.140,Milos Raonic,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,38.0,cluster_4
+62.0,28.0,Jarkko Nieminen,false,$1.391,Jarkko Nieminen,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,31.0,cluster_0
+56.0,29.0,Julien Benneteau,false,$1.454,Milos Raonic,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,34.0,cluster_0
+69.0,52.0,Rafael Nadal,false,$9.817,Rafael Nadal,Apr 22 2013,Barcelona,S,24.0,cluster_3
+64.0,28.0,Tommy Robredo,false,$1.445,Milos Raonic,Apr 22 2013,Barcelona,Q,25.0,cluster_0
+58.0,29.0,Ernests Gulbis,false,$1.568,Milos Raonic,Apr 22 2013,Barcelona,R16,27.0,cluster_0
+58.0,23.0,Edouard Roger-Vasselin,false,$1.292,Milos Raonic,Apr 22 2013,Barcelona,R32,28.0,cluster_4
+65.0,34.0,Fernando Verdasco,false,$1.388,Fernando Verdasco,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,21.0,cluster_0
+68.0,30.0,Nikolay Davydenko,false,$1.340,Milos Raonic,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,22.0,cluster_2
+78.0,33.0,Philipp Kohlschreiber,false,$1.535,Philipp Kohlschreiber,May 12 2013,ATP World Tour Masters 1000 Rome,R64,19.0,cluster_2
+75.0,40.0,Kevin Anderson,false,$1.698,Kevin Anderson,May 27 2013,French Open Slam,Round of 32,14.0,cluster_3
+61.0,29.0,Michael Llodra,false,$1.362,Milos Raonic,May 27 2013,French Open Slam,Round of 64,17.0,cluster_0
+56.0,28.0,Xavier Malisse,false,$1.061,Milos Raonic,May 27 2013,French Open Slam,Round of 128,18.0,cluster_0
+74.0,40.0,Gael Monfils,false,$1.510,Gael Monfils,Jun 10 2013,Halle,R32,13.0,cluster_3
+76.0,37.0,Ivan Dodig,false,$1.495,Ivan Dodig,Jun 17 2013,Eastbourne,R16,12.0,cluster_2
+80.0,32.0,Igor Sijsling,false,$1.364,Igor Sijsling,Jun 24 2013,Wimbledon Slam,Round of 64,8.0,cluster_2
+58.0,19.0,Carlos Berlocq,false,$1.121,Milos Raonic,Jun 24 2013,Wimbledon Slam,Round of 128,9.0,cluster_4
+78.0,31.0,Marinko Matosevic,false,$1.246,Marinko Matosevic,Jul 29 2013,Washington,R16,3.0,cluster_2
+61.0,16.0,Samuel Groth,false,$1.170,Milos Raonic,Jul 29 2013,Washington,R32,7.0,cluster_4
+63.0,28.0,Jeremy Chardy,false,$1.272,Milos Raonic,Aug 5 2013,ATP World Tour Masters 1000 Canada,R64,2.0,cluster_0
+80.0,33.0,Sam Querrey,false,$2.289,Sam Querrey,Aug 12 2013,ATP World Tour Masters 1000 Paris,R16,63.0,cluster_2
+62.0,35.0,Richard Gasquet,false,$1.780,Richard Gasquet,Aug 26 2013,US Open Slam,Round of 16,73.0,cluster_0
+63.0,25.0,Feliciano Lopez,false,$1.437,Milos Raonic,Aug 26 2013,US Open Slam,Round of 32,74.0,cluster_0
+52.0,35.0,Pablo Andujar,false,$1.081,Milos Raonic,Aug 26 2013,US Open Slam,Round of 64,75.0,cluster_0
+58.0,26.0,Thomas Fabbiano,false,$1.064,Milos Raonic,Aug 26 2013,US Open Slam,Round of 128,76.0,cluster_0
+72.0,46.0,Novak Djokovic,false,$13.683,Novak Djokovic,Sep 13 2013,Davis Cup,Reverse Singles,71.0,cluster_3
+69.0,31.0,Janko Tipsarevic,false,$1.578,Milos Raonic,Sep 13 2013,Davis Cup,Singles,72.0,cluster_2
+77.0,18.0,Tomas Berdych,false,$2.581,Milos Raonic,Sep 23 2013,Bangkok,F,67.0,cluster_1
+78.0,32.0,Richard Gasquet,false,$2.067,Milos Raonic,Sep 23 2013,Bangkok,S,68.0,cluster_2
+62.0,18.0,Feliciano Lopez,false,$1.506,Milos Raonic,Sep 23 2013,Bangkok,Q,69.0,cluster_4
+64.0,30.0,Marinko Matosevic,false,$1.340,Milos Raonic,Sep 23 2013,Bangkok,R16,70.0,cluster_0
+70.0,21.0,Juan Martin Del Potro,false,$2.289,Juan Martin Del Potro,Sep 30 2013,Tokyo,F,61.0,cluster_1
+62.0,24.0,Ivan Dodig,false,$1.524,Milos Raonic,Sep 30 2013,Tokyo,S,62.0,cluster_0
+56.0,21.0,Lukas Lacko,false,$1.131,Milos Raonic,Sep 30 2013,Tokyo,Q,64.0,cluster_4
+59.0,14.0,Jeremy Chardy,false,$1.218,Milos Raonic,Sep 30 2013,Tokyo,R16,65.0,cluster_4
+65.0,15.0,Go Soeda,false,$1.145,Milos Raonic,Sep 30 2013,Tokyo,R32,66.0,cluster_1
+80.0,25.0,Stan Wawrinka,false,$1.875,Stan Wawrinka,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R16,54.0,cluster_2
+72.0,27.0,Fernando Verdasco,false,$1.466,Milos Raonic,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,55.0,cluster_2
+67.0,21.0,Michal Przysiezny,false,$1.137,Milos Raonic,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,60.0,cluster_1
+66.0,37.0,Benoit Paire,false,$1.219,Benoit Paire,Oct 14 2013,Stockholm,Q,49.0,cluster_3
+62.0,20.0,Joachim Johansson,false,$1.228,Milos Raonic,Oct 14 2013,Stockholm,R16,50.0,cluster_4
+73.0,34.0,Tomas Berdych,false,$1.859,Tomas Berdych,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,44.0,cluster_2
+65.0,14.0,Robin Haase,false,$1.306,Milos Raonic,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,48.0,cluster_1
+80.0,32.0,Grigor Dimitrov,false,$1.726,Grigor Dimitrov,Jan 13 2014,Australian Open Slam,Round of 32,39.0,cluster_2
+68.0,23.0,Victor Hanescu,false,$1.158,Milos Raonic,Jan 13 2014,Australian Open Slam,Round of 64,42.0,cluster_1
+56.0,28.0,Daniel Gimeno-Traver,false,$1.048,Milos Raonic,Jan 13 2014,Australian Open Slam,Round of 128,43.0,cluster_0
+72.0,38.0,Alexandr Dolgopolov,false,$1.806,Alexandr Dolgopolov,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,Q,33.0,cluster_3
+62.0,27.0,Andy Murray,false,$2.298,Milos Raonic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,35.0,cluster_0
+58.0,20.0,Alejandro Falla,false,$1.305,Milos Raonic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,36.0,cluster_4
+72.0,23.0,Edouard Roger-Vasselin,false,$1.564,Milos Raonic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,37.0,cluster_1
+70.0,40.0,Rafael Nadal,false,$6.958,Rafael Nadal,Mar 17 2014,ATP World Tour Masters 1000 Miami,Q,26.0,cluster_3
+60.0,26.0,Benjamin Becker,false,$1.116,Milos Raonic,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,29.0,cluster_0
+48.0,13.0,Guillermo Garcia-Lopez,false,$1.207,Milos Raonic,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,30.0,cluster_4
+74.0,15.0,Jack Sock,false,$1.268,Milos Raonic,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,32.0,cluster_1
+73.0,32.0,Stan Wawrinka,false,$3.353,Stan Wawrinka,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,Q,16.0,cluster_2
+65.0,22.0,Tommy Robredo,false,$2.116,Milos Raonic,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,20.0,cluster_1
+53.0,27.0,Yen-Hsun Lu,false,$1.165,Milos Raonic,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,23.0,cluster_0
+68.0,40.0,Carlos Berlocq,false,$1.324,Carlos Berlocq,Apr 28 2014,Oeiras,Q,11.0,cluster_3
+54.0,23.0,Pablo Cuevas,false,$1.397,Milos Raonic,Apr 28 2014,Oeiras,R16,15.0,cluster_4
+70.0,30.0,Kei Nishikori,false,$2.834,Kei Nishikori,May 5 2014,ATP World Tour Masters 1000 Madrid,R16,6.0,cluster_2
+60.0,20.0,Jeremy Chardy,false,$1.340,Milos Raonic,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,10.0,cluster_4
+61.0,30.0,Jeremy Chardy,false,$1.359,Milos Raonic,May 12 2014,ATP World Tour Masters 1000 Rome,Q,1.0,cluster_0
+73.0,28.0,Jo-Wilfried Tsonga,false,$1.967,Milos Raonic,May 12 2014,ATP World Tour Masters 1000 Rome,R16,4.0,cluster_2
+71.0,29.0,Simone Bolelli,false,$1.314,Milos Raonic,May 12 2014,ATP World Tour Masters 1000 Rome,R32,5.0,cluster_2

@@ -1,0 +1,81 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,outlier,odds,winner,date,tournament,t_round,id,cluster
+59.0,32.0,Stan Wawrinka,false,$1.154,Andy Murray,Oct 1 2012,Tokyo,Q,77.0,cluster_3
+37.0,26.0,Lukas Lacko,false,$1.031,Andy Murray,Oct 1 2012,Tokyo,R16,80.0,cluster_1
+53.0,33.0,Roger Federer,false,$2.066,Andy Murray,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,S,71.0,cluster_4
+58.0,31.0,Radek Stepanek,false,$1.092,Andy Murray,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,Q,74.0,cluster_3
+50.0,25.0,Alexandr Dolgopolov,false,$1.119,Andy Murray,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R16,75.0,cluster_4
+69.0,33.0,Milos Raonic,false,$1.288,Milos Raonic,Oct 7 2012,Tokyo,S,76.0,cluster_3
+58.0,33.0,Paul-Henri Mathieu,false,$1.081,Andy Murray,Oct 29 2012,ATP World Tour Masters 1000 Paris,R32,66.0,cluster_3
+60.0,43.0,Novak Djokovic,false,$2.634,Novak Djokovic,Oct 29 2012,ATP World Tour Masters 1000 Shanghai,F,70.0,cluster_2
+67.0,36.0,Jerzy Janowicz,false,$1.070,Jerzy Janowicz,Nov 5 2012,ATP World Tour Masters 1000 Paris,R16,65.0,cluster_3
+74.0,39.0,Roger Federer,false,$1.710,Roger Federer,Dec 24 2012,Barclays ATP World Tour Finals,S,59.0,cluster_0
+50.0,26.0,Kei Nishikori,false,$1.260,Andy Murray,Dec 31 2012,Brisbane,S,53.0,cluster_4
+65.0,23.0,Denis Istomin,false,$1.122,Andy Murray,Dec 31 2012,Brisbane,Q,54.0,cluster_3
+58.0,36.0,John Millman,false,$1.031,Andy Murray,Dec 31 2012,Brisbane,R16,58.0,cluster_2
+61.0,29.0,Roger Federer,false,$1.716,Andy Murray,Jan 14 2013,Australian Open Slam,Semi Final,38.0,cluster_3
+47.0,36.0,Jeremy Chardy,false,$1.069,Andy Murray,Jan 14 2013,Australian Open Slam,Quarter Final,42.0,cluster_2
+48.0,30.0,Gilles Simon,false,$1.024,Andy Murray,Jan 14 2013,Australian Open Slam,Round of 16,46.0,cluster_4
+53.0,39.0,Richard Berankis,false,$1.020,Andy Murray,Jan 14 2013,Australian Open Slam,Round of 32,47.0,cluster_2
+56.0,26.0,Joao Sousa,false,$1.002,Andy Murray,Jan 14 2013,Australian Open Slam,Round of 64,48.0,cluster_4
+46.0,34.0,Robin Haase,false,$1.020,Andy Murray,Jan 14 2013,Australian Open Slam,Round of 128,49.0,cluster_4
+61.0,32.0,Grigor Dimitrov,false,$1.165,Andy Murray,Jan 14 2013,Brisbane,F,52.0,cluster_3
+53.0,37.0,Carlos Berlocq,false,$1.033,Andy Murray,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,29.0,cluster_2
+51.0,35.0,Yen-Hsun Lu,false,$1.070,Andy Murray,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,32.0,cluster_2
+53.0,39.0,Evgeny Donskoy,false,$1.033,Andy Murray,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,36.0,cluster_2
+72.0,33.0,Novak Djokovic,false,$2.725,Novak Djokovic,Mar 6 2013,Australian Open Slam,Final,37.0,cluster_3
+50.0,33.0,Richard Gasquet,false,$1.283,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,S,16.0,cluster_4
+45.0,41.0,Marin Cilic,false,$1.210,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,Q,17.0,cluster_2
+56.0,24.0,Andreas Seppi,false,$1.065,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,21.0,cluster_4
+58.0,37.0,Grigor Dimitrov,false,$1.111,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,22.0,cluster_2
+48.0,26.0,Bernard Tomic,false,$1.128,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,25.0,cluster_4
+67.0,40.0,Juan Martin Del Potro,false,$1.543,Juan Martin Del Potro,Mar 18 2013,ATP World Tour Masters 1000 Indian Wells,Q,26.0,cluster_0
+50.0,33.0,Edouard Roger-Vasselin,false,$1.091,Andy Murray,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,12.0,cluster_4
+48.0,49.0,David Ferrer,false,$1.325,Andy Murray,Apr 15 2013,ATP World Tour Masters 1000 Miami,F,15.0,cluster_2
+60.0,36.0,Gilles Simon,false,$1.212,Andy Murray,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,7.0,cluster_3
+64.0,28.0,Florian Mayer,false,$1.128,Andy Murray,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,8.0,cluster_3
+75.0,55.0,Stan Wawrinka,false,$1.443,Stan Wawrinka,May 5 2013,ATP World Tour Masters 1000 Monte Carlo,R16,11.0,cluster_0
+56.0,49.0,Marcel Granollers,false,$1.192,Marcel Granollers,May 21 2013,ATP World Tour Masters 1000 Rome,R32,2.0,cluster_2
+62.0,41.0,Tomas Berdych,false,$1.883,Tomas Berdych,May 21 2013,ATP World Tour Masters 1000 Madrid,Q,6.0,cluster_2
+60.0,32.0,Nicolas Mahut,false,$1.143,Andy Murray,Jun 10 2013,London / Queen's Club,R32,1.0,cluster_3
+52.0,39.0,Novak Djokovic,false,$2.495,Andy Murray,Jun 24 2013,Wimbledon Slam,Final,72.0,cluster_2
+62.0,26.0,Jerzy Janowicz,false,$1.216,Andy Murray,Jun 24 2013,Wimbledon Slam,Semi Final,73.0,cluster_3
+62.0,30.0,Fernando Verdasco,false,$1.093,Andy Murray,Jun 24 2013,Wimbledon Slam,Quarter Final,78.0,cluster_3
+56.0,34.0,Mikhail Youzhny,false,$1.077,Andy Murray,Jun 24 2013,Wimbledon Slam,Round of 16,79.0,cluster_2
+66.0,42.0,Ernests Gulbis,false,$1.190,Ernests Gulbis,Aug 5 2013,ATP World Tour Masters 1000 Canada,R16,68.0,cluster_0
+57.0,36.0,Marcel Granollers,false,$1.096,Andy Murray,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,69.0,cluster_2
+69.0,35.0,Tomas Berdych,false,$1.428,Tomas Berdych,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,Q,63.0,cluster_3
+50.0,28.0,Julien Benneteau,false,$1.073,Andy Murray,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R16,64.0,cluster_4
+48.0,32.0,Mikhail Youzhny,false,$1.215,Andy Murray,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,67.0,cluster_4
+75.0,46.0,Stan Wawrinka,false,$1.290,Stan Wawrinka,Aug 26 2013,US Open Slam,Quarter Final,56.0,cluster_0
+61.0,33.0,Denis Istomin,false,$1.077,Andy Murray,Aug 26 2013,US Open Slam,Round of 16,57.0,cluster_3
+60.0,23.0,Florian Mayer,false,$1.033,Andy Murray,Aug 26 2013,US Open Slam,Round of 32,60.0,cluster_3
+58.0,29.0,Leonardo Mayer,false,$1.042,Andy Murray,Aug 26 2013,US Open Slam,Round of 64,61.0,cluster_3
+52.0,26.0,Michael Llodra,false,$1.024,Andy Murray,Aug 26 2013,US Open Slam,Round of 128,62.0,cluster_4
+55.0,28.0,Ivan Dodig,false,$1.130,Andy Murray,Sep 13 2013,Davis Cup,Reverse Singles,51.0,cluster_4
+47.0,31.0,Borna Coric,false,$1.010,Andy Murray,Sep 13 2013,Davis Cup,Singles,55.0,cluster_4
+65.0,40.0,Florian Mayer,false,$1.152,Florian Mayer,Dec 30 2013,Doha,R16,45.0,cluster_0
+26.0,25.0,Mousa Shanan Zayed,false,$1.001,Andy Murray,Dec 30 2013,Doha,R32,50.0,cluster_1
+73.0,40.0,Roger Federer,false,$2.289,Roger Federer,Jan 13 2014,Australian Open Slam,Quarter Final,39.0,cluster_0
+54.0,33.0,Stephane Robert,false,$1.010,Andy Murray,Jan 13 2014,Australian Open Slam,Round of 16,40.0,cluster_4
+60.0,27.0,Feliciano Lopez,false,$1.107,Andy Murray,Jan 13 2014,Australian Open Slam,Round of 32,41.0,cluster_3
+45.0,31.0,Vincent Millot,false,$1.018,Andy Murray,Jan 13 2014,Australian Open Slam,Round of 64,43.0,cluster_4
+46.0,25.0,Go Soeda,false,$1.030,Andy Murray,Jan 13 2014,Australian Open Slam,Round of 128,44.0,cluster_4
+72.0,29.0,Marin Cilic,false,$1.530,Marin Cilic,Feb 10 2014,Rotterdam,Q,33.0,cluster_3
+60.0,38.0,Dominic Thiem,false,$1.070,Andy Murray,Feb 10 2014,Rotterdam,R16,34.0,cluster_2
+55.0,28.0,Edouard Roger-Vasselin,false,$1.107,Andy Murray,Feb 10 2014,Rotterdam,R32,35.0,cluster_4
+70.0,29.0,Grigor Dimitrov,false,$1.498,Grigor Dimitrov,Feb 24 2014,Acapulco,S,27.0,cluster_3
+55.0,42.0,Gilles Simon,false,$1.155,Andy Murray,Feb 24 2014,Acapulco,Q,28.0,cluster_2
+54.0,32.0,Joao Sousa,false,$1.068,Andy Murray,Feb 24 2014,Acapulco,R16,30.0,cluster_4
+50.0,39.0,Pablo Andujar,false,$1.104,Andy Murray,Feb 24 2014,Acapulco,R32,31.0,cluster_2
+72.0,37.0,Milos Raonic,false,$1.719,Milos Raonic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,20.0,cluster_0
+52.0,45.0,Jiri Vesely,false,$1.104,Andy Murray,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,23.0,cluster_2
+56.0,32.0,Lukas Rosol,false,$1.081,Andy Murray,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,24.0,cluster_4
+68.0,41.0,Novak Djokovic,false,$3.902,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Miami,Q,13.0,cluster_0
+50.0,15.0,Jo-Wilfried Tsonga,false,$1.437,Andy Murray,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,14.0,cluster_4
+46.0,31.0,Feliciano Lopez,false,$1.214,Andy Murray,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,18.0,cluster_4
+48.0,34.0,Matthew Ebden,false,$1.082,Andy Murray,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,19.0,cluster_4
+72.0,44.0,Fabio Fognini,false,$1.417,Fabio Fognini,Apr 4 2014,Davis Cup,Reverse Singles,9.0,cluster_0
+54.0,36.0,Andreas Seppi,false,$1.213,Andy Murray,Apr 4 2014,Davis Cup,Singles,10.0,cluster_2
+74.0,41.0,Santiago Giraldo,false,$1.474,Santiago Giraldo,May 5 2014,ATP World Tour Masters 1000 Madrid,R16,4.0,cluster_0
+62.0,36.0,Nicolas Almagro,false,$1.922,Andy Murray,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,5.0,cluster_3
+56.0,24.0,Marcel Granollers,false,$1.351,Andy Murray,May 12 2014,ATP World Tour Masters 1000 Rome,R32,3.0,cluster_4

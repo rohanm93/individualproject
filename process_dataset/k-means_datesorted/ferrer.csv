@@ -1,0 +1,83 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,outlier,odds,winner,date,tournament,t_round,id,cluster
+50.0,51.0,Andy Murray,false,$3.810,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,F,80.0,cluster_3
+53.0,39.0,Tommy Haas,false,$1.493,David Ferrer,Mar 18 2013,ATP World Tour Masters 1000 Miami,S,81.0,cluster_0
+48.0,43.0,Jurgen Melzer,false,$1.127,David Ferrer,Mar 18 2013,ATP World Tour Masters 1000 Miami,Q,82.0,cluster_0
+55.0,50.0,Dmitry Tursunov,false,$1.030,Dmitry Tursunov,Apr 22 2013,Barcelona,R32,79.0,cluster_3
+85.0,41.0,Stan Wawrinka,false,$1.467,Stan Wawrinka,Apr 29 2013,Oeiras,F,74.0,cluster_2
+50.0,32.0,Andreas Seppi,false,$1.219,David Ferrer,Apr 29 2013,Oeiras,S,75.0,cluster_4
+59.0,35.0,Victor Hanescu,false,$1.102,David Ferrer,Apr 29 2013,Oeiras,Q,76.0,cluster_1
+62.0,33.0,Edouard Roger-Vasselin,false,$1.089,David Ferrer,Apr 29 2013,Oeiras,R16,78.0,cluster_1
+55.0,52.0,Rafael Nadal,false,$7.855,Rafael Nadal,May 5 2013,ATP World Tour Masters 1000 Madrid,Q,68.0,cluster_3
+64.0,28.0,Tommy Haas,false,$1.404,David Ferrer,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,69.0,cluster_1
+58.0,19.0,Denis Istomin,false,$1.072,David Ferrer,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,73.0,cluster_4
+56.0,45.0,Rafael Nadal,false,$6.520,Rafael Nadal,May 12 2013,ATP World Tour Masters 1000 Rome,Q,64.0,cluster_3
+62.0,37.0,Fernando Verdasco,false,$1.192,David Ferrer,May 12 2013,ATP World Tour Masters 1000 Rome,R32,67.0,cluster_1
+62.0,54.0,Rafael Nadal,false,$8.377,Rafael Nadal,May 27 2013,French Open Slam,Final,53.0,cluster_3
+52.0,34.0,Jo-Wilfried Tsonga,false,$1.682,David Ferrer,May 27 2013,French Open Slam,Semi Final,54.0,cluster_4
+46.0,24.0,Tommy Robredo,false,$1.085,David Ferrer,May 27 2013,French Open Slam,Quarter Final,59.0,cluster_4
+48.0,27.0,Kevin Anderson,false,$1.170,David Ferrer,May 27 2013,French Open Slam,Round of 16,60.0,cluster_4
+49.0,33.0,Feliciano Lopez,false,$1.055,David Ferrer,May 27 2013,French Open Slam,Round of 32,61.0,cluster_4
+43.0,36.0,Albert Montanes,false,$1.046,David Ferrer,May 27 2013,French Open Slam,Round of 64,62.0,cluster_0
+45.0,42.0,Marinko Matosevic,false,$1.016,David Ferrer,May 27 2013,French Open Slam,Round of 128,63.0,cluster_0
+70.0,33.0,Xavier Malisse,false,$1.236,Xavier Malisse,Jun 16 2013,s-Hertogenbosch,R32,49.0,cluster_2
+76.0,40.0,Juan Martin del Potro,false,$1.823,Juan Martin del Potro,Jun 24 2013,Wimbledon Slam,Quarter Final,41.0,cluster_2
+60.0,27.0,Ivan Dodig,false,$1.376,David Ferrer,Jun 24 2013,Wimbledon Slam,Round of 16,42.0,cluster_4
+58.0,32.0,Alexandr Dolgopolov,false,$1.484,David Ferrer,Jun 24 2013,Wimbledon Slam,Round of 32,43.0,cluster_4
+61.0,34.0,Roberto Bautista Agut,false,$1.131,David Ferrer,Jun 24 2013,Wimbledon Slam,Round of 64,44.0,cluster_1
+60.0,28.0,Martin Alund,false,$1.007,David Ferrer,Jun 24 2013,Wimbledon Slam,Round of 128,48.0,cluster_4
+67.0,41.0,Alex Bogomolov Jr.,false,$1.104,Alex Bogomolov Jr.,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,36.0,cluster_1
+70.0,44.0,Dmitry Tursunov,false,$1.359,Dmitry Tursunov,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R16,34.0,cluster_2
+58.0,37.0,Ryan Harrison,false,$1.292,David Ferrer,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,35.0,cluster_1
+62.0,40.0,Richard Gasquet,false,$1.421,Richard Gasquet,Aug 26 2013,US Open Slam,Quarter Final,24.0,cluster_1
+58.0,36.0,Janko Tipsarevic,false,$1.287,David Ferrer,Aug 26 2013,US Open Slam,Round of 16,25.0,cluster_1
+53.0,34.0,Mikhail Kukushkin,false,$1.089,David Ferrer,Aug 26 2013,US Open Slam,Round of 32,27.0,cluster_4
+52.0,35.0,Roberto Bautista Agut,false,$1.177,David Ferrer,Aug 26 2013,US Open Slam,Round of 64,28.0,cluster_0
+56.0,27.0,Nick Kyrgios,false,$1.082,David Ferrer,Aug 26 2013,US Open Slam,Round of 128,29.0,cluster_4
+65.0,36.0,Joao Sousa,false,$1.116,Joao Sousa,Sep 23 2013,Kuala Lumpur,Q,22.0,cluster_1
+43.0,35.0,Matteo Viola,false,$1.096,David Ferrer,Sep 23 2013,Kuala Lumpur,R16,23.0,cluster_0
+66.0,41.0,Richard Gasquet,false,$1.976,Richard Gasquet,Sep 30 2013,Beijing,Q,17.0,cluster_1
+47.0,36.0,Marinko Matosevic,false,$1.314,David Ferrer,Sep 30 2013,Beijing,R16,18.0,cluster_0
+68.0,34.0,Vasek Pospisil,false,$1.240,David Ferrer,Sep 30 2013,Beijing,R32,19.0,cluster_1
+66.0,40.0,Florian Mayer,false,$1.393,Florian Mayer,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R16,12.0,cluster_1
+53.0,33.0,Lukas Rosol,false,$1.185,David Ferrer,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,16.0,cluster_4
+59.0,39.0,Grigor Dimitrov,false,$1.629,Grigor Dimitrov,Oct 14 2013,Stockholm,F,5.0,cluster_1
+53.0,33.0,Ernests Gulbis,false,$1.958,David Ferrer,Oct 14 2013,Stockholm,S,10.0,cluster_4
+58.0,32.0,Jack Sock,false,$1.268,David Ferrer,Oct 14 2013,Stockholm,R16,11.0,cluster_4
+49.0,28.0,Julien Benneteau,false,$1.321,David Ferrer,Oct 21 2013,Valencia,R16,3.0,cluster_4
+48.0,25.0,Gael Monfils,false,$1.541,David Ferrer,Oct 21 2013,Valencia,R32,4.0,cluster_4
+64.0,42.0,Mikhail Youzhny,false,$1.310,Mikhail Youzhny,Oct 21 2013,Valencia,F,77.0,cluster_1
+68.0,43.0,Novak Djokovic,false,$6.134,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Paris,F,65.0,cluster_2
+59.0,32.0,Rafael Nadal,false,$6.609,David Ferrer,Oct 28 2013,ATP World Tour Masters 1000 Paris,S,66.0,cluster_1
+62.0,34.0,Tomas Berdych,false,$1.976,David Ferrer,Oct 28 2013,ATP World Tour Masters 1000 Paris,Q,70.0,cluster_1
+55.0,28.0,Gilles Simon,false,$1.373,David Ferrer,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,71.0,cluster_4
+50.0,42.0,Lukas Rosol,false,$1.165,David Ferrer,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,72.0,cluster_0
+75.0,39.0,Daniel Brands,false,$1.171,Daniel Brands,Dec 30 2013,Doha,R16,57.0,cluster_2
+53.0,40.0,Alexandr Dolgopolov,false,$1.220,David Ferrer,Dec 30 2013,Doha,R32,58.0,cluster_0
+63.0,37.0,Yen-Hsun Lu,false,$1.190,Yen-Hsun Lu,Jan 6 2014,Auckland,S,52.0,cluster_1
+62.0,38.0,Guillermo Garcia-Lopez,false,$1.168,David Ferrer,Jan 6 2014,Auckland,Q,55.0,cluster_1
+52.0,38.0,Donald Young,false,$1.126,David Ferrer,Jan 6 2014,Auckland,R16,56.0,cluster_0
+61.0,42.0,Tomas Berdych,false,$2.460,Tomas Berdych,Jan 13 2014,Australian Open Slam,Quarter Final,45.0,cluster_1
+52.0,33.0,Florian Mayer,false,$1.243,David Ferrer,Jan 13 2014,Australian Open Slam,Round of 16,46.0,cluster_4
+55.0,30.0,Jeremy Chardy,false,$1.395,David Ferrer,Jan 13 2014,Australian Open Slam,Round of 32,47.0,cluster_4
+50.0,37.0,Adrian Mannarino,false,$1.047,David Ferrer,Jan 13 2014,Australian Open Slam,Round of 64,50.0,cluster_0
+47.0,41.0,Alejandro Gonzalez,false,$1.036,David Ferrer,Jan 13 2014,Australian Open Slam,Round of 128,51.0,cluster_0
+55.0,31.0,Fabio Fognini,false,$1.402,David Ferrer,Feb 10 2014,Buenos Aires,F,33.0,cluster_4
+54.0,36.0,Nicolas Almagro,false,$1.357,David Ferrer,Feb 10 2014,Buenos Aires,S,37.0,cluster_0
+44.0,33.0,Albert Ramos,false,$1.139,David Ferrer,Feb 10 2014,Buenos Aires,Q,38.0,cluster_0
+50.0,44.0,Santiago Giraldo,false,$1.146,David Ferrer,Feb 10 2014,Buenos Aires,R16,39.0,cluster_0
+55.0,38.0,Maximo Gonzalez,false,$1.069,David Ferrer,Feb 10 2014,Buenos Aires,R32,40.0,cluster_0
+66.0,45.0,Alexandr Dolgopolov,false,$1.237,Alexandr Dolgopolov,Feb 17 2014,Rio de Janeiro,S,26.0,cluster_1
+57.0,37.0,Thomaz Bellucci,false,$1.162,David Ferrer,Feb 17 2014,Rio de Janeiro,Q,30.0,cluster_1
+50.0,28.0,Federico Delbonis,false,$1.089,David Ferrer,Feb 17 2014,Rio de Janeiro,R16,31.0,cluster_4
+43.0,36.0,Jeremy Chardy,false,$1.145,David Ferrer,Feb 17 2014,Rio de Janeiro,R32,32.0,cluster_0
+57.0,40.0,Kevin Anderson,false,$1.359,Kevin Anderson,Feb 24 2014,Acapulco,Q,15.0,cluster_1
+64.0,27.0,Feliciano Lopez,false,$1.314,David Ferrer,Feb 24 2014,Acapulco,R16,20.0,cluster_1
+52.0,28.0,Mikhail Kukushkin,false,$1.156,David Ferrer,Feb 24 2014,Acapulco,R32,21.0,cluster_4
+55.0,42.0,Kei Nishikori,false,$1.592,Kei Nishikori,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,9.0,cluster_0
+50.0,27.0,Andreas Seppi,false,$1.135,David Ferrer,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,13.0,cluster_4
+55.0,31.0,Teymuraz Gabashvili,false,$1.142,David Ferrer,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,14.0,cluster_4
+71.0,38.0,Stan Wawrinka,false,$1.692,Stan Wawrinka,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,S,2.0,cluster_2
+53.0,41.0,Rafael Nadal,false,$8.885,David Ferrer,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,Q,6.0,cluster_0
+51.0,39.0,Grigor Dimitrov,false,$1.387,David Ferrer,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,7.0,cluster_0
+43.0,26.0,Jeremy Chardy,false,$1.110,David Ferrer,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,8.0,cluster_4
+63.0,50.0,Teymuraz Gabashvili,false,$1.046,Teymuraz Gabashvili,Apr 21 2014,Barcelona,R32,1.0,cluster_3

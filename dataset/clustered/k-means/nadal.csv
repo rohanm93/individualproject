@@ -1,0 +1,85 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,outlier,odds,winner,date,tournament,t_round,id,cluster
+58.0,27.0,Tomas Berdych,false,$1.165,Rafael Nadal,May 5 2014,ATP World Tour Masters 1000 Madrid,Q,1.0,cluster_2
+48.0,35.0,Jarkko Nieminen,false,$1.021,Rafael Nadal,May 5 2014,ATP World Tour Masters 1000 Madrid,R16,2.0,cluster_1
+28.0,34.0,Juan Monaco,false,$1.051,Rafael Nadal,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,3.0,cluster_0
+61.0,19.0,Marcel Granollers,false,$1.105,Rafael Nadal,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,4.0,cluster_4
+66.0,43.0,Juan Martin Del Potro,false,$1.325,Juan Martin Del Potro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,S,5.0,cluster_3
+56.0,37.0,Nicolas Almagro,false,$1.143,Nicolas Almagro,Apr 21 2014,Barcelona,Q,6.0,cluster_1
+52.0,29.0,Ivan Dodig,false,$1.043,Rafael Nadal,Apr 21 2014,Barcelona,R16,7.0,cluster_2
+55.0,32.0,Albert Ramos,false,$1.030,Rafael Nadal,Apr 21 2014,Barcelona,R32,8.0,cluster_2
+58.0,46.0,David Ferrer,false,$1.106,David Ferrer,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,Q,9.0,cluster_1
+63.0,27.0,Stan Wawrinka,false,$1.206,Rafael Nadal,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,Q,10.0,cluster_2
+56.0,29.0,Carlos Berlocq,false,$1.042,Rafael Nadal,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R16,11.0,cluster_2
+60.0,22.0,Alexandr Dolgopolov,false,$1.116,Rafael Nadal,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,12.0,cluster_4
+44.0,31.0,Andreas Seppi,false,$1.014,Rafael Nadal,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,13.0,cluster_0
+38.0,34.0,Teymuraz Gabashvili,false,$1.004,Rafael Nadal,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,14.0,cluster_0
+86.0,36.0,Novak Djokovic,false,$2.159,Novak Djokovic,Sep 30 2013,Beijing,F,15.0,cluster_3
+42.0,47.0,Tomas Berdych,false,$1.265,Rafael Nadal,Sep 30 2013,Beijing,S,16.0,cluster_1
+52.0,44.0,Fabio Fognini,false,$1.065,Rafael Nadal,Sep 30 2013,Beijing,Q,17.0,cluster_1
+60.0,35.0,Philipp Kohlschreiber,false,$1.068,Rafael Nadal,Sep 30 2013,Beijing,R16,18.0,cluster_2
+77.0,44.0,Novak Djokovic,false,$2.279,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Miami,F,19.0,cluster_3
+59.0,29.0,Milos Raonic,false,$1.145,Rafael Nadal,Mar 17 2014,ATP World Tour Masters 1000 Miami,Q,20.0,cluster_2
+48.0,38.0,Santiago Giraldo,false,$1.031,Rafael Nadal,Sep 30 2013,Beijing,R32,21.0,cluster_1
+47.0,24.0,Sergiy Stakhovsky,false,$1.010,Rafael Nadal,Sep 13 2013,Davis Cup,Singles,22.0,cluster_0
+55.0,38.0,Novak Djokovic,false,$1.755,Rafael Nadal,Aug 26 2013,US Open Slam,Final,23.0,cluster_1
+54.0,8.0,Fabio Fognini,false,$1.061,Rafael Nadal,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,24.0,cluster_4
+36.0,25.0,Denis Istomin,false,$1.061,Rafael Nadal,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,25.0,cluster_0
+62.0,29.0,Richard Gasquet,false,$1.070,Rafael Nadal,Aug 26 2013,US Open Slam,Semi Final,26.0,cluster_2
+44.0,24.0,Tommy Robredo,false,$1.052,Rafael Nadal,Aug 26 2013,US Open Slam,Quarter Final,27.0,cluster_0
+60.0,26.0,Philipp Kohlschreiber,false,$1.055,Rafael Nadal,Aug 26 2013,US Open Slam,Round of 16,28.0,cluster_2
+52.0,17.0,Lleyton Hewitt,false,$1.072,Rafael Nadal,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,29.0,cluster_4
+59.0,35.0,Alexandr Dolgopolov,false,$1.129,Alexandr Dolgopolov,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,30.0,cluster_2
+60.0,32.0,Radek Stepanek,false,$1.057,Rafael Nadal,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,31.0,cluster_2
+61.0,22.0,Ivan Dodig,false,$1.035,Rafael Nadal,Aug 26 2013,US Open Slam,Round of 32,32.0,cluster_4
+43.0,24.0,Rogerio Dutra Silva,false,$1.010,Rafael Nadal,Aug 26 2013,US Open Slam,Round of 64,33.0,cluster_0
+55.0,25.0,Ryan Harrison,false,$1.016,Rafael Nadal,Aug 26 2013,US Open Slam,Round of 128,34.0,cluster_2
+58.0,29.0,Alexandr Dolgopolov,false,$1.183,Rafael Nadal,Feb 17 2014,Rio de Janeiro,F,35.0,cluster_2
+65.0,38.0,Pablo Andujar,false,$1.028,Rafael Nadal,Feb 17 2014,Rio de Janeiro,S,36.0,cluster_3
+72.0,19.0,John Isner,false,$1.234,Rafael Nadal,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,F,37.0,cluster_4
+61.0,28.0,Tomas Berdych,false,$1.343,Rafael Nadal,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,S,38.0,cluster_2
+65.0,29.0,Roger Federer,false,$1.318,Rafael Nadal,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,Q,39.0,cluster_2
+42.0,34.0,Joao Sousa,false,$1.018,Rafael Nadal,Feb 17 2014,Rio de Janeiro,Q,40.0,cluster_0
+60.0,35.0,Grigor Dimitrov,false,$1.168,Rafael Nadal,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R16,41.0,cluster_2
+51.0,21.0,Benjamin Becker,false,$1.057,Rafael Nadal,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,42.0,cluster_4
+52.0,17.0,Milos Raonic,false,$1.221,Rafael Nadal,Aug 5 2013,ATP World Tour Masters 1000 Canada,F,43.0,cluster_4
+40.0,39.0,Albert Montanes,false,$1.036,Rafael Nadal,Feb 17 2014,Rio de Janeiro,R16,44.0,cluster_0
+65.0,32.0,Novak Djokovic,false,$3.042,Rafael Nadal,Aug 5 2013,ATP World Tour Masters 1000 Canada,S,45.0,cluster_2
+60.0,24.0,Marinko Matosevic,false,$1.079,Rafael Nadal,Aug 5 2013,ATP World Tour Masters 1000 Canada,Q,46.0,cluster_2
+57.0,27.0,Daniel Gimeno-Traver,false,$1.040,Rafael Nadal,Feb 17 2014,Rio de Janeiro,R32,47.0,cluster_2
+71.0,44.0,Stan Wawrinka,false,$1.175,Stan Wawrinka,Jan 13 2014,Australian Open Slam,Final,48.0,cluster_3
+60.0,27.0,Roger Federer,false,$1.654,Rafael Nadal,Jan 13 2014,Australian Open Slam,Semi Final,49.0,cluster_2
+58.0,34.0,Jerzy Janowicz,false,$1.171,Rafael Nadal,Aug 5 2013,ATP World Tour Masters 1000 Canada,R16,50.0,cluster_2
+43.0,29.0,Jesse Levine,false,$1.057,Rafael Nadal,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,51.0,cluster_0
+62.0,29.0,Grigor Dimitrov,false,$1.114,Rafael Nadal,Jan 13 2014,Australian Open Slam,Quarter Final,52.0,cluster_2
+58.0,35.0,Kei Nishikori,false,$1.029,Rafael Nadal,Jan 13 2014,Australian Open Slam,Round of 16,53.0,cluster_2
+50.0,27.0,Gael Monfils,false,$1.100,Rafael Nadal,Jan 13 2014,Australian Open Slam,Round of 32,54.0,cluster_0
+67.0,39.0,Steve Darcis,false,$1.011,Steve Darcis,Jun 24 2013,Wimbledon Slam,Round of 128,55.0,cluster_3
+55.0,24.0,Thanasi Kokkinakis,false,$1.018,Rafael Nadal,Jan 13 2014,Australian Open Slam,Round of 64,56.0,cluster_4
+64.0,23.0,Bernard Tomic,false,$1.065,Rafael Nadal,Jan 13 2014,Australian Open Slam,Round of 128,57.0,cluster_4
+46.0,38.0,David Ferrer,false,$1.114,Rafael Nadal,May 27 2013,French Open Slam,Final,58.0,cluster_1
+61.0,33.0,Novak Djokovic,false,$1.588,Rafael Nadal,May 27 2013,French Open Slam,Semi Final,59.0,cluster_2
+48.0,30.0,Stan Wawrinka,false,$1.065,Rafael Nadal,May 27 2013,French Open Slam,Quarter Final,60.0,cluster_0
+60.0,24.0,Gael Monfils,false,$1.411,Rafael Nadal,Dec 30 2013,Doha,F,61.0,cluster_2
+54.0,36.0,Peter Gojowczyk,false,$1.018,Rafael Nadal,Dec 30 2013,Doha,S,62.0,cluster_1
+54.0,29.0,Kei Nishikori,false,$1.041,Rafael Nadal,May 27 2013,French Open Slam,Round of 16,63.0,cluster_2
+57.0,37.0,Fabio Fognini,false,$1.015,Rafael Nadal,May 27 2013,French Open Slam,Round of 32,64.0,cluster_1
+53.0,35.0,Martin Klizan,false,$1.002,Rafael Nadal,May 27 2013,French Open Slam,Round of 64,65.0,cluster_1
+62.0,24.0,Daniel Brands,false,$1.000,Rafael Nadal,May 27 2013,French Open Slam,Round of 128,66.0,cluster_2
+59.0,36.0,Ernests Gulbis,false,$1.237,Rafael Nadal,Dec 30 2013,Doha,Q,67.0,cluster_2
+62.0,29.0,Tobias Kamke,false,$1.042,Rafael Nadal,Dec 30 2013,Doha,R16,68.0,cluster_2
+45.0,28.0,Roger Federer,false,$1.224,Rafael Nadal,May 12 2013,ATP World Tour Masters 1000 Rome,F,69.0,cluster_0
+58.0,17.0,Tomas Berdych,false,$1.185,Rafael Nadal,May 12 2013,ATP World Tour Masters 1000 Rome,S,70.0,cluster_4
+55.0,43.0,David Ferrer,false,$1.158,Rafael Nadal,May 12 2013,ATP World Tour Masters 1000 Rome,Q,71.0,cluster_1
+59.0,41.0,Ernests Gulbis,false,$1.073,Rafael Nadal,May 12 2013,ATP World Tour Masters 1000 Rome,R16,72.0,cluster_1
+54.0,35.0,Lukas Rosol,false,$1.058,Rafael Nadal,Dec 30 2013,Doha,R32,73.0,cluster_1
+68.0,44.0,Novak Djokovic,false,$2.571,Novak Djokovic,Nov 4 2013,Barclays ATP World Tour Finals,F,74.0,cluster_3
+43.0,25.0,Fabio Fognini,false,$1.042,Rafael Nadal,May 12 2013,ATP World Tour Masters 1000 Rome,R32,75.0,cluster_0
+59.0,15.0,Stan Wawrinka,false,$1.158,Rafael Nadal,May 5 2013,ATP World Tour Masters 1000 Madrid,F,76.0,cluster_4
+51.0,23.0,Pablo Andujar,false,$1.028,Rafael Nadal,May 5 2013,ATP World Tour Masters 1000 Madrid,S,77.0,cluster_4
+47.0,44.0,David Ferrer,false,$1.124,Rafael Nadal,May 5 2013,ATP World Tour Masters 1000 Madrid,Q,78.0,cluster_1
+59.0,26.0,Roger Federer,false,$1.340,Rafael Nadal,Nov 4 2013,Barclays ATP World Tour Finals,S,79.0,cluster_2
+50.0,29.0,Mikhail Youzhny,false,$1.021,Rafael Nadal,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,80.0,cluster_0
+60.0,25.0,Benoit Paire,false,$1.020,Rafael Nadal,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,81.0,cluster_2
+55.0,35.0,Nicolas Almagro,false,$1.116,Rafael Nadal,Apr 22 2013,Barcelona,F,82.0,cluster_1
+47.0,30.0,Milos Raonic,false,$1.093,Rafael Nadal,Apr 22 2013,Barcelona,S,83.0,cluster_0
+67.0,40.0,David Ferrer,false,$1.155,David Ferrer,Oct 28 2013,ATP World Tour Masters 1000 Paris,S,84.0,cluster_3

@@ -1,0 +1,83 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,outlier,odds,winner,date,tournament,t_round,id,cluster
+58.0,30.0,Milos Raonic,false,$2.654,Kei Nishikori,Oct 1 2012,Tokyo,F,80.0,cluster_0
+54.0,23.0,Marcos Baghdatis,false,$1.590,Kei Nishikori,Oct 1 2012,Tokyo,S,81.0,cluster_1
+56.0,35.0,Tomas Berdych,false,$3.253,Kei Nishikori,Oct 1 2012,Tokyo,Q,82.0,cluster_0
+68.0,44.0,Sam Querrey,false,$1.799,Sam Querrey,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R32,78.0,cluster_3
+48.0,26.0,Di Wu,false,$1.041,Kei Nishikori,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R64,79.0,cluster_1
+50.0,32.0,Benoit Paire,false,$1.474,Kei Nishikori,Oct 29 2012,ATP World Tour Masters 1000 Paris,R32,77.0,cluster_4
+73.0,50.0,Andy Murray,false,$4.522,Andy Murray,Dec 31 2012,Brisbane,S,73.0,cluster_3
+65.0,25.0,Alexandr Dolgopolov,false,$1.715,Kei Nishikori,Dec 31 2012,Brisbane,Q,74.0,cluster_1
+56.0,28.0,Tommy Robredo,false,$1.278,Kei Nishikori,Dec 31 2012,Brisbane,R16,75.0,cluster_1
+54.0,36.0,Marinko Matosevic,false,$1.304,Kei Nishikori,Dec 31 2012,Brisbane,R32,76.0,cluster_0
+63.0,55.0,David Ferrer,false,$4.879,David Ferrer,Jan 14 2013,Australian Open Slam,Round of 16,64.0,cluster_2
+57.0,27.0,Evgeny Donskoy,false,$1.153,Kei Nishikori,Jan 14 2013,Australian Open Slam,Round of 32,68.0,cluster_1
+52.0,35.0,Carlos Berlocq,false,$1.058,Kei Nishikori,Jan 14 2013,Australian Open Slam,Round of 64,69.0,cluster_4
+58.0,33.0,Victor Hanescu,false,$1.091,Kei Nishikori,Jan 14 2013,Australian Open Slam,Round of 128,72.0,cluster_0
+54.0,20.0,Feliciano Lopez,false,$1.272,Kei Nishikori,Feb 18 2013,Memphis,F,57.0,cluster_1
+51.0,30.0,Marinko Matosevic,false,$1.198,Kei Nishikori,Feb 18 2013,Memphis,S,58.0,cluster_1
+56.0,31.0,Marin Cilic,false,$2.169,Kei Nishikori,Feb 18 2013,Memphis,Q,61.0,cluster_0
+47.0,35.0,Donald Young,false,$1.249,Kei Nishikori,Feb 18 2013,Memphis,R16,62.0,cluster_4
+55.0,35.0,Illya Marchenko,false,$1.256,Kei Nishikori,Feb 18 2013,Memphis,R32,63.0,cluster_0
+67.0,45.0,Ivo Karlovic,false,$1.266,Ivo Karlovic,Feb 25 2013,Delray Beach,R32,56.0,cluster_3
+78.0,48.0,Carlos Berlocq,false,$1.138,Carlos Berlocq,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,51.0,cluster_3
+50.0,38.0,Philipp Petzschner,false,$1.229,Kei Nishikori,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,55.0,cluster_4
+68.0,46.0,David Ferrer,false,$3.668,David Ferrer,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,48.0,cluster_3
+54.0,36.0,Xavier Malisse,false,$1.287,Kei Nishikori,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,49.0,cluster_0
+48.0,38.0,Victor Hanescu,false,$1.158,Kei Nishikori,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,50.0,cluster_4
+69.0,38.0,Albert Ramos,false,$1.574,Albert Ramos,Apr 22 2013,Barcelona,R16,44.0,cluster_3
+51.0,21.0,Guillermo Olaso,false,$1.122,Kei Nishikori,Apr 22 2013,Barcelona,R32,45.0,cluster_1
+61.0,38.0,Pablo Andujar,false,$1.287,Pablo Andujar,May 5 2013,ATP World Tour Masters 1000 Madrid,Q,37.0,cluster_0
+70.0,37.0,Roger Federer,false,$4.415,Kei Nishikori,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,38.0,cluster_3
+50.0,37.0,Viktor Troicki,false,$1.351,Kei Nishikori,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,39.0,cluster_4
+55.0,28.0,Jurgen Melzer,false,$1.300,Kei Nishikori,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,43.0,cluster_1
+74.0,48.0,Jeremy Chardy,false,$1.462,Jeremy Chardy,May 12 2013,ATP World Tour Masters 1000 Rome,R32,33.0,cluster_3
+54.0,28.0,Paolo Lorenzi,false,$1.369,Kei Nishikori,May 12 2013,ATP World Tour Masters 1000 Rome,R64,34.0,cluster_1
+71.0,46.0,Rafael Nadal,false,$17.789,Rafael Nadal,May 27 2013,French Open Slam,Round of 16,22.0,cluster_3
+55.0,36.0,Benoit Paire,false,$1.930,Kei Nishikori,May 27 2013,French Open Slam,Round of 32,25.0,cluster_0
+47.0,42.0,Grega Zemlja,false,$1.174,Kei Nishikori,May 27 2013,French Open Slam,Round of 64,28.0,cluster_4
+38.0,34.0,Jesse Levine,false,$1.077,Kei Nishikori,May 27 2013,French Open Slam,Round of 128,29.0,cluster_4
+66.0,35.0,Mikhail Youzhny,false,$1.691,Mikhail Youzhny,Jun 10 2013,Halle,R16,21.0,cluster_0
+64.0,40.0,Andreas Seppi,false,$1.373,Andreas Seppi,Jun 24 2013,Wimbledon Slam,Round of 32,12.0,cluster_0
+56.0,34.0,Leonardo Mayer,false,$1.096,Kei Nishikori,Jun 24 2013,Wimbledon Slam,Round of 64,16.0,cluster_0
+54.0,31.0,Matthew Ebden,false,$1.180,Kei Nishikori,Jun 24 2013,Wimbledon Slam,Round of 128,17.0,cluster_0
+62.0,57.0,Marcos Baghdatis,false,$1.484,Marcos Baghdatis,Jul 29 2013,Washington,R16,8.0,cluster_2
+51.0,37.0,Jack Sock,false,$1.341,Kei Nishikori,Jul 29 2013,Washington,R32,9.0,cluster_4
+59.0,40.0,Richard Gasquet,false,$2.457,Richard Gasquet,Aug 5 2013,ATP World Tour Masters 1000 Canada,R16,3.0,cluster_0
+57.0,32.0,Andreas Seppi,false,$1.535,Kei Nishikori,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,4.0,cluster_0
+51.0,43.0,Peter Polansky,false,$1.183,Kei Nishikori,Aug 5 2013,ATP World Tour Masters 1000 Canada,R64,7.0,cluster_4
+57.0,33.0,Alejandro Falla,false,$1.160,Kei Nishikori,Sep 13 2013,Davis Cup,Singles,71.0,cluster_0
+47.0,33.0,Feliciano Lopez,false,$1.454,Kei Nishikori,Sep 30 2013,Tokyo,R16,66.0,cluster_4
+59.0,34.0,Jurgen Melzer,false,$1.271,Kei Nishikori,Sep 30 2013,Tokyo,R32,67.0,cluster_0
+55.0,21.0,Santiago Giraldo,false,$1.200,Kei Nishikori,Sep 30 2013,Davis Cup,Reverse Singles,70.0,cluster_1
+57.0,33.0,Jurgen Melzer,false,$1.340,Kei Nishikori,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,59.0,cluster_0
+58.0,29.0,Grigor Dimitrov,false,$1.735,Kei Nishikori,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,60.0,cluster_1
+63.0,39.0,Nicolas Almagro,false,$1.550,Nicolas Almagro,Oct 6 2013,Tokyo,Q,65.0,cluster_0
+48.0,40.0,Marco Chiudinelli,false,$1.150,Kei Nishikori,Oct 21 2013,Basel,R32,53.0,cluster_4
+78.0,46.0,Jo-Wilfried Tsonga,false,$2.390,Jo-Wilfried Tsonga,Oct 21 2013,ATP World Tour Masters 1000 Shanghai,R16,54.0,cluster_3
+64.0,32.0,Jo-Wilfried Tsonga,false,$3.026,Kei Nishikori,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,46.0,cluster_0
+59.0,25.0,Julien Benneteau,false,$2.139,Kei Nishikori,Oct 28 2013,ATP World Tour Masters 1000 Paris,R64,47.0,cluster_1
+77.0,50.0,Ivan Dodig,false,$1.759,Ivan Dodig,Oct 28 2013,Basel,R16,52.0,cluster_3
+59.0,32.0,Marin Cilic,false,$2.144,Kei Nishikori,Dec 30 2013,Brisbane,Q,40.0,cluster_0
+61.0,22.0,Matthew Ebden,false,$1.410,Kei Nishikori,Dec 30 2013,Brisbane,R16,41.0,cluster_1
+71.0,44.0,Richard Gasquet,false,$2.933,Richard Gasquet,Dec 30 2013,ATP World Tour Masters 1000 Paris,R16,42.0,cluster_3
+68.0,36.0,Lleyton Hewitt,false,$1.648,Lleyton Hewitt,Jan 7 2014,Brisbane,S,36.0,cluster_3
+41.0,34.0,Donald Young,false,$1.153,Kei Nishikori,Jan 13 2014,Australian Open Slam,Round of 32,31.0,cluster_4
+49.0,28.0,Dusan Lajovic,false,$1.098,Kei Nishikori,Jan 13 2014,Australian Open Slam,Round of 64,32.0,cluster_1
+57.0,35.0,Marinko Matosevic,false,$1.279,Kei Nishikori,Jan 13 2014,Australian Open Slam,Round of 128,35.0,cluster_0
+65.0,42.0,Rafael Nadal,false,$12.817,Rafael Nadal,Jan 31 2014,Australian Open Slam,Round of 16,30.0,cluster_3
+47.0,27.0,Michael Russell,false,$1.157,Kei Nishikori,Feb 10 2014,Memphis,S,24.0,cluster_1
+51.0,41.0,Alex Bogomolov Jr.,false,$1.107,Kei Nishikori,Feb 10 2014,Memphis,Q,26.0,cluster_4
+50.0,40.0,Benjamin Becker,false,$1.171,Kei Nishikori,Feb 10 2014,Memphis,R16,27.0,cluster_4
+50.0,38.0,Gastao Elias,false,$1.077,Kei Nishikori,Feb 17 2014,Delray Beach,R32,20.0,cluster_4
+66.0,22.0,Ivo Karlovic,false,$1.451,Kei Nishikori,Feb 17 2014,Memphis,F,23.0,cluster_1
+50.0,23.0,Santiago Giraldo,false,$1.252,Kei Nishikori,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,18.0,cluster_1
+81.0,44.0,Teymuraz Gabashvili,false,$1.119,Teymuraz Gabashvili,Mar 3 2014,Delray Beach,R16,19.0,cluster_3
+60.0,40.0,Roger Federer,false,$5.973,Kei Nishikori,Mar 17 2014,ATP World Tour Masters 1000 Miami,Q,10.0,cluster_0
+57.0,44.0,David Ferrer,false,$2.571,Kei Nishikori,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,11.0,cluster_2
+65.0,27.0,Grigor Dimitrov,false,$2.058,Kei Nishikori,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,13.0,cluster_1
+42.0,40.0,Marinko Matosevic,false,$1.275,Kei Nishikori,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,14.0,cluster_4
+60.0,47.0,Tommy Haas,false,$1.507,Tommy Haas,Mar 17 2014,ATP World Tour Masters 1000 Indian Wells,R32,15.0,cluster_2
+56.0,26.0,Ernests Gulbis,false,$1.708,Kei Nishikori,Apr 21 2014,Barcelona,S,1.0,cluster_1
+45.0,34.0,Marin Cilic,false,$1.625,Kei Nishikori,Apr 21 2014,Barcelona,Q,2.0,cluster_4
+41.0,42.0,Andrey Golubev,false,$1.201,Kei Nishikori,Apr 21 2014,Barcelona,R16,5.0,cluster_4
+52.0,40.0,Roberto Bautista Agut,false,$1.967,Kei Nishikori,Apr 21 2014,Barcelona,R32,6.0,cluster_4

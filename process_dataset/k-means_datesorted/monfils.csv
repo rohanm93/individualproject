@@ -1,0 +1,87 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,outlier,odds,winner,date,tournament,t_round,id,cluster
+62.0,34.0,Philipp Kohlschreiber,false,$1.686,Gael Monfils,May 6 2012,ATP World Tour Masters 1000 Madrid,R64,85.0,cluster_0
+63.0,44.0,Juan Monaco,false,$1.504,Juan Monaco,May 6 2012,ATP World Tour Masters 1000 Miami,R32,86.0,cluster_1
+87.0,61.0,Tomas Berdych,false,$3.700,Tomas Berdych,May 14 2012,ATP World Tour Masters 1000 Madrid,R16,83.0,cluster_3
+61.0,31.0,Igor Andreev,false,$1.338,Gael Monfils,May 14 2012,ATP World Tour Masters 1000 Madrid,R32,84.0,cluster_0
+51.0,32.0,Alex Bogomolov Jr.,false,$1.041,Gael Monfils,May 20 2012,ATP World Tour Masters 1000 Rome,R64,82.0,cluster_4
+65.0,29.0,Nicolas Mahut,false,$1.369,Gael Monfils,Sep 17 2012,Metz,R16,79.0,cluster_0
+50.0,22.0,Olivier Rochus,false,$1.413,Gael Monfils,Sep 17 2012,Metz,R32,80.0,cluster_0
+60.0,49.0,Juan Carlos Ferrero,false,$1.597,Juan Carlos Ferrero,Sep 17 2012,ATP World Tour Masters 1000 Rome,R32,81.0,cluster_1
+54.0,39.0,Viktor Troicki,false,$1.404,Gael Monfils,Oct 1 2012,Bangkok,R16,75.0,cluster_1
+61.0,39.0,Kevin Anderson,false,$1.705,Gael Monfils,Oct 1 2012,Bangkok,R32,76.0,cluster_1
+70.0,35.0,Andreas Seppi,false,$1.534,Andreas Seppi,Oct 1 2012,Metz,S,77.0,cluster_2
+54.0,38.0,Philipp Kohlschreiber,false,$1.655,Gael Monfils,Oct 1 2012,Metz,Q,78.0,cluster_1
+61.0,56.0,Gilles Simon,false,$1.659,Gilles Simon,Oct 15 2012,Bangkok,Q,74.0,cluster_1
+65.0,38.0,Philipp Kohlschreiber,false,$2.462,Gael Monfils,Dec 31 2012,Doha,R16,71.0,cluster_2
+31.0,37.0,Mousa Shanan Zayed,false,$1.020,Gael Monfils,Dec 31 2012,Doha,R32,72.0,cluster_4
+69.0,39.0,Patrik Rosenholm,false,$1.031,Patrik Rosenholm,Dec 31 2012,Stockholm,R32,73.0,cluster_2
+67.0,37.0,Tommy Haas,false,$2.380,Gael Monfils,Jan 7 2013,Auckland,Q,67.0,cluster_2
+58.0,28.0,Greg Jones,false,$1.197,Gael Monfils,Jan 7 2013,Auckland,R16,68.0,cluster_0
+68.0,31.0,Benjamin Becker,false,$1.615,Gael Monfils,Jan 7 2013,Auckland,R32,69.0,cluster_2
+73.0,43.0,Daniel Brands,false,$1.266,Daniel Brands,Jan 7 2013,Doha,Q,70.0,cluster_2
+65.0,38.0,Yen-Hsun Lu,false,$1.336,Gael Monfils,Jan 14 2013,Australian Open Slam,Round of 64,64.0,cluster_2
+61.0,32.0,Alexandr Dolgopolov,false,$2.474,Gael Monfils,Jan 14 2013,Australian Open Slam,Round of 128,65.0,cluster_0
+82.0,54.0,David Ferrer,false,$5.019,David Ferrer,Jan 14 2013,Auckland,S,66.0,cluster_3
+59.0,30.0,Ruben Bemelmans,false,$1.208,Gael Monfils,Feb 4 2013,Montpellier,R32,62.0,cluster_0
+55.0,41.0,Gilles Simon,false,$2.624,Gilles Simon,Feb 4 2013,Australian Open Slam,Round of 32,63.0,cluster_1
+63.0,41.0,Richard Gasquet,false,$2.472,Richard Gasquet,Feb 11 2013,Montpellier,R16,61.0,cluster_2
+75.0,36.0,Juan Martin Del Potro,false,$4.446,Juan Martin Del Potro,Feb 18 2013,Rotterdam,R32,60.0,cluster_2
+57.0,32.0,James Blake,false,$1.529,Gael Monfils,Apr 8 2013,Houston,R32,58.0,cluster_0
+71.0,33.0,Marcel Granollers,false,$1.286,Marcel Granollers,Apr 8 2013,Marseille,R32,59.0,cluster_2
+67.0,45.0,Nicolas Almagro,false,$4.940,Nicolas Almagro,Apr 15 2013,Houston,R16,57.0,cluster_2
+49.0,36.0,Filippo Volandri,false,$1.411,Gael Monfils,Apr 22 2013,Bucharest,R32,55.0,cluster_4
+61.0,39.0,Albert Montanes,false,$1.535,Albert Montanes,Apr 22 2013,ATP World Tour Masters 1000 Monte Carlo,R64,56.0,cluster_1
+72.0,39.0,Daniel Brands,false,$1.550,Daniel Brands,May 6 2013,Munich,R16,52.0,cluster_2
+58.0,21.0,Jurgen Melzer,false,$1.835,Gael Monfils,May 6 2013,Munich,R32,53.0,cluster_0
+66.0,44.0,Daniel Brands,false,$1.564,Daniel Brands,May 6 2013,Bucharest,R16,54.0,cluster_2
+68.0,27.0,Michael Llodra,false,$1.495,Gael Monfils,May 13 2013,Bordeaux,F,47.0,cluster_0
+52.0,40.0,David Goffin,false,$1.435,Gael Monfils,May 13 2013,Bordeaux,S,48.0,cluster_1
+59.0,14.0,Martin Alund,false,$1.300,Gael Monfils,May 13 2013,Bordeaux,Q,49.0,cluster_0
+65.0,39.0,Edouard Roger-Vasselin,false,$1.439,Gael Monfils,May 13 2013,Bordeaux,R16,50.0,cluster_2
+56.0,18.0,Josselin Ouanna,false,$1.209,Gael Monfils,May 13 2013,Bordeaux,R32,51.0,cluster_0
+68.0,47.0,Albert Montanes,false,$1.412,Albert Montanes,May 19 2013,Nice,F,42.0,cluster_2
+55.0,35.0,Pablo Andujar,false,$1.465,Gael Monfils,May 19 2013,Nice,S,43.0,cluster_1
+49.0,31.0,Robin Haase,false,$1.429,Gael Monfils,May 19 2013,Nice,Q,44.0,cluster_4
+55.0,30.0,Fabio Fognini,false,$2.260,Gael Monfils,May 19 2013,Nice,R16,45.0,cluster_0
+55.0,34.0,Santiago Giraldo,false,$1.584,Gael Monfils,May 19 2013,Nice,R32,46.0,cluster_1
+66.0,40.0,Tommy Robredo,false,$1.513,Tommy Robredo,May 27 2013,French Open Slam,Round of 32,39.0,cluster_2
+65.0,36.0,Ernests Gulbis,false,$2.269,Gael Monfils,May 27 2013,French Open Slam,Round of 64,40.0,cluster_2
+68.0,28.0,Tomas Berdych,false,$4.580,Gael Monfils,May 27 2013,French Open Slam,Round of 128,41.0,cluster_0
+59.0,26.0,Milos Raonic,false,$2.730,Gael Monfils,Jun 10 2013,Halle,R32,38.0,cluster_0
+50.0,34.0,Jan Hernych,false,$1.182,Gael Monfils,Jul 8 2013,Halle,R16,37.0,cluster_4
+61.0,27.0,Paul-Henri Mathieu,false,$1.287,Gael Monfils,Jul 15 2013,Stuttgart,R32,35.0,cluster_0
+75.0,33.0,Tommy Haas,false,$3.166,Tommy Haas,Jul 15 2013,Halle,Q,36.0,cluster_2
+44.0,40.0,Mate Pavic,false,$1.073,Gael Monfils,Jul 29 2013,Umag,R32,30.0,cluster_4
+58.0,50.0,Juan Monaco,false,$1.813,Juan Monaco,Jul 29 2013,Hamburg,R32,31.0,cluster_1
+50.0,39.0,Andrey Golubev,false,$1.319,Gael Monfils,Jul 29 2013,Hamburg,R64,32.0,cluster_1
+66.0,43.0,Philipp Kohlschreiber,false,$1.592,Philipp Kohlschreiber,Jul 29 2013,Stuttgart,Q,33.0,cluster_2
+41.0,35.0,Florian Mayer,false,$1.636,Gael Monfils,Jul 29 2013,Stuttgart,R16,34.0,cluster_4
+62.0,30.0,Tommy Robredo,false,$1.611,Gael Monfils,Aug 18 2013,Winston-Salem,R16,25.0,cluster_0
+51.0,21.0,Guido Pella,false,$1.270,Gael Monfils,Aug 18 2013,Winston-Salem,R32,26.0,cluster_0
+55.0,47.0,Fabio Fognini,false,$2.662,Fabio Fognini,Aug 18 2013,Umag,S,27.0,cluster_1
+53.0,42.0,Albert Montanes,false,$1.559,Gael Monfils,Aug 18 2013,Umag,Q,28.0,cluster_1
+52.0,32.0,Blaz Kavcic,false,$1.404,Gael Monfils,Aug 18 2013,Umag,R16,29.0,cluster_4
+56.0,38.0,Alexandr Dolgopolov,false,$1.613,Gael Monfils,Aug 26 2013,Winston-Salem,S,23.0,cluster_1
+61.0,26.0,Fernando Verdasco,false,$1.698,Gael Monfils,Aug 26 2013,Winston-Salem,Q,24.0,cluster_0
+71.0,42.0,Jurgen Melzer,false,$1.462,Jurgen Melzer,Sep 30 2013,Winston-Salem,F,22.0,cluster_2
+64.0,30.0,Vasek Pospisil,false,$1.506,Gael Monfils,Oct 14 2013,ATP World Tour Masters 1000 Shanghai,R32,17.0,cluster_0
+57.0,25.0,Tatsuma Ito,false,$1.192,Gael Monfils,Oct 14 2013,ATP World Tour Masters 1000 Shanghai,R64,18.0,cluster_0
+69.0,36.0,Jo-Wilfried Tsonga,false,$2.712,Jo-Wilfried Tsonga,Oct 14 2013,Tokyo,R32,19.0,cluster_2
+72.0,31.0,John Isner,false,$3.178,John Isner,Oct 14 2013,US Open Slam,Round of 64,20.0,cluster_2
+37.0,24.0,Adrian Ungur,false,$1.171,Gael Monfils,Oct 14 2013,US Open Slam,Round of 128,21.0,cluster_4
+69.0,40.0,Novak Djokovic,false,$9.817,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Shanghai,Q,15.0,cluster_2
+65.0,29.0,Roger Federer,false,$3.814,Gael Monfils,Oct 28 2013,ATP World Tour Masters 1000 Shanghai,R16,16.0,cluster_0
+50.0,32.0,Florian Mayer,false,$1.325,Gael Monfils,Jan 6 2014,Doha,S,10.0,cluster_4
+45.0,23.0,Daniel Brands,false,$1.543,Gael Monfils,Jan 6 2014,Doha,Q,11.0,cluster_4
+57.0,24.0,Richard Gasquet,false,$1.636,Gael Monfils,Jan 6 2014,Doha,R16,12.0,cluster_0
+58.0,20.0,Santiago Giraldo,false,$1.390,Gael Monfils,Jan 6 2014,Doha,R32,13.0,cluster_0
+74.0,51.0,David Ferrer,false,$2.717,David Ferrer,Jan 6 2014,Valencia,R32,14.0,cluster_3
+60.0,23.0,Jack Sock,false,$1.126,Gael Monfils,Jan 13 2014,Australian Open Slam,Round of 64,7.0,cluster_0
+63.0,22.0,Ryan Harrison,false,$1.147,Gael Monfils,Jan 13 2014,Australian Open Slam,Round of 128,8.0,cluster_0
+75.0,39.0,Rafael Nadal,false,$3.245,Rafael Nadal,Jan 13 2014,Doha,F,9.0,cluster_2
+73.0,50.0,Rafael Nadal,false,$7.098,Rafael Nadal,Jan 31 2014,Australian Open Slam,Round of 32,6.0,cluster_3
+57.0,28.0,Jarkko Nieminen,false,$1.213,Gael Monfils,Feb 3 2014,Montpellier,S,2.0,cluster_0
+59.0,30.0,Denis Istomin,false,$1.409,Gael Monfils,Feb 3 2014,Montpellier,Q,3.0,cluster_0
+54.0,28.0,Joao Sousa,false,$1.196,Gael Monfils,Feb 3 2014,Montpellier,R16,4.0,cluster_0
+65.0,29.0,Lukasz Kubot,false,$1.133,Gael Monfils,Feb 3 2014,Montpellier,R32,5.0,cluster_0
+61.0,20.0,Richard Gasquet,false,$2.096,Gael Monfils,Feb 10 2014,Montpellier,F,1.0,cluster_0

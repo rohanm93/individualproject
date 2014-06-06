@@ -1,0 +1,81 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,outlier,odds,winner,date,tournament,t_round,id,cluster
+67.0,38.0,Thiemo de Bakker,false,$1.377,Thiemo de Bakker,Apr 13 2014,ATP World Tour Masters 1000 Miami,R64,1.0,cluster_3
+73.0,29.0,John Isner,false,$2.480,John Isner,Mar 17 2014,ATP World Tour Masters 1000 Indian Wells,R16,2.0,cluster_3
+58.0,31.0,Richard Gasquet,false,$3.156,Fernando Verdasco,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,3.0,cluster_0
+52.0,38.0,Horacio Zeballos,false,$1.218,Fernando Verdasco,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,4.0,cluster_2
+68.0,37.0,Tommy Haas,false,$2.095,Tommy Haas,Mar 3 2014,Rotterdam,R32,5.0,cluster_3
+62.0,36.0,Teymuraz Gabashvili,false,$1.152,Teymuraz Gabashvili,Feb 10 2014,Australian Open Slam,Round of 64,6.0,cluster_1
+62.0,28.0,Ze Zhang,false,$1.112,Fernando Verdasco,Jan 13 2014,Australian Open Slam,Round of 128,7.0,cluster_0
+70.0,31.0,Victor Hanescu,false,$1.245,Victor Hanescu,Jan 7 2014,Doha,R16,8.0,cluster_3
+50.0,31.0,Filippo Volandri,false,$1.104,Fernando Verdasco,Dec 30 2013,Doha,R32,9.0,cluster_2
+69.0,41.0,Richard Gasquet,false,$3.654,Richard Gasquet,Dec 30 2013,ATP World Tour Masters 1000 Paris,R32,10.0,cluster_3
+60.0,29.0,Ernests Gulbis,false,$2.690,Fernando Verdasco,Oct 28 2013,ATP World Tour Masters 1000 Paris,R64,11.0,cluster_0
+77.0,32.0,Michal Przysiezny,false,$1.273,Michal Przysiezny,Oct 28 2013,Valencia,R32,12.0,cluster_3
+56.0,40.0,Jarkko Nieminen,false,$1.651,Fernando Verdasco,Oct 14 2013,Stockholm,R16,13.0,cluster_1
+64.0,29.0,Ivan Dodig,false,$2.407,Fernando Verdasco,Oct 14 2013,Stockholm,R32,14.0,cluster_0
+72.0,27.0,Milos Raonic,false,$2.985,Milos Raonic,Oct 14 2013,ATP World Tour Masters 1000 Shanghai,R32,15.0,cluster_3
+56.0,18.0,Ze Zhang,false,$1.228,Fernando Verdasco,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,16.0,cluster_0
+67.0,39.0,Novak Djokovic,false,$14.612,Novak Djokovic,Oct 6 2013,Beijing,R16,17.0,cluster_3
+59.0,28.0,Somdev Devvarman,false,$1.409,Fernando Verdasco,Sep 30 2013,Beijing,R32,18.0,cluster_0
+71.0,36.0,Sergiy Stakhovsky,false,$1.469,Sergiy Stakhovsky,Sep 30 2013,St. Petersburg,R32,19.0,cluster_3
+58.0,34.0,Alexandr Dolgopolov,false,$1.550,Fernando Verdasco,Sep 13 2013,Davis Cup,Singles,20.0,cluster_1
+60.0,39.0,Ivan Dodig,false,$1.741,Ivan Dodig,Aug 26 2013,US Open Slam,Round of 128,21.0,cluster_1
+73.0,38.0,Gael Monfils,false,$2.337,Gael Monfils,Aug 18 2013,Winston-Salem,Q,22.0,cluster_3
+63.0,28.0,Robin Haase,false,$1.655,Fernando Verdasco,Aug 18 2013,Winston-Salem,R16,23.0,cluster_0
+51.0,41.0,Tim Smyczek,false,$1.450,Fernando Verdasco,Aug 18 2013,Winston-Salem,R32,24.0,cluster_2
+67.0,35.0,Robin Haase,false,$1.653,Robin Haase,Jul 28 2013,Kitzb��hel,Q,25.0,cluster_3
+51.0,36.0,Guillermo Garcia-Lopez,false,$1.384,Fernando Verdasco,Jul 28 2013,Kitzb��hel,R16,26.0,cluster_2
+60.0,36.0,Federico Delbonis,false,$1.445,Federico Delbonis,Jul 15 2013,Hamburg,Q,27.0,cluster_1
+50.0,25.0,Jerzy Janowicz,false,$1.786,Fernando Verdasco,Jul 15 2013,Hamburg,R16,28.0,cluster_2
+58.0,39.0,Roberto Bautista Agut,false,$1.550,Fernando Verdasco,Jul 15 2013,Hamburg,R32,29.0,cluster_1
+65.0,51.0,Carlos Berlocq,false,$1.484,Carlos Berlocq,Jul 8 2013,Bastad,F,30.0,cluster_4
+61.0,31.0,Grigor Dimitrov,false,$1.792,Fernando Verdasco,Jul 8 2013,Bastad,S,31.0,cluster_0
+57.0,39.0,Nicolas Almagro,false,$2.289,Fernando Verdasco,Jul 8 2013,Bastad,Q,32.0,cluster_1
+48.0,26.0,Jan-Lennard Struff,false,$1.233,Fernando Verdasco,Jul 8 2013,Bastad,R16,33.0,cluster_2
+64.0,18.0,Andreas Vinciguerra,false,$1.090,Fernando Verdasco,Jul 8 2013,Bastad,R32,34.0,cluster_0
+70.0,38.0,Andy Murray,false,$9.817,Andy Murray,Jun 24 2013,Wimbledon Slam,Quarter Final,35.0,cluster_3
+60.0,22.0,Kenny De Schepper,false,$1.248,Fernando Verdasco,Jun 24 2013,Wimbledon Slam,Round of 16,36.0,cluster_0
+60.0,23.0,Ernests Gulbis,false,$2.447,Fernando Verdasco,Jun 24 2013,Wimbledon Slam,Round of 32,37.0,cluster_0
+63.0,23.0,Julien Benneteau,false,$1.820,Fernando Verdasco,Jun 24 2013,Wimbledon Slam,Round of 64,38.0,cluster_0
+58.0,32.0,Xavier Malisse,false,$1.976,Fernando Verdasco,Jun 24 2013,Wimbledon Slam,Round of 128,39.0,cluster_0
+78.0,29.0,Feliciano Lopez,false,$2.279,Feliciano Lopez,Jun 17 2013,Eastbourne,Q,40.0,cluster_3
+44.0,32.0,Albert Ramos,false,$1.487,Fernando Verdasco,Jun 17 2013,Eastbourne,R16,41.0,cluster_2
+60.0,27.0,Alexandr Dolgopolov,false,$5.849,Fernando Verdasco,Jun 17 2013,Eastbourne,R32,42.0,cluster_0
+63.0,39.0,Janko Tipsarevic,false,$1.764,Janko Tipsarevic,May 27 2013,French Open Slam,Round of 64,43.0,cluster_1
+47.0,31.0,Marc Gicquel,false,$1.209,Fernando Verdasco,May 27 2013,French Open Slam,Round of 128,44.0,cluster_2
+62.0,38.0,David Ferrer,false,$5.624,David Ferrer,May 12 2013,ATP World Tour Masters 1000 Rome,R32,45.0,cluster_1
+70.0,28.0,Horacio Zeballos,false,$1.521,Fernando Verdasco,May 12 2013,ATP World Tour Masters 1000 Rome,R64,46.0,cluster_3
+68.0,36.0,Jo-Wilfried Tsonga,false,$3.364,Jo-Wilfried Tsonga,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,47.0,cluster_3
+65.0,34.0,Milos Raonic,false,$3.375,Fernando Verdasco,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,48.0,cluster_3
+56.0,32.0,David Goffin,false,$1.642,Fernando Verdasco,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,49.0,cluster_2
+73.0,36.0,Ernests Gulbis,false,$2.850,Ernests Gulbis,Apr 22 2013,Barcelona,R32,50.0,cluster_3
+57.0,49.0,Marinko Matosevic,false,$1.454,Marinko Matosevic,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,51.0,cluster_1
+72.0,46.0,Ruben Ramirez Hidalgo,false,$1.244,Ruben Ramirez Hidalgo,Apr 8 2013,Houston,R16,52.0,cluster_4
+59.0,31.0,Steve Johnson,false,$1.269,Fernando Verdasco,Apr 8 2013,Houston,R32,53.0,cluster_0
+60.0,44.0,Alejandro Falla,false,$1.669,Alejandro Falla,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,54.0,cluster_1
+68.0,62.0,Jarkko Nieminen,false,$2.048,Jarkko Nieminen,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,55.0,cluster_4
+72.0,40.0,Tim Smyczek,false,$1.451,Tim Smyczek,Feb 18 2013,San Jose,R32,56.0,cluster_3
+69.0,36.0,Kevin Anderson,false,$2.167,Kevin Anderson,Feb 18 2013,Australian Open Slam,Round of 32,57.0,cluster_3
+45.0,34.0,Xavier Malisse,false,$1.611,Fernando Verdasco,Jan 14 2013,Australian Open Slam,Round of 64,58.0,cluster_2
+60.0,35.0,David Goffin,false,$1.730,Fernando Verdasco,Jan 14 2013,Australian Open Slam,Round of 128,59.0,cluster_1
+74.0,42.0,Denis Istomin,false,$1.875,Denis Istomin,Jan 14 2013,Sydney,R16,60.0,cluster_3
+83.0,60.0,Sam Querrey,false,$2.573,Sam Querrey,Oct 29 2012,ATP World Tour Masters 1000 Paris,R64,61.0,cluster_4
+76.0,48.0,Marin Cilic,false,$2.492,Marin Cilic,Oct 21 2012,Valencia,R16,62.0,cluster_4
+51.0,36.0,Tommy Robredo,false,$1.316,Fernando Verdasco,Oct 21 2012,Valencia,R32,63.0,cluster_2
+68.0,40.0,Marin Cilic,false,$2.350,Marin Cilic,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R16,64.0,cluster_3
+60.0,29.0,Juan Monaco,false,$2.421,Fernando Verdasco,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R32,65.0,cluster_0
+50.0,36.0,Go Soeda,false,$1.327,Fernando Verdasco,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R64,66.0,cluster_2
+70.0,27.0,Sam Querrey,false,$2.177,Sam Querrey,Oct 1 2012,Beijing,R32,67.0,cluster_3
+67.0,35.0,Janko Tipsarevic,false,$3.588,Janko Tipsarevic,Sep 24 2012,Bangkok,Q,68.0,cluster_3
+63.0,30.0,Donald Young,false,$1.274,Fernando Verdasco,Sep 24 2012,Bangkok,R16,69.0,cluster_0
+46.0,43.0,Tatsuma Ito,false,$1.193,Fernando Verdasco,Sep 24 2012,Bangkok,R32,70.0,cluster_2
+79.0,39.0,Roger Federer,false,$24.345,Roger Federer,Aug 27 2012,US Open Slam,Round of 32,71.0,cluster_3
+61.0,34.0,Albert Ramos,false,$1.299,Fernando Verdasco,Aug 27 2012,US Open Slam,Round of 64,72.0,cluster_1
+50.0,28.0,Rui Machado,false,$1.113,Fernando Verdasco,Aug 27 2012,US Open Slam,Round of 128,73.0,cluster_2
+77.0,46.0,Julian Reister,false,$1.883,Julian Reister,Jul 16 2012,Hamburg,R32,74.0,cluster_4
+63.0,45.0,Marcel Granollers,false,$1.404,Marcel Granollers,Jul 9 2012,Umag,S,75.0,cluster_1
+50.0,31.0,Andrey Kuznetsov,false,$1.280,Fernando Verdasco,Jul 9 2012,Umag,Q,76.0,cluster_2
+54.0,32.0,Ernests Gulbis,false,$1.453,Fernando Verdasco,Jul 9 2012,Umag,R16,77.0,cluster_2
+70.0,35.0,Xavier Malisse,false,$2.269,Xavier Malisse,Jun 25 2012,Wimbledon Slam,Round of 32,78.0,cluster_3
+66.0,27.0,Grega Zemlja,false,$1.198,Fernando Verdasco,Jun 25 2012,Wimbledon Slam,Round of 64,79.0,cluster_0
+60.0,32.0,Jimmy Wang,false,$1.130,Fernando Verdasco,Jun 25 2012,Wimbledon Slam,Round of 128,80.0,cluster_0
