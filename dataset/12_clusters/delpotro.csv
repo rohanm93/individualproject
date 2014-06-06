@@ -1,0 +1,86 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+62.0,40.0,Lleyton Hewitt,$1.431,Lleyton Hewitt,Jun 10 2013,London / Queen's Club,Q,Juan Martin Del Potro,false,1.0,cluster_11
+48.0,29.0,Daniel Evans,$1.107,Juan Martin Del Potro,Jun 10 2013,London / Queen's Club,R16,Juan Martin Del Potro,false,2.0,cluster_0
+67.0,38.0,Xavier Malisse,$1.329,Juan Martin Del Potro,Jun 10 2013,London / Queen's Club,R32,Juan Martin Del Potro,false,3.0,cluster_8
+76.0,37.0,Benoit Paire,$1.180,Benoit Paire,May 21 2013,ATP World Tour Masters 1000 Rome,R16,Juan Martin Del Potro,false,4.0,cluster_2
+54.0,24.0,Andrey Kuznetsov,$1.190,Juan Martin Del Potro,May 21 2013,ATP World Tour Masters 1000 Rome,R32,Juan Martin Del Potro,false,5.0,cluster_5
+59.0,45.0,Jarkko Nieminen,$1.177,Jarkko Nieminen,May 21 2013,ATP World Tour Masters 1000 Monte Carlo,R16,Juan Martin Del Potro,false,6.0,cluster_4
+53.0,46.0,Alexandr Dolgopolov,$1.205,Juan Martin Del Potro,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Juan Martin Del Potro,false,7.0,cluster_4
+62.0,40.0,Tobias Kamke,$1.046,Tobias Kamke,Apr 15 2013,ATP World Tour Masters 1000 Miami,R64,Juan Martin Del Potro,false,8.0,cluster_11
+65.0,33.0,Somdev Devvarman,$1.073,Somdev Devvarman,Feb 24 2014,Dubai,R32,Juan Martin Del Potro,false,9.0,cluster_10
+77.0,40.0,Ernests Gulbis,$1.376,Ernests Gulbis,Feb 10 2014,Rotterdam,Q,Juan Martin Del Potro,false,10.0,cluster_2
+69.0,41.0,Rafael Nadal,$2.834,Rafael Nadal,Mar 18 2013,ATP World Tour Masters 1000 Indian Wells,F,Juan Martin Del Potro,false,11.0,cluster_8
+58.0,41.0,Novak Djokovic,$5.821,Juan Martin Del Potro,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,S,Juan Martin Del Potro,false,12.0,cluster_11
+63.0,18.0,Paul-Henri Mathieu,$1.078,Juan Martin Del Potro,Feb 10 2014,Rotterdam,R16,Juan Martin Del Potro,false,13.0,cluster_6
+63.0,33.0,Gael Monfils,$1.584,Juan Martin Del Potro,Feb 10 2014,Rotterdam,R32,Juan Martin Del Potro,false,14.0,cluster_10
+59.0,32.0,Andy Murray,$2.710,Juan Martin Del Potro,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,Q,Juan Martin Del Potro,false,15.0,cluster_3
+43.0,27.0,Tommy Haas,$1.272,Juan Martin Del Potro,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Juan Martin Del Potro,false,16.0,cluster_0
+52.0,29.0,Bjorn Phau,$1.033,Juan Martin Del Potro,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Juan Martin Del Potro,false,17.0,cluster_0
+53.0,31.0,Nikolay Davydenko,$1.305,Juan Martin Del Potro,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,Juan Martin Del Potro,false,18.0,cluster_3
+67.0,34.0,Roberto Bautista Agut,$1.064,Roberto Bautista Agut,Jan 13 2014,Australian Open Slam,Round of 64,Juan Martin del Potro,false,19.0,cluster_10
+68.0,26.0,Rhyne Williams,$1.014,Juan Martin del Potro,Jan 13 2014,Australian Open Slam,Round of 128,Juan Martin del Potro,false,20.0,cluster_1
+58.0,13.0,Dmitry Tursunov,$1.194,Juan Martin Del Potro,Jan 6 2014,Sydney,S,Juan Martin Del Potro,false,21.0,cluster_6
+71.0,39.0,Novak Djokovic,$7.226,Novak Djokovic,Mar 6 2013,Dubai,S,Juan Martin Del Potro,false,22.0,cluster_8
+58.0,21.0,Daniel Brands,$1.164,Juan Martin Del Potro,Feb 25 2013,Dubai,Q,Juan Martin Del Potro,false,23.0,cluster_6
+62.0,22.0,Somdev Devvarman,$1.073,Juan Martin Del Potro,Feb 25 2013,Dubai,R16,Juan Martin Del Potro,false,24.0,cluster_6
+60.0,38.0,Radek Stepanek,$1.318,Juan Martin Del Potro,Jan 6 2014,Sydney,Q,Juan Martin Del Potro,false,25.0,cluster_11
+69.0,36.0,Nicolas Mahut,$1.126,Juan Martin Del Potro,Jan 6 2014,Sydney,R16,Juan Martin Del Potro,false,26.0,cluster_10
+65.0,31.0,Marcos Baghdatis,$1.207,Juan Martin Del Potro,Feb 25 2013,Dubai,R32,Juan Martin Del Potro,false,27.0,cluster_10
+67.0,35.0,Gilles Simon,$1.319,Gilles Simon,Feb 25 2013,Marseille,Q,Juan Martin Del Potro,false,28.0,cluster_10
+68.0,33.0,Michael Llodra,$1.351,Juan Martin Del Potro,Feb 18 2013,Marseille,R16,Juan Martin Del Potro,false,29.0,cluster_10
+55.0,32.0,Julien Benneteau,$1.283,Juan Martin Del Potro,Feb 18 2013,Rotterdam,F,Juan Martin Del Potro,false,30.0,cluster_3
+64.0,26.0,Grigor Dimitrov,$1.248,Juan Martin Del Potro,Feb 11 2013,Rotterdam,S,Juan Martin Del Potro,false,31.0,cluster_7
+76.0,42.0,Roger Federer,$1.985,Roger Federer,Oct 28 2013,ATP World Tour Masters 1000 Paris,Q,Juan Martin Del Potro,false,32.0,cluster_2
+69.0,26.0,Grigor Dimitrov,$1.362,Juan Martin Del Potro,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Juan Martin Del Potro,false,33.0,cluster_1
+57.0,32.0,Jarkko Nieminen,$1.155,Juan Martin Del Potro,Feb 11 2013,Rotterdam,Q,Juan Martin Del Potro,false,34.0,cluster_3
+65.0,32.0,Ernests Gulbis,$1.256,Juan Martin Del Potro,Feb 11 2013,Rotterdam,R16,Juan Martin Del Potro,false,35.0,cluster_10
+63.0,24.0,Gael Monfils,$1.263,Juan Martin Del Potro,Feb 11 2013,Rotterdam,R32,Juan Martin Del Potro,false,36.0,cluster_7
+62.0,25.0,Marin Cilic,$1.324,Juan Martin Del Potro,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Juan Martin Del Potro,false,37.0,cluster_7
+64.0,34.0,Roger Federer,$1.773,Juan Martin Del Potro,Oct 21 2013,Basel,F,Juan Martin Del Potro,false,38.0,cluster_10
+53.0,35.0,Edouard Roger-Vasselin,$1.076,Juan Martin Del Potro,Oct 21 2013,Basel,S,Juan Martin Del Potro,false,39.0,cluster_3
+67.0,34.0,Jeremy Chardy,$1.045,Jeremy Chardy,Feb 11 2013,Australian Open Slam,Round of 32,Juan Martin del Potro,false,40.0,cluster_10
+56.0,23.0,Benjamin Becker,$1.027,Juan Martin del Potro,Jan 14 2013,Australian Open Slam,Round of 64,Juan Martin del Potro,false,41.0,cluster_5
+45.0,31.0,Marcos Baghdatis,$1.205,Juan Martin Del Potro,Oct 21 2013,Basel,R16,Juan Martin Del Potro,false,42.0,cluster_0
+48.0,17.0,Adrian Mannarino,$1.068,Juan Martin del Potro,Jan 14 2013,Australian Open Slam,Round of 128,Juan Martin del Potro,false,43.0,cluster_9
+67.0,40.0,Novak Djokovic,$4.898,Novak Djokovic,Jan 9 2013,Barclays ATP World Tour Finals,S,Juan Martin Del Potro,false,44.0,cluster_8
+61.0,28.0,Henri Laaksonen,$1.026,Juan Martin Del Potro,Oct 21 2013,Basel,R32,Juan Martin Del Potro,false,45.0,cluster_7
+71.0,38.0,Novak Djokovic,$3.431,Novak Djokovic,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,F,Juan Martin Del Potro,false,46.0,cluster_8
+56.0,33.0,Rafael Nadal,$3.814,Juan Martin Del Potro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,S,Juan Martin Del Potro,false,47.0,cluster_3
+59.0,24.0,Nicolas Almagro,$1.459,Juan Martin Del Potro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,Q,Juan Martin Del Potro,false,48.0,cluster_5
+80.0,37.0,Michael Llodra,$1.236,Michael Llodra,Nov 5 2012,ATP World Tour Masters 1000 Paris,R16,Juan Martin Del Potro,false,49.0,cluster_2
+65.0,29.0,Philipp Kohlschreiber,$1.259,Juan Martin Del Potro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Juan Martin Del Potro,false,50.0,cluster_7
+78.0,30.0,Milos Raonic,$1.724,Juan Martin Del Potro,Sep 30 2013,Tokyo,F,Juan Martin Del Potro,false,51.0,cluster_2
+72.0,24.0,Roger Federer,$3.964,Juan Martin Del Potro,Oct 29 2012,Basel,F,Juan Martin Del Potro,false,52.0,cluster_1
+44.0,32.0,Richard Gasquet,$1.513,Juan Martin Del Potro,Oct 22 2012,Basel,S,Juan Martin Del Potro,false,53.0,cluster_0
+61.0,30.0,Kevin Anderson,$1.171,Juan Martin Del Potro,Oct 22 2012,Basel,Q,Juan Martin Del Potro,false,54.0,cluster_7
+70.0,25.0,Nicolas Almagro,$1.300,Juan Martin Del Potro,Sep 30 2013,Tokyo,S,Juan Martin Del Potro,false,55.0,cluster_1
+56.0,37.0,Alexandr Dolgopolov,$1.231,Juan Martin Del Potro,Sep 30 2013,Tokyo,Q,Juan Martin Del Potro,false,56.0,cluster_3
+50.0,19.0,Carlos Berlocq,$1.130,Juan Martin Del Potro,Sep 30 2013,Tokyo,R16,Juan Martin Del Potro,false,57.0,cluster_9
+57.0,23.0,Brian Baker,$1.099,Juan Martin Del Potro,Oct 22 2012,Basel,R16,Juan Martin Del Potro,false,58.0,cluster_5
+46.0,33.0,Alejandro Falla,$1.056,Juan Martin Del Potro,Oct 22 2012,Basel,R32,Juan Martin Del Potro,false,59.0,cluster_0
+64.0,27.0,Marcos Baghdatis,$1.295,Juan Martin Del Potro,Sep 30 2013,Tokyo,R32,Juan Martin Del Potro,false,60.0,cluster_7
+63.0,41.0,Lleyton Hewitt,$1.114,Lleyton Hewitt,Aug 26 2013,US Open Slam,Round of 64,Juan Martin del Potro,false,61.0,cluster_11
+60.0,34.0,Grega Zemlja,$1.099,Juan Martin Del Potro,Oct 22 2012,Vienna,F,Juan Martin Del Potro,false,62.0,cluster_11
+72.0,21.0,Gilles Muller,$1.110,Juan Martin Del Potro,Oct 15 2012,Vienna,S,Juan Martin Del Potro,false,63.0,cluster_1
+50.0,25.0,Marinko Matosevic,$1.100,Juan Martin Del Potro,Oct 15 2012,Vienna,Q,Juan Martin Del Potro,false,64.0,cluster_9
+59.0,25.0,Guillermo Garcia-Lopez,$1.037,Juan Martin del Potro,Aug 26 2013,US Open Slam,Round of 128,Juan Martin del Potro,false,65.0,cluster_5
+67.0,33.0,John Isner,$1.472,John Isner,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,S,Juan Martin Del Potro,false,66.0,cluster_10
+71.0,26.0,Daniel Brands,$1.068,Juan Martin Del Potro,Oct 15 2012,Vienna,R16,Juan Martin Del Potro,false,67.0,cluster_1
+72.0,42.0,Novak Djokovic,$6.177,Novak Djokovic,Sep 14 2012,US Open Slam,Quarter Final,Juan Martin del Potro,false,68.0,cluster_8
+67.0,26.0,Andy Roddick,$1.299,Juan Martin del Potro,Aug 27 2012,US Open Slam,Round of 16,Juan Martin del Potro,false,69.0,cluster_1
+62.0,25.0,Dmitry Tursunov,$1.228,Juan Martin Del Potro,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,Q,Juan Martin Del Potro,false,70.0,cluster_7
+63.0,39.0,Feliciano Lopez,$1.231,Juan Martin Del Potro,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R16,Juan Martin Del Potro,false,71.0,cluster_11
+59.0,27.0,Leonardo Mayer,$1.047,Juan Martin del Potro,Aug 27 2012,US Open Slam,Round of 32,Juan Martin del Potro,false,72.0,cluster_5
+50.0,35.0,Nikolay Davydenko,$1.171,Juan Martin Del Potro,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Juan Martin Del Potro,false,73.0,cluster_3
+64.0,50.0,Milos Raonic,$1.657,Milos Raonic,Aug 5 2013,ATP World Tour Masters 1000 Canada,R16,Juan Martin Del Potro,false,74.0,cluster_4
+58.0,27.0,John Isner,$1.307,Juan Martin Del Potro,Jul 29 2013,Washington,F,Juan Martin Del Potro,false,75.0,cluster_5
+62.0,37.0,Tommy Haas,$1.279,Juan Martin Del Potro,Jul 29 2013,Washington,S,Juan Martin Del Potro,false,76.0,cluster_11
+60.0,26.0,Kevin Anderson,$1.315,Juan Martin Del Potro,Jul 29 2013,Washington,Q,Juan Martin Del Potro,false,77.0,cluster_5
+53.0,27.0,Bernard Tomic,$1.203,Juan Martin Del Potro,Jul 29 2013,Washington,R16,Juan Martin Del Potro,false,78.0,cluster_5
+50.0,18.0,Ryan Harrison,$1.178,Juan Martin Del Potro,Jul 29 2013,Washington,R32,Juan Martin Del Potro,false,79.0,cluster_9
+69.0,35.0,Novak Djokovic,$6.625,Novak Djokovic,Jun 24 2013,Wimbledon Slam,Semi Final,Juan Martin del Potro,false,80.0,cluster_10
+60.0,24.0,David Ferrer,$2.135,Juan Martin del Potro,Jun 24 2013,Wimbledon Slam,Quarter Final,Juan Martin del Potro,false,81.0,cluster_5
+61.0,28.0,Andreas Seppi,$1.283,Juan Martin del Potro,Jun 24 2013,Wimbledon Slam,Round of 16,Juan Martin del Potro,false,82.0,cluster_7
+63.0,25.0,Grega Zemlja,$1.093,Juan Martin del Potro,Jun 24 2013,Wimbledon Slam,Round of 32,Juan Martin del Potro,false,83.0,cluster_7
+57.0,28.0,Jesse Levine,$1.057,Juan Martin del Potro,Jun 24 2013,Wimbledon Slam,Round of 64,Juan Martin del Potro,false,84.0,cluster_5
+50.0,28.0,Albert Ramos,$1.046,Juan Martin del Potro,Jun 24 2013,Wimbledon Slam,Round of 128,Juan Martin del Potro,false,85.0,cluster_0

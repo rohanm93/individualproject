@@ -1,0 +1,82 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+61.0,30.0,Lukasz Kubot,$1.082,Ernests Gulbis,May 21 2014,French Open Slam,Round of 128,Ernests Gulbis,false,1.0,cluster_1
+60.0,26.0,Federico Delbonis,$1.367,Ernests Gulbis,May 19 2014,Nice,F,Ernests Gulbis,false,2.0,cluster_1
+41.0,33.0,Albert Montanes,$1.301,Ernests Gulbis,May 19 2014,Nice,S,Ernests Gulbis,false,3.0,cluster_0
+72.0,29.0,Dmitry Tursunov,$1.279,Ernests Gulbis,May 19 2014,Nice,Q,Ernests Gulbis,false,4.0,cluster_2
+55.0,31.0,Martin Klizan,$1.535,Ernests Gulbis,May 19 2014,Nice,R16,Ernests Gulbis,false,5.0,cluster_0
+60.0,35.0,Stephane Robert,$1.142,Ernests Gulbis,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Ernests Gulbis,false,6.0,cluster_2
+69.0,36.0,David Ferrer,$3.156,David Ferrer,May 5 2014,ATP World Tour Masters 1000 Madrid,Q,Ernests Gulbis,false,7.0,cluster_2
+61.0,29.0,Marin Cilic,$1.629,Ernests Gulbis,May 5 2014,ATP World Tour Masters 1000 Madrid,R16,Ernests Gulbis,false,8.0,cluster_1
+60.0,30.0,Alexandr Dolgopolov,$1.876,Ernests Gulbis,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Ernests Gulbis,false,9.0,cluster_1
+63.0,34.0,Jerzy Janowicz,$1.292,Ernests Gulbis,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Ernests Gulbis,false,10.0,cluster_2
+74.0,43.0,Kei Nishikori,$2.317,Kei Nishikori,Apr 21 2014,Barcelona,S,Ernests Gulbis,false,11.0,cluster_2
+52.0,27.0,Teymuraz Gabashvili,$1.373,Ernests Gulbis,Apr 21 2014,Barcelona,Q,Ernests Gulbis,false,12.0,cluster_0
+53.0,27.0,Albert Montanes,$1.506,Ernests Gulbis,Apr 21 2014,Barcelona,R16,Ernests Gulbis,false,13.0,cluster_0
+60.0,26.0,Daniel Gimeno-Traver,$1.506,Ernests Gulbis,Apr 21 2014,Barcelona,R32,Ernests Gulbis,false,14.0,cluster_1
+68.0,46.0,Alexandr Dolgopolov,$1.806,Alexandr Dolgopolov,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Ernests Gulbis,false,15.0,cluster_2
+66.0,37.0,Julien Benneteau,$1.399,Julien Benneteau,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Ernests Gulbis,false,16.0,cluster_2
+71.0,34.0,John Isner,$1.735,John Isner,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,Q,Ernests Gulbis,false,17.0,cluster_2
+55.0,37.0,Roberto Bautista Agut,$1.387,Ernests Gulbis,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Ernests Gulbis,false,18.0,cluster_0
+60.0,32.0,Grigor Dimitrov,$1.883,Ernests Gulbis,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Ernests Gulbis,false,19.0,cluster_1
+59.0,14.0,Joao Sousa,$1.170,Ernests Gulbis,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Ernests Gulbis,false,20.0,cluster_1
+59.0,43.0,Grigor Dimitrov,$2.125,Grigor Dimitrov,Feb 24 2014,Acapulco,Q,Ernests Gulbis,false,21.0,cluster_2
+60.0,36.0,David Goffin,$1.220,Ernests Gulbis,Feb 24 2014,Acapulco,R16,Ernests Gulbis,false,22.0,cluster_2
+68.0,22.0,Jo-Wilfried Tsonga,$2.327,Ernests Gulbis,Feb 17 2014,Marseille,F,Ernests Gulbis,false,23.0,cluster_1
+56.0,22.0,Richard Gasquet,$2.178,Ernests Gulbis,Feb 17 2014,Marseille,S,Ernests Gulbis,false,24.0,cluster_1
+62.0,14.0,Nicolas Mahut,$1.446,Ernests Gulbis,Feb 17 2014,Marseille,Q,Ernests Gulbis,false,25.0,cluster_1
+65.0,32.0,Roberto Bautista Agut,$1.432,Ernests Gulbis,Feb 17 2014,Marseille,R16,Ernests Gulbis,false,26.0,cluster_2
+71.0,41.0,Tomas Berdych,$2.619,Tomas Berdych,Feb 10 2014,Rotterdam,S,Ernests Gulbis,false,27.0,cluster_2
+60.0,22.0,Juan Martin Del Potro,$3.447,Ernests Gulbis,Feb 10 2014,Rotterdam,Q,Ernests Gulbis,false,28.0,cluster_1
+69.0,25.0,Grigor Dimitrov,$2.575,Ernests Gulbis,Feb 10 2014,Rotterdam,R16,Ernests Gulbis,false,29.0,cluster_1
+59.0,26.0,Denis Istomin,$1.728,Ernests Gulbis,Feb 10 2014,Rotterdam,R32,Ernests Gulbis,false,30.0,cluster_1
+79.0,42.0,Sam Querrey,$1.506,Sam Querrey,Jan 13 2014,Australian Open Slam,Round of 64,Ernests Gulbis,false,31.0,cluster_2
+68.0,37.0,Juan Monaco,$1.196,Ernests Gulbis,Jan 13 2014,Australian Open Slam,Round of 128,Ernests Gulbis,false,32.0,cluster_2
+63.0,40.0,Rafael Nadal,$4.792,Rafael Nadal,Dec 30 2013,Doha,Q,Ernests Gulbis,false,33.0,cluster_2
+56.0,33.0,Lukasz Kubot,$1.203,Ernests Gulbis,Dec 30 2013,Doha,R16,Ernests Gulbis,false,34.0,cluster_0
+46.0,36.0,Daniel Evans,$1.245,Ernests Gulbis,Dec 30 2013,Doha,R32,Ernests Gulbis,false,35.0,cluster_0
+70.0,39.0,Fernando Verdasco,$1.550,Fernando Verdasco,Oct 28 2013,ATP World Tour Masters 1000 Paris,R64,Ernests Gulbis,false,36.0,cluster_2
+70.0,36.0,John Isner,$1.683,John Isner,Oct 21 2013,Valencia,R32,Ernests Gulbis,false,37.0,cluster_2
+66.0,46.0,David Ferrer,$1.976,David Ferrer,Oct 14 2013,Stockholm,S,Ernests Gulbis,false,38.0,cluster_2
+62.0,32.0,Jerzy Janowicz,$1.680,Ernests Gulbis,Oct 14 2013,Stockholm,Q,Ernests Gulbis,false,39.0,cluster_1
+59.0,25.0,Igor Sijsling,$1.458,Ernests Gulbis,Oct 14 2013,Stockholm,R16,Ernests Gulbis,false,40.0,cluster_1
+65.0,35.0,Jeremy Chardy,$1.313,Ernests Gulbis,Oct 14 2013,Stockholm,R32,Ernests Gulbis,false,41.0,cluster_2
+50.0,35.0,Guillermo Garcia-Lopez,$1.405,Ernests Gulbis,Sep 16 2013,St. Petersburg,F,Ernests Gulbis,false,42.0,cluster_0
+55.0,25.0,Michal Przysiezny,$1.168,Ernests Gulbis,Sep 16 2013,St. Petersburg,S,Ernests Gulbis,false,43.0,cluster_1
+48.0,20.0,Roberto Bautista Agut,$1.453,Ernests Gulbis,Sep 16 2013,St. Petersburg,Q,Ernests Gulbis,false,44.0,cluster_0
+60.0,32.0,Jurgen Zopp,$1.218,Ernests Gulbis,Sep 16 2013,St. Petersburg,R16,Ernests Gulbis,false,45.0,cluster_1
+63.0,37.0,Andreas Haider-Maurer,$1.048,Andreas Haider-Maurer,Aug 12 2013,US Open Slam,Round of 128,Ernests Gulbis,false,46.0,cluster_2
+73.0,34.0,Mikhail Youzhny,$1.623,Mikhail Youzhny,Aug 5 2013,ATP World Tour Masters 1000 Cincinnati,R64,Ernests Gulbis,false,47.0,cluster_2
+67.0,33.0,Milos Raonic,$2.357,Milos Raonic,Aug 5 2013,ATP World Tour Masters 1000 Canada,Q,Ernests Gulbis,false,48.0,cluster_2
+57.0,33.0,Andy Murray,$5.658,Ernests Gulbis,Aug 5 2013,ATP World Tour Masters 1000 Canada,R16,Ernests Gulbis,false,49.0,cluster_0
+52.0,45.0,Fabio Fognini,$1.611,Ernests Gulbis,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,Ernests Gulbis,false,50.0,cluster_0
+60.0,24.0,Feliciano Lopez,$1.513,Ernests Gulbis,Jul 15 2013,ATP World Tour Masters 1000 Canada,R64,Ernests Gulbis,false,51.0,cluster_1
+62.0,36.0,Jan Hajek,$1.283,Jan Hajek,Jul 8 2013,Hamburg,R32,Ernests Gulbis,false,52.0,cluster_2
+71.0,37.0,Tommy Haas,$2.394,Tommy Haas,Jul 8 2013,Stuttgart,R16,Ernests Gulbis,false,53.0,cluster_2
+53.0,31.0,Marcel Granollers,$1.438,Ernests Gulbis,Jun 24 2013,Stuttgart,R32,Ernests Gulbis,false,54.0,cluster_0
+77.0,40.0,Fernando Verdasco,$1.644,Fernando Verdasco,Jun 24 2013,Wimbledon Slam,Round of 32,Ernests Gulbis,false,55.0,cluster_2
+63.0,33.0,Jo-Wilfried Tsonga,$4.533,Ernests Gulbis,Jun 24 2013,Wimbledon Slam,Round of 64,Ernests Gulbis,false,56.0,cluster_2
+62.0,34.0,Edouard Roger-Vasselin,$1.283,Ernests Gulbis,Jun 10 2013,Wimbledon Slam,Round of 128,Ernests Gulbis,false,57.0,cluster_2
+79.0,36.0,Tommy Haas,$2.860,Tommy Haas,Jun 10 2013,Halle,R16,Ernests Gulbis,false,58.0,cluster_2
+70.0,24.0,Marcos Baghdatis,$1.653,Ernests Gulbis,May 27 2013,Halle,R32,Ernests Gulbis,false,59.0,cluster_1
+64.0,35.0,Gael Monfils,$1.735,Gael Monfils,May 27 2013,French Open Slam,Round of 64,Ernests Gulbis,false,60.0,cluster_2
+54.0,34.0,Rogerio Dutra Silva,$1.081,Ernests Gulbis,May 12 2013,French Open Slam,Round of 128,Ernests Gulbis,false,61.0,cluster_0
+58.0,40.0,Rafael Nadal,$11.748,Rafael Nadal,May 12 2013,ATP World Tour Masters 1000 Rome,R16,Ernests Gulbis,false,62.0,cluster_2
+48.0,30.0,Viktor Troicki,$1.424,Ernests Gulbis,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Ernests Gulbis,false,63.0,cluster_0
+62.0,31.0,Jarkko Nieminen,$1.300,Ernests Gulbis,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Ernests Gulbis,false,64.0,cluster_1
+65.0,39.0,Tommy Haas,$1.820,Tommy Haas,Apr 29 2013,Munich,R16,Ernests Gulbis,false,65.0,cluster_2
+56.0,28.0,Jarkko Nieminen,$1.584,Ernests Gulbis,Apr 22 2013,Munich,R32,Ernests Gulbis,false,66.0,cluster_1
+70.0,41.0,Milos Raonic,$2.638,Milos Raonic,Apr 22 2013,Barcelona,R16,Ernests Gulbis,false,67.0,cluster_2
+63.0,26.0,Fernando Verdasco,$1.400,Ernests Gulbis,Apr 22 2013,Barcelona,R32,Ernests Gulbis,false,68.0,cluster_1
+50.0,35.0,Radek Stepanek,$1.271,Ernests Gulbis,Apr 22 2013,Barcelona,R64,Ernests Gulbis,false,69.0,cluster_0
+61.0,48.0,Juan Monaco,$1.837,Juan Monaco,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Ernests Gulbis,false,70.0,cluster_2
+53.0,27.0,John Isner,$1.456,Ernests Gulbis,Apr 5 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Ernests Gulbis,false,71.0,cluster_0
+64.0,35.0,Rafael Nadal,$1.090,Rafael Nadal,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Ernests Gulbis,false,72.0,cluster_2
+60.0,34.0,Andreas Seppi,$1.482,Ernests Gulbis,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Ernests Gulbis,false,73.0,cluster_2
+41.0,25.0,Janko Tipsarevic,$1.958,Ernests Gulbis,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,Ernests Gulbis,false,74.0,cluster_0
+50.0,30.0,Feliciano Lopez,$1.664,Ernests Gulbis,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R128,Ernests Gulbis,false,75.0,cluster_0
+56.0,31.0,Edouard Roger-Vasselin,$1.362,Ernests Gulbis,Feb 25 2013,Delray Beach,F,Ernests Gulbis,false,76.0,cluster_0
+63.0,34.0,Tommy Haas,$1.967,Ernests Gulbis,Feb 25 2013,Delray Beach,S,Ernests Gulbis,false,77.0,cluster_2
+53.0,24.0,Daniel Munoz-De La Nava,$1.237,Ernests Gulbis,Feb 25 2013,Delray Beach,Q,Ernests Gulbis,false,78.0,cluster_1
+64.0,36.0,Sam Querrey,$2.307,Ernests Gulbis,Feb 25 2013,Delray Beach,R16,Ernests Gulbis,false,79.0,cluster_2
+71.0,34.0,Tomas Berdych,$3.089,Tomas Berdych,Feb 18 2013,Marseille,R16,Ernests Gulbis,false,80.0,cluster_2
+59.0,17.0,Jarkko Nieminen,$1.868,Ernests Gulbis,Sep 13 2013,Marseille,R32,Ernests Gulbis,false,81.0,cluster_1

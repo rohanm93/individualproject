@@ -1,0 +1,88 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+46.0,37.0,Joao Sousa,$1.006,Novak Djokovic,May 21 2014,French Open Slam,Round of 128,Novak Djokovic,false,1.0,cluster_1
+51.0,34.0,Rafael Nadal,$2.236,Novak Djokovic,May 12 2014,ATP World Tour Masters 1000 Rome,F,Novak Djokovic,false,2.0,cluster_6
+65.0,30.0,Milos Raonic,$1.160,Novak Djokovic,May 12 2014,ATP World Tour Masters 1000 Rome,S,Novak Djokovic,false,3.0,cluster_0
+59.0,37.0,David Ferrer,$1.370,Novak Djokovic,May 12 2014,ATP World Tour Masters 1000 Rome,Q,Novak Djokovic,false,4.0,cluster_2
+50.0,34.0,Philipp Kohlschreiber,$1.135,Novak Djokovic,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Novak Djokovic,false,5.0,cluster_6
+50.0,34.0,Radek Stepanek,$1.057,Novak Djokovic,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Novak Djokovic,false,6.0,cluster_6
+75.0,38.0,Roger Federer,$1.334,Roger Federer,May 5 2014,ATP World Tour Masters 1000 Monte Carlo,S,Novak Djokovic,false,7.0,cluster_5
+54.0,34.0,Guillermo Garcia-Lopez,$1.028,Novak Djokovic,May 5 2014,ATP World Tour Masters 1000 Monte Carlo,Q,Novak Djokovic,false,8.0,cluster_6
+42.0,31.0,Marcel Granollers,$1.018,Novak Djokovic,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Novak Djokovic,false,9.0,cluster_1
+36.0,17.0,Pablo Carreno Busta,$1.018,Novak Djokovic,May 5 2014,ATP World Tour Masters 1000 Monte Carlo,R16,Novak Djokovic,false,10.0,cluster_8
+35.0,24.0,Albert Montanes,$1.019,Novak Djokovic,May 5 2014,ATP World Tour Masters 1000 Monte Carlo,R32,Novak Djokovic,false,11.0,cluster_8
+63.0,13.0,Rafael Nadal,$1.806,Novak Djokovic,Sep 30 2013,Beijing,F,Novak Djokovic,false,12.0,cluster_4
+53.0,28.0,Richard Gasquet,$1.109,Novak Djokovic,Sep 30 2013,Beijing,S,Novak Djokovic,false,13.0,cluster_6
+55.0,22.0,Rafael Nadal,$1.729,Novak Djokovic,May 5 2014,ATP World Tour Masters 1000 Miami,F,Novak Djokovic,false,14.0,cluster_4
+58.0,31.0,Andy Murray,$1.315,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Miami,Q,Novak Djokovic,false,15.0,cluster_7
+63.0,23.0,Tommy Robredo,$1.055,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,Novak Djokovic,false,16.0,cluster_9
+46.0,13.0,Sam Querrey,$1.082,Novak Djokovic,Sep 30 2013,Beijing,Q,Novak Djokovic,false,17.0,cluster_3
+60.0,32.0,Fernando Verdasco,$1.054,Novak Djokovic,Sep 30 2013,Beijing,R16,Novak Djokovic,false,18.0,cluster_0
+48.0,15.0,Lukas Rosol,$1.020,Novak Djokovic,Sep 30 2013,Beijing,R32,Novak Djokovic,false,19.0,cluster_3
+54.0,28.0,Milos Raonic,$1.059,Novak Djokovic,Sep 13 2013,Davis Cup,Reverse Singles,Novak Djokovic,false,20.0,cluster_7
+52.0,17.0,Vasek Pospisil,$1.021,Novak Djokovic,Sep 13 2013,Davis Cup,Singles,Novak Djokovic,false,21.0,cluster_3
+62.0,45.0,Rafael Nadal,$2.236,Rafael Nadal,Aug 26 2013,US Open Slam,Final,Novak Djokovic,false,22.0,cluster_2
+60.0,36.0,Stan Wawrinka,$1.220,Novak Djokovic,Aug 26 2013,US Open Slam,Semi Final,Novak Djokovic,false,23.0,cluster_2
+55.0,35.0,Jeremy Chardy,$1.033,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Novak Djokovic,false,24.0,cluster_6
+65.0,33.0,Roger Federer,$1.578,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Indian Wells,F,Novak Djokovic,false,25.0,cluster_0
+53.0,34.0,Mikhail Youzhny,$1.040,Novak Djokovic,Aug 26 2013,US Open Slam,Quarter Final,Novak Djokovic,false,26.0,cluster_6
+41.0,15.0,Marcel Granollers,$1.014,Novak Djokovic,Aug 26 2013,US Open Slam,Round of 16,Novak Djokovic,false,27.0,cluster_8
+57.0,32.0,John Isner,$1.219,Novak Djokovic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,S,Novak Djokovic,false,28.0,cluster_7
+48.0,19.0,Julien Benneteau,$1.065,Novak Djokovic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,Q,Novak Djokovic,false,29.0,cluster_3
+64.0,34.0,Marin Cilic,$1.198,Novak Djokovic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Novak Djokovic,false,30.0,cluster_0
+55.0,25.0,Alejandro Gonzalez,$1.009,Novak Djokovic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Novak Djokovic,false,31.0,cluster_7
+43.0,25.0,Joao Sousa,$1.004,Novak Djokovic,Aug 26 2013,US Open Slam,Round of 32,Novak Djokovic,false,32.0,cluster_8
+55.0,26.0,Benjamin Becker,$1.004,Novak Djokovic,Aug 26 2013,US Open Slam,Round of 64,Novak Djokovic,false,33.0,cluster_7
+63.0,27.0,Victor Hanescu,$1.006,Novak Djokovic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Novak Djokovic,false,34.0,cluster_9
+68.0,36.0,Roger Federer,$1.226,Roger Federer,Mar 3 2014,Dubai,S,Novak Djokovic,false,35.0,cluster_5
+40.0,32.0,Richard Berankis,$1.002,Novak Djokovic,Aug 26 2013,US Open Slam,Round of 128,Novak Djokovic,false,36.0,cluster_1
+75.0,32.0,John Isner,$1.128,John Isner,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,Q,Novak Djokovic,false,37.0,cluster_5
+45.0,31.0,Roberto Bautista Agut,$1.024,Novak Djokovic,Feb 24 2014,Dubai,R16,Novak Djokovic,false,38.0,cluster_1
+54.0,33.0,Denis Istomin,$1.035,Novak Djokovic,Feb 24 2014,Dubai,R32,Novak Djokovic,false,39.0,cluster_6
+63.0,32.0,Stan Wawrinka,$1.081,Stan Wawrinka,Feb 24 2014,Australian Open Slam,Quarter Final,Novak Djokovic,false,40.0,cluster_0
+49.0,17.0,Fabio Fognini,$1.013,Novak Djokovic,Jan 13 2014,Australian Open Slam,Round of 16,Novak Djokovic,false,41.0,cluster_3
+39.0,20.0,David Goffin,$1.030,Novak Djokovic,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R16,Novak Djokovic,false,42.0,cluster_8
+50.0,29.0,Juan Monaco,$1.036,Novak Djokovic,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Novak Djokovic,false,43.0,cluster_6
+67.0,34.0,Rafael Nadal,$1.453,Rafael Nadal,Aug 5 2013,ATP World Tour Masters 1000 Canada,S,Novak Djokovic,false,44.0,cluster_0
+59.0,26.0,Denis Istomin,$1.015,Novak Djokovic,Jan 13 2014,Australian Open Slam,Round of 32,Novak Djokovic,false,45.0,cluster_9
+53.0,21.0,Leonardo Mayer,$1.005,Novak Djokovic,Jan 13 2014,Australian Open Slam,Round of 64,Novak Djokovic,false,46.0,cluster_4
+48.0,20.0,Richard Gasquet,$1.150,Novak Djokovic,Aug 5 2013,ATP World Tour Masters 1000 Canada,Q,Novak Djokovic,false,47.0,cluster_3
+61.0,35.0,Denis Istomin,$1.033,Novak Djokovic,Aug 5 2013,ATP World Tour Masters 1000 Canada,R16,Novak Djokovic,false,48.0,cluster_0
+47.0,33.0,Florian Mayer,$1.043,Novak Djokovic,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,Novak Djokovic,false,49.0,cluster_1
+58.0,22.0,Lukas Lacko,$1.005,Novak Djokovic,Jan 13 2014,Australian Open Slam,Round of 128,Novak Djokovic,false,50.0,cluster_4
+63.0,25.0,Tomas Berdych,$1.087,Novak Djokovic,Dec 26 2013,Davis Cup,Reverse Singles,Novak Djokovic,false,51.0,cluster_9
+56.0,29.0,Radek Stepanek,$1.018,Novak Djokovic,Nov 15 2013,Davis Cup,Singles,Novak Djokovic,false,52.0,cluster_7
+65.0,31.0,Juan Martin del Potro,$1.155,Novak Djokovic,Jun 24 2013,Wimbledon Slam,Semi Final,Novak Djokovic,false,53.0,cluster_0
+61.0,29.0,Tomas Berdych,$1.121,Novak Djokovic,Jun 24 2013,Wimbledon Slam,Quarter Final,Novak Djokovic,false,54.0,cluster_9
+55.0,31.0,Rafael Nadal,$1.592,Novak Djokovic,Nov 15 2013,Barclays ATP World Tour Finals,F,Novak Djokovic,false,55.0,cluster_7
+51.0,26.0,Stan Wawrinka,$1.190,Novak Djokovic,Nov 4 2013,Barclays ATP World Tour Finals,S,Novak Djokovic,false,56.0,cluster_6
+53.0,31.0,Tommy Haas,$1.141,Novak Djokovic,Jun 24 2013,Wimbledon Slam,Round of 16,Novak Djokovic,false,57.0,cluster_6
+53.0,10.0,Jeremy Chardy,$1.033,Novak Djokovic,Jun 24 2013,Wimbledon Slam,Round of 32,Novak Djokovic,false,58.0,cluster_3
+56.0,16.0,Bobby Reynolds,$1.011,Novak Djokovic,Jun 24 2013,Wimbledon Slam,Round of 64,Novak Djokovic,false,59.0,cluster_4
+56.0,31.0,David Ferrer,$1.171,Novak Djokovic,Nov 4 2013,ATP World Tour Masters 1000 Paris,F,Novak Djokovic,false,60.0,cluster_7
+61.0,23.0,Florian Mayer,$1.013,Novak Djokovic,Jun 24 2013,Wimbledon Slam,Round of 128,Novak Djokovic,false,61.0,cluster_9
+58.0,34.0,Roger Federer,$1.308,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Paris,S,Novak Djokovic,false,62.0,cluster_7
+54.0,31.0,Stan Wawrinka,$1.188,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Paris,Q,Novak Djokovic,false,63.0,cluster_6
+68.0,39.0,Rafael Nadal,$2.582,Rafael Nadal,May 27 2013,French Open Slam,Semi Final,Novak Djokovic,false,64.0,cluster_5
+57.0,19.0,Tommy Haas,$1.110,Novak Djokovic,May 27 2013,French Open Slam,Quarter Final,Novak Djokovic,false,65.0,cluster_4
+56.0,19.0,John Isner,$1.171,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Novak Djokovic,false,66.0,cluster_4
+61.0,21.0,Pierre-Hugues Herbert,$1.036,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Novak Djokovic,false,67.0,cluster_4
+66.0,33.0,Philipp Kohlschreiber,$1.052,Novak Djokovic,May 27 2013,French Open Slam,Round of 16,Novak Djokovic,false,68.0,cluster_0
+50.0,27.0,Grigor Dimitrov,$1.093,Novak Djokovic,May 27 2013,French Open Slam,Round of 32,Novak Djokovic,false,69.0,cluster_6
+61.0,28.0,Juan Martin Del Potro,$1.378,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Shanghai,F,Novak Djokovic,false,70.0,cluster_9
+48.0,35.0,Jo-Wilfried Tsonga,$1.189,Novak Djokovic,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,S,Novak Djokovic,false,71.0,cluster_1
+59.0,30.0,Gael Monfils,$1.093,Novak Djokovic,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,Q,Novak Djokovic,false,72.0,cluster_7
+46.0,29.0,Guido Pella,$1.008,Novak Djokovic,May 27 2013,French Open Slam,Round of 64,Novak Djokovic,false,73.0,cluster_1
+63.0,28.0,David Goffin,$1.014,Novak Djokovic,May 27 2013,French Open Slam,Round of 128,Novak Djokovic,false,74.0,cluster_9
+55.0,21.0,Fabio Fognini,$1.085,Novak Djokovic,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R16,Novak Djokovic,false,75.0,cluster_4
+63.0,35.0,Tomas Berdych,$1.188,Tomas Berdych,May 12 2013,ATP World Tour Masters 1000 Rome,Q,Novak Djokovic,false,76.0,cluster_0
+57.0,27.0,Alexandr Dolgopolov,$1.079,Novak Djokovic,May 12 2013,ATP World Tour Masters 1000 Rome,R16,Novak Djokovic,false,77.0,cluster_7
+50.0,26.0,Albert Montanes,$1.058,Novak Djokovic,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Novak Djokovic,false,78.0,cluster_6
+63.0,36.0,Grigor Dimitrov,$1.072,Grigor Dimitrov,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Novak Djokovic,false,79.0,cluster_0
+48.0,37.0,Rafael Nadal,$2.996,Novak Djokovic,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,F,Novak Djokovic,false,80.0,cluster_1
+45.0,20.0,Fabio Fognini,$1.168,Novak Djokovic,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,S,Novak Djokovic,false,81.0,cluster_8
+46.0,40.0,Jarkko Nieminen,$1.151,Novak Djokovic,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,Q,Novak Djokovic,false,82.0,cluster_1
+48.0,42.0,Juan Monaco,$1.127,Novak Djokovic,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R16,Novak Djokovic,false,83.0,cluster_1
+53.0,36.0,Mikhail Youzhny,$1.089,Novak Djokovic,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Novak Djokovic,false,84.0,cluster_6
+57.0,28.0,Somdev Devvarman,$1.008,Novak Djokovic,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,Novak Djokovic,false,85.0,cluster_7
+41.0,27.0,Lukas Rosol,$1.015,Novak Djokovic,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,Novak Djokovic,false,86.0,cluster_8
+58.0,41.0,Juan Martin Del Potro,$1.183,Juan Martin Del Potro,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,S,Novak Djokovic,false,87.0,cluster_2

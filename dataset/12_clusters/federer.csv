@@ -1,0 +1,92 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+58.0,34.0,Andreas Seppi,$1.182,Roger Federer,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Roger Federer,false,1.0,cluster_10
+62.0,37.0,Tommy Robredo,$1.052,Tommy Robredo,Aug 26 2013,US Open Slam,Round of 16,Roger Federer,false,2.0,cluster_5
+48.0,26.0,Adrian Mannarino,$1.021,Roger Federer,Aug 26 2013,US Open Slam,Round of 32,Roger Federer,false,3.0,cluster_0
+46.0,29.0,Carlos Berlocq,$1.030,Roger Federer,Aug 26 2013,US Open Slam,Round of 64,Roger Federer,false,4.0,cluster_0
+55.0,15.0,Lukas Lacko,$1.016,Roger Federer,May 21 2014,French Open Slam,Round of 128,Roger Federer,false,5.0,cluster_11
+65.0,37.0,Jeremy Chardy,$1.128,Jeremy Chardy,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Roger Federer,false,6.0,cluster_7
+53.0,23.0,Grega Zemlja,$1.025,Roger Federer,Aug 26 2013,US Open Slam,Round of 128,Roger Federer,false,7.0,cluster_3
+70.0,34.0,Rafael Nadal,$3.874,Rafael Nadal,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,Q,Roger Federer,false,8.0,cluster_7
+61.0,39.0,Tommy Haas,$1.423,Roger Federer,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R16,Roger Federer,false,9.0,cluster_5
+69.0,35.0,Stan Wawrinka,$1.687,Stan Wawrinka,May 5 2014,ATP World Tour Masters 1000 Monte Carlo,F,Roger Federer,false,10.0,cluster_7
+61.0,24.0,Novak Djokovic,$3.738,Roger Federer,May 5 2014,ATP World Tour Masters 1000 Monte Carlo,S,Roger Federer,false,11.0,cluster_8
+56.0,34.0,Jo-Wilfried Tsonga,$1.292,Roger Federer,May 5 2014,ATP World Tour Masters 1000 Monte Carlo,Q,Roger Federer,false,12.0,cluster_2
+60.0,22.0,Philipp Kohlschreiber,$1.228,Roger Federer,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Roger Federer,false,13.0,cluster_8
+68.0,36.0,Daniel Brands,$1.124,Daniel Brands,Jul 22 2013,Gstaad,R16,Roger Federer,false,14.0,cluster_7
+76.0,31.0,Federico Delbonis,$1.149,Federico Delbonis,Jul 15 2013,Hamburg,S,Roger Federer,false,15.0,cluster_9
+60.0,38.0,Florian Mayer,$1.202,Roger Federer,Jul 15 2013,Hamburg,Q,Roger Federer,false,16.0,cluster_5
+46.0,30.0,Lukas Rosol,$1.079,Roger Federer,May 5 2014,ATP World Tour Masters 1000 Monte Carlo,R16,Roger Federer,false,17.0,cluster_0
+51.0,21.0,Radek Stepanek,$1.129,Roger Federer,May 5 2014,ATP World Tour Masters 1000 Monte Carlo,R32,Roger Federer,false,18.0,cluster_6
+55.0,30.0,Andrey Golubev,$1.011,Roger Federer,May 5 2014,Davis Cup,Reverse Singles,Roger Federer,false,19.0,cluster_10
+54.0,29.0,Jan Hajek,$1.051,Roger Federer,Jul 15 2013,Hamburg,R16,Roger Federer,false,20.0,cluster_10
+58.0,25.0,Daniel Brands,$1.133,Roger Federer,Jul 15 2013,Hamburg,R32,Roger Federer,false,21.0,cluster_8
+58.0,24.0,Mikhail Kukushkin,$1.019,Roger Federer,Apr 4 2014,Davis Cup,Singles,Roger Federer,false,22.0,cluster_8
+59.0,39.0,Kei Nishikori,$1.177,Kei Nishikori,Apr 4 2014,ATP World Tour Masters 1000 Miami,Q,Roger Federer,false,23.0,cluster_5
+46.0,21.0,Richard Gasquet,$1.160,Roger Federer,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,Roger Federer,false,24.0,cluster_6
+55.0,16.0,Thiemo de Bakker,$1.021,Roger Federer,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Roger Federer,false,25.0,cluster_11
+72.0,27.0,Sergiy Stakhovsky,$1.006,Sergiy Stakhovsky,Jun 24 2013,Wimbledon Slam,Round of 64,Roger Federer,false,26.0,cluster_9
+48.0,13.0,Victor Hanescu,$1.008,Roger Federer,Jun 24 2013,Wimbledon Slam,Round of 128,Roger Federer,false,27.0,cluster_11
+65.0,24.0,Mikhail Youzhny,$1.153,Roger Federer,Jun 10 2013,Halle,F,Roger Federer,false,28.0,cluster_1
+66.0,34.0,Novak Djokovic,$2.610,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Indian Wells,F,Roger Federer,false,29.0,cluster_7
+49.0,23.0,Alexandr Dolgopolov,$1.340,Roger Federer,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,S,Roger Federer,false,30.0,cluster_6
+63.0,28.0,Tommy Haas,$1.367,Roger Federer,Jun 10 2013,Halle,S,Roger Federer,false,31.0,cluster_1
+50.0,35.0,Cedrik-Marcel Stebe,$1.024,Roger Federer,Jun 10 2013,Halle,R16,Roger Federer,false,32.0,cluster_2
+55.0,17.0,Kevin Anderson,$1.212,Roger Federer,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,Q,Roger Federer,false,33.0,cluster_11
+59.0,30.0,Tommy Haas,$1.214,Roger Federer,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Roger Federer,false,34.0,cluster_10
+62.0,29.0,Dmitry Tursunov,$1.069,Roger Federer,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Roger Federer,false,35.0,cluster_1
+58.0,32.0,Gilles Simon,$1.055,Roger Federer,May 27 2013,French Open Slam,Round of 16,Roger Federer,false,36.0,cluster_10
+58.0,29.0,Paul-Henri Mathieu,$1.043,Roger Federer,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Roger Federer,false,37.0,cluster_10
+55.0,34.0,Tomas Berdych,$1.719,Roger Federer,Mar 3 2014,Dubai,F,Roger Federer,false,38.0,cluster_2
+63.0,31.0,Novak Djokovic,$4.960,Roger Federer,Feb 24 2014,Dubai,S,Roger Federer,false,39.0,cluster_1
+59.0,19.0,Julien Benneteau,$1.042,Roger Federer,May 27 2013,French Open Slam,Round of 32,Roger Federer,false,40.0,cluster_8
+47.0,26.0,Somdev Devvarman,$1.014,Roger Federer,May 27 2013,French Open Slam,Round of 64,Roger Federer,false,41.0,cluster_0
+43.0,33.0,Lukas Rosol,$1.116,Roger Federer,Feb 24 2014,Dubai,Q,Roger Federer,false,42.0,cluster_0
+51.0,36.0,Radek Stepanek,$1.068,Roger Federer,Feb 24 2014,Dubai,R16,Roger Federer,false,43.0,cluster_2
+48.0,20.0,Pablo Carreno Busta,$1.042,Roger Federer,May 27 2013,French Open Slam,Round of 128,Roger Federer,false,44.0,cluster_6
+60.0,33.0,Benoit Paire,$1.155,Roger Federer,May 12 2013,ATP World Tour Masters 1000 Rome,S,Roger Federer,false,45.0,cluster_10
+54.0,24.0,Benjamin Becker,$1.049,Roger Federer,Feb 24 2014,Dubai,R32,Roger Federer,false,46.0,cluster_3
+60.0,21.0,Ilija Bozoljac,$1.014,Roger Federer,Feb 24 2014,Davis Cup,Singles,Roger Federer,false,47.0,cluster_8
+61.0,27.0,Jerzy Janowicz,$1.180,Roger Federer,May 12 2013,ATP World Tour Masters 1000 Rome,Q,Roger Federer,false,48.0,cluster_1
+73.0,40.0,Rafael Nadal,$2.424,Rafael Nadal,Jan 31 2014,Australian Open Slam,Semi Final,Roger Federer,false,49.0,cluster_7
+60.0,27.0,Andy Murray,$1.724,Roger Federer,Jan 13 2014,Australian Open Slam,Quarter Final,Roger Federer,false,50.0,cluster_1
+45.0,22.0,Gilles Simon,$1.209,Roger Federer,May 12 2013,ATP World Tour Masters 1000 Rome,R16,Roger Federer,false,51.0,cluster_6
+46.0,17.0,Potito Starace,$1.061,Roger Federer,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Roger Federer,false,52.0,cluster_6
+62.0,29.0,Kei Nishikori,$1.265,Kei Nishikori,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Roger Federer,false,53.0,cluster_1
+63.0,20.0,Jo-Wilfried Tsonga,$1.554,Roger Federer,Jan 13 2014,Australian Open Slam,Round of 16,Roger Federer,false,54.0,cluster_8
+53.0,25.0,Teymuraz Gabashvili,$1.021,Roger Federer,Jan 13 2014,Australian Open Slam,Round of 32,Roger Federer,false,55.0,cluster_3
+52.0,34.0,Radek Stepanek,$1.081,Roger Federer,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Roger Federer,false,56.0,cluster_2
+51.0,29.0,Blaz Kavcic,$1.030,Roger Federer,Jan 13 2014,Australian Open Slam,Round of 64,Roger Federer,false,57.0,cluster_3
+60.0,24.0,James Duckworth,$1.020,Roger Federer,Jan 13 2014,Australian Open Slam,Round of 128,Roger Federer,false,58.0,cluster_8
+57.0,40.0,Stan Wawrinka,$1.264,Roger Federer,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Roger Federer,false,59.0,cluster_5
+53.0,33.0,Ivan Dodig,$1.052,Roger Federer,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Roger Federer,false,60.0,cluster_2
+52.0,11.0,Denis Istomin,$1.061,Roger Federer,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,Roger Federer,false,61.0,cluster_11
+65.0,39.0,Lleyton Hewitt,$1.174,Lleyton Hewitt,Jan 13 2014,Brisbane,F,Roger Federer,false,62.0,cluster_7
+66.0,27.0,Jeremy Chardy,$1.082,Roger Federer,Dec 30 2013,Brisbane,S,Roger Federer,false,63.0,cluster_1
+67.0,35.0,Tomas Berdych,$1.479,Tomas Berdych,Feb 25 2013,Dubai,S,Roger Federer,false,64.0,cluster_7
+54.0,19.0,Nikolay Davydenko,$1.123,Roger Federer,Feb 25 2013,Dubai,Q,Roger Federer,false,65.0,cluster_11
+42.0,26.0,Marinko Matosevic,$1.085,Roger Federer,Dec 30 2013,Brisbane,Q,Roger Federer,false,66.0,cluster_0
+55.0,26.0,Jarkko Nieminen,$1.152,Roger Federer,Dec 30 2013,Brisbane,R16,Roger Federer,false,67.0,cluster_3
+73.0,40.0,Rafael Nadal,$3.693,Rafael Nadal,Dec 30 2013,Barclays ATP World Tour Finals,S,Roger Federer,false,68.0,cluster_7
+64.0,28.0,Marcel Granollers,$1.042,Roger Federer,Feb 25 2013,Dubai,R16,Roger Federer,false,69.0,cluster_1
+54.0,24.0,Malek Jaziri,$1.016,Roger Federer,Feb 25 2013,Dubai,R32,Roger Federer,false,70.0,cluster_3
+63.0,47.0,Julien Benneteau,$1.093,Julien Benneteau,Feb 11 2013,Rotterdam,Q,Roger Federer,false,71.0,cluster_5
+64.0,26.0,Thiemo de Bakker,$1.024,Roger Federer,Feb 11 2013,Rotterdam,R16,Roger Federer,false,72.0,cluster_1
+51.0,25.0,Grega Zemlja,$1.042,Roger Federer,Feb 11 2013,Rotterdam,R32,Roger Federer,false,73.0,cluster_3
+65.0,41.0,Novak Djokovic,$3.964,Novak Djokovic,Nov 4 2013,ATP World Tour Masters 1000 Paris,S,Roger Federer,false,74.0,cluster_5
+57.0,23.0,Juan Martin Del Potro,$1.948,Roger Federer,Oct 28 2013,ATP World Tour Masters 1000 Paris,Q,Roger Federer,false,75.0,cluster_8
+71.0,39.0,Andy Murray,$2.304,Andy Murray,Jan 14 2013,Australian Open Slam,Semi Final,Roger Federer,false,76.0,cluster_7
+66.0,31.0,Jo-Wilfried Tsonga,$1.200,Roger Federer,Jan 14 2013,Australian Open Slam,Quarter Final,Roger Federer,false,77.0,cluster_1
+62.0,23.0,Philipp Kohlschreiber,$1.248,Roger Federer,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Roger Federer,false,78.0,cluster_8
+58.0,32.0,Kevin Anderson,$1.176,Roger Federer,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Roger Federer,false,79.0,cluster_10
+65.0,35.0,Juan Martin Del Potro,$2.207,Juan Martin Del Potro,Oct 28 2013,Basel,F,Roger Federer,false,80.0,cluster_7
+64.0,15.0,Milos Raonic,$1.139,Roger Federer,Jan 14 2013,Australian Open Slam,Round of 16,Roger Federer,false,81.0,cluster_4
+60.0,25.0,Bernard Tomic,$1.125,Roger Federer,Jan 14 2013,Australian Open Slam,Round of 32,Roger Federer,false,82.0,cluster_8
+58.0,27.0,Nikolay Davydenko,$1.057,Roger Federer,Jan 14 2013,Australian Open Slam,Round of 64,Roger Federer,false,83.0,cluster_10
+52.0,25.0,Benoit Paire,$1.018,Roger Federer,Jan 14 2013,Australian Open Slam,Round of 128,Roger Federer,false,84.0,cluster_3
+56.0,34.0,Vasek Pospisil,$1.164,Roger Federer,Oct 21 2013,Basel,S,Roger Federer,false,85.0,cluster_2
+59.0,29.0,Grigor Dimitrov,$1.464,Roger Federer,Oct 21 2013,Basel,Q,Roger Federer,false,86.0,cluster_10
+58.0,41.0,Novak Djokovic,$2.380,Novak Djokovic,Nov 5 2012,Barclays ATP World Tour Finals,F,Roger Federer,false,87.0,cluster_5
+60.0,25.0,Andy Murray,$2.340,Roger Federer,Nov 5 2012,Barclays ATP World Tour Finals,S,Roger Federer,false,88.0,cluster_8
+58.0,29.0,Denis Istomin,$1.116,Roger Federer,Oct 21 2013,Basel,R16,Roger Federer,false,89.0,cluster_10
+52.0,26.0,Adrian Mannarino,$1.040,Roger Federer,Oct 21 2013,Basel,R32,Roger Federer,false,90.0,cluster_3
+70.0,34.0,Gael Monfils,$1.325,Gael Monfils,Oct 21 2013,ATP World Tour Masters 1000 Shanghai,R16,Roger Federer,false,91.0,cluster_7

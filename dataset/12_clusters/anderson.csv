@@ -1,0 +1,93 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+61.0,23.0,Stephane Robert,$1.388,Kevin Anderson,May 21 2014,French Open Slam,Round of 128,Kevin Anderson,false,1.0,cluster_9
+72.0,26.0,Jo-Wilfried Tsonga,$3.323,Jo-Wilfried Tsonga,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Kevin Anderson,false,2.0,cluster_7
+72.0,21.0,Vasek Pospisil,$1.209,Kevin Anderson,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Kevin Anderson,false,3.0,cluster_7
+80.0,46.0,Tomas Berdych,$5.459,Tomas Berdych,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Kevin Anderson,false,4.0,cluster_11
+66.0,32.0,Radek Stepanek,$1.681,Kevin Anderson,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Kevin Anderson,false,5.0,cluster_6
+80.0,35.0,Gael Monfils,$2.760,Gael Monfils,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Kevin Anderson,false,6.0,cluster_10
+67.0,32.0,Victor Hanescu,$1.351,Victor Hanescu,Apr 7 2014,Casablanca,R16,Kevin Anderson,false,7.0,cluster_5
+64.0,21.0,Michal Przysiezny,$1.149,Kevin Anderson,Jun 24 2013,Wimbledon Slam,Round of 64,Kevin Anderson,false,8.0,cluster_9
+69.0,38.0,Richard Gasquet,$2.087,Richard Gasquet,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Kevin Anderson,false,9.0,cluster_0
+60.0,13.0,Horacio Zeballos,$1.135,Kevin Anderson,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Kevin Anderson,false,10.0,cluster_9
+73.0,47.0,Julien Benneteau,$1.634,Julien Benneteau,Jun 17 2013,Eastbourne,R32,Kevin Anderson,false,11.0,cluster_11
+73.0,52.0,David Ferrer,$6.153,David Ferrer,Jun 10 2013,French Open Slam,Round of 16,Kevin Anderson,false,12.0,cluster_11
+82.0,44.0,Roger Federer,$5.209,Roger Federer,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,Q,Kevin Anderson,false,13.0,cluster_11
+57.0,39.0,Stan Wawrinka,$4.426,Kevin Anderson,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Kevin Anderson,false,14.0,cluster_4
+54.0,36.0,Evgeny Donskoy,$1.226,Kevin Anderson,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Kevin Anderson,false,15.0,cluster_2
+60.0,25.0,Milos Raonic,$2.337,Kevin Anderson,Jun 10 2013,French Open Slam,Round of 32,Kevin Anderson,false,16.0,cluster_1
+61.0,28.0,Evgeny Donskoy,$1.107,Kevin Anderson,Jun 10 2013,French Open Slam,Round of 64,Kevin Anderson,false,17.0,cluster_1
+66.0,30.0,Lleyton Hewitt,$1.376,Kevin Anderson,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Kevin Anderson,false,18.0,cluster_5
+56.0,28.0,Illya Marchenko,$1.061,Kevin Anderson,Jun 10 2013,French Open Slam,Round of 128,Kevin Anderson,false,19.0,cluster_1
+69.0,41.0,Tomas Berdych,$3.814,Tomas Berdych,Jun 10 2013,ATP World Tour Masters 1000 Rome,R16,Kevin Anderson,false,20.0,cluster_0
+69.0,34.0,Grigor Dimitrov,$2.915,Grigor Dimitrov,Feb 24 2014,Acapulco,F,Kevin Anderson,false,21.0,cluster_5
+63.0,22.0,Alexandr Dolgopolov,$2.752,Kevin Anderson,Feb 24 2014,Acapulco,S,Kevin Anderson,false,22.0,cluster_9
+63.0,29.0,Marin Cilic,$2.757,Kevin Anderson,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Kevin Anderson,false,23.0,cluster_1
+59.0,42.0,David Ferrer,$3.555,Kevin Anderson,Feb 24 2014,Acapulco,Q,Kevin Anderson,false,24.0,cluster_4
+64.0,16.0,Sam Querrey,$1.527,Kevin Anderson,Feb 24 2014,Acapulco,R16,Kevin Anderson,false,25.0,cluster_9
+63.0,39.0,Tomas Berdych,$3.510,Tomas Berdych,May 12 2013,ATP World Tour Masters 1000 Madrid,R16,Kevin Anderson,false,26.0,cluster_4
+60.0,36.0,Juan Monaco,$2.760,Kevin Anderson,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Kevin Anderson,false,27.0,cluster_4
+68.0,22.0,Stephane Robert,$1.313,Kevin Anderson,Feb 24 2014,Acapulco,R32,Kevin Anderson,false,28.0,cluster_7
+65.0,38.0,Marin Cilic,$3.571,Marin Cilic,Feb 17 2014,Delray Beach,F,Kevin Anderson,false,29.0,cluster_0
+60.0,28.0,Steve Johnson,$1.621,Kevin Anderson,Feb 17 2014,Delray Beach,S,Kevin Anderson,false,30.0,cluster_1
+59.0,27.0,Marinko Matosevic,$1.521,Kevin Anderson,Feb 17 2014,Delray Beach,Q,Kevin Anderson,false,31.0,cluster_1
+72.0,48.0,Marin Cilic,$3.487,Marin Cilic,May 5 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Kevin Anderson,false,32.0,cluster_11
+64.0,32.0,Jerzy Janowicz,$1.752,Kevin Anderson,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Kevin Anderson,false,33.0,cluster_6
+68.0,32.0,Tommy Robredo,$1.761,Tommy Robredo,Apr 15 2013,Casablanca,F,Kevin Anderson,false,34.0,cluster_5
+58.0,29.0,Tim Smyczek,$1.372,Kevin Anderson,Feb 17 2014,Delray Beach,R32,Kevin Anderson,false,35.0,cluster_1
+56.0,36.0,Martin Klizan,$1.743,Kevin Anderson,Apr 8 2013,Casablanca,S,Kevin Anderson,false,36.0,cluster_2
+76.0,44.0,Tomas Berdych,$6.753,Tomas Berdych,Jan 13 2014,Australian Open Slam,Round of 16,Kevin Anderson,false,37.0,cluster_11
+62.0,35.0,Grega Zemlja,$1.276,Kevin Anderson,Apr 8 2013,Casablanca,Q,Kevin Anderson,false,38.0,cluster_6
+52.0,23.0,Pablo Carreno Busta,$1.544,Kevin Anderson,Apr 8 2013,Casablanca,R16,Kevin Anderson,false,39.0,cluster_3
+65.0,32.0,Edouard Roger-Vasselin,$1.564,Kevin Anderson,Jan 13 2014,Australian Open Slam,Round of 32,Kevin Anderson,false,40.0,cluster_6
+66.0,24.0,Dominic Thiem,$1.452,Kevin Anderson,Jan 13 2014,Australian Open Slam,Round of 64,Kevin Anderson,false,41.0,cluster_7
+69.0,29.0,Jiri Vesely,$1.340,Kevin Anderson,Jan 13 2014,Australian Open Slam,Round of 128,Kevin Anderson,false,42.0,cluster_5
+63.0,42.0,Janko Tipsarevic,$1.883,Janko Tipsarevic,Apr 8 2013,ATP World Tour Masters 1000 Miami,R32,Kevin Anderson,false,43.0,cluster_4
+70.0,29.0,Steve Johnson,$1.384,Steve Johnson,Jan 6 2014,Auckland,R16,Kevin Anderson,false,44.0,cluster_5
+67.0,41.0,Roger Federer,$5.989,Roger Federer,Dec 30 2013,ATP World Tour Masters 1000 Paris,R32,Kevin Anderson,false,45.0,cluster_0
+59.0,19.0,Horacio Zeballos,$1.201,Kevin Anderson,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,Kevin Anderson,false,46.0,cluster_9
+69.0,37.0,Tomas Berdych,$4.915,Tomas Berdych,Mar 18 2013,ATP World Tour Masters 1000 Indian Wells,Q,Kevin Anderson,false,47.0,cluster_0
+59.0,32.0,Mikhail Youzhny,$2.727,Kevin Anderson,Dec 30 2013,ATP World Tour Masters 1000 Paris,R64,Kevin Anderson,false,48.0,cluster_1
+65.0,32.0,Roberto Bautista Agut,$1.759,Roberto Bautista Agut,Dec 30 2013,Valencia,R32,Kevin Anderson,false,49.0,cluster_6
+60.0,31.0,Gilles Simon,$1.513,Kevin Anderson,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Kevin Anderson,false,50.0,cluster_1
+54.0,20.0,Jarkko Nieminen,$1.488,Kevin Anderson,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Kevin Anderson,false,51.0,cluster_3
+66.0,29.0,Kenny De Schepper,$1.246,Kenny De Schepper,Oct 21 2013,Stockholm,R16,Kevin Anderson,false,52.0,cluster_5
+74.0,35.0,Stan Wawrinka,$3.323,Stan Wawrinka,Oct 14 2013,ATP World Tour Masters 1000 Shanghai,R32,Kevin Anderson,false,53.0,cluster_10
+59.0,38.0,David Ferrer,$4.328,Kevin Anderson,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,Kevin Anderson,false,54.0,cluster_4
+61.0,24.0,Victor Hanescu,$1.205,Kevin Anderson,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R128,Kevin Anderson,false,55.0,cluster_9
+71.0,24.0,Victor Hanescu,$1.254,Kevin Anderson,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,Kevin Anderson,false,56.0,cluster_7
+70.0,31.0,Lukas Lacko,$1.300,Lukas Lacko,Oct 6 2013,Tokyo,R32,Kevin Anderson,false,57.0,cluster_5
+76.0,47.0,Marcos Baghdatis,$1.404,Marcos Baghdatis,Sep 30 2013,US Open Slam,Round of 64,Kevin Anderson,false,58.0,cluster_11
+76.0,39.0,John Isner,$1.948,John Isner,Mar 6 2013,Delray Beach,Q,Kevin Anderson,false,59.0,cluster_10
+66.0,32.0,Yen-Hsun Lu,$1.535,Kevin Anderson,Feb 25 2013,Delray Beach,R16,Kevin Anderson,false,60.0,cluster_6
+66.0,29.0,Daniel Brands,$1.262,Kevin Anderson,Aug 26 2013,US Open Slam,Round of 128,Kevin Anderson,false,61.0,cluster_5
+78.0,29.0,Tommy Haas,$2.004,Tommy Haas,Aug 26 2013,ATP World Tour Masters 1000 Cincinnati,R64,Kevin Anderson,false,62.0,cluster_8
+61.0,46.0,Alexandr Dolgopolov,$1.424,Alexandr Dolgopolov,Aug 12 2013,ATP World Tour Masters 1000 Canada,R64,Kevin Anderson,false,63.0,cluster_4
+55.0,35.0,Tim Smyczek,$1.490,Kevin Anderson,Feb 25 2013,Delray Beach,R32,Kevin Anderson,false,64.0,cluster_2
+67.0,42.0,Tomas Berdych,$4.837,Tomas Berdych,Feb 25 2013,Australian Open Slam,Round of 16,Kevin Anderson,false,65.0,cluster_0
+64.0,31.0,Fernando Verdasco,$1.812,Kevin Anderson,Jan 14 2013,Australian Open Slam,Round of 32,Kevin Anderson,false,66.0,cluster_6
+73.0,39.0,Juan Martin Del Potro,$3.902,Juan Martin Del Potro,Aug 5 2013,Washington,Q,Kevin Anderson,false,67.0,cluster_10
+58.0,24.0,Mardy Fish,$1.669,Kevin Anderson,Jul 29 2013,Washington,R16,Kevin Anderson,false,68.0,cluster_3
+59.0,28.0,Andrey Kuznetsov,$1.177,Kevin Anderson,Jan 14 2013,Australian Open Slam,Round of 64,Kevin Anderson,false,69.0,cluster_1
+65.0,31.0,Paolo Lorenzi,$1.094,Kevin Anderson,Jan 14 2013,Australian Open Slam,Round of 128,Kevin Anderson,false,70.0,cluster_6
+71.0,26.0,Bernard Tomic,$2.226,Bernard Tomic,Jan 14 2013,Sydney,F,Kevin Anderson,false,71.0,cluster_7
+63.0,25.0,James Duckworth,$1.229,Kevin Anderson,Jul 29 2013,Washington,R32,Kevin Anderson,false,72.0,cluster_1
+71.0,25.0,John Isner,$1.939,John Isner,Jul 29 2013,Atlanta,F,Kevin Anderson,false,73.0,cluster_7
+69.0,34.0,Julien Benneteau,$1.681,Kevin Anderson,Jan 7 2013,Sydney,S,Kevin Anderson,false,74.0,cluster_5
+53.0,34.0,Denis Istomin,$1.558,Kevin Anderson,Jan 7 2013,Sydney,Q,Kevin Anderson,false,75.0,cluster_2
+69.0,21.0,Ryan Harrison,$1.373,Kevin Anderson,Jul 22 2013,Atlanta,S,Kevin Anderson,false,76.0,cluster_7
+68.0,30.0,Denis Istomin,$1.409,Kevin Anderson,Jul 22 2013,Atlanta,Q,Kevin Anderson,false,77.0,cluster_5
+61.0,23.0,Feliciano Lopez,$1.406,Kevin Anderson,Jan 7 2013,Sydney,R16,Kevin Anderson,false,78.0,cluster_9
+68.0,22.0,Aljaz Bedene,$1.271,Kevin Anderson,Jan 7 2013,Sydney,R32,Kevin Anderson,false,79.0,cluster_7
+62.0,19.0,Matthew Ebden,$1.245,Kevin Anderson,Jul 22 2013,Atlanta,R16,Kevin Anderson,false,80.0,cluster_9
+75.0,26.0,Ivo Karlovic,$1.401,Ivo Karlovic,Jul 22 2013,Bogota,S,Kevin Anderson,false,81.0,cluster_8
+65.0,35.0,Tomas Berdych,$4.268,Tomas Berdych,Dec 31 2012,ATP World Tour Masters 1000 Paris,R16,Kevin Anderson,false,82.0,cluster_6
+57.0,24.0,Santiago Giraldo,$1.401,Kevin Anderson,Jul 15 2013,Bogota,Q,Kevin Anderson,false,83.0,cluster_3
+59.0,32.0,Emilio Gomez,$1.069,Kevin Anderson,Jul 15 2013,Bogota,R16,Kevin Anderson,false,84.0,cluster_1
+66.0,25.0,Richard Gasquet,$2.776,Kevin Anderson,Oct 29 2012,ATP World Tour Masters 1000 Paris,R32,Kevin Anderson,false,85.0,cluster_7
+69.0,38.0,Juan Martin Del Potro,$6.197,Juan Martin Del Potro,Oct 29 2012,Basel,Q,Kevin Anderson,false,86.0,cluster_0
+65.0,36.0,Tomas Berdych,$5.287,Tomas Berdych,Jul 15 2013,Wimbledon Slam,Round of 32,Kevin Anderson,false,87.0,cluster_6
+61.0,26.0,Marinko Matosevic,$1.376,Kevin Anderson,Oct 22 2012,Basel,R16,Kevin Anderson,false,88.0,cluster_1
+51.0,33.0,Jarkko Nieminen,$1.686,Kevin Anderson,Oct 22 2012,Basel,R32,Kevin Anderson,false,89.0,cluster_2
+66.0,38.0,Lleyton Hewitt,$1.390,Lleyton Hewitt,Oct 22 2012,Stockholm,R32,Kevin Anderson,false,90.0,cluster_0
+79.0,23.0,John Isner,$2.614,John Isner,Oct 15 2012,ATP World Tour Masters 1000 Shanghai,R32,Kevin Anderson,false,91.0,cluster_8
+63.0,22.0,Jarkko Nieminen,$1.555,Kevin Anderson,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R64,Kevin Anderson,false,92.0,cluster_9

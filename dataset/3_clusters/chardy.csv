@@ -1,0 +1,93 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+54.0,26.0,Daniel Gimeno-Traver,$1.408,Jeremy Chardy,May 21 2014,French Open Slam,Round of 128,Jeremy Chardy,false,1.0,cluster_0
+69.0,38.0,Milos Raonic,$3.555,Milos Raonic,May 12 2014,ATP World Tour Masters 1000 Rome,Q,Jeremy Chardy,false,2.0,cluster_2
+52.0,26.0,Ivan Dodig,$2.077,Jeremy Chardy,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Jeremy Chardy,false,3.0,cluster_0
+62.0,34.0,Roger Federer,$7.670,Jeremy Chardy,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Jeremy Chardy,false,4.0,cluster_0
+57.0,25.0,Robin Haase,$1.884,Jeremy Chardy,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Jeremy Chardy,false,5.0,cluster_0
+80.0,40.0,Milos Raonic,$3.693,Milos Raonic,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Jeremy Chardy,false,6.0,cluster_2
+63.0,23.0,Lukas Rosol,$2.360,Jeremy Chardy,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Jeremy Chardy,false,7.0,cluster_0
+75.0,45.0,Jiri Vesely,$1.853,Jiri Vesely,Apr 21 2014,Bucharest,R32,Jeremy Chardy,false,8.0,cluster_1
+65.0,26.0,Ryan Harrison,$1.681,Jeremy Chardy,Jun 24 2013,Wimbledon Slam,Round of 128,Jeremy Chardy,false,9.0,cluster_0
+74.0,32.0,Stan Wawrinka,$3.106,Stan Wawrinka,Jun 16 2013,s-Hertogenbosch,Q,Jeremy Chardy,false,10.0,cluster_2
+56.0,45.0,Igor Sijsling,$1.369,Jeremy Chardy,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Jeremy Chardy,false,11.0,cluster_1
+61.0,22.0,Marius Copil,$1.364,Jeremy Chardy,Jun 16 2013,s-Hertogenbosch,R16,Jeremy Chardy,false,12.0,cluster_0
+55.0,29.0,Lucas Pouille,$1.283,Jeremy Chardy,Jun 16 2013,s-Hertogenbosch,R32,Jeremy Chardy,false,13.0,cluster_0
+64.0,44.0,Novak Djokovic,$20.546,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Jeremy Chardy,false,14.0,cluster_1
+62.0,38.0,Juan Monaco,$1.619,Jeremy Chardy,Mar 17 2014,ATP World Tour Masters 1000 Miami,R128,Jeremy Chardy,false,15.0,cluster_1
+79.0,39.0,Jo-Wilfried Tsonga,$4.290,Jo-Wilfried Tsonga,May 27 2013,French Open Slam,Round of 32,Jeremy Chardy,false,16.0,cluster_2
+67.0,35.0,Tommy Haas,$1.922,Tommy Haas,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Jeremy Chardy,false,17.0,cluster_2
+60.0,31.0,Roberto Bautista Agut,$1.399,Jeremy Chardy,May 27 2013,French Open Slam,Round of 64,Jeremy Chardy,false,18.0,cluster_0
+56.0,28.0,Benjamin Becker,$1.046,Jeremy Chardy,May 27 2013,French Open Slam,Round of 128,Jeremy Chardy,false,19.0,cluster_0
+63.0,21.0,Rhyne Williams,$1.471,Jeremy Chardy,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R128,Jeremy Chardy,false,20.0,cluster_0
+83.0,34.0,Alexandr Dolgopolov,$2.556,Alexandr Dolgopolov,Feb 24 2014,Acapulco,R16,Jeremy Chardy,false,21.0,cluster_2
+54.0,25.0,Matthew Ebden,$1.434,Jeremy Chardy,Feb 24 2014,Acapulco,R32,Jeremy Chardy,false,22.0,cluster_0
+59.0,33.0,Marcel Granollers,$1.708,Marcel Granollers,May 12 2013,ATP World Tour Masters 1000 Rome,R16,Jeremy Chardy,false,23.0,cluster_0
+51.0,25.0,Kei Nishikori,$3.003,Jeremy Chardy,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Jeremy Chardy,false,24.0,cluster_0
+60.0,28.0,Feliciano Lopez,$1.632,Jeremy Chardy,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Jeremy Chardy,false,25.0,cluster_0
+67.0,42.0,Gilles Simon,$2.394,Gilles Simon,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Jeremy Chardy,false,26.0,cluster_1
+63.0,56.0,David Ferrer,$6.948,David Ferrer,Feb 17 2014,Rio de Janeiro,R32,Jeremy Chardy,false,27.0,cluster_1
+64.0,40.0,Nicolas Almagro,$3.176,Nicolas Almagro,Feb 10 2014,Buenos Aires,Q,Jeremy Chardy,false,28.0,cluster_1
+64.0,19.0,Horacio Zeballos,$1.598,Jeremy Chardy,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,Jeremy Chardy,false,29.0,cluster_0
+61.0,45.0,Juan Monaco,$4.779,Juan Monaco,Apr 22 2013,Barcelona,R16,Jeremy Chardy,false,30.0,cluster_1
+49.0,40.0,Paolo Lorenzi,$1.827,Jeremy Chardy,Apr 22 2013,Barcelona,R32,Jeremy Chardy,false,31.0,cluster_0
+70.0,29.0,Alexandr Dolgopolov,$1.730,Jeremy Chardy,Feb 10 2014,Buenos Aires,R16,Jeremy Chardy,false,32.0,cluster_2
+54.0,37.0,Alejandro Gonzalez,$1.249,Jeremy Chardy,Feb 10 2014,Buenos Aires,R32,Jeremy Chardy,false,33.0,cluster_0
+62.0,43.0,Pablo Andujar,$2.240,Pablo Andujar,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Jeremy Chardy,false,34.0,cluster_1
+64.0,41.0,Fabio Fognini,$3.184,Fabio Fognini,Feb 3 2014,Vina del Mar,Q,Jeremy Chardy,false,35.0,cluster_1
+61.0,22.0,Pablo Carreno Busta,$1.706,Jeremy Chardy,Feb 3 2014,Vina del Mar,R16,Jeremy Chardy,false,36.0,cluster_0
+67.0,37.0,Bjorn Phau,$1.359,Bjorn Phau,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,Jeremy Chardy,false,37.0,cluster_2
+65.0,39.0,Martin Alund,$1.291,Martin Alund,Feb 11 2013,Sao Paulo,R16,Jeremy Chardy,false,38.0,cluster_1
+73.0,47.0,Rafael Nadal,$7.727,Rafael Nadal,Feb 4 2013,Vina del Mar,S,Jeremy Chardy,false,39.0,cluster_1
+48.0,35.0,Christian Garin,$1.181,Jeremy Chardy,Feb 3 2014,Vina del Mar,R32,Jeremy Chardy,false,40.0,cluster_0
+55.0,22.0,Paolo Lorenzi,$1.577,Jeremy Chardy,Feb 4 2013,Vina del Mar,Q,Jeremy Chardy,false,41.0,cluster_0
+66.0,31.0,Christian Garin,$1.127,Jeremy Chardy,Feb 4 2013,Vina del Mar,R16,Jeremy Chardy,false,42.0,cluster_2
+64.0,53.0,Andy Murray,$12.323,Andy Murray,Jan 14 2013,Australian Open Slam,Quarter Final,Jeremy Chardy,false,43.0,cluster_1
+70.0,45.0,David Ferrer,$3.334,David Ferrer,Jan 13 2014,Australian Open Slam,Round of 32,Jeremy Chardy,false,44.0,cluster_1
+63.0,35.0,Alexandr Dolgopolov,$2.260,Jeremy Chardy,Jan 13 2014,Australian Open Slam,Round of 64,Jeremy Chardy,false,45.0,cluster_2
+63.0,30.0,Jesse Huta Galung,$1.164,Jeremy Chardy,Jan 13 2014,Australian Open Slam,Round of 128,Jeremy Chardy,false,46.0,cluster_0
+72.0,33.0,Roger Federer,$10.735,Roger Federer,Dec 30 2013,Brisbane,S,Jeremy Chardy,false,47.0,cluster_2
+57.0,34.0,Andreas Seppi,$2.590,Jeremy Chardy,Jan 14 2013,Australian Open Slam,Round of 16,Jeremy Chardy,false,48.0,cluster_0
+60.0,23.0,Nicolas Mahut,$1.860,Jeremy Chardy,Dec 30 2013,Brisbane,R16,Jeremy Chardy,false,49.0,cluster_0
+66.0,33.0,Juan Martin del Potro,$16.225,Jeremy Chardy,Jan 14 2013,Australian Open Slam,Round of 32,Jeremy Chardy,false,50.0,cluster_2
+60.0,29.0,Marcel Granollers,$2.188,Jeremy Chardy,Jan 14 2013,Australian Open Slam,Round of 64,Jeremy Chardy,false,51.0,cluster_0
+57.0,31.0,Adrian Menendez-Maceiras,$1.305,Jeremy Chardy,Jan 14 2013,Australian Open Slam,Round of 128,Jeremy Chardy,false,52.0,cluster_0
+70.0,37.0,Feliciano Lopez,$1.995,Feliciano Lopez,Jan 7 2013,Sydney,R32,Jeremy Chardy,false,53.0,cluster_2
+54.0,35.0,Adrian Mannarino,$1.563,Jeremy Chardy,Dec 30 2013,Brisbane,R32,Jeremy Chardy,false,54.0,cluster_0
+64.0,40.0,Lukas Rosol,$1.521,Lukas Rosol,Oct 28 2013,ATP World Tour Masters 1000 Paris,R64,Jeremy Chardy,false,55.0,cluster_1
+68.0,43.0,Dmitry Tursunov,$2.347,Dmitry Tursunov,Oct 21 2013,Valencia,Q,Jeremy Chardy,false,56.0,cluster_1
+75.0,32.0,Daniel Brands,$1.573,Daniel Brands,Dec 31 2012,Doha,R32,Jeremy Chardy,false,57.0,cluster_2
+78.0,26.0,Milos Raonic,$3.284,Milos Raonic,Oct 29 2012,ATP World Tour Masters 1000 Paris,R32,Jeremy Chardy,false,58.0,cluster_2
+69.0,25.0,John Isner,$3.151,Jeremy Chardy,Oct 21 2013,Valencia,R16,Jeremy Chardy,false,59.0,cluster_2
+66.0,32.0,Florian Mayer,$2.259,Jeremy Chardy,Oct 21 2013,Valencia,R32,Jeremy Chardy,false,60.0,cluster_2
+64.0,34.0,Ernests Gulbis,$3.911,Ernests Gulbis,Oct 14 2013,Stockholm,R32,Jeremy Chardy,false,61.0,cluster_2
+48.0,26.0,Guillermo Garcia-Lopez,$1.681,Jeremy Chardy,Oct 29 2012,ATP World Tour Masters 1000 Paris,R64,Jeremy Chardy,false,62.0,cluster_0
+71.0,43.0,Alexandr Dolgopolov,$2.391,Alexandr Dolgopolov,Oct 22 2012,ATP World Tour Masters 1000 Shanghai,R64,Jeremy Chardy,false,63.0,cluster_1
+78.0,37.0,Nicolas Almagro,$3.212,Nicolas Almagro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Jeremy Chardy,false,64.0,cluster_2
+60.0,34.0,Bernard Tomic,$2.832,Jeremy Chardy,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,Jeremy Chardy,false,65.0,cluster_0
+74.0,26.0,Stan Wawrinka,$3.172,Stan Wawrinka,Oct 22 2012,Tokyo,R16,Jeremy Chardy,false,66.0,cluster_2
+59.0,22.0,Yuichi Sugita,$1.300,Jeremy Chardy,Oct 1 2012,Tokyo,R32,Jeremy Chardy,false,67.0,cluster_0
+64.0,36.0,Marco Chiudinelli,$1.556,Jeremy Chardy,Sep 30 2013,Tokyo,R32,Jeremy Chardy,false,68.0,cluster_2
+70.0,38.0,Martin Klizan,$1.677,Martin Klizan,Oct 1 2012,US Open Slam,Round of 32,Jeremy Chardy,false,69.0,cluster_2
+54.0,28.0,Matthew Ebden,$1.376,Jeremy Chardy,Aug 27 2012,US Open Slam,Round of 64,Jeremy Chardy,false,70.0,cluster_0
+69.0,37.0,Marton Fucsovics,$1.226,Marton Fucsovics,Sep 16 2013,Metz,R32,Jeremy Chardy,false,71.0,cluster_2
+63.0,49.0,Julien Benneteau,$2.666,Julien Benneteau,Aug 26 2013,US Open Slam,Round of 64,Jeremy Chardy,false,72.0,cluster_1
+60.0,20.0,Filippo Volandri,$1.051,Jeremy Chardy,Aug 27 2012,US Open Slam,Round of 128,Jeremy Chardy,false,73.0,cluster_0
+74.0,48.0,Juan Martin Del Potro,$3.395,Juan Martin Del Potro,Aug 27 2012,ATP World Tour Masters 1000 Cincinnati,Q,Jeremy Chardy,false,74.0,cluster_1
+59.0,37.0,Sergiy Stakhovsky,$1.780,Jeremy Chardy,Aug 26 2013,US Open Slam,Round of 128,Jeremy Chardy,false,75.0,cluster_0
+65.0,38.0,Feliciano Lopez,$2.159,Feliciano Lopez,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Jeremy Chardy,false,76.0,cluster_1
+56.0,40.0,Andy Murray,$14.195,Jeremy Chardy,Aug 13 2012,ATP World Tour Masters 1000 Cincinnati,R16,Jeremy Chardy,false,77.0,cluster_1
+56.0,30.0,Denis Istomin,$2.827,Jeremy Chardy,Aug 13 2012,ATP World Tour Masters 1000 Cincinnati,R32,Jeremy Chardy,false,78.0,cluster_0
+60.0,24.0,Andy Roddick,$4.705,Jeremy Chardy,Aug 13 2012,ATP World Tour Masters 1000 Cincinnati,R64,Jeremy Chardy,false,79.0,cluster_0
+53.0,27.0,Adrian Mannarino,$1.681,Jeremy Chardy,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R64,Jeremy Chardy,false,80.0,cluster_0
+71.0,36.0,Milos Raonic,$4.330,Milos Raonic,Aug 5 2013,ATP World Tour Masters 1000 Canada,R64,Jeremy Chardy,false,81.0,cluster_2
+64.0,44.0,Dmitry Tursunov,$1.435,Dmitry Tursunov,Jul 15 2013,Hamburg,R32,Jeremy Chardy,false,82.0,cluster_1
+70.0,37.0,Michael Berrer,$1.327,Michael Berrer,Jul 8 2013,Stuttgart,R16,Jeremy Chardy,false,83.0,cluster_2
+61.0,50.0,Marcel Granollers,$2.157,Marcel Granollers,Aug 13 2012,ATP World Tour Masters 1000 Canada,R16,Jeremy Chardy,false,84.0,cluster_1
+72.0,28.0,Jo-Wilfried Tsonga,$6.349,Jeremy Chardy,Aug 6 2012,ATP World Tour Masters 1000 Canada,R32,Jeremy Chardy,false,85.0,cluster_2
+52.0,37.0,Donald Young,$1.423,Jeremy Chardy,Aug 6 2012,ATP World Tour Masters 1000 Canada,R64,Jeremy Chardy,false,86.0,cluster_0
+65.0,27.0,Jan-Lennard Struff,$1.296,Jeremy Chardy,Jun 24 2013,Wimbledon Slam,Round of 64,Jeremy Chardy,false,87.0,cluster_0
+78.0,44.0,Xavier Malisse,$2.583,Xavier Malisse,Aug 6 2012,Washington,R16,Jeremy Chardy,false,88.0,cluster_2
+68.0,32.0,Edouard Roger-Vasselin,$1.483,Jeremy Chardy,Jul 30 2012,Washington,R32,Jeremy Chardy,false,89.0,cluster_2
+67.0,48.0,Juan Monaco,$3.862,Juan Monaco,Jul 30 2012,Hamburg,Q,Jeremy Chardy,false,90.0,cluster_1
+59.0,31.0,Julian Reister,$1.453,Jeremy Chardy,Jul 16 2012,Hamburg,R16,Jeremy Chardy,false,91.0,cluster_0
+57.0,27.0,Albert Montanes,$1.677,Jeremy Chardy,Jul 16 2012,Hamburg,R32,Jeremy Chardy,false,92.0,cluster_0

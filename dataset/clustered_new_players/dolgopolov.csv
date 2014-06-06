@@ -1,0 +1,92 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+68.0,42.0,David Ferrer,$2.915,David Ferrer,Jun 24 2013,Wimbledon Slam,Round of 32,Alexandr Dolgopolov,false,1.0,cluster_2
+68.0,38.0,Benjamin Becker,$1.780,Benjamin Becker,Jun 10 2013,London / Queen's Club,R16,Alexandr Dolgopolov,false,2.0,cluster_2
+59.0,46.0,Florian Mayer,$2.279,Florian Mayer,Jul 15 2013,Hamburg,R32,Alexandr Dolgopolov,false,3.0,cluster_3
+72.0,40.0,Fernando Verdasco,$1.182,Fernando Verdasco,Jun 17 2013,Eastbourne,R32,Alexandr Dolgopolov,false,4.0,cluster_2
+59.0,45.0,Marcel Granollers,$1.316,Marcel Granollers,May 21 2014,French Open Slam,Round of 64,Alexandr Dolgopolov,false,5.0,cluster_3
+54.0,35.0,Daniel Gimeno-Traver,$1.466,Alexandr Dolgopolov,Aug 18 2013,Winston-Salem,R32,Alexandr Dolgopolov,false,6.0,cluster_4
+61.0,28.0,Yen-Hsun Lu,$1.633,Alexandr Dolgopolov,Aug 18 2013,Winston-Salem,Q,Alexandr Dolgopolov,false,7.0,cluster_1
+55.0,39.0,Juan Monaco,$2.129,Alexandr Dolgopolov,Aug 18 2013,Winston-Salem,R16,Alexandr Dolgopolov,false,8.0,cluster_3
+66.0,42.0,Fernando Verdasco,$2.400,Fernando Verdasco,Sep 13 2013,Davis Cup,Singles,Alexandr Dolgopolov,false,9.0,cluster_3
+61.0,43.0,Gael Monfils,$2.519,Gael Monfils,Aug 18 2013,Winston-Salem,S,Alexandr Dolgopolov,false,10.0,cluster_3
+61.0,22.0,Janko Tipsarevic,$1.806,Alexandr Dolgopolov,Sep 30 2013,Tokyo,R16,Alexandr Dolgopolov,false,11.0,cluster_0
+48.0,27.0,Daniel Brands,$1.545,Alexandr Dolgopolov,Sep 30 2013,Tokyo,R32,Alexandr Dolgopolov,false,12.0,cluster_4
+62.0,43.0,Juan Martin Del Potro,$4.879,Juan Martin Del Potro,Sep 30 2013,Tokyo,Q,Alexandr Dolgopolov,false,13.0,cluster_3
+68.0,20.0,Kenny De Schepper,$1.344,Alexandr Dolgopolov,Oct 21 2013,Basel,R32,Alexandr Dolgopolov,false,14.0,cluster_0
+51.0,23.0,Michael Russell,$1.272,Alexandr Dolgopolov,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,Alexandr Dolgopolov,false,15.0,cluster_4
+77.0,39.0,Rafael Nadal,$8.289,Rafael Nadal,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Alexandr Dolgopolov,false,16.0,cluster_2
+57.0,29.0,Richard Berankis,$1.466,Alexandr Dolgopolov,Jan 13 2014,Australian Open Slam,Round of 128,Alexandr Dolgopolov,false,17.0,cluster_4
+58.0,21.0,Santiago Giraldo,$1.454,Alexandr Dolgopolov,Jun 24 2013,Wimbledon Slam,Round of 64,Alexandr Dolgopolov,false,18.0,cluster_0
+68.0,39.0,Gael Monfils,$1.632,Gael Monfils,Jan 14 2013,Australian Open Slam,Round of 128,Alexandr Dolgopolov,false,19.0,cluster_2
+80.0,45.0,Grigor Dimitrov,$3.046,Grigor Dimitrov,Oct 21 2013,Basel,R16,Alexandr Dolgopolov,false,20.0,cluster_2
+74.0,44.0,Nicolas Mahut,$2.004,Nicolas Mahut,Oct 28 2013,ATP World Tour Masters 1000 Paris,R64,Alexandr Dolgopolov,false,21.0,cluster_2
+66.0,42.0,Mikhail Kukushkin,$1.619,Mikhail Kukushkin,Oct 14 2013,Moscow,R16,Alexandr Dolgopolov,false,22.0,cluster_3
+65.0,47.0,Mikhail Youzhny,$2.442,Mikhail Youzhny,Aug 26 2013,US Open Slam,Round of 64,Alexandr Dolgopolov,false,23.0,cluster_3
+52.0,36.0,David Goffin,$1.571,Alexandr Dolgopolov,Aug 26 2013,US Open Slam,Round of 128,Alexandr Dolgopolov,false,24.0,cluster_4
+64.0,38.0,Dmitry Tursunov,$1.218,Dmitry Tursunov,May 27 2013,French Open Slam,Round of 128,Alexandr Dolgopolov,false,25.0,cluster_3
+59.0,46.0,David Ferrer,$5.059,David Ferrer,Dec 30 2013,Doha,R32,Alexandr Dolgopolov,false,26.0,cluster_3
+65.0,37.0,Jeremy Chardy,$1.741,Jeremy Chardy,Jan 13 2014,Australian Open Slam,Round of 64,Alexandr Dolgopolov,false,27.0,cluster_3
+56.0,23.0,Gastao Elias,$1.084,Alexandr Dolgopolov,Jun 24 2013,Wimbledon Slam,Round of 128,Alexandr Dolgopolov,false,28.0,cluster_0
+50.0,17.0,Jerzy Janowicz,$1.764,Alexandr Dolgopolov,Jan 6 2014,Sydney,R16,Alexandr Dolgopolov,false,29.0,cluster_0
+57.0,13.0,Edouard Roger-Vasselin,$1.529,Alexandr Dolgopolov,Jan 6 2014,Sydney,R32,Alexandr Dolgopolov,false,30.0,cluster_0
+50.0,23.0,Guillermo Garcia-Lopez,$1.411,Alexandr Dolgopolov,Oct 1 2012,Beijing,R32,Alexandr Dolgopolov,false,31.0,cluster_4
+61.0,40.0,Alejandro Falla,$1.308,Alejandro Falla,Sep 24 2012,Kuala Lumpur,R16,Alexandr Dolgopolov,false,32.0,cluster_3
+55.0,30.0,Albert Ramos,$1.399,Alexandr Dolgopolov,May 21 2014,French Open Slam,Round of 128,Alexandr Dolgopolov,false,33.0,cluster_4
+67.0,28.0,Daniel Gimeno-Traver,$1.570,Daniel Gimeno-Traver,Feb 3 2014,Vina del Mar,R32,Alexandr Dolgopolov,false,34.0,cluster_1
+66.0,44.0,Bernard Tomic,$1.883,Bernard Tomic,Jan 6 2014,Sydney,Q,Alexandr Dolgopolov,false,35.0,cluster_3
+65.0,33.0,Pablo Cuevas,$1.401,Alexandr Dolgopolov,Feb 10 2014,Buenos Aires,R32,Alexandr Dolgopolov,false,36.0,cluster_1
+75.0,37.0,Jurgen Melzer,$1.376,Jurgen Melzer,Oct 1 2012,Beijing,R16,Alexandr Dolgopolov,false,37.0,cluster_2
+56.0,33.0,Facundo Bagnis,$1.218,Alexandr Dolgopolov,Feb 17 2014,Rio de Janeiro,R16,Alexandr Dolgopolov,false,38.0,cluster_4
+55.0,35.0,Nicolas Almagro,$3.738,Alexandr Dolgopolov,Feb 17 2014,Rio de Janeiro,R32,Alexandr Dolgopolov,false,39.0,cluster_4
+70.0,29.0,Jeremy Chardy,$2.279,Jeremy Chardy,Feb 10 2014,Buenos Aires,R16,Alexandr Dolgopolov,false,40.0,cluster_1
+70.0,41.0,Rafael Nadal,$5.821,Rafael Nadal,Feb 17 2014,Rio de Janeiro,F,Alexandr Dolgopolov,false,41.0,cluster_2
+54.0,33.0,David Ferrer,$4.792,Alexandr Dolgopolov,Feb 17 2014,Rio de Janeiro,S,Alexandr Dolgopolov,false,42.0,cluster_4
+65.0,16.0,Jeremy Chardy,$1.598,Alexandr Dolgopolov,Feb 24 2014,Acapulco,R16,Alexandr Dolgopolov,false,43.0,cluster_0
+71.0,25.0,Ivo Karlovic,$1.530,Alexandr Dolgopolov,Feb 24 2014,Acapulco,Q,Alexandr Dolgopolov,false,44.0,cluster_1
+48.0,26.0,Vasek Pospisil,$1.787,Alexandr Dolgopolov,Feb 24 2014,Acapulco,R32,Alexandr Dolgopolov,false,45.0,cluster_4
+75.0,50.0,Andy Murray,$8.146,Andy Murray,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R16,Alexandr Dolgopolov,false,46.0,cluster_2
+56.0,28.0,Jeremy Chardy,$1.668,Alexandr Dolgopolov,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R64,Alexandr Dolgopolov,false,47.0,cluster_4
+77.0,36.0,Kevin Anderson,$1.530,Kevin Anderson,Feb 24 2014,Acapulco,S,Alexandr Dolgopolov,false,48.0,cluster_2
+58.0,29.0,Gilles Simon,$2.117,Alexandr Dolgopolov,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R32,Alexandr Dolgopolov,false,49.0,cluster_4
+67.0,32.0,Edouard Roger-Vasselin,$1.406,Edouard Roger-Vasselin,Oct 15 2012,Moscow,R16,Alexandr Dolgopolov,false,50.0,cluster_1
+61.0,16.0,Filippo Volandri,$1.076,Alexandr Dolgopolov,Oct 21 2012,Valencia,R32,Alexandr Dolgopolov,false,51.0,cluster_0
+60.0,14.0,Gilles Muller,$1.695,Alexandr Dolgopolov,Oct 21 2012,Valencia,R16,Alexandr Dolgopolov,false,52.0,cluster_0
+56.0,28.0,Fabio Fognini,$1.530,Alexandr Dolgopolov,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Alexandr Dolgopolov,false,53.0,cluster_4
+53.0,28.0,Jurgen Melzer,$1.508,Alexandr Dolgopolov,Oct 21 2012,Valencia,S,Alexandr Dolgopolov,false,54.0,cluster_4
+64.0,40.0,Rafael Nadal,$7.624,Alexandr Dolgopolov,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Alexandr Dolgopolov,false,55.0,cluster_3
+71.0,35.0,David Ferrer,$3.538,David Ferrer,Oct 21 2012,Valencia,F,Alexandr Dolgopolov,false,56.0,cluster_2
+58.0,38.0,Tim Smyczek,$1.186,Alexandr Dolgopolov,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Alexandr Dolgopolov,false,57.0,cluster_3
+61.0,27.0,Milos Raonic,$2.159,Alexandr Dolgopolov,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,Q,Alexandr Dolgopolov,false,58.0,cluster_1
+53.0,32.0,Jarkko Nieminen,$1.351,Alexandr Dolgopolov,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Alexandr Dolgopolov,false,59.0,cluster_4
+76.0,50.0,Roger Federer,$3.693,Roger Federer,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,S,Alexandr Dolgopolov,false,60.0,cluster_2
+78.0,41.0,Igor Sijsling,$1.461,Igor Sijsling,Oct 29 2012,ATP World Tour Masters 1000 Paris,R64,Alexandr Dolgopolov,false,61.0,cluster_2
+44.0,25.0,Jarkko Nieminen,$1.549,Alexandr Dolgopolov,Dec 31 2012,Brisbane,R16,Alexandr Dolgopolov,false,62.0,cluster_4
+74.0,34.0,Kei Nishikori,$2.330,Kei Nishikori,Dec 31 2012,Brisbane,Q,Alexandr Dolgopolov,false,63.0,cluster_2
+61.0,30.0,Rhyne Williams,$1.384,Alexandr Dolgopolov,Feb 18 2013,Memphis,R16,Alexandr Dolgopolov,false,64.0,cluster_1
+64.0,25.0,Bjorn Phau,$1.250,Alexandr Dolgopolov,Feb 18 2013,Memphis,R32,Alexandr Dolgopolov,false,65.0,cluster_1
+59.0,34.0,Dusan Lajovic,$1.151,Alexandr Dolgopolov,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Alexandr Dolgopolov,false,66.0,cluster_4
+57.0,30.0,Stan Wawrinka,$3.416,Alexandr Dolgopolov,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,Alexandr Dolgopolov,false,67.0,cluster_4
+53.0,31.0,Ernests Gulbis,$2.159,Alexandr Dolgopolov,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Alexandr Dolgopolov,false,68.0,cluster_4
+71.0,42.0,Tomas Berdych,$3.447,Tomas Berdych,Mar 17 2014,ATP World Tour Masters 1000 Miami,Q,Alexandr Dolgopolov,false,69.0,cluster_2
+63.0,31.0,Fabio Fognini,$1.786,Alexandr Dolgopolov,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Alexandr Dolgopolov,false,70.0,cluster_1
+68.0,32.0,Albert Montanes,$1.521,Albert Montanes,Apr 21 2014,Barcelona,R32,Alexandr Dolgopolov,false,71.0,cluster_1
+70.0,39.0,Ernests Gulbis,$2.067,Ernests Gulbis,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Alexandr Dolgopolov,false,72.0,cluster_2
+80.0,39.0,Marinko Matosevic,$1.341,Marinko Matosevic,Feb 18 2013,Memphis,Q,Alexandr Dolgopolov,false,73.0,cluster_2
+44.0,36.0,Nikolay Davydenko,$3.261,Alexandr Dolgopolov,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,Alexandr Dolgopolov,false,74.0,cluster_4
+69.0,36.0,Carlos Berlocq,$1.395,Carlos Berlocq,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,Alexandr Dolgopolov,false,75.0,cluster_2
+67.0,49.0,Tommy Haas,$2.270,Tommy Haas,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,Alexandr Dolgopolov,false,76.0,cluster_3
+53.0,25.0,Bernard Tomic,$1.627,Alexandr Dolgopolov,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Alexandr Dolgopolov,false,77.0,cluster_4
+68.0,34.0,Jo-Wilfried Tsonga,$1.922,Jo-Wilfried Tsonga,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Alexandr Dolgopolov,false,78.0,cluster_1
+68.0,46.0,Ivan Dodig,$1.597,Ivan Dodig,Feb 25 2013,Delray Beach,R32,Alexandr Dolgopolov,false,79.0,cluster_3
+53.0,46.0,Juan Martin Del Potro,$5.335,Juan Martin Del Potro,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Alexandr Dolgopolov,false,80.0,cluster_3
+56.0,17.0,Sergiy Stakhovsky,$1.323,Alexandr Dolgopolov,Apr 29 2013,Munich,R32,Alexandr Dolgopolov,false,81.0,cluster_0
+67.0,24.0,Dmitry Tursunov,$1.300,Alexandr Dolgopolov,Apr 29 2013,Munich,R16,Alexandr Dolgopolov,false,82.0,cluster_1
+66.0,40.0,Ivan Dodig,$1.530,Ivan Dodig,Apr 29 2013,Munich,Q,Alexandr Dolgopolov,false,83.0,cluster_3
+67.0,35.0,Robin Haase,$1.550,Robin Haase,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,Alexandr Dolgopolov,false,84.0,cluster_1
+62.0,33.0,Santiago Giraldo,$1.646,Alexandr Dolgopolov,Jun 10 2013,London / Queen's Club,R32,Alexandr Dolgopolov,false,85.0,cluster_1
+53.0,31.0,Matteo Viola,$1.178,Alexandr Dolgopolov,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Alexandr Dolgopolov,false,86.0,cluster_4
+72.0,42.0,Novak Djokovic,$11.071,Novak Djokovic,May 12 2013,ATP World Tour Masters 1000 Rome,R16,Alexandr Dolgopolov,false,87.0,cluster_2
+71.0,43.0,Somdev Devvarman,$1.521,Somdev Devvarman,Jul 29 2013,Washington,R32,Alexandr Dolgopolov,false,88.0,cluster_2
+53.0,38.0,Kevin Anderson,$3.178,Alexandr Dolgopolov,Aug 5 2013,ATP World Tour Masters 1000 Canada,R64,Alexandr Dolgopolov,false,89.0,cluster_4
+68.0,39.0,Tomas Berdych,$4.032,Tomas Berdych,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,Alexandr Dolgopolov,false,90.0,cluster_2
+79.0,30.0,Ryan Harrison,$1.724,Ryan Harrison,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R64,Alexandr Dolgopolov,false,91.0,cluster_2

@@ -1,0 +1,90 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+80.0,31.0,Ivo Karlovic,$1.077,Ivo Karlovic,May 21 2014,French Open Slam,Round of 128,Grigor Dimitrov,false,1.0,cluster_2
+50.0,20.0,Tommy Haas,$1.467,Grigor Dimitrov,May 12 2014,ATP World Tour Masters 1000 Rome,Q,Grigor Dimitrov,false,2.0,cluster_1
+59.0,29.0,Tomas Berdych,$2.409,Grigor Dimitrov,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Grigor Dimitrov,false,3.0,cluster_4
+61.0,34.0,Edouard Roger-Vasselin,$1.190,Grigor Dimitrov,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Grigor Dimitrov,false,4.0,cluster_4
+67.0,33.0,Tomas Berdych,$2.308,Tomas Berdych,May 5 2014,ATP World Tour Masters 1000 Madrid,R16,Grigor Dimitrov,false,5.0,cluster_4
+67.0,27.0,Marius Copil,$1.077,Grigor Dimitrov,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Grigor Dimitrov,false,6.0,cluster_4
+52.0,31.0,Pablo Carreno Busta,$1.238,Grigor Dimitrov,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Grigor Dimitrov,false,7.0,cluster_7
+51.0,28.0,Lukas Rosol,$1.333,Grigor Dimitrov,Apr 21 2014,Bucharest,F,Grigor Dimitrov,false,8.0,cluster_7
+57.0,27.0,Sergiy Stakhovsky,$1.144,Grigor Dimitrov,Apr 21 2014,Bucharest,Q,Grigor Dimitrov,false,9.0,cluster_7
+67.0,25.0,Jiri Vesely,$1.327,Grigor Dimitrov,Apr 21 2014,Bucharest,R16,Grigor Dimitrov,false,10.0,cluster_5
+60.0,48.0,David Ferrer,$3.378,David Ferrer,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,Grigor Dimitrov,false,11.0,cluster_6
+65.0,22.0,Albert Ramos,$1.316,Grigor Dimitrov,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,Grigor Dimitrov,false,12.0,cluster_5
+53.0,30.0,Marcel Granollers,$1.351,Grigor Dimitrov,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Grigor Dimitrov,false,13.0,cluster_7
+72.0,34.0,Kei Nishikori,$1.883,Kei Nishikori,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Grigor Dimitrov,false,14.0,cluster_2
+64.0,19.0,Albert Montanes,$1.065,Grigor Dimitrov,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Grigor Dimitrov,false,15.0,cluster_5
+67.0,39.0,Ernests Gulbis,$2.058,Ernests Gulbis,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Grigor Dimitrov,false,16.0,cluster_6
+55.0,23.0,Robin Haase,$1.158,Grigor Dimitrov,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Grigor Dimitrov,false,17.0,cluster_1
+65.0,30.0,Kevin Anderson,$1.484,Grigor Dimitrov,Feb 24 2014,Acapulco,F,Grigor Dimitrov,false,18.0,cluster_4
+70.0,29.0,Andy Murray,$2.861,Grigor Dimitrov,Feb 24 2014,Acapulco,S,Grigor Dimitrov,false,19.0,cluster_2
+56.0,40.0,Ernests Gulbis,$1.830,Grigor Dimitrov,Feb 24 2014,Acapulco,Q,Grigor Dimitrov,false,20.0,cluster_0
+50.0,32.0,Marcos Baghdatis,$1.252,Grigor Dimitrov,Feb 24 2014,Acapulco,R16,Grigor Dimitrov,false,21.0,cluster_7
+51.0,34.0,Marinko Matosevic,$1.323,Grigor Dimitrov,Feb 24 2014,Acapulco,R32,Grigor Dimitrov,false,22.0,cluster_7
+74.0,30.0,Ernests Gulbis,$1.591,Ernests Gulbis,Feb 10 2014,Rotterdam,R16,Grigor Dimitrov,false,23.0,cluster_2
+57.0,40.0,Dmitry Tursunov,$1.287,Grigor Dimitrov,Feb 10 2014,Rotterdam,R32,Grigor Dimitrov,false,24.0,cluster_0
+71.0,38.0,Rafael Nadal,$6.575,Rafael Nadal,Jan 13 2014,Australian Open Slam,Quarter Final,Grigor Dimitrov,false,25.0,cluster_3
+65.0,30.0,Roberto Bautista Agut,$1.630,Grigor Dimitrov,Jan 13 2014,Australian Open Slam,Round of 16,Grigor Dimitrov,false,26.0,cluster_4
+68.0,20.0,Milos Raonic,$2.125,Grigor Dimitrov,Jan 13 2014,Australian Open Slam,Round of 32,Grigor Dimitrov,false,27.0,cluster_5
+57.0,30.0,Yen-Hsun Lu,$1.598,Grigor Dimitrov,Jan 13 2014,Australian Open Slam,Round of 64,Grigor Dimitrov,false,28.0,cluster_7
+63.0,21.0,Bradley Klahn,$1.200,Grigor Dimitrov,Jan 13 2014,Australian Open Slam,Round of 128,Grigor Dimitrov,false,29.0,cluster_5
+72.0,33.0,Marin Cilic,$1.669,Marin Cilic,Dec 30 2013,Brisbane,R16,Grigor Dimitrov,false,30.0,cluster_2
+57.0,16.0,Robin Haase,$1.310,Grigor Dimitrov,Dec 30 2013,Brisbane,R32,Grigor Dimitrov,false,31.0,cluster_1
+73.0,30.0,Juan Martin Del Potro,$3.538,Juan Martin Del Potro,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Grigor Dimitrov,false,32.0,cluster_2
+62.0,23.0,Michael Llodra,$1.636,Grigor Dimitrov,Oct 28 2013,ATP World Tour Masters 1000 Paris,R64,Grigor Dimitrov,false,33.0,cluster_5
+70.0,40.0,Roger Federer,$2.996,Roger Federer,Oct 21 2013,Basel,Q,Grigor Dimitrov,false,34.0,cluster_3
+54.0,19.0,Alexandr Dolgopolov,$1.452,Grigor Dimitrov,Oct 21 2013,Basel,R16,Grigor Dimitrov,false,35.0,cluster_1
+50.0,29.0,Radek Stepanek,$2.014,Grigor Dimitrov,Oct 21 2013,Basel,R32,Grigor Dimitrov,false,36.0,cluster_7
+60.0,40.0,David Ferrer,$2.480,Grigor Dimitrov,Oct 14 2013,Stockholm,F,Grigor Dimitrov,false,37.0,cluster_6
+58.0,32.0,Benoit Paire,$1.571,Grigor Dimitrov,Oct 14 2013,Stockholm,S,Grigor Dimitrov,false,38.0,cluster_7
+56.0,16.0,Kenny De Schepper,$1.202,Grigor Dimitrov,Oct 14 2013,Stockholm,Q,Grigor Dimitrov,false,39.0,cluster_1
+50.0,21.0,Jan-Lennard Struff,$1.215,Grigor Dimitrov,Oct 14 2013,Stockholm,R16,Grigor Dimitrov,false,40.0,cluster_1
+57.0,33.0,Marius Copil,$1.421,Grigor Dimitrov,Oct 14 2013,Stockholm,R32,Grigor Dimitrov,false,41.0,cluster_7
+70.0,41.0,Kei Nishikori,$2.269,Kei Nishikori,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,Grigor Dimitrov,false,42.0,cluster_3
+77.0,43.0,Roberto Bautista Agut,$1.663,Roberto Bautista Agut,Sep 30 2013,Beijing,R32,Grigor Dimitrov,false,43.0,cluster_3
+62.0,42.0,Joao Sousa,$1.072,Joao Sousa,Aug 26 2013,US Open Slam,Round of 128,Grigor Dimitrov,false,44.0,cluster_6
+64.0,39.0,Rafael Nadal,$6.217,Rafael Nadal,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R16,Grigor Dimitrov,false,45.0,cluster_6
+47.0,28.0,Brian Baker,$1.262,Grigor Dimitrov,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Grigor Dimitrov,false,46.0,cluster_7
+62.0,32.0,Nicolas Almagro,$2.086,Grigor Dimitrov,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R64,Grigor Dimitrov,false,47.0,cluster_4
+66.0,40.0,Marcel Granollers,$1.246,Marcel Granollers,Aug 5 2013,ATP World Tour Masters 1000 Canada,R64,Grigor Dimitrov,false,48.0,cluster_6
+75.0,27.0,Tommy Haas,$1.958,Tommy Haas,Jul 29 2013,Washington,Q,Grigor Dimitrov,false,49.0,cluster_2
+54.0,31.0,Sam Querrey,$1.685,Grigor Dimitrov,Jul 29 2013,Washington,R16,Grigor Dimitrov,false,50.0,cluster_7
+71.0,21.0,Xavier Malisse,$1.443,Grigor Dimitrov,Jul 29 2013,Washington,R32,Grigor Dimitrov,false,51.0,cluster_5
+68.0,38.0,Fernando Verdasco,$2.178,Fernando Verdasco,Jul 8 2013,Bastad,S,Grigor Dimitrov,false,52.0,cluster_6
+48.0,37.0,Juan Monaco,$2.548,Grigor Dimitrov,Jul 8 2013,Bastad,Q,Grigor Dimitrov,false,53.0,cluster_0
+61.0,36.0,Filippo Volandri,$1.384,Grigor Dimitrov,Jul 8 2013,Bastad,R16,Grigor Dimitrov,false,54.0,cluster_6
+56.0,30.0,Elias Ymer,$1.026,Grigor Dimitrov,Jul 8 2013,Bastad,R32,Grigor Dimitrov,false,55.0,cluster_7
+70.0,28.0,Grega Zemlja,$1.218,Grega Zemlja,Jun 24 2013,Wimbledon Slam,Round of 64,Grigor Dimitrov,false,56.0,cluster_2
+55.0,16.0,Simone Bolelli,$1.051,Grigor Dimitrov,Jun 24 2013,Wimbledon Slam,Round of 128,Grigor Dimitrov,false,57.0,cluster_1
+73.0,41.0,Lleyton Hewitt,$1.484,Lleyton Hewitt,Jun 10 2013,London / Queen's Club,R32,Grigor Dimitrov,false,58.0,cluster_3
+59.0,29.0,Dudi Sela,$1.221,Grigor Dimitrov,Jun 10 2013,London / Queen's Club,R64,Grigor Dimitrov,false,59.0,cluster_4
+73.0,50.0,Novak Djokovic,$9.817,Novak Djokovic,May 27 2013,French Open Slam,Round of 32,Grigor Dimitrov,false,60.0,cluster_3
+55.0,28.0,Lucas Pouille,$1.057,Grigor Dimitrov,May 27 2013,French Open Slam,Round of 64,Grigor Dimitrov,false,61.0,cluster_7
+49.0,41.0,Alejandro Falla,$1.096,Grigor Dimitrov,May 27 2013,French Open Slam,Round of 128,Grigor Dimitrov,false,62.0,cluster_0
+76.0,41.0,Richard Gasquet,$2.086,Richard Gasquet,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Grigor Dimitrov,false,63.0,cluster_3
+66.0,27.0,Marcos Baghdatis,$1.241,Grigor Dimitrov,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Grigor Dimitrov,false,64.0,cluster_4
+64.0,39.0,Stan Wawrinka,$2.842,Stan Wawrinka,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Grigor Dimitrov,false,65.0,cluster_6
+63.0,36.0,Novak Djokovic,$11.919,Grigor Dimitrov,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Grigor Dimitrov,false,66.0,cluster_6
+57.0,16.0,Javier Marti,$1.171,Grigor Dimitrov,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,Grigor Dimitrov,false,67.0,cluster_1
+68.0,48.0,Tommy Robredo,$1.611,Tommy Robredo,Apr 22 2013,Barcelona,R32,Grigor Dimitrov,false,68.0,cluster_3
+60.0,36.0,Rafael Nadal,$17.229,Rafael Nadal,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,Q,Grigor Dimitrov,false,69.0,cluster_6
+50.0,27.0,Florian Mayer,$1.357,Grigor Dimitrov,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R16,Grigor Dimitrov,false,70.0,cluster_7
+52.0,24.0,Janko Tipsarevic,$2.105,Grigor Dimitrov,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Grigor Dimitrov,false,71.0,cluster_1
+50.0,37.0,Xavier Malisse,$1.370,Grigor Dimitrov,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Grigor Dimitrov,false,72.0,cluster_0
+62.0,41.0,Andy Murray,$8.550,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,Grigor Dimitrov,false,73.0,cluster_6
+68.0,34.0,Simone Bolelli,$1.244,Grigor Dimitrov,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,Grigor Dimitrov,false,74.0,cluster_4
+72.0,42.0,Novak Djokovic,$23.285,Novak Djokovic,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Grigor Dimitrov,false,75.0,cluster_3
+65.0,16.0,Matthew Ebden,$1.279,Grigor Dimitrov,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,Grigor Dimitrov,false,76.0,cluster_5
+73.0,35.0,Juan Martin Del Potro,$4.632,Juan Martin Del Potro,Feb 11 2013,Rotterdam,S,Grigor Dimitrov,false,77.0,cluster_2
+65.0,28.0,Marcos Baghdatis,$1.891,Grigor Dimitrov,Feb 11 2013,Rotterdam,Q,Grigor Dimitrov,false,78.0,cluster_4
+63.0,16.0,Nikolay Davydenko,$2.046,Grigor Dimitrov,Feb 11 2013,Rotterdam,R16,Grigor Dimitrov,false,79.0,cluster_5
+62.0,31.0,Bernard Tomic,$2.230,Grigor Dimitrov,Feb 11 2013,Rotterdam,R32,Grigor Dimitrov,false,80.0,cluster_4
+75.0,44.0,Julien Benneteau,$1.611,Julien Benneteau,Jan 14 2013,Australian Open Slam,Round of 128,Grigor Dimitrov,false,81.0,cluster_3
+77.0,48.0,Fabio Fognini,$1.288,Fabio Fognini,Jan 7 2013,Sydney,R32,Grigor Dimitrov,false,82.0,cluster_3
+67.0,38.0,Andy Murray,$6.349,Andy Murray,Dec 31 2012,Brisbane,F,Grigor Dimitrov,false,83.0,cluster_6
+65.0,30.0,Marcos Baghdatis,$1.914,Grigor Dimitrov,Dec 31 2012,Brisbane,S,Grigor Dimitrov,false,84.0,cluster_4
+52.0,29.0,Jurgen Melzer,$1.432,Grigor Dimitrov,Dec 31 2012,Brisbane,Q,Grigor Dimitrov,false,85.0,cluster_7
+74.0,21.0,Milos Raonic,$2.868,Grigor Dimitrov,Dec 31 2012,Brisbane,R16,Grigor Dimitrov,false,86.0,cluster_5
+62.0,25.0,Brian Baker,$1.390,Grigor Dimitrov,Dec 31 2012,Brisbane,R32,Grigor Dimitrov,false,87.0,cluster_4
+76.0,32.0,Juan Monaco,$2.056,Juan Monaco,Oct 29 2012,ATP World Tour Masters 1000 Paris,R32,Grigor Dimitrov,false,88.0,cluster_2
+63.0,26.0,Jurgen Melzer,$1.663,Grigor Dimitrov,Oct 29 2012,ATP World Tour Masters 1000 Paris,R64,Grigor Dimitrov,false,89.0,cluster_4

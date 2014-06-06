@@ -1,0 +1,83 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+54.0,31.0,Santiago Giraldo,$2.894,Andreas Seppi,May 21 2014,French Open Slam,Round of 128,Andreas Seppi,false,1.0,cluster_7
+64.0,43.0,Tommy Haas,$1.930,Tommy Haas,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Andreas Seppi,false,2.0,cluster_3
+67.0,41.0,Fernando Verdasco,$3.151,Fernando Verdasco,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Andreas Seppi,false,3.0,cluster_3
+65.0,37.0,Tommy Haas,$3.075,Tommy Haas,Apr 28 2014,Munich,Q,Andreas Seppi,false,4.0,cluster_3
+43.0,43.0,Albert Ramos,$2.221,Andreas Seppi,Apr 28 2014,Munich,R16,Andreas Seppi,false,5.0,cluster_0
+55.0,29.0,Michael Berrer,$1.272,Andreas Seppi,Apr 28 2014,Munich,R32,Andreas Seppi,false,6.0,cluster_7
+54.0,47.0,Carlos Berlocq,$2.263,Carlos Berlocq,Apr 21 2014,Bucharest,R32,Andreas Seppi,false,7.0,cluster_4
+68.0,55.0,Rafael Nadal,$32.211,Rafael Nadal,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,Andreas Seppi,false,8.0,cluster_5
+61.0,37.0,Pablo Andujar,$1.900,Andreas Seppi,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,Andreas Seppi,false,9.0,cluster_3
+58.0,31.0,Mikhail Youzhny,$1.948,Andreas Seppi,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Andreas Seppi,false,10.0,cluster_7
+50.0,36.0,James Ward,$1.138,Andreas Seppi,Apr 4 2014,Davis Cup,Reverse Singles,Andreas Seppi,false,11.0,cluster_0
+64.0,46.0,Andy Murray,$5.201,Andy Murray,Apr 4 2014,Davis Cup,Singles,Andreas Seppi,false,12.0,cluster_3
+72.0,50.0,David Ferrer,$7.365,David Ferrer,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Andreas Seppi,false,13.0,cluster_5
+55.0,46.0,Radek Stepanek,$3.436,Andreas Seppi,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Andreas Seppi,false,14.0,cluster_4
+63.0,31.0,Sam Querrey,$2.494,Andreas Seppi,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Andreas Seppi,false,15.0,cluster_1
+66.0,44.0,Philipp Kohlschreiber,$3.394,Philipp Kohlschreiber,Feb 24 2014,Dubai,R16,Andreas Seppi,false,16.0,cluster_3
+55.0,36.0,Florian Mayer,$2.684,Andreas Seppi,Feb 24 2014,Dubai,R32,Andreas Seppi,false,17.0,cluster_7
+71.0,37.0,Michael Llodra,$2.288,Michael Llodra,Feb 17 2014,Marseille,R16,Andreas Seppi,false,18.0,cluster_2
+57.0,39.0,Donald Young,$1.424,Donald Young,Jan 13 2014,Australian Open Slam,Round of 64,Andreas Seppi,false,19.0,cluster_3
+64.0,36.0,Lleyton Hewitt,$4.206,Andreas Seppi,Jan 13 2014,Australian Open Slam,Round of 128,Andreas Seppi,false,20.0,cluster_3
+77.0,37.0,Marinko Matosevic,$2.187,Marinko Matosevic,Jan 6 2014,Sydney,R16,Andreas Seppi,false,21.0,cluster_2
+51.0,35.0,Simon Greul,$1.104,Andreas Seppi,Nov 4 2013,Ortisei,F,Andreas Seppi,false,22.0,cluster_0
+68.0,29.0,Teymuraz Gabashvili,$1.259,Andreas Seppi,Nov 4 2013,Ortisei,S,Andreas Seppi,false,23.0,cluster_1
+54.0,26.0,Frank Dancevic,$1.248,Andreas Seppi,Nov 4 2013,Ortisei,Q,Andreas Seppi,false,24.0,cluster_7
+52.0,40.0,Farrukh Dustov,$1.138,Andreas Seppi,Nov 4 2013,Ortisei,R16,Andreas Seppi,false,25.0,cluster_0
+60.0,18.0,Thiemo de Bakker,$1.175,Andreas Seppi,Nov 4 2013,Ortisei,R32,Andreas Seppi,false,26.0,cluster_6
+68.0,40.0,Philipp Kohlschreiber,$2.168,Philipp Kohlschreiber,Oct 28 2013,ATP World Tour Masters 1000 Paris,R64,Andreas Seppi,false,27.0,cluster_3
+72.0,33.0,Daniel Brands,$1.514,Daniel Brands,Oct 21 2013,Basel,R32,Andreas Seppi,false,28.0,cluster_1
+53.0,47.0,Mikhail Kukushkin,$1.729,Mikhail Kukushkin,Oct 14 2013,Moscow,S,Andreas Seppi,false,29.0,cluster_4
+55.0,17.0,Paolo Lorenzi,$1.218,Andreas Seppi,Oct 14 2013,Moscow,R16,Andreas Seppi,false,30.0,cluster_6
+65.0,41.0,Roger Federer,$5.857,Roger Federer,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Andreas Seppi,false,31.0,cluster_3
+52.0,28.0,Lleyton Hewitt,$2.465,Andreas Seppi,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,Andreas Seppi,false,32.0,cluster_7
+69.0,37.0,Stan Wawrinka,$5.132,Stan Wawrinka,Sep 30 2013,Beijing,R32,Andreas Seppi,false,33.0,cluster_1
+62.0,40.0,Nicolas Mahut,$1.724,Nicolas Mahut,Sep 16 2013,Metz,R16,Andreas Seppi,false,34.0,cluster_3
+61.0,39.0,Denis Istomin,$2.437,Denis Istomin,Aug 26 2013,US Open Slam,Round of 32,Andreas Seppi,false,35.0,cluster_3
+58.0,40.0,Somdev Devvarman,$1.508,Andreas Seppi,Aug 26 2013,US Open Slam,Round of 64,Andreas Seppi,false,36.0,cluster_3
+60.0,35.0,Xavier Malisse,$1.469,Andreas Seppi,Aug 26 2013,US Open Slam,Round of 128,Andreas Seppi,false,37.0,cluster_3
+69.0,37.0,Steve Johnson,$1.799,Steve Johnson,Aug 18 2013,Winston-Salem,R32,Andreas Seppi,false,38.0,cluster_1
+78.0,43.0,Stan Wawrinka,$3.219,Stan Wawrinka,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R64,Andreas Seppi,false,39.0,cluster_2
+67.0,42.0,Kei Nishikori,$2.737,Kei Nishikori,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,Andreas Seppi,false,40.0,cluster_3
+59.0,39.0,Lukas Rosol,$1.404,Andreas Seppi,Aug 5 2013,ATP World Tour Masters 1000 Canada,R64,Andreas Seppi,false,41.0,cluster_3
+61.0,40.0,Tommy Robredo,$2.571,Tommy Robredo,Jul 22 2013,Umag,S,Andreas Seppi,false,42.0,cluster_3
+54.0,30.0,Horacio Zeballos,$1.419,Andreas Seppi,Jul 22 2013,Umag,Q,Andreas Seppi,false,43.0,cluster_7
+57.0,50.0,Marcel Granollers,$1.623,Marcel Granollers,Jul 15 2013,Hamburg,R32,Andreas Seppi,false,44.0,cluster_4
+72.0,39.0,Juan Martin del Potro,$4.205,Juan Martin del Potro,Jun 24 2013,Wimbledon Slam,Round of 16,Andreas Seppi,false,45.0,cluster_2
+60.0,36.0,Kei Nishikori,$3.467,Andreas Seppi,Jun 24 2013,Wimbledon Slam,Round of 32,Andreas Seppi,false,46.0,cluster_3
+58.0,38.0,Michael Llodra,$2.504,Andreas Seppi,Jun 24 2013,Wimbledon Slam,Round of 64,Andreas Seppi,false,47.0,cluster_3
+71.0,31.0,Denis Istomin,$1.611,Andreas Seppi,Jun 24 2013,Wimbledon Slam,Round of 128,Andreas Seppi,false,48.0,cluster_1
+55.0,50.0,Gilles Simon,$2.317,Gilles Simon,Jun 17 2013,Eastbourne,S,Andreas Seppi,false,49.0,cluster_4
+54.0,32.0,Radek Stepanek,$2.953,Andreas Seppi,Jun 17 2013,Eastbourne,Q,Andreas Seppi,false,50.0,cluster_7
+66.0,28.0,Ryan Harrison,$1.655,Andreas Seppi,Jun 17 2013,Eastbourne,R16,Andreas Seppi,false,51.0,cluster_1
+56.0,43.0,Guillaume Rufin,$1.490,Andreas Seppi,Jun 17 2013,Eastbourne,R32,Andreas Seppi,false,52.0,cluster_4
+74.0,46.0,Nicolas Almagro,$5.085,Nicolas Almagro,May 27 2013,French Open Slam,Round of 32,Andreas Seppi,false,53.0,cluster_2
+60.0,34.0,Blaz Kavcic,$1.376,Andreas Seppi,May 27 2013,French Open Slam,Round of 64,Andreas Seppi,false,54.0,cluster_7
+59.0,36.0,Leonardo Mayer,$1.256,Andreas Seppi,May 27 2013,French Open Slam,Round of 128,Andreas Seppi,false,55.0,cluster_3
+55.0,44.0,Yen-Hsun Lu,$1.125,Yen-Hsun Lu,May 19 2013,Nice,R32,Andreas Seppi,false,56.0,cluster_4
+66.0,55.0,Fabio Fognini,$2.077,Fabio Fognini,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Andreas Seppi,false,57.0,cluster_5
+75.0,50.0,Tommy Haas,$2.566,Tommy Haas,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,Andreas Seppi,false,58.0,cluster_5
+67.0,49.0,David Ferrer,$5.094,David Ferrer,Apr 29 2013,Oeiras,S,Andreas Seppi,false,59.0,cluster_5
+53.0,33.0,Tommy Robredo,$2.236,Andreas Seppi,Apr 29 2013,Oeiras,Q,Andreas Seppi,false,60.0,cluster_7
+45.0,28.0,Alejandro Falla,$1.416,Andreas Seppi,Apr 29 2013,Oeiras,R16,Andreas Seppi,false,61.0,cluster_0
+66.0,42.0,Lukas Rosol,$1.424,Lukas Rosol,Apr 22 2013,Bucharest,R16,Andreas Seppi,false,62.0,cluster_3
+52.0,46.0,Fabio Fognini,$1.711,Fabio Fognini,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Andreas Seppi,false,63.0,cluster_4
+75.0,43.0,Andy Murray,$12.872,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,Andreas Seppi,false,64.0,cluster_2
+64.0,33.0,Thomaz Bellucci,$1.435,Andreas Seppi,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,Andreas Seppi,false,65.0,cluster_1
+58.0,36.0,Aljaz Bedene,$1.484,Andreas Seppi,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,Andreas Seppi,false,66.0,cluster_7
+65.0,39.0,Ernests Gulbis,$2.924,Ernests Gulbis,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Andreas Seppi,false,67.0,cluster_3
+59.0,33.0,Daniel Brands,$1.837,Andreas Seppi,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,Andreas Seppi,false,68.0,cluster_7
+69.0,54.0,Novak Djokovic,$19.689,Novak Djokovic,Feb 25 2013,Dubai,Q,Andreas Seppi,false,69.0,cluster_5
+58.0,33.0,Lukas Rosol,$1.408,Andreas Seppi,Feb 25 2013,Dubai,R16,Andreas Seppi,false,70.0,cluster_7
+47.0,40.0,Paul-Henri Mathieu,$1.593,Andreas Seppi,Feb 25 2013,Dubai,R32,Andreas Seppi,false,71.0,cluster_0
+67.0,36.0,Matthias Bachinger,$1.278,Matthias Bachinger,Feb 11 2013,Rotterdam,R32,Andreas Seppi,false,72.0,cluster_1
+66.0,43.0,Jeremy Chardy,$1.585,Jeremy Chardy,Feb 4 2013,Australian Open Slam,Round of 16,Andreas Seppi,false,73.0,cluster_3
+58.0,41.0,Marin Cilic,$3.114,Andreas Seppi,Jan 14 2013,Australian Open Slam,Round of 32,Andreas Seppi,false,74.0,cluster_3
+69.0,28.0,Denis Istomin,$1.931,Andreas Seppi,Jan 14 2013,Australian Open Slam,Round of 64,Andreas Seppi,false,75.0,cluster_1
+58.0,24.0,Horacio Zeballos,$1.242,Andreas Seppi,Jan 14 2013,Australian Open Slam,Round of 128,Andreas Seppi,false,76.0,cluster_6
+58.0,18.0,Marcel Granollers,$1.846,Andreas Seppi,Jan 7 2013,Sydney,Q,Andreas Seppi,false,77.0,cluster_6
+56.0,33.0,John Millman,$1.498,Andreas Seppi,Jan 7 2013,Sydney,R16,Andreas Seppi,false,78.0,cluster_7
+70.0,45.0,Benjamin Becker,$1.310,Benjamin Becker,Dec 31 2012,Ortisei,F,Andreas Seppi,false,79.0,cluster_2
+56.0,26.0,Edouard Roger-Vasselin,$1.300,Andreas Seppi,Nov 5 2012,Ortisei,S,Andreas Seppi,false,80.0,cluster_7
+63.0,20.0,Pierre-Hugues Herbert,$1.090,Andreas Seppi,Nov 5 2012,Ortisei,Q,Andreas Seppi,false,81.0,cluster_6
+66.0,20.0,Jan Mertl,$1.210,Andreas Seppi,Nov 5 2012,Ortisei,R16,Andreas Seppi,false,82.0,cluster_6

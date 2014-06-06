@@ -1,0 +1,93 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+54.0,50.0,Gael Monfils,$1.939,Gael Monfils,May 21 2014,French Open Slam,Round of 32,Fabio Fognini,false,1.0,cluster_1
+51.0,36.0,Andreas Beck,$1.138,Fabio Fognini,May 21 2014,French Open Slam,Round of 128,Fabio Fognini,false,2.0,cluster_3
+71.0,43.0,Alexandr Dolgopolov,$2.752,Alexandr Dolgopolov,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Fabio Fognini,false,3.0,cluster_0
+56.0,41.0,Joao Sousa,$1.158,Fabio Fognini,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Fabio Fognini,false,4.0,cluster_4
+74.0,43.0,Lukas Rosol,$1.200,Lukas Rosol,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Fabio Fognini,false,5.0,cluster_0
+58.0,34.0,Roberto Bautista Agut,$2.270,Fabio Fognini,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Fabio Fognini,false,6.0,cluster_4
+64.0,21.0,Lukas Lacko,$1.424,Fabio Fognini,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Fabio Fognini,false,7.0,cluster_2
+38.0,39.0,Lleyton Hewitt,$2.880,Fabio Fognini,Sep 30 2013,Beijing,R16,Fabio Fognini,false,8.0,cluster_3
+83.0,51.0,Novak Djokovic,$15.802,Novak Djokovic,Jan 13 2014,Australian Open Slam,Round of 16,Fabio Fognini,false,9.0,cluster_0
+61.0,37.0,Jarkko Nieminen,$1.868,Fabio Fognini,Jan 13 2014,Australian Open Slam,Round of 64,Fabio Fognini,false,10.0,cluster_4
+62.0,32.0,Thomaz Bellucci,$1.228,Fabio Fognini,May 21 2014,French Open Slam,Round of 64,Fabio Fognini,false,11.0,cluster_4
+70.0,54.0,Rajeev Ram,$1.178,Rajeev Ram,Aug 26 2013,US Open Slam,Round of 128,Fabio Fognini,false,12.0,cluster_0
+56.0,28.0,Andy Murray,$3.212,Fabio Fognini,Apr 4 2014,Davis Cup,Reverse Singles,Fabio Fognini,false,13.0,cluster_2
+46.0,40.0,Alex Bogomolov Jr.,$1.759,Fabio Fognini,Jan 13 2014,Australian Open Slam,Round of 128,Fabio Fognini,false,14.0,cluster_3
+53.0,39.0,Aljaz Bedene,$1.876,Fabio Fognini,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R128,Fabio Fognini,false,15.0,cluster_3
+62.0,35.0,Aljaz Bedene,$1.700,Fabio Fognini,Feb 25 2013,Acapulco,R16,Fabio Fognini,false,16.0,cluster_4
+57.0,36.0,Santiago Giraldo,$1.687,Fabio Fognini,Feb 25 2013,Acapulco,Q,Fabio Fognini,false,17.0,cluster_4
+63.0,43.0,David Ferrer,$14.400,David Ferrer,Mar 6 2013,Acapulco,S,Fabio Fognini,false,18.0,cluster_4
+55.0,33.0,Stan Wawrinka,$4.960,Fabio Fognini,Feb 25 2013,Acapulco,R32,Fabio Fognini,false,19.0,cluster_2
+67.0,49.0,Novak Djokovic,$35.456,Novak Djokovic,Mar 18 2013,ATP World Tour Masters 1000 Indian Wells,R64,Fabio Fognini,false,20.0,cluster_0
+52.0,29.0,Michael Llodra,$2.369,Fabio Fognini,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,Fabio Fognini,false,21.0,cluster_2
+71.0,47.0,David Ferrer,$7.247,David Ferrer,Apr 5 2013,ATP World Tour Masters 1000 Miami,R32,Fabio Fognini,false,22.0,cluster_0
+60.0,26.0,Sam Querrey,$2.755,Fabio Fognini,Jan 13 2014,Australian Open Slam,Round of 32,Fabio Fognini,false,23.0,cluster_2
+53.0,39.0,James Ward,$1.051,Fabio Fognini,Apr 4 2014,Davis Cup,Singles,Fabio Fognini,false,24.0,cluster_3
+51.0,32.0,Tomas Berdych,$4.290,Fabio Fognini,Apr 22 2013,ATP World Tour Masters 1000 Monte Carlo,R16,Fabio Fognini,false,25.0,cluster_2
+80.0,55.0,Novak Djokovic,$6.217,Novak Djokovic,Apr 22 2013,ATP World Tour Masters 1000 Monte Carlo,S,Fabio Fognini,false,26.0,cluster_0
+53.0,47.0,Andreas Seppi,$2.312,Fabio Fognini,Apr 22 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Fabio Fognini,false,27.0,cluster_1
+55.0,47.0,Rafael Nadal,$12.872,Rafael Nadal,Sep 30 2013,Beijing,Q,Fabio Fognini,false,28.0,cluster_1
+62.0,34.0,Paolo Lorenzi,$1.327,Fabio Fognini,Apr 29 2013,Oeiras,R16,Fabio Fognini,false,29.0,cluster_4
+59.0,33.0,Albert Ramos,$1.957,Fabio Fognini,Apr 22 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Fabio Fognini,false,30.0,cluster_4
+57.0,38.0,Pablo Carreno Busta,$1.401,Pablo Carreno Busta,Apr 29 2013,Oeiras,Q,Fabio Fognini,false,31.0,cluster_4
+51.0,32.0,Richard Gasquet,$3.447,Fabio Fognini,Apr 22 2013,ATP World Tour Masters 1000 Monte Carlo,Q,Fabio Fognini,false,32.0,cluster_2
+74.0,56.0,Rafael Nadal,$26.725,Rafael Nadal,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Fabio Fognini,false,33.0,cluster_0
+57.0,32.0,Tommy Robredo,$2.350,Fabio Fognini,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Fabio Fognini,false,34.0,cluster_2
+78.0,44.0,Novak Djokovic,$10.460,Novak Djokovic,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R16,Fabio Fognini,false,35.0,cluster_0
+44.0,33.0,Andreas Seppi,$1.868,Fabio Fognini,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Fabio Fognini,false,36.0,cluster_3
+62.0,36.0,Mikhail Youzhny,$1.636,Mikhail Youzhny,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,Fabio Fognini,false,37.0,cluster_4
+67.0,38.0,Paolo Lorenzi,$1.340,Fabio Fognini,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,Fabio Fognini,false,38.0,cluster_4
+53.0,42.0,Marco Cecchinato,$1.150,Fabio Fognini,May 19 2013,Nice,R32,Fabio Fognini,false,39.0,cluster_3
+69.0,44.0,Gael Monfils,$1.741,Gael Monfils,May 19 2013,Nice,R16,Fabio Fognini,false,40.0,cluster_0
+52.0,35.0,Lukasz Kubot,$1.464,Fabio Fognini,Oct 14 2013,Vienna,R16,Fabio Fognini,false,41.0,cluster_3
+73.0,40.0,Robin Haase,$1.661,Robin Haase,Oct 14 2013,Vienna,Q,Fabio Fognini,false,42.0,cluster_0
+59.0,36.0,Grega Zemlja,$1.868,Fabio Fognini,Jun 17 2013,Eastbourne,R32,Fabio Fognini,false,43.0,cluster_4
+53.0,42.0,Martin Klizan,$1.304,Fabio Fognini,Oct 21 2013,Valencia,R32,Fabio Fognini,false,44.0,cluster_3
+51.0,37.0,Martin Klizan,$1.900,Fabio Fognini,Jun 17 2013,Eastbourne,R16,Fabio Fognini,false,45.0,cluster_3
+63.0,29.0,Alexander Ward,$1.178,Fabio Fognini,Jul 8 2013,Stuttgart,R32,Fabio Fognini,false,46.0,cluster_2
+77.0,45.0,Ivan Dodig,$2.279,Ivan Dodig,Jun 17 2013,Eastbourne,Q,Fabio Fognini,false,47.0,cluster_0
+42.0,37.0,Leonardo Mayer,$1.388,Fabio Fognini,Jul 8 2013,Stuttgart,R16,Fabio Fognini,false,48.0,cluster_3
+40.0,38.0,Roberto Bautista Agut,$1.421,Fabio Fognini,Jul 8 2013,Stuttgart,S,Fabio Fognini,false,49.0,cluster_3
+58.0,28.0,Tommy Haas,$3.071,Fabio Fognini,Jul 8 2013,Stuttgart,Q,Fabio Fognini,false,50.0,cluster_2
+57.0,52.0,Grigor Dimitrov,$3.375,Grigor Dimitrov,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Fabio Fognini,false,51.0,cluster_1
+59.0,38.0,Philipp Kohlschreiber,$2.178,Fabio Fognini,Jul 8 2013,Stuttgart,F,Fabio Fognini,false,52.0,cluster_4
+46.0,36.0,Albert Ramos,$1.602,Fabio Fognini,Jul 15 2013,Hamburg,R32,Fabio Fognini,false,53.0,cluster_3
+65.0,46.0,Nicolas Almagro,$3.075,Nicolas Almagro,Oct 21 2013,Valencia,Q,Fabio Fognini,false,54.0,cluster_1
+54.0,32.0,Marcel Granollers,$2.067,Fabio Fognini,Oct 21 2013,Valencia,R16,Fabio Fognini,false,55.0,cluster_2
+64.0,42.0,Yuki Bhambri,$1.724,Yuki Bhambri,Dec 30 2013,Chennai,R16,Fabio Fognini,false,56.0,cluster_4
+59.0,20.0,Aljaz Bedene,$1.228,Fabio Fognini,Feb 3 2014,Vina del Mar,R16,Fabio Fognini,false,57.0,cluster_2
+47.0,40.0,Marcel Granollers,$1.377,Fabio Fognini,Jul 15 2013,Hamburg,R16,Fabio Fognini,false,58.0,cluster_3
+52.0,38.0,Thiemo de Bakker,$1.340,Fabio Fognini,Jul 22 2013,Umag,R16,Fabio Fognini,false,59.0,cluster_3
+43.0,31.0,Martin Klizan,$1.383,Fabio Fognini,Jul 22 2013,Umag,Q,Fabio Fognini,false,60.0,cluster_3
+50.0,33.0,Tommy Haas,$2.571,Fabio Fognini,Jul 15 2013,Hamburg,Q,Fabio Fognini,false,61.0,cluster_3
+56.0,36.0,Nicolas Almagro,$2.207,Fabio Fognini,Jul 15 2013,Hamburg,S,Fabio Fognini,false,62.0,cluster_4
+57.0,35.0,Federico Delbonis,$1.399,Fabio Fognini,Jul 15 2013,Hamburg,F,Fabio Fognini,false,63.0,cluster_4
+52.0,45.0,Gael Monfils,$1.559,Fabio Fognini,Jul 22 2013,Umag,S,Fabio Fognini,false,64.0,cluster_1
+58.0,35.0,Jeremy Chardy,$1.423,Fabio Fognini,Feb 3 2014,Vina del Mar,Q,Fabio Fognini,false,65.0,cluster_4
+62.0,39.0,Leonardo Mayer,$1.268,Fabio Fognini,Feb 10 2014,Buenos Aires,R16,Fabio Fognini,false,66.0,cluster_4
+49.0,40.0,Marcos Baghdatis,$2.307,Fabio Fognini,Aug 5 2013,ATP World Tour Masters 1000 Canada,R64,Fabio Fognini,false,67.0,cluster_3
+65.0,41.0,Nicolas Almagro,$1.806,Fabio Fognini,Feb 3 2014,Vina del Mar,S,Fabio Fognini,false,68.0,cluster_4
+43.0,45.0,Julian Reister,$1.150,Fabio Fognini,Feb 10 2014,Buenos Aires,R32,Fabio Fognini,false,69.0,cluster_3
+54.0,47.0,Ernests Gulbis,$2.523,Ernests Gulbis,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,Fabio Fognini,false,70.0,cluster_1
+55.0,31.0,Pablo Andujar,$1.296,Fabio Fognini,Feb 10 2014,Buenos Aires,Q,Fabio Fognini,false,71.0,cluster_2
+64.0,25.0,Dominic Inglot,$1.219,Fabio Fognini,Sep 16 2013,St. Petersburg,R32,Fabio Fognini,false,72.0,cluster_2
+53.0,40.0,Tommy Robredo,$2.983,Fabio Fognini,Sep 30 2013,Beijing,R32,Fabio Fognini,false,73.0,cluster_3
+82.0,42.0,Michal Przysiezny,$1.345,Michal Przysiezny,Sep 16 2013,St. Petersburg,R16,Fabio Fognini,false,74.0,cluster_0
+59.0,40.0,Tommy Robredo,$1.724,Fabio Fognini,Feb 10 2014,Buenos Aires,S,Fabio Fognini,false,75.0,cluster_4
+68.0,44.0,David Ferrer,$3.292,David Ferrer,Feb 10 2014,Buenos Aires,F,Fabio Fognini,false,76.0,cluster_0
+49.0,50.0,Aljaz Bedene,$1.273,Fabio Fognini,Feb 17 2014,Rio de Janeiro,R32,Fabio Fognini,false,77.0,cluster_1
+71.0,32.0,Pablo Cuevas,$1.265,Fabio Fognini,Feb 17 2014,Rio de Janeiro,R16,Fabio Fognini,false,78.0,cluster_4
+64.0,59.0,Alexandr Dolgopolov,$1.559,Alexandr Dolgopolov,Feb 17 2014,Rio de Janeiro,Q,Fabio Fognini,false,79.0,cluster_1
+58.0,38.0,Ryan Harrison,$1.521,Fabio Fognini,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Fabio Fognini,false,80.0,cluster_4
+50.0,41.0,Gael Monfils,$3.204,Fabio Fognini,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Fabio Fognini,false,81.0,cluster_3
+56.0,36.0,Andreas Beck,$1.178,Fabio Fognini,May 27 2013,French Open Slam,Round of 128,Fabio Fognini,false,82.0,cluster_4
+57.0,30.0,Lukas Rosol,$1.105,Fabio Fognini,May 27 2013,French Open Slam,Round of 64,Fabio Fognini,false,83.0,cluster_2
+63.0,43.0,Rafael Nadal,$31.008,Rafael Nadal,May 27 2013,French Open Slam,Round of 32,Fabio Fognini,false,84.0,cluster_4
+59.0,43.0,Martin Klizan,$1.325,Martin Klizan,Apr 28 2014,Munich,F,Fabio Fognini,false,85.0,cluster_1
+50.0,45.0,Roberto Bautista Agut,$1.482,Fabio Fognini,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,Fabio Fognini,false,86.0,cluster_3
+63.0,48.0,Jo-Wilfried Tsonga,$1.735,Jo-Wilfried Tsonga,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,Fabio Fognini,false,87.0,cluster_1
+55.0,29.0,Dustin Brown,$1.365,Fabio Fognini,Apr 28 2014,Munich,R16,Fabio Fognini,false,88.0,cluster_2
+39.0,43.0,Thomaz Bellucci,$1.437,Fabio Fognini,Apr 28 2014,Munich,Q,Fabio Fognini,false,89.0,cluster_3
+50.0,29.0,Jan-Lennard Struff,$1.258,Fabio Fognini,Apr 28 2014,Munich,S,Fabio Fognini,false,90.0,cluster_2
+65.0,45.0,Jurgen Melzer,$1.456,Jurgen Melzer,Jun 24 2013,Wimbledon Slam,Round of 128,Fabio Fognini,false,91.0,cluster_1
+68.0,37.0,Alexandr Dolgopolov,$2.187,Alexandr Dolgopolov,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Fabio Fognini,false,92.0,cluster_4

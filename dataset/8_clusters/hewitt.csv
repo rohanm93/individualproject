@@ -1,0 +1,82 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+61.0,44.0,Carlos Berlocq,$4.375,Carlos Berlocq,May 21 2014,French Open Slam,Round of 128,Lleyton Hewitt,false,1.0,cluster_1
+69.0,38.0,Santiago Giraldo,$4.540,Santiago Giraldo,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Lleyton Hewitt,false,2.0,cluster_5
+64.0,47.0,Albert Ramos,$3.327,Albert Ramos,Apr 28 2014,Munich,R32,Lleyton Hewitt,false,3.0,cluster_1
+62.0,47.0,Sam Querrey,$2.105,Sam Querrey,Apr 7 2014,Houston,R16,Lleyton Hewitt,false,4.0,cluster_1
+48.0,51.0,Peter Polansky,$1.393,Lleyton Hewitt,Apr 7 2014,Houston,R32,Lleyton Hewitt,false,5.0,cluster_6
+57.0,32.0,Robin Haase,$1.538,Lleyton Hewitt,Mar 17 2014,ATP World Tour Masters 1000 Miami,R128,Lleyton Hewitt,false,6.0,cluster_2
+69.0,33.0,Kevin Anderson,$3.444,Kevin Anderson,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Lleyton Hewitt,false,7.0,cluster_4
+52.0,46.0,Matthew Ebden,$1.329,Lleyton Hewitt,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R128,Lleyton Hewitt,false,8.0,cluster_6
+55.0,51.0,Marinko Matosevic,$1.619,Marinko Matosevic,Feb 17 2014,Delray Beach,R16,Lleyton Hewitt,false,9.0,cluster_6
+46.0,36.0,Bradley Klahn,$1.733,Lleyton Hewitt,Feb 17 2014,Delray Beach,R32,Lleyton Hewitt,false,10.0,cluster_3
+55.0,46.0,Michael Russell,$1.252,Michael Russell,Feb 10 2014,Memphis,Q,Lleyton Hewitt,false,11.0,cluster_6
+50.0,39.0,Marcos Baghdatis,$1.568,Lleyton Hewitt,Feb 10 2014,Memphis,R16,Lleyton Hewitt,false,12.0,cluster_3
+64.0,36.0,Andreas Seppi,$1.283,Andreas Seppi,Jan 13 2014,Australian Open Slam,Round of 128,Lleyton Hewitt,false,13.0,cluster_4
+60.0,34.0,Roger Federer,$6.053,Lleyton Hewitt,Dec 30 2013,Brisbane,F,Lleyton Hewitt,false,14.0,cluster_0
+63.0,31.0,Kei Nishikori,$2.437,Lleyton Hewitt,Dec 30 2013,Brisbane,S,Lleyton Hewitt,false,15.0,cluster_4
+52.0,25.0,Marius Copil,$1.325,Lleyton Hewitt,Dec 30 2013,Brisbane,Q,Lleyton Hewitt,false,16.0,cluster_2
+61.0,33.0,Feliciano Lopez,$1.550,Lleyton Hewitt,Dec 30 2013,Brisbane,R16,Lleyton Hewitt,false,17.0,cluster_4
+57.0,30.0,Thanasi Kokkinakis,$1.368,Lleyton Hewitt,Dec 30 2013,Brisbane,R32,Lleyton Hewitt,false,18.0,cluster_2
+72.0,32.0,Vasek Pospisil,$1.940,Vasek Pospisil,Oct 14 2013,Vienna,R32,Lleyton Hewitt,false,19.0,cluster_4
+72.0,47.0,Andreas Seppi,$1.636,Andreas Seppi,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,Lleyton Hewitt,false,20.0,cluster_7
+54.0,41.0,Tommy Haas,$2.579,Lleyton Hewitt,Sep 30 2013,Beijing,R32,Lleyton Hewitt,false,21.0,cluster_0
+49.0,29.0,Lukasz Kubot,$1.400,Lleyton Hewitt,Sep 13 2013,Davis Cup,Singles,Lleyton Hewitt,false,22.0,cluster_2
+58.0,42.0,Mikhail Youzhny,$2.567,Mikhail Youzhny,Aug 26 2013,US Open Slam,Round of 16,Lleyton Hewitt,false,23.0,cluster_0
+63.0,31.0,Evgeny Donskoy,$1.306,Lleyton Hewitt,Aug 26 2013,US Open Slam,Round of 32,Lleyton Hewitt,false,24.0,cluster_4
+59.0,37.0,Juan Martin del Potro,$8.377,Lleyton Hewitt,Aug 26 2013,US Open Slam,Round of 64,Lleyton Hewitt,false,25.0,cluster_0
+49.0,43.0,Brian Baker,$1.370,Lleyton Hewitt,Aug 26 2013,US Open Slam,Round of 128,Lleyton Hewitt,false,26.0,cluster_3
+68.0,37.0,Ryan Harrison,$1.610,Ryan Harrison,Jul 29 2013,Washington,R64,Lleyton Hewitt,false,27.0,cluster_4
+70.0,32.0,John Isner,$2.144,John Isner,Jul 22 2013,Atlanta,S,Lleyton Hewitt,false,28.0,cluster_4
+57.0,34.0,Ivan Dodig,$2.347,Lleyton Hewitt,Jul 22 2013,Atlanta,Q,Lleyton Hewitt,false,29.0,cluster_0
+64.0,28.0,Rhyne Williams,$1.314,Lleyton Hewitt,Jul 22 2013,Atlanta,R16,Lleyton Hewitt,false,30.0,cluster_4
+63.0,29.0,Edouard Roger-Vasselin,$1.421,Lleyton Hewitt,Jul 22 2013,Atlanta,R32,Lleyton Hewitt,false,31.0,cluster_4
+64.0,42.0,Nicolas Mahut,$2.014,Nicolas Mahut,Jul 8 2013,Newport,F,Lleyton Hewitt,false,32.0,cluster_1
+56.0,32.0,John Isner,$2.188,Lleyton Hewitt,Jul 8 2013,Newport,S,Lleyton Hewitt,false,33.0,cluster_2
+57.0,29.0,Jan Hernych,$1.172,Lleyton Hewitt,Jul 8 2013,Newport,Q,Lleyton Hewitt,false,34.0,cluster_2
+41.0,38.0,Prakash Amritraj,$1.103,Lleyton Hewitt,Jul 8 2013,Newport,R16,Lleyton Hewitt,false,35.0,cluster_3
+48.0,35.0,Matthew Ebden,$1.314,Lleyton Hewitt,Jul 8 2013,Newport,R32,Lleyton Hewitt,false,36.0,cluster_3
+66.0,38.0,Dustin Brown,$1.122,Dustin Brown,Jun 24 2013,Wimbledon Slam,Round of 64,Lleyton Hewitt,false,37.0,cluster_4
+58.0,36.0,Stan Wawrinka,$2.380,Lleyton Hewitt,Jun 24 2013,Wimbledon Slam,Round of 128,Lleyton Hewitt,false,38.0,cluster_0
+63.0,44.0,Marin Cilic,$2.308,Marin Cilic,Jun 10 2013,London / Queen's Club,S,Lleyton Hewitt,false,39.0,cluster_1
+59.0,37.0,Juan Martin Del Potro,$3.141,Lleyton Hewitt,Jun 10 2013,London / Queen's Club,Q,Lleyton Hewitt,false,40.0,cluster_0
+64.0,31.0,Sam Querrey,$1.884,Lleyton Hewitt,Jun 10 2013,London / Queen's Club,R16,Lleyton Hewitt,false,41.0,cluster_4
+58.0,26.0,Grigor Dimitrov,$2.912,Lleyton Hewitt,Jun 10 2013,London / Queen's Club,R32,Lleyton Hewitt,false,42.0,cluster_2
+56.0,37.0,Michael Russell,$1.133,Lleyton Hewitt,Jun 10 2013,London / Queen's Club,R64,Lleyton Hewitt,false,43.0,cluster_0
+57.0,50.0,Gilles Simon,$6.612,Gilles Simon,May 27 2013,French Open Slam,Round of 128,Lleyton Hewitt,false,44.0,cluster_6
+57.0,50.0,Pablo Andujar,$3.706,Pablo Andujar,May 19 2013,Nice,R32,Lleyton Hewitt,false,45.0,cluster_6
+65.0,40.0,Martin Alund,$1.604,Martin Alund,Apr 8 2013,Houston,R32,Lleyton Hewitt,false,46.0,cluster_1
+64.0,51.0,Gilles Simon,$2.709,Gilles Simon,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,Lleyton Hewitt,false,47.0,cluster_7
+46.0,42.0,Joao Sousa,$1.197,Lleyton Hewitt,Mar 18 2013,ATP World Tour Masters 1000 Miami,R128,Lleyton Hewitt,false,48.0,cluster_3
+72.0,41.0,Stan Wawrinka,$3.984,Stan Wawrinka,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Lleyton Hewitt,false,49.0,cluster_5
+66.0,30.0,John Isner,$2.933,Lleyton Hewitt,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,Lleyton Hewitt,false,50.0,cluster_4
+55.0,37.0,Lukas Rosol,$1.551,Lleyton Hewitt,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R128,Lleyton Hewitt,false,51.0,cluster_0
+67.0,55.0,Denis Istomin,$2.380,Denis Istomin,Feb 18 2013,Memphis,R16,Lleyton Hewitt,false,52.0,cluster_7
+55.0,41.0,Yen-Hsun Lu,$1.584,Lleyton Hewitt,Feb 18 2013,Memphis,R32,Lleyton Hewitt,false,53.0,cluster_0
+66.0,31.0,Sam Querrey,$3.282,Sam Querrey,Feb 11 2013,San Jose,R16,Lleyton Hewitt,false,54.0,cluster_4
+64.0,39.0,Blaz Kavcic,$1.483,Lleyton Hewitt,Feb 11 2013,San Jose,R32,Lleyton Hewitt,false,55.0,cluster_1
+66.0,45.0,Janko Tipsarevic,$2.289,Janko Tipsarevic,Jan 14 2013,Australian Open Slam,Round of 128,Lleyton Hewitt,false,56.0,cluster_1
+69.0,41.0,Denis Istomin,$1.958,Denis Istomin,Dec 31 2012,Brisbane,R16,Lleyton Hewitt,false,57.0,cluster_5
+56.0,27.0,Igor Kunitsyn,$1.278,Lleyton Hewitt,Dec 31 2012,Brisbane,R32,Lleyton Hewitt,false,58.0,cluster_2
+63.0,48.0,Ivan Dodig,$2.096,Ivan Dodig,Oct 21 2012,Valencia,R16,Lleyton Hewitt,false,59.0,cluster_1
+48.0,41.0,Juan Monaco,$3.659,Lleyton Hewitt,Oct 21 2012,Valencia,R32,Lleyton Hewitt,false,60.0,cluster_3
+66.0,50.0,Nicolas Almagro,$3.233,Nicolas Almagro,Oct 15 2012,Stockholm,Q,Lleyton Hewitt,false,61.0,cluster_7
+54.0,45.0,Jarkko Nieminen,$2.411,Lleyton Hewitt,Oct 15 2012,Stockholm,R16,Lleyton Hewitt,false,62.0,cluster_6
+61.0,34.0,Kevin Anderson,$3.294,Lleyton Hewitt,Oct 15 2012,Stockholm,R32,Lleyton Hewitt,false,63.0,cluster_4
+80.0,40.0,Radek Stepanek,$2.421,Radek Stepanek,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R64,Lleyton Hewitt,false,64.0,cluster_5
+71.0,43.0,David Ferrer,$10.643,David Ferrer,Aug 27 2012,US Open Slam,Round of 32,Lleyton Hewitt,false,65.0,cluster_5
+69.0,34.0,Gilles Muller,$1.655,Lleyton Hewitt,Aug 27 2012,US Open Slam,Round of 64,Lleyton Hewitt,false,66.0,cluster_4
+52.0,40.0,Tobias Kamke,$1.316,Lleyton Hewitt,Aug 27 2012,US Open Slam,Round of 128,Lleyton Hewitt,false,67.0,cluster_3
+59.0,31.0,Mikhail Youzhny,$2.756,Lleyton Hewitt,Aug 13 2012,ATP World Tour Masters 1000 Cincinnati,R64,Lleyton Hewitt,false,68.0,cluster_2
+68.0,37.0,Novak Djokovic,$12.673,Novak Djokovic,Jul 30 2012,Olympics ATP,Round of 16,Lleyton Hewitt,false,69.0,cluster_4
+61.0,22.0,Sergiy Stakhovsky,$1.346,Lleyton Hewitt,Jul 30 2012,Olympics ATP,Round of 64,Lleyton Hewitt,false,70.0,cluster_2
+73.0,36.0,John Isner,$2.929,John Isner,Jul 9 2012,Newport,F,Lleyton Hewitt,false,71.0,cluster_5
+53.0,35.0,Rajeev Ram,$1.459,Lleyton Hewitt,Jul 9 2012,Newport,S,Lleyton Hewitt,false,72.0,cluster_0
+50.0,37.0,Dudi Sela,$1.441,Lleyton Hewitt,Jul 9 2012,Newport,Q,Lleyton Hewitt,false,73.0,cluster_3
+52.0,39.0,Tim Smyczek,$1.338,Lleyton Hewitt,Jul 9 2012,Newport,R16,Lleyton Hewitt,false,74.0,cluster_3
+75.0,41.0,Jo-Wilfried Tsonga,$7.780,Jo-Wilfried Tsonga,Jun 25 2012,Wimbledon Slam,Round of 128,Lleyton Hewitt,false,75.0,cluster_5
+64.0,43.0,Blaz Kavcic,$2.350,Blaz Kavcic,May 27 2012,Roland Garros,R128,Lleyton Hewitt,false,76.0,cluster_1
+67.0,47.0,Novak Djokovic,$21.300,Novak Djokovic,Jan 16 2012,Australian Open Slam,Round of 16,Lleyton Hewitt,false,77.0,cluster_7
+65.0,35.0,Milos Raonic,$3.355,Lleyton Hewitt,Jan 16 2012,Australian Open Slam,Round of 32,Lleyton Hewitt,false,78.0,cluster_4
+63.0,31.0,Andy Roddick,$4.350,Lleyton Hewitt,Jan 16 2012,Australian Open Slam,Round of 64,Lleyton Hewitt,false,79.0,cluster_4
+60.0,36.0,Cedrik-Marcel Stebe,$1.395,Lleyton Hewitt,Jan 16 2012,Australian Open Slam,Round of 128,Lleyton Hewitt,false,80.0,cluster_0
+63.0,45.0,Viktor Troicki,$2.634,Viktor Troicki,Jan 9 2012,Sydney ATP,Round of 32,Lleyton Hewitt,false,81.0,cluster_1

@@ -1,0 +1,80 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+66.0,48.0,Tomas Berdych,$3.156,Tomas Berdych,May 21 2014,French Open Slam,Round of 32,Roberto Bautista Agut,false,1.0,cluster_7
+65.0,48.0,David Ferrer,$5.965,David Ferrer,Aug 26 2013,US Open Slam,Round of 64,Roberto Bautista Agut,false,2.0,cluster_7
+48.0,32.0,Benoit Paire,$1.500,Roberto Bautista Agut,Jan 13 2014,Australian Open Slam,Round of 32,Roberto Bautista Agut,false,3.0,cluster_1
+56.0,40.0,Tomas Berdych,$6.888,Roberto Bautista Agut,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Roberto Bautista Agut,false,4.0,cluster_6
+61.0,36.0,Jarkko Nieminen,$1.445,Roberto Bautista Agut,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Roberto Bautista Agut,false,5.0,cluster_6
+70.0,35.0,Grigor Dimitrov,$2.510,Grigor Dimitrov,Feb 3 2014,Australian Open Slam,Round of 16,Roberto Bautista Agut,false,6.0,cluster_4
+55.0,33.0,Thomaz Bellucci,$1.524,Roberto Bautista Agut,Aug 26 2013,US Open Slam,Round of 128,Roberto Bautista Agut,false,7.0,cluster_0
+62.0,44.0,Ernests Gulbis,$3.378,Ernests Gulbis,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Roberto Bautista Agut,false,8.0,cluster_5
+68.0,54.0,Novak Djokovic,$24.813,Novak Djokovic,Feb 24 2014,Dubai,R16,Roberto Bautista Agut,false,9.0,cluster_7
+64.0,48.0,Dmitry Tursunov,$1.180,Dmitry Tursunov,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Roberto Bautista Agut,false,10.0,cluster_7
+68.0,40.0,Ricardas Berankis,$1.538,Ricardas Berankis,Aug 18 2013,Winston-Salem,R16,Roberto Bautista Agut,false,11.0,cluster_5
+44.0,33.0,Adrian Ungur,$1.164,Roberto Bautista Agut,Feb 24 2014,Dubai,R32,Roberto Bautista Agut,false,12.0,cluster_1
+55.0,28.0,Steve Johnson,$1.424,Roberto Bautista Agut,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R128,Roberto Bautista Agut,false,13.0,cluster_0
+66.0,33.0,Juan Martin del Potro,$13.033,Roberto Bautista Agut,Jan 13 2014,Australian Open Slam,Round of 64,Roberto Bautista Agut,false,14.0,cluster_4
+50.0,39.0,David Goffin,$1.739,Roberto Bautista Agut,Mar 6 2013,Dubai,R32,Roberto Bautista Agut,false,15.0,cluster_3
+56.0,31.0,Paolo Lorenzi,$1.408,Roberto Bautista Agut,May 21 2014,French Open Slam,Round of 128,Roberto Bautista Agut,false,16.0,cluster_0
+50.0,36.0,Benoit Paire,$1.214,Roberto Bautista Agut,May 21 2014,French Open Slam,Round of 64,Roberto Bautista Agut,false,17.0,cluster_3
+55.0,25.0,Daniel Brands,$1.750,Roberto Bautista Agut,Sep 24 2012,Orleans,R16,Roberto Bautista Agut,false,18.0,cluster_0
+64.0,31.0,Ernests Gulbis,$2.530,Roberto Bautista Agut,Oct 15 2012,Orleans,Q,Roberto Bautista Agut,false,19.0,cluster_4
+55.0,47.0,Tatsuma Ito,$1.470,Tatsuma Ito,Oct 21 2012,Moscow,R32,Roberto Bautista Agut,false,20.0,cluster_2
+43.0,28.0,Tim Smyczek,$1.287,Roberto Bautista Agut,Jan 13 2014,Australian Open Slam,Round of 128,Roberto Bautista Agut,false,21.0,cluster_1
+63.0,42.0,Ruben Bemelmans,$1.700,Ruben Bemelmans,Oct 21 2012,Orleans,S,Roberto Bautista Agut,false,22.0,cluster_5
+49.0,43.0,Blaz Kavcic,$1.534,Roberto Bautista Agut,Dec 31 2012,Chennai,R32,Roberto Bautista Agut,false,23.0,cluster_3
+59.0,48.0,Paul-Henri Mathieu,$2.979,Paul-Henri Mathieu,Dec 31 2012,ATP World Tour Masters 1000 Paris,R64,Roberto Bautista Agut,false,24.0,cluster_2
+56.0,32.0,Matthias Bachinger,$1.914,Roberto Bautista Agut,Dec 31 2012,Chennai,R16,Roberto Bautista Agut,false,25.0,cluster_0
+60.0,40.0,Benoit Paire,$2.380,Roberto Bautista Agut,Jan 7 2013,Chennai,S,Roberto Bautista Agut,false,26.0,cluster_6
+58.0,41.0,Tomas Berdych,$11.404,Roberto Bautista Agut,Dec 31 2012,Chennai,Q,Roberto Bautista Agut,false,27.0,cluster_6
+69.0,41.0,Janko Tipsarevic,$4.695,Janko Tipsarevic,Jan 14 2013,Chennai,F,Roberto Bautista Agut,false,28.0,cluster_5
+65.0,41.0,Marc Gicquel,$1.525,Marc Gicquel,Feb 18 2013,Quimper,Q,Roberto Bautista Agut,false,29.0,cluster_5
+62.0,34.0,Filip Krajinovic,$1.283,Roberto Bautista Agut,Feb 25 2013,Marseille,R32,Roberto Bautista Agut,false,30.0,cluster_4
+54.0,32.0,Maxime Authom,$1.503,Roberto Bautista Agut,Feb 11 2013,Quimper,R32,Roberto Bautista Agut,false,31.0,cluster_0
+71.0,50.0,Novak Djokovic,$31.619,Novak Djokovic,Mar 18 2013,Dubai,R16,Roberto Bautista Agut,false,32.0,cluster_7
+69.0,38.0,Wayne Odesnik,$1.504,Wayne Odesnik,Apr 8 2013,ATP World Tour Masters 1000 Indian Wells,R128,Roberto Bautista Agut,false,33.0,cluster_5
+46.0,36.0,Grega Zemlja,$1.747,Grega Zemlja,Apr 22 2013,ATP World Tour Masters 1000 Miami,R128,Roberto Bautista Agut,false,34.0,cluster_3
+59.0,43.0,Florian Mayer,$1.827,Florian Mayer,May 19 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Roberto Bautista Agut,false,35.0,cluster_6
+61.0,40.0,Robin Haase,$1.967,Robin Haase,Apr 22 2013,Casablanca,R32,Roberto Bautista Agut,false,36.0,cluster_6
+55.0,47.0,Jarkko Nieminen,$2.832,Jarkko Nieminen,May 27 2013,Dusseldorf,R16,Roberto Bautista Agut,false,37.0,cluster_2
+70.0,28.0,Stephane Bohli,$1.876,Roberto Bautista Agut,Jun 16 2013,s-Hertogenbosch,R32,Roberto Bautista Agut,false,38.0,cluster_4
+56.0,39.0,Gilles Muller,$1.310,Roberto Bautista Agut,May 19 2013,Dusseldorf,R32,Roberto Bautista Agut,false,39.0,cluster_6
+49.0,32.0,Carlos Berlocq,$1.912,Roberto Bautista Agut,Jun 16 2013,s-Hertogenbosch,R16,Roberto Bautista Agut,false,40.0,cluster_1
+67.0,38.0,Xavier Malisse,$3.375,Xavier Malisse,Jun 24 2013,s-Hertogenbosch,Q,Roberto Bautista Agut,false,41.0,cluster_5
+56.0,32.0,Tobias Kamke,$1.868,Roberto Bautista Agut,Jul 8 2013,Stuttgart,R32,Roberto Bautista Agut,false,42.0,cluster_0
+61.0,32.0,Martin Klizan,$2.494,Roberto Bautista Agut,Jul 8 2013,Stuttgart,R16,Roberto Bautista Agut,false,43.0,cluster_4
+43.0,41.0,Michael Berrer,$1.357,Roberto Bautista Agut,Jul 8 2013,Stuttgart,Q,Roberto Bautista Agut,false,44.0,cluster_3
+54.0,39.0,Fabio Fognini,$2.076,Roberto Bautista Agut,Feb 11 2013,Australian Open Slam,Round of 128,Roberto Bautista Agut,false,45.0,cluster_6
+52.0,23.0,Henri Laaksonen,$1.279,Roberto Bautista Agut,Jul 28 2013,Gstaad,R32,Roberto Bautista Agut,false,46.0,cluster_0
+56.0,27.0,Gilles Muller,$1.279,Roberto Bautista Agut,May 27 2013,French Open Slam,Round of 128,Roberto Bautista Agut,false,47.0,cluster_0
+47.0,34.0,Martin Klizan,$1.813,Roberto Bautista Agut,Aug 18 2013,Winston-Salem,R32,Roberto Bautista Agut,false,48.0,cluster_1
+70.0,43.0,Tomas Berdych,$5.448,Tomas Berdych,Sep 23 2013,Bangkok,R16,Roberto Bautista Agut,false,49.0,cluster_5
+56.0,37.0,Janko Tipsarevic,$2.603,Roberto Bautista Agut,Sep 16 2013,St. Petersburg,R32,Roberto Bautista Agut,false,50.0,cluster_6
+60.0,41.0,Fernando Verdasco,$2.690,Fernando Verdasco,Jul 28 2013,Hamburg,R32,Roberto Bautista Agut,false,51.0,cluster_6
+68.0,35.0,Jurgen Melzer,$2.279,Jurgen Melzer,Feb 11 2013,Australian Open Slam,Round of 64,Roberto Bautista Agut,false,52.0,cluster_4
+59.0,41.0,Evgeny Donskoy,$1.752,Roberto Bautista Agut,Sep 16 2013,St. Petersburg,R16,Roberto Bautista Agut,false,53.0,cluster_6
+69.0,40.0,Jeremy Chardy,$3.309,Jeremy Chardy,Jun 16 2013,French Open Slam,Round of 64,Roberto Bautista Agut,false,54.0,cluster_5
+66.0,39.0,David Ferrer,$7.538,David Ferrer,Jul 8 2013,Wimbledon Slam,Round of 64,Roberto Bautista Agut,false,55.0,cluster_5
+44.0,25.0,Frederik Nielsen,$1.313,Roberto Bautista Agut,Aug 18 2013,Winston-Salem,R64,Roberto Bautista Agut,false,56.0,cluster_1
+58.0,32.0,Teymuraz Gabashvili,$1.574,Roberto Bautista Agut,Jun 24 2013,Wimbledon Slam,Round of 128,Roberto Bautista Agut,false,57.0,cluster_0
+56.0,22.0,Grigor Dimitrov,$2.407,Roberto Bautista Agut,Sep 30 2013,Beijing,R32,Roberto Bautista Agut,false,58.0,cluster_0
+67.0,34.0,Kevin Anderson,$2.230,Roberto Bautista Agut,Oct 21 2013,Valencia,R32,Roberto Bautista Agut,false,59.0,cluster_4
+61.0,33.0,Marco Chiudinelli,$1.287,Roberto Bautista Agut,Sep 23 2013,Bangkok,R32,Roberto Bautista Agut,false,60.0,cluster_4
+66.0,37.0,Alexander Kudryavtsev,$1.253,Alexander Kudryavtsev,Jan 6 2014,Chennai,R32,Roberto Bautista Agut,false,61.0,cluster_5
+57.0,30.0,Daniel Gimeno-Traver,$1.467,Roberto Bautista Agut,Jan 6 2014,Auckland,R32,Roberto Bautista Agut,false,62.0,cluster_0
+62.0,43.0,Dmitry Tursunov,$2.004,Dmitry Tursunov,Oct 21 2013,Valencia,R16,Roberto Bautista Agut,false,63.0,cluster_5
+57.0,30.0,Benoit Paire,$2.139,Roberto Bautista Agut,Jan 6 2014,Auckland,R16,Roberto Bautista Agut,false,64.0,cluster_0
+52.0,29.0,Jack Sock,$1.735,Roberto Bautista Agut,Jan 6 2014,Auckland,Q,Roberto Bautista Agut,false,65.0,cluster_0
+51.0,29.0,Jerzy Janowicz,$1.764,Roberto Bautista Agut,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Roberto Bautista Agut,false,66.0,cluster_1
+65.0,41.0,Fabio Fognini,$1.735,Fabio Fognini,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Roberto Bautista Agut,false,67.0,cluster_5
+67.0,34.0,Ernests Gulbis,$3.136,Ernests Gulbis,Feb 17 2014,Marseille,R16,Roberto Bautista Agut,false,68.0,cluster_4
+54.0,49.0,Fabio Fognini,$2.923,Fabio Fognini,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,Roberto Bautista Agut,false,69.0,cluster_2
+63.0,32.0,Dustin Brown,$1.474,Roberto Bautista Agut,Feb 17 2014,Marseille,R32,Roberto Bautista Agut,false,70.0,cluster_4
+70.0,33.0,John Isner,$2.752,John Isner,Jan 13 2014,Auckland,S,Roberto Bautista Agut,false,71.0,cluster_4
+55.0,25.0,Steve Johnson,$1.452,Roberto Bautista Agut,Mar 17 2014,ATP World Tour Masters 1000 Miami,R128,Roberto Bautista Agut,false,72.0,cluster_0
+50.0,33.0,Vasek Pospisil,$1.170,Roberto Bautista Agut,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Roberto Bautista Agut,false,73.0,cluster_1
+65.0,32.0,Tommy Robredo,$2.312,Roberto Bautista Agut,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Roberto Bautista Agut,false,74.0,cluster_4
+59.0,47.0,Kei Nishikori,$1.967,Kei Nishikori,Apr 21 2014,Barcelona,R32,Roberto Bautista Agut,false,75.0,cluster_2
+56.0,31.0,Lukasz Kubot,$1.165,Roberto Bautista Agut,May 5 2014,ATP World Tour Masters 1000 Madrid,R16,Roberto Bautista Agut,false,76.0,cluster_0
+64.0,34.0,Fernando Verdasco,$2.067,Roberto Bautista Agut,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Roberto Bautista Agut,false,77.0,cluster_4
+64.0,30.0,Santiago Giraldo,$1.703,Roberto Bautista Agut,May 5 2014,ATP World Tour Masters 1000 Madrid,Q,Roberto Bautista Agut,false,78.0,cluster_4
+66.0,49.0,Rafael Nadal,$13.912,Rafael Nadal,May 5 2014,ATP World Tour Masters 1000 Madrid,S,Roberto Bautista Agut,false,79.0,cluster_7

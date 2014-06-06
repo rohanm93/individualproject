@@ -1,0 +1,90 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+63.0,37.0,Andy Murray,$2.014,Andy Murray,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Nicolas Almagro,false,1.0,cluster_0
+66.0,28.0,Andrey Golubev,$1.165,Nicolas Almagro,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Nicolas Almagro,false,2.0,cluster_6
+68.0,37.0,Santiago Giraldo,$1.244,Santiago Giraldo,Apr 21 2014,Barcelona,S,Nicolas Almagro,false,3.0,cluster_0
+62.0,43.0,Rafael Nadal,$7.041,Nicolas Almagro,Apr 21 2014,Barcelona,Q,Nicolas Almagro,false,4.0,cluster_7
+53.0,27.0,Fernando Verdasco,$1.957,Nicolas Almagro,Apr 21 2014,Barcelona,R16,Nicolas Almagro,false,5.0,cluster_2
+59.0,28.0,Martin Klizan,$1.261,Nicolas Almagro,Apr 21 2014,Barcelona,R32,Nicolas Almagro,false,6.0,cluster_4
+66.0,27.0,Guillaume Rufin,$1.185,Nicolas Almagro,Jun 24 2013,Wimbledon Slam,Round of 64,Nicolas Almagro,false,7.0,cluster_6
+63.0,13.0,Jurgen Zopp,$1.070,Nicolas Almagro,Jun 24 2013,Wimbledon Slam,Round of 128,Nicolas Almagro,false,8.0,cluster_5
+63.0,31.0,Nicolas Mahut,$1.128,Nicolas Almagro,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,Nicolas Almagro,false,9.0,cluster_4
+62.0,39.0,Tommy Robredo,$1.221,Tommy Robredo,May 27 2013,French Open Slam,Round of 16,Nicolas Almagro,false,10.0,cluster_0
+54.0,26.0,Andreas Seppi,$1.219,Nicolas Almagro,May 27 2013,French Open Slam,Round of 32,Nicolas Almagro,false,11.0,cluster_2
+52.0,28.0,Paul-Henri Mathieu,$1.351,Nicolas Almagro,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Nicolas Almagro,false,12.0,cluster_2
+62.0,36.0,Fernando Verdasco,$1.540,Fernando Verdasco,Apr 7 2014,Houston,F,Nicolas Almagro,false,13.0,cluster_0
+61.0,35.0,Edouard Roger-Vasselin,$1.207,Nicolas Almagro,May 27 2013,French Open Slam,Round of 64,Nicolas Almagro,false,14.0,cluster_1
+67.0,27.0,Andreas Haider-Maurer,$1.064,Nicolas Almagro,May 27 2013,French Open Slam,Round of 128,Nicolas Almagro,false,15.0,cluster_6
+72.0,31.0,Julien Benneteau,$0,Julien Benneteau,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Nicolas Almagro,false,16.0,cluster_6
+59.0,34.0,Mikhail Youzhny,$1.238,Mikhail Youzhny,May 12 2013,ATP World Tour Masters 1000 Madrid,R32,Nicolas Almagro,false,17.0,cluster_1
+57.0,20.0,Tobias Kamke,$1.068,Nicolas Almagro,May 12 2013,ATP World Tour Masters 1000 Madrid,R64,Nicolas Almagro,false,18.0,cluster_5
+57.0,12.0,Jack Sock,$1.258,Nicolas Almagro,Apr 7 2014,Houston,Q,Nicolas Almagro,false,19.0,cluster_5
+51.0,30.0,Michael Russell,$1.096,Nicolas Almagro,Apr 7 2014,Houston,R16,Nicolas Almagro,false,20.0,cluster_2
+73.0,31.0,John Isner,$2.317,John Isner,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Nicolas Almagro,false,21.0,cluster_6
+64.0,44.0,Rafael Nadal,$8.289,Rafael Nadal,Apr 22 2013,Barcelona,F,Nicolas Almagro,false,22.0,cluster_7
+45.0,23.0,Philipp Kohlschreiber,$1.255,Nicolas Almagro,Apr 22 2013,Barcelona,S,Nicolas Almagro,false,23.0,cluster_2
+64.0,20.0,Sam Querrey,$1.780,Nicolas Almagro,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Nicolas Almagro,false,24.0,cluster_5
+64.0,35.0,Juan Monaco,$1.639,Nicolas Almagro,Apr 22 2013,Barcelona,Q,Nicolas Almagro,false,25.0,cluster_0
+58.0,38.0,Marcel Granollers,$1.209,Nicolas Almagro,Apr 22 2013,Barcelona,R16,Nicolas Almagro,false,26.0,cluster_1
+68.0,34.0,Federico Delbonis,$1.388,Federico Delbonis,Feb 24 2014,Sao Paulo,R16,Nicolas Almagro,false,27.0,cluster_0
+64.0,44.0,Alexandr Dolgopolov,$1.334,Alexandr Dolgopolov,Feb 17 2014,Rio de Janeiro,R32,Nicolas Almagro,false,28.0,cluster_7
+55.0,29.0,Ivan Dodig,$1.116,Nicolas Almagro,Apr 22 2013,Barcelona,R32,Nicolas Almagro,false,29.0,cluster_4
+67.0,35.0,Jurgen Melzer,$1.166,Jurgen Melzer,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Nicolas Almagro,false,30.0,cluster_0
+54.0,33.0,David Goffin,$1.183,Nicolas Almagro,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Nicolas Almagro,false,31.0,cluster_1
+68.0,37.0,John Isner,$1.279,John Isner,Apr 8 2013,Houston,F,Nicolas Almagro,false,32.0,cluster_0
+63.0,45.0,David Ferrer,$3.571,David Ferrer,Feb 10 2014,Buenos Aires,S,Nicolas Almagro,false,33.0,cluster_7
+59.0,35.0,Jeremy Chardy,$1.424,Nicolas Almagro,Feb 10 2014,Buenos Aires,Q,Nicolas Almagro,false,34.0,cluster_1
+59.0,30.0,Paolo Lorenzi,$1.119,Nicolas Almagro,Apr 8 2013,Houston,Q,Nicolas Almagro,false,35.0,cluster_4
+66.0,39.0,Daniel Gimeno-Traver,$1.199,Nicolas Almagro,Feb 10 2014,Buenos Aires,R16,Nicolas Almagro,false,36.0,cluster_0
+57.0,29.0,Horacio Zeballos,$1.183,Nicolas Almagro,Feb 10 2014,Buenos Aires,R32,Nicolas Almagro,false,37.0,cluster_4
+58.0,34.0,Fabio Fognini,$2.159,Fabio Fognini,Feb 3 2014,Vina del Mar,S,Nicolas Almagro,false,38.0,cluster_1
+54.0,32.0,Gael Monfils,$1.228,Nicolas Almagro,Apr 8 2013,Houston,R16,Nicolas Almagro,false,39.0,cluster_1
+69.0,40.0,Richard Gasquet,$2.106,Richard Gasquet,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,Nicolas Almagro,false,40.0,cluster_0
+54.0,19.0,Taro Daniel,$1.113,Nicolas Almagro,Feb 3 2014,Vina del Mar,Q,Nicolas Almagro,false,41.0,cluster_2
+65.0,18.0,Martin Alund,$1.217,Nicolas Almagro,Feb 3 2014,Vina del Mar,R16,Nicolas Almagro,false,42.0,cluster_5
+58.0,35.0,David Goffin,$1.192,Nicolas Almagro,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,Nicolas Almagro,false,43.0,cluster_1
+48.0,20.0,Guido Pella,$1.089,Nicolas Almagro,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,Nicolas Almagro,false,44.0,cluster_2
+66.0,51.0,Stan Wawrinka,$2.528,Stan Wawrinka,Jan 13 2014,ATP World Tour Masters 1000 Paris,R16,Nicolas Almagro,false,45.0,cluster_7
+62.0,27.0,Ivan Dodig,$1.845,Nicolas Almagro,Jan 13 2014,ATP World Tour Masters 1000 Paris,R32,Nicolas Almagro,false,46.0,cluster_4
+68.0,36.0,Tommy Haas,$1.653,Tommy Haas,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Nicolas Almagro,false,47.0,cluster_0
+56.0,31.0,Daniel Gimeno-Traver,$1.123,Nicolas Almagro,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,Nicolas Almagro,false,48.0,cluster_4
+53.0,34.0,Fabio Fognini,$1.445,Nicolas Almagro,Oct 21 2013,Valencia,Q,Nicolas Almagro,false,49.0,cluster_1
+65.0,35.0,Rafael Nadal,$5.047,Rafael Nadal,Feb 25 2013,Acapulco,S,Nicolas Almagro,false,50.0,cluster_0
+60.0,25.0,Michal Przysiezny,$1.216,Nicolas Almagro,Oct 21 2013,Valencia,R16,Nicolas Almagro,false,51.0,cluster_4
+48.0,23.0,Pablo Andujar,$1.095,Nicolas Almagro,Oct 21 2013,Valencia,R32,Nicolas Almagro,false,52.0,cluster_2
+61.0,16.0,Horacio Zeballos,$1.255,Nicolas Almagro,Feb 25 2013,Acapulco,Q,Nicolas Almagro,false,53.0,cluster_5
+58.0,31.0,Tommy Robredo,$1.160,Nicolas Almagro,Feb 25 2013,Acapulco,R16,Nicolas Almagro,false,54.0,cluster_4
+78.0,32.0,Stan Wawrinka,$1.755,Stan Wawrinka,Feb 18 2013,Buenos Aires,S,Nicolas Almagro,false,55.0,cluster_3
+76.0,40.0,Juan Martin Del Potro,$3.014,Juan Martin Del Potro,Oct 21 2013,ATP World Tour Masters 1000 Shanghai,Q,Nicolas Almagro,false,56.0,cluster_3
+70.0,26.0,Tomas Berdych,$3.334,Nicolas Almagro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R16,Nicolas Almagro,false,57.0,cluster_6
+65.0,15.0,Federico Delbonis,$1.244,Nicolas Almagro,Feb 18 2013,Buenos Aires,Q,Nicolas Almagro,false,58.0,cluster_5
+59.0,30.0,Andrey Kuznetsov,$1.130,Nicolas Almagro,Feb 18 2013,Buenos Aires,R16,Nicolas Almagro,false,59.0,cluster_4
+50.0,25.0,Guido Pella,$1.137,Nicolas Almagro,Feb 18 2013,Buenos Aires,R32,Nicolas Almagro,false,60.0,cluster_2
+62.0,21.0,Jeremy Chardy,$1.417,Nicolas Almagro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Nicolas Almagro,false,61.0,cluster_5
+58.0,16.0,Go Soeda,$1.255,Nicolas Almagro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,Nicolas Almagro,false,62.0,cluster_5
+75.0,29.0,Juan Martin Del Potro,$4.033,Juan Martin Del Potro,Oct 6 2013,Tokyo,S,Nicolas Almagro,false,63.0,cluster_6
+70.0,28.0,David Nalbandian,$1.349,David Nalbandian,Feb 11 2013,Sao Paulo,Q,Nicolas Almagro,false,64.0,cluster_6
+58.0,31.0,Paul Capdeville,$1.138,Nicolas Almagro,Feb 11 2013,Sao Paulo,R16,Nicolas Almagro,false,65.0,cluster_4
+60.0,36.0,Kei Nishikori,$2.691,Nicolas Almagro,Sep 30 2013,Tokyo,Q,Nicolas Almagro,false,66.0,cluster_1
+57.0,14.0,Horacio Zeballos,$1.192,Nicolas Almagro,Sep 30 2013,Tokyo,R16,Nicolas Almagro,false,67.0,cluster_5
+67.0,12.0,Benjamin Becker,$1.589,Nicolas Almagro,Sep 30 2013,Tokyo,R32,Nicolas Almagro,false,68.0,cluster_5
+65.0,41.0,David Ferrer,$5.608,David Ferrer,Feb 1 2013,Australian Open Slam,Quarter Final,Nicolas Almagro,false,69.0,cluster_7
+64.0,45.0,Adrian Mannarino,$1.464,Adrian Mannarino,Sep 30 2013,Kuala Lumpur,R16,Nicolas Almagro,false,70.0,cluster_7
+68.0,44.0,Denis Istomin,$1.528,Denis Istomin,Sep 23 2013,US Open Slam,Round of 128,Nicolas Almagro,false,71.0,cluster_7
+67.0,37.0,Grigor Dimitrov,$1.860,Grigor Dimitrov,Aug 26 2013,ATP World Tour Masters 1000 Cincinnati,R64,Nicolas Almagro,false,72.0,cluster_0
+46.0,26.0,Janko Tipsarevic,$1.775,Nicolas Almagro,Feb 1 2013,Australian Open Slam,Round of 16,Nicolas Almagro,false,73.0,cluster_2
+69.0,20.0,Jerzy Janowicz,$1.406,Nicolas Almagro,Feb 1 2013,Australian Open Slam,Round of 32,Nicolas Almagro,false,74.0,cluster_6
+64.0,40.0,Radek Stepanek,$1.695,Radek Stepanek,Aug 12 2013,ATP World Tour Masters 1000 Canada,R64,Nicolas Almagro,false,75.0,cluster_7
+63.0,43.0,Fabio Fognini,$1.773,Fabio Fognini,Aug 5 2013,Hamburg,S,Nicolas Almagro,false,76.0,cluster_7
+54.0,31.0,Daniel Gimeno-Traver,$1.096,Nicolas Almagro,Feb 1 2013,Australian Open Slam,Round of 64,Nicolas Almagro,false,77.0,cluster_4
+62.0,27.0,Steve Johnson,$1.184,Nicolas Almagro,Feb 1 2013,Australian Open Slam,Round of 128,Nicolas Almagro,false,78.0,cluster_4
+53.0,41.0,Juan Monaco,$1.513,Nicolas Almagro,Jul 15 2013,Hamburg,Q,Nicolas Almagro,false,79.0,cluster_1
+54.0,26.0,Guillermo Garcia-Lopez,$1.224,Nicolas Almagro,Jul 15 2013,Hamburg,R16,Nicolas Almagro,false,80.0,cluster_2
+76.0,27.0,Jo-Wilfried Tsonga,$5.111,Jo-Wilfried Tsonga,Nov 16 2012,ATP World Tour Masters 1000 Paris,R16,Nicolas Almagro,false,81.0,cluster_6
+61.0,30.0,Albert Ramos,$1.277,Nicolas Almagro,Oct 29 2012,ATP World Tour Masters 1000 Paris,R32,Nicolas Almagro,false,82.0,cluster_4
+50.0,19.0,Tobias Kamke,$1.192,Nicolas Almagro,Jul 15 2013,Hamburg,R32,Nicolas Almagro,false,83.0,cluster_2
+60.0,42.0,Fernando Verdasco,$1.724,Fernando Verdasco,Jul 15 2013,Bastad,Q,Nicolas Almagro,false,84.0,cluster_7
+74.0,34.0,David Ferrer,$3.710,David Ferrer,Oct 29 2012,Valencia,Q,Nicolas Almagro,false,85.0,cluster_3
+59.0,29.0,Sam Querrey,$2.076,Nicolas Almagro,Oct 21 2012,Valencia,R16,Nicolas Almagro,false,86.0,cluster_4
+78.0,38.0,Jerzy Janowicz,$2.169,Jerzy Janowicz,Jul 8 2013,Wimbledon Slam,Round of 32,Nicolas Almagro,false,87.0,cluster_3
+53.0,41.0,Juan Carlos Ferrero,$1.181,Nicolas Almagro,Oct 21 2012,Valencia,R32,Nicolas Almagro,false,88.0,cluster_1
+70.0,42.0,Tomas Berdych,$4.350,Tomas Berdych,Oct 21 2012,Stockholm,S,Nicolas Almagro,false,89.0,cluster_7

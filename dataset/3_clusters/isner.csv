@@ -1,0 +1,87 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+72.0,24.0,Pierre-Hugues Herbert,$1.105,John Isner,May 21 2014,French Open Slam,Round of 128,John Isner,false,1.0,cluster_2
+71.0,28.0,Federico Delbonis,$1.939,Federico Delbonis,May 19 2014,Nice,Q,John Isner,false,2.0,cluster_1
+60.0,22.0,Jack Sock,$1.752,John Isner,May 19 2014,Nice,R16,John Isner,false,3.0,cluster_2
+72.0,37.0,Jurgen Melzer,$1.551,Jurgen Melzer,May 12 2014,ATP World Tour Masters 1000 Rome,R64,John Isner,false,4.0,cluster_0
+80.0,39.0,David Ferrer,$3.860,David Ferrer,May 5 2014,ATP World Tour Masters 1000 Madrid,R16,John Isner,false,5.0,cluster_0
+72.0,27.0,Marinko Matosevic,$1.351,John Isner,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,John Isner,false,6.0,cluster_2
+61.0,21.0,Teymuraz Gabashvili,$1.691,John Isner,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,John Isner,false,7.0,cluster_2
+69.0,31.0,Dustin Brown,$1.240,Dustin Brown,Apr 7 2014,Houston,R16,John Isner,false,8.0,cluster_1
+76.0,41.0,Tomas Berdych,$3.237,Tomas Berdych,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,John Isner,false,9.0,cluster_0
+68.0,26.0,Nicolas Almagro,$1.708,John Isner,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,John Isner,false,10.0,cluster_2
+64.0,27.0,Donald Young,$1.176,John Isner,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,John Isner,false,11.0,cluster_1
+67.0,42.0,Novak Djokovic,$5.085,Novak Djokovic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,S,John Isner,false,12.0,cluster_1
+65.0,28.0,Ernests Gulbis,$2.270,John Isner,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,Q,John Isner,false,13.0,cluster_1
+70.0,26.0,Fernando Verdasco,$1.629,John Isner,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,John Isner,false,14.0,cluster_2
+64.0,23.0,Yen-Hsun Lu,$1.300,John Isner,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,John Isner,false,15.0,cluster_2
+67.0,14.0,Nikolay Davydenko,$1.443,John Isner,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,John Isner,false,16.0,cluster_2
+83.0,25.0,Ivo Karlovic,$1.522,Ivo Karlovic,Feb 24 2014,Acapulco,R32,John Isner,false,17.0,cluster_0
+75.0,38.0,Marin Cilic,$2.971,Marin Cilic,Feb 17 2014,Delray Beach,S,John Isner,false,18.0,cluster_0
+61.0,22.0,Rhyne Williams,$1.279,John Isner,Feb 17 2014,Delray Beach,Q,John Isner,false,19.0,cluster_2
+58.0,36.0,Dudi Sela,$1.321,John Isner,Feb 17 2014,Delray Beach,R16,John Isner,false,20.0,cluster_1
+70.0,26.0,Michael Russell,$1.247,John Isner,Feb 17 2014,Delray Beach,R32,John Isner,false,21.0,cluster_2
+82.0,37.0,Martin Klizan,$1.141,Martin Klizan,Jan 13 2014,Australian Open Slam,Round of 128,John Isner,false,22.0,cluster_0
+68.0,22.0,Yen-Hsun Lu,$1.493,John Isner,Jan 6 2014,Auckland,F,John Isner,false,23.0,cluster_2
+66.0,29.0,Roberto Bautista Agut,$1.530,John Isner,Jan 6 2014,Auckland,S,John Isner,false,24.0,cluster_1
+72.0,18.0,Philipp Kohlschreiber,$2.245,John Isner,Jan 6 2014,Auckland,Q,John Isner,false,25.0,cluster_2
+62.0,29.0,Lukas Lacko,$1.471,John Isner,Jan 6 2014,Auckland,R16,John Isner,false,26.0,cluster_1
+80.0,43.0,Novak Djokovic,$6.134,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,John Isner,false,27.0,cluster_0
+67.0,19.0,Michal Przysiezny,$1.351,John Isner,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,John Isner,false,28.0,cluster_2
+75.0,30.0,Jeremy Chardy,$1.429,Jeremy Chardy,Oct 21 2013,Valencia,R16,John Isner,false,29.0,cluster_0
+63.0,29.0,Ernests Gulbis,$2.364,John Isner,Oct 21 2013,Valencia,R32,John Isner,false,30.0,cluster_1
+66.0,21.0,Santiago Giraldo,$1.384,John Isner,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,John Isner,false,31.0,cluster_2
+62.0,20.0,Roberto Bautista Agut,$1.521,John Isner,Sep 30 2013,Beijing,R16,John Isner,false,32.0,cluster_2
+69.0,21.0,Di Wu,$1.169,John Isner,Sep 30 2013,Beijing,R32,John Isner,false,33.0,cluster_2
+72.0,26.0,Philipp Kohlschreiber,$1.353,Philipp Kohlschreiber,Aug 26 2013,US Open Slam,Round of 32,John Isner,false,34.0,cluster_2
+69.0,28.0,Gael Monfils,$1.424,John Isner,Aug 26 2013,US Open Slam,Round of 64,John Isner,false,35.0,cluster_1
+80.0,27.0,Rafael Nadal,$4.835,Rafael Nadal,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,F,John Isner,false,36.0,cluster_0
+66.0,32.0,Juan Martin Del Potro,$2.962,John Isner,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,S,John Isner,false,37.0,cluster_1
+67.0,24.0,Novak Djokovic,$7.668,John Isner,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,Q,John Isner,false,38.0,cluster_2
+65.0,25.0,Milos Raonic,$1.724,John Isner,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,R16,John Isner,false,39.0,cluster_2
+67.0,25.0,Richard Gasquet,$2.057,John Isner,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,R32,John Isner,false,40.0,cluster_2
+59.0,19.0,Florian Mayer,$1.484,John Isner,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,R64,John Isner,false,41.0,cluster_2
+67.0,26.0,Vasek Pospisil,$1.558,Vasek Pospisil,Aug 18 2013,ATP World Tour Masters 1000 Canada,R64,John Isner,false,42.0,cluster_2
+72.0,41.0,Juan Martin Del Potro,$3.974,Juan Martin Del Potro,Aug 5 2013,Washington,F,John Isner,false,43.0,cluster_0
+65.0,19.0,Dmitry Tursunov,$1.276,John Isner,Jul 29 2013,Washington,S,John Isner,false,44.0,cluster_2
+66.0,15.0,Marcos Baghdatis,$1.472,John Isner,Jul 29 2013,Washington,Q,John Isner,false,45.0,cluster_2
+64.0,15.0,Somdev Devvarman,$1.283,John Isner,Jul 29 2013,Washington,R16,John Isner,false,46.0,cluster_2
+69.0,30.0,Alex Kuznetsov,$1.216,John Isner,Jul 29 2013,Washington,R32,John Isner,false,47.0,cluster_1
+75.0,28.0,Kevin Anderson,$1.995,John Isner,Jul 22 2013,Atlanta,F,John Isner,false,48.0,cluster_0
+67.0,29.0,Lleyton Hewitt,$1.816,John Isner,Jul 22 2013,Atlanta,S,John Isner,false,49.0,cluster_1
+70.0,24.0,James Blake,$1.401,John Isner,Jul 22 2013,Atlanta,Q,John Isner,false,50.0,cluster_2
+73.0,25.0,Christian Harrison,$1.105,John Isner,Jul 22 2013,Atlanta,R16,John Isner,false,51.0,cluster_2
+67.0,43.0,Lleyton Hewitt,$1.786,Lleyton Hewitt,Jul 8 2013,Newport,S,John Isner,false,52.0,cluster_1
+72.0,22.0,Ivo Karlovic,$1.276,John Isner,Jul 8 2013,Newport,Q,John Isner,false,53.0,cluster_2
+60.0,12.0,Adrian Mannarino,$1.283,John Isner,Jul 8 2013,Newport,R16,John Isner,false,54.0,cluster_2
+57.0,17.0,Ryan Harrison,$1.535,John Isner,Jul 8 2013,Newport,R32,John Isner,false,55.0,cluster_2
+65.0,22.0,Evgeny Donskoy,$1.300,John Isner,Jun 24 2013,Wimbledon Slam,Round of 128,John Isner,false,56.0,cluster_2
+77.0,27.0,Evgeny Donskoy,$1.182,Evgeny Donskoy,Jun 16 2013,s-Hertogenbosch,R32,John Isner,false,57.0,cluster_0
+73.0,32.0,Tommy Haas,$3.467,Tommy Haas,May 27 2013,French Open Slam,Round of 32,John Isner,false,58.0,cluster_0
+65.0,25.0,Ryan Harrison,$1.351,John Isner,May 27 2013,French Open Slam,Round of 64,John Isner,false,59.0,cluster_2
+60.0,31.0,Carlos Berlocq,$2.422,John Isner,May 27 2013,French Open Slam,Round of 128,John Isner,false,60.0,cluster_1
+60.0,37.0,Robin Haase,$1.827,Robin Haase,May 19 2013,Nice,R16,John Isner,false,61.0,cluster_1
+69.0,25.0,Denis Istomin,$1.484,Denis Istomin,May 12 2013,ATP World Tour Masters 1000 Rome,R64,John Isner,false,62.0,cluster_2
+75.0,34.0,Pablo Andujar,$1.576,Pablo Andujar,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,John Isner,false,63.0,cluster_0
+71.0,16.0,Guillermo Garcia-Lopez,$1.706,John Isner,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,John Isner,false,64.0,cluster_2
+72.0,46.0,Ernests Gulbis,$3.026,Ernests Gulbis,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,John Isner,false,65.0,cluster_0
+62.0,31.0,Nicolas Almagro,$4.247,John Isner,Apr 8 2013,Houston,F,John Isner,false,66.0,cluster_1
+64.0,38.0,Juan Monaco,$2.681,John Isner,Apr 8 2013,Houston,S,John Isner,false,67.0,cluster_1
+74.0,22.0,Ricardas Berankis,$1.503,John Isner,Apr 8 2013,Houston,Q,John Isner,false,68.0,cluster_2
+70.0,28.0,Jack Sock,$1.296,John Isner,Apr 8 2013,Houston,R16,John Isner,false,69.0,cluster_1
+62.0,28.0,Ryan Harrison,$1.402,John Isner,Apr 8 2013,Houston,R32,John Isner,false,70.0,cluster_1
+77.0,38.0,Marin Cilic,$2.557,Marin Cilic,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,John Isner,false,71.0,cluster_0
+66.0,29.0,Ivan Dodig,$1.571,John Isner,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,John Isner,false,72.0,cluster_1
+69.0,33.0,Lleyton Hewitt,$1.479,Lleyton Hewitt,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,John Isner,false,73.0,cluster_1
+66.0,41.0,Edouard Roger-Vasselin,$1.237,Edouard Roger-Vasselin,Feb 25 2013,Delray Beach,S,John Isner,false,74.0,cluster_1
+60.0,23.0,Kevin Anderson,$1.985,John Isner,Feb 25 2013,Delray Beach,Q,John Isner,false,75.0,cluster_2
+63.0,14.0,Go Soeda,$1.294,John Isner,Feb 25 2013,Delray Beach,R16,John Isner,false,76.0,cluster_2
+68.0,33.0,Jesse Levine,$1.447,John Isner,Feb 25 2013,Delray Beach,R32,John Isner,false,77.0,cluster_1
+80.0,35.0,Tommy Haas,$2.207,Tommy Haas,Feb 11 2013,San Jose,S,John Isner,false,78.0,cluster_0
+70.0,22.0,Xavier Malisse,$1.426,John Isner,Feb 11 2013,San Jose,Q,John Isner,false,79.0,cluster_2
+69.0,27.0,Vasek Pospisil,$1.367,John Isner,Feb 11 2013,San Jose,R16,John Isner,false,80.0,cluster_2
+74.0,34.0,Ryan Harrison,$1.720,Ryan Harrison,Jan 14 2013,Sydney,R16,John Isner,false,81.0,cluster_0
+77.0,33.0,Michael Llodra,$1.634,Michael Llodra,Dec 31 2012,ATP World Tour Masters 1000 Paris,R32,John Isner,false,82.0,cluster_0
+70.0,31.0,David Goffin,$1.369,David Goffin,Oct 29 2012,Valencia,R16,John Isner,false,83.0,cluster_1
+61.0,24.0,Fabio Fognini,$1.199,John Isner,Oct 21 2012,Valencia,R32,John Isner,false,84.0,cluster_2
+75.0,33.0,Radek Stepanek,$1.611,Radek Stepanek,Oct 21 2012,ATP World Tour Masters 1000 Shanghai,R16,John Isner,false,85.0,cluster_0
+76.0,20.0,Kevin Anderson,$1.577,John Isner,Oct 7 2012,ATP World Tour Masters 1000 Shanghai,R32,John Isner,false,86.0,cluster_2

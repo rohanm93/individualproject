@@ -1,0 +1,79 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster
+80.0,31.0,Nicolas Almagro,$1.190,Nicolas Almagro,Jan 14 2013,Australian Open Slam,Round of 32,Jerzy Janowicz,false,1.0,cluster_3
+62.0,22.0,Nicolas Almagro,$1.799,Jerzy Janowicz,Jun 24 2013,Wimbledon Slam,Round of 32,Jerzy Janowicz,false,2.0,cluster_0
+69.0,30.0,Jurgen Melzer,$1.284,Jerzy Janowicz,Jun 24 2013,Wimbledon Slam,Round of 16,Jerzy Janowicz,false,3.0,cluster_4
+61.0,22.0,Gilles Simon,$2.482,Jerzy Janowicz,Oct 29 2012,ATP World Tour Masters 1000 Paris,S,Jerzy Janowicz,false,4.0,cluster_0
+55.0,26.0,Janko Tipsarevic,$2.685,Jerzy Janowicz,Oct 29 2012,ATP World Tour Masters 1000 Paris,Q,Jerzy Janowicz,false,5.0,cluster_0
+56.0,34.0,Simone Bolelli,$1.370,Jerzy Janowicz,Jan 7 2013,Australian Open Slam,Round of 128,Jerzy Janowicz,false,6.0,cluster_1
+73.0,36.0,Brian Baker,$1.705,Brian Baker,Oct 29 2012,Auckland,R32,Jerzy Janowicz,false,7.0,cluster_3
+71.0,41.0,David Ferrer,$3.172,David Ferrer,Oct 29 2012,ATP World Tour Masters 1000 Paris,F,Jerzy Janowicz,false,8.0,cluster_2
+63.0,33.0,Santiago Giraldo,$1.845,Jerzy Janowicz,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Jerzy Janowicz,false,9.0,cluster_1
+67.0,36.0,Victor Hanescu,$1.308,Victor Hanescu,Feb 1 2013,Rotterdam,R32,Jerzy Janowicz,false,10.0,cluster_1
+64.0,32.0,Andy Murray,$11.658,Jerzy Janowicz,Oct 29 2012,ATP World Tour Masters 1000 Paris,R16,Jerzy Janowicz,false,11.0,cluster_1
+64.0,18.0,Marin Cilic,$3.598,Jerzy Janowicz,Oct 29 2012,ATP World Tour Masters 1000 Paris,R32,Jerzy Janowicz,false,12.0,cluster_0
+68.0,32.0,Dennis Novikov,$1.056,Dennis Novikov,Aug 20 2012,US Open Slam,Round of 128,Jerzy Janowicz,false,13.0,cluster_4
+61.0,42.0,Philipp Kohlschreiber,$2.077,Philipp Kohlschreiber,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Jerzy Janowicz,false,14.0,cluster_1
+56.0,40.0,Somdev Devvarman,$1.216,Jerzy Janowicz,Jan 14 2013,Australian Open Slam,Round of 64,Jerzy Janowicz,false,15.0,cluster_1
+64.0,23.0,Julien Benneteau,$2.394,Jerzy Janowicz,Feb 18 2013,Marseille,R16,Jerzy Janowicz,false,16.0,cluster_0
+69.0,42.0,Jo-Wilfried Tsonga,$4.960,Jo-Wilfried Tsonga,May 21 2014,French Open Slam,Round of 32,Jerzy Janowicz,false,17.0,cluster_2
+58.0,25.0,Lukas Rosol,$1.478,Jerzy Janowicz,Feb 11 2013,Marseille,R32,Jerzy Janowicz,false,18.0,cluster_0
+56.0,32.0,Santiago Giraldo,$1.283,Jerzy Janowicz,Oct 21 2013,ATP World Tour Masters 1000 Paris,R32,Jerzy Janowicz,false,19.0,cluster_1
+71.0,25.0,Jo-Wilfried Tsonga,$3.629,Jerzy Janowicz,May 21 2014,ATP World Tour Masters 1000 Rome,R32,Jerzy Janowicz,false,20.0,cluster_4
+63.0,31.0,Richard Gasquet,$3.297,Jerzy Janowicz,May 12 2013,ATP World Tour Masters 1000 Rome,R16,Jerzy Janowicz,false,21.0,cluster_1
+72.0,38.0,Roger Federer,$5.894,Roger Federer,May 12 2013,ATP World Tour Masters 1000 Rome,Q,Jerzy Janowicz,false,22.0,cluster_3
+73.0,23.0,Mirza Basic,$1.070,Mirza Basic,May 27 2013,Halle,R32,Jerzy Janowicz,false,23.0,cluster_4
+61.0,36.0,Robin Haase,$1.397,Jerzy Janowicz,Jun 24 2013,Hamburg,R32,Jerzy Janowicz,false,24.0,cluster_1
+74.0,50.0,Fernando Verdasco,$2.187,Fernando Verdasco,Jul 15 2013,Hamburg,R16,Jerzy Janowicz,false,25.0,cluster_2
+59.0,39.0,Julien Benneteau,$1.669,Jerzy Janowicz,Jul 15 2013,ATP World Tour Masters 1000 Canada,R64,Jerzy Janowicz,false,26.0,cluster_1
+68.0,33.0,Frank Dancevic,$1.370,Jerzy Janowicz,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,Jerzy Janowicz,false,27.0,cluster_4
+65.0,41.0,Rafael Nadal,$6.134,Rafael Nadal,Aug 5 2013,ATP World Tour Masters 1000 Canada,R16,Jerzy Janowicz,false,28.0,cluster_2
+67.0,37.0,Ernests Gulbis,$2.370,Ernests Gulbis,Oct 14 2013,Stockholm,Q,Jerzy Janowicz,false,29.0,cluster_1
+64.0,44.0,James Blake,$1.466,James Blake,Aug 5 2013,ATP World Tour Masters 1000 Cincinnati,R64,Jerzy Janowicz,false,30.0,cluster_2
+59.0,23.0,Joao Sousa,$1.454,Jerzy Janowicz,Oct 21 2013,Valencia,R16,Jerzy Janowicz,false,31.0,cluster_0
+66.0,29.0,Pablo Carreno Busta,$1.331,Jerzy Janowicz,Oct 14 2013,Valencia,R32,Jerzy Janowicz,false,32.0,cluster_4
+79.0,37.0,David Ferrer,$4.169,David Ferrer,Oct 21 2013,Valencia,Q,Jerzy Janowicz,false,33.0,cluster_3
+65.0,37.0,Rafael Nadal,$5.894,Rafael Nadal,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Jerzy Janowicz,false,34.0,cluster_1
+58.0,25.0,Edouard Roger-Vasselin,$1.735,Jerzy Janowicz,Feb 3 2014,Montpellier,Q,Jerzy Janowicz,false,35.0,cluster_0
+77.0,32.0,Richard Gasquet,$2.639,Richard Gasquet,Feb 3 2014,Montpellier,S,Jerzy Janowicz,false,36.0,cluster_3
+70.0,19.0,Adrian Mannarino,$1.495,Jerzy Janowicz,Jan 31 2014,Montpellier,R16,Jerzy Janowicz,false,37.0,cluster_4
+68.0,40.0,Tomas Berdych,$3.510,Tomas Berdych,Feb 10 2014,Rotterdam,Q,Jerzy Janowicz,false,38.0,cluster_2
+59.0,22.0,Tommy Haas,$1.724,Jerzy Janowicz,Feb 10 2014,Rotterdam,R16,Jerzy Janowicz,false,39.0,cluster_0
+62.0,36.0,Alejandro Falla,$1.443,Alejandro Falla,Feb 10 2014,ATP World Tour Masters 1000 Indian Wells,R64,Jerzy Janowicz,false,40.0,cluster_1
+66.0,31.0,Julien Benneteau,$1.507,Jerzy Janowicz,Feb 3 2014,Rotterdam,R32,Jerzy Janowicz,false,41.0,cluster_4
+70.0,48.0,Roberto Bautista Agut,$2.221,Roberto Bautista Agut,Mar 3 2014,ATP World Tour Masters 1000 Miami,R64,Jerzy Janowicz,false,42.0,cluster_2
+54.0,25.0,Kyle Edmund,$1.207,Jerzy Janowicz,Jun 10 2013,Wimbledon Slam,Round of 128,Jerzy Janowicz,false,43.0,cluster_0
+60.0,36.0,Robin Haase,$1.340,Jerzy Janowicz,May 27 2013,French Open Slam,Round of 64,Jerzy Janowicz,false,44.0,cluster_1
+76.0,49.0,Michael Llodra,$1.724,Michael Llodra,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Jerzy Janowicz,false,45.0,cluster_2
+55.0,21.0,Radek Stepanek,$1.837,Jerzy Janowicz,Jun 24 2013,Wimbledon Slam,Round of 64,Jerzy Janowicz,false,46.0,cluster_0
+63.0,27.0,Albert Ramos,$1.706,Jerzy Janowicz,May 12 2013,French Open Slam,Round of 128,Jerzy Janowicz,false,47.0,cluster_4
+65.0,36.0,Ernests Gulbis,$4.118,Ernests Gulbis,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Jerzy Janowicz,false,48.0,cluster_1
+60.0,38.0,Jordan Thompson,$1.300,Jerzy Janowicz,Jan 6 2014,Australian Open Slam,Round of 128,Jerzy Janowicz,false,49.0,cluster_1
+71.0,39.0,Stan Wawrinka,$3.326,Stan Wawrinka,May 27 2013,French Open Slam,Round of 32,Jerzy Janowicz,false,50.0,cluster_3
+66.0,27.0,Piotr Gadomski,$1.050,Jerzy Janowicz,May 5 2013,Poznan,R32,Jerzy Janowicz,false,51.0,cluster_4
+64.0,27.0,Lukasz Kubot,$1.245,Jerzy Janowicz,Jun 24 2013,Wimbledon Slam,Quarter Final,Jerzy Janowicz,false,52.0,cluster_4
+74.0,38.0,Andy Murray,$5.145,Andy Murray,Jun 24 2013,Wimbledon Slam,Semi Final,Jerzy Janowicz,false,53.0,cluster_3
+65.0,36.0,Pablo Andujar,$1.304,Jerzy Janowicz,Jan 13 2014,Australian Open Slam,Round of 64,Jerzy Janowicz,false,54.0,cluster_1
+62.0,48.0,Maximo Gonzalez,$1.084,Maximo Gonzalez,Aug 12 2013,US Open Slam,Round of 128,Jerzy Janowicz,false,55.0,cluster_2
+65.0,27.0,Andreas Haider-Maurer,$1.340,Jerzy Janowicz,Jul 16 2012,Poznan,S,Jerzy Janowicz,false,56.0,cluster_4
+60.0,32.0,Victor Estrella Burgos,$1.233,Jerzy Janowicz,May 21 2014,French Open Slam,Round of 128,Jerzy Janowicz,false,57.0,cluster_1
+63.0,29.0,Marek Michalicka,$1.130,Jerzy Janowicz,May 12 2013,Poznan,R16,Jerzy Janowicz,false,58.0,cluster_4
+62.0,29.0,Yannick Mertens,$1.280,Jerzy Janowicz,Sep 14 2012,Szczecin,R32,Jerzy Janowicz,false,59.0,cluster_4
+53.0,35.0,Jonathan Dasnieres de Veigy,$1.270,Jerzy Janowicz,Jul 16 2012,Poznan,F,Jerzy Janowicz,false,60.0,cluster_1
+84.0,44.0,Florian Mayer,$1.550,Florian Mayer,Jan 13 2014,Australian Open Slam,Round of 32,Jerzy Janowicz,false,61.0,cluster_3
+56.0,33.0,Jarkko Nieminen,$1.793,Jerzy Janowicz,May 21 2014,French Open Slam,Round of 64,Jerzy Janowicz,false,62.0,cluster_1
+62.0,11.0,Daniel Brands,$1.600,Jerzy Janowicz,Sep 17 2012,Mons,R32,Jerzy Janowicz,false,63.0,cluster_0
+75.0,46.0,Inigo Cervantes,$1.330,Inigo Cervantes,Sep 17 2012,Szczecin,Q,Jerzy Janowicz,false,64.0,cluster_2
+68.0,47.0,Tobias Kamke,$1.710,Tobias Kamke,Oct 1 2012,Mons,Q,Jerzy Janowicz,false,65.0,cluster_2
+55.0,31.0,Benjamin Becker,$1.615,Jerzy Janowicz,Oct 1 2012,Moscow,R32,Jerzy Janowicz,false,66.0,cluster_1
+68.0,14.0,Carlos Berlocq,$1.555,Jerzy Janowicz,Oct 15 2012,Moscow,R16,Jerzy Janowicz,false,67.0,cluster_0
+64.0,29.0,Evgeny Donskoy,$1.550,Jerzy Janowicz,Oct 1 2012,Mons,R16,Jerzy Janowicz,false,68.0,cluster_4
+65.0,33.0,Thomaz Bellucci,$2.127,Thomaz Bellucci,Oct 15 2012,Moscow,Q,Jerzy Janowicz,false,69.0,cluster_1
+76.0,41.0,Richard Gasquet,$3.608,Richard Gasquet,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Jerzy Janowicz,false,70.0,cluster_3
+74.0,27.0,Tomas Berdych,$3.431,Tomas Berdych,Feb 18 2013,Marseille,Q,Jerzy Janowicz,false,71.0,cluster_4
+73.0,21.0,Philipp Kohlschreiber,$2.421,Jerzy Janowicz,Oct 29 2012,ATP World Tour Masters 1000 Paris,R64,Jerzy Janowicz,false,72.0,cluster_4
+58.0,41.0,David Nalbandian,$2.509,Jerzy Janowicz,Feb 18 2013,ATP World Tour Masters 1000 Indian Wells,R64,Jerzy Janowicz,false,73.0,cluster_1
+73.0,40.0,Albert Ramos,$2.960,Albert Ramos,Apr 22 2013,Barcelona,R32,Jerzy Janowicz,false,74.0,cluster_3
+64.0,36.0,Thomaz Bellucci,$1.489,Thomaz Bellucci,Mar 6 2013,ATP World Tour Masters 1000 Miami,R64,Jerzy Janowicz,false,75.0,cluster_1
+67.0,35.0,Kevin Anderson,$2.240,Kevin Anderson,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Jerzy Janowicz,false,76.0,cluster_1
+64.0,22.0,Sam Querrey,$1.884,Jerzy Janowicz,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,Jerzy Janowicz,false,77.0,cluster_0
+61.0,35.0,Tomas Berdych,$3.611,Tomas Berdych,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Jerzy Janowicz,false,78.0,cluster_1
