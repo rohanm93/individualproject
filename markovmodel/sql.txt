@@ -6,8 +6,8 @@ select f1.player1, f1.player2, f1.winner, f1.date, f1.tournament, f1.t_round, f1
 from fixtures_with_spw_normalized f1 join fixtures_with_spw_normalized f2 on f1.player2 = f2.player1 and f1.t_round=f2.t_round and f1.tournament = f2.tournament and f1.player1 = f2.player2
 
 for odds and stats:
-inner join on matchstatsurl
-
+select kohlschreiber_stats.p2ServePointsWon, kohlschreiber_stats.p2ReturnPointsWon, kohlschreiber_stats.player2, kohlschreiber_odds.odds, kohlschreiber_stats.winner, kohlschreiber_odds.date, kohlschreiber_stats.tournament, kohlschreiber_stats.t_round,kohlschreiber_stats.player1
+from kohlschreiber_stats inner join kohlschreiber_odds on kohlschreiber_stats.urlVisited=kohlschreiber_odds.matchStatsUrl
 
 to get only one of each duplicate record
 select *

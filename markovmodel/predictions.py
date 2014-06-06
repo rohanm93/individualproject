@@ -56,12 +56,26 @@ def get_filename(player1):
 		return "wawrinka.csv"
 	elif ("Youzhny" in player1):
 		return "youzhny.csv"
+	elif ("Bautista" in player1):
+		return "bautistaagut.csv"
+	elif ("Dolgopolov" in player1):
+		return "dolgopolov.csv"
+	elif ("Fognini" in player1):
+		return "fognini.csv"
+	elif ("Janowicz" in player1):
+		return "janowicz.csv"
+	elif ("Kohlschreiber" in player1):
+		return "kohlschreiber.csv"
+	elif ("Feliciano Lopez" in player1):
+		return "lopez.csv"
+	elif ("Gilles Simon" in player1):
+		return "simon.csv"
 
 def predictions():
 	input_file = csv.reader(open("fixtures.csv"), delimiter=',')
 	fixtures_with_spw = csv.writer(open("fixtures_with_spw.csv", "wb"), delimiter=',')
-	#skip first 60 matches (dont predict these fixtures), only predict matches from nov 2012 onwards
-	for i in range(60):
+	#skip first 90 matches (dont predict these fixtures), only predict matches from dec 31 2012 (2013) onwards
+	for i in range(91):
 		input_file.next()
 	for row in input_file:
 		#player1 = row["player1"]
@@ -78,7 +92,8 @@ def predictions():
 		file_path = "dataset/sorted/"+ str(filename)
 		reader = csv.reader(open(file_path), delimiter=',')
 		player_list = []
-		player1_cluster = "cluster_000"
+		# player1_cluster = "cluster_000"
+		player1_clusters = []
 		for player_row in reader:
 			if (player1==player_row[8] and float(p2Serve)==float(player_row[0]) and float(p2ReturnPointsWon)==float(player_row[1]) and odds==player_row[3] and player2==player_row[2]):
 				# reached the record so stop
@@ -89,15 +104,16 @@ def predictions():
 				#also add the case if a player is in multiple clusters
 				#average them out for both players
 				if (player2==player_row[2]):
-					player1_cluster = player_row[11]
-				player_list.append(player_row)	
+					player1_clusters.append(player_row[11])
+					#player1_cluster = player_row[11]
+				player_list.append(player_row)
 		
 		if not player_list:
 			print "no one before player1 or ERROR"
 			continue
 		#at this point player_list contains all required data to do spw calculation for Player 1 - the same needs to be done for player 2
 		#important note - this just takes into account player 2's most recent cluster. ie. Haas vs Djokovic, will only take into account for Djokovic the cluster of their most recent match, say Djokovic is in multiple clusters
-		spw_value,total_spws = calculate_spw(player1_cluster, player_list, player2)
+		spw_value,total_spws = calculate_spw(player1_clusters, player_list, player2)
 		row.append(spw_value)
 		row.append(total_spws)
 		fixtures_with_spw.writerow(row)
@@ -112,7 +128,9 @@ def calculate_spw(cluster_name, player_list, player2):
 		same_profile = 0
 		if any(x in rec[2] for x in players_in_p2_profile):
 			same_profile = 1
-		if cluster_name == rec[11] or same_profile:
+		#if cluster_name == rec[11] or same_profile:
+		#this means that we use all past head to head encounters. cluster_name is a list of clusters
+		if (rec[11] in cluster_name) or same_profile:
 			swp_p2 = float(rec[0])
 			rwp_p2 = float(rec[1])
 			#manipulating p2 values to p1 & converting to decimals
@@ -123,7 +141,7 @@ def calculate_spw(cluster_name, player_list, player2):
 	return (difference_a_c, normalisation_counter)
 
 def get_similar_profile_players(player2):
-	f = open("profiles_clustered.csv")
+	f = open("profiles_clustered_6clusters.csv")
 	profiles_clustered = csv.DictReader(f)
 	cluster="cluster_10" #error
 	for player in profiles_clustered:
@@ -140,8 +158,8 @@ def get_similar_profile_players(player2):
 	return list_of_players
 
 def get_fixtures_to_predict():
-	players_list = ["Almagro", "Kevin Anderson", "Berdych", "Jeremy Chardy", "Cilic", "Potro", "Grigor Dimitrov", "Djokovic", "Federer", "David Ferrer", "Gasquet", "Gulbis", "Haas", "Hewitt", "Isner", "Monfils", "Murray", "Nadal", "Nishikori", "Raonic", "Robredo", "Seppi", "Tsonga", "Verdasco", "Wawrinka", "Youzhny"]
-	filepath_list = ["almagro", "anderson", "berdych", "chardy", "cilic", "delpotro", "dimitrov", "djokovic", "federer", "ferrer", "gasquet", "gulbis", "haas", "hewitt", "isner", "monfils", "murray", "nadal", "nishikori", "raonic", "robredo", "seppi", "tsonga", "verdasco", "wawrinka", "youzhny"]
+	players_list = ["Almagro", "Kevin Anderson", "Berdych", "Jeremy Chardy", "Cilic", "Potro", "Grigor Dimitrov", "Djokovic", "Federer", "David Ferrer", "Gasquet", "Gulbis", "Haas", "Hewitt", "Isner", "Monfils", "Murray", "Nadal", "Nishikori", "Raonic", "Robredo", "Seppi", "Tsonga", "Verdasco", "Wawrinka", "Youzhny", "Bautista", "Dolgopolov", "Fognini", "Janowicz", "Kohlschreiber", "Feliciano Lopez", "Gilles Simon"]
+	filepath_list = ["almagro", "anderson", "berdych", "chardy", "cilic", "delpotro", "dimitrov", "djokovic", "federer", "ferrer", "gasquet", "gulbis", "haas", "hewitt", "isner", "monfils", "murray", "nadal", "nishikori", "raonic", "robredo", "seppi", "tsonga", "verdasco", "wawrinka", "youzhny", "bautistaagut", "dolgopolov", "fognini", "janowicz", "kohlschreiber", "lopez", "simon"]
 	filepath_string = "dataset/sorted/"
 	all_fixtures = []
 	output = open("fixtures.csv", "wb")
