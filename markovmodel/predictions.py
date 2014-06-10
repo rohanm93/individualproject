@@ -1,6 +1,7 @@
 from __future__ import division
 import csv
 import markov
+from datetime import datetime
 
 
 def get_filename(player1):
@@ -74,7 +75,10 @@ def get_filename(player1):
 def predictions():
 	input_file = csv.reader(open("fixtures.csv"), delimiter=',')
 	fixtures_with_spw = csv.writer(open("fixtures_with_spw.csv", "wb"), delimiter=',')
+	headers_file = csv.reader(open("fixtures_with_spw_headers.csv"), delimiter=',')
 	#skip first 90 matches (dont predict these fixtures), only predict matches from dec 31 2012 (2013) onwards
+	headers = headers_file.next()
+	fixtures_with_spw.writerow(headers)
 	for i in range(91):
 		input_file.next()
 	for row in input_file:
@@ -89,11 +93,12 @@ def predictions():
 		if player2.split()[-1]=="Haase" or player1.split()[-1]=="Haase":
 			continue
 		filename = get_filename(player1)
-		file_path = "dataset/sorted/"+ str(filename)
+		file_path = "dataset/sorted/10_clusters/"+ str(filename)
 		reader = csv.reader(open(file_path), delimiter=',')
 		player_list = []
 		# player1_cluster = "cluster_000"
 		player1_clusters = []
+		counter = 0
 		for player_row in reader:
 			if (player1==player_row[8] and float(p2Serve)==float(player_row[0]) and float(p2ReturnPointsWon)==float(player_row[1]) and odds==player_row[3] and player2==player_row[2]):
 				# reached the record so stop
@@ -123,14 +128,19 @@ def calculate_spw(cluster_name, player_list, player2):
 	difference_spw_rpw_p1 = 0
 	normalisation_counter = 0
 	players_in_p2_profile = get_similar_profile_players(player2)
+	#player_list.sort(key=lambda x:x[11])
+	#contains records that have already been added
+	added = []
+	# this list contains players that are in the same cluster as player2
+	other_players = []
 	for rec in player_list: #of form [p2serve, p2return, p2, odds, winner, date, tournament, t_round, p1, outlier, id, cluster]
 		#if we're playing against a player which is the same cluster also set variable to 1
 		same_profile = 0
 		if any(x in rec[2] for x in players_in_p2_profile):
 			same_profile = 1
-		#if cluster_name == rec[11] or same_profile:
 		#this means that we use all past head to head encounters. cluster_name is a list of clusters
-		if (rec[11] in cluster_name) or same_profile:
+		if (rec[11]==cluster_name[0]) or same_profile:
+		#if (rec[11] in cluster_name) or same_profile:
 			swp_p2 = float(rec[0])
 			rwp_p2 = float(rec[1])
 			#manipulating p2 values to p1 & converting to decimals
@@ -138,16 +148,31 @@ def calculate_spw(cluster_name, player_list, player2):
 			difference_spw_rpw_p1 = (100.0-rwp_p2-swp_p2)/100
 			difference_a_c += difference_spw_rpw_p1
 			normalisation_counter+=1
+			other_players.append(rec[2])
+			added.append(rec)
+	d = {}
+	for rec in player_list:
+		if (rec[11] not in cluster_name) and (rec not in added):
+			if rec[2] in other_players:
+				swp_p2 = float(rec[0])
+				rwp_p2 = float(rec[1])
+				#manipulating p2 values to p1 & converting to decimals
+				#below is the same as spw(A,Ci)-(1-rpw(A,Ci))
+				difference_spw_rpw_p1 = (100.0-rwp_p2-swp_p2)/100
+				d[rec[2]] = difference_spw_rpw_p1
+	for key, value in d.iteritems():
+		difference_a_c += value
+		normalisation_counter+=1
 	return (difference_a_c, normalisation_counter)
 
 def get_similar_profile_players(player2):
-	f = open("profiles_clustered_6clusters.csv")
+	f = open("profiles_clustered_9clusters.csv")
 	profiles_clustered = csv.DictReader(f)
-	cluster="cluster_10" #error
+	cluster="cluster_000" #error
 	for player in profiles_clustered:
 		if (player["player"].split()[-1] == player2.split()[-1]):
 			cluster = player["cluster"]
-	if cluster=="cluster_10":
+	if cluster=="cluster_000":
 		print "ERROR", player2
 	f.seek(0)
 	#note: this takes into account the current p2 player as well
@@ -156,6 +181,11 @@ def get_similar_profile_players(player2):
 		if player["cluster"]==cluster:
 			list_of_players.append(player["player"].split()[-1])
 	return list_of_players
+
+def days_between_dates(d1, d2):
+	date1 = datetime.strptime(d1, '%b %d %Y')
+	date2 = datetime.strptime(d2, '%b %d %Y')
+	return abs((date2 - date1).days)
 
 def get_fixtures_to_predict():
 	players_list = ["Almagro", "Kevin Anderson", "Berdych", "Jeremy Chardy", "Cilic", "Potro", "Grigor Dimitrov", "Djokovic", "Federer", "David Ferrer", "Gasquet", "Gulbis", "Haas", "Hewitt", "Isner", "Monfils", "Murray", "Nadal", "Nishikori", "Raonic", "Robredo", "Seppi", "Tsonga", "Verdasco", "Wawrinka", "Youzhny", "Bautista", "Dolgopolov", "Fognini", "Janowicz", "Kohlschreiber", "Feliciano Lopez", "Gilles Simon"]
@@ -198,6 +228,7 @@ def simulate_bets():
 		p2spw = float(fixture["p2spw"])
 		p1_spwcount = float(fixture["p1_spwcount"])
 		p2_spwcount = float(fixture["p2_spwcount"])
+		#if (p1_spwcount==0 or p2_spwcount==0 or p1_spwcount==1 or p2_spwcount==1):
 		if (p1_spwcount==0 or p2_spwcount==0):
 			#dont bet because there isnt enough clustering info
 			continue
@@ -243,11 +274,11 @@ def simulate_bets():
 			roi+=(market_odds_p2-1)
 			correct_bets+=1
 		elif (betted==1 and winner==2):
-			print fixture["date"] + "  "+ fixture["player1"] + " vs " + fixture["player2"] + ", bet on :"+ fixture["player1"]
+			print fixture["date"] + "  "+ fixture["player1"] + " vs " + fixture["player2"] + ", bet on: "+ fixture["player1"]
 			roi-=1
 			wrong_bets+=1
 		elif (betted==2 and winner==1):
-			print fixture["date"] + "  "+ fixture["player1"] + " vs " + fixture["player2"] + ", bet on :"+ fixture["player2"]
+			print fixture["date"] + "  "+ fixture["player1"] + " vs " + fixture["player2"] + ", bet on: "+ fixture["player2"]
 			roi-=1
 			wrong_bets+=1
 	print "$"+str(roi)
@@ -269,5 +300,5 @@ def simulate_bets():
 
 #get_fixtures_to_predict()
 #predictions()
-simulate_bets()
+#simulate_bets()
 #print get_similar_profile_players("Milos Raonic")
