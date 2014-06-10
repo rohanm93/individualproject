@@ -1,6 +1,7 @@
 from __future__ import division
 import csv
 import markov
+import cluster
 from datetime import datetime
 
 
@@ -96,9 +97,7 @@ def predictions():
 		file_path = "dataset/sorted/10_clusters/"+ str(filename)
 		reader = csv.reader(open(file_path), delimiter=',')
 		player_list = []
-		# player1_cluster = "cluster_000"
 		player1_clusters = []
-		counter = 0
 		for player_row in reader:
 			if (player1==player_row[8] and float(p2Serve)==float(player_row[0]) and float(p2ReturnPointsWon)==float(player_row[1]) and odds==player_row[3] and player2==player_row[2]):
 				# reached the record so stop
@@ -108,39 +107,50 @@ def predictions():
 			else:
 				#also add the case if a player is in multiple clusters
 				#average them out for both players
-				if (player2==player_row[2]):
-					player1_clusters.append(player_row[11])
-					#player1_cluster = player_row[11]
+				#if (player2==player_row[2]):
+				#	player1_clusters.append(player_row[11])
 				player_list.append(player_row)
-		
 		if not player_list:
 			print "no one before player1 or ERROR"
 			continue
 		#at this point player_list contains all required data to do spw calculation for Player 1 - the same needs to be done for player 2
 		#important note - this just takes into account player 2's most recent cluster. ie. Haas vs Djokovic, will only take into account for Djokovic the cluster of their most recent match, say Djokovic is in multiple clusters
-		spw_value,total_spws = calculate_spw(player1_clusters, player_list, player2)
+		player_list.pop(0)
+		spw_value,total_spws = calculate_spw(player_list, player2)
 		row.append(spw_value)
 		row.append(total_spws)
 		fixtures_with_spw.writerow(row)
 
-def calculate_spw(cluster_name, player_list, player2):
+def calculate_spw(player_list, player2):
 	difference_a_c = 0
 	difference_spw_rpw_p1 = 0
 	normalisation_counter = 0
 	players_in_p2_profile = get_similar_profile_players(player2)
+	cluster_list = []
+	if player_list:
+		cluster_labels = cluster.cluster_spw_rpw(player_list)
+	counter = 0
+	for rec in player_list:
+		if player2==rec[2]:
+			cluster_list.append(cluster_labels[counter])
+		counter+=1
 	#player_list.sort(key=lambda x:x[11])
 	#contains records that have already been added
 	added = []
 	# this list contains players that are in the same cluster as player2
 	other_players = []
+	counter_2 = 0
 	for rec in player_list: #of form [p2serve, p2return, p2, odds, winner, date, tournament, t_round, p1, outlier, id, cluster]
-		#if we're playing against a player which is the same cluster also set variable to 1
+		#if we're playing against a player which is the same cluster also set same_profile to 1
 		same_profile = 0
 		if any(x in rec[2] for x in players_in_p2_profile):
 			same_profile = 1
 		#this means that we use all past head to head encounters. cluster_name is a list of clusters
-		if (rec[11]==cluster_name[0]) or same_profile:
+		#if (rec[11]==cluster_name[0]) or same_profile:
 		#if (rec[11] in cluster_name) or same_profile:
+		same_profile = 0 # FOR CLUSTER TEST PURPOSES ONLY, REMOVE LATER
+		print str(cluster_labels) + "," + str(counter_2) 
+		if (cluster_labels[counter_2] in cluster_list) or same_profile:
 			swp_p2 = float(rec[0])
 			rwp_p2 = float(rec[1])
 			#manipulating p2 values to p1 & converting to decimals
@@ -150,6 +160,9 @@ def calculate_spw(cluster_name, player_list, player2):
 			normalisation_counter+=1
 			other_players.append(rec[2])
 			added.append(rec)
+		counter_2+=1
+	# only take their last fixture head to head, not all of them
+	'''
 	d = {}
 	for rec in player_list:
 		if (rec[11] not in cluster_name) and (rec not in added):
@@ -163,6 +176,7 @@ def calculate_spw(cluster_name, player_list, player2):
 	for key, value in d.iteritems():
 		difference_a_c += value
 		normalisation_counter+=1
+	'''
 	return (difference_a_c, normalisation_counter)
 
 def get_similar_profile_players(player2):
@@ -300,5 +314,5 @@ def simulate_bets():
 
 #get_fixtures_to_predict()
 #predictions()
-#simulate_bets()
+simulate_bets()
 #print get_similar_profile_players("Milos Raonic")
