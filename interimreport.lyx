@@ -1,0 +1,1473 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding T1
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing other 1.3500000000000001
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 4cm
+\topmargin 4.5cm
+\rightmargin 4cm
+\bottommargin 4.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Analysing Keys to Effectively Predict the Outcome of Professional Tennis
+ Matches
+\end_layout
+
+\begin_layout Author
+Rohan Mahtani
+\end_layout
+
+\begin_layout Author
+rm2611
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+Not only is tennis played recreationally by millions of people around the
+ world, it is also one of the most popular spectator sports.
+ In fact, it is considered by many to have the second largest reach in terms
+ of global viewership of all team sports, after only football, and of course
+ the largest for any individual sport.
+ As one can imagine, a huge betting market has emerged from tennis - the
+ growth of this market has been undeniable ever since stakes on the sport
+ increased by 56% in 2012.
+ One example of this immense market is the British Andy Murray's first Wimbledon
+ final in 2012, which turned out to be Betfair's (a betting website) largest
+ ever market, with over £58 million of bets placed on that one game alone.
+\end_layout
+
+\begin_layout Standard
+A significant reason behind tennis’ increased popularity is the increased
+ access to historical statistics and betting websites which are continuously
+ analyzing this 'big data'.
+ When these statistics are presented to prospective bettors in an appealing
+ way, bettors are furthermore given a feeling of inside knowledge, encouraging
+ to bet further.
+ One good example of this data being presented is IBM's recent development
+ called SlamTracker.
+ SlamTracker analyzes years of past performance of players and determines
+ the three most important 'keys' that a player needs to meet to beat their
+ opponent.
+ For example, in the 2014 Australian Open final between Nadal and Wawrinka,
+ one of Wawrinka's keys was to win more than 32% of first serve return points.
+ (Promisingly, the eventual winner Wawrinka met each of his three keys,
+ while his opponent Nadal failed to meet any of his keys).
+ Data like this gives an in-play analysis of matches and when presented
+ well, like in IBM's tool, might encourage people to bet on tennis matches
+ because of all these in-depth statistics available.
+ 
+\end_layout
+
+\begin_layout Standard
+Tennis analysis have gained importance especially because of our ability
+ to statistically model a tennis match straightforwardly.
+ Tennis is an individual sport, and due to this, we don't need to analyse
+ more complicated team dynamics and aspects like the changing of teams from
+ one year to the next and substitutions during games.
+ Furthermore, the scoring system is straightforward - there are only two
+ outcomes for a match, and every game has a simple point based system.
+ Finally, as outlined earlier, the massive amount of historical data available,
+ especially between common opponents, helps significantly in accurately
+ testing out a model.
+\end_layout
+
+\begin_layout Standard
+Tennis has been modelled in various papers as a hierarchical Markov model,
+ since its a hierarchical sport, with the different levels of heirarchy
+ being at the game, set and match levels.
+ Markov chains have the Markov property of being 'memoryless', and hence,
+ most papers take the assumption, which has been shown by Klaasen and Magnus[1]
+ to be an accurate estimation, that points in a tennis match are identically
+ and independently distributed.
+ O'Malley[2] described in his paper [reference to omalley paper] how to
+ model a tennis match using only the probabilities of a player winning a
+ point on serve and return.
+\end_layout
+
+\begin_layout Standard
+The model described above use first and second service percentages, and
+ have been very useful and successful in predicting the eventual winner
+ of a match.
+ However, these models focus on primarily the services; little research
+ has been done on analyzing key aspects of tennis players' styles.
+ Recent tools like the IBM SlamTracker, as mentioned earlier, aims to find
+ players' keys and trends.
+ However, IBM's SlamTracker doesn't consider opponents when deriving its
+ player keys.
+ It only gives information on the derived player keys, without giving a
+ predictions of the outcome of the match if a player is matched up against
+ another specific player.
+\end_layout
+
+\begin_layout Standard
+It is important to continue this analysis and model tennis matches taking
+ into account player styles and keys - for example, by how much do probabilities
+ of winning a match vary if a serve-and-volley tennis player (a player that
+ approaches the net after serving) plays a tennis player who positions himself
+ at the baseline and is able to hit cross court shots well.
+ Additionally, what if we have a strong server against a weak receiver?
+ It would make sense that the probability of winning varies depending on
+ the type of opponent and the opponent's key traits.
+ This leads to the main aim of the project.
+ We want to first be able to determine any player's key traits based on
+ past match statistics and information on the player.
+ After this we can analyze the significance of these keys by matching them
+ up with other keys, and learn information about what keys are important
+ in winning a game.
+\end_layout
+
+\begin_layout Standard
+TennisInsight.com, a popular tennis statistics website, recently introduced
+ a feature called Player Traits.
+ For any professional tennis player, users can tag players with specific
+ characteristics (eg.
+ Hard courter, Loves a home crowd, Attacking, etc).
+ This information gives new insight into players and this project involves
+ identifying characteristics like these automatically based on historic
+ match statistics, and finding which ones are more significant than others.
+\end_layout
+
+\begin_layout Section
+Background
+\end_layout
+
+\begin_layout Subsection
+Scoring System in a Tennis Match
+\end_layout
+
+\begin_layout Standard
+Tennis matches can be either singles or doubles contests, with singles matches
+ played between two players while doubles matches played between four.
+ We focus on singles matches.
+\end_layout
+
+\begin_layout Standard
+To win a tennis match, a player must win a certain amount of sets, which
+ is determined before the game.
+ Grand Slam men tournaments involve matches that are best of five sets,
+ which means a player must win three sets to win the match.
+ Most tournaments, including several ATP tournaments (tournaments that count
+ towards a player's ranking), also involve matches that are a best of three
+ sets, where a player needs to win two sets to win the match.
+ A set is made up of multiple games, and hence, for a player to win a set,
+ he must win six games, except in special cases.
+ These special cases are 1) when both players have won five games, a player
+ must now win seven games to win the set, and 2) when both players have
+ won six games, a tiebreak is played in most situations to decide the outcome
+ of the set.
+ This depends on the rules of the tournament.
+\end_layout
+
+\begin_layout Standard
+A game consists of a series of points.
+ A player starts a point by serving to his opponent, and a complete game
+ is played with the same player serving.
+ The player serving alternates after every game.
+ To win a game, a player must win at least four points in total, and at
+ least two points more than his opponent.
+ Points are counted in the following way: zero, one, two, and three points
+ are referred to as love, fifteen (15), thirty (30), and fourty (40).
+ We have the exception where each player scores three points each, which
+ is called a 
+\begin_inset Quotes eld
+\end_inset
+
+deuce
+\begin_inset Quotes erd
+\end_inset
+
+.
+ In this situation, a player must win two points to win the game.
+ The first point is called an 
+\begin_inset Quotes eld
+\end_inset
+
+advantage
+\begin_inset Quotes erd
+\end_inset
+
+ for the player in the lead.
+ If the opponent scores when the player is in an 
+\begin_inset Quotes eld
+\end_inset
+
+advantage
+\begin_inset Quotes erd
+\end_inset
+
+ situation, the score gets reduced back to a 
+\begin_inset Quotes eld
+\end_inset
+
+deuce
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+As mentioned earlier, we have a tiebreak in some cases where both players
+ have six games each in the set.
+ A player wins the tiebreak if has won at least seven points in the tiebreak
+ and has two points or more than his opponent (e.g.
+ valid scores include 7-2 and 10-8).
+ Serving is unlike regular games in a tiebreaker, as serve alternates.
+ The player who did not serve in the previous game serves the first point
+ of the tiebreak, while his opponent serves the following two points.
+ The serve alternates every two points in a tiebreak.
+\end_layout
+
+\begin_layout Subsection
+Modelling in Tennis
+\end_layout
+
+\begin_layout Standard
+Tennis matches are very suitable to statistical modelling.
+ It is an individual sport with two outcomes, meaning that there is no need
+ to consider team dynamics.
+ The scoring system can be modelled in a straightforward way as there are
+ only two outcomes for a match, every game has a simple point based system,
+ and players serve alternately for each game in very similar circumstances.
+\end_layout
+
+\begin_layout Standard
+For the ease of modelling a tennis game, most papers take the assumption
+ that points in a tennis match are identically and independently distributed
+ (i.i.d.).
+ This means that the probability of a player winning a point is independent
+ of the outcome of the point played before and after and it remains constant
+ throughout the entire match.
+ This assumption was analyzed by Klaasen and Magnus[1].
+ They found that points were neither identically nor independently distriuted.
+ However, they concluded that the deviations from the iid assumption was
+ small and hence, this assumption is considered to be a good approximation
+ in many cases.
+ This deviation is small due to the fact that tennis is a very repetitive
+ game, with each player aiming to win a point under very similar circumstances.
+ Certainly, psychology and momentum do play a part in tennis matches, but
+ as in any sport, its extremely difficult or rather impossible to predict
+ a player's psychology at any time.
+ 
+\end_layout
+
+\begin_layout Standard
+With this assumption of points being identically and independently distributed,
+ various papers model tennis matches using a hierarchical Markov model,
+ since its a hierarchical sport, with the different levels of heirarchy
+ being at the game, set and match levels.
+ Markov chains have the Markov property of being 'memoryless', meaning that
+ the next state is only dependent on the current state.
+ This fits with the iid assumption discussed earlier.
+\end_layout
+
+\begin_layout Subsection
+Stochastic Markov chain
+\end_layout
+
+\begin_layout Standard
+A discrete time Markov chain is a mathematical system that undergoes transitions
+ from one to another.
+ It involves a collection of random variables which characterize a random
+ process.
+ A process has a Markov property if the conditional probability distribution
+ of future states of the process depends on only the current state and is
+ independent of the past.
+ Discrete-time random processes, which are the processes Markov chains character
+ise, involve systems which are in a specific state at a specific step.
+ These steps are often considered as steps in time.
+ 
+\end_layout
+
+\begin_layout Standard
+To define the term, a Markov chain is a sequence of random variables 
+\begin_inset Formula $X_{1},$
+\end_inset
+
+
+\begin_inset Formula $X_{2},$
+\end_inset
+
+
+\begin_inset Formula $X_{3},...$
+\end_inset
+
+ with the Markov property.
+ [4] The Markov property can be formally expressed as 
+\begin_inset Formula 
+\[
+P(X_{n+1}=x\,|\, X_{1}=x_{1},\, X_{2}=x_{2},...,\, X_{n}=x_{n})=P(X_{n+1}=x\,|\, X_{n}=x_{n})
+\]
+
+\end_inset
+
+The different values of 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ form the state space S of the chain.
+ 
+\end_layout
+
+\begin_layout Standard
+A Markov model is a stochastic model that models the state of a system with
+ (usually discrete) random variable that varies over time.
+ It can be described as the depiction of a set of all Markov chains for
+ a given event.
+ Markov chains and models are usually represented as directed graphs.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:markov"
+
+\end_inset
+
+ shows an example of a Markov model used to describe a game in a tennis
+ match, where the win state represents a win for the current server.
+ In Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:markov"
+
+\end_inset
+
+, there are the merged states of 30-30/Deuce, 30-40/30-Advantage, and 40-30/40-A
+dvantage.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../Downloads/markov for tennis game.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+A directed graph of a Markov model for a tennis game
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:markov"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\shape italic
+p represents the probability of winning a point for the server
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Tennis Equations
+\end_layout
+
+\begin_layout Standard
+James O'Malley[2], in his paper 
+\begin_inset Quotes eld
+\end_inset
+
+Probability Formulas and Statistical Analysis in Tennis
+\begin_inset Quotes erd
+\end_inset
+
+, and Tristan Barnett[3], in his paper 
+\begin_inset Quotes eld
+\end_inset
+
+Combining player statistics to predict outcomes of tennis matches,
+\begin_inset Quotes erd
+\end_inset
+
+ use hierarchical Markov models to develop formulas to help us calculate
+ the probabilities of players winning at various points in a tennis match.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+O'Malley's Formulae
+\end_layout
+
+\begin_layout Standard
+Using the idea that the probability that a player wins a point is a Bernoulli
+ random variable, O'Malley [2] derived the following expression as the probabili
+ty of a player winning a game.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+G(p)=P(player\, wins\, game)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\sum_{i=0}^{\infty}P(player\, wins\, game\, losing\, i\, points)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=p^{4}(15-4p-\frac{10p^{2}}{1-2p(1-p)})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+O'Malley, in this equation, considers four different scenarios from which
+ the game can be won: the player can win without losing any points, losing
+ one point, losting two points, and winning the game after the score is
+ 
+\begin_inset Quotes eld
+\end_inset
+
+deuce
+\begin_inset Quotes erd
+\end_inset
+
+, where three or more points are lost.
+ The last situation follows a geometric sequence.
+ The final formula 
+\begin_inset Formula $G(p)$
+\end_inset
+
+ is given by the sum of the joint probabilities of winning the game losing
+ a certain number of points.
+ O'Malley uses the above formula to describe formulae for winning a set
+ and consequently a match.
+ These tennis equations have helped greatly as they allow us to straightforwardl
+y develop quick programs to calculate the probability of a player winning
+ a tennis match with accuracy.
+\end_layout
+
+\begin_layout Subsubsection
+Barnett and Clarke's Formulae
+\end_layout
+
+\begin_layout Standard
+It is important to get accurate estimates of point winning probabilities,
+ to use them to find the probability of a player winning a game, set and
+ eventually match.
+ There is a significant amount of data available regarding match statistics,
+ but its important to combine them to produce an accurate estimation of
+ the probability of winning a point.
+ Barnett and Clarke[3] came up with the following formulae to combine certain
+ statistics to give an accurate point winning probability on serve:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{i}=a_{i}b_{i}+(1-a_{i})c_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{i}=$
+\end_inset
+
+percentage of points won on serve for player i.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{i}$
+\end_inset
+
+= first serve percentage accuracy of player i
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $b_{i}$
+\end_inset
+
+= first serve win percentage of player i
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{i}$
+\end_inset
+
+= second serve win percentage of player i
+\end_layout
+
+\begin_layout Standard
+The above formula is straightforward to understand.
+ The percentage of points won on serve for player i is the sum of 1) the
+ points won on the first serve and 2) the points won on the second serve
+ (when the player misses his first serve).
+\end_layout
+
+\begin_layout Standard
+Taking into account the opponent, we have the following:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g_{i}=a_{avg}d_{i}+(1-a_{avg})e_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $g_{i}=$
+\end_inset
+
+percentage of points won on return for player i.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{avg}$
+\end_inset
+
+= average first serve percentage across a range of players
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d_{i}$
+\end_inset
+
+= percentage of points won on return of first service for player i
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e_{i}$
+\end_inset
+
+= percentage of points won on return of second service for player i
+\end_layout
+
+\begin_layout Standard
+We have a similar formula for the opponent, i.e.
+ the player who is returning the service.
+ The percentage of points the opponent wins returning the service is the
+ sum of again the points won returning the first serve and those won returning
+ the second service.
+ In Barnett's paper,
+\begin_inset Formula $a_{avg}$
+\end_inset
+
+refers to the average first serve percentage across the top 200 ATP players.
+\end_layout
+
+\begin_layout Standard
+Finally, we want to combine both of these player statistics when a player
+ i plays against a player j.
+ In this case, the percentage of points won on serve for player i, 
+\begin_inset Formula $f_{ij}$
+\end_inset
+
+, is the following.
+ It's important to note that this method uses the difference in serve winning
+ percentages rather than the actual values:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{ij}=f_{t}+(f_{i}-f_{avg})-(g_{i}-g_{avg})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{t}=$
+\end_inset
+
+average percentage of points won on serve for the specific tournament the
+ match is in
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{avg}=$
+\end_inset
+
+average percentage of points won on serve across a range of players
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $g_{avg}=$
+\end_inset
+
+average percentage of points won on return across a range of players
+\end_layout
+
+\begin_layout Standard
+In the same paper, Barnett then goes on to use these combined statistics
+ formulas to create a Markov chain to estimate factors such as the estimated
+ length of a particular game.
+\end_layout
+
+\begin_layout Subsection
+Clustering
+\end_layout
+
+\begin_layout Standard
+Most models till date have used the above discussed ideas of Markov models.
+ However, in this project we aim to take this one step further and encourage
+ the use of machine learning in our analysis.
+ Machine learning involves the development of systems that can learn from
+ data.
+ In this project, we will be data mining through large amounts of statistical
+ data on professional tennis players, analyzing their key trends, and finally
+ finding the relationship between keys.
+ A large part of the data mining process is the idea of clustering and cluster
+ analysis.
+\end_layout
+
+\begin_layout Standard
+Cluster analysis is achieved by different algorithms that differ significantly
+ in their notion of what defines a cluster.
+ These algorithms' main aims are to take a data set and sort it into groups,
+ allowing us to see key trends, which is imperative for this project.
+ There are a wide range of clustering algorithms that have been developed
+ for data mining purposes.
+ It was hence important to research into different algorithms, analyze the
+ clusters formed by those algorithms and parameters, and choose a clustering
+ algorithm aligned to the requirements of the problem.
+ In this section, two clustering algorithms will be looked at.
+\end_layout
+
+\begin_layout Subsubsection
+K-means Clustering
+\end_layout
+
+\begin_layout Standard
+The k-means clustering algorithm is a straightforward unsupervised learning
+ algorithm that uses an iterative refinement technique.
+ It classifies a data set through a certain number of specified clusters,
+ eg k clusters.
+ The algorithm starts with these k random clusters and then examines each
+ data point and assigns it to one of the centroids (i.e.
+ the geometric center of the cluster) depending on the minimum variance/distance.
+ The centroid's position is recomputed everytime a data point is added to
+ the cluster, by simply finding the mean of all the data points assigned
+ to that cluster.
+ After the centroid's position is recomputed, a new binding is needed to
+ be done between the same datapoints and the new closer centroid.
+ The algorithm continues iteratively until all the data set points are grouped
+ into the final required number of clusters, and the centroids position
+ don't change anymore.
+ 
+\end_layout
+
+\begin_layout Standard
+More formally, we have the cluster assignment step as the following [5]:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{i}^{(t)}=\{x_{p}:\parallel x_{p}-m_{i}^{(t)}\parallel^{2}\leq\parallel x_{p}-m_{i}^{(t)}\parallel^{2}\forall j,\,1\leq j\leq k\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where each data point 
+\begin_inset Formula $x_{p}$
+\end_inset
+
+is assigned to exactly one 
+\begin_inset Formula $S^{(t)}$
+\end_inset
+
+, and there is a set of 
+\begin_inset Formula $m_{i}...m_{k},$
+\end_inset
+
+where k is the number f specified clusters.
+ m's are the centroids.
+\end_layout
+
+\begin_layout Standard
+This formula essentially states that a data point x is assigned to a cluster
+ S if the variance/squared error term between the data point and centroid
+ is minimized.
+\end_layout
+
+\begin_layout Subsubsection
+Hierarchical clustering algorithms
+\end_layout
+
+\begin_layout Standard
+The k-means algorithm gives us a set of clusters, with no specific organisation
+ within these clusters.
+ However, it is likely that some clusters might be closely related to other
+ clusters, while some may be very distantly related to others.
+ If we are clustering tennis players, we may not only want to have a cluster
+ of tennis players who have a high first serve accuracy percentage, but
+ also want to cluster players who have a very fast average first serve within
+ that cluster.
+ This introduces the need for hierarchical clustering.
+\end_layout
+
+\begin_layout Standard
+There are two distinct approaches for hierarchical clustering algorithms:
+\end_layout
+
+\begin_layout Enumerate
+Agglomerative: Agglomerative clustering is often referred to as a bottom-up
+ approach, where we group smaller clusters into larger ones.
+ The general idea of agglomerative clustering is straightforward.
+ As the name bottom-up suggests, we start this algorithm with every data
+ point in its own cluster.
+ We then recursively find the closest pairs of clusters using a greedy approach
+ and merge them together, ending up finally with one large cluster with
+ clusters within it.
+\end_layout
+
+\begin_layout Enumerate
+Divisive: This is often referred to as the top-down approach, where we split
+ larger clusters into smaller clusters.
+ We start the algorithm with all data points in the same one cluster, and
+ then we have a 'divisive' approach, as suggested by the name, where we
+ break down the data points recursively into their own singleton clusters.
+ The divisive clustering approach differs from the agglomerative one in
+ the sense that we need a second clustering algorithm, for which we can
+ use the k-means algorithm, for example.
+ As with the merges in the agglomerative approach, the splits in the divisive
+ approach are also determined in a greedy manner.
+\end_layout
+
+\begin_layout Subsubsection
+Hierarchical clustering: Ward's method
+\end_layout
+
+\begin_layout Standard
+The agglomerative approach, as described, merges two clusters together.
+ To do this, we need to determine how close two clusters are, which is different
+ from how close two data points are.
+ We use Ward's method to define the distance between two clusters.
+ 
+\end_layout
+
+\begin_layout Standard
+Ward's method is also known as Ward's minimum variance method, as it minimizes
+ the the total within-cluster variance.
+ At each step, we choose a pair of clusters to merge by selecting the pair
+ that leads to the minimum increase in total within-cluster variance after
+ merging.
+ 
+\end_layout
+
+\begin_layout Standard
+More formally, we have the following:
+\begin_inset Formula 
+\[
+\triangle(A,B)=\sum_{i\epsilon A\cup B}\parallel\mathrm{\mathit{\mathrm{\overrightarrow{x_{i}}-\overrightarrow{m}_{A\cup B}}}\parallel^{2}}-\sum_{i\epsilon A}\parallel\mathrm{\mathit{\mathrm{\overrightarrow{x_{i}}-\overrightarrow{m}_{A}}}\parallel^{2}}-\sum_{i\epsilon B}\parallel\mathrm{\mathit{\mathrm{\overrightarrow{x_{i}}-\overrightarrow{m}_{B}}}\parallel^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\frac{n_{A}n_{B}}{n_{A}+n_{B}}\Vert\mathit{\mathrm{\overrightarrow{m}_{A}-\overrightarrow{m}_{B}}}\parallel^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\overrightarrow{m}_{j}$
+\end_inset
+
+ is the center of cluster j, 
+\begin_inset Formula $n_{j}$
+\end_inset
+
+is the number of points in cluster j, and 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\triangle(A,B)$
+\end_inset
+
+ is the cost of merging clusters A and B, which is, in essence, the increase
+ in sum of squares when you merge two clusters.
+ This is what we aim to minimize.
+\end_layout
+
+\begin_layout Standard
+Ward's method is an agglomerative one, which means that the algorithm starts
+ with every data point in its own cluster.
+ Hence, the sum of squares initially is 0, but this number grows as clusters
+ are merged.
+\end_layout
+
+\begin_layout Standard
+In Ward's method, there is a tradeoff between separation of clusters and
+ the balance (number of data points in a cluster).
+ If there are two clusters which are equally separated, Ward's method merges
+ the clusters that are smaller in size.
+ We do, in fact, get some cases where Ward's method merges clusters that
+ are small in size, even though they might be further apart.
+\end_layout
+
+\begin_layout Subsubsection
+Combining Ward's method and k-means algorithm
+\end_layout
+
+\begin_layout Standard
+As described earlier, the k-means algorithm starts with a certain number
+ of specified clusters, and assigns each data point to one of these clusters
+ depending on the minimum variance.
+ However, we do face the important decision on what the value of k should
+ be set to, as this determines the number of clusters that we are left with.
+ The first extreme involves setting the value of k to 1, which means that
+ all data points form one cluster, which might give us a very irregular
+ distribution.
+ On the other end of the extreme, we have that all data points each form
+ its own cluster, which is what the hierarchical bottom-up approach starts
+ at.
+ This means that the clusters are perfectly informative of the data, but
+ that makes the clustering rather pointless, in addition to the fact that
+ this will not allow us to predict new data.
+ 
+\end_layout
+
+\begin_layout Standard
+This is where Ward's algorithm comes in.
+ Ward's algorithm provides us with a heuristic that gives us an indication
+ of what this value of k should be set to.
+ If the cost of merging any two clusters in Ward's algorithm increases significa
+ntly, it is likely that we have overstepped the value of k required in the
+ k-means algorithm.
+ Hence, the idea is that we can use Ward's algorithm to continue to reduce
+ the value of k until the merging cost peaks, and use the value of k right
+ before that point in the k-means algorithm.
+\end_layout
+
+\begin_layout Subsection
+Tools used
+\end_layout
+
+\begin_layout Subsubsection
+Machine Learning Tool: Weka
+\end_layout
+
+\begin_layout Standard
+Weka is a popular data mining tool that allows you to use several machine
+ learning algorithms over a dataset through the same system.
+ Several clustering algorithms, such as the k-means algorithm, are included
+ in the software itself, and we can tweak the algorithm settings where necessary.
+ A screenshot of the Weka tool is shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:wekascreenshot"
+
+\end_inset
+
+[6].
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../Downloads/figure35.gif
+	scale 55
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Weka tool used when running the k means algorithm over a data set
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:wekascreenshot"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\shape italic
+numClusters refers to the amount of clusters that we want in our clustering
+ analysis, which we provide to the k-means algorithm.
+ The seed value in k-means is a value that initializes a random number generator
+ in the system.
+ This random number generator is used to select initial cluster centroids
+ by randomly selecting instances from the training data.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Data Sources
+\end_layout
+
+\begin_layout Standard
+The initial step in the project involves collecting as much data as possible
+ on various players.
+ Since the project determines key traits of players, a large amount of data
+ must be analysed to ensure accuracy of these key traits.
+ There are a significant amount of online resources, such as websites like
+ 
+\family typewriter
+http://www.tennisinsight.com
+\family default
+, which provide a significant amount of detailed statistics of every professiona
+l tennis match played since the site was inaugurated.
+\end_layout
+
+\begin_layout Standard
+A feature has launched on the website TennisInsight called Player Traits,
+ which lets users tag players with characteristic traits.
+ In this project, based on statistics of players alone, we determine similar
+ player traits.
+ Furthermore, we look at the significance of each of these traits in the
+ eventual outcome of the match.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Project Plan
+\end_layout
+
+\begin_layout Subsection
+Outline of project timeline
+\end_layout
+
+\begin_layout Standard
+There are several stages of this project that work in the following way:
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+1) Research
+\end_layout
+
+\begin_layout Standard
+This stage involves the research into the various machine learning clustering
+ algorithms.
+ As explained in the background, there are several aspects that need to
+ be considered when defining the clusters for example.
+ Initial research has been completed in general, but as all projects, more
+ and more research will occur as the project moves on.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+2) Gathering data
+\end_layout
+
+\begin_layout Standard
+This stage involves gathering the data from 
+\family typewriter
+http://tennisinsight.com
+\family default
+.
+ Dr.
+ Knottenbelt has provided me with basic scripts that he has previously used
+ to pull match statistics from the same website.
+ This has given me good guidance to build my own scripts.
+ I want to collect as much data as possible because especially with machine
+ learning, its important to have a large enough data set to notice trends.
+ Data that I am collecting includes 
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Match statistics
+\shape default
+ for matches they have played on in various tournaments.
+ Using this data we can try find statistics which players should focus on.
+ For example, if we can find what statistics the top seeded players succeed
+ in, it would be extremely useful in predicting up and coming tennis players.
+ I will be getting match statistics data for games only part of the ATP
+ tour, which count towards rankings, rather than from exhibition matches.
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Information on tournaments
+\shape default
+: surface, prize money, time of the year, ranking points per event.
+ The reason for collecting this data is to aim to find relationships between
+ player performance and tournament factors.
+ Questions to be answered include: does a player's performance relatively
+ decrease if ranking points for a tournament are very low? In other words,
+ do players give little importance to smaller tournaments?
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Bio data
+\shape default
+ on players, for example, height.
+ This information would provide us with more keys that we can use to gather
+ further relationships.
+ An expected relationship could be that there is a strong correlation between
+ a player's height and their serve speed, a relationship that we notice
+ today.
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Player traits
+\shape default
+: Another part of the data collection is collecting the Player Traits informatio
+n from the TennisInsight website.
+ This is an important part of my analysis and these player traits represent
+ more keys that my project aims to look for.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+3) Processing data
+\end_layout
+
+\begin_layout Standard
+It is important to process data in the correct way.
+ I am collecting a lot of data regarding players and its necessary to, firstly,
+ link them with each other.
+ I'm planning on loading the above mentioned data into separate database
+ tables, and then use SQL database commands to link them together as needed.
+ I also need to be able to split the data by various tournaments, to look
+ at keys for different Grand Slams, for example.
+ This is useful since there might be specific keys for different kinds of
+ courts.
+ 
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+4) Generating Player Keys
+\end_layout
+
+\begin_layout Standard
+Since player keys are central to the project, I aim to determine a list
+ of keys automatically given a player's statistics and bio.
+ At the processing data stage, I want to look at the Player Traits data
+ collected in the previous stage and look at keys that I can generate from
+ the data.
+ A straightforward example is if a player wins more of his matches on grass
+ courts than others (clay, hard), he could have a key that he is a grass
+ court player.
+ Finally, once I generate keys for players based on the data, I can compare
+ the autogenerated keys to the ones provided by users on TennisInsight.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+5) Clustering data
+\end_layout
+
+\begin_layout Standard
+After I select the player keys which I can generate automatically, I will
+ start using clustering analysis tools to cluster the data into clusters
+ using different algorithms (which are outlined in the background).
+ This is one of the most significant parts of the implementation as this
+ would give information on which keys are related to each other and trends
+ which would be useful to focus on.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+6) Find trends
+\end_layout
+
+\begin_layout Standard
+At this stage, we want to essentially find trends that helps us answer questions
+ like: is there a relationship between when a certain player with a set
+ of determined keys plays against an opponent player with another set of
+ specific keys? If we can determine any kind of relationship we can hopefully
+ get an indication on which player would win.
+ Once we get a set of rules which take into account player statistics, we
+ can build a model which gives a probability of a player winning a tennis
+ match.
+\end_layout
+
+\begin_layout Subsection
+Fallback Positions and Extensions
+\end_layout
+
+\begin_layout Standard
+Its important to consider both fallback positions, in case there isn't enough
+ time, as well as possible extensions, in case time permits.
+ The above plan described is key to the project, so a possible fall back
+ position includes working on a smaller amount of player keys, rather than
+ the entire set of tournaments, player bio, and statistics.
+ I could focus my project on analysing a smaller subset of keys, which will
+ still allow me to go the entire process outlined above and make very relevant
+ conclusions.
+\end_layout
+
+\begin_layout Standard
+As for extensions, there are interesting aspects which I would love to investiga
+te if time permits.
+ The first extension involves analysing the evolution of player keys over
+ time.
+ What I want to find is if top ranked players have exhibited common similar
+ trends in keys as their careers progressed.
+ Information from this, especially if successful, could give us very interesting
+ insights into professional tennis players, and perhaps might even be of
+ some guidance to them in their careers.
+ The second extension involves developing the current tennis Markov models
+ by incorporating the keys which I find to be useful into the model.
+ I can do this by modifying the probabilities of winning a point by incorporatin
+g the keys and hence finding out a player's match winning probability through
+ the Markov model.
+\end_layout
+
+\begin_layout Section
+Evaluation Plan
+\end_layout
+
+\begin_layout Standard
+With this project, there are two types of evaluation I will carry out.
+ The first involves an evaluation midway through the project, when defining
+ clusters used in the clustering analysis phase.
+ To recall, the clusters help us categorise our data set based on different
+ key trends.
+ It's difficult to choose the right number of clusters and settle on the
+ right algorithm to define these clusters.
+ Hence, I need to continuously re-evaluate the clusters to ensure the analysis
+ yields useful data.
+ 
+\end_layout
+
+\begin_layout Standard
+The second involves evaluating the project at the end of the project.
+ Several papers, including Dr.
+ Knottenbelt [7], Madurska[8], have evaluated their model through a betting
+ metric which is related to the market odds.
+ TennisInsight gives information on betting odds on all previous match statistic
+s.
+ Hence, we can simulate the same model on all ATP matches last year and
+ find a potential return assuming the model bet on all those matches where
+ the model calculates a better than market odds.
+ We already know the outcome of these matches so we can find if the model
+ is effective or not according to the betting market.
+\end_layout
+
+\begin_layout Standard
+Its important to also compare the model developed to existing models.
+ I aim to incorporate the keys into existing models and try to enhance them.
+\end_layout
+
+\begin_layout Section
+References
+\end_layout
+
+\begin_layout Standard
+[1] F.
+ J.
+ G.
+ M.
+ Klaassen and J.
+ R.
+ Magnus, 
+\begin_inset Quotes eld
+\end_inset
+
+Are points in tennis independent and identically distributed? Evidence from
+ a dynamic binary panel data model," Journal of the American Statistical
+ Association, 2001
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+[2] A.
+ J.
+ O'Malley, 
+\begin_inset Quotes eld
+\end_inset
+
+Probability formulas and statistical analysis in tennis," Journal of Quantitativ
+e Analysis in Sports, 2008
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+[3] T.
+ J.
+ Barnett and S.
+ R.
+ Clarke, 
+\begin_inset Quotes eld
+\end_inset
+
+Combining player statistics to predict outcomes of tennis matches," IMA
+ Journal of Management Mathematics, 2005
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+[4] 
+\begin_inset Quotes eld
+\end_inset
+
+Markov Chain,
+\begin_inset Quotes erd
+\end_inset
+
+ http://en.wikipedia.org/wiki/Markov_chain, Accessed on 21st February 2014
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+[5] 
+\begin_inset Quotes eld
+\end_inset
+
+k-means clustering,
+\begin_inset Quotes erd
+\end_inset
+
+ http://en.wikipedia.org/wiki/K-means_clustering, Accessed on 21st February
+ 2014
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+[6] 
+\begin_inset Quotes eld
+\end_inset
+
+K-Means Clustering in WEKA
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Standard
+http://facweb.cs.depaul.edu/mobasher/classes/ect584/weka/k-means.html, Accessed
+ on 21st February 2014
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+[7] W.
+ J.
+ Knottenbelt, D.
+ Spanias, and A.
+ M.
+ Madurska, 
+\begin_inset Quotes eld
+\end_inset
+
+A common-opponent stochastic model for predicting the outcome of professional
+ tennis matches," Computers and Mathematics with Applications, 2012
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+[8] A.
+ M.
+ Madurska, 
+\begin_inset Quotes eld
+\end_inset
+
+A set-by-set analysis method for predicting the outcome of professional
+ singles tennis matches,
+\begin_inset Quotes erd
+\end_inset
+
+ 2012
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,325 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Obtaining data
+\end_layout
+
+\begin_layout Standard
+The first part of the project consisted of obtaining the required data to
+ analyse players and their characteristics.
+ A significant amount of historical data needed to be collected and as mentioned
+ previously, 
+\family typewriter
+www.tennisinsight.com
+\family default
+ and 
+\family typewriter
+www.atpworldtour.com
+\family default
+ proved to be a very useful source of data, with all required match statistics
+ and player profile information.
+ Unfortunately, the website does not have an API that allowed us to easily
+ retrieve the data, and it was obviously impractical to obtain the data
+ manually.
+ Hence, a web scraper was developed using Scrapy, a Python web scraping
+ framework, to obtain the relevant statistics from these websites.
+\end_layout
+
+\begin_layout Subsection
+Web scraper
+\end_layout
+
+\begin_layout Standard
+The complete web scraper was made up of two separate scrapers, one to pull
+ match statistics and one to retrieve the betting odds for a player to win
+ the match.
+ This was required because of the website's design, which had these two
+ sets of information of different pages.
+ TennisInsight identifies each player by a 'player id', which is used in
+ the scraper as well.
+ Both scrapers take this player id as an input to identify the corresponding
+ tennis player and retrieve the player's data from his last 100 matches.
+\end_layout
+
+\begin_layout Subsubsection*
+Match Statistics Scraper
+\end_layout
+
+\begin_layout Standard
+This is the first component of the web scraper.
+ The scraped pages each contain a list of all of a player's matches with
+ corresponding links to more detailed match statistics (which are on either
+ the ATP's website or TennisInsight).
+ The scraper opens each of these links and retrieves the match statistics,
+ saving them to a csv file.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Odds Scraper
+\end_layout
+
+\begin_layout Standard
+A second scraper was needed because the match statistics and the odds were
+ on separate pages.
+ The odds for a player to win were scraped and these were merged with the
+ match statistics collected previously to create a complete record.
+ In addition, the dates for each of the matches played was on this page
+ too, so the odds scraper retrieved this information as well.
+\end_layout
+
+\begin_layout Subsubsection*
+Linking scraped records from both scrapers
+\end_layout
+
+\begin_layout Standard
+After this data was collected separately by two different scrapers, it was
+ important for them to be linked together to form complete records to simplify
+ processing at later stages in the project.
+ SQLite, a SQL database engine was used for this purpose, providing a quick
+ and straightforward way to join tables using standard SQL commands.
+\end_layout
+
+\begin_layout Section
+Developing a model
+\end_layout
+
+\begin_layout Standard
+As mentioned earlier in the report, a key indicator of a player's performance
+ in a tennis match depends on the points won on serve by each player.
+ These point-winning probabilities have been used in most tennis models
+ till date and are the key inputs to hierarchical Markov tennis models,
+ which rely on these point winning probabilities to return a probability
+ of a player winning a match.
+ 
+\end_layout
+
+\begin_layout Standard
+O'Malley [reference] reasoned that it is the difference between the serve
+ winning probabilities of each player that is integral to calculating a
+ player's point winning probability and hence overall match winning probability.
+ It is important to note that the actual values of the point winning probabiliti
+es themselves are not as crucial as the relative difference between them.
+\end_layout
+
+\begin_layout Subsection
+Difference in service points won
+\end_layout
+
+\begin_layout Standard
+The above findings have been used in recent tennis models, such as in the
+ common opponent model proposed by Knottenbelt [reference], as well as in
+ this project.
+ In the common opponent model, the difference in service points won by each
+ player is derived from each player's relative performance against common
+ opponents.
+ For example, to model how two players, player 
+\shape italic
+A
+\shape default
+ and player 
+\shape italic
+B
+\shape default
+, would play against each other, we look at the difference in service points
+ won by 
+\shape italic
+A
+\shape default
+ and 
+\shape italic
+B
+\shape default
+ against a set of common opponents, 
+\shape italic
+
+\begin_inset Formula $C_{i}$
+\end_inset
+
+
+\shape default
+'s.
+ We can then use these differences to additively influence, either positively
+ or negatively, the probability of winning a point on serve for each player
+ in a match up between 
+\shape italic
+A
+\shape default
+ and 
+\shape italic
+B
+\shape default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+A similar idea is used in this project.
+ In a match between player A and B as before, we look first at the difference
+ in service points won between A and a set of 'similar' opponents to B.
+ We then look at the difference in service points won between B and a set
+ of 'similar' opponents to A.
+ Instead of common opponents used in the aforementioned paper, we introduce
+ the idea of similar opponents.
+ This specific set of similar opponents is found through clustering techniques
+ over different sets of data.
+ We will delve into detail of these clustering techniques in the next section.
+\end_layout
+
+\begin_layout Section
+Estimating a player's match winning probability
+\end_layout
+
+\begin_layout Standard
+The calculation of a player's match winning probability is a key aspect
+ of this project.
+ In the previous section, we discussed how to calculate 
+\begin_inset Formula $\triangle_{i}^{AB}$
+\end_inset
+
+, which is the value that represents the advantage or disadvantage that
+ a player A has over player B in terms of the proportion of service points
+ won against opponent Si.
+ We use this value to influence the probability of winning a point on serve
+ for each player in a match between player A and player B.
+ Using this player's probability of winning a point on serve, we calculate
+ the overall probability of a player winning a match.
+\end_layout
+
+\begin_layout Standard
+O'Malley [reference] and Barnett [reference] have proposed hierarchical
+ models of computing the game, set, and match winning probabilities using
+ only the probabilities of a player winning a point on serve and on return.
+ Both of these methods have been briefly discussed in the background section
+ of the report.
+ There are key differences between these two models.
+ Barnett's model is implemented through a hierarchical Markov model, using
+ recursive formulae to derive the probabilities of winning a game, set,
+ and hence, match from any state (these states refer to particular game
+ scores).
+ On the other hand, O'Malley's model consists of equations which take the
+ binary event of a player winning a point as a Bernoulli random variable.
+ For this project, we have implemented O'Malley's model to calculate the
+ match winning probability because we wanted to avoid the computational
+ overhead of recursive methods, which are significant in this project, where
+ we later predict a set of several hundred tennis matches.
+ It is important to note, however, that the approach used in this project
+ can be also used easily Barnett's model, as well as any other hierarchical
+ model which takes as input the probabilities of a player winning a point
+ on serve and return.
+ 
+\end_layout
+
+\begin_layout Subsection
+Assumptions
+\end_layout
+
+\begin_layout Standard
+A key assumption that both of these aforementioned models (Barnett's and
+ O'Malley's) take into account is that each point is independently and identical
+ly distributed (iid).
+ This assumption was briefly touched upon in the background section of this
+ project report [reference to section chapter].
+ This iid assumption is that the probability of a player winning a point
+ is independent of the outcome of the previous point(s) and it remains constant
+ throughout the entire match.
+ This is why both of the above models can be modeled as hierarchical models
+ that take only the service points and return points won percentage of a
+ player as inputs.
+ It is intuitively difficult to accept that this assumption, especially
+ considering several common phenomena that exist in sport such as fatigue
+ and psychological momentum.
+ For example, it is not unlikely that a player wins less points on his serve
+ as the match progress due to fatigue and exhaustion.
+ In addition, a player's momentum is considered by many to play a crucial
+ role in the outcome of individual points.
+\end_layout
+
+\begin_layout Standard
+This assumption was analyzed by Klaasen and Magnus [1].
+ They tested the iid assumption using point to point data on four years
+ of Wimbledon men's and women's singles matches.
+ They reasoned that points are neither 
+\shape italic
+exactly
+\shape default
+ independently nor identically distributed.
+ In other words, a player winning the previous point had a positive impact
+ on a player winning the next point.
+ However, most importantly, they found that deviations from the iid assumption
+ were small and hence, this iid assumption can still be considered to be
+ a good approximation.
+ There are further useful observations that were presented in the same paper
+ by Klaasen and Magnus: firstly, they observed that deviations change based
+ on the 'importance' of points.
+ Secondly, they found that the weaker the player, the stronger are the effects
+ of these deviations.
+ This is an additional reason for why we have focused our study on the top
+ ranked players, to aim to minimise deviations from the iid assumption.
+\end_layout
+
+\begin_layout Subsection
+Implementation
+\end_layout
+
+\end_body
+\end_document
