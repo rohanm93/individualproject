@@ -302,8 +302,8 @@ For the ease of modelling a tennis game, most papers take the assumption
  of the outcome of the point played before and after and it remains constant
  throughout the entire match.
  This assumption was analyzed by Klaasen and Magnus[1].
- They found that points were neither identically nor independently distriuted.
- However, they concluded that the deviations from the iid assumption was
+ They found that points were neither identically nor independently distributed.
+ However, they concluded that the deviations from the iid assumption were
  small and hence, this assumption is considered to be a good approximation
  in many cases.
  This deviation is small due to the fact that tennis is a very repetitive
@@ -311,7 +311,7 @@ For the ease of modelling a tennis game, most papers take the assumption
  Certainly, psychology and momentum do play a part in tennis matches, but
  as in any sport, its extremely difficult or rather impossible to predict
  a player's psychology at any time.
- 
+ They also reasoned about 
 \end_layout
 
 \begin_layout Standard
@@ -406,11 +406,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename ../Downloads/markov for tennis game.png
-
-\end_inset
-
 
 \end_layout
 

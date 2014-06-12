@@ -8,8 +8,8 @@
 \language english
 \language_package default
 \inputencoding auto
-\fontencoding global
-\font_roman default
+\fontencoding T1
+\font_roman lmodern
 \font_sans default
 \font_typewriter default
 \font_default_family default
@@ -25,6 +25,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -143,6 +144,41 @@ After this data was collected separately by two different scrapers, it was
 Developing a model
 \end_layout
 
+\begin_layout Subsection
+Similar players
+\end_layout
+
+\begin_layout Standard
+In this project, we introduce the idea of players with similar profiles
+ in our model.
+ 
+\end_layout
+
+\begin_layout Standard
+WHY we have clustered players in from every player's point of view? because
+ we can say federer and djokovic are very similar players, but according
+ to another player he might approach them very differently.
+ ->players have different styles and we need to account for this, give example
+ hopefully? Nadal keeps thrashing federer even though they are very matched
+ up acc to the stats
+\end_layout
+
+\begin_layout Standard
+Two types of profiles: Individual opponent profiles & generic Individual
+ opponent profiles/Head to head profiles Decision to base clustering on
+ simply the Serve Points won and Return Points won Flaws with this - examples
+ of matches where players have won more points but lost the match->make
+ it clear that serve/return is an assumption we're taking.
+ Have a separate section on this Generic player profiles Chosen player profile
+ characteristics; justify whether the characteristics make sense, worthy
+ to include in player profiles Importance of normalisation - everything
+ given equal importance
+\end_layout
+
+\begin_layout Subsection
+Difference in service points won
+\end_layout
+
 \begin_layout Standard
 As mentioned earlier in the report, a key indicator of a player's performance
  in a tennis match depends on the points won on serve by each player.
@@ -159,10 +195,6 @@ O'Malley [reference] reasoned that it is the difference between the serve
  player's point winning probability and hence overall match winning probability.
  It is important to note that the actual values of the point winning probabiliti
 es themselves are not as crucial as the relative difference between them.
-\end_layout
-
-\begin_layout Subsection
-Difference in service points won
 \end_layout
 
 \begin_layout Standard
@@ -198,9 +230,9 @@ B
 
 \shape default
 's.
- We can then use these differences to additively influence, either positively
- or negatively, the probability of winning a point on serve for each player
- in a match up between 
+ We can then add the differences, which are either positive or negative,
+ to the probability of winning a point on serve for each player in a match
+ up between 
 \shape italic
 A
 \shape default
@@ -209,20 +241,101 @@ A
 B
 \shape default
 .
+ The common opponent model takes advantage of the element of transitivity
+ in tennis across particular i.e.
+ if player A is better than a player C, and player C is better than player
+ B, then player A is likely to be better than player B.
+ However, this is not necessarily true, since players might have completely
+ different styles and may perform better against certain types of players.
+ This is a limitation that our proposed model addresses through the use
+ of similar players.
+ NOTE: COMMON OPP MODEL IS TRANSITIVITY OVER PARTICULAR PLAYERS, WHILE MY
+ MODEL IS OVER SETS OF PLAYERS SO MORE ACCURATE
+\end_layout
+
+\begin_layout Subsubsection
+Formulas and Implementation
+\end_layout
+
+\begin_layout Standard
+We incorporate the ideas of similar players discussed previously into the
+ difference in service points won method.
+ Instead of common opponents used in the common opponent model, we use the
+ discussed idea of similar opponents through player profiles.
  
 \end_layout
 
 \begin_layout Standard
-A similar idea is used in this project.
- In a match between player A and B as before, we look first at the difference
- in service points won between A and a set of 'similar' opponents to B.
+In a match between player A and B as before, we instead look first at the
+ difference in service points won between A and a set of 'similar' opponents
+ to B.
  We then look at the difference in service points won between B and a set
  of 'similar' opponents to A.
- Instead of common opponents used in the aforementioned paper, we introduce
- the idea of similar opponents.
- This specific set of similar opponents is found through clustering techniques
- over different sets of data.
- We will delve into detail of these clustering techniques in the next section.
+ These differences correspond to the advantage player A has over player
+ B and the advantage player B has over player A, respectively.
+ Either of these advantages can be negative, which will represent a disadvantage
+ for a player over another.
+ 
+\end_layout
+
+\begin_layout Standard
+The below formulas describe how each is calculated.
+ These formulas are very similar to what has been presented by Knottenbelt
+ [reference], except that instead of common opponents
+\begin_inset Formula $C_{i}$
+\end_inset
+
+, we use similar opponents
+\begin_inset Formula $S_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+For each similar opponent, 
+\begin_inset Formula $S_{i}$
+\end_inset
+
+, we calculate 
+\begin_inset Formula $\triangle_{i}^{AB}$
+\end_inset
+
+, which is the measure of the advantage Player A has over Player B in terms
+ of service points won:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\triangle_{i}^{AB}=(spw(A,S_{i})-(1-rpw(A,S_{i})))-(spw(B,S_{i})-(1-rpw(B,S_{i})))
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using 
+\begin_inset Formula $\triangle_{i}^{AB}$
+\end_inset
+
+, we can influence 
+\end_layout
+
+\begin_layout Standard
+give M3 and M5
+\end_layout
+
+\begin_layout Standard
+This specific set of similar opponents is found through clustering techniques
+ over different sets of data which we discussed above.
+\end_layout
+
+\begin_layout Standard
+The method of calculating the difference in service points won to additively
+ influence a player's probability of winning is used.
 \end_layout
 
 \begin_layout Section
@@ -266,7 +379,6 @@ O'Malley [reference] and Barnett [reference] have proposed hierarchical
  can be also used easily Barnett's model, as well as any other hierarchical
  model which takes as input the probabilities of a player winning a point
  on serve and return.
- 
 \end_layout
 
 \begin_layout Subsection
@@ -319,6 +431,214 @@ exactly
 
 \begin_layout Subsection
 Implementation
+\end_layout
+
+\begin_layout Standard
+We have implemented O'Malley's key formulas for each stage of the hierarchical
+ model in Python.
+ Using point level statistics (probability of each player winning a point
+ on his serve), we can calculate the probability of a player winning a game
+ and a tiebreaker game.
+ We then use these calculated probabilities to derive the probability of
+ a player winning a set and also hence winning the match.
+ As an example, the formulas for the game level and three or five set match
+ level of the hierarchy are revisited below.
+ All formulas have been presented in the Background [reference].
+\end_layout
+
+\begin_layout Subsubsection*
+Game Level
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+G(p)=P(player\, wins\, game)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\sum_{i=0}^{\infty}P(player\, wins\, game\, losing\, i\, points)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=p^{4}+4p^{4}(1-p)+10p^{4}(1-p)^{2}+20p^{3}(1-p)^{3}\centerdot\sum_{i=3}^{\infty}\{2p(1-p)\}^{i-3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=p^{4}(15-4p-\frac{10p^{2}}{1-2p(1-p)})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p$
+\end_inset
+
+ refers to the probability of a player winning a point on serve
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+The formula covers each case for a player to win a game on his serve.
+ He can either win four straight service points, win four points to win
+ a game while losing one or two points during the game, and finally the
+ case for 30-30/Deuce.
+ In the Deuce case, the number of points played until the server wins follows
+ a geometric distribution since the game can in theory go on for an infinity
+ amount of points.
+\end_layout
+
+\begin_layout Subsubsection*
+Set Level
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S(p,q)=\sum_{i=1}^{21}B(i,1)G(p)^{B(i,2)}(1-G(p))^{B(i,3)}G(q)^{B(i,4)}(1-G(q))^{B(i,,5)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\qquad\:\times(G(p)G(q)+(G(p)(1-G(q))+(1-G(p))G(q))T(p,q))^{B(i,6)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p,q$
+\end_inset
+
+ refers to the probability of each player winning a point on serve
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T(p,q)$
+\end_inset
+
+ refers to the probability of a player winning a tiebreaker game
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $B(x,y)$
+\end_inset
+
+ refers to the coefficient matrix calculated by O'Malley.
+\end_layout
+
+\begin_layout Standard
+The above formula sums up the probabilities of all 21 game scores combinations
+ in a set.
+ 
+\begin_inset Formula $S(p,q)$
+\end_inset
+
+ is derived from the probabilities of each player winning a game (
+\begin_inset Formula $G(p)$
+\end_inset
+
+ and
+\begin_inset Formula $G(q)$
+\end_inset
+
+ ) and the probability of winning a tiebreaker, 
+\begin_inset Formula $T(p,q)$
+\end_inset
+
+.
+ The probability formula for the tiebreaker game has been described in the
+ Background [section reference].
+ To implement the definition of the matrix B(x,y), the Python library 'Numpy'
+ was used, which provided increased readability versus an implementation
+ using a list of lists.
+ This matrix is presented in the appendix [reference].
+\end_layout
+
+\begin_layout Subsubsection*
+Match Level
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{3}(p,q)=S(p,q)^{2}[1+2(1-S(p,q))]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{5}(p,q)=S(p,q)^{3}[1+3(1-S(p,q))+6(1-S(p,q))^{2}]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The above formula are for best of 3 matches and best of 5 matches respectively.
+ For Grand Slam matches, the second formula was used, since all Grand Slam
+ matches are best of five set encounters.
+ For other matches on the ATP tour, the best of three set formula was used.
 \end_layout
 
 \end_body
