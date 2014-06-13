@@ -144,8 +144,107 @@ After this data was collected separately by two different scrapers, it was
 Developing a model
 \end_layout
 
+\begin_layout Standard
+There are often similar aspects and styles between two tennis players.
+ For example, there are players who rely on their serves to win a majority
+ of their points, while there are other players who are not particularly
+ strong servers, but win a relatively higher percentage of points when returning.
+ In addition, there are some players who perform above the market expectations
+ when they play on their preferred tennis court surface.
+\end_layout
+
+\begin_layout Standard
+In this project, we aim to capture various types of players by analysing
+ a range of match statistics and player information and use this data to
+ build a model to help us get an indication of the eventual winner of a
+ tennis match.
+ In the general sense, we can use this information to find out whether,
+ in a match up between two players, a certain player with a particular playing
+ style has an advantage over another player with another playing style.
+ We use clustering techniques over our match statistics and player profiles
+ to identify these different playing styles, and to classify 'similar' players
+ into specific clusters.
+\end_layout
+
 \begin_layout Subsection
 Similar players
+\end_layout
+
+\begin_layout Standard
+We focus on two sets of attributes to identify similar players: general
+ player profiles and past opponent profiles.
+ In this section, we will first look at the attributes that belong to each
+ set, and then proceed to how we can use clustering to group players into
+ categories using these attributes.
+\end_layout
+
+\begin_layout Standard
+For this project, we focus our analysis on the top 30 ranked players on
+ the ATP tour as of May 20th 2014 [reference put rank list in appendix].
+ [change why chosen the top 30 players] In addition, we have also included
+ three other players in our analysis: Jeremy Chardy (ranked 40), Lleyton
+ Hewitt (ranked 44), and Andreas Seppi (ranked 33), since these three players
+ introduce interesting aspects into the project.
+ For example, Lleyton Hewitt was ranked as world number 1 in 2001/02, but
+ is currently 44, while Jeremy Chardy has caused some significant upsets
+ over the past two years.
+\end_layout
+
+\begin_layout Subsubsection
+General player profiles
+\end_layout
+
+\begin_layout Subsubsection
+Past opponent profiles
+\end_layout
+
+\begin_layout Standard
+There is a significant limitation introduced if only general player profiles
+ was used to classify similar players.
+ The reason for this is that professional tennis players often approach
+ their opponents in different ways, and not in the same way as statistics
+ classify players.
+ In addition, tennis players often perform better against a certain opponent
+ A than another opponent B, even though both players A and B are similar
+ statistically.
+ This is why we also introduce 'past opponent profiles' to determine similar
+ players.
+ Essentially, this means that for a certain player, we look at the performances
+ of each of his past opponents (in his last 100 games) and group together
+ opponents who perform similarly.
+\end_layout
+
+\begin_layout Standard
+Let us look at an example of the limitation introduced if solely the general
+ player profiles were used to determine similar players, and how the concept
+ of 'past opponent profiles' minimize this limitation.
+ Roger Federer and Novak Djokovic are similar players in terms of general
+ player profiles and statistics (both players have a consistent record against
+ the top 20 players, have similar service and return points won percentages,
+ and have similar heights and similar service speeds).
+ However, let us look at these player's previous performances when playing
+ current world number one Rafael Nadal.
+ Roger Federer has lost each of his last five encounters against Nadal,
+ while on the other hand, Novak Djokovic has won four out of his last five
+ encounters with Nadal (statistics correct as of June 2014).
+ This example gives us some indication that even though players might be
+ very similar statistically (as in the case of Federer and Djokovic), their
+ particular opponent is a key factor in determining the outcome of the tennis
+ match.
+\end_layout
+
+\begin_layout Standard
+Against a specific opponent - > normalized; not a general spw, instead spw
+ against that specific opponent
+\end_layout
+
+\begin_layout Standard
+not only based on their statistics, but also 
+\end_layout
+
+\begin_layout Standard
+We address this limitation by using both past opponent profiles and generic
+ player profiles.
 \end_layout
 
 \begin_layout Standard
@@ -155,9 +254,19 @@ In this project, we introduce the idea of players with similar profiles
 \end_layout
 
 \begin_layout Standard
-WHY we have clustered players in from every player's point of view? because
+Limitation and how we solved it: players approach players differently, we
+ understand this so we clustered by individual players.
+ WHY we have clustered players in from every player's point of view? because
  we can say federer and djokovic are very similar players, but according
  to another player he might approach them very differently.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+we understand players are different to tennis players themselves
+\begin_inset Quotes erd
+\end_inset
+
  ->players have different styles and we need to account for this, give example
  hopefully? Nadal keeps thrashing federer even though they are very matched
  up acc to the stats
@@ -171,8 +280,42 @@ Two types of profiles: Individual opponent profiles & generic Individual
  it clear that serve/return is an assumption we're taking.
  Have a separate section on this Generic player profiles Chosen player profile
  characteristics; justify whether the characteristics make sense, worthy
- to include in player profiles Importance of normalisation - everything
- given equal importance
+ to include in player profiles Importance of normalisation in k-means- everythin
+g given equal importance
+\end_layout
+
+\begin_layout Standard
+Analysis limited to the top 30 players + random players
+\end_layout
+
+\begin_layout Subsubsection
+Limitations
+\end_layout
+
+\begin_layout Standard
+It is a challenge to capture different playing styles of players through
+ simply match statistics, especially due to the limitations of the data
+ available.
+ For example, we are able to retrieve information about a player's percentage
+ of points won, and his preferred surface.
+ However, more in-depth player information such as whether or not a player
+ relies on a strong forehand, a player's court speed, or the degree of top-spin
+ used in shots would certainly be beneficial for identifying more accurate
+ playing styles.
+ We aim to minimise the influence of this data limitation by including 'generic'
+ attributes, such as the player's performance versus the Top 20 (for the
+ previous year), into the clustering analysis.
+ 'Generic' attributes encompass a player's performance over several games,
+ and is likely to include certain factors that cannot be measured individually.
+ For example, Rafael Nadal's has won 80% of his last ten matches against
+ the Top 20 over the past year (as of June 8 2014), while Jerzy Janowicz
+ has won 20%.
+ This clearly tells us first that Nadal is the stronger player, winning
+ a higher majority of his matches against a higher ranked opposition.
+ However, this 80% value also serves as a statistic which measures Nadal's
+ overall performance in these particular games, likely to be indicating
+ his performance in specific (often unmeasurable) factors such as more accurate
+ shots and a better tactical performance against the Top 20 players.
 \end_layout
 
 \begin_layout Subsection
@@ -260,8 +403,8 @@ Formulas and Implementation
 \begin_layout Standard
 We incorporate the ideas of similar players discussed previously into the
  difference in service points won method.
- Instead of common opponents used in the common opponent model, we use the
- discussed idea of similar opponents through player profiles.
+ Instead of common opponents like in the common opponent model, we use similar
+ opponents through player profiles.
  
 \end_layout
 
@@ -302,7 +445,10 @@ For each similar opponent,
 \end_inset
 
 , which is the measure of the advantage Player A has over Player B in terms
- of service points won:
+ of service points won.
+ Note that spw(X,Y) is the percentage of points won on serve by Player X
+ against Player Y, while rpw(X,Y) is the percentage of points won on return
+ by Player X against Y:
 \end_layout
 
 \begin_layout Standard
@@ -317,25 +463,73 @@ For each similar opponent,
 \end_layout
 
 \begin_layout Standard
-Using 
+To model a game between player A and B, we can influence the probability
+ of winning a point on serve by adding the value of
 \begin_inset Formula $\triangle_{i}^{AB}$
 \end_inset
 
-, we can influence 
+to player A's probability of winning a point on serve, and subtracting the
+ value of
+\begin_inset Formula $\triangle_{i}^{AB}$
+\end_inset
+
+from player B's probability of winning a point on serve.
+ This is done in the following way:
 \end_layout
 
 \begin_layout Standard
-give M3 and M5
+\begin_inset Formula 
+\[
+P(A\, beats\, B)\approx\frac{M_{3}(0.6+\triangle_{i}^{AB},\,(1-0.6))+M_{3}(0.6,\,1-(0.6-\triangle_{i}^{AB}))}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The function 
+\begin_inset Formula $M_{3}(p,q)$
+\end_inset
+
+ was proposed by O'Malley [reference], and was introduced earlier in the
+ background section [section reference].
+ It takes as inputs p, which is the probability of player A winning a point
+ on his serve, and q, which is the probability of player B winning a point
+ on his serve, and outputs a probability of player A beating B in a three
+ set match using a hierarchical model.
+ For a five set match, we use
+\begin_inset Formula $M_{5}(p,q)$
+\end_inset
+
+ instead of 
+\begin_inset Formula $M_{3}(p,q)$
+\end_inset
+
+.
+ We revisit O'Malley's formulae in section 3.2 [Reference].
+ In equation [equation reference], we take the average of the two match
+ winning probabilities calculated.
+ 
+\end_layout
+
+\begin_layout Standard
+---------------
+\end_layout
+
+\begin_layout Standard
+implementation - talk about how the above was written in python
+\end_layout
+
+\begin_layout Standard
+dealing with multiple clusters ->taking recently played of other cluster
+ etc, use other cluster information
 \end_layout
 
 \begin_layout Standard
 This specific set of similar opponents is found through clustering techniques
- over different sets of data which we discussed above.
-\end_layout
-
-\begin_layout Standard
-The method of calculating the difference in service points won to additively
- influence a player's probability of winning is used.
+ over different sets of data which we discussed above
 \end_layout
 
 \begin_layout Section
@@ -505,7 +699,8 @@ G(p)=P(player\, wins\, game)
 \begin_inset VSpace defskip
 \end_inset
 
-The formula covers each case for a player to win a game on his serve.
+The formula in Equation [equation reference] covers each case for a player
+ to win a game on his serve.
  He can either win four straight service points, win four points to win
  a game while losing one or two points during the game, and finally the
  case for 30-30/Deuce.
@@ -581,8 +776,8 @@ S(p,q)=\sum_{i=1}^{21}B(i,1)G(p)^{B(i,2)}(1-G(p))^{B(i,3)}G(q)^{B(i,4)}(1-G(q))^
 \end_layout
 
 \begin_layout Standard
-The above formula sums up the probabilities of all 21 game scores combinations
- in a set.
+The formula in Equation [equation reference] sums up the probabilities of
+ all 21 game scores combinations in a set.
  
 \begin_inset Formula $S(p,q)$
 \end_inset
@@ -635,7 +830,8 @@ M_{5}(p,q)=S(p,q)^{3}[1+3(1-S(p,q))+6(1-S(p,q))^{2}]
 \end_layout
 
 \begin_layout Standard
-The above formula are for best of 3 matches and best of 5 matches respectively.
+The formula in Equation [equation reference] are for best of 3 matches and
+ best of 5 matches respectively.
  For Grand Slam matches, the second formula was used, since all Grand Slam
  matches are best of five set encounters.
  For other matches on the ATP tour, the best of three set formula was used.
