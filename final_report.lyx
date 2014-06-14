@@ -486,7 +486,7 @@ A key advantage of looking at all of a specific player's matches is that
 
 \begin_layout Standard
 In our overall model, for a match up between player A and player B, we first
- look at their previous encounters.
+ look at all their previous encounters.
  We look at all the players that have performed similarly to B in terms
  of service points and return points won percentages.
  We get this group of players by using clustering techniques, such as k-means,
@@ -541,8 +541,8 @@ Select attributes & Set roles for clustering: We select all the fields that
 \end_layout
 
 \begin_layout Enumerate
-Clustering: We are fortunate that RapidMiner provides us with a set of various
- clustering algorithms that we use to cluster the general player profiles.
+Clustering: We focus on the k-means algorithm, and we vary its parameters
+ for different trials.
  The output of each of these algorithms are compared in Section [section
  reference]
 \end_layout
@@ -731,11 +731,201 @@ Value of k:
 \end_layout
 
 \begin_layout Standard
-DIAGRAMS TRYING MANY DIFFERENT K's
+DIAGRAMS TRYING MANY DIFFERENT K's, showing centroids clearly.
+ think about doing graphs in excel if cant get the labels properly
+\end_layout
+
+\begin_layout Standard
+one of the diagrams is x-means
+\end_layout
+
+\begin_layout Subsubsection*
+k-medoids
+\end_layout
+
+\begin_layout Standard
+As described in the background, the k-medoids algorithm is very similar
+ to the k-means algorithm.
+ The only difference is that k-medoids chooses actual datapoints as centres,
+ instead of imaginary centroids as in k-means.
+ In k-medoids we try classify a player according to a real data point i.e.
+ a real player.
+ Thus, we cluster players that match an exact existing type of player (centroid)
+, unlike in k-means where we cluster the players that match an imaginary
+ centroid.
+ For completeness, we plot the clusters of k-medoids to investigate any
+ further trends in Figures [figure reference in the appendix??].
+ 
+\end_layout
+
+\begin_layout Standard
+--changing aroudn the distance measure
 \end_layout
 
 \begin_layout Subsubsection
 Past opponent profile clustering
+\end_layout
+
+\begin_layout Standard
+To recall, we create a separate past opponent profile for each player in
+ our dataset.
+ This profile consists of a player's past 100 matches, along with their
+ opponent's serve and return points won percentages in each of these matches.
+ Unlike the general profile clustering, we implement the clustering algorithm
+ (k-means) in Python instead of RapidMiner to perform the clustering.
+ The reason for this is that the general profile clustering only needs to
+ be clustered once at the start, since the attributes of each player don't
+ change from match to match.
+ However, in this section, as we make a prediction for a match in a list
+ of fixtures, we add that game to the a player's dataset.
+ This has the significant advantage of clusters being constantly updated,
+ since we iterative cluster the dataset adding new data from every game.
+\end_layout
+
+\begin_layout Standard
+For the k-means clustering algorithm, we use the clustering library PyCluster
+ and scientific toolkit SciPy.
+ PyCluster provides its own implementation of the k-means algorithm and
+ it is used in the following way:
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+lstparams "breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+def kmeans_cluster(past_opponent_records):
+\end_layout
+
+\begin_layout Plain Layout
+
+	# create a new list serve_return with only serve 
+\end_layout
+
+\begin_layout Plain Layout
+
+	# points (rec[0]) and return points won 
+\end_layout
+
+\begin_layout Plain Layout
+
+	# (rec[1]) percentages
+\end_layout
+
+\begin_layout Plain Layout
+
+	for rec in past_opponent_records:
+\end_layout
+
+\begin_layout Plain Layout
+
+		serve_return.append([float(rec[0]),float(rec[1])])
+\end_layout
+
+\begin_layout Plain Layout
+
+	# chooses appropriate k-value for k-means
+\end_layout
+
+\begin_layout Plain Layout
+
+	k = get_k_value(serve_return)
+\end_layout
+
+\begin_layout Plain Layout
+
+	labels,error,nfound=Pycluster.kcluster(scipy.array(serve_return), k)
+\end_layout
+
+\begin_layout Plain Layout
+
+	return labels
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As we can see, this function takes the argument 'past_opponent_records',
+ which is a list of records.
+ Each record contains the opponent's name, odds for a player to win the
+ match, the serve and return points won percentages, as well as additional
+ match statistics.
+ Since we only want to cluster according to the serve and return points
+ won percentages, we create a new list which contains only the serve and
+ return points won percentages.
+ We then pass this list to Pycluster's kcluster function, which is the k-means
+ algorithm, along with the specified value of k.
+ Pycluster's kcluster function only accepts arrays, not lists, so we use
+ the Scipy library to convert from a list to an array.
+\end_layout
+
+\begin_layout Standard
+One of the function's return values is 'labels', a list of integers where
+ each integer corresponds to a separate cluster.
+ A straightforward example of the output of the Pycluster function is shown
+ in Figure [figure reference].
+ In Figure [figure reference], we input four service and return points won
+ percentages, and provide a k-value of 2 i.e.
+ 2 clusters.
+ The output is in the final line 
+\begin_inset Quotes eld
+\end_inset
+
+clusters: [0 1 0 1]
+\begin_inset Quotes erd
+\end_inset
+
+, and this simply means that the first and third set of values belong to
+ cluster 0, while the remaining values belong to cluster 1.
+\end_layout
+
+\begin_layout Subsubsection*
+Data Preprocessing
+\end_layout
+
+\begin_layout Standard
+--injury flags and outliers removal
+\end_layout
+
+\begin_layout Subsubsection*
+Limitations
+\end_layout
+
+\begin_layout Standard
+rely on them playing multiple times for accurate set of similar players.
+ if they played only once then too biased on that result esp if it was a
+ shock defeat results are very skewed.
+ fortunately we have focused analysis on top 30 and they play each other
+ fairly often
+\end_layout
+
+\begin_layout Standard
+too biased on their last encounters and shock defeats- initially only looked
+ at previous encounter, but decided to look at all their encounters to minimize
+ this limitation
+\end_layout
+
+\begin_layout Standard
+COPIED FROM 2.1 In our overall model, for a match up between player A and
+ player B, we first look at all their previous encounters.
+ We look at all the players that have performed similarly to B in terms
+ of service points and return points won percentages.
+ We get this group of players by using clustering techniques, such as k-means,
+ which we describe in further detail later in section [Section reference
+ to clustering techniques].
+ This is the set of similar players that we use later in Section 2.2.1 [section
+ reference to spw Si] to generate predictions.
+\end_layout
+
+\begin_layout Subsubsection*
+Up till this point : how we generate a set of similar players, dataflow
+ picture
 \end_layout
 
 \begin_layout Subsection
