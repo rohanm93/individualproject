@@ -28,7 +28,7 @@
 \spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_amsmath 1
 \use_esint 1
 \use_mhchem 1
@@ -43,6 +43,10 @@
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 4cm
+\topmargin 4.5cm
+\rightmargin 4cm
+\bottommargin 4.5cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -171,7 +175,9 @@ Similar players
 \end_layout
 
 \begin_layout Standard
-We focus on two sets of attributes to identify similar players: general
+In this project, we introduce the idea of players with similar profiles
+ in our model.
+ We focus on two sets of attributes to identify similar players: general
  player profiles and past opponent profiles.
  In this section, we will first look at the attributes that belong to each
  set, and then proceed to how we can use clustering to group players into
@@ -194,6 +200,182 @@ For this project, we focus our analysis on the top 30 ranked players on
 General player profiles
 \end_layout
 
+\begin_layout Standard
+The first set of attributes that we use to identify similar players include
+ players' general statistics over the year leading up to the match that
+ needs to be predicted.
+ Data for this was retrieved from the TennisInsight website, which had profile
+ pages on every tennis player.
+ The attributes that we have included in the clustering are:
+\end_layout
+
+\begin_layout Enumerate
+Surfaces (statistics include all matches over the past year)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Hard court win percentage
+\end_layout
+
+\begin_layout Enumerate
+Clay court win percentage
+\end_layout
+
+\begin_layout Enumerate
+Grass court win percentage
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Height
+\end_layout
+
+\begin_layout Enumerate
+Age
+\end_layout
+
+\begin_layout Enumerate
+Average net approaches (over previous 100 games where data is available)
+\end_layout
+
+\begin_layout Enumerate
+Average first serve speed (over previous 100 games where data is available)
+\end_layout
+
+\begin_layout Enumerate
+Service points won percentage (past year) across all opponents
+\end_layout
+
+\begin_layout Enumerate
+Return points won percentage (past year) across all opponents
+\end_layout
+
+\begin_layout Enumerate
+End of year ranking
+\end_layout
+
+\begin_layout Enumerate
+Win percentage against the Top 20 ranked players (past year)
+\end_layout
+
+\begin_layout Standard
+These statistics were collected for each player and fed into a CSV (Comma-separa
+ted values) file, which is used to perform clustering over in section [section
+ reference].
+ As we will see in more detail later, clustering takes all these eleven
+ statistics and groups players with similar statistics.
+ Each cluster refers to a set of 'similar' players, which is what we try
+ to achieve in this section.
+\end_layout
+
+\begin_layout Standard
+It was an important decision to select the above attributes.
+ A player's age was used because, as in any sport, it is a significant character
+istic in classifying players, as this statistic is likely to give us an
+ indication of a player's court speed.
+ Height is considered to be a particularly important characteristic in tennis,
+ especially for servers, as it makes a player's service harder to return
+ because of the power, height, and bounce that is generated from a serve
+ [reference to http://edition.cnn.com/2012/10/15/sport/tennis/tennis-nishikori-jap
+an-size/index.html].
+ In tennis, many players are seen to have their 'favorite' tennis court
+ surface, and we introduce their win rate on the three different major surfaces
+ to take this into account.
+ We have included the average first serve speed and net approaches to classify
+ players who rely largely on their service and their approaches to the net
+ (also known as 
+\begin_inset Quotes eld
+\end_inset
+
+serve and volley players
+\begin_inset Quotes erd
+\end_inset
+
+).
+ The service and return points won percentages are useful indicators of
+ a player's overall performance across all their opponents.
+ We describe the importance of these two statistics in the background section[se
+ction reference].
+ The final two statistics, win percentage against the top 20 and the end
+ of year ranking, encompass a large variety of different attributes in one
+ statistic, as described next in Limitations.
+\end_layout
+
+\begin_layout Subsubsection*
+Limitations
+\end_layout
+
+\begin_layout Standard
+It is a challenge to capture different playing styles of players through
+ simply match statistics, especially due to the limitations of the data
+ available.
+ For example, we are able to retrieve information about a player's percentage
+ of points won, and his preferred surface.
+ However, more in-depth player information such as whether or not a player
+ relies on a strong forehand, a player's court speed, or the degree of top-spin
+ used in shots would certainly be beneficial for identifying more accurate
+ playing styles.
+ We aim to minimise the influence of this data limitation by including 'generic'
+ attributes, such as the player's performance versus the Top 20 (for the
+ previous year) or their end of year ranking, into the clustering analysis.
+ 'Generic' attributes encompass a player's performance over several games,
+ and is likely to include certain factors that cannot be measured individually.
+ For example, Rafael Nadal's has won 80% of his last ten matches against
+ the Top 20 over the past year (as of June 8 2014), while Jerzy Janowicz
+ has won 20%.
+ This clearly tells us first that Nadal is the stronger player, winning
+ a higher majority of his matches against a higher ranked opposition.
+ However, this 80% value also serves as a statistic which measures Nadal's
+ overall performance in these particular games, likely to be indicating
+ his performance in specific (often unmeasurable) factors such as more accurate
+ shots and a better tactical performance against the Top 20 players.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Normalising Statistics
+\end_layout
+
+\begin_layout Standard
+The above attributes are presented in a wide range of units.
+ For example, height is in centimetres, age is in years, and first serve
+ speed is in kilometres per hour.
+ Especially for clustering techniques used later on in the project, it is
+ very integral that data is normalised and that there is no bias.
+ Clustering techniques used later [section reference] make use of a distance
+ measure, particularly the Euclidean distance, and if data was not rescaled
+ or normalized, there would be significant biases in the clusters.
+ The reason for this is that the clusters are influenced strongly by the
+ magnitudes of the variables, especially in clustering techniques like k-means.
+\end_layout
+
+\begin_layout Standard
+The formula used to rescale each attribute to the range [0,1] is presented
+ in equation [equation reference].
+ It is also known as feature scaling.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+X_{new}=\frac{X-X_{min}}{X_{max}-X_{min}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The statistics that were normalised were height, age, average net approaches,
+ end of year ranking, and average first serve speed.
+ The other statistics are already percentages in the range of [0,1], so
+ there is no need to rescale them.
+ Since every attribute was in the same range, all attributes were given
+ equal importance.
+\end_layout
+
 \begin_layout Subsubsection
 Past opponent profiles
 \end_layout
@@ -210,8 +392,12 @@ There is a significant limitation introduced if only general player profiles
  This is why we also introduce 'past opponent profiles' to determine similar
  players.
  Essentially, this means that for a certain player, we look at the performances
- of each of his past opponents (in his last 100 games) and group together
- opponents who perform similarly.
+ of each of his past opponents (in his last 100 matches) and group together
+ opponents who perform similarly, in terms of service and return points
+ won.
+ Hence, the set of attributes used here to identify similar players includes
+ just the percentage of service points won and the percentage of return
+ points won.
 \end_layout
 
 \begin_layout Standard
@@ -233,89 +419,323 @@ Let us look at an example of the limitation introduced if solely the general
  match.
 \end_layout
 
-\begin_layout Standard
-Against a specific opponent - > normalized; not a general spw, instead spw
- against that specific opponent
+\begin_layout Subsubsection*
+Using Service & Return Points Won
 \end_layout
 
 \begin_layout Standard
-not only based on their statistics, but also 
-\end_layout
-
-\begin_layout Standard
-We address this limitation by using both past opponent profiles and generic
- player profiles.
-\end_layout
-
-\begin_layout Standard
-In this project, we introduce the idea of players with similar profiles
- in our model.
+As mentioned earlier, to create the past opponent profiles for a player,
+ we analyze the player's past 100 matches against all opponents.
+ Each match corresponds to an individual record; hence, if a player has
+ played against a specific opponent multiple times, each encounter is represente
+d as a separate record.
+ For each of the past 100 matches, out of all match statistics, only the
+ service points won and return points won percentages of each opponent are
+ used for the next phase, which is the clustering phase.
+ There are a few reasons that this decision was made.
+ We have discussed in the background [section reference] the importance
+ of the service points and return points won percentages to the overall
+ outcome of the tennis match.
+ In fact, we later use only those numbers to predict the probability of
+ a player winning a match [section reference to 3].
  
 \end_layout
 
 \begin_layout Standard
-Limitation and how we solved it: players approach players differently, we
- understand this so we clustered by individual players.
- WHY we have clustered players in from every player's point of view? because
- we can say federer and djokovic are very similar players, but according
- to another player he might approach them very differently.
+It is important, however, to keep in mind specific cases where a player
+ has won more points overall in a match, but has still lost the game.
+ For instance, in the 2009 Australian Open Final between Roger Federer and
+ Rafael Nadal, Federer won 174/347 points (50.14% of points) while Nadal
+ won 173/347 points (49.85% of points), although Federer lost the match.
+ Additionally, 
+\shape italic
+both
+\shape default
+ Nadal and Federer won 59% of their service points and 40% of their return
+ points.
+ However, cases like these are rare in tennis, and we can thus consider
+ the service and return points won statistics to be good approximations
+ for a large majority of tennis matches.
+\end_layout
+
+\begin_layout Standard
+Other match statistics available that have been scraped using our web scraper
+ include the number of aces in a match, break points won, break points saved,
+ etc.
+ However, this information wasn't used because they are not a good descriptor
+ of overall match performance.
+ For example, a player that relies on his fast service might have a lot
+ of aces in a match, but this has little bearing on how well he performed
+ overall in a match.
+ In addition, statistics like aces and break points only count for a very
+ small number of points relative to the entire match, and are poor indicators
+ of an overall match.
+ Service and return points 
+\end_layout
+
+\begin_layout Standard
+A key advantage of looking at all of a specific player's matches is that
+ the data is normalised between his different opponents.
+ For example, one player's points won on serve percentage might be higher
+ than that of another player's, but the reason might be because he has played
+ weaker opponents.
+ By later clustering based on a specific player's matches, we can ensure
+ that the service and return points won percentages are normalised, as they
+ are from matches against a specific opponent.
+\end_layout
+
+\begin_layout Standard
+In our overall model, for a match up between player A and player B, we first
+ look at their previous encounters.
+ We look at all the players that have performed similarly to B in terms
+ of service points and return points won percentages.
+ We get this group of players by using clustering techniques, such as k-means,
+ which we describe in further detail later in section [Section reference
+ to clustering techniques].
+ This is the set of similar players that we use later in Section 2.2.1 [section
+ reference to spw Si] to generate predictions.
+\end_layout
+
+\begin_layout Subsection
+Clustering
+\end_layout
+
+\begin_layout Standard
+In the last section, we looked at the various attributes that we use to
+ describe players in both types of profiles.
+ For example, in the past opponent profiles, we have used service and return
+ points won percentages to characterise a player's performance.
+ In addition, in the general player profiles, we have used a variety of
+ different statistics including players' win rate on different courts and
+ serve speed.
+ In this section, we focus on how we use clustering to classify these player
+ statistics and attributes into different clusters.
  
-\begin_inset Quotes eld
-\end_inset
-
-we understand players are different to tennis players themselves
-\begin_inset Quotes erd
-\end_inset
-
- ->players have different styles and we need to account for this, give example
- hopefully? Nadal keeps thrashing federer even though they are very matched
- up acc to the stats
-\end_layout
-
-\begin_layout Standard
-Two types of profiles: Individual opponent profiles & generic Individual
- opponent profiles/Head to head profiles Decision to base clustering on
- simply the Serve Points won and Return Points won Flaws with this - examples
- of matches where players have won more points but lost the match->make
- it clear that serve/return is an assumption we're taking.
- Have a separate section on this Generic player profiles Chosen player profile
- characteristics; justify whether the characteristics make sense, worthy
- to include in player profiles Importance of normalisation in k-means- everythin
-g given equal importance
-\end_layout
-
-\begin_layout Standard
-Analysis limited to the top 30 players + random players
 \end_layout
 
 \begin_layout Subsubsection
-Limitations
+Clustering the general player profiles 
 \end_layout
 
 \begin_layout Standard
-It is a challenge to capture different playing styles of players through
- simply match statistics, especially due to the limitations of the data
- available.
- For example, we are able to retrieve information about a player's percentage
- of points won, and his preferred surface.
- However, more in-depth player information such as whether or not a player
- relies on a strong forehand, a player's court speed, or the degree of top-spin
- used in shots would certainly be beneficial for identifying more accurate
- playing styles.
- We aim to minimise the influence of this data limitation by including 'generic'
- attributes, such as the player's performance versus the Top 20 (for the
- previous year), into the clustering analysis.
- 'Generic' attributes encompass a player's performance over several games,
- and is likely to include certain factors that cannot be measured individually.
- For example, Rafael Nadal's has won 80% of his last ten matches against
- the Top 20 over the past year (as of June 8 2014), while Jerzy Janowicz
- has won 20%.
- This clearly tells us first that Nadal is the stronger player, winning
- a higher majority of his matches against a higher ranked opposition.
- However, this 80% value also serves as a statistic which measures Nadal's
- overall performance in these particular games, likely to be indicating
- his performance in specific (often unmeasurable) factors such as more accurate
- shots and a better tactical performance against the Top 20 players.
+To group the general player profiles, discussed in section [section reference],
+ into clusters, we use the software, RapidMiner.
+ As described in the Background [section reference], RapidMiner is a platform
+ that provides a complete environment for machine learning and data mining.
+ An image of how RapidMiner is used can be seen in Figure [figure reference].
+ We design a process which:
+\end_layout
+
+\begin_layout Enumerate
+Reads our CSV file: The CSV file that we read is just a list of players
+ and their attributes, that we created in section [section reference]
+\end_layout
+
+\begin_layout Enumerate
+Select attributes & Set roles for clustering: We select all the fields that
+ need to be used in the clustering and their respective roles.
+ For example, the role of the 'player name' field is a 'label', not an attribute
+, since we do not want to cluster by the player names.
+ We set the roles of all other fields to the 'attribute' target role, since
+ we want it to be used in the overall clustering.
+\end_layout
+
+\begin_layout Enumerate
+Clustering: We are fortunate that RapidMiner provides us with a set of various
+ clustering algorithms that we use to cluster the general player profiles.
+ The output of each of these algorithms are compared in Section [section
+ reference]
+\end_layout
+
+\begin_layout Enumerate
+Write CSV: This ends the process by appending a column to the input CSV
+ file which contains the cluster that each player belongs to.
+ This is the output file that is read by my Python program to find similar
+ players.
+\end_layout
+
+\begin_layout Subsubsection*
+Implementation in overall system
+\end_layout
+
+\begin_layout Standard
+Python code has been developed to read the output CSV from RapidMiner and
+ find players belonging to a particular cluster.
+ An excerpt of RapidMiner's CSV output can be seen in Figure [figure reference].
+ Python code is reproduced in Figure [figure reference]
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+lstparams "breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+def get_similar_profile_players(player2):
+\end_layout
+
+\begin_layout Plain Layout
+
+	f = open("profiles_clustered.csv")
+\end_layout
+
+\begin_layout Plain Layout
+
+	clustered_profiles = csv.DictReader(f)
+\end_layout
+
+\begin_layout Plain Layout
+
+	for player in clustered_profiles: 		
+\end_layout
+
+\begin_layout Plain Layout
+
+		if(player["player"]==player2:			
+\end_layout
+
+\begin_layout Plain Layout
+
+			cluster = player["cluster"]
+\end_layout
+
+\begin_layout Plain Layout
+
+		break
+\end_layout
+
+\begin_layout Plain Layout
+
+	f.seek(0)
+\end_layout
+
+\begin_layout Plain Layout
+
+	similar_players = [] 	
+\end_layout
+
+\begin_layout Plain Layout
+
+	for player in profiles_clustered: 		
+\end_layout
+
+\begin_layout Plain Layout
+
+		if player["cluster"]==cluster:
+\end_layout
+
+\begin_layout Plain Layout
+
+			similar_players.append(player["player"]) 	
+\end_layout
+
+\begin_layout Plain Layout
+
+	return similar_players
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In Figure [figure reference], we find similar players to 'player2', which
+ is a string of the player's name.
+ We first iterate through the RapidMiner's CSV output by opening the file
+ and loading it into a Python dictionary list.
+ We then find the cluster that the player belongs to by iterating through
+ the file, and setting the 'cluster' variable when we find the required
+ player's cluster.
+ Once we find the required cluster, we iterate through the file once more
+ to find players which share the same cluster, returning this list of players
+ at the end of the function.
+ It is useful to note that 'player2' itself is included in the list of similar
+ players returned by the function, because we consider 'player2' to be similar
+ to itself.
+ The output list that is returned is used in Section 2.3.1 [section reference]
+ to create predictions of tennis matches.
+\end_layout
+
+\begin_layout Subsubsection*
+Clustering algorithms
+\end_layout
+
+\begin_layout Subsubsection*
+k-means
+\end_layout
+
+\begin_layout Standard
+The k-means algorithm was explained in the Background section [section reference
+].
+ The algorithm aims to partition a set of n observations into a k number
+ of clusters.
+ There are two important aspects that need to be considered when using this
+ algorithm:
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Initialization
+\series default
+: The k-means algorithm is very sensitive to the order of the dataset.
+ This is because the first step involves randomly selecting cluster centres
+ or centroids.
+ RapidMiner has a feature called 'Determine good start values' which we
+ have made use of in the clustering.
+ This feature determines the first k centroids using the K-Means++ heuristic
+ described in Artur's and Vassillvitskii's 
+\begin_inset Quotes eld
+\end_inset
+
+k-means++: The Advantages of Careful Seeding
+\begin_inset Quotes erd
+\end_inset
+
+ [reference].
+ This ensures that the results of the clustering is the same over repeated
+ trials.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Value of k:
+\series default
+ The k-means algorithm is considered to be an extremely simple and efficient
+ algorithm.
+ However, it involves knowing the value of k prior to the clustering.
+ This value of k determines how many clusters there will be in the result.
+ One straightforward rule of thumb sets the value of k to 
+\begin_inset Formula $\approx\sqrt{n/2}$
+\end_inset
+
+ where n is the number of observations in the dataset.
+ There are other more advanced methods such as analyzing the gap statistic,
+ or using an information criterion approach.
+ When choosing a value for k, it is important to keep in mind that in this
+ project, this value of k is equal to the number of different playing styles.
+ For example, we are analyzing a total of over 30 players and if we want
+ to have approximately 6 players in each cluster (or playing style), we
+ can select the value of k to be 5.
+ The appropriate value of k varies based on the application.
+ We tested a variety of different values of k to find which gave and present
+ the plots next.
+ We also try to find the optimal number of centroids (value of k) using
+ X-Means, a clustering algorithm which extends the k-means approach and
+ uses the Bayesian Information Criteria (BIC) to find the appropriate number
+ of centroids.
+\end_layout
+
+\begin_layout Standard
+DIAGRAMS TRYING MANY DIFFERENT K's
+\end_layout
+
+\begin_layout Subsubsection
+Past opponent profile clustering
 \end_layout
 
 \begin_layout Subsection
@@ -324,7 +744,8 @@ Difference in service points won
 
 \begin_layout Standard
 As mentioned earlier in the report, a key indicator of a player's performance
- in a tennis match depends on the points won on serve by each player.
+ in a tennis match depends on the percentage of points won on serve by each
+ player.
  These point-winning probabilities have been used in most tennis models
  till date and are the key inputs to hierarchical Markov tennis models,
  which rely on these point winning probabilities to return a probability
@@ -410,10 +831,10 @@ We incorporate the ideas of similar players discussed previously into the
 
 \begin_layout Standard
 In a match between player A and B as before, we instead look first at the
- difference in service points won between A and a set of 'similar' opponents
- to B.
- We then look at the difference in service points won between B and a set
- of 'similar' opponents to A.
+ difference in the percentage of service points won between A and a set
+ of 'similar' opponents to B.
+ We then look at the difference in the percentage service points won between
+ B and a set of 'similar' opponents to A.
  These differences correspond to the advantage player A has over player
  B and the advantage player B has over player A, respectively.
  Either of these advantages can be negative, which will represent a disadvantage
@@ -445,7 +866,7 @@ For each similar opponent,
 \end_inset
 
 , which is the measure of the advantage Player A has over Player B in terms
- of service points won.
+ of the percentage of service points won.
  Note that spw(X,Y) is the percentage of points won on serve by Player X
  against Player Y, while rpw(X,Y) is the percentage of points won on return
  by Player X against Y:
@@ -589,8 +1010,8 @@ ly distributed (iid).
  is independent of the outcome of the previous point(s) and it remains constant
  throughout the entire match.
  This is why both of the above models can be modeled as hierarchical models
- that take only the service points and return points won percentage of a
- player as inputs.
+ that take only the service points and return points won percentages of
+ a player as inputs.
  It is intuitively difficult to accept that this assumption, especially
  considering several common phenomena that exist in sport such as fatigue
  and psychological momentum.
