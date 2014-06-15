@@ -65,6 +65,1096 @@
 \begin_body
 
 \begin_layout Section
+Background
+\end_layout
+
+\begin_layout Subsection
+Scoring System in a Tennis Match
+\end_layout
+
+\begin_layout Standard
+Tennis matches can be either singles or doubles contests, with singles matches
+ played between two players while doubles matches played between four.
+ We focus on singles matches in this project.
+\end_layout
+
+\begin_layout Standard
+To win a tennis match, a player must win a certain amount of sets, which
+ is determined before the game.
+ Grand Slam men tournaments involve matches that are best of five sets,
+ which means a player must win three sets to win the match.
+ Most tournaments, including all ATP tournaments (tournaments that count
+ towards a player's ranking), involve matches that are a best of three sets,
+ where a player needs to win two sets to win the match.
+ A set is made up of multiple games, and hence, for a player to win a set,
+ he must win six games, except in special cases.
+ These special cases are the following: 1) When both players have won five
+ games, a player must now win a total of seven games (additional two consecutive
+ games) to win the set, and 2) When both players have won six games, a tiebreak
+ is played in most situations to decide the outcome of the set.
+ Whether or not players play a tiebreak game depends on the rules of the
+ tournament.
+\end_layout
+
+\begin_layout Standard
+A game consists of a series of points.
+ A player starts a point by serving to his opponent, and a complete game
+ is played with the same player serving.
+ The player serving alternates after every game.
+ To win a game, a player must win at least four points in total, and at
+ least two points more than his opponent.
+ Points are counted in the following way: zero, one, two, and three points
+ are referred to as love, fifteen (15), thirty (30), and fourty (40), respective
+ly.
+ We have the exception where each player scores three points each, which
+ is called a 
+\begin_inset Quotes eld
+\end_inset
+
+deuce
+\begin_inset Quotes erd
+\end_inset
+
+.
+ In this situation, a player must win two additional points consecutively
+ to win the game.
+ The first point is called an 
+\begin_inset Quotes eld
+\end_inset
+
+advantage
+\begin_inset Quotes erd
+\end_inset
+
+ for the player in the lead.
+ If the opponent scores when the player is in an 
+\begin_inset Quotes eld
+\end_inset
+
+advantage
+\begin_inset Quotes erd
+\end_inset
+
+ situation, the score gets reduced back to a 
+\begin_inset Quotes eld
+\end_inset
+
+deuce
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+As mentioned earlier, players play a tiebreaker game in most cases where
+ both players have six games each in the set.
+ A player wins the tiebreak if has won at least seven points in the tiebreak
+ and has two points or more than his opponent (e.g.
+ valid scores include 7-2 and 10-8).
+ Serving is unlike regular games in a tiebreaker, as serve alternates.
+ The player who did not serve in the previous game serves the first point
+ of the tiebreak, while his opponent serves the following two points.
+ The serve alternates every two points in a tiebreak.
+\end_layout
+
+\begin_layout Subsection
+Modelling in Tennis
+\end_layout
+
+\begin_layout Standard
+Tennis matches are very suitable to statistical modelling.
+ This is because it is an individual sport with two outcomes, meaning that
+ there is no need to consider team dynamics.
+ The scoring system can also be modelled in a straightforward way as there
+ are only two outcomes for a match.
+ Additionally, every game has a simple point based system, and players serve
+ alternately for each game in very similar circumstances.
+\end_layout
+
+\begin_layout Standard
+For the ease of modelling a tennis game, most papers take the assumption
+ that points in a tennis match are identically and independently distributed
+ (i.i.d.).
+ This means that the probability of a player winning a point is independent
+ of the outcome of the point played before and after and it remains constant
+ throughout the entire match.
+ This assumption was analyzed by Klaasen and Magnus[reference 1].
+ They found that points were neither identically nor independently distributed.
+ However, they concluded that the deviations from the i.i.d.
+ assumption were small and hence, this assumption is considered to be a
+ good approximation in many cases.
+ This deviation is small due to the fact that tennis is a very repetitive
+ game, with each player aiming to win a point under largely similar circumstance
+s, except for in high pressure situations such as break points (when the
+ non-serving player has a chance to win a game).
+ Certainly, psychology and momentum do play a part in tennis matches, but
+ as in any sport, its extremely difficult or rather impossible to predict
+ a player's psychology at any time.
+\end_layout
+
+\begin_layout Standard
+With this assumption of points being identically and independently distributed,
+ various papers model tennis matches using a hierarchical Markov model,
+ since its a hierarchical sport, with the different levels of heirarchy
+ being at the point, game, set and match levels.
+ Markov chains have the Markov property of being 'memoryless', meaning that
+ the next state is only dependent on the current state.
+ This fits with the i.i.d.
+ assumption discussed previously.
+\end_layout
+
+\begin_layout Subsection
+Stochastic Markov chain
+\end_layout
+
+\begin_layout Standard
+A discrete time Markov chain is a mathematical system that undergoes transitions
+ from one to another.
+ It involves a collection of random variables which characterize a random
+ process.
+ A process has a Markov property if the conditional probability distribution
+ of future states of the process depends on only the current state and is
+ independent of the past.
+ Discrete-time random processes, which are the processes Markov chains character
+ise, involve systems which are in a specific state at a specific step.
+ These steps are often considered as steps in time.
+ 
+\end_layout
+
+\begin_layout Standard
+To define the term, a Markov chain is a sequence of random variables 
+\begin_inset Formula $X_{1},$
+\end_inset
+
+
+\begin_inset Formula $X_{2},$
+\end_inset
+
+
+\begin_inset Formula $X_{3},...$
+\end_inset
+
+ with the Markov property.
+ [reference 4] The Markov property can be formally expressed as 
+\begin_inset Formula 
+\[
+P(X_{n+1}=x\,|\, X_{1}=x_{1},\, X_{2}=x_{2},...,\, X_{n}=x_{n})=P(X_{n+1}=x\,|\, X_{n}=x_{n})
+\]
+
+\end_inset
+
+The different values of 
+\begin_inset Formula $X_{j}$
+\end_inset
+
+ form the state space S of the chain.
+ 
+\end_layout
+
+\begin_layout Standard
+A Markov model is a stochastic model that models the state of a system with
+ (usually discrete) random variable that varies over time.
+ It can be described as the depiction of a set of all Markov chains for
+ a given event.
+ Markov chains and models are usually represented as directed graphs.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:markov"
+
+\end_inset
+
+ shows an example of a Markov model used to describe a game in a tennis
+ match, where the win state represents a win for the current server.
+ In Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:markov"
+
+\end_inset
+
+, there are the merged states of 30-30/Deuce, 30-40/30-Advantage, and 40-30/40-A
+dvantage.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+A directed graph of a Markov model for a tennis game
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:markov"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\shape italic
+p represents the probability of winning a point for the server
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Tennis Equations
+\end_layout
+
+\begin_layout Standard
+James O'Malley[reference 2], in his paper 
+\begin_inset Quotes eld
+\end_inset
+
+Probability Formulas and Statistical Analysis in Tennis
+\begin_inset Quotes erd
+\end_inset
+
+, and Tristan Barnett[reference 3], in his paper 
+\begin_inset Quotes eld
+\end_inset
+
+Combining player statistics to predict outcomes of tennis matches,
+\begin_inset Quotes erd
+\end_inset
+
+ use hierarchical models to develop formulas to help us calculate the probabilit
+ies of players winning a tennis match.
+ As we will see in this section, the serve and return points won statistics
+ are key values used to calculate a probability of a player winning a game,
+ set and hence match, especially in a hierarchical sport like tennis, where
+ each point is played under roughly the same conditions.
+\end_layout
+
+\begin_layout Subsubsection
+O'Malley's Formulae
+\end_layout
+
+\begin_layout Standard
+Using point level statistics (probability of each player winning a point
+ on his serve), we can calculate the probability of a player winning a game
+ and a tiebreaker game.
+ We then use these calculated probabilities to derive the probability of
+ a player winning a set and also hence winning the match.
+\end_layout
+
+\begin_layout Standard
+Using the idea that the probability that a player wins a point is a Bernoulli
+ random variable 
+\begin_inset Formula $p$
+\end_inset
+
+, O'Malley [reference 2] derived the following expressions:
+\end_layout
+
+\begin_layout Subsubsection*
+Probability of a player winning a game
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+G(p)=P(player\, wins\, game)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\sum_{i=0}^{\infty}P(player\, wins\, game\, losing\, i\, points)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=p^{4}+4p^{4}(1-p)+10p^{4}(1-p)^{2}+20p^{3}(1-p)^{3}\centerdot\sum_{i=3}^{\infty}\{2p(1-p)\}^{i-3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=p^{4}(15-4p-\frac{10p^{2}}{1-2p(1-p)})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p$
+\end_inset
+
+ refers to the probability of a player winning a point on serve
+\end_layout
+
+\begin_layout Standard
+O'Malley, in this equation, considers four different scenarios from which
+ the game can be won: the player can win without losing any points, losing
+ one point, losting two points, and winning the game after the score is
+ 
+\begin_inset Quotes eld
+\end_inset
+
+deuce
+\begin_inset Quotes erd
+\end_inset
+
+, where three or more points are lost.
+ The last situation follows a geometric sequence since the game can in theory
+ go on for an infinite amount of points (alternates between Deuce and Advantage).
+ The final formula 
+\begin_inset Formula $G(p)$
+\end_inset
+
+ is given by the sum of the joint probabilities of winning the game losing
+ a certain number of points.
+ O'Malley uses the above formula to describe formulae for winning a set
+ and consequently a match.
+ These tennis equations have helped greatly as they allow us to straightforwardl
+y and easily develop quick programs to calculate the probability of a player
+ winning a tennis match with accuracy, without the need of using recursive
+ hierarchical models which have a significant computational overhead.
+\end_layout
+
+\begin_layout Subsubsection*
+Probability of a player winning a tiebreaker
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+TB(p,q)=\sum_{i=1}^{28}A(i,1)p^{A(i,2)}(1-p)^{A(i,3)}q^{A(i,4)}(1-q)^{A(i,5)}d(p,q)^{A(i,6)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+where\: d(p,q)=pq[1-\{p(1-q)+(1-p)q\}]^{-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+and\: A(i,j)\: is\: the\: ijth\: element\: of\: the\:28\times6\: matrix\: A
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Coefficient matrix 
+\begin_inset Formula $A(x,y)$
+\end_inset
+
+ is presented in the Appendix [appendix reference].
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p,q$
+\end_inset
+
+ refers to the probability of each player winning a point on serve
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The key difference between a regular game and a tiebreaker is the fact that
+ the service alternates between the two players after every odd number of
+ points played.
+ Additionally, since both players serve, we introduce a variable 
+\begin_inset Formula $q$
+\end_inset
+
+, which refers to the probability of the second player winning a point on
+ serve, in addition to the previously used variable 
+\begin_inset Formula $p$
+\end_inset
+
+, used in the formula for the probability of a player winning a game on
+ his service.
+ There is a significantly more number of terms in the tiebreaker formula
+ than there is in the formula for a player to win a game because there are
+ a higher number of distinct scores possible in a tiebreaker.
+\end_layout
+
+\begin_layout Subsubsection*
+Probability of a player winning a set
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S(p,q)=\sum_{i=1}^{21}B(i,1)G(p)^{B(i,2)}(1-G(p))^{B(i,3)}G(q)^{B(i,4)}(1-G(q))^{B(i,,5)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\qquad\:\times(G(p)G(q)+(G(p)(1-G(q))+(1-G(p))G(q))T(p,q))^{B(i,6)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+where\: B(i,j)\: is\: the\: ijth\: element\: of\: the\:21\times6\: matrix\: B
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p,q$
+\end_inset
+
+ refers to the probability of each player winning a point on serve
+\end_layout
+
+\begin_layout Standard
+Coefficient matrix 
+\begin_inset Formula $B(x,y)$
+\end_inset
+
+ is presented in the Appendix [appendix reference]
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It can be seen that 
+\begin_inset Formula $S(p,q)$
+\end_inset
+
+ is derived from the probabilities of each player winning a game (
+\begin_inset Formula $G(p)$
+\end_inset
+
+ and
+\begin_inset Formula $G(q)$
+\end_inset
+
+ ) and the probability of winning a tiebreaker, 
+\begin_inset Formula $T(p,q)$
+\end_inset
+
+.
+ When the scores reach 6-6, a tiebreaker is played.
+ Hence, this equation is different from the others because the equation
+ does not involve a geometric sequence of the game winning probabilities.
+\end_layout
+
+\begin_layout Subsubsection*
+Probability of a player winning a match
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{3}(p,q)=S(p,q)^{2}[1+2(1-S(p,q))]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+M_{5}(p,q)=S(p,q)^{3}[1+3(1-S(p,q))+6(1-S(p,q))^{2}]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The formulae in Equation [equation reference] are for best of 3 matches
+ and best of 5 matches respectively.
+ For Grand Slam matches, the second formula is used, since all Grand Slam
+ matches are best of five set encounters.
+ For other matches on the ATP tour, the best of three set formula was used.
+\end_layout
+
+\begin_layout Standard
+The equations are derived in a straightforward way.
+ For the best of 3 matches, the probability of a player winning a match
+ is the addition of the probability of the player winning a match in straight
+ consecutive sets, and the probability of a player winning two sets and
+ losing one.
+ The formula for best of 5 matches is derived in the same way.
+\end_layout
+
+\begin_layout Subsubsection
+Combining player statistics using Barnett and Clarke's formulae
+\end_layout
+
+\begin_layout Standard
+There is a significant amount of data available regarding match statistics,
+ but its important to combine them to produce an accurate estimation of
+ the probability of winning a point.
+ Barnett and Clarke[ reference 3] came up with the following formulae to
+ combine certain statistics to give an accurate point winning probability
+ on serve:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{i}=a_{i}b_{i}+(1-a_{i})c_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{i}=$
+\end_inset
+
+percentage of points won on serve for player i.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{i}$
+\end_inset
+
+= first serve percentage accuracy of player i
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $b_{i}$
+\end_inset
+
+= first serve win percentage of player i
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $c_{i}$
+\end_inset
+
+= second serve win percentage of player i
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The above formula is straightforward to understand.
+ The percentage of points won on serve for player i is the sum of the points
+ won on the first serve and the points won on the second serve (when the
+ player misses his first serve).
+\end_layout
+
+\begin_layout Standard
+Taking into account the opponent, we have the following:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g_{i}=a_{avg}d_{i}+(1-a_{avg})e_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $g_{i}=$
+\end_inset
+
+percentage of points won on return for player i.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{avg}$
+\end_inset
+
+= average first serve percentage across a range of players
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d_{i}$
+\end_inset
+
+= percentage of points won on return of first service for player i
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e_{i}$
+\end_inset
+
+= percentage of points won on return of second service for player i
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We have a similar formula for the opponent, i.e.
+ the player who is returning the service.
+ The percentage of points the opponent wins returning the service is the
+ sum of again the points won returning the first serve and those won returning
+ the second service.
+ In Barnett's paper,
+\begin_inset Formula $a_{avg}$
+\end_inset
+
+refers to the average first serve percentage across the top 200 ATP players.
+\end_layout
+
+\begin_layout Standard
+Finally, we want to combine both of these player statistics when a player
+ i plays against a player j.
+ In this case, the percentage of points won on serve for player i, 
+\begin_inset Formula $f_{ij}$
+\end_inset
+
+, is below in equation [equation reference].
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{ij}=f_{t}+(f_{i}-f_{avg})-(g_{i}-g_{avg})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{t}=$
+\end_inset
+
+average percentage of points won on serve for the specific tournament the
+ match is in
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f_{avg}=$
+\end_inset
+
+average percentage of points won on serve across a range of players
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $g_{avg}=$
+\end_inset
+
+average percentage of points won on return across a range of players
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the same paper, Barnett describes a hierarchical Markov model which,
+ like O'Malley's tennis formulae, takes as input the serve winning probabilities
+ of both players to come up with a probability of each player winning the
+ match.
+ It is important to note that the actual values of the point winning probabiliti
+es themselves are not as crucial as the relative difference between them.
+ O'Malley [reference] has also reasoned that it is the difference between
+ the serve winning probabilities of each player that is integral to calculating
+ a player's point winning probability and hence overall match winning probabilit
+y.
+ 
+\end_layout
+
+\begin_layout Subsection
+Clustering
+\end_layout
+
+\begin_layout Standard
+Most models till date have used the above discussed ideas of Markov models.
+ However, in this project we aim to take this one step further and encourage
+ the use of machine learning in our analysis.
+ Machine learning involves the development of systems that can learn from
+ data.
+ In this project, we will be data mining through large amounts of statistical
+ data on professional tennis players, analyzing their key attributes, and
+ finally grouping these players into different categories.
+ A large part of the data mining process are the concepts of clustering
+ and cluster analysis.
+\end_layout
+
+\begin_layout Standard
+Cluster analysis is achieved by different algorithms that differ significantly
+ in their notion of what defines a cluster.
+ These algorithms' main aims are to take a data set and sort it into groups,
+ allowing us to compare tennis players that are similar to one another,
+ which is imperative for this project.
+ There are a wide range of clustering algorithms that have been developed
+ for data mining purposes.
+ It was hence important to research into different algorithms, analyze the
+ clusters formed by those algorithms and parameters, and choose a clustering
+ algorithm aligned to the requirements of the problem.
+ In this project, we focus on the k-means clustering algorithm and variations
+ of it.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+K-means Clustering
+\end_layout
+
+\begin_layout Standard
+The k-means clustering algorithm is a straightforward unsupervised learning
+ algorithm that uses an iterative refinement technique.
+ It classifies a data set through a certain number (referred to as the variable
+ k) of specified clusters.
+ The algorithm starts with these k random clusters and then examines each
+ data point and assigns it to one of the centroids (i.e.
+ the geometric center of the cluster) depending on the minimum variance/distance.
+ There are various distance measures that can be used.
+ For this project, we have chosen to use the standard Euclidean distance
+ throughout.
+ The centroid's position is recomputed everytime a data point is added to
+ the cluster, by simply finding the mean of all the data points assigned
+ to that cluster.
+ After the centroid's position is recomputed, a new binding is needed to
+ be done between the same datapoints and the new closer centroid.
+ The algorithm continues iteratively until all the data set points are grouped
+ into the final required number of clusters, and the centroids position
+ don't change after any further iterations.
+ 
+\end_layout
+
+\begin_layout Standard
+More formally, we have the cluster assignment step as the following [reference
+ 5]:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+S_{i}^{(t)}=\{x_{p}:\parallel x_{p}-m_{i}^{(t)}\parallel^{2}\leq\parallel x_{p}-m_{i}^{(t)}\parallel^{2}\forall j,\,1\leq j\leq k\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where each data point 
+\begin_inset Formula $x_{p}$
+\end_inset
+
+is assigned to exactly one 
+\begin_inset Formula $S^{(t)}$
+\end_inset
+
+, and there is a set of 
+\begin_inset Formula $m_{i}...m_{k},$
+\end_inset
+
+where k is the number f specified clusters.
+ m's are the centroids.
+\end_layout
+
+\begin_layout Standard
+This formula essentially states that a data point x is assigned to a cluster
+ S if the variance/squared error term between the data point and centroid
+ is minimized.
+\end_layout
+
+\begin_layout Subsubsection
+K-medoids Clustering
+\end_layout
+
+\begin_layout Standard
+K-medoids clustering is a variation of the k-means algorithm.
+ The only difference is that k-medoids chooses actual datapoints as centres,
+ instead of imaginary centroids as in k-means.
+ The k-medoids clustering has been implemented by the Partitioning Around
+ Medoids (PAM) algorithm, which works in the following way [reference http://anu
+radhasrinivas.files.wordpress.com/2013/04/lesson8-clustering.pdf]:
+\end_layout
+
+\begin_layout Enumerate
+In the initialization step, randomly select k data points out of all n observati
+ons to be medoids.
+ A medoid is essentially a data point which is 'least dissimilar' from all
+ other data points.
+\end_layout
+
+\begin_layout Enumerate
+According to a distance metric, say the Euclidean distance, we allocate
+ each data point to the closest (most similar) medoid
+\end_layout
+
+\begin_layout Enumerate
+For each medoid m and each non-medoid observation o, swap m and o and calculate
+ the total cost (also known as the absolute error criterion) for the set
+ of medoids.
+ The cost between any two points 
+\begin_inset Formula $(x,c)$
+\end_inset
+
+ is given by 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\sum_{i=1}^{d}|x_{i}-c_{i}|$
+\end_inset
+
+, where d is the dimension of the object.
+ The total cost is the summation of the cost of all data objects from its
+ medoid in its cluster.
+\end_layout
+
+\begin_layout Enumerate
+Choose the set of medoids with the lowest total cost
+\end_layout
+
+\begin_layout Enumerate
+Repeat steps 2-4 until medoids remain unchanged
+\end_layout
+
+\begin_layout Subsubsection
+X-means Clustering
+\end_layout
+
+\begin_layout Standard
+As described earlier, the k-means algorithm starts with a certain number
+ of specified clusters, and assigns each data point to one of these clusters
+ depending on the minimum variance.
+ However, we do face the important decision on what the value of k should
+ be set to, as this determines the number of clusters that we are left with.
+ The first extreme involves setting the value of k to 1, which means that
+ all data points form one cluster, which might give us a very irregular
+ distribution.
+ On the other end of the extreme, we have that all data points each form
+ its own cluster.
+ This means that the clusters are perfectly informative of the data, but
+ that makes the clustering rather pointless, in addition to the fact that
+ this will not allow us to predict new data.
+ 
+\end_layout
+
+\begin_layout Standard
+This is where the X-means algorithm comes in.
+ This algorithm was described in 
+\begin_inset Quotes eld
+\end_inset
+
+X-means: Extending K-means with Efficient Estimation of the Number of Clusters
+\begin_inset Quotes erd
+\end_inset
+
+ by Pelleg and Moore [reference to this paper].
+ The algorithm takes as input a minimum k value and a maximum k value, and
+ aims to find the optimal amount of clusters by optimizing information criteria,
+ using a criterion known as the Bayesian Information Criterion (BIC).
+\end_layout
+
+\begin_layout Subsection
+Tools
+\end_layout
+
+\begin_layout Subsubsection
+RapidMiner
+\end_layout
+
+\begin_layout Standard
+RapidMiner is a popular data mining tool that allows you to use several
+ machine learning algorithms over a dataset through the same system.
+ Several clustering algorithms, such as the k-means, k-medoids, and x-means
+ algorithms, are included in the software itself, and we can tweak the algorithm
+ settings where necessary.
+ The software also provides us with other useful features such as the detection
+ and removal of outliers.
+ To use RapidMiner, users need to design processes, which consist of operators
+ such as 'Clustering', 'Import Data', etc.
+ Later in this report, we present the different processes that have been
+ used in RapidMiner.
+ A screenshot of the RapidMiner tool is shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:rminerscreenshot"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+RapidMiner tool
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:rminerscreenshot"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\shape italic
+A complete process is shown which consists of operators that import data
+ from a CSV (Comma separated values) file, removes outliers, clusters the
+ dataset, and writes the result to an output CSV file.
+ On the right of the screen, we can modify RapidMiner's settings for k-means
+ clustering.
+ For example, we can set the value of k to the number of clusters we want.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Data Sources
+\end_layout
+
+\begin_layout Standard
+The initial step in the project involves collecting as much data as possible
+ on various players.
+ Since the project determines key traits of players, a large amount of data
+ must be analysed to ensure accuracy of these key traits.
+ There are a significant amount of online resources, such as websites like
+ 
+\family typewriter
+http://www.tennisinsight.com
+\family default
+, which provide a significant amount of detailed statistics of every professiona
+l tennis match played since the site was inaugurated.
+\end_layout
+
+\begin_layout Standard
+A feature has launched on the website TennisInsight called Player Traits,
+ which lets users tag players with characteristic traits.
+ In this project, based on statistics of players alone, we determine similar
+ player traits.
+ Furthermore, we look at the significance of each of these traits in the
+ eventual outcome of the match.
+\end_layout
+
+\begin_layout Section
 Obtaining data: Web scraping
 \end_layout
 
@@ -470,8 +1560,8 @@ serve and volley players
 ).
  The service and return points won percentages are useful indicators of
  a player's overall performance across all their opponents.
- We describe the importance of these two statistics in the background section[se
-ction reference].
+ We describe the importance of these two statistics in the background section[re
+ference to Tennis Equations].
  The final two statistics, win percentage against the top 20 and the end
  of year ranking, encompass a large variety of different attributes in one
  statistic, as described next in Limitations.
@@ -609,10 +1699,10 @@ d as a separate record.
  used for the next phase, which is the clustering phase.
  There are a few reasons that this decision was made.
  We have discussed in the background [section reference] the importance
- of the service points and return points won percentages to the overall
- outcome of the tennis match.
- In fact, we later use only those numbers to predict the probability of
- a player winning a match [section reference to 3].
+ of the difference in service points and return points won percentages to
+ the overall outcome of the tennis match.
+ In fact, we later use only this difference in percentages to predict the
+ probability of a player winning a match [section reference to 3].
  
 \end_layout
 
@@ -1868,6 +2958,10 @@ exactly
 Implementation
 \end_layout
 
+\begin_layout Subsubsection
+Implementation of Formulas
+\end_layout
+
 \begin_layout Standard
 We have implemented O'Malley's key formulas for each stage of the hierarchical
  model in Python.
@@ -2076,6 +3170,10 @@ The formula in Equation [equation reference] are for best of 3 matches and
  For Grand Slam matches, the second formula was used, since all Grand Slam
  matches are best of five set encounters.
  For other matches on the ATP tour, the best of three set formula was used.
+\end_layout
+
+\begin_layout Subsubsection
+Python code
 \end_layout
 
 \end_body
