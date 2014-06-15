@@ -65,7 +65,7 @@
 \begin_body
 
 \begin_layout Section
-Obtaining data
+Obtaining data: Web scraping
 \end_layout
 
 \begin_layout Standard
@@ -82,15 +82,11 @@ www.atpworldtour.com
 \family default
  proved to be a very useful source of data, with all required match statistics
  and player profile information.
- Unfortunately, the website does not have an API that allowed us to easily
- retrieve the data, and it was obviously impractical to obtain the data
- manually.
+ Unfortunately, the website does not have an API which made retrieving the
+ data difficult.
+ It was obviously impractical to obtain the data manually.
  Hence, a web scraper was developed using Scrapy, a Python web scraping
  framework, to obtain the relevant statistics from these websites.
-\end_layout
-
-\begin_layout Subsection
-Web scraper
 \end_layout
 
 \begin_layout Standard
@@ -103,9 +99,13 @@ The complete web scraper was made up of two separate scrapers, one to pull
  the scraper as well.
  Both scrapers take this player id as an input to identify the corresponding
  tennis player and retrieve the player's data from his last 100 matches.
+ The web scraper, although not the focus of this project, took a significant
+ amount of time particularly due to my initial lack of knowledge on web
+ scrapers, regular expressions, and xpaths, which were all used to a great
+ extent to retrieve the data that was needed.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection
 Match Statistics Scraper
 \end_layout
 
@@ -114,12 +114,164 @@ This is the first component of the web scraper.
  The scraped pages each contain a list of all of a player's matches with
  corresponding links to more detailed match statistics (which are on either
  the ATP's website or TennisInsight).
- The scraper opens each of these links and retrieves the match statistics,
- saving them to a csv file.
+ We can see an excerpt of a scraped page, which contains a list of Roger
+ Federer's matches, in Figure [figure reference].
+ An example hyperlink to the match statistics is shown by the red box.
  
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Standard
+Example match statistics links are shown in Figure [figure reference to
+ code].
+ We can see that the TennisInsight website either points to an external
+ page on the ATP website (atpworldtour.com) or points to a page on TennisInsight.
+ Our scraper finds each of these links by using both regular expressions
+ and xpaths.
+ We use regular expressions to match the pattern of the links we want to
+ open (see Figure [figure reference]), and xpaths to point to specific nodes
+ on the HTML page.
+ As an example, the URLs we wanted to open belonged to the xpath 
+\begin_inset Formula $//td[@class="matchStyle"]$
+\end_inset
+
+, which means that the data had a 'td' tag and belonged to the 'matchStyle'
+ class.
+\end_layout
+
+\begin_layout Standard
+Our scraper opens each of these links, and parses the target webpage.
+ These target web pages contain the statistics of each match, and are of
+ the form shown in Figure [figure reference to matchstatspagesTI&atp].
+ In this figure, on the left is an example of the Match Statistics page
+ on the TennisInsight website, while on the right, we have an example of
+ the Match Statistics page on the ATP website.
+ Separate parsers were built for each of these two types of pages.
+ These pages were parsed based on keywords on the page, such as 
+\begin_inset Quotes eld
+\end_inset
+
+Tournament,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Aces,
+\begin_inset Quotes erd
+\end_inset
+
+ etc.
+ All match statistics are downloaded in a similar way for each player, saving
+ them to a CSV (comma separated values) file.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+lstparams "basicstyle={\small\sffamily}"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Form of URLs wanted:
+\end_layout
+
+\begin_layout Plain Layout
+
+javascript:makePopup('match_stats_popup.php?matchID=186134402')
+\end_layout
+
+\begin_layout Plain Layout
+
+Regular Expression:
+\end_layout
+
+\begin_layout Plain Layout
+
+match_stats_popup.php
+\backslash
+?matchID=
+\backslash
+d+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Form of URLs wanted:
+\end_layout
+
+\begin_layout Plain Layout
+
+javascript:makePopup('http://www.atpworldtour.com/
+\end_layout
+
+\begin_layout Plain Layout
+
+	Share/Match-Facts-Pop-Up.aspx?t=416&y=2014&r=3&p=CA12')
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Regular Expression:
+\end_layout
+
+\begin_layout Plain Layout
+
+http
+\backslash
+:
+\backslash
+/
+\backslash
+/www
+\backslash
+.atpworldtour
+\backslash
+.com
+\backslash
+/Share
+\backslash
+/Match
+\backslash
+-Facts
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+	-Pop
+\backslash
+-Up
+\backslash
+.aspx
+\backslash
+?t=
+\backslash
+d+&y=
+\backslash
+d+&r=
+\backslash
+d+&p=...."
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
 Odds Scraper
 \end_layout
 
@@ -128,11 +280,34 @@ A second scraper was needed because the match statistics and the odds were
  on separate pages.
  The odds for a player to win were scraped and these were merged with the
  match statistics collected previously to create a complete record.
- In addition, the dates for each of the matches played was on this page
- too, so the odds scraper retrieved this information as well.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Standard
+In addition, the dates for each of the matches played was on this page too,
+ so the odds scraper retrieved this information as well.
+ Like the Match Statistics Scraper described above, xpaths and regular expressio
+ns were again used to find the required data.
+ For example, the regular expression that matched odds of the form $1.212
+ was 
+\begin_inset Quotes eld
+\end_inset
+
+
+\backslash
+$
+\backslash
+d+
+\backslash
+.
+\backslash
+d+
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
 Linking scraped records from both scrapers
 \end_layout
 
@@ -885,12 +1060,161 @@ clusters: [0 1 0 1]
  cluster 0, while the remaining values belong to cluster 1.
 \end_layout
 
+\begin_layout Standard
+We use the rule of thumb technique, 
+\begin_inset Formula $k=\sqrt{n/2}$
+\end_inset
+
+, where n is the total number of records in the dataset, to set the number
+ of clusters k, at every step of the clustering.
+ Since we perform this clustering for close to 500 fixtures that we predict
+ later in Section [section reference], we aim to minimize the computational
+ overhead associated with the clustering by using this heuristic.
+\end_layout
+
 \begin_layout Subsubsection*
 Data Preprocessing
 \end_layout
 
 \begin_layout Standard
---injury flags and outliers removal
+Before our dataset (CSV file for each player containing a list of past 100
+ matches and respective statistics) was ready for clustering, there was
+ some preprocessing that was required to be done to ensure its accuracy.
+ There were two key steps that were carried out - these are the removal
+ of outliers and flagging specific data points.
+\end_layout
+
+\begin_layout Subsubsection*
+Detection and removal of outliers
+\end_layout
+
+\begin_layout Standard
+Outliers can be defined as observations that deviate significantly from
+ other samples in the dataset, by lying at an 'abnormal' distance from other
+ values.
+ RapidMiner was again used in this data preprocessing step to remove these
+ outliers in the datasets.
+ 
+\end_layout
+
+\begin_layout Standard
+RapidMiner's operator, 
+\begin_inset Quotes eld
+\end_inset
+
+Detect Outliers
+\begin_inset Quotes erd
+\end_inset
+
+, implements an outlier detection approach outlined in 
+\begin_inset Quotes eld
+\end_inset
+
+Efficient Algorithms for Mining Outliers from Large Data Sets
+\begin_inset Quotes erd
+\end_inset
+
+ by Ramaswamy, Rastogi, and Shim [reference to this paper].
+ The outlier detection approach is straightforward.
+ Each point is ranked based on its Euclidean distance to its k-th nearest
+ neighbour, and the top n ranked points in this ranking are detected as
+ outliers.
+ The values for k and n were provided, and this was chosen as 10 neighbours
+ and 5 outliers respectively.
+ This means that out of our dataset of approximately 100 matches for each
+ player, 5 matches are detected as outliers (and hence, removed) based on
+ their service points and return points won percentage.
+ 
+\end_layout
+
+\begin_layout Standard
+The reason outliers were removed was because it was noticed that in certain
+ matches scraped by our web scraper, matches either weren't played or were
+ not completed leading to either values such as 0% for percentage of service
+ and return points won, or very high unrealistic values (>90%) for percentage
+ of service points won.
+ TennisInsight (the website scraped) didn't have a filter to exclude these
+ matches so 'flawed' data like this was still included in the original dataset,
+ and initially skewed calculations and hence, match predictions greatly.
+ After these outliers were removed, however, we obtained more realistic
+ calculations.
+ 
+\end_layout
+
+\begin_layout Standard
+In Figure [figure reference], we can see a screenshot of the RapidMiner
+ process which includes the outlier detection and removal operators.
+ This process was run for each player's dataset separately.
+ We have instructed RapidMiner to 
+\end_layout
+
+\begin_layout Enumerate
+Read CSV: Load the original dataset through the Read CSV operator
+\end_layout
+
+\begin_layout Enumerate
+Set Role & Select Attributes: Set the role of and select attributes (Service
+ points and return points won percentage) that we want to include for detecting
+ outliers
+\end_layout
+
+\begin_layout Enumerate
+Detect Outliers: RapidMiner detects outliers according to the method described
+ earlier, adding a new boolean attribute 'outlier', which is set to True
+ if the record is an outlier, or False if not.
+\end_layout
+
+\begin_layout Enumerate
+Filter Examples: We filter out all records (referred to as examples in RapidMine
+r) which have the attribute 'outlier' set to True.
+ After this stage, all outliers have been successfully removed.
+\end_layout
+
+\begin_layout Enumerate
+Write CSV: Write all the records which aren't outliers to a CSV file, which
+ we use for the next stage (the clustering phase).
+\end_layout
+
+\begin_layout Standard
+It is important to consider the possibility that there are some records
+ that might be detected as outliers, which are in fact valid.
+ However, the removal of five records out of one hundred for each player
+ can be considered as insignificant, as it is only a very small portion
+ of the complete dataset.
+ The impact of the inclusion of five potentially erroneous records is significan
+tly larger than the removal of five valid records (out of a dataset of 100).
+\end_layout
+
+\begin_layout Subsubsection*
+Flagging Specific Records
+\end_layout
+
+\begin_layout Standard
+Another step in the data preprocessing was removing specific matches from
+ the dataset that might influence the overall dataset and eventual clusters
+ and predictions.
+ These include:
+\end_layout
+
+\begin_layout Enumerate
+Matches where a player has been injured: If a player has either withdrawn
+ or retired from a match due to injury, that record is removed from the
+ dataset.
+ Injury is an external factor that skews data and the eventual clusters
+ significantly, since players usually perform worse than usual.
+ Additionally, matches that have occurred up to 14 days after a reported
+ injury are also not included in the dataset.
+ This was done to ensure that after effects of injuries were also taken
+ into account.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Exhibition and Davis Cup matches: These are matches which do not count towards
+ a player's ATP points, or their professional ranking.
+ Since they are not as 'important' as matches on the ATP tour, it is possible
+ that players may underperform in matches like these, so they aren't included
+ in the dataset.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -898,34 +1222,93 @@ Limitations
 \end_layout
 
 \begin_layout Standard
-rely on them playing multiple times for accurate set of similar players.
- if they played only once then too biased on that result esp if it was a
- shock defeat results are very skewed.
- fortunately we have focused analysis on top 30 and they play each other
- fairly often
+To obtain an accurate set of similar opponents using the past opponent profiles,
+ it is preferable that players have played the same opponent more than once.
+ If two players have played each other only once, the set of similar players
+ obtained is completely based on that last encounter.
+ Results become problematic if in that last encounter a player underperformed
+ or overperformed, resulting in a surprise defeat or win.
+ Fortunately, we have focused our analysis on players in the top 40; these
+ players usually play in the same tournaments and often encounter each other
+ more than once over the course of their last 100 matches.
+ 
 \end_layout
 
 \begin_layout Standard
-too biased on their last encounters and shock defeats- initially only looked
- at previous encounter, but decided to look at all their encounters to minimize
- this limitation
+If two players have played each other more than once and they performed
+ differently on both occasions (performed differently in terms of service
+ and return points won), it is likely that each record might be in different
+ clusters i.e.
+ the same player belongs to two different clusters.
+ In this case, the set of similar players are players that are in either
+ cluster.
+ In the initial implementation of the model, if a player was in multiple
+ different clusters, the average of the service and return points won in
+ all these clusters was used, instead of taking all players in either cluster.
+ However, this is likely to put a player in a cluster that he does not belong
+ to at all.
+ 
 \end_layout
 
 \begin_layout Standard
-COPIED FROM 2.1 In our overall model, for a match up between player A and
- player B, we first look at all their previous encounters.
- We look at all the players that have performed similarly to B in terms
- of service points and return points won percentages.
- We get this group of players by using clustering techniques, such as k-means,
- which we describe in further detail later in section [Section reference
- to clustering techniques].
- This is the set of similar players that we use later in Section 2.2.1 [section
- reference to spw Si] to generate predictions.
+Let's take the following example: In previous matches between player A and
+ player B, player B's performances were the following:
+\end_layout
+
+\begin_layout Itemize
+Match 1: Player B won 80% of service points, 30% of return points
+\end_layout
+
+\begin_layout Itemize
+Match 2: Player B won 40% of service points, and 30% of return points
+\end_layout
+
+\begin_layout Standard
+Let's assume Player B is a very good player and Match 1 represents the true
+ performance of Player B, and Match 2 represents a game where he was unfit
+ and played poorly.
+ If the average of these performances were taken, Player B would be put
+ into a cluster with other players who have a performance of 60% of service
+ points won and 30% of service points won.
+ Although this is an extreme case, this is something we want to avoid.
+ Hence, we consider players in both clusters.
 \end_layout
 
 \begin_layout Subsubsection*
-Up till this point : how we generate a set of similar players, dataflow
- picture
+Summary so far
+\end_layout
+
+\begin_layout Standard
+In this previous section, we use data that we scraped in Section [section
+ ref] to generate both general player profiles for all players collectively
+ and past opponent profiles for each opponent.
+ The next stage is then the clustering phase.
+ In this phase, we cluster player profiles with the RapidMiner tool, using
+ the k-means algorithm and other variations of it, where we modify the value
+ of k to generate a range of different player styles.
+ We also cluster player opponent profiles for each player based on the proportio
+n of serve and return points won in each player's past 100 matches using
+ the k-means algorithm.
+ To generate a set of similar players for player A, for example, we obtain
+ all players in the same cluster as A in the general player profiles.
+ In addition, in a match up between player A and player B, we look at their
+ previous encounters, and find players that performed similarly to A in
+ terms of serve and return points won across B's past 100 matches.
+ These are the set of similar players to A, in a specific match up against
+ B.
+ The diagram in Figure [figure reference] represents the data flow so far.
+\end_layout
+
+\begin_layout Standard
+INSERT DIAGRAM ON DATAFLOW HERE
+\end_layout
+
+\begin_layout Standard
+In the next section, we introduce how we predict the outcome of a tennis
+ match between two players, player A and player B.
+ We use the generated sets of similar players for each player, and use each
+ player's performance against their opponent's of similar players, to come
+ up with a probability of each player winning the match.
 \end_layout
 
 \begin_layout Subsection
@@ -1126,21 +1509,268 @@ The function
 \end_layout
 
 \begin_layout Standard
----------------
+As with the rest of the project, Python was used to implement the above
+ logic.
+ Figure [code reference] presents the implementation of how 
+\begin_inset Formula $\triangle_{i}^{AB}$
+\end_inset
+
+ is calculated.
+ This is calculated for each player in every game.
 \end_layout
 
 \begin_layout Standard
-implementation - talk about how the above was written in python
+\begin_inset listings
+lstparams "breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+# Arguments: 
 \end_layout
 
-\begin_layout Standard
-dealing with multiple clusters ->taking recently played of other cluster
- etc, use other cluster information
+\begin_layout Plain Layout
+
+# 'player_list' is past opponent (profile) list of the 
 \end_layout
 
-\begin_layout Standard
-This specific set of similar opponents is found through clustering techniques
- over different sets of data which we discussed above
+\begin_layout Plain Layout
+
+# player until the game we are prediction.
+ This ensures 
+\end_layout
+
+\begin_layout Plain Layout
+
+# that we don't use future data
+\end_layout
+
+\begin_layout Plain Layout
+
+# 'opponent' is the opponent of the current player.
+ This is # player 'B' in the formulas described
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+def calculate_spw_difference(player_list,opponent):
+\end_layout
+
+\begin_layout Plain Layout
+
+	# this function obtains players similar to the opponent
+\end_layout
+
+\begin_layout Plain Layout
+
+	# according to the General Player Profiles
+\end_layout
+
+\begin_layout Plain Layout
+
+	players_in_p2_profile=get_similar_profile_players(opponent)
+\end_layout
+
+\begin_layout Plain Layout
+
+	normalisation_counter, difference_a_c, counter = 0, 0, 0
+\end_layout
+
+\begin_layout Plain Layout
+
+	# this function returns a list of size player_list,
+\end_layout
+
+\begin_layout Plain Layout
+
+	# where each element i in cluster_labels represents 
+\end_layout
+
+\begin_layout Plain Layout
+
+	# the cluster that element i in player_list belongs to
+\end_layout
+
+\begin_layout Plain Layout
+
+	cluster_labels = cluster.kmeans_cluster(player_list)
+\end_layout
+
+\begin_layout Plain Layout
+
+	# cluster_list contains all the clusters that the
+\end_layout
+
+\begin_layout Plain Layout
+
+	# opponent is similar to.
+ We use the counter variable to
+\end_layout
+
+\begin_layout Plain Layout
+
+	# keep track of the position in cluster_labels
+\end_layout
+
+\begin_layout Plain Layout
+
+	for rec in player_list:
+\end_layout
+
+\begin_layout Plain Layout
+
+		if opponent==rec[2]:
+\end_layout
+
+\begin_layout Plain Layout
+
+			cluster_list.append(cluster_labels[counter])
+\end_layout
+
+\begin_layout Plain Layout
+
+		counter+=1
+\end_layout
+
+\begin_layout Plain Layout
+
+	for rec in player_list:
+\end_layout
+
+\begin_layout Plain Layout
+
+		same_profile = 0 
+\end_layout
+
+\begin_layout Plain Layout
+
+		# rec[2] refers to the opponent in the current record.
+\end_layout
+
+\begin_layout Plain Layout
+
+		# Set same_profile = 1 if any of those players are
+\end_layout
+
+\begin_layout Plain Layout
+
+		# similar to the initial opponent in terms 
+\end_layout
+
+\begin_layout Plain Layout
+
+		# of General Player Profiles
+\end_layout
+
+\begin_layout Plain Layout
+
+		if any(x in rec[2] for x in players_in_p2_profile): 			same_profile =
+ 1
+\end_layout
+
+\begin_layout Plain Layout
+
+		# if the current record is in any of the 
+\end_layout
+
+\begin_layout Plain Layout
+
+		# same clusters in cluster_list, or the player 
+\end_layout
+
+\begin_layout Plain Layout
+
+		# is in the same general player profiles 
+\end_layout
+
+\begin_layout Plain Layout
+
+		# cluster, continue with the spw 
+\end_layout
+
+\begin_layout Plain Layout
+
+		# difference calculation
+\end_layout
+
+\begin_layout Plain Layout
+
+		if (cluster_labels[cluster_labels_counter] in cluster_list) or same_profile:
+\end_layout
+
+\begin_layout Plain Layout
+
+			# get the required service and return points 
+\end_layout
+
+\begin_layout Plain Layout
+
+			# won percentages
+\end_layout
+
+\begin_layout Plain Layout
+
+			spw_p2 = float(rec[0]) 			
+\end_layout
+
+\begin_layout Plain Layout
+
+			rpw_p2 = float(rec[1]) 
+\end_layout
+
+\begin_layout Plain Layout
+
+			# this formula is identical to triangle_A_B.
+\end_layout
+
+\begin_layout Plain Layout
+
+			# it was divided by 100 because the spw and rpw
+\end_layout
+
+\begin_layout Plain Layout
+
+			# values were from 0 to 100, rather than from 0 
+\end_layout
+
+\begin_layout Plain Layout
+
+			# to 1
+\end_layout
+
+\begin_layout Plain Layout
+
+			difference_spw_rpw_p1 = (100.0-rpw_p2-spw_p2)/100
+\end_layout
+
+\begin_layout Plain Layout
+
+			difference_a_c += difference_spw_rpw_p1
+\end_layout
+
+\begin_layout Plain Layout
+
+			normalisation_counter+=1
+\end_layout
+
+\begin_layout Plain Layout
+
+		cluster_labels_counter+=1
+\end_layout
+
+\begin_layout Plain Layout
+
+	return (difference_a_c, normalisation_counter)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
