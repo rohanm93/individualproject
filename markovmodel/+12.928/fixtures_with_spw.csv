@@ -1,0 +1,1146 @@
+p2ServePointsWon,p2ReturnPointsWon,player2,odds,winner,date,tournament,t_round,player1,outlier,id,cluster,spw,spw_count
+67.0,38.0,Andy Murray,$6.349,Andy Murray,Dec 31 2012,Brisbane,F,Grigor Dimitrov,false,83.0,cluster_1,0,0
+74.0,21.0,Milos Raonic,$2.868,Grigor Dimitrov,Dec 31 2012,Brisbane,R16,Grigor Dimitrov,false,86.0,cluster_0,0,0
+65.0,38.0,Philipp Kohlschreiber,$2.462,Gael Monfils,Dec 31 2012,Doha,R16,Gael Monfils,false,78.0,cluster_4,-0.05,10
+50.0,26.0,Kei Nishikori,$1.260,Andy Murray,Dec 31 2012,Brisbane,S,Andy Murray,false,59.0,cluster_4,0,0
+73.0,50.0,Andy Murray,$4.522,Andy Murray,Dec 31 2012,Brisbane,S,Kei Nishikori,false,80.0,cluster_1,0,0
+65.0,25.0,Alexandr Dolgopolov,$1.715,Kei Nishikori,Dec 31 2012,Brisbane,Q,Kei Nishikori,false,81.0,cluster_0,0,0
+56.0,28.0,Tommy Robredo,$1.278,Kei Nishikori,Dec 31 2012,Brisbane,R16,Kei Nishikori,false,82.0,cluster_2,0,0
+71.0,43.0,Kei Nishikori,$4.228,Kei Nishikori,Dec 31 2012,Brisbane,R16,Tommy Robredo,false,78.0,cluster_4,-0.74,5
+58.0,41.0,Tomas Berdych,$11.404,Roberto Bautista Agut,Dec 31 2012,Chennai,Q,Roberto Bautista Agut,false,27.0,cluster_2,0,0
+74.0,34.0,Kei Nishikori,$2.330,Kei Nishikori,Dec 31 2012,Brisbane,Q,Alexandr Dolgopolov,false,63.0,cluster_2,0,0
+61.0,34.0,Gael Monfils,$1.634,Gael Monfils,Dec 31 2012,Doha,R16,Philipp Kohlschreiber,false,24.0,cluster_0,-0.04,1
+61,23,Feliciano Lopez,$1.406,Kevin Anderson,Jan 7 2013,Sydney,R16,Kevin Anderson,FALSE,78,cluster_2,0,0
+70,37,Feliciano Lopez,$1.995,Feliciano Lopez,Jan 7 2013,Sydney,R32,Jeremy Chardy,FALSE,53,cluster_3,0.26,2
+77.0,48.0,Fabio Fognini,$1.288,Fabio Fognini,Jan 7 2013,Sydney,R32,Grigor Dimitrov,false,82.0,cluster_3,0,0
+62.0,32.0,Gael Monfils,$1.686,Gael Monfils,Jan 7 2013,Auckland,Q,Tommy Haas,false,90.0,cluster_4,0,0
+67.0,37.0,Tommy Haas,$2.380,Gael Monfils,Jan 7 2013,Auckland,Q,Gael Monfils,false,74.0,cluster_4,-0.05,1
+64.0,42.0,David Ferrer,$5.170,David Ferrer,Jan 7 2013,Auckland,F,Philipp Kohlschreiber,false,25.0,cluster_4,0,0
+62.0,29.0,Jeremy Chardy,$1.923,Feliciano Lopez,Jan 7 2013,Sydney,R32,Feliciano Lopez,false,72.0,cluster_0,0,0
+67.0,40.0,Novak Djokovic,$4.898,Novak Djokovic,Jan 9 2013,Barclays ATP World Tour Finals,S,Juan Martin Del Potro,false,44.0,cluster_4,0.01,3
+64,31,Fernando Verdasco,$1.812,Kevin Anderson,Jan 14 2013,Australian Open Slam,Round of 32,Kevin Anderson,FALSE,66,cluster_1,0.16,1
+64,53,Andy Murray,$12.323,Andy Murray,Jan 14 2013,Australian Open Slam,Quarter Final,Jeremy Chardy,FALSE,43,cluster_0,0.99,7
+57,34,Andreas Seppi,$2.590,Jeremy Chardy,Jan 14 2013,Australian Open Slam,Round of 16,Jeremy Chardy,FALSE,48,cluster_2,0.19,3
+66,33,Juan Martin del Potro,$16.225,Jeremy Chardy,Jan 14 2013,Australian Open Slam,Round of 32,Jeremy Chardy,FALSE,50,cluster_3,-0.26,2
+59,42,Andreas Seppi,$1.437,Andreas Seppi,Jan 14 2013,Australian Open Slam,Round of 32,Marin Cilic,FALSE,64,cluster_2,0.35,2
+71.0,39.0,Andy Murray,$2.304,Andy Murray,Jan 14 2013,Australian Open Slam,Semi Final,Roger Federer,false,76.0,cluster_2,0.16,2
+66.0,31.0,Jo-Wilfried Tsonga,$1.200,Roger Federer,Jan 14 2013,Australian Open Slam,Quarter Final,Roger Federer,false,77.0,cluster_2,0,0
+64.0,15.0,Milos Raonic,$1.139,Roger Federer,Jan 14 2013,Australian Open Slam,Round of 16,Roger Federer,false,81.0,cluster_0,0,0
+70.0,34.0,Jo-Wilfried Tsonga,$2.837,Jo-Wilfried Tsonga,Jan 14 2013,Australian Open Slam,Round of 16,Richard Gasquet,false,77.0,cluster_3,0.1,1
+61.0,32.0,Alexandr Dolgopolov,$2.474,Gael Monfils,Jan 14 2013,Australian Open Slam,Round of 128,Gael Monfils,false,73.0,cluster_3,0,0
+61.0,29.0,Roger Federer,$1.716,Andy Murray,Jan 14 2013,Australian Open Slam,Semi Final,Andy Murray,false,45.0,cluster_2,0.4,10
+47.0,36.0,Jeremy Chardy,$1.069,Andy Murray,Jan 14 2013,Australian Open Slam,Quarter Final,Andy Murray,false,49.0,cluster_1,-0.03,1
+48.0,30.0,Gilles Simon,$1.024,Andy Murray,Jan 14 2013,Australian Open Slam,Round of 16,Andy Murray,false,53.0,cluster_4,0,0
+61.0,32.0,Grigor Dimitrov,$1.165,Andy Murray,Jan 14 2013,Brisbane,F,Andy Murray,false,58.0,cluster_2,-0.02,1
+85.0,36.0,Roger Federer,$7.186,Roger Federer,Jan 14 2013,Australian Open Slam,Round of 16,Milos Raonic,false,60.0,cluster_3,0,0
+68.0,20.0,Philipp Kohlschreiber,$1.677,Milos Raonic,Jan 14 2013,Australian Open Slam,Round of 32,Milos Raonic,false,63.0,cluster_1,0,0
+58.0,41.0,Marin Cilic,$3.114,Andreas Seppi,Jan 14 2013,Australian Open Slam,Round of 32,Andreas Seppi,false,74.0,cluster_4,0,0
+69.0,34.0,Roger Federer,$5.448,Roger Federer,Jan 14 2013,Australian Open Slam,Quarter Final,Jo-Wilfried Tsonga,false,59.0,cluster_1,-0.1,1
+66.0,30.0,Richard Gasquet,$1.515,Jo-Wilfried Tsonga,Jan 14 2013,Australian Open Slam,Round of 16,Jo-Wilfried Tsonga,false,60.0,cluster_1,0,0
+68.0,39.0,Gael Monfils,$1.632,Gael Monfils,Jan 14 2013,Australian Open Slam,Round of 128,Alexandr Dolgopolov,false,19.0,cluster_2,0.16,1
+80.0,31.0,Nicolas Almagro,$1.190,Nicolas Almagro,Jan 14 2013,Australian Open Slam,Round of 32,Jerzy Janowicz,false,1.0,cluster_3,0,0
+80.0,32.0,Milos Raonic,$2.401,Milos Raonic,Jan 14 2013,Australian Open Slam,Round of 32,Philipp Kohlschreiber,false,59.0,cluster_2,0,0
+76.0,38.0,Kevin Anderson,$3.253,Kevin Anderson,Jan 14 2013,Sydney,R16,Feliciano Lopez,false,73.0,cluster_3,0.09,1
+59.0,45.0,Gael Monfils,$1.583,Gilles Simon,Jan 14 2013,Australian Open Slam,Round of 32,Gilles Simon,false,9.0,cluster_3,-0.15,1
+70.0,52.0,Andy Murray,$24.940,Andy Murray,Jan 14 2013,Australian Open Slam,Round of 16,Gilles Simon,false,14.0,cluster_0,0,0
+65,41,David Ferrer,$5.608,David Ferrer,Feb 1 2013,Australian Open Slam,Quarter Final,Nicolas Almagro,FALSE,69,cluster_3,0.16,5
+69,20,Jerzy Janowicz,$1.406,Nicolas Almagro,Feb 1 2013,Australian Open Slam,Round of 32,Nicolas Almagro,FALSE,74,cluster_2,0,0
+73,47,Rafael Nadal,$7.727,Rafael Nadal,Feb 4 2013,Vina del Mar,S,Jeremy Chardy,FALSE,39,cluster_0,-0.13,2
+56,37,Mikhail Youzhny,$1.609,Marin Cilic,Feb 4 2013,Zagreb,S,Marin Cilic,FALSE,61,cluster_1,0.34,3
+58.0,36.0,Gael Monfils,$1.630,Richard Gasquet,Feb 4 2013,Montpellier,R16,Richard Gasquet,false,76.0,cluster_2,-0.08,1
+55.0,41.0,Gilles Simon,$2.624,Gilles Simon,Feb 4 2013,Australian Open Slam,Round of 32,Gael Monfils,false,71.0,cluster_0,-0.1,6
+66.0,43.0,Jeremy Chardy,$1.585,Jeremy Chardy,Feb 4 2013,Australian Open Slam,Round of 16,Andreas Seppi,false,73.0,cluster_3,0.01,1
+62.0,43.0,Marin Cilic,$2.528,Marin Cilic,Feb 4 2013,Zagreb,S,Mikhail Youzhny,false,70.0,cluster_4,0.14,1
+64.0,26.0,Grigor Dimitrov,$1.248,Juan Martin Del Potro,Feb 11 2013,Rotterdam,S,Juan Martin Del Potro,false,31.0,cluster_3,0,0
+65.0,32.0,Ernests Gulbis,$1.256,Juan Martin Del Potro,Feb 11 2013,Rotterdam,R16,Juan Martin Del Potro,false,35.0,cluster_3,0,0
+63.0,24.0,Gael Monfils,$1.263,Juan Martin Del Potro,Feb 11 2013,Rotterdam,R32,Juan Martin Del Potro,false,36.0,cluster_3,0.09,1
+67.0,34.0,Jeremy Chardy,$1.045,Jeremy Chardy,Feb 11 2013,Australian Open Slam,Round of 32,Juan Martin del Potro,false,40.0,cluster_4,0.22,2
+73.0,35.0,Juan Martin Del Potro,$4.632,Juan Martin Del Potro,Feb 11 2013,Rotterdam,S,Grigor Dimitrov,false,77.0,cluster_0,0.05,1
+76.0,42.0,Milos Raonic,$2.710,Milos Raonic,Feb 11 2013,San Jose,F,Tommy Haas,false,85.0,cluster_1,0,0
+64.0,19.0,John Isner,$1.773,Tommy Haas,Feb 11 2013,San Jose,S,Tommy Haas,false,86.0,cluster_0,-0.18,1
+80.0,35.0,Tommy Haas,$2.207,Tommy Haas,Feb 11 2013,San Jose,S,John Isner,false,78.0,cluster_1,0,0
+63.0,41.0,Richard Gasquet,$2.472,Richard Gasquet,Feb 11 2013,Montpellier,R16,Gael Monfils,false,69.0,cluster_4,0.07,1
+57.0,23.0,Tommy Haas,$1.543,Milos Raonic,Feb 11 2013,San Jose,F,Milos Raonic,false,53.0,cluster_4,0,0
+54.0,39.0,Fabio Fognini,$2.076,Roberto Bautista Agut,Feb 11 2013,Australian Open Slam,Round of 128,Roberto Bautista Agut,false,48.0,cluster_2,0,0
+78,32,Stan Wawrinka,$1.755,Stan Wawrinka,Feb 18 2013,Buenos Aires,S,Nicolas Almagro,FALSE,55,cluster_1,-0.08,3
+68,43,Kei Nishikori,$1.799,Kei Nishikori,Feb 18 2013,Memphis,Q,Marin Cilic,FALSE,57,cluster_2,0.35,8
+71.0,34.0,Tomas Berdych,$3.089,Tomas Berdych,Feb 18 2013,Marseille,R16,Ernests Gulbis,false,80.0,cluster_2,0,0
+75.0,36.0,Juan Martin Del Potro,$4.446,Juan Martin Del Potro,Feb 18 2013,Rotterdam,R32,Gael Monfils,false,68.0,cluster_4,0,0
+54.0,20.0,Feliciano Lopez,$1.272,Kei Nishikori,Feb 18 2013,Memphis,F,Kei Nishikori,false,65.0,cluster_2,0.16,1
+56.0,31.0,Marin Cilic,$2.169,Kei Nishikori,Feb 18 2013,Memphis,Q,Kei Nishikori,false,69.0,cluster_2,0,0
+67.0,48.0,David Ferrer,$12.327,David Ferrer,Feb 18 2013,Buenos Aires,S,Tommy Robredo,false,69.0,cluster_3,0,0
+75.0,33.0,Tomas Berdych,$2.270,Jo-Wilfried Tsonga,Feb 18 2013,Marseille,F,Jo-Wilfried Tsonga,false,49.0,cluster_4,0,0
+53.0,23.0,Gilles Simon,$1.518,Jo-Wilfried Tsonga,Feb 18 2013,Marseille,S,Jo-Wilfried Tsonga,false,50.0,cluster_2,0,0
+69.0,36.0,Kevin Anderson,$2.167,Kevin Anderson,Feb 18 2013,Australian Open Slam,Round of 32,Fernando Verdasco,false,65.0,cluster_3,-0.32,2
+66.0,44.0,Fabio Fognini,$1.226,Fabio Fognini,Feb 18 2013,Acapulco,R32,Stan Wawrinka,false,81.0,cluster_3,0,0
+61.0,48.0,David Ferrer,$3.814,David Ferrer,Feb 18 2013,Buenos Aires,F,Stan Wawrinka,false,82.0,cluster_1,0,0
+67.0,21.0,Nicolas Almagro,$2.236,Stan Wawrinka,Feb 18 2013,Buenos Aires,S,Stan Wawrinka,false,83.0,cluster_0,0,0
+74.0,27.0,Tomas Berdych,$3.431,Tomas Berdych,Feb 18 2013,Marseille,Q,Jerzy Janowicz,false,71.0,cluster_4,0,0
+38.0,38.0,Roberto Bautista Agut,$1.252,Gilles Simon,Feb 18 2013,Marseille,R16,Gilles Simon,false,74.0,cluster_1,0,0
+76.0,46.0,Jo-Wilfried Tsonga,$2.791,Jo-Wilfried Tsonga,Feb 18 2013,Marseille,S,Gilles Simon,false,76.0,cluster_0,0,0
+64.0,32.0,Juan Martin Del Potro,$3.860,Gilles Simon,Feb 18 2013,Marseille,Q,Gilles Simon,false,79.0,cluster_4,0.09,1
+65,35,Rafael Nadal,$5.047,Rafael Nadal,Feb 25 2013,Acapulco,S,Nicolas Almagro,FALSE,50,cluster_1,0,0
+58,31,Tommy Robredo,$1.160,Nicolas Almagro,Feb 25 2013,Acapulco,R16,Nicolas Almagro,FALSE,54,cluster_4,-0.03,1
+67,42,Tomas Berdych,$4.837,Tomas Berdych,Feb 25 2013,Australian Open Slam,Round of 16,Kevin Anderson,FALSE,65,cluster_4,-0.02,9
+67.0,35.0,Gilles Simon,$1.319,Gilles Simon,Feb 25 2013,Marseille,Q,Juan Martin Del Potro,false,28.0,cluster_4,0,0
+67.0,35.0,Tomas Berdych,$1.479,Tomas Berdych,Feb 25 2013,Dubai,S,Roger Federer,false,64.0,cluster_2,0.21,1
+63.0,34.0,Tommy Haas,$1.967,Ernests Gulbis,Feb 25 2013,Delray Beach,S,Ernests Gulbis,false,77.0,cluster_4,0,0
+65.0,36.0,Ernests Gulbis,$1.967,Ernests Gulbis,Feb 25 2013,Delray Beach,S,Tommy Haas,false,80.0,cluster_4,0,0
+60.0,23.0,Kevin Anderson,$1.985,John Isner,Feb 25 2013,Delray Beach,Q,John Isner,false,75.0,cluster_4,0.31,4
+68.0,41.0,Nicolas Almagro,$6.453,Nicolas Almagro,Feb 25 2013,Acapulco,R16,Tommy Robredo,false,67.0,cluster_4,0,0
+69.0,54.0,Novak Djokovic,$19.689,Novak Djokovic,Feb 25 2013,Dubai,Q,Andreas Seppi,false,69.0,cluster_3,0,0
+61.0,61.0,Gilles Simon,$4.580,Gilles Simon,Feb 25 2013,Marseille,R16,Roberto Bautista Agut,false,33.0,cluster_3,0,0
+55.0,33.0,Stan Wawrinka,$4.960,Fabio Fognini,Feb 25 2013,Acapulco,R32,Fabio Fognini,false,19.0,cluster_2,0,0
+79.0,45.0,Kei Nishikori,$4.328,Kei Nishikori,Feb 25 2013,Memphis,F,Feliciano Lopez,false,76.0,cluster_3,0,0
+68,36,Tommy Haas,$1.653,Tommy Haas,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Nicolas Almagro,FALSE,47,cluster_1,0.08,2
+60,31,Gilles Simon,$1.513,Kevin Anderson,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Kevin Anderson,FALSE,50,cluster_0,-0.04,1
+59,38,David Ferrer,$4.328,Kevin Anderson,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,Kevin Anderson,FALSE,54,cluster_0,0,0
+76,39,John Isner,$1.948,John Isner,Mar 6 2013,Delray Beach,Q,Kevin Anderson,FALSE,59,cluster_4,0.04,7
+67,34,Milos Raonic,$2.096,Milos Raonic,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Marin Cilic,FALSE,55,cluster_0,0,0
+58.0,41.0,Novak Djokovic,$5.821,Juan Martin Del Potro,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,S,Juan Martin Del Potro,false,12.0,cluster_1,-0.2,10
+59.0,32.0,Andy Murray,$2.710,Juan Martin Del Potro,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,Q,Juan Martin Del Potro,false,15.0,cluster_3,-0.2,3
+43.0,27.0,Tommy Haas,$1.272,Juan Martin Del Potro,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Juan Martin Del Potro,false,16.0,cluster_0,0,0
+71.0,39.0,Novak Djokovic,$7.226,Novak Djokovic,Mar 6 2013,Dubai,S,Juan Martin Del Potro,false,22.0,cluster_4,0.28,15
+72.0,42.0,Novak Djokovic,$23.285,Novak Djokovic,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Grigor Dimitrov,false,75.0,cluster_3,-0.05,1
+58.0,41.0,Juan Martin Del Potro,$1.183,Juan Martin Del Potro,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,S,Novak Djokovic,false,87.0,cluster_4,0,0
+57.0,40.0,Stan Wawrinka,$1.264,Roger Federer,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Roger Federer,false,59.0,cluster_1,0,0
+62.0,50.0,Tomas Berdych,$2.509,Tomas Berdych,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Richard Gasquet,false,67.0,cluster_1,0,0
+58.0,24.0,Jerzy Janowicz,$1.352,Richard Gasquet,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Richard Gasquet,false,68.0,cluster_4,-0.02,2
+64.0,35.0,Rafael Nadal,$1.090,Rafael Nadal,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Ernests Gulbis,false,72.0,cluster_4,0,0
+60.0,34.0,Andreas Seppi,$1.482,Ernests Gulbis,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Ernests Gulbis,false,73.0,cluster_4,0.03,1
+50.0,30.0,Feliciano Lopez,$1.664,Ernests Gulbis,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R128,Ernests Gulbis,false,75.0,cluster_0,0.09,2
+72.0,56.0,Juan Martin Del Potro,$4.328,Juan Martin Del Potro,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Tommy Haas,false,77.0,cluster_1,-0.01,2
+63.0,31.0,Nicolas Almagro,$2.428,Tommy Haas,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Tommy Haas,false,78.0,cluster_4,-0.01,1
+72.0,41.0,Stan Wawrinka,$3.984,Stan Wawrinka,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Lleyton Hewitt,false,49.0,cluster_0,-0.14,1
+66.0,30.0,John Isner,$2.933,Lleyton Hewitt,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,Lleyton Hewitt,false,50.0,cluster_1,-0.93,10
+69.0,33.0,Lleyton Hewitt,$1.479,Lleyton Hewitt,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R64,John Isner,false,73.0,cluster_3,0,0
+72.0,33.0,Novak Djokovic,$2.725,Novak Djokovic,Mar 6 2013,Australian Open Slam,Final,Andy Murray,false,44.0,cluster_3,0.66,8
+72.0,25.0,Jo-Wilfried Tsonga,$2.197,Jo-Wilfried Tsonga,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Milos Raonic,false,47.0,cluster_1,0.2,1
+65.0,32.0,Marin Cilic,$1.852,Milos Raonic,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Milos Raonic,false,48.0,cluster_0,0,0
+65.0,39.0,Ernests Gulbis,$2.924,Ernests Gulbis,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Andreas Seppi,false,67.0,cluster_0,0,0
+75.0,27.0,Milos Raonic,$1.780,Jo-Wilfried Tsonga,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Jo-Wilfried Tsonga,false,41.0,cluster_1,-0.08,1
+59.0,42.0,Roger Federer,$4.432,Roger Federer,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Stan Wawrinka,false,78.0,cluster_1,-0.09,1
+58.0,27.0,Lleyton Hewitt,$1.306,Stan Wawrinka,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Stan Wawrinka,false,79.0,cluster_2,0,0
+63.0,43.0,David Ferrer,$14.400,David Ferrer,Mar 6 2013,Acapulco,S,Fabio Fognini,false,18.0,cluster_4,0.12,1
+76.0,41.0,Richard Gasquet,$3.608,Richard Gasquet,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R32,Jerzy Janowicz,false,70.0,cluster_3,0,0
+69.0,49.0,Ernests Gulbis,$2.403,Ernests Gulbis,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R128,Feliciano Lopez,false,81.0,cluster_4,0,0
+68.0,40.0,Kevin Anderson,$2.809,Kevin Anderson,Mar 6 2013,ATP World Tour Masters 1000 Indian Wells,R16,Gilles Simon,false,6.0,cluster_3,-0.19,2
+69,40,Richard Gasquet,$2.106,Richard Gasquet,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,Nicolas Almagro,FALSE,40,cluster_3,0,0
+69,37,Tomas Berdych,$4.915,Tomas Berdych,Mar 18 2013,ATP World Tour Masters 1000 Indian Wells,Q,Kevin Anderson,FALSE,47,cluster_1,-0.4,7
+65,40,Rafael Nadal,$2.809,Rafael Nadal,Mar 18 2013,ATP World Tour Masters 1000 Indian Wells,S,Tomas Berdych,FALSE,85,cluster_4,0,0
+62,30,Kevin Anderson,$1.229,Tomas Berdych,Mar 18 2013,ATP World Tour Masters 1000 Indian Wells,Q,Tomas Berdych,FALSE,86,cluster_1,0,0
+59,24,Jo-Wilfried Tsonga,$2.791,Marin Cilic,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,Marin Cilic,FALSE,52,cluster_4,0.41,4
+61,22,John Isner,$1.598,Marin Cilic,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,Marin Cilic,FALSE,53,cluster_4,-0.01,1
+69.0,41.0,Rafael Nadal,$2.834,Rafael Nadal,Mar 18 2013,ATP World Tour Masters 1000 Indian Wells,F,Juan Martin Del Potro,false,11.0,cluster_4,-0.21,5
+62.0,41.0,Andy Murray,$8.550,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,Grigor Dimitrov,false,73.0,cluster_1,-0.79,6
+50.0,51.0,Andy Murray,$3.810,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,F,David Ferrer,false,87.0,cluster_4,0,0
+53.0,39.0,Tommy Haas,$1.493,David Ferrer,Mar 18 2013,ATP World Tour Masters 1000 Miami,S,David Ferrer,false,88.0,cluster_3,0,0
+66.0,49.0,Andy Murray,$4.205,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,S,Richard Gasquet,false,62.0,cluster_1,0,0
+60.0,30.0,Tomas Berdych,$3.071,Richard Gasquet,Mar 18 2013,ATP World Tour Masters 1000 Miami,Q,Richard Gasquet,false,63.0,cluster_2,-0.46,5
+59.0,30.0,Nicolas Almagro,$1.845,Richard Gasquet,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,Richard Gasquet,false,64.0,cluster_2,0,0
+51.0,35.0,Mikhail Youzhny,$1.272,Richard Gasquet,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,Richard Gasquet,false,65.0,cluster_0,1.02,11
+60.0,46.0,David Ferrer,$2.881,David Ferrer,Mar 18 2013,ATP World Tour Masters 1000 Miami,S,Tommy Haas,false,72.0,cluster_2,0,0
+52.0,21.0,Gilles Simon,$1.571,Tommy Haas,Mar 18 2013,ATP World Tour Masters 1000 Miami,Q,Tommy Haas,false,73.0,cluster_3,0,0
+52.0,25.0,Novak Djokovic,$16.054,Tommy Haas,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,Tommy Haas,false,74.0,cluster_3,0,0
+50.0,32.0,Alexandr Dolgopolov,$1.735,Tommy Haas,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,Tommy Haas,false,75.0,cluster_3,0,0
+64.0,51.0,Gilles Simon,$2.709,Gilles Simon,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,Lleyton Hewitt,false,47.0,cluster_2,0,0
+77.0,38.0,Marin Cilic,$2.557,Marin Cilic,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,John Isner,false,71.0,cluster_2,0.21,2
+50.0,33.0,Richard Gasquet,$1.283,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,S,Andy Murray,false,23.0,cluster_1,0.25,1
+45.0,41.0,Marin Cilic,$1.210,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,Q,Andy Murray,false,24.0,cluster_1,0.14,2
+56.0,24.0,Andreas Seppi,$1.065,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,Andy Murray,false,28.0,cluster_2,0.2,1
+58.0,37.0,Grigor Dimitrov,$1.111,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,Andy Murray,false,29.0,cluster_0,0.06,7
+67.0,40.0,Juan Martin Del Potro,$1.543,Juan Martin Del Potro,Mar 18 2013,ATP World Tour Masters 1000 Indian Wells,Q,Andy Murray,false,33.0,cluster_3,0.1,3
+68.0,46.0,David Ferrer,$3.668,David Ferrer,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,Kei Nishikori,false,56.0,cluster_1,0,0
+75.0,43.0,Andy Murray,$12.872,Andy Murray,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,Andreas Seppi,false,64.0,cluster_3,-0.23,1
+75.0,40.0,Marin Cilic,$1.518,Marin Cilic,Mar 18 2013,ATP World Tour Masters 1000 Miami,R16,Jo-Wilfried Tsonga,false,34.0,cluster_4,0,0
+64.0,48.0,Richard Gasquet,$4.328,Richard Gasquet,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,Mikhail Youzhny,false,64.0,cluster_2,-0.87,9
+71.0,50.0,Novak Djokovic,$31.619,Novak Djokovic,Mar 18 2013,Dubai,R16,Roberto Bautista Agut,false,34.0,cluster_3,0,0
+67.0,49.0,Tommy Haas,$2.270,Tommy Haas,Mar 18 2013,ATP World Tour Masters 1000 Miami,R32,Alexandr Dolgopolov,false,76.0,cluster_3,0.27,1
+67.0,49.0,Novak Djokovic,$35.456,Novak Djokovic,Mar 18 2013,ATP World Tour Masters 1000 Indian Wells,R64,Fabio Fognini,false,20.0,cluster_0,0,0
+48.0,35.0,Lleyton Hewitt,$1.544,Gilles Simon,Mar 18 2013,ATP World Tour Masters 1000 Miami,R64,Gilles Simon,false,5.0,cluster_2,0.24,1
+78.0,48.0,Tommy Haas,$2.628,Tommy Haas,Mar 18 2013,ATP World Tour Masters 1000 Miami,Q,Gilles Simon,false,8.0,cluster_0,-0.12,2
+53.0,27.0,John Isner,$1.456,Ernests Gulbis,Apr 5 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Ernests Gulbis,false,71.0,cluster_0,-0.05,1
+71.0,47.0,David Ferrer,$7.247,David Ferrer,Apr 5 2013,ATP World Tour Masters 1000 Miami,R32,Fabio Fognini,false,22.0,cluster_0,-0.07,4
+68,37,John Isner,$1.279,John Isner,Apr 8 2013,Houston,F,Nicolas Almagro,FALSE,32,cluster_1,-0.12,1
+54,32,Gael Monfils,$1.228,Nicolas Almagro,Apr 8 2013,Houston,R16,Nicolas Almagro,FALSE,39,cluster_4,0.11,1
+62.0,31.0,Nicolas Almagro,$4.247,John Isner,Apr 8 2013,Houston,F,John Isner,false,66.0,cluster_3,0,0
+67.0,31.0,Kevin Anderson,$2.226,Tommy Robredo,Apr 8 2013,Casablanca,F,Tommy Robredo,false,61.0,cluster_1,0,0
+55.0,42.0,Stan Wawrinka,$4.328,Tommy Robredo,Apr 8 2013,Casablanca,S,Tommy Robredo,false,62.0,cluster_0,-0.15,1
+57.0,44.0,Tommy Robredo,$1.272,Tommy Robredo,Apr 8 2013,Casablanca,S,Stan Wawrinka,false,75.0,cluster_1,0,0
+64,32,Jerzy Janowicz,$1.752,Kevin Anderson,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Kevin Anderson,FALSE,33,cluster_1,0,0
+68,32,Tommy Robredo,$1.761,Tommy Robredo,Apr 15 2013,Casablanca,F,Kevin Anderson,FALSE,34,cluster_1,0.21,2
+70,39,Richard Gasquet,$1.446,Richard Gasquet,Apr 15 2013,ATP World Tour Masters 1000 Miami,Q,Tomas Berdych,FALSE,81,cluster_4,0,0
+61,46,Richard Gasquet,$2.370,Richard Gasquet,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R16,Marin Cilic,FALSE,49,cluster_2,0,0
+51,27,Kevin Anderson,$1.369,Marin Cilic,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Marin Cilic,FALSE,50,cluster_3,-0.16,1
+53.0,46.0,Alexandr Dolgopolov,$1.205,Juan Martin Del Potro,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Juan Martin Del Potro,false,7.0,cluster_1,0.24,1
+60.0,36.0,Rafael Nadal,$17.229,Rafael Nadal,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,Q,Grigor Dimitrov,false,69.0,cluster_1,-0.22,3
+48.0,37.0,Rafael Nadal,$2.996,Novak Djokovic,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,F,Novak Djokovic,false,80.0,cluster_1,0,0
+45.0,20.0,Fabio Fognini,$1.168,Novak Djokovic,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,S,Novak Djokovic,false,81.0,cluster_3,0,0
+53.0,36.0,Mikhail Youzhny,$1.089,Novak Djokovic,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Novak Djokovic,false,84.0,cluster_1,0,0
+67.0,48.0,Fabio Fognini,$1.376,Fabio Fognini,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,Q,Richard Gasquet,false,59.0,cluster_1,0,0
+53.0,38.0,Marin Cilic,$1.680,Richard Gasquet,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R16,Richard Gasquet,false,60.0,cluster_2,0.16,3
+72.0,46.0,Ernests Gulbis,$3.026,Ernests Gulbis,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,John Isner,false,65.0,cluster_2,0.07,1
+67.0,45.0,Nicolas Almagro,$4.940,Nicolas Almagro,Apr 15 2013,Houston,R16,Gael Monfils,false,65.0,cluster_2,0,0
+52.0,46.0,Fabio Fognini,$1.711,Fabio Fognini,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Andreas Seppi,false,63.0,cluster_4,0,0
+68.0,44.0,Rafael Nadal,$7.895,Rafael Nadal,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,S,Jo-Wilfried Tsonga,false,29.0,cluster_0,0,0
+65.0,37.0,Stan Wawrinka,$2.125,Jo-Wilfried Tsonga,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,Q,Jo-Wilfried Tsonga,false,32.0,cluster_0,-0.13,2
+62.0,34.0,Jo-Wilfried Tsonga,$1.830,Jo-Wilfried Tsonga,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,Q,Stan Wawrinka,false,71.0,cluster_2,0.25,2
+44.0,25.0,Andy Murray,$3.085,Stan Wawrinka,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R16,Stan Wawrinka,false,72.0,cluster_4,0,0
+63.0,46.0,Novak Djokovic,$10.139,Novak Djokovic,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Mikhail Youzhny,false,62.0,cluster_2,0,0
+53.0,46.0,Juan Martin Del Potro,$5.335,Juan Martin Del Potro,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Alexandr Dolgopolov,false,80.0,cluster_3,0,0
+67.0,35.0,Kevin Anderson,$2.240,Kevin Anderson,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Jerzy Janowicz,false,76.0,cluster_1,0.18,1
+80.0,43.0,Rafael Nadal,$26.377,Rafael Nadal,Apr 15 2013,ATP World Tour Masters 1000 Monte Carlo,R16,Philipp Kohlschreiber,false,33.0,cluster_2,0,0
+64,44,Rafael Nadal,$8.289,Rafael Nadal,Apr 22 2013,Barcelona,F,Nicolas Almagro,FALSE,22,cluster_3,-0.38,7
+45,23,Philipp Kohlschreiber,$1.255,Nicolas Almagro,Apr 22 2013,Barcelona,S,Nicolas Almagro,FALSE,23,cluster_0,0,0
+67,48,Fabio Fognini,$1.276,Fabio Fognini,Apr 22 2013,ATP World Tour Masters 1000 Monte Carlo,R16,Tomas Berdych,FALSE,79,cluster_4,0,0
+68.0,48.0,Tommy Robredo,$1.611,Tommy Robredo,Apr 22 2013,Barcelona,R32,Grigor Dimitrov,false,68.0,cluster_3,0,0
+70.0,41.0,Milos Raonic,$2.638,Milos Raonic,Apr 22 2013,Barcelona,R16,Ernests Gulbis,false,67.0,cluster_2,0.15,2
+63.0,26.0,Fernando Verdasco,$1.400,Ernests Gulbis,Apr 22 2013,Barcelona,R32,Ernests Gulbis,false,68.0,cluster_3,0.29,3
+55.0,35.0,Nicolas Almagro,$1.116,Rafael Nadal,Apr 22 2013,Barcelona,F,Rafael Nadal,false,88.0,cluster_2,0,0
+47.0,30.0,Milos Raonic,$1.093,Rafael Nadal,Apr 22 2013,Barcelona,S,Rafael Nadal,false,89.0,cluster_4,0,0
+64.0,28.0,Tommy Robredo,$1.445,Milos Raonic,Apr 22 2013,Barcelona,Q,Milos Raonic,false,33.0,cluster_0,0.23,2
+58.0,29.0,Ernests Gulbis,$1.568,Milos Raonic,Apr 22 2013,Barcelona,R16,Milos Raonic,false,35.0,cluster_2,0,0
+71.0,35.0,Milos Raonic,$3.075,Milos Raonic,Apr 22 2013,Barcelona,Q,Tommy Robredo,false,57.0,cluster_4,0,0
+63.0,37.0,Tomas Berdych,$2.975,Tommy Robredo,Apr 22 2013,Barcelona,R16,Tommy Robredo,false,58.0,cluster_0,-0.06,1
+51.0,31.0,Grigor Dimitrov,$2.523,Tommy Robredo,Apr 22 2013,Barcelona,R32,Tommy Robredo,false,59.0,cluster_2,-0.06,2
+73.0,36.0,Ernests Gulbis,$2.850,Ernests Gulbis,Apr 22 2013,Barcelona,R32,Fernando Verdasco,false,59.0,cluster_3,1.03,6
+51.0,32.0,Tomas Berdych,$4.290,Fabio Fognini,Apr 22 2013,ATP World Tour Masters 1000 Monte Carlo,R16,Fabio Fognini,false,25.0,cluster_2,0,0
+80.0,55.0,Novak Djokovic,$6.217,Novak Djokovic,Apr 22 2013,ATP World Tour Masters 1000 Monte Carlo,S,Fabio Fognini,false,26.0,cluster_0,-0.4,3
+53.0,47.0,Andreas Seppi,$2.312,Fabio Fognini,Apr 22 2013,ATP World Tour Masters 1000 Monte Carlo,R64,Fabio Fognini,false,27.0,cluster_1,0,0
+51.0,32.0,Richard Gasquet,$3.447,Fabio Fognini,Apr 22 2013,ATP World Tour Masters 1000 Monte Carlo,Q,Fabio Fognini,false,32.0,cluster_2,0,0
+50.0,32.0,Andreas Seppi,$1.219,David Ferrer,Apr 29 2013,Oeiras,S,David Ferrer,false,82.0,cluster_0,0.08,1
+65.0,39.0,Tommy Haas,$1.820,Tommy Haas,Apr 29 2013,Munich,R16,Ernests Gulbis,false,65.0,cluster_1,0.16,9
+63.0,27.0,Philipp Kohlschreiber,$1.578,Tommy Haas,Apr 29 2013,Munich,F,Tommy Haas,false,67.0,cluster_4,0.27,1
+60.0,34.0,Ernests Gulbis,$2.139,Tommy Haas,Apr 29 2013,Munich,R16,Tommy Haas,false,70.0,cluster_4,0.39,8
+66.0,46.0,Andreas Seppi,$1.755,Andreas Seppi,Apr 29 2013,Oeiras,Q,Tommy Robredo,false,54.0,cluster_3,-0.18,3
+67.0,49.0,David Ferrer,$5.094,David Ferrer,Apr 29 2013,Oeiras,S,Andreas Seppi,false,59.0,cluster_3,0,0
+53.0,33.0,Tommy Robredo,$2.236,Andreas Seppi,Apr 29 2013,Oeiras,Q,Andreas Seppi,false,60.0,cluster_2,0,0
+58.0,14.0,David Ferrer,$2.980,Stan Wawrinka,Apr 29 2013,Oeiras,F,Stan Wawrinka,false,62.0,cluster_0,0.07,8
+72.0,36.0,Tommy Haas,$2.610,Tommy Haas,Apr 29 2013,Munich,F,Philipp Kohlschreiber,false,38.0,cluster_0,-0.13,1
+72,48,Marin Cilic,$3.487,Marin Cilic,May 5 2013,ATP World Tour Masters 1000 Monte Carlo,R32,Kevin Anderson,FALSE,32,cluster_4,0.04,1
+60,36,Kevin Anderson,$1.366,Tomas Berdych,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Tomas Berdych,FALSE,75,cluster_3,0.47,4
+64,38,Jerzy Janowicz,$1.351,Tomas Berdych,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Tomas Berdych,FALSE,76,cluster_4,0.12,2
+62,36,Tommy Robredo,$1.469,Tommy Robredo,May 5 2013,Barcelona,R16,Tomas Berdych,FALSE,77,cluster_4,0,0
+67,42,Gilles Simon,$2.394,Gilles Simon,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Jeremy Chardy,FALSE,26,cluster_0,0,0
+64.0,39.0,Stan Wawrinka,$2.842,Stan Wawrinka,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Grigor Dimitrov,false,65.0,cluster_1,0,0
+63.0,36.0,Novak Djokovic,$11.919,Grigor Dimitrov,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Grigor Dimitrov,false,66.0,cluster_1,-0.81,8
+63.0,36.0,Grigor Dimitrov,$1.072,Grigor Dimitrov,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Novak Djokovic,false,79.0,cluster_4,0.01,1
+62.0,29.0,Kei Nishikori,$1.265,Kei Nishikori,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Roger Federer,false,53.0,cluster_0,0,0
+55.0,52.0,Rafael Nadal,$7.855,Rafael Nadal,May 5 2013,ATP World Tour Masters 1000 Madrid,Q,David Ferrer,false,76.0,cluster_4,-0.01,1
+64.0,28.0,Tommy Haas,$1.404,David Ferrer,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,David Ferrer,false,77.0,cluster_2,0.37,4
+71.0,36.0,David Ferrer,$3.284,David Ferrer,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Tommy Haas,false,64.0,cluster_4,-0.73,5
+52.0,37.0,Tommy Robredo,$1.602,Tommy Haas,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Tommy Haas,false,65.0,cluster_2,0,0
+50.0,25.0,Andreas Seppi,$1.594,Tommy Haas,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,Tommy Haas,false,66.0,cluster_3,0.11,1
+60.0,36.0,Gilles Simon,$1.212,Andy Murray,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Andy Murray,false,17.0,cluster_0,1.34,5
+59.0,15.0,Stan Wawrinka,$1.158,Rafael Nadal,May 5 2013,ATP World Tour Masters 1000 Madrid,F,Rafael Nadal,false,82.0,cluster_0,0,0
+47.0,44.0,David Ferrer,$1.124,Rafael Nadal,May 5 2013,ATP World Tour Masters 1000 Madrid,Q,Rafael Nadal,false,84.0,cluster_1,0.26,1
+50.0,29.0,Mikhail Youzhny,$1.021,Rafael Nadal,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Rafael Nadal,false,86.0,cluster_4,0,0
+70.0,37.0,Roger Federer,$4.415,Kei Nishikori,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Kei Nishikori,false,46.0,cluster_0,-0.14,1
+65.0,34.0,Fernando Verdasco,$1.388,Fernando Verdasco,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Milos Raonic,false,30.0,cluster_0,0.31,3
+62.0,47.0,Tommy Haas,$2.547,Tommy Haas,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Tommy Robredo,false,52.0,cluster_3,-1.54,15
+75.0,50.0,Tommy Haas,$2.566,Tommy Haas,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,Andreas Seppi,false,58.0,cluster_3,0.14,1
+64.0,43.0,Stan Wawrinka,$2.428,Stan Wawrinka,May 5 2013,ATP World Tour Masters 1000 Madrid,Q,Jo-Wilfried Tsonga,false,26.0,cluster_0,-0.51,6
+63.0,31.0,Fernando Verdasco,$1.389,Jo-Wilfried Tsonga,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Jo-Wilfried Tsonga,false,27.0,cluster_1,0,0
+68.0,36.0,Jo-Wilfried Tsonga,$3.364,Jo-Wilfried Tsonga,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Fernando Verdasco,false,56.0,cluster_3,0.13,1
+65.0,34.0,Milos Raonic,$3.375,Fernando Verdasco,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Fernando Verdasco,false,57.0,cluster_3,0,0
+68.0,36.0,Tomas Berdych,$1.995,Stan Wawrinka,May 5 2013,ATP World Tour Masters 1000 Madrid,S,Stan Wawrinka,false,50.0,cluster_3,0,0
+56.0,35.0,Jo-Wilfried Tsonga,$1.653,Stan Wawrinka,May 5 2013,ATP World Tour Masters 1000 Madrid,Q,Stan Wawrinka,false,52.0,cluster_2,0.56,8
+60.0,35.0,Grigor Dimitrov,$1.503,Stan Wawrinka,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Stan Wawrinka,false,53.0,cluster_2,-0.04,1
+70.0,50.0,Rafael Nadal,$26.377,Rafael Nadal,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Mikhail Youzhny,false,57.0,cluster_2,-0.09,1
+65.0,40.0,Nicolas Almagro,$4.779,Mikhail Youzhny,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Mikhail Youzhny,false,58.0,cluster_0,0,0
+63.0,37.0,Fabio Fognini,$2.465,Mikhail Youzhny,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,Mikhail Youzhny,false,59.0,cluster_0,0,0
+62.0,36.0,Mikhail Youzhny,$1.636,Mikhail Youzhny,May 5 2013,ATP World Tour Masters 1000 Madrid,R64,Fabio Fognini,false,37.0,cluster_4,0.0,1
+61.0,35.0,Tomas Berdych,$3.611,Tomas Berdych,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Jerzy Janowicz,false,78.0,cluster_1,-0.12,3
+63.0,40.0,Andy Murray,$5.209,Andy Murray,May 5 2013,ATP World Tour Masters 1000 Madrid,R16,Gilles Simon,false,83.0,cluster_3,-0.85,4
+57.0,32.0,Jeremy Chardy,$1.669,Gilles Simon,May 5 2013,ATP World Tour Masters 1000 Madrid,R32,Gilles Simon,false,85.0,cluster_2,-0.27,3
+59,34,Mikhail Youzhny,$1.238,Mikhail Youzhny,May 12 2013,ATP World Tour Masters 1000 Madrid,R32,Nicolas Almagro,FALSE,17,cluster_4,0.04,3
+63,29,Marin Cilic,$2.757,Kevin Anderson,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Kevin Anderson,FALSE,23,cluster_1,-0.62,8
+63,39,Tomas Berdych,$3.510,Tomas Berdych,May 12 2013,ATP World Tour Masters 1000 Madrid,R16,Kevin Anderson,FALSE,26,cluster_0,-0.26,18
+51,25,Kei Nishikori,$3.003,Jeremy Chardy,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Jeremy Chardy,FALSE,24,cluster_4,0,0
+60,28,Feliciano Lopez,$1.632,Jeremy Chardy,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Jeremy Chardy,FALSE,25,cluster_4,-0.75,12
+70,36,Kevin Anderson,$1.528,Kevin Anderson,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Marin Cilic,FALSE,45,cluster_0,0.75,8
+76.0,41.0,Richard Gasquet,$2.086,Richard Gasquet,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Grigor Dimitrov,false,63.0,cluster_3,0,0
+63.0,35.0,Tomas Berdych,$1.188,Tomas Berdych,May 12 2013,ATP World Tour Masters 1000 Rome,Q,Novak Djokovic,false,76.0,cluster_4,0.02,2
+57.0,27.0,Alexandr Dolgopolov,$1.079,Novak Djokovic,May 12 2013,ATP World Tour Masters 1000 Rome,R16,Novak Djokovic,false,77.0,cluster_2,0,0
+61.0,27.0,Jerzy Janowicz,$1.180,Roger Federer,May 12 2013,ATP World Tour Masters 1000 Rome,Q,Roger Federer,false,48.0,cluster_0,0,0
+45.0,22.0,Gilles Simon,$1.209,Roger Federer,May 12 2013,ATP World Tour Masters 1000 Rome,R16,Roger Federer,false,51.0,cluster_3,0,0
+56.0,45.0,Rafael Nadal,$6.520,Rafael Nadal,May 12 2013,ATP World Tour Masters 1000 Rome,Q,David Ferrer,false,72.0,cluster_4,-0.04,4
+62.0,37.0,Fernando Verdasco,$1.192,David Ferrer,May 12 2013,ATP World Tour Masters 1000 Rome,R32,David Ferrer,false,75.0,cluster_1,0.34,3
+68.0,36.0,Jerzy Janowicz,$1.401,Jerzy Janowicz,May 12 2013,ATP World Tour Masters 1000 Rome,R16,Richard Gasquet,false,55.0,cluster_3,1.01,8
+58.0,23.0,Grigor Dimitrov,$1.860,Richard Gasquet,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Richard Gasquet,false,56.0,cluster_4,-0.02,2
+58.0,40.0,Rafael Nadal,$11.748,Rafael Nadal,May 12 2013,ATP World Tour Masters 1000 Rome,R16,Ernests Gulbis,false,62.0,cluster_1,-0.25,7
+67.0,46.0,Mikhail Youzhny,$1.444,Mikhail Youzhny,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Tommy Haas,false,63.0,cluster_1,0.36,2
+45.0,28.0,Roger Federer,$1.224,Rafael Nadal,May 12 2013,ATP World Tour Masters 1000 Rome,F,Rafael Nadal,false,75.0,cluster_4,0.35,2
+58.0,17.0,Tomas Berdych,$1.185,Rafael Nadal,May 12 2013,ATP World Tour Masters 1000 Rome,S,Rafael Nadal,false,76.0,cluster_0,0.23,1
+55.0,43.0,David Ferrer,$1.158,Rafael Nadal,May 12 2013,ATP World Tour Masters 1000 Rome,Q,Rafael Nadal,false,77.0,cluster_1,0.85,4
+59.0,41.0,Ernests Gulbis,$1.073,Rafael Nadal,May 12 2013,ATP World Tour Masters 1000 Rome,R16,Rafael Nadal,false,78.0,cluster_3,0.1,1
+43.0,25.0,Fabio Fognini,$1.042,Rafael Nadal,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Rafael Nadal,false,81.0,cluster_4,0,0
+74.0,48.0,Jeremy Chardy,$1.462,Jeremy Chardy,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Kei Nishikori,false,41.0,cluster_1,0.13,1
+78.0,33.0,Philipp Kohlschreiber,$1.535,Philipp Kohlschreiber,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Milos Raonic,false,28.0,cluster_3,0.15,2
+66.0,55.0,Fabio Fognini,$2.077,Fabio Fognini,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Andreas Seppi,false,57.0,cluster_3,0.91,9
+74.0,28.0,Jerzy Janowicz,$1.349,Jerzy Janowicz,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Jo-Wilfried Tsonga,false,22.0,cluster_1,-0.15,1
+62.0,38.0,David Ferrer,$5.624,David Ferrer,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Fernando Verdasco,false,54.0,cluster_0,-0.18,1
+55.0,50.0,Gilles Simon,$1.813,Gilles Simon,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Mikhail Youzhny,false,55.0,cluster_4,-0.08,1
+53.0,32.0,Tommy Haas,$3.084,Mikhail Youzhny,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Mikhail Youzhny,false,56.0,cluster_1,0.34,9
+72.0,42.0,Novak Djokovic,$11.071,Novak Djokovic,May 12 2013,ATP World Tour Masters 1000 Rome,R16,Alexandr Dolgopolov,false,87.0,cluster_2,-0.25,1
+74.0,56.0,Rafael Nadal,$26.725,Rafael Nadal,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Fabio Fognini,false,33.0,cluster_0,-0.51,2
+44.0,33.0,Andreas Seppi,$1.868,Fabio Fognini,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Fabio Fognini,false,36.0,cluster_3,0.02,2
+63.0,31.0,Richard Gasquet,$3.297,Jerzy Janowicz,May 12 2013,ATP World Tour Masters 1000 Rome,R16,Jerzy Janowicz,false,21.0,cluster_1,-0.87,6
+72.0,38.0,Roger Federer,$5.894,Roger Federer,May 12 2013,ATP World Tour Masters 1000 Rome,Q,Jerzy Janowicz,false,22.0,cluster_3,-0.12,1
+66.0,21.0,Milos Raonic,$2.737,Philipp Kohlschreiber,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Philipp Kohlschreiber,false,36.0,cluster_3,-0.87,6
+71.0,39.0,Jeremy Chardy,$2.474,Jeremy Chardy,May 12 2013,ATP World Tour Masters 1000 Rome,R64,Feliciano Lopez,false,83.0,cluster_3,0.83,10
+49.0,44.0,Mikhail Youzhny,$2.148,Gilles Simon,May 12 2013,ATP World Tour Masters 1000 Rome,R32,Gilles Simon,false,84.0,cluster_1,-0.38,3
+77.0,54.0,Roger Federer,$5.262,Roger Federer,May 12 2013,ATP World Tour Masters 1000 Rome,R16,Gilles Simon,false,86.0,cluster_0,0,0
+64,36,Novak Djokovic,$5.701,Tomas Berdych,May 19 2013,ATP World Tour Masters 1000 Rome,Q,Tomas Berdych,FALSE,70,cluster_4,-0.05,1
+58,30,Kevin Anderson,$1.325,Tomas Berdych,May 19 2013,ATP World Tour Masters 1000 Rome,R16,Tomas Berdych,FALSE,71,cluster_1,0.15,7
+63,31,Stan Wawrinka,$1.939,Stan Wawrinka,May 19 2013,ATP World Tour Masters 1000 Madrid,S,Tomas Berdych,FALSE,73,cluster_1,0,0
+58,37,Andy Murray,$2.058,Tomas Berdych,May 19 2013,ATP World Tour Masters 1000 Madrid,Q,Tomas Berdych,FALSE,74,cluster_3,-0.05,2
+55.0,30.0,Fabio Fognini,$2.260,Gael Monfils,May 19 2013,Nice,R16,Gael Monfils,false,53.0,cluster_3,0,0
+69.0,44.0,Gael Monfils,$1.741,Gael Monfils,May 19 2013,Nice,R16,Fabio Fognini,false,40.0,cluster_0,0,0
+62.0,41.0,Tomas Berdych,$1.883,Tomas Berdych,May 21 2013,ATP World Tour Masters 1000 Madrid,Q,Andy Murray,false,16.0,cluster_0,0.03,4
+62,39,Tommy Robredo,$1.221,Tommy Robredo,May 27 2013,French Open Slam,Round of 16,Nicolas Almagro,FALSE,10,cluster_3,1.05,12
+54,26,Andreas Seppi,$1.219,Nicolas Almagro,May 27 2013,French Open Slam,Round of 32,Nicolas Almagro,FALSE,11,cluster_0,0.1,5
+79,39,Jo-Wilfried Tsonga,$4.290,Jo-Wilfried Tsonga,May 27 2013,French Open Slam,Round of 32,Jeremy Chardy,FALSE,16,cluster_1,0.33,11
+60,31,Roberto Bautista Agut,$1.399,Jeremy Chardy,May 27 2013,French Open Slam,Round of 64,Jeremy Chardy,FALSE,18,cluster_4,-0.09,1
+73.0,50.0,Novak Djokovic,$9.817,Novak Djokovic,May 27 2013,French Open Slam,Round of 32,Grigor Dimitrov,false,60.0,cluster_3,-1.0,13
+68.0,39.0,Rafael Nadal,$2.582,Rafael Nadal,May 27 2013,French Open Slam,Semi Final,Novak Djokovic,false,64.0,cluster_4,0.5,4
+57.0,19.0,Tommy Haas,$1.110,Novak Djokovic,May 27 2013,French Open Slam,Quarter Final,Novak Djokovic,false,65.0,cluster_0,0.11,1
+66.0,33.0,Philipp Kohlschreiber,$1.052,Novak Djokovic,May 27 2013,French Open Slam,Round of 16,Novak Djokovic,false,68.0,cluster_4,0,0
+50.0,27.0,Grigor Dimitrov,$1.093,Novak Djokovic,May 27 2013,French Open Slam,Round of 32,Novak Djokovic,false,69.0,cluster_2,0.29,7
+58.0,32.0,Gilles Simon,$1.055,Roger Federer,May 27 2013,French Open Slam,Round of 16,Roger Federer,false,36.0,cluster_1,2.03,7
+52.0,34.0,Jo-Wilfried Tsonga,$1.682,David Ferrer,May 27 2013,French Open Slam,Semi Final,David Ferrer,false,62.0,cluster_3,0.35,4
+46.0,24.0,Tommy Robredo,$1.085,David Ferrer,May 27 2013,French Open Slam,Quarter Final,David Ferrer,false,67.0,cluster_0,0.49,5
+48.0,27.0,Kevin Anderson,$1.170,David Ferrer,May 27 2013,French Open Slam,Round of 16,David Ferrer,false,68.0,cluster_0,0,0
+49.0,33.0,Feliciano Lopez,$1.055,David Ferrer,May 27 2013,French Open Slam,Round of 32,David Ferrer,false,69.0,cluster_0,0.79,6
+70.0,36.0,Stan Wawrinka,$2.125,Stan Wawrinka,May 27 2013,French Open Slam,Round of 16,Richard Gasquet,false,51.0,cluster_3,0,0
+64.0,35.0,Gael Monfils,$1.735,Gael Monfils,May 27 2013,French Open Slam,Round of 64,Ernests Gulbis,false,60.0,cluster_4,0,0
+43.0,37.0,Mikhail Youzhny,$1.823,Tommy Haas,May 27 2013,French Open Slam,Round of 16,Tommy Haas,false,58.0,cluster_3,-0.57,9
+68.0,27.0,John Isner,$1.373,Tommy Haas,May 27 2013,French Open Slam,Round of 32,Tommy Haas,false,59.0,cluster_4,0.27,7
+57.0,50.0,Gilles Simon,$6.612,Gilles Simon,May 27 2013,French Open Slam,Round of 128,Lleyton Hewitt,false,44.0,cluster_4,-1.11,9
+73.0,32.0,Tommy Haas,$3.467,Tommy Haas,May 27 2013,French Open Slam,Round of 32,John Isner,false,58.0,cluster_1,-0.67,9
+66.0,40.0,Tommy Robredo,$1.513,Tommy Robredo,May 27 2013,French Open Slam,Round of 32,Gael Monfils,false,47.0,cluster_4,0.11,3
+65.0,36.0,Ernests Gulbis,$2.269,Gael Monfils,May 27 2013,French Open Slam,Round of 64,Gael Monfils,false,48.0,cluster_4,-0.12,1
+68.0,28.0,Tomas Berdych,$4.580,Gael Monfils,May 27 2013,French Open Slam,Round of 128,Gael Monfils,false,49.0,cluster_3,-0.11,1
+46.0,38.0,David Ferrer,$1.114,Rafael Nadal,May 27 2013,French Open Slam,Final,Rafael Nadal,false,64.0,cluster_1,0.74,6
+61.0,33.0,Novak Djokovic,$1.588,Rafael Nadal,May 27 2013,French Open Slam,Semi Final,Rafael Nadal,false,65.0,cluster_2,0,0
+48.0,30.0,Stan Wawrinka,$1.065,Rafael Nadal,May 27 2013,French Open Slam,Quarter Final,Rafael Nadal,false,66.0,cluster_4,2.07,10
+54.0,29.0,Kei Nishikori,$1.041,Rafael Nadal,May 27 2013,French Open Slam,Round of 16,Rafael Nadal,false,69.0,cluster_2,0.32,1
+57.0,37.0,Fabio Fognini,$1.015,Rafael Nadal,May 27 2013,French Open Slam,Round of 32,Rafael Nadal,false,70.0,cluster_2,1.68,7
+71.0,46.0,Rafael Nadal,$17.789,Rafael Nadal,May 27 2013,French Open Slam,Round of 16,Kei Nishikori,false,30.0,cluster_1,-0.23,1
+75.0,40.0,Kevin Anderson,$1.698,Kevin Anderson,May 27 2013,French Open Slam,Round of 32,Milos Raonic,false,23.0,cluster_3,0.03,1
+61.0,38.0,Nicolas Almagro,$5.047,Tommy Robredo,May 27 2013,French Open Slam,Round of 16,Tommy Robredo,false,48.0,cluster_0,-1.03,11
+60.0,34.0,Gael Monfils,$2.809,Tommy Robredo,May 27 2013,French Open Slam,Round of 32,Tommy Robredo,false,49.0,cluster_0,0.02,1
+74.0,46.0,Nicolas Almagro,$5.085,Nicolas Almagro,May 27 2013,French Open Slam,Round of 32,Andreas Seppi,false,53.0,cluster_3,-0.04,1
+66.0,48.0,David Ferrer,$2.367,David Ferrer,May 27 2013,French Open Slam,Semi Final,Jo-Wilfried Tsonga,false,9.0,cluster_0,-0.58,7
+53.0,26.0,Roger Federer,$2.480,Jo-Wilfried Tsonga,May 27 2013,French Open Slam,Quarter Final,Jo-Wilfried Tsonga,false,11.0,cluster_2,-0.42,10
+61.0,21.0,Jeremy Chardy,$1.276,Jo-Wilfried Tsonga,May 27 2013,French Open Slam,Round of 32,Jo-Wilfried Tsonga,false,16.0,cluster_2,-0.17,2
+70.0,52.0,Rafael Nadal,$12.872,Rafael Nadal,May 27 2013,French Open Slam,Quarter Final,Stan Wawrinka,false,40.0,cluster_3,0.31,1
+64.0,30.0,Richard Gasquet,$1.830,Stan Wawrinka,May 27 2013,French Open Slam,Round of 16,Stan Wawrinka,false,41.0,cluster_2,0,0
+61.0,29.0,Jerzy Janowicz,$1.396,Stan Wawrinka,May 27 2013,French Open Slam,Round of 32,Stan Wawrinka,false,44.0,cluster_2,0,0
+63.0,57.0,Tommy Haas,$2.135,Tommy Haas,May 27 2013,French Open Slam,Round of 16,Mikhail Youzhny,false,51.0,cluster_2,2.02,20
+63.0,43.0,Rafael Nadal,$31.008,Rafael Nadal,May 27 2013,French Open Slam,Round of 32,Fabio Fognini,false,84.0,cluster_4,-1.12,5
+71.0,39.0,Stan Wawrinka,$3.326,Stan Wawrinka,May 27 2013,French Open Slam,Round of 32,Jerzy Janowicz,false,50.0,cluster_3,-0.22,2
+67.0,34.0,Novak Djokovic,$15.130,Novak Djokovic,May 27 2013,French Open Slam,Round of 16,Philipp Kohlschreiber,false,70.0,cluster_0,-0.23,1
+67.0,51.0,David Ferrer,$14.400,David Ferrer,May 27 2013,French Open Slam,Round of 32,Feliciano Lopez,false,18.0,cluster_4,0,0
+50.0,43.0,Lleyton Hewitt,$1.155,Gilles Simon,May 27 2013,French Open Slam,Round of 128,Gilles Simon,false,3.0,cluster_1,1.38,7
+73,52,David Ferrer,$6.153,David Ferrer,Jun 10 2013,French Open Slam,Round of 16,Kevin Anderson,FALSE,12,cluster_4,0.54,6
+60,25,Milos Raonic,$2.337,Kevin Anderson,Jun 10 2013,French Open Slam,Round of 32,Kevin Anderson,FALSE,16,cluster_2,-0.41,7
+69,41,Tomas Berdych,$3.814,Tomas Berdych,Jun 10 2013,ATP World Tour Masters 1000 Rome,R16,Kevin Anderson,FALSE,20,cluster_4,-0.48,21
+72,32,Gael Monfils,$1.252,Gael Monfils,Jun 10 2013,French Open Slam,Round of 128,Tomas Berdych,FALSE,69,cluster_1,0.22,4
+70,36,Andy Murray,$4.996,Andy Murray,Jun 10 2013,London / Queen's Club,F,Marin Cilic,FALSE,37,cluster_0,-0.91,9
+55,36,Lleyton Hewitt,$1.713,Marin Cilic,Jun 10 2013,London / Queen's Club,S,Marin Cilic,FALSE,38,cluster_1,0,0
+70,29,Tomas Berdych,$3.326,Marin Cilic,Jun 10 2013,London / Queen's Club,Q,Marin Cilic,FALSE,39,cluster_0,0.16,2
+67,33,Feliciano Lopez,$1.420,Marin Cilic,Jun 10 2013,London / Queen's Club,R16,Marin Cilic,FALSE,40,cluster_0,0.58,5
+62.0,40.0,Lleyton Hewitt,$1.431,Lleyton Hewitt,Jun 10 2013,London / Queen's Club,Q,Juan Martin Del Potro,false,1.0,cluster_1,-0.02,1
+73.0,41.0,Lleyton Hewitt,$1.484,Lleyton Hewitt,Jun 10 2013,London / Queen's Club,R32,Grigor Dimitrov,false,58.0,cluster_3,-0.02,1
+65.0,24.0,Mikhail Youzhny,$1.153,Roger Federer,Jun 10 2013,Halle,F,Roger Federer,false,28.0,cluster_0,0.03,1
+63.0,28.0,Tommy Haas,$1.367,Roger Federer,Jun 10 2013,Halle,S,Roger Federer,false,31.0,cluster_0,0.14,2
+74.0,39.0,Mikhail Youzhny,$1.559,Mikhail Youzhny,Jun 10 2013,Halle,S,Richard Gasquet,false,48.0,cluster_3,2.81,21
+79.0,36.0,Tommy Haas,$2.860,Tommy Haas,Jun 10 2013,Halle,R16,Ernests Gulbis,false,58.0,cluster_2,0.3,14
+71.0,36.0,Roger Federer,$3.501,Roger Federer,Jun 10 2013,Halle,S,Tommy Haas,false,55.0,cluster_4,-0.13,2
+66.0,24.0,Gael Monfils,$1.426,Tommy Haas,Jun 10 2013,Halle,Q,Tommy Haas,false,56.0,cluster_0,0.78,10
+63.0,20.0,Ernests Gulbis,$1.498,Tommy Haas,Jun 10 2013,Halle,R16,Tommy Haas,false,57.0,cluster_0,0.46,9
+63.0,44.0,Marin Cilic,$2.308,Marin Cilic,Jun 10 2013,London / Queen's Club,S,Lleyton Hewitt,false,39.0,cluster_2,0.05,1
+59.0,37.0,Juan Martin Del Potro,$3.141,Lleyton Hewitt,Jun 10 2013,London / Queen's Club,Q,Lleyton Hewitt,false,40.0,cluster_1,-0.05,3
+58.0,26.0,Grigor Dimitrov,$2.912,Lleyton Hewitt,Jun 10 2013,London / Queen's Club,R32,Lleyton Hewitt,false,42.0,cluster_1,-0.01,4
+59.0,26.0,Milos Raonic,$2.730,Gael Monfils,Jun 10 2013,Halle,R32,Gael Monfils,false,46.0,cluster_3,-0.07,2
+63.0,29.0,Marin Cilic,$1.224,Andy Murray,Jun 10 2013,London / Queen's Club,F,Andy Murray,false,4.0,cluster_2,0.49,7
+61.0,30.0,Jo-Wilfried Tsonga,$1.445,Andy Murray,Jun 10 2013,London / Queen's Club,S,Andy Murray,false,5.0,cluster_2,0.4,2
+66.0,35.0,Mikhail Youzhny,$1.691,Mikhail Youzhny,Jun 10 2013,Halle,R16,Kei Nishikori,false,29.0,cluster_0,0.42,2
+74.0,40.0,Gael Monfils,$1.510,Gael Monfils,Jun 10 2013,Halle,R32,Milos Raonic,false,22.0,cluster_3,-0.12,2
+69.0,38.0,Andy Murray,$3.075,Andy Murray,Jun 10 2013,London / Queen's Club,S,Jo-Wilfried Tsonga,false,4.0,cluster_0,-0.12,1
+75.0,34.0,Roger Federer,$6.678,Roger Federer,Jun 10 2013,Halle,F,Mikhail Youzhny,false,47.0,cluster_0,0,0
+60.0,25.0,Richard Gasquet,$2.662,Mikhail Youzhny,Jun 10 2013,Halle,S,Mikhail Youzhny,false,48.0,cluster_3,-1.77,17
+62.0,33.0,Philipp Kohlschreiber,$3.131,Mikhail Youzhny,Jun 10 2013,Halle,Q,Mikhail Youzhny,false,49.0,cluster_0,-0.13,2
+65.0,33.0,Kei Nishikori,$2.350,Mikhail Youzhny,Jun 10 2013,Halle,R16,Mikhail Youzhny,false,50.0,cluster_0,0.0,1
+66.0,37.0,Mikhail Youzhny,$1.433,Mikhail Youzhny,Jun 10 2013,Halle,Q,Philipp Kohlschreiber,false,42.0,cluster_0,-0.21,2
+66.0,32.0,Marin Cilic,$2.810,Marin Cilic,Jun 10 2013,London / Queen's Club,R16,Feliciano Lopez,false,85.0,cluster_0,-0.15,3
+74,32,Stan Wawrinka,$3.106,Stan Wawrinka,Jun 16 2013,s-Hertogenbosch,Q,Jeremy Chardy,FALSE,10,cluster_1,-0.7,10
+67.0,25.0,Jeremy Chardy,$1.439,Stan Wawrinka,Jun 16 2013,s-Hertogenbosch,Q,Stan Wawrinka,false,32.0,cluster_0,0.1,1
+69.0,40.0,Jeremy Chardy,$3.309,Jeremy Chardy,Jun 16 2013,French Open Slam,Round of 64,Roberto Bautista Agut,false,58.0,cluster_0,0,0
+55.0,50.0,Gilles Simon,$2.317,Gilles Simon,Jun 17 2013,Eastbourne,S,Andreas Seppi,false,49.0,cluster_4,0,0
+78.0,29.0,Feliciano Lopez,$2.279,Feliciano Lopez,Jun 17 2013,Eastbourne,Q,Fernando Verdasco,false,49.0,cluster_3,0.09,2
+60.0,27.0,Alexandr Dolgopolov,$5.849,Fernando Verdasco,Jun 17 2013,Eastbourne,R32,Fernando Verdasco,false,51.0,cluster_2,0,0
+72.0,40.0,Fernando Verdasco,$1.182,Fernando Verdasco,Jun 17 2013,Eastbourne,R32,Alexandr Dolgopolov,false,4.0,cluster_2,0.09,3
+58.0,31.0,Gilles Simon,$1.724,Feliciano Lopez,Jun 17 2013,Eastbourne,F,Feliciano Lopez,false,87.0,cluster_2,0.15,1
+70.0,21.0,Fernando Verdasco,$1.729,Feliciano Lopez,Jun 17 2013,Eastbourne,Q,Feliciano Lopez,false,89.0,cluster_1,0.15,1
+68.0,42.0,Roger Federer,$14.400,Roger Federer,Jun 17 2013,French Open Slam,Round of 16,Gilles Simon,false,65.0,cluster_3,-1.57,8
+64,35,Kevin Anderson,$1.208,Tomas Berdych,Jun 24 2013,Wimbledon Slam,Round of 32,Tomas Berdych,FALSE,63,cluster_4,1.36,18
+70,29,Marin Cilic,$1.396,Marin Cilic,Jun 24 2013,London / Queen's Club,Q,Tomas Berdych,FALSE,66,cluster_1,0.19,6
+69.0,35.0,Novak Djokovic,$6.625,Novak Djokovic,Jun 24 2013,Wimbledon Slam,Semi Final,Juan Martin del Potro,false,80.0,cluster_4,-0.63,19
+60.0,24.0,David Ferrer,$2.135,Juan Martin del Potro,Jun 24 2013,Wimbledon Slam,Quarter Final,Juan Martin del Potro,false,81.0,cluster_3,0.04,1
+61.0,28.0,Andreas Seppi,$1.283,Juan Martin del Potro,Jun 24 2013,Wimbledon Slam,Round of 16,Juan Martin del Potro,false,82.0,cluster_3,0.3,1
+65.0,31.0,Juan Martin del Potro,$1.155,Novak Djokovic,Jun 24 2013,Wimbledon Slam,Semi Final,Novak Djokovic,false,53.0,cluster_4,0.27,4
+61.0,29.0,Tomas Berdych,$1.121,Novak Djokovic,Jun 24 2013,Wimbledon Slam,Quarter Final,Novak Djokovic,false,54.0,cluster_2,0.25,7
+53.0,31.0,Tommy Haas,$1.141,Novak Djokovic,Jun 24 2013,Wimbledon Slam,Round of 16,Novak Djokovic,false,57.0,cluster_2,1.74,7
+53.0,10.0,Jeremy Chardy,$1.033,Novak Djokovic,Jun 24 2013,Wimbledon Slam,Round of 32,Novak Djokovic,false,58.0,cluster_0,0,0
+76.0,40.0,Juan Martin del Potro,$1.823,Juan Martin del Potro,Jun 24 2013,Wimbledon Slam,Quarter Final,David Ferrer,false,50.0,cluster_1,0,0
+58.0,32.0,Alexandr Dolgopolov,$1.484,David Ferrer,Jun 24 2013,Wimbledon Slam,Round of 32,David Ferrer,false,52.0,cluster_3,0,0
+61.0,34.0,Roberto Bautista Agut,$1.131,David Ferrer,Jun 24 2013,Wimbledon Slam,Round of 64,David Ferrer,false,53.0,cluster_3,0,0
+77.0,40.0,Fernando Verdasco,$1.644,Fernando Verdasco,Jun 24 2013,Wimbledon Slam,Round of 32,Ernests Gulbis,false,55.0,cluster_2,0.34,8
+63.0,33.0,Jo-Wilfried Tsonga,$4.533,Ernests Gulbis,Jun 24 2013,Wimbledon Slam,Round of 64,Ernests Gulbis,false,56.0,cluster_4,0.04,7
+69.0,47.0,Novak Djokovic,$7.120,Novak Djokovic,Jun 24 2013,Wimbledon Slam,Round of 16,Tommy Haas,false,51.0,cluster_1,2.1,9
+62.0,27.0,Feliciano Lopez,$1.515,Tommy Haas,Jun 24 2013,Wimbledon Slam,Round of 32,Tommy Haas,false,52.0,cluster_4,0.43,4
+58.0,36.0,Stan Wawrinka,$2.380,Lleyton Hewitt,Jun 24 2013,Wimbledon Slam,Round of 128,Lleyton Hewitt,false,38.0,cluster_1,-1.02,11
+59.0,25.0,Tommy Robredo,$1.047,Andy Murray,Jun 24 2013,Wimbledon Slam,Round of 32,Andy Murray,false,1.0,cluster_2,0.49,3
+52.0,39.0,Novak Djokovic,$2.495,Andy Murray,Jun 24 2013,Wimbledon Slam,Final,Andy Murray,false,78.0,cluster_1,-0.41,8
+62.0,26.0,Jerzy Janowicz,$1.216,Andy Murray,Jun 24 2013,Wimbledon Slam,Semi Final,Andy Murray,false,79.0,cluster_2,0.29,10
+62.0,30.0,Fernando Verdasco,$1.093,Andy Murray,Jun 24 2013,Wimbledon Slam,Quarter Final,Andy Murray,false,84.0,cluster_2,0.65,4
+56.0,34.0,Mikhail Youzhny,$1.077,Andy Murray,Jun 24 2013,Wimbledon Slam,Round of 16,Andy Murray,false,85.0,cluster_1,0.73,5
+64.0,40.0,Andreas Seppi,$1.373,Andreas Seppi,Jun 24 2013,Wimbledon Slam,Round of 32,Kei Nishikori,false,21.0,cluster_4,0.41,3
+72.0,39.0,Juan Martin del Potro,$4.205,Juan Martin del Potro,Jun 24 2013,Wimbledon Slam,Round of 16,Andreas Seppi,false,45.0,cluster_0,0,0
+60.0,36.0,Kei Nishikori,$3.467,Andreas Seppi,Jun 24 2013,Wimbledon Slam,Round of 32,Andreas Seppi,false,46.0,cluster_2,-0.19,2
+67.0,37.0,Ernests Gulbis,$1.256,Ernests Gulbis,Jun 24 2013,Wimbledon Slam,Round of 64,Jo-Wilfried Tsonga,false,2.0,cluster_0,0.05,1
+70.0,38.0,Andy Murray,$9.817,Andy Murray,Jun 24 2013,Wimbledon Slam,Quarter Final,Fernando Verdasco,false,44.0,cluster_3,0,0
+60.0,23.0,Ernests Gulbis,$2.447,Fernando Verdasco,Jun 24 2013,Wimbledon Slam,Round of 32,Fernando Verdasco,false,46.0,cluster_2,0.15,20
+64.0,42.0,Lleyton Hewitt,$1.676,Lleyton Hewitt,Jun 24 2013,Wimbledon Slam,Round of 128,Stan Wawrinka,false,28.0,cluster_1,1.2,6
+68.0,42.0,David Ferrer,$2.915,David Ferrer,Jun 24 2013,Wimbledon Slam,Round of 32,Alexandr Dolgopolov,false,1.0,cluster_2,-1.09,12
+62.0,22.0,Nicolas Almagro,$1.799,Jerzy Janowicz,Jun 24 2013,Wimbledon Slam,Round of 32,Jerzy Janowicz,false,2.0,cluster_0,-0.02,4
+74.0,38.0,Andy Murray,$5.145,Andy Murray,Jun 24 2013,Wimbledon Slam,Semi Final,Jerzy Janowicz,false,53.0,cluster_3,1.31,14
+73.0,38.0,Tommy Haas,$2.801,Tommy Haas,Jun 24 2013,Wimbledon Slam,Round of 32,Feliciano Lopez,false,1.0,cluster_3,0.24,2
+64.0,15.0,Gilles Simon,$1.685,Feliciano Lopez,Jun 24 2013,Wimbledon Slam,Round of 128,Feliciano Lopez,false,15.0,cluster_1,0.93,8
+49.0,44.0,Andreas Seppi,$1.708,Gilles Simon,Jun 24 2013,Eastbourne,S,Gilles Simon,false,22.0,cluster_1,-0.31,4
+78,38,Jerzy Janowicz,$2.169,Jerzy Janowicz,Jul 8 2013,Wimbledon Slam,Round of 32,Nicolas Almagro,FALSE,87,cluster_1,1.15,6
+71,39,Novak Djokovic,$8.023,Novak Djokovic,Jul 8 2013,Wimbledon Slam,Quarter Final,Tomas Berdych,FALSE,61,cluster_4,-0.02,10
+68.0,38.0,Fernando Verdasco,$2.178,Fernando Verdasco,Jul 8 2013,Bastad,S,Grigor Dimitrov,false,52.0,cluster_1,-0.16,1
+71.0,37.0,Tommy Haas,$2.394,Tommy Haas,Jul 8 2013,Stuttgart,R16,Ernests Gulbis,false,53.0,cluster_2,3.46944695195e-18,18
+71.0,41.0,Fabio Fognini,$1.446,Fabio Fognini,Jul 8 2013,Stuttgart,Q,Tommy Haas,false,49.0,cluster_1,0,0
+62.0,28.0,Ernests Gulbis,$1.669,Tommy Haas,Jul 8 2013,Stuttgart,R16,Tommy Haas,false,50.0,cluster_4,2.3,23
+56.0,32.0,John Isner,$2.188,Lleyton Hewitt,Jul 8 2013,Newport,S,Lleyton Hewitt,false,33.0,cluster_1,-0.05,24
+67.0,43.0,Lleyton Hewitt,$1.786,Lleyton Hewitt,Jul 8 2013,Newport,S,John Isner,false,52.0,cluster_2,-0.27,6
+75.0,41.0,Andy Murray,$16.054,Andy Murray,Jul 8 2013,Wimbledon Slam,Round of 32,Tommy Robredo,false,45.0,cluster_4,0,0
+61.0,31.0,Grigor Dimitrov,$1.792,Fernando Verdasco,Jul 8 2013,Bastad,S,Fernando Verdasco,false,40.0,cluster_2,0.01,1
+57.0,39.0,Nicolas Almagro,$2.289,Fernando Verdasco,Jul 8 2013,Bastad,Q,Fernando Verdasco,false,41.0,cluster_0,0.22,3
+66.0,39.0,David Ferrer,$7.538,David Ferrer,Jul 8 2013,Wimbledon Slam,Round of 64,Roberto Bautista Agut,false,59.0,cluster_0,0,0
+40.0,38.0,Roberto Bautista Agut,$1.421,Fabio Fognini,Jul 8 2013,Stuttgart,S,Fabio Fognini,false,49.0,cluster_3,0,0
+58.0,28.0,Tommy Haas,$3.071,Fabio Fognini,Jul 8 2013,Stuttgart,Q,Fabio Fognini,false,50.0,cluster_2,0.25,3
+59.0,38.0,Philipp Kohlschreiber,$2.178,Fabio Fognini,Jul 8 2013,Stuttgart,F,Fabio Fognini,false,52.0,cluster_4,0.22,1
+61.0,40.0,Fabio Fognini,$1.792,Fabio Fognini,Jul 8 2013,Stuttgart,F,Philipp Kohlschreiber,false,44.0,cluster_4,0,0
+56.0,33.0,Gael Monfils,$2.571,Philipp Kohlschreiber,Jul 8 2013,Stuttgart,Q,Philipp Kohlschreiber,false,50.0,cluster_1,0.36,7
+60,42,Fernando Verdasco,$1.724,Fernando Verdasco,Jul 15 2013,Bastad,Q,Nicolas Almagro,FALSE,84,cluster_3,0.5,7
+65,36,Tomas Berdych,$5.287,Tomas Berdych,Jul 15 2013,Wimbledon Slam,Round of 32,Kevin Anderson,FALSE,87,cluster_1,-1.0,17
+60.0,24.0,Feliciano Lopez,$1.513,Ernests Gulbis,Jul 15 2013,ATP World Tour Masters 1000 Canada,R64,Ernests Gulbis,false,51.0,cluster_3,1.31,15
+75.0,33.0,Tommy Haas,$3.166,Tommy Haas,Jul 15 2013,Halle,Q,Gael Monfils,false,44.0,cluster_4,-0.2,12
+50.0,25.0,Jerzy Janowicz,$1.786,Fernando Verdasco,Jul 15 2013,Hamburg,R16,Fernando Verdasco,false,37.0,cluster_1,-0.37,3
+58.0,39.0,Roberto Bautista Agut,$1.550,Fernando Verdasco,Jul 15 2013,Hamburg,R32,Fernando Verdasco,false,38.0,cluster_0,0,0
+66.0,44.0,Andy Murray,$11.256,Andy Murray,Jul 15 2013,Wimbledon Slam,Round of 16,Mikhail Youzhny,false,43.0,cluster_2,-0.29,2
+61.0,59.0,Fabio Fognini,$3.194,Fabio Fognini,Jul 15 2013,Stuttgart,S,Roberto Bautista Agut,false,41.0,cluster_3,-1.3,28
+50.0,33.0,Tommy Haas,$2.571,Fabio Fognini,Jul 15 2013,Hamburg,Q,Fabio Fognini,false,61.0,cluster_3,1.33,11
+56.0,36.0,Nicolas Almagro,$2.207,Fabio Fognini,Jul 15 2013,Hamburg,S,Fabio Fognini,false,62.0,cluster_4,0,0
+74.0,50.0,Fernando Verdasco,$2.187,Fernando Verdasco,Jul 15 2013,Hamburg,R16,Jerzy Janowicz,false,25.0,cluster_2,0.07,2
+70.0,32.0,John Isner,$2.144,John Isner,Jul 22 2013,Atlanta,S,Lleyton Hewitt,false,28.0,cluster_0,0.89,18
+75.0,28.0,Kevin Anderson,$1.995,John Isner,Jul 22 2013,Atlanta,F,John Isner,false,48.0,cluster_1,1.14,18
+67.0,29.0,Lleyton Hewitt,$1.816,John Isner,Jul 22 2013,Atlanta,S,John Isner,false,49.0,cluster_3,-0.4,6
+59.0,38.0,Andreas Seppi,$1.592,Tommy Robredo,Jul 22 2013,Umag,S,Tommy Robredo,false,39.0,cluster_0,-1.04,13
+61.0,40.0,Tommy Robredo,$2.571,Tommy Robredo,Jul 22 2013,Umag,S,Andreas Seppi,false,42.0,cluster_0,0.83,12
+62.0,40.0,Feliciano Lopez,$1.256,Feliciano Lopez,Jul 22 2013,Gstaad,Q,Stan Wawrinka,false,23.0,cluster_1,0.49,5
+52.0,45.0,Gael Monfils,$1.559,Fabio Fognini,Jul 22 2013,Umag,S,Fabio Fognini,false,64.0,cluster_1,-1.56,9
+60.0,41.0,Fernando Verdasco,$2.690,Fernando Verdasco,Jul 28 2013,Hamburg,R32,Roberto Bautista Agut,false,55.0,cluster_2,-0.01,1
+71,25,John Isner,$1.939,John Isner,Jul 29 2013,Atlanta,F,Kevin Anderson,FALSE,73,cluster_3,-0.76,19
+58.0,27.0,John Isner,$1.307,Juan Martin Del Potro,Jul 29 2013,Washington,F,Juan Martin Del Potro,false,75.0,cluster_3,0.1,1
+62.0,37.0,Tommy Haas,$1.279,Juan Martin Del Potro,Jul 29 2013,Washington,S,Juan Martin Del Potro,false,76.0,cluster_1,2.26,10
+60.0,26.0,Kevin Anderson,$1.315,Juan Martin Del Potro,Jul 29 2013,Washington,Q,Juan Martin Del Potro,false,77.0,cluster_3,2.34,17
+75.0,27.0,Tommy Haas,$1.958,Tommy Haas,Jul 29 2013,Washington,Q,Grigor Dimitrov,false,49.0,cluster_0,-0.22,2
+72.0,25.0,Grigor Dimitrov,$1.976,Tommy Haas,Jul 29 2013,Washington,Q,Tommy Haas,false,43.0,cluster_4,-0.24,4
+66.0,50.0,Fabio Fognini,$1.592,Fabio Fognini,Jul 29 2013,Hamburg,Q,Tommy Haas,false,46.0,cluster_1,-1.22,9
+66.0,43.0,Philipp Kohlschreiber,$1.592,Philipp Kohlschreiber,Jul 29 2013,Stuttgart,Q,Gael Monfils,false,41.0,cluster_2,0.69,35
+59.0,37.0,Stan Wawrinka,$4.527,Feliciano Lopez,Jul 29 2013,Gstaad,Q,Feliciano Lopez,false,12.0,cluster_2,-0.18,1
+75.0,39.0,Ernests Gulbis,$2.808,Ernests Gulbis,Jul 29 2013,ATP World Tour Masters 1000 Canada,R64,Feliciano Lopez,false,13.0,cluster_3,-0.76,8
+68.0,41.0,Feliciano Lopez,$2.288,Feliciano Lopez,Jul 29 2013,Eastbourne,F,Gilles Simon,false,15.0,cluster_3,-0.24,5
+63,43,Fabio Fognini,$1.773,Fabio Fognini,Aug 5 2013,Hamburg,S,Nicolas Almagro,FALSE,76,cluster_3,0,0
+73,39,Juan Martin Del Potro,$3.902,Juan Martin Del Potro,Aug 5 2013,Washington,Q,Kevin Anderson,FALSE,67,cluster_4,-0.42,13
+60,31,Alexandr Dolgopolov,$1.300,Tomas Berdych,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,Tomas Berdych,FALSE,58,cluster_1,-0.09,1
+71,36,Milos Raonic,$4.330,Milos Raonic,Aug 5 2013,ATP World Tour Masters 1000 Canada,R64,Jeremy Chardy,FALSE,81,cluster_3,-0.08,7
+64.0,50.0,Milos Raonic,$1.657,Milos Raonic,Aug 5 2013,ATP World Tour Masters 1000 Canada,R16,Juan Martin Del Potro,false,74.0,cluster_1,0.25,2
+67.0,34.0,Rafael Nadal,$1.453,Rafael Nadal,Aug 5 2013,ATP World Tour Masters 1000 Canada,S,Novak Djokovic,false,44.0,cluster_4,0.52,10
+48.0,20.0,Richard Gasquet,$1.150,Novak Djokovic,Aug 5 2013,ATP World Tour Masters 1000 Canada,Q,Novak Djokovic,false,47.0,cluster_3,0.16,1
+60.0,40.0,Kei Nishikori,$1.639,Richard Gasquet,Aug 5 2013,ATP World Tour Masters 1000 Canada,R16,Richard Gasquet,false,42.0,cluster_2,-0.15,1
+73.0,34.0,Mikhail Youzhny,$1.623,Mikhail Youzhny,Aug 5 2013,ATP World Tour Masters 1000 Cincinnati,R64,Ernests Gulbis,false,47.0,cluster_2,0.16,10
+67.0,33.0,Milos Raonic,$2.357,Milos Raonic,Aug 5 2013,ATP World Tour Masters 1000 Canada,Q,Ernests Gulbis,false,48.0,cluster_2,-0.43,7
+57.0,33.0,Andy Murray,$5.658,Ernests Gulbis,Aug 5 2013,ATP World Tour Masters 1000 Canada,R16,Ernests Gulbis,false,49.0,cluster_4,0.03,2
+52.0,45.0,Fabio Fognini,$1.611,Ernests Gulbis,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,Ernests Gulbis,false,50.0,cluster_1,0,0
+62.0,37.0,Juan Martin Del Potro,$4.247,Juan Martin Del Potro,Aug 5 2013,Washington,S,Tommy Haas,false,42.0,cluster_2,-0.93,11
+72.0,41.0,Juan Martin Del Potro,$3.974,Juan Martin Del Potro,Aug 5 2013,Washington,F,John Isner,false,43.0,cluster_2,0,0
+66.0,42.0,Ernests Gulbis,$1.190,Ernests Gulbis,Aug 5 2013,ATP World Tour Masters 1000 Canada,R16,Andy Murray,false,74.0,cluster_3,0,0
+52.0,17.0,Milos Raonic,$1.221,Rafael Nadal,Aug 5 2013,ATP World Tour Masters 1000 Canada,F,Rafael Nadal,false,49.0,cluster_0,1.66,7
+65.0,32.0,Novak Djokovic,$3.042,Rafael Nadal,Aug 5 2013,ATP World Tour Masters 1000 Canada,S,Rafael Nadal,false,51.0,cluster_2,0.06,4
+58.0,34.0,Jerzy Janowicz,$1.171,Rafael Nadal,Aug 5 2013,ATP World Tour Masters 1000 Canada,R16,Rafael Nadal,false,56.0,cluster_2,0,0
+59.0,40.0,Richard Gasquet,$2.457,Richard Gasquet,Aug 5 2013,ATP World Tour Masters 1000 Canada,R16,Kei Nishikori,false,13.0,cluster_4,0.1,1
+57.0,32.0,Andreas Seppi,$1.535,Kei Nishikori,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,Kei Nishikori,false,14.0,cluster_4,-1.03,13
+67.0,32.0,Ernests Gulbis,$1.687,Milos Raonic,Aug 5 2013,ATP World Tour Masters 1000 Canada,Q,Milos Raonic,false,5.0,cluster_0,0.81,10
+50.0,35.0,Juan Martin Del Potro,$2.418,Milos Raonic,Aug 5 2013,ATP World Tour Masters 1000 Canada,R16,Milos Raonic,false,6.0,cluster_2,-0.03,1
+66.0,16.0,Mikhail Youzhny,$1.700,Milos Raonic,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,Milos Raonic,false,7.0,cluster_4,0.32,4
+63.0,28.0,Jeremy Chardy,$1.272,Milos Raonic,Aug 5 2013,ATP World Tour Masters 1000 Canada,R64,Milos Raonic,false,11.0,cluster_0,-0.26,3
+67.0,42.0,Kei Nishikori,$2.737,Kei Nishikori,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,Andreas Seppi,false,40.0,cluster_0,0.19,14
+53.0,38.0,Kevin Anderson,$3.178,Alexandr Dolgopolov,Aug 5 2013,ATP World Tour Masters 1000 Canada,R64,Alexandr Dolgopolov,false,89.0,cluster_4,0.09,2
+68.0,39.0,Tomas Berdych,$4.032,Tomas Berdych,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,Alexandr Dolgopolov,false,90.0,cluster_2,0.01,1
+54.0,47.0,Ernests Gulbis,$2.523,Ernests Gulbis,Aug 5 2013,ATP World Tour Masters 1000 Canada,R32,Fabio Fognini,false,70.0,cluster_1,0.08,1
+65.0,41.0,Rafael Nadal,$6.134,Rafael Nadal,Aug 5 2013,ATP World Tour Masters 1000 Canada,R16,Jerzy Janowicz,false,28.0,cluster_2,-0.08,2
+64.0,30.0,Kei Nishikori,$3.151,Feliciano Lopez,Aug 5 2013,ATP World Tour Masters 1000 Cincinnati,R64,Feliciano Lopez,false,44.0,cluster_0,-2.03,14
+85.0,36.0,Feliciano Lopez,$2.360,Feliciano Lopez,Aug 5 2013,Wimbledon Slam,Round of 128,Gilles Simon,false,60.0,cluster_0,-1.75,16
+61,46,Alexandr Dolgopolov,$1.424,Alexandr Dolgopolov,Aug 12 2013,ATP World Tour Masters 1000 Canada,R64,Kevin Anderson,FALSE,63,cluster_0,0.09,1
+65,38,Feliciano Lopez,$2.159,Feliciano Lopez,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Jeremy Chardy,FALSE,76,cluster_3,0.99,21
+67.0,33.0,John Isner,$1.472,John Isner,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,S,Juan Martin Del Potro,false,66.0,cluster_4,1.81,13
+63.0,39.0,Feliciano Lopez,$1.231,Juan Martin Del Potro,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R16,Juan Martin Del Potro,false,71.0,cluster_1,0.42,3
+64.0,39.0,Rafael Nadal,$6.217,Rafael Nadal,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R16,Grigor Dimitrov,false,45.0,cluster_1,-0.47,12
+62.0,32.0,Nicolas Almagro,$2.086,Grigor Dimitrov,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R64,Grigor Dimitrov,false,47.0,cluster_1,0,0
+75.0,32.0,John Isner,$1.128,John Isner,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,Q,Novak Djokovic,false,37.0,cluster_4,0.41,6
+70.0,34.0,Rafael Nadal,$3.874,Rafael Nadal,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,Q,Roger Federer,false,8.0,cluster_2,0.06,3
+61.0,39.0,Tommy Haas,$1.423,Roger Federer,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R16,Roger Federer,false,9.0,cluster_1,1.67,13
+60.0,22.0,Philipp Kohlschreiber,$1.228,Roger Federer,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Roger Federer,false,13.0,cluster_0,0.43,2
+70.0,21.0,Kevin Anderson,$1.930,Tommy Haas,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R64,Tommy Haas,false,40.0,cluster_0,0.16,2
+69.0,35.0,Tomas Berdych,$1.428,Tomas Berdych,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,Q,Andy Murray,false,69.0,cluster_3,0.63,16
+48.0,32.0,Mikhail Youzhny,$1.215,Andy Murray,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Andy Murray,false,73.0,cluster_4,1.87,18
+72.0,19.0,John Isner,$1.234,Rafael Nadal,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,F,Rafael Nadal,false,43.0,cluster_0,0.79,3
+61.0,28.0,Tomas Berdych,$1.343,Rafael Nadal,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,S,Rafael Nadal,false,44.0,cluster_0,1.4,6
+65.0,29.0,Roger Federer,$1.318,Rafael Nadal,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,Q,Rafael Nadal,false,45.0,cluster_2,2.23,11
+60.0,35.0,Grigor Dimitrov,$1.168,Rafael Nadal,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R16,Rafael Nadal,false,47.0,cluster_2,0.99,5
+70.0,35.0,Feliciano Lopez,$1.429,Feliciano Lopez,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R64,Kei Nishikori,false,9.0,cluster_0,1.86,12
+74.0,34.0,John Isner,$2.289,John Isner,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R16,Milos Raonic,false,1.0,cluster_3,0.12,2
+58.0,37.0,Stan Wawrinka,$3.178,Tommy Robredo,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Tommy Robredo,false,37.0,cluster_0,0.58,8
+78.0,43.0,Stan Wawrinka,$3.219,Stan Wawrinka,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R64,Andreas Seppi,false,39.0,cluster_3,-0.16,1
+62.0,41.0,Tommy Robredo,$1.424,Tommy Robredo,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Stan Wawrinka,false,18.0,cluster_1,-0.04,12
+56.0,21.0,Andreas Seppi,$1.416,Stan Wawrinka,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R64,Stan Wawrinka,false,19.0,cluster_0,0.44,7
+65.0,26.0,Ernests Gulbis,$2.494,Mikhail Youzhny,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R64,Mikhail Youzhny,false,35.0,cluster_3,-0.05,1
+77.0,40.0,Roger Federer,$4.940,Roger Federer,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Philipp Kohlschreiber,false,18.0,cluster_2,-0.06,1
+60.0,36.0,Juan Martin Del Potro,$4.879,Juan Martin Del Potro,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R16,Feliciano Lopez,false,17.0,cluster_2,0,0
+61.0,34.0,Jeremy Chardy,$1.806,Feliciano Lopez,Aug 12 2013,ATP World Tour Masters 1000 Cincinnati,R32,Feliciano Lopez,false,19.0,cluster_0,-0.34,21
+71,38,Rafael Nadal,$3.668,Rafael Nadal,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,S,Tomas Berdych,FALSE,53,cluster_4,-0.16,11
+64,30,Andy Murray,$3.156,Tomas Berdych,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,Q,Tomas Berdych,FALSE,54,cluster_1,0.39,15
+51,28,Tommy Robredo,$1.224,Tomas Berdych,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,R16,Tomas Berdych,FALSE,55,cluster_0,-0.06,9
+80.0,27.0,Rafael Nadal,$4.835,Rafael Nadal,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,F,John Isner,false,36.0,cluster_1,0,0
+66.0,32.0,Juan Martin Del Potro,$2.962,John Isner,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,S,John Isner,false,37.0,cluster_3,-0.5,5
+67.0,24.0,Novak Djokovic,$7.668,John Isner,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,Q,John Isner,false,38.0,cluster_0,-0.07,1
+65.0,25.0,Milos Raonic,$1.724,John Isner,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,R16,John Isner,false,39.0,cluster_0,-0.11,2
+67.0,25.0,Richard Gasquet,$2.057,John Isner,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,R32,John Isner,false,40.0,cluster_0,0,0
+62.0,30.0,Tommy Robredo,$1.611,Gael Monfils,Aug 18 2013,Winston-Salem,R16,Gael Monfils,false,33.0,cluster_3,-0.71,17
+55.0,47.0,Fabio Fognini,$2.662,Fabio Fognini,Aug 18 2013,Umag,S,Gael Monfils,false,35.0,cluster_2,1.84,10
+72.0,48.0,Tomas Berdych,$4.996,Tomas Berdych,Aug 18 2013,ATP World Tour Masters 1000 Cincinnati,R16,Tommy Robredo,false,36.0,cluster_3,0.47,15
+73.0,38.0,Gael Monfils,$2.337,Gael Monfils,Aug 18 2013,Winston-Salem,Q,Fernando Verdasco,false,31.0,cluster_3,-0.12,4
+61.0,43.0,Gael Monfils,$2.519,Gael Monfils,Aug 18 2013,Winston-Salem,S,Alexandr Dolgopolov,false,10.0,cluster_3,-0.05,12
+67,37,Grigor Dimitrov,$1.860,Grigor Dimitrov,Aug 26 2013,ATP World Tour Masters 1000 Cincinnati,R64,Nicolas Almagro,FALSE,72,cluster_3,-0.17,2
+78,29,Tommy Haas,$2.004,Tommy Haas,Aug 26 2013,ATP World Tour Masters 1000 Cincinnati,R64,Kevin Anderson,FALSE,62,cluster_3,0.21,3
+67,39,Stan Wawrinka,$1.373,Stan Wawrinka,Aug 26 2013,US Open Slam,Round of 16,Tomas Berdych,FALSE,49,cluster_4,0.47,12
+63.0,41.0,Lleyton Hewitt,$1.114,Lleyton Hewitt,Aug 26 2013,US Open Slam,Round of 64,Juan Martin del Potro,false,61.0,cluster_1,-0.23,9
+62.0,45.0,Rafael Nadal,$2.236,Rafael Nadal,Aug 26 2013,US Open Slam,Final,Novak Djokovic,false,22.0,cluster_4,0.84,15
+60.0,36.0,Stan Wawrinka,$1.220,Novak Djokovic,Aug 26 2013,US Open Slam,Semi Final,Novak Djokovic,false,23.0,cluster_4,0,0
+53.0,34.0,Mikhail Youzhny,$1.040,Novak Djokovic,Aug 26 2013,US Open Slam,Quarter Final,Novak Djokovic,false,26.0,cluster_1,1.1,7
+62.0,37.0,Tommy Robredo,$1.052,Tommy Robredo,Aug 26 2013,US Open Slam,Round of 16,Roger Federer,false,2.0,cluster_1,0.23,4
+62.0,40.0,Richard Gasquet,$1.421,Richard Gasquet,Aug 26 2013,US Open Slam,Quarter Final,David Ferrer,false,33.0,cluster_1,0.1,1
+52.0,35.0,Roberto Bautista Agut,$1.177,David Ferrer,Aug 26 2013,US Open Slam,Round of 64,David Ferrer,false,37.0,cluster_3,0.94,11
+60.0,38.0,David Ferrer,$3.194,Richard Gasquet,Aug 26 2013,US Open Slam,Quarter Final,Richard Gasquet,false,36.0,cluster_2,-0.06,1
+65.0,38.0,Milos Raonic,$2.197,Richard Gasquet,Aug 26 2013,US Open Slam,Round of 16,Richard Gasquet,false,37.0,cluster_2,0.17,3
+74.0,32.0,John Isner,$1.884,John Isner,Aug 26 2013,ATP World Tour Masters 1000 Cincinnati,R32,Richard Gasquet,false,41.0,cluster_3,0.14,4
+61.0,38.0,Roger Federer,$3.184,Roger Federer,Aug 26 2013,ATP World Tour Masters 1000 Cincinnati,R16,Tommy Haas,false,38.0,cluster_2,-0.5,5
+58.0,42.0,Mikhail Youzhny,$2.567,Mikhail Youzhny,Aug 26 2013,US Open Slam,Round of 16,Lleyton Hewitt,false,23.0,cluster_4,0.7,7
+59.0,37.0,Juan Martin del Potro,$8.377,Lleyton Hewitt,Aug 26 2013,US Open Slam,Round of 64,Lleyton Hewitt,false,25.0,cluster_1,0.25,7
+72.0,26.0,Philipp Kohlschreiber,$1.353,Philipp Kohlschreiber,Aug 26 2013,US Open Slam,Round of 32,John Isner,false,34.0,cluster_0,-0.08,3
+69.0,28.0,Gael Monfils,$1.424,John Isner,Aug 26 2013,US Open Slam,Round of 64,John Isner,false,35.0,cluster_0,0.03,4
+56.0,38.0,Alexandr Dolgopolov,$1.613,Gael Monfils,Aug 26 2013,Winston-Salem,S,Gael Monfils,false,31.0,cluster_0,0.18,6
+61.0,26.0,Fernando Verdasco,$1.698,Gael Monfils,Aug 26 2013,Winston-Salem,Q,Gael Monfils,false,32.0,cluster_3,0.05,6
+75.0,46.0,Stan Wawrinka,$1.290,Stan Wawrinka,Aug 26 2013,US Open Slam,Quarter Final,Andy Murray,false,62.0,cluster_3,1.11,15
+55.0,38.0,Novak Djokovic,$1.755,Rafael Nadal,Aug 26 2013,US Open Slam,Final,Rafael Nadal,false,30.0,cluster_2,1.93,20
+62.0,29.0,Richard Gasquet,$1.070,Rafael Nadal,Aug 26 2013,US Open Slam,Semi Final,Rafael Nadal,false,32.0,cluster_2,0,0
+44.0,24.0,Tommy Robredo,$1.052,Rafael Nadal,Aug 26 2013,US Open Slam,Quarter Final,Rafael Nadal,false,33.0,cluster_4,0.21,1
+60.0,26.0,Philipp Kohlschreiber,$1.055,Rafael Nadal,Aug 26 2013,US Open Slam,Round of 16,Rafael Nadal,false,34.0,cluster_0,0,0
+62.0,35.0,Richard Gasquet,$1.780,Richard Gasquet,Aug 26 2013,US Open Slam,Round of 16,Milos Raonic,false,80.0,cluster_0,0,0
+63.0,25.0,Feliciano Lopez,$1.437,Milos Raonic,Aug 26 2013,US Open Slam,Round of 32,Milos Raonic,false,81.0,cluster_0,0.5,5
+63.0,38.0,Roger Federer,$15.130,Tommy Robredo,Aug 26 2013,US Open Slam,Round of 16,Tommy Robredo,false,30.0,cluster_0,-0.07,3
+69.0,37.0,Gael Monfils,$2.523,Gael Monfils,Aug 26 2013,Winston-Salem,R16,Tommy Robredo,false,34.0,cluster_4,0.44,15
+54.0,25.0,Andy Murray,$4.080,Stan Wawrinka,Aug 26 2013,US Open Slam,Quarter Final,Stan Wawrinka,false,8.0,cluster_4,1.25,7
+61.0,33.0,Tomas Berdych,$3.467,Stan Wawrinka,Aug 26 2013,US Open Slam,Round of 16,Stan Wawrinka,false,9.0,cluster_2,-0.59,9
+64.0,40.0,Novak Djokovic,$5.170,Novak Djokovic,Aug 26 2013,US Open Slam,Semi Final,Stan Wawrinka,false,69.0,cluster_1,0.3,3
+58.0,42.0,Lleyton Hewitt,$1.594,Mikhail Youzhny,Aug 26 2013,US Open Slam,Round of 16,Mikhail Youzhny,false,30.0,cluster_4,-0.97,14
+57.0,36.0,Tommy Haas,$2.762,Mikhail Youzhny,Aug 26 2013,US Open Slam,Round of 32,Mikhail Youzhny,false,31.0,cluster_1,0.23,31
+53.0,35.0,Alexandr Dolgopolov,$1.646,Mikhail Youzhny,Aug 26 2013,US Open Slam,Round of 64,Mikhail Youzhny,false,32.0,cluster_1,-0.06,3
+67.0,51.0,Andy Murray,$5.147,Andy Murray,Aug 26 2013,ATP World Tour Masters 1000 Cincinnati,R32,Mikhail Youzhny,false,34.0,cluster_2,-1.08,8
+65.0,48.0,David Ferrer,$5.965,David Ferrer,Aug 26 2013,US Open Slam,Round of 64,Roberto Bautista Agut,false,2.0,cluster_3,-0.74,9
+65.0,47.0,Mikhail Youzhny,$2.442,Mikhail Youzhny,Aug 26 2013,US Open Slam,Round of 64,Alexandr Dolgopolov,false,23.0,cluster_3,-0.03,4
+74.0,28.0,John Isner,$3.600,Philipp Kohlschreiber,Aug 26 2013,US Open Slam,Round of 32,Philipp Kohlschreiber,false,6.0,cluster_2,0.01,2
+74.0,40.0,Rafael Nadal,$14.400,Rafael Nadal,Aug 26 2013,US Open Slam,Round of 16,Philipp Kohlschreiber,false,16.0,cluster_2,-1.39,15
+75.0,37.0,Milos Raonic,$3.114,Milos Raonic,Aug 26 2013,US Open Slam,Round of 32,Feliciano Lopez,false,70.0,cluster_3,0.04,1
+54.0,28.0,Milos Raonic,$1.059,Novak Djokovic,Sep 13 2013,Davis Cup,Reverse Singles,Novak Djokovic,false,20.0,cluster_2,0.34,7
+72.0,46.0,Novak Djokovic,$13.683,Novak Djokovic,Sep 13 2013,Davis Cup,Reverse Singles,Milos Raonic,false,78.0,cluster_3,0,0
+58.0,34.0,Alexandr Dolgopolov,$1.550,Fernando Verdasco,Sep 13 2013,Davis Cup,Singles,Fernando Verdasco,false,29.0,cluster_0,1.01,9
+66.0,42.0,Fernando Verdasco,$2.400,Fernando Verdasco,Sep 13 2013,Davis Cup,Singles,Alexandr Dolgopolov,false,9.0,cluster_3,-1.66,18
+48.0,20.0,Roberto Bautista Agut,$1.453,Ernests Gulbis,Sep 16 2013,St. Petersburg,Q,Ernests Gulbis,false,44.0,cluster_0,0,0
+67.0,43.0,Gilles Simon,$1.415,Gilles Simon,Sep 16 2013,Metz,F,Jo-Wilfried Tsonga,false,75.0,cluster_0,1.28,6
+66.0,47.0,Novak Djokovic,$17.000,Novak Djokovic,Sep 16 2013,US Open Slam,Quarter Final,Mikhail Youzhny,false,29.0,cluster_2,-1.39,15
+53,37,Gilles Simon,$1.373,Tomas Berdych,Sep 23 2013,Bangkok,S,Tomas Berdych,FALSE,45,cluster_3,0,0
+56,29,Roberto Bautista Agut,$1.200,Tomas Berdych,Sep 23 2013,Bangkok,R16,Tomas Berdych,FALSE,47,cluster_2,0.1,1
+51.0,29.0,Mikhail Youzhny,$1.680,Richard Gasquet,Sep 23 2013,Bangkok,Q,Richard Gasquet,false,33.0,cluster_0,3.19,33
+71.0,38.0,Rafael Nadal,$12.500,Rafael Nadal,Sep 23 2013,US Open Slam,Semi Final,Richard Gasquet,false,35.0,cluster_3,-0.15,1
+77.0,18.0,Tomas Berdych,$2.581,Milos Raonic,Sep 23 2013,Bangkok,F,Milos Raonic,false,74.0,cluster_1,0.04,3
+78.0,32.0,Richard Gasquet,$2.067,Milos Raonic,Sep 23 2013,Bangkok,S,Milos Raonic,false,75.0,cluster_3,0.52,13
+62.0,18.0,Feliciano Lopez,$1.506,Milos Raonic,Sep 23 2013,Bangkok,Q,Milos Raonic,false,76.0,cluster_4,2.24,17
+70.0,43.0,Tomas Berdych,$5.448,Tomas Berdych,Sep 23 2013,Bangkok,R16,Roberto Bautista Agut,false,53.0,cluster_0,0.05,12
+81.0,37.0,Milos Raonic,$2.834,Milos Raonic,Sep 23 2013,Bangkok,Q,Feliciano Lopez,false,24.0,cluster_3,-1.2,10
+60,36,Kei Nishikori,$2.691,Nicolas Almagro,Sep 30 2013,Tokyo,Q,Nicolas Almagro,FALSE,66,cluster_4,-0.06,1
+52,40,John Isner,$1.467,Tomas Berdych,Sep 30 2013,Beijing,Q,Tomas Berdych,FALSE,43,cluster_3,0,0
+78.0,30.0,Milos Raonic,$1.724,Juan Martin Del Potro,Sep 30 2013,Tokyo,F,Juan Martin Del Potro,false,51.0,cluster_4,-6.93889390391e-18,12
+70.0,25.0,Nicolas Almagro,$1.300,Juan Martin Del Potro,Sep 30 2013,Tokyo,S,Juan Martin Del Potro,false,55.0,cluster_3,0.03,1
+56.0,37.0,Alexandr Dolgopolov,$1.231,Juan Martin Del Potro,Sep 30 2013,Tokyo,Q,Juan Martin Del Potro,false,56.0,cluster_1,-0.01,10
+77.0,43.0,Roberto Bautista Agut,$1.663,Roberto Bautista Agut,Sep 30 2013,Beijing,R32,Grigor Dimitrov,false,43.0,cluster_3,0.13,3
+63.0,13.0,Rafael Nadal,$1.806,Novak Djokovic,Sep 30 2013,Beijing,F,Novak Djokovic,false,12.0,cluster_0,0.78,17
+53.0,28.0,Richard Gasquet,$1.109,Novak Djokovic,Sep 30 2013,Beijing,S,Novak Djokovic,false,13.0,cluster_2,3.0,9
+60.0,32.0,Fernando Verdasco,$1.054,Novak Djokovic,Sep 30 2013,Beijing,R16,Novak Djokovic,false,18.0,cluster_2,0.64,4
+66.0,41.0,Richard Gasquet,$1.976,Richard Gasquet,Sep 30 2013,Beijing,Q,David Ferrer,false,26.0,cluster_1,0.35,9
+58.0,33.0,David Ferrer,$1.958,Richard Gasquet,Sep 30 2013,Beijing,Q,Richard Gasquet,false,29.0,cluster_2,1.45,17
+67.0,21.0,Milos Raonic,$1.875,Milos Raonic,Sep 30 2013,Bangkok,S,Richard Gasquet,false,32.0,cluster_4,0.65,15
+64.0,43.0,Mikhail Youzhny,$1.527,Mikhail Youzhny,Sep 30 2013,US Open Slam,Round of 32,Tommy Haas,false,35.0,cluster_2,-0.06,22
+54.0,41.0,Tommy Haas,$2.579,Lleyton Hewitt,Sep 30 2013,Beijing,R32,Lleyton Hewitt,false,21.0,cluster_4,-0.06,3
+62.0,20.0,Roberto Bautista Agut,$1.521,John Isner,Sep 30 2013,Beijing,R16,John Isner,false,32.0,cluster_4,-0.06,4
+42.0,47.0,Tomas Berdych,$1.265,Rafael Nadal,Sep 30 2013,Beijing,S,Rafael Nadal,false,24.0,cluster_1,2.52,16
+52.0,44.0,Fabio Fognini,$1.065,Rafael Nadal,Sep 30 2013,Beijing,Q,Rafael Nadal,false,25.0,cluster_1,3.99,23
+60.0,35.0,Philipp Kohlschreiber,$1.068,Rafael Nadal,Sep 30 2013,Beijing,R16,Rafael Nadal,false,26.0,cluster_2,1.14,10
+47.0,33.0,Feliciano Lopez,$1.454,Kei Nishikori,Sep 30 2013,Tokyo,R16,Kei Nishikori,false,73.0,cluster_3,0.54,24
+70.0,21.0,Juan Martin Del Potro,$2.289,Juan Martin Del Potro,Sep 30 2013,Tokyo,F,Milos Raonic,false,68.0,cluster_1,1.66,14
+59.0,14.0,Jeremy Chardy,$1.218,Milos Raonic,Sep 30 2013,Tokyo,R16,Milos Raonic,false,72.0,cluster_4,0.5,11
+69.0,37.0,Stan Wawrinka,$5.132,Stan Wawrinka,Sep 30 2013,Beijing,R32,Andreas Seppi,false,33.0,cluster_0,-2.02,13
+63.0,30.0,Gael Monfils,$1.543,Jo-Wilfried Tsonga,Sep 30 2013,Tokyo,R32,Jo-Wilfried Tsonga,false,74.0,cluster_1,0.01,3
+62.0,30.0,Andreas Seppi,$1.216,Stan Wawrinka,Sep 30 2013,Beijing,R32,Stan Wawrinka,false,61.0,cluster_2,1.6,14
+70.0,48.0,Richard Gasquet,$2.370,Richard Gasquet,Sep 30 2013,Bangkok,Q,Mikhail Youzhny,false,24.0,cluster_2,0.56,41
+56.0,22.0,Grigor Dimitrov,$2.407,Roberto Bautista Agut,Sep 30 2013,Beijing,R32,Roberto Bautista Agut,false,62.0,cluster_4,-0.12,2
+79.0,37.0,John Isner,$2.781,John Isner,Sep 30 2013,Beijing,R16,Roberto Bautista Agut,false,63.0,cluster_0,-0.59,18
+62.0,43.0,Juan Martin Del Potro,$4.879,Juan Martin Del Potro,Sep 30 2013,Tokyo,Q,Alexandr Dolgopolov,false,13.0,cluster_3,0.52,7
+38.0,39.0,Lleyton Hewitt,$2.880,Fabio Fognini,Sep 30 2013,Beijing,R16,Fabio Fognini,false,8.0,cluster_3,0.25,2
+55.0,47.0,Rafael Nadal,$12.872,Rafael Nadal,Sep 30 2013,Beijing,Q,Fabio Fognini,false,28.0,cluster_1,-1.51,21
+53.0,40.0,Tommy Robredo,$2.983,Fabio Fognini,Sep 30 2013,Beijing,R32,Fabio Fognini,false,73.0,cluster_3,0.56,5
+64.0,39.0,Rafael Nadal,$12.462,Rafael Nadal,Sep 30 2013,Beijing,R16,Philipp Kohlschreiber,false,46.0,cluster_0,-1.22,8
+66.0,52.0,Kei Nishikori,$3.036,Kei Nishikori,Sep 30 2013,Tokyo,R16,Feliciano Lopez,false,27.0,cluster_4,-0.98,26
+56.0,32.0,Jo-Wilfried Tsonga,$3.222,Gilles Simon,Sep 30 2013,Metz,F,Gilles Simon,false,46.0,cluster_2,-1.69,13
+70,26,Tomas Berdych,$3.334,Nicolas Almagro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R16,Nicolas Almagro,FALSE,57,cluster_1,-0.83,16
+62,21,Jeremy Chardy,$1.417,Nicolas Almagro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Nicolas Almagro,FALSE,61,cluster_2,0.09,3
+75,29,Juan Martin Del Potro,$4.033,Juan Martin Del Potro,Oct 6 2013,Tokyo,S,Nicolas Almagro,FALSE,63,cluster_1,-0.17,4
+73,29,Nicolas Almagro,$1.395,Nicolas Almagro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R16,Tomas Berdych,FALSE,41,cluster_1,0,0
+62,20,Feliciano Lopez,$1.491,Tomas Berdych,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Tomas Berdych,FALSE,42,cluster_2,0.23,2
+78,37,Nicolas Almagro,$3.212,Nicolas Almagro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Jeremy Chardy,FALSE,64,cluster_1,0,0
+71.0,38.0,Novak Djokovic,$3.431,Novak Djokovic,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,F,Juan Martin Del Potro,false,46.0,cluster_4,-1.01,24
+56.0,33.0,Rafael Nadal,$3.814,Juan Martin Del Potro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,S,Juan Martin Del Potro,false,47.0,cluster_0,-0.82,13
+59.0,24.0,Nicolas Almagro,$1.459,Juan Martin Del Potro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,Q,Juan Martin Del Potro,false,48.0,cluster_2,0.21,7
+65.0,29.0,Philipp Kohlschreiber,$1.259,Juan Martin Del Potro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Juan Martin Del Potro,false,50.0,cluster_3,-0.08,3
+70.0,41.0,Kei Nishikori,$2.269,Kei Nishikori,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,Grigor Dimitrov,false,42.0,cluster_3,-0.25,1
+48.0,35.0,Jo-Wilfried Tsonga,$1.189,Novak Djokovic,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,S,Novak Djokovic,false,71.0,cluster_1,0.72,5
+59.0,30.0,Gael Monfils,$1.093,Novak Djokovic,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,Q,Novak Djokovic,false,72.0,cluster_2,0.37,1
+55.0,21.0,Fabio Fognini,$1.085,Novak Djokovic,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R16,Novak Djokovic,false,75.0,cluster_0,3.74,11
+58.0,34.0,Andreas Seppi,$1.182,Roger Federer,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Roger Federer,false,1.0,cluster_1,0.24,5
+71.0,46.0,Novak Djokovic,$8.672,Novak Djokovic,Oct 6 2013,Beijing,S,Richard Gasquet,false,28.0,cluster_1,-0.24,2
+58.0,45.0,Lleyton Hewitt,$1.589,Lleyton Hewitt,Oct 6 2013,Beijing,R32,Tommy Haas,false,34.0,cluster_2,0.37,2
+72.0,47.0,Andreas Seppi,$1.636,Andreas Seppi,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,Lleyton Hewitt,false,20.0,cluster_2,-0.01,4
+66.0,43.0,Juan Martin Del Potro,$1.325,Juan Martin Del Potro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,S,Rafael Nadal,false,14.0,cluster_3,1.15,7
+63.0,27.0,Stan Wawrinka,$1.206,Rafael Nadal,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,Q,Rafael Nadal,false,19.0,cluster_0,5.21,26
+60.0,22.0,Alexandr Dolgopolov,$1.116,Rafael Nadal,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Rafael Nadal,false,21.0,cluster_0,0.09,1
+58.0,29.0,Grigor Dimitrov,$1.735,Kei Nishikori,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,Kei Nishikori,false,68.0,cluster_2,0.21,2
+63.0,39.0,Nicolas Almagro,$1.550,Nicolas Almagro,Oct 6 2013,Tokyo,Q,Kei Nishikori,false,72.0,cluster_4,0,0
+80.0,25.0,Stan Wawrinka,$1.875,Stan Wawrinka,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R16,Milos Raonic,false,61.0,cluster_1,-0.21,1
+72.0,27.0,Fernando Verdasco,$1.466,Milos Raonic,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Milos Raonic,false,62.0,cluster_1,1.31,19
+65.0,41.0,Roger Federer,$5.857,Roger Federer,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Andreas Seppi,false,31.0,cluster_0,-0.43,3
+52.0,28.0,Lleyton Hewitt,$2.465,Andreas Seppi,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R64,Andreas Seppi,false,32.0,cluster_2,-0.05,1
+53.0,21.0,Kei Nishikori,$1.671,Jo-Wilfried Tsonga,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R16,Jo-Wilfried Tsonga,false,71.0,cluster_2,0,0
+67.0,39.0,Novak Djokovic,$14.612,Novak Djokovic,Oct 6 2013,Beijing,R16,Fernando Verdasco,false,26.0,cluster_3,-0.08,1
+72.0,36.0,Rafael Nadal,$5.327,Rafael Nadal,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,Q,Stan Wawrinka,false,55.0,cluster_3,-0.08,8
+74.0,19.0,Milos Raonic,$2.067,Stan Wawrinka,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R16,Stan Wawrinka,false,56.0,cluster_0,0.07,3
+64.0,25.0,Kevin Anderson,$1.397,Stan Wawrinka,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Stan Wawrinka,false,59.0,cluster_0,0.18,2
+77.0,39.0,Rafael Nadal,$8.289,Rafael Nadal,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Alexandr Dolgopolov,false,16.0,cluster_2,-0.39,2
+57.0,32.0,Tommy Robredo,$2.350,Fabio Fognini,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Fabio Fognini,false,34.0,cluster_2,0.97,13
+78.0,44.0,Novak Djokovic,$10.460,Novak Djokovic,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R16,Fabio Fognini,false,35.0,cluster_0,-2.06,12
+70.0,34.0,Juan Martin Del Potro,$4.493,Juan Martin Del Potro,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Philipp Kohlschreiber,false,54.0,cluster_0,-0.01,3
+79.0,37.0,Tomas Berdych,$2.889,Tomas Berdych,Oct 6 2013,ATP World Tour Masters 1000 Shanghai,R32,Feliciano Lopez,false,31.0,cluster_3,-0.26,3
+62.0,46.0,Tomas Berdych,$3.467,Tomas Berdych,Oct 6 2013,Bangkok,S,Gilles Simon,false,32.0,cluster_3,1.25,12
+74,35,Stan Wawrinka,$3.323,Stan Wawrinka,Oct 14 2013,ATP World Tour Masters 1000 Shanghai,R32,Kevin Anderson,FALSE,53,cluster_1,-0.22,2
+64,34,Ernests Gulbis,$3.911,Ernests Gulbis,Oct 14 2013,Stockholm,R32,Jeremy Chardy,FALSE,61,cluster_3,-0.15,1
+60.0,40.0,David Ferrer,$2.480,Grigor Dimitrov,Oct 14 2013,Stockholm,F,Grigor Dimitrov,false,37.0,cluster_1,-0.03,1
+59.0,39.0,Grigor Dimitrov,$1.629,Grigor Dimitrov,Oct 14 2013,Stockholm,F,David Ferrer,false,14.0,cluster_3,-0.16,1
+53.0,33.0,Ernests Gulbis,$1.958,David Ferrer,Oct 14 2013,Stockholm,S,David Ferrer,false,19.0,cluster_3,0,0
+66.0,46.0,David Ferrer,$1.976,David Ferrer,Oct 14 2013,Stockholm,S,Ernests Gulbis,false,38.0,cluster_1,0,0
+62.0,32.0,Jerzy Janowicz,$1.680,Ernests Gulbis,Oct 14 2013,Stockholm,Q,Ernests Gulbis,false,39.0,cluster_4,0.01,1
+65.0,35.0,Jeremy Chardy,$1.313,Ernests Gulbis,Oct 14 2013,Stockholm,R32,Ernests Gulbis,false,41.0,cluster_4,0.07,2
+69.0,36.0,Jo-Wilfried Tsonga,$2.712,Jo-Wilfried Tsonga,Oct 14 2013,Tokyo,R32,Gael Monfils,false,28.0,cluster_4,0.18,7
+72.0,31.0,John Isner,$3.178,John Isner,Oct 14 2013,US Open Slam,Round of 64,Gael Monfils,false,29.0,cluster_4,0.08,3
+72.0,27.0,Milos Raonic,$2.985,Milos Raonic,Oct 14 2013,ATP World Tour Masters 1000 Shanghai,R32,Fernando Verdasco,false,24.0,cluster_3,-0.6,16
+67.0,37.0,Ernests Gulbis,$2.370,Ernests Gulbis,Oct 14 2013,Stockholm,Q,Jerzy Janowicz,false,29.0,cluster_1,0.05,2
+53,34,Fabio Fognini,$1.445,Nicolas Almagro,Oct 21 2013,Valencia,Q,Nicolas Almagro,FALSE,49,cluster_4,-0.77,13
+76,40,Juan Martin Del Potro,$3.014,Juan Martin Del Potro,Oct 21 2013,ATP World Tour Masters 1000 Shanghai,Q,Nicolas Almagro,FALSE,56,cluster_1,-0.61,10
+69,25,John Isner,$3.151,Jeremy Chardy,Oct 21 2013,Valencia,R16,Jeremy Chardy,FALSE,59,cluster_3,-0.32,4
+64.0,34.0,Roger Federer,$1.773,Juan Martin Del Potro,Oct 21 2013,Basel,F,Juan Martin Del Potro,false,38.0,cluster_3,0.74,11
+70.0,40.0,Roger Federer,$2.996,Roger Federer,Oct 21 2013,Basel,Q,Grigor Dimitrov,false,34.0,cluster_3,-0.03,2
+54.0,19.0,Alexandr Dolgopolov,$1.452,Grigor Dimitrov,Oct 21 2013,Basel,R16,Grigor Dimitrov,false,35.0,cluster_2,-0.17,1
+59.0,29.0,Grigor Dimitrov,$1.464,Roger Federer,Oct 21 2013,Basel,Q,Roger Federer,false,86.0,cluster_0,0.19,2
+70.0,34.0,Gael Monfils,$1.325,Gael Monfils,Oct 21 2013,ATP World Tour Masters 1000 Shanghai,R16,Roger Federer,false,91.0,cluster_2,0.12,1
+57.0,22.0,Nicolas Almagro,$1.366,David Ferrer,Oct 21 2013,Valencia,S,David Ferrer,false,8.0,cluster_2,0.14,1
+62.0,20.0,Jerzy Janowicz,$1.287,David Ferrer,Oct 21 2013,Valencia,Q,David Ferrer,false,9.0,cluster_2,0.25,1
+48.0,25.0,Gael Monfils,$1.541,David Ferrer,Oct 21 2013,Valencia,R32,David Ferrer,false,13.0,cluster_0,0.43,2
+64.0,42.0,Mikhail Youzhny,$1.310,Mikhail Youzhny,Oct 21 2013,Valencia,F,David Ferrer,false,84.0,cluster_1,0.97,7
+70.0,36.0,John Isner,$1.683,John Isner,Oct 21 2013,Valencia,R32,Ernests Gulbis,false,37.0,cluster_2,1.85,12
+75.0,30.0,Jeremy Chardy,$1.429,Jeremy Chardy,Oct 21 2013,Valencia,R16,John Isner,false,29.0,cluster_1,0.06,5
+63.0,29.0,Ernests Gulbis,$2.364,John Isner,Oct 21 2013,Valencia,R32,John Isner,false,30.0,cluster_3,-0.41,5
+78.0,46.0,Jo-Wilfried Tsonga,$2.390,Jo-Wilfried Tsonga,Oct 21 2013,ATP World Tour Masters 1000 Shanghai,R16,Kei Nishikori,false,62.0,cluster_1,0.63,7
+66.0,30.0,Philipp Kohlschreiber,$2.057,Mikhail Youzhny,Oct 21 2013,Valencia,R16,Mikhail Youzhny,false,20.0,cluster_0,0.26,12
+67.0,34.0,Kevin Anderson,$2.230,Roberto Bautista Agut,Oct 21 2013,Valencia,R32,Roberto Bautista Agut,false,64.0,cluster_0,-0.09,1
+80.0,45.0,Grigor Dimitrov,$3.046,Grigor Dimitrov,Oct 21 2013,Basel,R16,Alexandr Dolgopolov,false,20.0,cluster_2,-0.11,3
+65.0,46.0,Nicolas Almagro,$3.075,Nicolas Almagro,Oct 21 2013,Valencia,Q,Fabio Fognini,false,54.0,cluster_1,1.6,15
+79.0,37.0,David Ferrer,$4.169,David Ferrer,Oct 21 2013,Valencia,Q,Jerzy Janowicz,false,33.0,cluster_3,-1.67,13
+58.0,35.0,Tommy Haas,$2.364,Philipp Kohlschreiber,Oct 21 2013,Valencia,R32,Philipp Kohlschreiber,false,57.0,cluster_1,-1.77,17
+69.0,33.0,Mikhail Youzhny,$1.884,Mikhail Youzhny,Oct 21 2013,Valencia,R16,Philipp Kohlschreiber,false,62.0,cluster_0,-0.11,15
+65,37,David Ferrer,$1.958,David Ferrer,Oct 28 2013,ATP World Tour Masters 1000 Paris,Q,Tomas Berdych,FALSE,37,cluster_4,0.0,2
+65,26,Milos Raonic,$2.087,Tomas Berdych,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Tomas Berdych,FALSE,38,cluster_1,0.08,1
+74,37,Juan Martin Del Potro,$3.824,Juan Martin Del Potro,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Marin Cilic,FALSE,34,cluster_0,0.17,3
+76.0,42.0,Roger Federer,$1.985,Roger Federer,Oct 28 2013,ATP World Tour Masters 1000 Paris,Q,Juan Martin Del Potro,false,32.0,cluster_4,-0.44,24
+69.0,26.0,Grigor Dimitrov,$1.362,Juan Martin Del Potro,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Juan Martin Del Potro,false,33.0,cluster_3,0.44,12
+62.0,25.0,Marin Cilic,$1.324,Juan Martin Del Potro,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Juan Martin Del Potro,false,37.0,cluster_3,0.35,4
+73.0,30.0,Juan Martin Del Potro,$3.538,Juan Martin Del Potro,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Grigor Dimitrov,false,32.0,cluster_0,-1.8,13
+58.0,34.0,Roger Federer,$1.308,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Paris,S,Novak Djokovic,false,62.0,cluster_2,0.04,1
+54.0,31.0,Stan Wawrinka,$1.188,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Paris,Q,Novak Djokovic,false,63.0,cluster_2,0.41,16
+56.0,19.0,John Isner,$1.171,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Novak Djokovic,false,66.0,cluster_0,0.66,14
+61.0,28.0,Juan Martin Del Potro,$1.378,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Shanghai,F,Novak Djokovic,false,70.0,cluster_2,0.87,17
+57.0,23.0,Juan Martin Del Potro,$1.948,Roger Federer,Oct 28 2013,ATP World Tour Masters 1000 Paris,Q,Roger Federer,false,75.0,cluster_0,0.31,3
+62.0,23.0,Philipp Kohlschreiber,$1.248,Roger Federer,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Roger Federer,false,78.0,cluster_0,1.88,8
+58.0,32.0,Kevin Anderson,$1.176,Roger Federer,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Roger Federer,false,79.0,cluster_1,0.08,2
+65.0,35.0,Juan Martin Del Potro,$2.207,Juan Martin Del Potro,Oct 28 2013,Basel,F,Roger Federer,false,80.0,cluster_2,1.74,12
+68.0,43.0,Novak Djokovic,$6.134,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Paris,F,David Ferrer,false,73.0,cluster_1,-0.09,3
+59.0,32.0,Rafael Nadal,$6.609,David Ferrer,Oct 28 2013,ATP World Tour Masters 1000 Paris,S,David Ferrer,false,74.0,cluster_3,-0.25,5
+62.0,34.0,Tomas Berdych,$1.976,David Ferrer,Oct 28 2013,ATP World Tour Masters 1000 Paris,Q,David Ferrer,false,78.0,cluster_3,-0.14,2
+55.0,28.0,Gilles Simon,$1.373,David Ferrer,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,David Ferrer,false,79.0,cluster_2,0.18,2
+55.0,28.0,Kei Nishikori,$1.479,Richard Gasquet,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Richard Gasquet,false,20.0,cluster_0,1.81,23
+58.0,30.0,Fernando Verdasco,$1.345,Richard Gasquet,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Richard Gasquet,false,21.0,cluster_2,0.27,5
+70.0,39.0,Fernando Verdasco,$1.550,Fernando Verdasco,Oct 28 2013,ATP World Tour Masters 1000 Paris,R64,Ernests Gulbis,false,36.0,cluster_2,0.63,22
+64.0,41.0,Philipp Kohlschreiber,$1.683,Philipp Kohlschreiber,Oct 28 2013,Valencia,R32,Tommy Haas,false,27.0,cluster_2,1.8,17
+80.0,43.0,Novak Djokovic,$6.134,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,John Isner,false,27.0,cluster_2,0.78,19
+69.0,40.0,Novak Djokovic,$9.817,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Shanghai,Q,Gael Monfils,false,24.0,cluster_4,0,0
+65.0,29.0,Roger Federer,$3.814,Gael Monfils,Oct 28 2013,ATP World Tour Masters 1000 Shanghai,R16,Gael Monfils,false,25.0,cluster_3,-0.09,1
+48.0,28.0,Richard Gasquet,$1.202,Rafael Nadal,Oct 28 2013,ATP World Tour Masters 1000 Paris,Q,Rafael Nadal,false,9.0,cluster_4,1.42,12
+62.0,35.0,Jerzy Janowicz,$1.180,Rafael Nadal,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Rafael Nadal,false,10.0,cluster_2,0.28,11
+67.0,40.0,David Ferrer,$1.155,David Ferrer,Oct 28 2013,ATP World Tour Masters 1000 Paris,S,Rafael Nadal,false,90.0,cluster_3,1.82,16
+64.0,32.0,Jo-Wilfried Tsonga,$3.026,Kei Nishikori,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Kei Nishikori,false,54.0,cluster_0,-0.01,11
+73.0,34.0,Tomas Berdych,$1.859,Tomas Berdych,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Milos Raonic,false,51.0,cluster_3,-0.59,14
+68.0,40.0,Philipp Kohlschreiber,$2.168,Philipp Kohlschreiber,Oct 28 2013,ATP World Tour Masters 1000 Paris,R64,Andreas Seppi,false,27.0,cluster_0,0.15,2
+67.0,35.0,Kei Nishikori,$1.456,Kei Nishikori,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Jo-Wilfried Tsonga,false,62.0,cluster_0,1.7,8
+60.0,29.0,Ernests Gulbis,$2.690,Fernando Verdasco,Oct 28 2013,ATP World Tour Masters 1000 Paris,R64,Fernando Verdasco,false,20.0,cluster_2,2.83,41
+68.0,46.0,Novak Djokovic,$5.701,Novak Djokovic,Oct 28 2013,ATP World Tour Masters 1000 Paris,Q,Stan Wawrinka,false,47.0,cluster_3,-0.27,14
+48.0,33.0,Nicolas Almagro,$1.609,Stan Wawrinka,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Stan Wawrinka,false,48.0,cluster_4,0.52,6
+60.0,22.0,Feliciano Lopez,$1.359,Stan Wawrinka,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Stan Wawrinka,false,51.0,cluster_0,-0.44,22
+57.0,35.0,David Ferrer,$3.945,Mikhail Youzhny,Oct 28 2013,Valencia,F,Mikhail Youzhny,false,17.0,cluster_1,-0.09,1
+57.0,52.0,Grigor Dimitrov,$3.375,Grigor Dimitrov,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Fabio Fognini,false,51.0,cluster_1,0.17,1
+65.0,37.0,Rafael Nadal,$5.894,Rafael Nadal,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Jerzy Janowicz,false,34.0,cluster_1,-1.63,14
+52.0,35.0,Tommy Haas,$2.322,Philipp Kohlschreiber,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Philipp Kohlschreiber,false,60.0,cluster_1,-0.64,25
+59.0,31.0,Andreas Seppi,$1.799,Philipp Kohlschreiber,Oct 28 2013,ATP World Tour Masters 1000 Paris,R64,Philipp Kohlschreiber,false,61.0,cluster_1,-0.06,6
+76.0,37.0,Roger Federer,$4.632,Roger Federer,Oct 28 2013,ATP World Tour Masters 1000 Paris,R16,Philipp Kohlschreiber,false,63.0,cluster_2,-1.36,9
+77.0,39.0,Stan Wawrinka,$3.557,Stan Wawrinka,Oct 28 2013,ATP World Tour Masters 1000 Paris,R32,Feliciano Lopez,false,29.0,cluster_3,0.74,12
+51.0,26.0,Stan Wawrinka,$1.190,Novak Djokovic,Nov 4 2013,Barclays ATP World Tour Finals,S,Novak Djokovic,false,56.0,cluster_2,2.04,20
+56.0,31.0,David Ferrer,$1.171,Novak Djokovic,Nov 4 2013,ATP World Tour Masters 1000 Paris,F,Novak Djokovic,false,60.0,cluster_2,0.5,4
+65.0,41.0,Novak Djokovic,$3.964,Novak Djokovic,Nov 4 2013,ATP World Tour Masters 1000 Paris,S,Roger Federer,false,74.0,cluster_1,0.23,12
+71.0,51.0,Rafael Nadal,$5.407,Rafael Nadal,Nov 4 2013,ATP World Tour Masters 1000 Paris,Q,Richard Gasquet,false,19.0,cluster_1,-1.21,12
+68.0,44.0,Novak Djokovic,$2.571,Novak Djokovic,Nov 4 2013,Barclays ATP World Tour Finals,F,Rafael Nadal,false,80.0,cluster_3,1.87,28
+59.0,26.0,Roger Federer,$1.340,Rafael Nadal,Nov 4 2013,Barclays ATP World Tour Finals,S,Rafael Nadal,false,85.0,cluster_0,4.76,27
+73.0,48.0,Novak Djokovic,$5.658,Novak Djokovic,Nov 4 2013,Barclays ATP World Tour Finals,S,Stan Wawrinka,false,43.0,cluster_3,-0.41,15
+75,37,Novak Djokovic,$10.342,Novak Djokovic,Nov 15 2013,Davis Cup,Reverse Singles,Tomas Berdych,FALSE,35,cluster_4,-0.32,15
+55.0,31.0,Rafael Nadal,$1.592,Novak Djokovic,Nov 15 2013,Barclays ATP World Tour Finals,F,Novak Djokovic,false,55.0,cluster_2,4.58,31
+63.0,25.0,Tomas Berdych,$1.087,Novak Djokovic,Dec 26 2013,Davis Cup,Reverse Singles,Novak Djokovic,false,51.0,cluster_0,2.6,29
+67.0,42.0,Fabio Fognini,$1.691,Fabio Fognini,Dec 28 2013,ATP World Tour Masters 1000 Shanghai,R32,Tommy Robredo,false,27.0,cluster_3,-0.32,2
+59.0,46.0,Fabio Fognini,$1.467,Fabio Fognini,Dec 28 2013,Beijing,R32,Tommy Robredo,false,29.0,cluster_3,-1.44,11
+67,41,Roger Federer,$5.989,Roger Federer,Dec 30 2013,ATP World Tour Masters 1000 Paris,R32,Kevin Anderson,FALSE,45,cluster_1,-0.31,3
+59,32,Mikhail Youzhny,$2.727,Kevin Anderson,Dec 30 2013,ATP World Tour Masters 1000 Paris,R64,Kevin Anderson,FALSE,48,cluster_0,0.14,4
+65,32,Roberto Bautista Agut,$1.759,Roberto Bautista Agut,Dec 30 2013,Valencia,R32,Kevin Anderson,FALSE,49,cluster_1,0.05,2
+72,33,Roger Federer,$10.735,Roger Federer,Dec 30 2013,Brisbane,S,Jeremy Chardy,FALSE,47,cluster_1,-0.06,2
+67,40,Kei Nishikori,$1.816,Kei Nishikori,Dec 30 2013,Brisbane,Q,Marin Cilic,FALSE,31,cluster_2,-0.13,18
+66,27,Grigor Dimitrov,$2.394,Marin Cilic,Dec 30 2013,Brisbane,R16,Marin Cilic,FALSE,32,cluster_4,0.06,4
+72.0,33.0,Marin Cilic,$1.669,Marin Cilic,Dec 30 2013,Brisbane,R16,Grigor Dimitrov,false,30.0,cluster_0,0,0
+66.0,27.0,Jeremy Chardy,$1.082,Roger Federer,Dec 30 2013,Brisbane,S,Roger Federer,false,63.0,cluster_0,0.18,3
+73.0,40.0,Rafael Nadal,$3.693,Rafael Nadal,Dec 30 2013,Barclays ATP World Tour Finals,S,Roger Federer,false,68.0,cluster_2,-0.17,12
+53.0,40.0,Alexandr Dolgopolov,$1.220,David Ferrer,Dec 30 2013,Doha,R32,David Ferrer,false,66.0,cluster_4,0.71,9
+63.0,40.0,Rafael Nadal,$4.792,Rafael Nadal,Dec 30 2013,Doha,Q,Ernests Gulbis,false,33.0,cluster_1,0.2,15
+60.0,34.0,Roger Federer,$6.053,Lleyton Hewitt,Dec 30 2013,Brisbane,F,Lleyton Hewitt,false,14.0,cluster_1,-0.21,3
+63.0,31.0,Kei Nishikori,$2.437,Lleyton Hewitt,Dec 30 2013,Brisbane,S,Lleyton Hewitt,false,15.0,cluster_1,0,0
+61.0,33.0,Feliciano Lopez,$1.550,Lleyton Hewitt,Dec 30 2013,Brisbane,R16,Lleyton Hewitt,false,17.0,cluster_1,-0.2,5
+60.0,24.0,Gael Monfils,$1.411,Rafael Nadal,Dec 30 2013,Doha,F,Rafael Nadal,false,67.0,cluster_0,0.11,2
+59.0,36.0,Ernests Gulbis,$1.237,Rafael Nadal,Dec 30 2013,Doha,Q,Rafael Nadal,false,73.0,cluster_2,0.12,13
+59.0,32.0,Marin Cilic,$2.144,Kei Nishikori,Dec 30 2013,Brisbane,Q,Kei Nishikori,false,48.0,cluster_4,1.28,11
+71.0,44.0,Richard Gasquet,$2.933,Richard Gasquet,Dec 30 2013,ATP World Tour Masters 1000 Paris,R16,Kei Nishikori,false,50.0,cluster_1,1.54,17
+69.0,41.0,Richard Gasquet,$3.654,Richard Gasquet,Dec 30 2013,ATP World Tour Masters 1000 Paris,R32,Fernando Verdasco,false,19.0,cluster_4,0.21,2
+59.0,46.0,David Ferrer,$5.059,David Ferrer,Dec 30 2013,Doha,R32,Alexandr Dolgopolov,false,26.0,cluster_3,-3.13,29
+66.0,38.0,Lleyton Hewitt,$2.690,Lleyton Hewitt,Dec 30 2013,Brisbane,R16,Feliciano Lopez,false,34.0,cluster_0,0.47,3
+71.0,45.0,David Ferrer,$3.467,David Ferrer,Dec 30 2013,ATP World Tour Masters 1000 Paris,R16,Gilles Simon,false,18.0,cluster_0,-0.41,2
+64.0,47.0,Philipp Kohlschreiber,$1.706,Philipp Kohlschreiber,Jan 6 2014,ATP World Tour Masters 1000 Paris,R32,Tommy Haas,false,26.0,cluster_1,2.11,23
+66.0,29.0,Roberto Bautista Agut,$1.530,John Isner,Jan 6 2014,Auckland,S,John Isner,false,24.0,cluster_3,2.07,15
+72.0,18.0,Philipp Kohlschreiber,$2.245,John Isner,Jan 6 2014,Auckland,Q,John Isner,false,25.0,cluster_0,0.33,15
+57.0,24.0,Richard Gasquet,$1.636,Gael Monfils,Jan 6 2014,Doha,R16,Gael Monfils,false,21.0,cluster_1,-0.8,14
+74.0,51.0,David Ferrer,$2.717,David Ferrer,Jan 6 2014,Valencia,R32,Gael Monfils,false,23.0,cluster_2,-0.03,2
+50.0,17.0,Jerzy Janowicz,$1.764,Alexandr Dolgopolov,Jan 6 2014,Sydney,R16,Alexandr Dolgopolov,false,29.0,cluster_0,0.14,4
+75.0,42.0,Gael Monfils,$2.465,Gael Monfils,Jan 7 2014,Doha,R16,Richard Gasquet,false,17.0,cluster_3,1.02,15
+68.0,36.0,Lleyton Hewitt,$1.648,Lleyton Hewitt,Jan 7 2014,Brisbane,S,Kei Nishikori,false,44.0,cluster_0,0,0
+67.0,40.0,Kevin Anderson,$1.538,Kevin Anderson,Jan 7 2014,ATP World Tour Masters 1000 Paris,R64,Mikhail Youzhny,false,16.0,cluster_0,1.33,9
+66,51,Stan Wawrinka,$2.528,Stan Wawrinka,Jan 13 2014,ATP World Tour Masters 1000 Paris,R16,Nicolas Almagro,FALSE,45,cluster_3,-0.96,15
+76,44,Tomas Berdych,$6.753,Tomas Berdych,Jan 13 2014,Australian Open Slam,Round of 16,Kevin Anderson,FALSE,37,cluster_4,-0.72,17
+72,28,Stan Wawrinka,$2.145,Stan Wawrinka,Jan 13 2014,Australian Open Slam,Semi Final,Tomas Berdych,FALSE,28,cluster_1,0.2,25
+58,39,David Ferrer,$1.554,Tomas Berdych,Jan 13 2014,Australian Open Slam,Quarter Final,Tomas Berdych,FALSE,29,cluster_3,-0.36,17
+56,24,Kevin Anderson,$1.109,Tomas Berdych,Jan 13 2014,Australian Open Slam,Round of 16,Tomas Berdych,FALSE,30,cluster_2,0.72,17
+70,45,David Ferrer,$3.334,David Ferrer,Jan 13 2014,Australian Open Slam,Round of 32,Jeremy Chardy,FALSE,44,cluster_0,-0.11,3
+63,35,Alexandr Dolgopolov,$2.260,Jeremy Chardy,Jan 13 2014,Australian Open Slam,Round of 64,Jeremy Chardy,FALSE,45,cluster_3,-1.65,13
+59,44,Gilles Simon,$1.275,Gilles Simon,Jan 13 2014,Australian Open Slam,Round of 64,Marin Cilic,FALSE,27,cluster_2,0.09,1
+67.0,34.0,Roberto Bautista Agut,$1.064,Roberto Bautista Agut,Jan 13 2014,Australian Open Slam,Round of 64,Juan Martin del Potro,false,19.0,cluster_4,-0.02,4
+71.0,38.0,Rafael Nadal,$6.575,Rafael Nadal,Jan 13 2014,Australian Open Slam,Quarter Final,Grigor Dimitrov,false,25.0,cluster_3,-0.61,14
+65.0,30.0,Roberto Bautista Agut,$1.630,Grigor Dimitrov,Jan 13 2014,Australian Open Slam,Round of 16,Grigor Dimitrov,false,26.0,cluster_0,-1.51,13
+68.0,20.0,Milos Raonic,$2.125,Grigor Dimitrov,Jan 13 2014,Australian Open Slam,Round of 32,Grigor Dimitrov,false,27.0,cluster_0,-0.11,8
+49.0,17.0,Fabio Fognini,$1.013,Novak Djokovic,Jan 13 2014,Australian Open Slam,Round of 16,Novak Djokovic,false,41.0,cluster_3,4.89,16
+60.0,27.0,Andy Murray,$1.724,Roger Federer,Jan 13 2014,Australian Open Slam,Quarter Final,Roger Federer,false,50.0,cluster_0,1.26,23
+63.0,20.0,Jo-Wilfried Tsonga,$1.554,Roger Federer,Jan 13 2014,Australian Open Slam,Round of 16,Roger Federer,false,54.0,cluster_0,1.23,15
+65.0,39.0,Lleyton Hewitt,$1.174,Lleyton Hewitt,Jan 13 2014,Brisbane,F,Roger Federer,false,62.0,cluster_1,0.76,4
+61.0,42.0,Tomas Berdych,$2.460,Tomas Berdych,Jan 13 2014,Australian Open Slam,Quarter Final,David Ferrer,false,54.0,cluster_1,0.44,16
+55.0,30.0,Jeremy Chardy,$1.395,David Ferrer,Jan 13 2014,Australian Open Slam,Round of 32,David Ferrer,false,56.0,cluster_3,0.7,3
+64.0,36.0,Andreas Seppi,$1.283,Andreas Seppi,Jan 13 2014,Australian Open Slam,Round of 128,Lleyton Hewitt,false,13.0,cluster_0,-0.8,11
+75.0,39.0,Rafael Nadal,$3.245,Rafael Nadal,Jan 13 2014,Doha,F,Gael Monfils,false,18.0,cluster_4,-0.09,1
+73.0,40.0,Roger Federer,$2.289,Roger Federer,Jan 13 2014,Australian Open Slam,Quarter Final,Andy Murray,false,46.0,cluster_3,0.84,31
+60.0,27.0,Feliciano Lopez,$1.107,Andy Murray,Jan 13 2014,Australian Open Slam,Round of 32,Andy Murray,false,48.0,cluster_2,1.03,7
+71.0,44.0,Stan Wawrinka,$1.175,Stan Wawrinka,Jan 13 2014,Australian Open Slam,Final,Rafael Nadal,false,54.0,cluster_3,5.41,31
+60.0,27.0,Roger Federer,$1.654,Rafael Nadal,Jan 13 2014,Australian Open Slam,Semi Final,Rafael Nadal,false,55.0,cluster_0,5.04,32
+62.0,29.0,Grigor Dimitrov,$1.114,Rafael Nadal,Jan 13 2014,Australian Open Slam,Quarter Final,Rafael Nadal,false,58.0,cluster_2,0.79,16
+58.0,35.0,Kei Nishikori,$1.029,Rafael Nadal,Jan 13 2014,Australian Open Slam,Round of 16,Rafael Nadal,false,59.0,cluster_2,2.04,10
+50.0,27.0,Gael Monfils,$1.100,Rafael Nadal,Jan 13 2014,Australian Open Slam,Round of 32,Rafael Nadal,false,60.0,cluster_4,2.3,20
+80.0,32.0,Grigor Dimitrov,$1.726,Grigor Dimitrov,Jan 13 2014,Australian Open Slam,Round of 32,Milos Raonic,false,46.0,cluster_3,0.34,11
+73.0,37.0,Stan Wawrinka,$3.191,Stan Wawrinka,Jan 13 2014,Australian Open Slam,Round of 16,Tommy Robredo,false,23.0,cluster_4,0.67,18
+64.0,35.0,Richard Gasquet,$2.579,Tommy Robredo,Jan 13 2014,Australian Open Slam,Round of 32,Tommy Robredo,false,24.0,cluster_0,0,0
+64.0,36.0,Lleyton Hewitt,$4.206,Andreas Seppi,Jan 13 2014,Australian Open Slam,Round of 128,Andreas Seppi,false,20.0,cluster_0,1.94,12
+80.0,38.0,Roger Federer,$2.460,Roger Federer,Jan 13 2014,Australian Open Slam,Round of 16,Jo-Wilfried Tsonga,false,52.0,cluster_4,0.76,18
+69.0,25.0,Gilles Simon,$1.153,Jo-Wilfried Tsonga,Jan 13 2014,Australian Open Slam,Round of 32,Jo-Wilfried Tsonga,false,55.0,cluster_1,1.04,21
+56.0,29.0,Rafael Nadal,$6.025,Stan Wawrinka,Jan 13 2014,Australian Open Slam,Final,Stan Wawrinka,false,27.0,cluster_2,-0.43,24
+72.0,28.0,Tomas Berdych,$1.815,Stan Wawrinka,Jan 13 2014,Australian Open Slam,Semi Final,Stan Wawrinka,false,30.0,cluster_0,0.48,21
+68.0,37.0,Novak Djokovic,$7.979,Stan Wawrinka,Jan 13 2014,Australian Open Slam,Quarter Final,Stan Wawrinka,false,33.0,cluster_3,-0.71,21
+63.0,27.0,Tommy Robredo,$1.358,Stan Wawrinka,Jan 13 2014,Australian Open Slam,Round of 16,Stan Wawrinka,false,34.0,cluster_2,-0.33,23
+66.0,33.0,Juan Martin del Potro,$13.033,Roberto Bautista Agut,Jan 13 2014,Australian Open Slam,Round of 64,Roberto Bautista Agut,false,14.0,cluster_0,0.1,3
+70.0,33.0,John Isner,$2.752,John Isner,Jan 13 2014,Auckland,S,Roberto Bautista Agut,false,76.0,cluster_0,0.11,4
+65.0,37.0,Jeremy Chardy,$1.741,Jeremy Chardy,Jan 13 2014,Australian Open Slam,Round of 64,Alexandr Dolgopolov,false,27.0,cluster_3,2.61,15
+83.0,51.0,Novak Djokovic,$15.802,Novak Djokovic,Jan 13 2014,Australian Open Slam,Round of 16,Fabio Fognini,false,9.0,cluster_0,-2.46,14
+81.0,27.0,John Isner,$1.749,John Isner,Jan 13 2014,Auckland,Q,Philipp Kohlschreiber,false,66.0,cluster_2,-0.12,7
+73.0,40.0,Andy Murray,$6.802,Andy Murray,Jan 13 2014,Australian Open Slam,Round of 32,Feliciano Lopez,false,78.0,cluster_3,1.13,17
+56.0,41.0,Marin Cilic,$4.292,Gilles Simon,Jan 13 2014,Australian Open Slam,Round of 64,Gilles Simon,false,69.0,cluster_3,-0.16,4
+73.0,40.0,Rafael Nadal,$2.424,Rafael Nadal,Jan 31 2014,Australian Open Slam,Semi Final,Roger Federer,false,49.0,cluster_2,-0.17,14
+65.0,36.0,Tommy Robredo,$1.510,Tommy Robredo,Jan 31 2014,Australian Open Slam,Round of 32,Richard Gasquet,false,14.0,cluster_2,0.39,6
+73.0,50.0,Rafael Nadal,$7.098,Rafael Nadal,Jan 31 2014,Australian Open Slam,Round of 32,Gael Monfils,false,15.0,cluster_2,-0.44,10
+65.0,42.0,Rafael Nadal,$12.817,Rafael Nadal,Jan 31 2014,Australian Open Slam,Round of 16,Kei Nishikori,false,38.0,cluster_1,-2.03,11
+58,34,Fabio Fognini,$2.159,Fabio Fognini,Feb 3 2014,Vina del Mar,S,Nicolas Almagro,FALSE,38,cluster_4,0.87,36
+64,41,Fabio Fognini,$3.184,Fabio Fognini,Feb 3 2014,Vina del Mar,Q,Jeremy Chardy,FALSE,35,cluster_0,0.24,1
+58,33,Tommy Haas,$1.530,Marin Cilic,Feb 3 2014,Zagreb,F,Marin Cilic,FALSE,22,cluster_1,0.58,6
+67.0,22.0,Jerzy Janowicz,$1.567,Richard Gasquet,Feb 3 2014,Montpellier,S,Richard Gasquet,false,11.0,cluster_4,0.98,18
+70.0,35.0,Grigor Dimitrov,$2.510,Grigor Dimitrov,Feb 3 2014,Australian Open Slam,Round of 16,Roberto Bautista Agut,false,6.0,cluster_0,1.71,12
+58.0,35.0,Jeremy Chardy,$1.423,Fabio Fognini,Feb 3 2014,Vina del Mar,Q,Fabio Fognini,false,65.0,cluster_4,-0.1,2
+65.0,41.0,Nicolas Almagro,$1.806,Fabio Fognini,Feb 3 2014,Vina del Mar,S,Fabio Fognini,false,68.0,cluster_4,-0.27,19
+77.0,32.0,Richard Gasquet,$2.639,Richard Gasquet,Feb 3 2014,Montpellier,S,Jerzy Janowicz,false,36.0,cluster_3,-1.95,27
+63,45,David Ferrer,$3.571,David Ferrer,Feb 10 2014,Buenos Aires,S,Nicolas Almagro,FALSE,33,cluster_3,-1.48,27
+59,35,Jeremy Chardy,$1.424,Nicolas Almagro,Feb 10 2014,Buenos Aires,Q,Nicolas Almagro,FALSE,34,cluster_4,2.09,12
+59,23,Marin Cilic,$1.472,Tomas Berdych,Feb 10 2014,Rotterdam,F,Tomas Berdych,FALSE,23,cluster_2,0.52,12
+58,28,Ernests Gulbis,$1.574,Tomas Berdych,Feb 10 2014,Rotterdam,S,Tomas Berdych,FALSE,24,cluster_2,-0.02,1
+59,31,Jerzy Janowicz,$1.366,Tomas Berdych,Feb 10 2014,Rotterdam,Q,Tomas Berdych,FALSE,25,cluster_1,0.01,21
+55,16,Andreas Seppi,$1.132,Tomas Berdych,Feb 10 2014,Rotterdam,R32,Tomas Berdych,FALSE,27,cluster_2,0.41,3
+64,40,Nicolas Almagro,$3.176,Nicolas Almagro,Feb 10 2014,Buenos Aires,Q,Jeremy Chardy,FALSE,28,cluster_3,-0.53,9
+70,29,Alexandr Dolgopolov,$1.730,Jeremy Chardy,Feb 10 2014,Buenos Aires,R16,Jeremy Chardy,FALSE,32,cluster_3,-1.52,23
+76,40,Tomas Berdych,$2.962,Tomas Berdych,Feb 10 2014,Rotterdam,F,Marin Cilic,FALSE,17,cluster_0,-0.26,13
+70,27,Andy Murray,$2.752,Marin Cilic,Feb 10 2014,Rotterdam,Q,Marin Cilic,FALSE,19,cluster_0,-1.67,23
+66,20,Jo-Wilfried Tsonga,$2.619,Marin Cilic,Feb 10 2014,Rotterdam,R16,Marin Cilic,FALSE,20,cluster_4,2.75,21
+77.0,40.0,Ernests Gulbis,$1.376,Ernests Gulbis,Feb 10 2014,Rotterdam,Q,Juan Martin Del Potro,false,10.0,cluster_4,0.77,16
+63.0,33.0,Gael Monfils,$1.584,Juan Martin Del Potro,Feb 10 2014,Rotterdam,R32,Juan Martin Del Potro,false,14.0,cluster_3,2.95,21
+74.0,30.0,Ernests Gulbis,$1.591,Ernests Gulbis,Feb 10 2014,Rotterdam,R16,Grigor Dimitrov,false,23.0,cluster_0,0.06,1
+55.0,31.0,Fabio Fognini,$1.402,David Ferrer,Feb 10 2014,Buenos Aires,F,David Ferrer,false,42.0,cluster_3,0,0
+54.0,36.0,Nicolas Almagro,$1.357,David Ferrer,Feb 10 2014,Buenos Aires,S,David Ferrer,false,46.0,cluster_3,1.26,8
+80.0,38.0,Gael Monfils,$1.852,Gael Monfils,Feb 10 2014,Montpellier,F,Richard Gasquet,false,10.0,cluster_3,-0.04,27
+71.0,41.0,Tomas Berdych,$2.619,Tomas Berdych,Feb 10 2014,Rotterdam,S,Ernests Gulbis,false,27.0,cluster_2,-0.84,12
+60.0,22.0,Juan Martin Del Potro,$3.447,Ernests Gulbis,Feb 10 2014,Rotterdam,Q,Ernests Gulbis,false,28.0,cluster_3,-0.14,6
+69.0,25.0,Grigor Dimitrov,$2.575,Ernests Gulbis,Feb 10 2014,Rotterdam,R16,Ernests Gulbis,false,29.0,cluster_3,0.04,7
+62.0,31.0,Fernando Verdasco,$1.853,Tommy Haas,Feb 10 2014,Rotterdam,R32,Tommy Haas,false,19.0,cluster_4,0.39,8
+66.0,41.0,Marin Cilic,$2.752,Marin Cilic,Feb 10 2014,Zagreb,F,Tommy Haas,false,20.0,cluster_1,0.25,3
+61.0,20.0,Richard Gasquet,$2.096,Gael Monfils,Feb 10 2014,Montpellier,F,Gael Monfils,false,10.0,cluster_1,1.84,24
+72.0,29.0,Marin Cilic,$1.530,Marin Cilic,Feb 10 2014,Rotterdam,Q,Andy Murray,false,40.0,cluster_3,4.53,28
+59.0,40.0,Fabio Fognini,$2.289,Fabio Fognini,Feb 10 2014,Buenos Aires,S,Tommy Robredo,false,19.0,cluster_0,-1.28,13
+79.0,33.0,Marin Cilic,$1.574,Marin Cilic,Feb 10 2014,Rotterdam,R16,Jo-Wilfried Tsonga,false,48.0,cluster_4,-0.31,9
+70.0,29.0,Jeremy Chardy,$2.279,Jeremy Chardy,Feb 10 2014,Buenos Aires,R16,Alexandr Dolgopolov,false,40.0,cluster_1,2.18,30
+59.0,40.0,Tommy Robredo,$1.724,Fabio Fognini,Feb 10 2014,Buenos Aires,S,Fabio Fognini,false,75.0,cluster_4,2.79,37
+68.0,44.0,David Ferrer,$3.292,David Ferrer,Feb 10 2014,Buenos Aires,F,Fabio Fognini,false,76.0,cluster_0,-0.98,12
+68.0,40.0,Tomas Berdych,$3.510,Tomas Berdych,Feb 10 2014,Rotterdam,Q,Jerzy Janowicz,false,38.0,cluster_2,1.06,16
+59.0,22.0,Tommy Haas,$1.724,Jerzy Janowicz,Feb 10 2014,Rotterdam,R16,Jerzy Janowicz,false,39.0,cluster_0,-0.17,3
+56.0,34.0,Richard Gasquet,$2.129,Philipp Kohlschreiber,Feb 10 2014,Rotterdam,R16,Philipp Kohlschreiber,false,76.0,cluster_1,0,0
+75.0,31.0,Jo-Wilfried Tsonga,$5.478,Jo-Wilfried Tsonga,Feb 10 2014,Australian Open Slam,Round of 32,Gilles Simon,false,64.0,cluster_4,0.57,29
+64,44,Alexandr Dolgopolov,$1.334,Alexandr Dolgopolov,Feb 17 2014,Rio de Janeiro,R32,Nicolas Almagro,FALSE,28,cluster_3,-0.09,1
+65,38,Marin Cilic,$3.571,Marin Cilic,Feb 17 2014,Delray Beach,F,Kevin Anderson,FALSE,29,cluster_1,-1.04,24
+63,56,David Ferrer,$6.948,David Ferrer,Feb 17 2014,Rio de Janeiro,R32,Jeremy Chardy,FALSE,27,cluster_0,-1.37,11
+61,34,Kevin Anderson,$1.357,Marin Cilic,Feb 17 2014,Delray Beach,F,Marin Cilic,FALSE,13,cluster_1,0.69,20
+61,25,John Isner,$1.470,Marin Cilic,Feb 17 2014,Delray Beach,S,Marin Cilic,FALSE,14,cluster_4,0.96,13
+66.0,45.0,Alexandr Dolgopolov,$1.237,Alexandr Dolgopolov,Feb 17 2014,Rio de Janeiro,S,David Ferrer,false,35.0,cluster_1,3.28,34
+43.0,36.0,Jeremy Chardy,$1.145,David Ferrer,Feb 17 2014,Rio de Janeiro,R32,David Ferrer,false,41.0,cluster_0,1.96,11
+65.0,43.0,Philipp Kohlschreiber,$1.827,Philipp Kohlschreiber,Feb 17 2014,Rotterdam,R16,Richard Gasquet,false,8.0,cluster_1,0,0
+68.0,22.0,Jo-Wilfried Tsonga,$2.327,Ernests Gulbis,Feb 17 2014,Marseille,F,Ernests Gulbis,false,23.0,cluster_3,0.44,24
+56.0,22.0,Richard Gasquet,$2.178,Ernests Gulbis,Feb 17 2014,Marseille,S,Ernests Gulbis,false,24.0,cluster_3,0,0
+65.0,32.0,Roberto Bautista Agut,$1.432,Ernests Gulbis,Feb 17 2014,Marseille,R16,Ernests Gulbis,false,26.0,cluster_4,2.35,11
+77.0,40.0,Jerzy Janowicz,$2.288,Jerzy Janowicz,Feb 17 2014,Rotterdam,R16,Tommy Haas,false,18.0,cluster_1,0.18,4
+75.0,38.0,Marin Cilic,$2.971,Marin Cilic,Feb 17 2014,Delray Beach,S,John Isner,false,18.0,cluster_2,-0.96,14
+58.0,29.0,Alexandr Dolgopolov,$1.183,Rafael Nadal,Feb 17 2014,Rio de Janeiro,F,Rafael Nadal,false,41.0,cluster_2,2.3,14
+77.0,31.0,Ernests Gulbis,$1.703,Ernests Gulbis,Feb 17 2014,Marseille,F,Jo-Wilfried Tsonga,false,40.0,cluster_4,-0.67,11
+67.0,34.0,Ernests Gulbis,$3.136,Ernests Gulbis,Feb 17 2014,Marseille,R16,Roberto Bautista Agut,false,73.0,cluster_0,-0.04,7
+55.0,35.0,Nicolas Almagro,$3.738,Alexandr Dolgopolov,Feb 17 2014,Rio de Janeiro,R32,Alexandr Dolgopolov,false,39.0,cluster_4,0,0
+70.0,41.0,Rafael Nadal,$5.821,Rafael Nadal,Feb 17 2014,Rio de Janeiro,F,Alexandr Dolgopolov,false,41.0,cluster_2,-1.91,12
+54.0,33.0,David Ferrer,$4.792,Alexandr Dolgopolov,Feb 17 2014,Rio de Janeiro,S,Alexandr Dolgopolov,false,42.0,cluster_4,-2.65,45
+64.0,59.0,Alexandr Dolgopolov,$1.559,Alexandr Dolgopolov,Feb 17 2014,Rio de Janeiro,Q,Fabio Fognini,false,79.0,cluster_1,0.17,1
+69,34,Grigor Dimitrov,$2.915,Grigor Dimitrov,Feb 24 2014,Acapulco,F,Kevin Anderson,FALSE,21,cluster_1,-0.65,13
+63,22,Alexandr Dolgopolov,$2.752,Kevin Anderson,Feb 24 2014,Acapulco,S,Kevin Anderson,FALSE,22,cluster_2,0.13,8
+59,42,David Ferrer,$3.555,Kevin Anderson,Feb 24 2014,Acapulco,Q,Kevin Anderson,FALSE,24,cluster_0,-0.41,17
+65,44,Roger Federer,$2.298,Roger Federer,Feb 24 2014,Dubai,F,Tomas Berdych,FALSE,18,cluster_4,0.01,5
+65,28,Philipp Kohlschreiber,$1.152,Tomas Berdych,Feb 24 2014,Dubai,S,Tomas Berdych,FALSE,19,cluster_1,0.25,2
+62,29,Jo-Wilfried Tsonga,$1.384,Tomas Berdych,Feb 24 2014,Dubai,Q,Tomas Berdych,FALSE,20,cluster_1,0.7,4
+83,34,Alexandr Dolgopolov,$2.556,Alexandr Dolgopolov,Feb 24 2014,Acapulco,R16,Jeremy Chardy,FALSE,21,cluster_1,-0.41,31
+65.0,30.0,Kevin Anderson,$1.484,Grigor Dimitrov,Feb 24 2014,Acapulco,F,Grigor Dimitrov,false,18.0,cluster_0,-0.05,1
+70.0,29.0,Andy Murray,$2.861,Grigor Dimitrov,Feb 24 2014,Acapulco,S,Grigor Dimitrov,false,19.0,cluster_0,-1.77,25
+56.0,40.0,Ernests Gulbis,$1.830,Grigor Dimitrov,Feb 24 2014,Acapulco,Q,Grigor Dimitrov,false,20.0,cluster_1,-0.08,11
+45.0,31.0,Roberto Bautista Agut,$1.024,Novak Djokovic,Feb 24 2014,Dubai,R16,Novak Djokovic,false,38.0,cluster_1,0.01,1
+63.0,32.0,Stan Wawrinka,$1.081,Stan Wawrinka,Feb 24 2014,Australian Open Slam,Quarter Final,Novak Djokovic,false,40.0,cluster_4,4.44,38
+63.0,31.0,Novak Djokovic,$4.960,Roger Federer,Feb 24 2014,Dubai,S,Roger Federer,false,39.0,cluster_0,-0.25,14
+57.0,40.0,Kevin Anderson,$1.359,Kevin Anderson,Feb 24 2014,Acapulco,Q,David Ferrer,false,24.0,cluster_3,2.83,13
+64.0,27.0,Feliciano Lopez,$1.314,David Ferrer,Feb 24 2014,Acapulco,R16,David Ferrer,false,29.0,cluster_2,2.31,16
+59.0,43.0,Grigor Dimitrov,$2.125,Grigor Dimitrov,Feb 24 2014,Acapulco,Q,Ernests Gulbis,false,21.0,cluster_1,1.54,17
+70.0,29.0,Grigor Dimitrov,$1.498,Grigor Dimitrov,Feb 24 2014,Acapulco,S,Andy Murray,false,34.0,cluster_3,1.59,28
+55.0,42.0,Gilles Simon,$1.155,Andy Murray,Feb 24 2014,Acapulco,Q,Andy Murray,false,35.0,cluster_0,4.67,29
+66.0,44.0,Philipp Kohlschreiber,$3.394,Philipp Kohlschreiber,Feb 24 2014,Dubai,R16,Andreas Seppi,false,16.0,cluster_3,-0.22,16
+70.0,37.0,Tomas Berdych,$3.397,Tomas Berdych,Feb 24 2014,Dubai,Q,Jo-Wilfried Tsonga,false,36.0,cluster_0,-0.5,6
+68.0,54.0,Novak Djokovic,$24.813,Novak Djokovic,Feb 24 2014,Dubai,R16,Roberto Bautista Agut,false,9.0,cluster_3,-1.02,11
+65.0,16.0,Jeremy Chardy,$1.598,Alexandr Dolgopolov,Feb 24 2014,Acapulco,R16,Alexandr Dolgopolov,false,43.0,cluster_0,3.17,36
+77.0,36.0,Kevin Anderson,$1.530,Kevin Anderson,Feb 24 2014,Acapulco,S,Alexandr Dolgopolov,false,48.0,cluster_2,1.65,17
+55.0,33.0,Andreas Seppi,$1.384,Philipp Kohlschreiber,Feb 24 2014,Dubai,R16,Philipp Kohlschreiber,false,80.0,cluster_1,0.85,19
+71.0,34.0,Tomas Berdych,$6.716,Tomas Berdych,Feb 24 2014,Dubai,S,Philipp Kohlschreiber,false,85.0,cluster_0,-0.13,5
+72.0,35.0,David Ferrer,$3.909,David Ferrer,Feb 24 2014,Acapulco,R16,Feliciano Lopez,false,36.0,cluster_3,-1.12,8
+57.0,44.0,Andy Murray,$6.609,Andy Murray,Feb 24 2014,Acapulco,Q,Gilles Simon,false,37.0,cluster_3,-2.84,27
+82,44,Roger Federer,$5.209,Roger Federer,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,Q,Kevin Anderson,FALSE,13,cluster_4,-0.94,15
+57,39,Stan Wawrinka,$4.426,Kevin Anderson,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Kevin Anderson,FALSE,14,cluster_0,-1.22,13
+66,30,Lleyton Hewitt,$1.376,Kevin Anderson,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Kevin Anderson,FALSE,18,cluster_1,-0.71,15
+59,43,Roberto Bautista Agut,$1.147,Roberto Bautista Agut,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Tomas Berdych,FALSE,17,cluster_3,1.08,8
+67,35,Tommy Haas,$1.922,Tommy Haas,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Jeremy Chardy,FALSE,17,cluster_3,0.19,7
+65,35,Novak Djokovic,$5.489,Novak Djokovic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Marin Cilic,FALSE,10,cluster_0,-1.04,13
+58,26,Tommy Robredo,$1.341,Marin Cilic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Marin Cilic,FALSE,11,cluster_4,0.81,8
+67.0,39.0,Ernests Gulbis,$2.058,Ernests Gulbis,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Grigor Dimitrov,false,16.0,cluster_1,-0.33,24
+57.0,32.0,John Isner,$1.219,Novak Djokovic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,S,Novak Djokovic,false,28.0,cluster_2,4.53,31
+64.0,34.0,Marin Cilic,$1.198,Novak Djokovic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Novak Djokovic,false,30.0,cluster_4,0.48,2
+68.0,36.0,Roger Federer,$1.226,Roger Federer,Mar 3 2014,Dubai,S,Novak Djokovic,false,35.0,cluster_4,0.69,18
+49.0,23.0,Alexandr Dolgopolov,$1.340,Roger Federer,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,S,Roger Federer,false,30.0,cluster_4,0,0
+55.0,17.0,Kevin Anderson,$1.212,Roger Federer,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,Q,Roger Federer,false,33.0,cluster_3,0.97,12
+59.0,30.0,Tommy Haas,$1.214,Roger Federer,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Roger Federer,false,34.0,cluster_0,0.66,26
+55.0,34.0,Tomas Berdych,$1.719,Roger Federer,Mar 3 2014,Dubai,F,Roger Federer,false,38.0,cluster_1,-5.55111512313e-17,14
+77.0,43.0,Ernests Gulbis,$1.792,Ernests Gulbis,Mar 3 2014,Marseille,S,Richard Gasquet,false,5.0,cluster_3,0.11,1
+71.0,34.0,John Isner,$1.735,John Isner,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,Q,Ernests Gulbis,false,17.0,cluster_2,1.18,27
+55.0,37.0,Roberto Bautista Agut,$1.387,Ernests Gulbis,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Ernests Gulbis,false,18.0,cluster_4,2.64,29
+60.0,32.0,Grigor Dimitrov,$1.883,Ernests Gulbis,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Ernests Gulbis,false,19.0,cluster_4,0.07,19
+69.0,33.0,Kevin Anderson,$3.444,Kevin Anderson,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Lleyton Hewitt,false,7.0,cluster_0,0.6,14
+67.0,42.0,Novak Djokovic,$5.085,Novak Djokovic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,S,John Isner,false,12.0,cluster_2,0.08,25
+65.0,28.0,Ernests Gulbis,$2.270,John Isner,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,Q,John Isner,false,13.0,cluster_3,-0.05,14
+70.0,26.0,Fernando Verdasco,$1.629,John Isner,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,John Isner,false,14.0,cluster_0,-0.04,4
+66.0,36.0,Juan Martin Del Potro,$2.593,Juan Martin Del Potro,Mar 3 2014,Rotterdam,R32,Gael Monfils,false,9.0,cluster_4,-0.46,13
+72.0,37.0,Milos Raonic,$1.719,Milos Raonic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Andy Murray,false,27.0,cluster_3,-0.71,14
+59.0,35.0,Alexandr Dolgopolov,$1.129,Alexandr Dolgopolov,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Rafael Nadal,false,36.0,cluster_2,4.14,28
+72.0,38.0,Alexandr Dolgopolov,$1.806,Alexandr Dolgopolov,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,Q,Milos Raonic,false,40.0,cluster_3,-0.07,2
+62.0,27.0,Andy Murray,$2.298,Milos Raonic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Milos Raonic,false,42.0,cluster_0,-0.18,1
+73.0,41.0,Marin Cilic,$3.689,Marin Cilic,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Tommy Robredo,false,14.0,cluster_4,0.02,3
+58.0,31.0,Richard Gasquet,$3.156,Fernando Verdasco,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Fernando Verdasco,false,12.0,cluster_2,-0.67,16
+68.0,37.0,Tommy Haas,$2.095,Tommy Haas,Mar 3 2014,Rotterdam,R32,Fernando Verdasco,false,14.0,cluster_3,0.22,6
+60.0,42.0,Kevin Anderson,$1.264,Kevin Anderson,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Stan Wawrinka,false,20.0,cluster_1,1.28,11
+40.0,23.0,Andreas Seppi,$1.127,Stan Wawrinka,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Stan Wawrinka,false,21.0,cluster_4,4.24,39
+56.0,40.0,Tomas Berdych,$6.888,Roberto Bautista Agut,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R64,Roberto Bautista Agut,false,4.0,cluster_2,-0.34,21
+62.0,44.0,Ernests Gulbis,$3.378,Ernests Gulbis,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Roberto Bautista Agut,false,8.0,cluster_2,0.05,16
+56.0,28.0,Fabio Fognini,$1.530,Alexandr Dolgopolov,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Alexandr Dolgopolov,false,53.0,cluster_4,-0.08,1
+64.0,40.0,Rafael Nadal,$7.624,Alexandr Dolgopolov,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Alexandr Dolgopolov,false,55.0,cluster_3,-3.19,25
+61.0,27.0,Milos Raonic,$2.159,Alexandr Dolgopolov,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,Q,Alexandr Dolgopolov,false,58.0,cluster_1,-0.36,4
+76.0,50.0,Roger Federer,$3.693,Roger Federer,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,S,Alexandr Dolgopolov,false,60.0,cluster_2,-0.08,4
+71.0,43.0,Alexandr Dolgopolov,$2.752,Alexandr Dolgopolov,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R16,Fabio Fognini,false,3.0,cluster_0,-1.29,6
+50.0,41.0,Gael Monfils,$3.204,Fabio Fognini,Mar 3 2014,ATP World Tour Masters 1000 Indian Wells,R32,Fabio Fognini,false,81.0,cluster_3,-0.64,22
+70.0,48.0,Roberto Bautista Agut,$2.221,Roberto Bautista Agut,Mar 3 2014,ATP World Tour Masters 1000 Miami,R64,Jerzy Janowicz,false,42.0,cluster_2,0.33,3
+73,31,John Isner,$2.317,John Isner,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Nicolas Almagro,FALSE,21,cluster_1,-0.58,13
+69,38,Richard Gasquet,$2.087,Richard Gasquet,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Kevin Anderson,FALSE,9,cluster_1,0.66,12
+57,28,Alexandr Dolgopolov,$1.376,Tomas Berdych,Mar 17 2014,ATP World Tour Masters 1000 Miami,Q,Tomas Berdych,FALSE,13,cluster_2,1.16,18
+58,23,John Isner,$1.412,Tomas Berdych,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,Tomas Berdych,FALSE,14,cluster_2,0.63,11
+64,44,Novak Djokovic,$20.546,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Jeremy Chardy,FALSE,14,cluster_0,-0.33,3
+72.0,34.0,Kei Nishikori,$1.883,Kei Nishikori,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Grigor Dimitrov,false,14.0,cluster_0,-1.01,12
+58.0,31.0,Andy Murray,$1.315,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Miami,Q,Novak Djokovic,false,15.0,cluster_2,0.38,6
+63.0,23.0,Tommy Robredo,$1.055,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,Novak Djokovic,false,16.0,cluster_0,0.89,6
+55.0,35.0,Jeremy Chardy,$1.033,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Novak Djokovic,false,24.0,cluster_2,3.78,12
+65.0,33.0,Roger Federer,$1.578,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Indian Wells,F,Novak Djokovic,false,25.0,cluster_4,1.75,28
+46.0,21.0,Richard Gasquet,$1.160,Roger Federer,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,Roger Federer,false,24.0,cluster_3,0.28,1
+66.0,34.0,Novak Djokovic,$2.610,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Indian Wells,F,Roger Federer,false,29.0,cluster_2,1.36,30
+55.0,42.0,Kei Nishikori,$1.592,Kei Nishikori,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,David Ferrer,false,18.0,cluster_4,0.14,1
+50.0,27.0,Andreas Seppi,$1.135,David Ferrer,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,David Ferrer,false,22.0,cluster_0,4.03,26
+69.0,40.0,Roger Federer,$5.170,Roger Federer,Mar 17 2014,ATP World Tour Masters 1000 Indian Wells,R16,Tommy Haas,false,10.0,cluster_1,-1.1,27
+52.0,39.0,Kei Nishikori,$2.828,Tommy Haas,Mar 17 2014,ATP World Tour Masters 1000 Indian Wells,R32,Tommy Haas,false,11.0,cluster_2,-0.28,2
+64.0,32.0,Jeremy Chardy,$2.014,Tommy Haas,Mar 17 2014,ATP World Tour Masters 1000 Indian Wells,R64,Tommy Haas,false,12.0,cluster_4,0.01,5
+76.0,41.0,Tomas Berdych,$3.237,Tomas Berdych,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,John Isner,false,9.0,cluster_2,-0.01,3
+68.0,26.0,Nicolas Almagro,$1.708,John Isner,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,John Isner,false,10.0,cluster_0,0.38,13
+58.0,50.0,Fabio Fognini,$1.419,Fabio Fognini,Mar 17 2014,ATP World Tour Masters 1000 Indian Wells,R32,Gael Monfils,false,7.0,cluster_2,2.82,30
+68.0,41.0,Novak Djokovic,$3.902,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Miami,Q,Andy Murray,false,22.0,cluster_3,0.52,30
+46.0,31.0,Feliciano Lopez,$1.214,Andy Murray,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Andy Murray,false,25.0,cluster_4,2.69,19
+59.0,29.0,Milos Raonic,$1.145,Rafael Nadal,Mar 17 2014,ATP World Tour Masters 1000 Miami,Q,Rafael Nadal,false,27.0,cluster_2,5.43,26
+52.0,17.0,Lleyton Hewitt,$1.072,Rafael Nadal,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Rafael Nadal,false,35.0,cluster_0,0.19,2
+60.0,40.0,Roger Federer,$5.973,Kei Nishikori,Mar 17 2014,ATP World Tour Masters 1000 Miami,Q,Kei Nishikori,false,19.0,cluster_4,-0.45,12
+57.0,44.0,David Ferrer,$2.571,Kei Nishikori,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,Kei Nishikori,false,20.0,cluster_4,-1.99,12
+65.0,27.0,Grigor Dimitrov,$2.058,Kei Nishikori,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Kei Nishikori,false,22.0,cluster_0,1.95,16
+60.0,47.0,Tommy Haas,$1.507,Tommy Haas,Mar 17 2014,ATP World Tour Masters 1000 Indian Wells,R32,Kei Nishikori,false,24.0,cluster_1,0.43,9
+70.0,40.0,Rafael Nadal,$6.958,Rafael Nadal,Mar 17 2014,ATP World Tour Masters 1000 Miami,Q,Milos Raonic,false,34.0,cluster_3,-0.07,2
+76.0,36.0,Novak Djokovic,$14.508,Novak Djokovic,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,Tommy Robredo,false,11.0,cluster_4,-0.16,1
+72.0,50.0,David Ferrer,$7.365,David Ferrer,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Andreas Seppi,false,13.0,cluster_3,-2.15,15
+73.0,29.0,John Isner,$2.480,John Isner,Mar 17 2014,ATP World Tour Masters 1000 Indian Wells,R16,Fernando Verdasco,false,11.0,cluster_3,0.1,3
+69.0,42.0,Alexandr Dolgopolov,$1.381,Alexandr Dolgopolov,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,Stan Wawrinka,false,14.0,cluster_3,0.06,1
+51.0,29.0,Jerzy Janowicz,$1.764,Roberto Bautista Agut,Mar 17 2014,ATP World Tour Masters 1000 Miami,R64,Roberto Bautista Agut,false,71.0,cluster_1,-0.1,2
+65.0,41.0,Fabio Fognini,$1.735,Fabio Fognini,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Roberto Bautista Agut,false,72.0,cluster_0,-0.07,16
+57.0,30.0,Stan Wawrinka,$3.416,Alexandr Dolgopolov,Mar 17 2014,ATP World Tour Masters 1000 Miami,R16,Alexandr Dolgopolov,false,67.0,cluster_4,-0.34,5
+71.0,42.0,Tomas Berdych,$3.447,Tomas Berdych,Mar 17 2014,ATP World Tour Masters 1000 Miami,Q,Alexandr Dolgopolov,false,69.0,cluster_2,-0.56,17
+58.0,34.0,Roberto Bautista Agut,$2.270,Fabio Fognini,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Fabio Fognini,false,6.0,cluster_4,1.64,19
+68.0,53.0,Andy Murray,$5.170,Andy Murray,Mar 17 2014,ATP World Tour Masters 1000 Miami,R32,Feliciano Lopez,false,53.0,cluster_4,-0.81,31
+59.0,39.0,Kei Nishikori,$1.177,Kei Nishikori,Apr 4 2014,ATP World Tour Masters 1000 Miami,Q,Roger Federer,false,23.0,cluster_1,0.85,11
+72.0,44.0,Fabio Fognini,$1.417,Fabio Fognini,Apr 4 2014,Davis Cup,Reverse Singles,Andy Murray,false,19.0,cluster_3,0.24,1
+54.0,36.0,Andreas Seppi,$1.213,Andy Murray,Apr 4 2014,Davis Cup,Singles,Andy Murray,false,20.0,cluster_1,2.92,20
+64.0,46.0,Andy Murray,$5.201,Andy Murray,Apr 4 2014,Davis Cup,Singles,Andreas Seppi,false,12.0,cluster_3,-1.61,17
+56.0,28.0,Andy Murray,$3.212,Fabio Fognini,Apr 4 2014,Davis Cup,Reverse Singles,Fabio Fognini,false,13.0,cluster_2,-1.45,7
+62,36,Fernando Verdasco,$1.540,Fernando Verdasco,Apr 7 2014,Houston,F,Nicolas Almagro,FALSE,13,cluster_4,-0.23,20
+80,35,Gael Monfils,$2.760,Gael Monfils,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Kevin Anderson,FALSE,6,cluster_4,-0.11,4
+60.0,48.0,David Ferrer,$3.378,David Ferrer,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,Grigor Dimitrov,false,11.0,cluster_1,-0.31,15
+71.0,38.0,Stan Wawrinka,$1.692,Stan Wawrinka,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,S,David Ferrer,false,11.0,cluster_1,0,0
+53.0,41.0,Rafael Nadal,$8.885,David Ferrer,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,Q,David Ferrer,false,15.0,cluster_4,1.56,36
+51.0,39.0,Grigor Dimitrov,$1.387,David Ferrer,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,David Ferrer,false,16.0,cluster_4,0.21,15
+43.0,26.0,Jeremy Chardy,$1.110,David Ferrer,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,David Ferrer,false,17.0,cluster_0,4.94,28
+61.0,30.0,Kevin Anderson,$1.859,Richard Gasquet,Apr 13 2014,ATP World Tour Masters 1000 Miami,R32,Richard Gasquet,false,2.0,cluster_2,-0.85,17
+68.0,41.0,Fernando Verdasco,$1.428,Fernando Verdasco,Apr 13 2014,ATP World Tour Masters 1000 Indian Wells,R32,Richard Gasquet,false,4.0,cluster_1,2.41,25
+68.0,46.0,Alexandr Dolgopolov,$1.806,Alexandr Dolgopolov,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Ernests Gulbis,false,15.0,cluster_1,0.22,1
+64.0,19.0,Kevin Anderson,$1.527,Gael Monfils,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Gael Monfils,false,5.0,cluster_1,-0.32,12
+58.0,46.0,David Ferrer,$1.106,David Ferrer,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,Q,Rafael Nadal,false,18.0,cluster_3,2.63,35
+44.0,31.0,Andreas Seppi,$1.014,Rafael Nadal,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,Rafael Nadal,false,22.0,cluster_4,0.53,2
+73.0,32.0,Stan Wawrinka,$3.353,Stan Wawrinka,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,Q,Milos Raonic,false,25.0,cluster_3,-1.09,10
+65.0,22.0,Tommy Robredo,$2.116,Milos Raonic,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,Milos Raonic,false,29.0,cluster_4,1.66,22
+77.0,34.0,Milos Raonic,$1.837,Milos Raonic,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,Tommy Robredo,false,7.0,cluster_4,-2.01,20
+68.0,55.0,Rafael Nadal,$32.211,Rafael Nadal,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,Andreas Seppi,false,8.0,cluster_3,-0.51,3
+58.0,31.0,Mikhail Youzhny,$1.948,Andreas Seppi,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Andreas Seppi,false,10.0,cluster_2,-0.12,3
+65.0,43.0,Roger Federer,$4.118,Roger Federer,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,Q,Jo-Wilfried Tsonga,false,19.0,cluster_0,1.53,34
+52.0,36.0,Fabio Fognini,$2.270,Jo-Wilfried Tsonga,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,Jo-Wilfried Tsonga,false,20.0,cluster_3,0.24,2
+63.0,33.0,Philipp Kohlschreiber,$1.571,Jo-Wilfried Tsonga,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,Jo-Wilfried Tsonga,false,23.0,cluster_1,0.2,3
+63.0,37.0,Nicolas Almagro,$2.720,Fernando Verdasco,Apr 13 2014,Houston,F,Fernando Verdasco,false,6.0,cluster_0,0.63,10
+64.0,30.0,Roger Federer,$2.357,Stan Wawrinka,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,F,Stan Wawrinka,false,5.0,cluster_2,-0.09,13
+61.0,28.0,David Ferrer,$2.347,Stan Wawrinka,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,S,Stan Wawrinka,false,6.0,cluster_2,1.74,24
+67.0,26.0,Milos Raonic,$1.391,Stan Wawrinka,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,Q,Stan Wawrinka,false,7.0,cluster_0,1.31,13
+68.0,41.0,Andreas Seppi,$1.985,Andreas Seppi,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Mikhail Youzhny,false,9.0,cluster_0,0.12,10
+54.0,49.0,Fabio Fognini,$2.923,Fabio Fognini,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,Roberto Bautista Agut,false,74.0,cluster_2,-0.67,19
+53.0,31.0,Ernests Gulbis,$2.159,Alexandr Dolgopolov,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R64,Alexandr Dolgopolov,false,68.0,cluster_4,0.1,1
+50.0,45.0,Roberto Bautista Agut,$1.482,Fabio Fognini,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,Fabio Fognini,false,86.0,cluster_3,3.78,35
+63.0,48.0,Jo-Wilfried Tsonga,$1.735,Jo-Wilfried Tsonga,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R16,Fabio Fognini,false,87.0,cluster_1,0.62,9
+66.0,36.0,Jo-Wilfried Tsonga,$2.628,Jo-Wilfried Tsonga,Apr 13 2014,ATP World Tour Masters 1000 Monte Carlo,R32,Philipp Kohlschreiber,false,10.0,cluster_0,0.16,8
+62,43,Rafael Nadal,$7.041,Nicolas Almagro,Apr 21 2014,Barcelona,Q,Nicolas Almagro,FALSE,4,cluster_3,-0.72,31
+53,27,Fernando Verdasco,$1.957,Nicolas Almagro,Apr 21 2014,Barcelona,R16,Nicolas Almagro,FALSE,5,cluster_0,0.96,19
+68,31,Tommy Robredo,$2.240,Marin Cilic,Apr 21 2014,Barcelona,R16,Marin Cilic,FALSE,6,cluster_0,3.47,25
+74.0,43.0,Kei Nishikori,$2.317,Kei Nishikori,Apr 21 2014,Barcelona,S,Ernests Gulbis,false,11.0,cluster_2,0.03,1
+56.0,37.0,Nicolas Almagro,$1.143,Nicolas Almagro,Apr 21 2014,Barcelona,Q,Rafael Nadal,false,15.0,cluster_2,1.43,19
+56.0,26.0,Ernests Gulbis,$1.708,Kei Nishikori,Apr 21 2014,Barcelona,S,Kei Nishikori,false,11.0,cluster_2,-0.02,1
+45.0,34.0,Marin Cilic,$1.625,Kei Nishikori,Apr 21 2014,Barcelona,Q,Kei Nishikori,false,12.0,cluster_3,0.87,11
+52.0,40.0,Roberto Bautista Agut,$1.967,Kei Nishikori,Apr 21 2014,Barcelona,R32,Kei Nishikori,false,16.0,cluster_3,-0.04,1
+68.0,31.0,Marin Cilic,$1.752,Marin Cilic,Apr 21 2014,Barcelona,R16,Tommy Robredo,false,5.0,cluster_1,-2.02,20
+72.0,46.0,Nicolas Almagro,$1.976,Nicolas Almagro,Apr 21 2014,Barcelona,R16,Fernando Verdasco,false,4.0,cluster_4,-0.49,29
+59.0,47.0,Kei Nishikori,$1.967,Kei Nishikori,Apr 21 2014,Barcelona,R32,Roberto Bautista Agut,false,80.0,cluster_2,-0.02,3
+62.0,34.0,Andreas Seppi,$1.445,Tommy Haas,Apr 28 2014,Munich,Q,Tommy Haas,false,8.0,cluster_4,2.85,19
+65.0,37.0,Tommy Haas,$3.075,Tommy Haas,Apr 28 2014,Munich,Q,Andreas Seppi,false,4.0,cluster_0,-1.8,13
+63,37,Andy Murray,$2.014,Andy Murray,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Nicolas Almagro,FALSE,1,cluster_3,-0.13,3
+80,46,Tomas Berdych,$5.459,Tomas Berdych,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Kevin Anderson,FALSE,4,cluster_4,-1.96,36
+72,41,Rafael Nadal,$6.296,Rafael Nadal,May 5 2014,ATP World Tour Masters 1000 Madrid,Q,Tomas Berdych,FALSE,4,cluster_4,-0.49,14
+66,32,Grigor Dimitrov,$1.713,Tomas Berdych,May 5 2014,ATP World Tour Masters 1000 Madrid,R16,Tomas Berdych,FALSE,5,cluster_1,0.36,3
+53,20,Kevin Anderson,$1.199,Tomas Berdych,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Tomas Berdych,FALSE,6,cluster_2,5.57,45
+80,40,Milos Raonic,$3.693,Milos Raonic,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Jeremy Chardy,FALSE,6,cluster_1,-1.38,28
+70,38,Ernests Gulbis,$2.480,Ernests Gulbis,May 5 2014,ATP World Tour Masters 1000 Madrid,R16,Marin Cilic,FALSE,4,cluster_0,0,0
+67.0,33.0,Tomas Berdych,$2.308,Tomas Berdych,May 5 2014,ATP World Tour Masters 1000 Madrid,R16,Grigor Dimitrov,false,5.0,cluster_0,0.06,4
+75.0,38.0,Roger Federer,$1.334,Roger Federer,May 5 2014,ATP World Tour Masters 1000 Monte Carlo,S,Novak Djokovic,false,7.0,cluster_4,2.07,31
+55.0,22.0,Rafael Nadal,$1.729,Novak Djokovic,May 5 2014,ATP World Tour Masters 1000 Miami,F,Novak Djokovic,false,14.0,cluster_0,5.07,46
+69.0,35.0,Stan Wawrinka,$1.687,Stan Wawrinka,May 5 2014,ATP World Tour Masters 1000 Monte Carlo,F,Roger Federer,false,10.0,cluster_2,0.94,13
+61.0,24.0,Novak Djokovic,$3.738,Roger Federer,May 5 2014,ATP World Tour Masters 1000 Monte Carlo,S,Roger Federer,false,11.0,cluster_0,0.29,32
+56.0,34.0,Jo-Wilfried Tsonga,$1.292,Roger Federer,May 5 2014,ATP World Tour Masters 1000 Monte Carlo,Q,Roger Federer,false,12.0,cluster_1,5.09,38
+62.0,32.0,Kei Nishikori,$1.605,Kei Nishikori,May 5 2014,ATP World Tour Masters 1000 Madrid,S,David Ferrer,false,4.0,cluster_2,-0.1,7
+63.0,30.0,Ernests Gulbis,$1.428,David Ferrer,May 5 2014,ATP World Tour Masters 1000 Madrid,Q,David Ferrer,false,5.0,cluster_2,3.02,19
+60.0,19.0,John Isner,$1.319,David Ferrer,May 5 2014,ATP World Tour Masters 1000 Madrid,R16,David Ferrer,false,6.0,cluster_2,-0.03,5
+69.0,36.0,David Ferrer,$3.156,David Ferrer,May 5 2014,ATP World Tour Masters 1000 Madrid,Q,Ernests Gulbis,false,7.0,cluster_2,-0.42,7
+61.0,29.0,Marin Cilic,$1.629,Ernests Gulbis,May 5 2014,ATP World Tour Masters 1000 Madrid,R16,Ernests Gulbis,false,8.0,cluster_4,0.07,3
+60.0,30.0,Alexandr Dolgopolov,$1.876,Ernests Gulbis,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Ernests Gulbis,false,9.0,cluster_4,-1.02,10
+63.0,34.0,Jerzy Janowicz,$1.292,Ernests Gulbis,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Ernests Gulbis,false,10.0,cluster_4,0.28,17
+80.0,39.0,David Ferrer,$3.860,David Ferrer,May 5 2014,ATP World Tour Masters 1000 Madrid,R16,John Isner,false,5.0,cluster_2,0,0
+62.0,36.0,Nicolas Almagro,$1.922,Andy Murray,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Andy Murray,false,15.0,cluster_0,-0.08,1
+58.0,30.0,Kei Nishikori,$1.131,Rafael Nadal,May 5 2014,ATP World Tour Masters 1000 Madrid,F,Rafael Nadal,false,7.0,cluster_2,3.8,31
+50.0,33.0,Roberto Bautista Agut,$1.058,Rafael Nadal,May 5 2014,ATP World Tour Masters 1000 Madrid,S,Rafael Nadal,false,8.0,cluster_4,0.5,3
+58.0,27.0,Tomas Berdych,$1.165,Rafael Nadal,May 5 2014,ATP World Tour Masters 1000 Madrid,Q,Rafael Nadal,false,11.0,cluster_0,4.26,33
+70.0,30.0,Kei Nishikori,$2.834,Kei Nishikori,May 5 2014,ATP World Tour Masters 1000 Madrid,R16,Milos Raonic,false,15.0,cluster_0,0,0
+60.0,20.0,Jeremy Chardy,$1.340,Milos Raonic,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Milos Raonic,false,19.0,cluster_4,3.63,26
+67.0,34.0,Roberto Bautista Agut,$1.711,Roberto Bautista Agut,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Tommy Robredo,false,4.0,cluster_4,0.03,3
+67.0,41.0,Fernando Verdasco,$3.151,Fernando Verdasco,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Andreas Seppi,false,3.0,cluster_0,-0.03,5
+65.0,35.0,Roberto Bautista Agut,$1.876,Roberto Bautista Agut,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Fernando Verdasco,false,2.0,cluster_3,0.94,19
+58.0,32.0,Andreas Seppi,$1.429,Fernando Verdasco,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Fernando Verdasco,false,3.0,cluster_2,0.17,7
+68.0,36.0,Feliciano Lopez,$1.827,Feliciano Lopez,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Mikhail Youzhny,false,5.0,cluster_0,-0.16,12
+65.0,32.0,Tommy Robredo,$2.312,Roberto Bautista Agut,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Roberto Bautista Agut,false,79.0,cluster_0,-0.02,2
+64.0,34.0,Fernando Verdasco,$2.067,Roberto Bautista Agut,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Roberto Bautista Agut,false,82.0,cluster_0,-0.71,17
+66.0,49.0,Rafael Nadal,$13.912,Rafael Nadal,May 5 2014,ATP World Tour Masters 1000 Madrid,S,Roberto Bautista Agut,false,84.0,cluster_3,-0.43,2
+63.0,31.0,Fabio Fognini,$1.786,Alexandr Dolgopolov,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Alexandr Dolgopolov,false,70.0,cluster_1,1.82,15
+70.0,39.0,Ernests Gulbis,$2.067,Ernests Gulbis,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Alexandr Dolgopolov,false,72.0,cluster_2,2.66,13
+68.0,37.0,Alexandr Dolgopolov,$2.187,Alexandr Dolgopolov,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Fabio Fognini,false,92.0,cluster_4,-2.74,21
+65.0,36.0,Ernests Gulbis,$4.118,Ernests Gulbis,May 5 2014,ATP World Tour Masters 1000 Madrid,R64,Jerzy Janowicz,false,48.0,cluster_1,0.75,24
+63.0,31.0,Mikhail Youzhny,$2.129,Feliciano Lopez,May 5 2014,ATP World Tour Masters 1000 Madrid,R32,Feliciano Lopez,false,57.0,cluster_0,0.06,4
+72.0,41.0,Kei Nishikori,$6.402,Kei Nishikori,May 5 2014,ATP World Tour Masters 1000 Madrid,Q,Feliciano Lopez,false,64.0,cluster_3,-2.44,45
+72,26,Jo-Wilfried Tsonga,$3.323,Jo-Wilfried Tsonga,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Kevin Anderson,FALSE,2,cluster_3,0.23,5
+70,40,Grigor Dimitrov,$1.661,Grigor Dimitrov,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Tomas Berdych,FALSE,2,cluster_4,1.19,19
+69,38,Milos Raonic,$3.555,Milos Raonic,May 12 2014,ATP World Tour Masters 1000 Rome,Q,Jeremy Chardy,FALSE,2,cluster_3,-2.18,31
+62,34,Roger Federer,$7.670,Jeremy Chardy,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Jeremy Chardy,FALSE,4,cluster_3,-0.78,19
+50.0,20.0,Tommy Haas,$1.467,Grigor Dimitrov,May 12 2014,ATP World Tour Masters 1000 Rome,Q,Grigor Dimitrov,false,2.0,cluster_2,0.28,18
+59.0,29.0,Tomas Berdych,$2.409,Grigor Dimitrov,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Grigor Dimitrov,false,3.0,cluster_4,-0.18,13
+51.0,34.0,Rafael Nadal,$2.236,Novak Djokovic,May 12 2014,ATP World Tour Masters 1000 Rome,F,Novak Djokovic,false,2.0,cluster_1,8.22,57
+65.0,30.0,Milos Raonic,$1.160,Novak Djokovic,May 12 2014,ATP World Tour Masters 1000 Rome,S,Novak Djokovic,false,3.0,cluster_4,2.82,21
+59.0,37.0,David Ferrer,$1.370,Novak Djokovic,May 12 2014,ATP World Tour Masters 1000 Rome,Q,Novak Djokovic,false,4.0,cluster_4,2.31,22
+50.0,34.0,Philipp Kohlschreiber,$1.135,Novak Djokovic,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Novak Djokovic,false,5.0,cluster_1,0.11,12
+65.0,37.0,Jeremy Chardy,$1.128,Jeremy Chardy,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Roger Federer,false,6.0,cluster_2,1.19,14
+62.0,40.0,Novak Djokovic,$3.486,Novak Djokovic,May 12 2014,ATP World Tour Masters 1000 Rome,Q,David Ferrer,false,2.0,cluster_1,-1.02,18
+46.0,31.0,Ernests Gulbis,$1.387,David Ferrer,May 12 2014,ATP World Tour Masters 1000 Rome,R16,David Ferrer,false,3.0,cluster_0,3.68,27
+79.0,50.0,Grigor Dimitrov,$2.980,Grigor Dimitrov,May 12 2014,ATP World Tour Masters 1000 Rome,Q,Tommy Haas,false,2.0,cluster_1,1.02,18
+54.0,29.0,Stan Wawrinka,$5.821,Tommy Haas,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Tommy Haas,false,3.0,cluster_3,-0.28,5
+56.0,36.0,Andreas Seppi,$2.004,Tommy Haas,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Tommy Haas,false,5.0,cluster_2,4.96,41
+62.0,43.0,Rafael Nadal,$6.361,Rafael Nadal,May 12 2014,ATP World Tour Masters 1000 Rome,Q,Andy Murray,false,9.0,cluster_0,-0.08,4
+65.0,48.0,Novak Djokovic,$1.755,Novak Djokovic,May 12 2014,ATP World Tour Masters 1000 Rome,F,Rafael Nadal,false,2.0,cluster_3,2.74,41
+45.0,32.0,Grigor Dimitrov,$1.248,Rafael Nadal,May 12 2014,ATP World Tour Masters 1000 Rome,S,Rafael Nadal,false,3.0,cluster_4,5.1,46
+56.0,37.0,Andy Murray,$1.163,Rafael Nadal,May 12 2014,ATP World Tour Masters 1000 Rome,Q,Rafael Nadal,false,4.0,cluster_2,-0.09,5
+51.0,37.0,Mikhail Youzhny,$1.076,Rafael Nadal,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Rafael Nadal,false,5.0,cluster_1,3.18,14
+55.0,39.0,Gilles Simon,$1.036,Rafael Nadal,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Rafael Nadal,false,6.0,cluster_2,0.67,4
+69.0,41.0,Rafael Nadal,$7.533,Rafael Nadal,May 12 2014,ATP World Tour Masters 1000 Madrid,F,Kei Nishikori,false,2.0,cluster_1,-2.22,19
+67.0,37.0,David Ferrer,$2.538,Kei Nishikori,May 12 2014,ATP World Tour Masters 1000 Madrid,S,Kei Nishikori,false,3.0,cluster_0,-0.75,26
+58.0,27.0,Feliciano Lopez,$1.162,Kei Nishikori,May 12 2014,ATP World Tour Masters 1000 Madrid,Q,Kei Nishikori,false,4.0,cluster_2,4.65,37
+69.0,29.0,Milos Raonic,$1.506,Kei Nishikori,May 12 2014,ATP World Tour Masters 1000 Madrid,R16,Kei Nishikori,false,5.0,cluster_0,1.85,21
+69.0,34.0,Novak Djokovic,$6.453,Novak Djokovic,May 12 2014,ATP World Tour Masters 1000 Rome,S,Milos Raonic,false,9.0,cluster_0,-1.77,17
+61.0,30.0,Jeremy Chardy,$1.359,Milos Raonic,May 12 2014,ATP World Tour Masters 1000 Rome,Q,Milos Raonic,false,10.0,cluster_0,5.14,33
+73.0,28.0,Jo-Wilfried Tsonga,$1.967,Milos Raonic,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Milos Raonic,false,13.0,cluster_1,1.92,18
+65.0,46.0,Philipp Kohlschreiber,$1.636,Philipp Kohlschreiber,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Tommy Robredo,false,2.0,cluster_3,0.02,4
+64.0,43.0,Tommy Haas,$1.930,Tommy Haas,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Andreas Seppi,false,2.0,cluster_0,-2.56,25
+71.0,26.0,Milos Raonic,$1.967,Milos Raonic,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Jo-Wilfried Tsonga,false,10.0,cluster_1,-0.24,11
+73.0,27.0,Kevin Anderson,$1.397,Jo-Wilfried Tsonga,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Jo-Wilfried Tsonga,false,12.0,cluster_1,-0.04,5
+65.0,31.0,Alexandr Dolgopolov,$2.014,Jo-Wilfried Tsonga,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Jo-Wilfried Tsonga,false,14.0,cluster_1,0.04,1
+70.0,45.0,Tommy Haas,$1.183,Tommy Haas,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Stan Wawrinka,false,2.0,cluster_3,1.4,12
+62.0,48.0,Rafael Nadal,$11.442,Rafael Nadal,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Mikhail Youzhny,false,2.0,cluster_2,-2.17,14
+68.0,34.0,Jo-Wilfried Tsonga,$1.922,Jo-Wilfried Tsonga,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Alexandr Dolgopolov,false,78.0,cluster_1,-0.23,6
+61.0,42.0,Philipp Kohlschreiber,$2.077,Philipp Kohlschreiber,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Jerzy Janowicz,false,14.0,cluster_1,0.47,8
+57.0,38.0,Jerzy Janowicz,$1.868,Philipp Kohlschreiber,May 12 2014,ATP World Tour Masters 1000 Rome,R64,Philipp Kohlschreiber,false,84.0,cluster_1,-1.04,22
+65.0,50.0,Novak Djokovic,$7.365,Novak Djokovic,May 12 2014,ATP World Tour Masters 1000 Rome,R16,Philipp Kohlschreiber,false,86.0,cluster_4,-0.4,15
+53.0,34.0,Tommy Robredo,$2.465,Philipp Kohlschreiber,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Philipp Kohlschreiber,false,87.0,cluster_1,0.14,9
+60.0,44.0,Rafael Nadal,$19.367,Rafael Nadal,May 12 2014,ATP World Tour Masters 1000 Rome,R32,Gilles Simon,false,47.0,cluster_3,-0.26,3
+66.0,48.0,Tomas Berdych,$3.156,Tomas Berdych,May 21 2014,French Open Slam,Round of 32,Roberto Bautista Agut,false,1.0,cluster_3,-0.68,34
+54.0,50.0,Gael Monfils,$1.939,Gael Monfils,May 21 2014,French Open Slam,Round of 32,Fabio Fognini,false,1.0,cluster_1,-1.09,29
+69.0,42.0,Jo-Wilfried Tsonga,$4.960,Jo-Wilfried Tsonga,May 21 2014,French Open Slam,Round of 32,Jerzy Janowicz,false,17.0,cluster_2,0.02,4
+71.0,25.0,Jo-Wilfried Tsonga,$3.629,Jerzy Janowicz,May 21 2014,ATP World Tour Masters 1000 Rome,R32,Jerzy Janowicz,false,20.0,cluster_4,-1.08,11
+60.0,42.0,Andy Murray,$3.075,Andy Murray,May 21 2014,French Open Slam,Round of 32,Philipp Kohlschreiber,false,1.0,cluster_4,-0.56,5
+62.0,38.0,Milos Raonic,$3.024,Milos Raonic,May 21 2014,French Open Slam,Round of 32,Gilles Simon,false,16.0,cluster_3,0.05,3

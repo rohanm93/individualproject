@@ -3176,5 +3176,917 @@ The formula in Equation [equation reference] are for best of 3 matches and
 Python code
 \end_layout
 
+\begin_layout Standard
+To predict a specific match up between two players, player A and player
+ B, the Python code presented in Figure [fig reference] is used.
+ Note that this is not the complete function; user input methods have been
+ removed for increased readability.
+ Comments have been included to explain relevant parts of the code.
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+lstparams "breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+# Arguments: 
+\end_layout
+
+\begin_layout Plain Layout
+
+# player1 and player2 are the names of the two players
+\end_layout
+
+\begin_layout Plain Layout
+
+def match_up(player1, player2): 	
+\end_layout
+
+\begin_layout Plain Layout
+
+	spw_p1, counter_p1 = predictions(player1,player2)
+\end_layout
+
+\begin_layout Plain Layout
+
+	spw_p2, counter_p2 = predictions(player2,player1)
+\end_layout
+
+\begin_layout Plain Layout
+
+	# normalizing values 	
+\end_layout
+
+\begin_layout Plain Layout
+
+	avg_p1spw = spw_p1/counter_p1 	
+\end_layout
+
+\begin_layout Plain Layout
+
+	avg_p2spw = spw_p2/counter_p2 	
+\end_layout
+
+\begin_layout Plain Layout
+
+	delta_a_b = avg_p1spw - avg_p2spw 	
+\end_layout
+
+\begin_layout Plain Layout
+
+	# user inputs whether it is a five set or three set match
+\end_layout
+
+\begin_layout Plain Layout
+
+	if (five_setter):
+\end_layout
+
+\begin_layout Plain Layout
+
+		p1_win_probability = prediction.match_win_probability_5(0.6+delta_a_b,(1-0.6))
+ + prediction.match_win_probability_5(0.6,(1-(0.6-delta_a_b)))
+\end_layout
+
+\begin_layout Plain Layout
+
+	else:
+\end_layout
+
+\begin_layout Plain Layout
+
+		p1_win_probability = prediction.match_win_probability_3(0.6+delta_a_b,(1-0.6))
+ + prediction.match_win_probability_3(0.6,(1-(0.6-delta_a_b)))
+\end_layout
+
+\begin_layout Plain Layout
+
+	# p1_win_probability refers to the probability that 
+\end_layout
+
+\begin_layout Plain Layout
+
+	# p1 will win the match according to the model
+\end_layout
+
+\begin_layout Plain Layout
+
+	p1_win_probability = p1_win_probability/2
+\end_layout
+
+\begin_layout Plain Layout
+
+	p2_win_probability = 1-p1_win_probability
+\end_layout
+
+\begin_layout Plain Layout
+
+	# predicted_odds_p1 indicates the predicted 
+\end_layout
+
+\begin_layout Plain Layout
+
+	# odds according to the model.
+ one should bet 
+\end_layout
+
+\begin_layout Plain Layout
+
+	# only if market odds are greater than predicted odds
+\end_layout
+
+\begin_layout Plain Layout
+
+	predicted_odds_p1 = 1/p1_win_probability
+\end_layout
+
+\begin_layout Plain Layout
+
+	predicted_odds_p2 = 1/p2_win_probability
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Evaluation
+\end_layout
+
+\begin_layout Standard
+In this project, a model was developed to predict the probability of a player
+ winning a tennis match, using the idea of similar players through clustering
+ techniques.
+ There are three key aspects to consider to evaluate the project as a whole:
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Evaluating the predictive model:
+\shape default
+ First and most importantly, we want to investigate the successfulness of
+ our tennis prediction model.
+ We aim to find out its successfulness when put into competition with bookmakers.
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Evaluating the correctness of the implementation
+\shape default
+: We need to ensure that
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The data collected in Section [section reference] from websites such as
+ TennisInsight and ATP World Tour have been scraped correctly.
+ 
+\end_layout
+
+\begin_layout Enumerate
+O'Malley's hierarchical equations described in Section [section reference]
+ ,for calculating the probability of winning have been implemented correctly
+\end_layout
+
+\begin_layout Enumerate
+Clustering functions, including the use of the Python clustering library
+ Pycluster as described in Section [section reference], are used and implemented
+ in the right way
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\shape italic
+Evaluating the effectiveness of clustering algorithms
+\shape default
+ in determining a variation of player styles: We want to find out if the
+ different clusters generated from the general player profiles are representativ
+e of actual tennis playing styles.
+ 
+\end_layout
+
+\begin_layout Subsection
+Evaluating the predictive tennis model
+\end_layout
+
+\begin_layout Subsubsection
+Return on Investment
+\end_layout
+
+\begin_layout Standard
+It is integral to evaluate the performance of our model in terms of the
+ predictions it generates for tennis matches.
+ We use past matches that we already know the winners of, to evaluate its
+ successfulness.
+ We have run our predictive model over a set of approximately 500 singles
+ fixtures that have happened previously (from the start of 2013 to May 2014),
+ and find the return on investment (ROI) generated when the model is put
+ into competition with the actual betting market.
+ This list of fixtures was generated by going through our entire dataset
+ of all players' fixtures, and selecting the matches that involved players
+ that were in our selected focused set of 33 players.
+ Hence, these fixtures include only the set of all the matches where both
+ players are in our set of 33 players.
+ 
+\end_layout
+
+\begin_layout Standard
+For each of these matches/fixtures, we calculate the match winning probability
+ for each player, and hence, using the formula 
+\begin_inset Formula $predicted\: odds=1/predicted\: probability$
+\end_inset
+
+, we calculate the predicted odds for each player winning the tennis match.
+ If the actual market odds are better than the predicted odds calculated
+ for either player, we bet a fixed single unit (£1) on that player to win
+ the match.
+ We decided to use a fixed unit to ensure that our model follows a simple
+ strategy and is consistent over a range of matches.
+ Maximizing the ROI is not the key aim of our project.
+ However, there is certainly scope to improve the return of investment by
+ introducing a confidence or risk associated with each bet, decreasing the
+ amount bet on a single match if there is a high risk.
+ 
+\end_layout
+
+\begin_layout Standard
+Once we use our model to generate predictions of the outcomes of all fixtures,
+ we find the eventual return on investment adding the total money won or
+ lost for each bet.
+ This allows us the significant advantage of being able to judge to what
+ extent our model is successful when put to use in the real market.
+ Python code is presented in Figure [figure reference], which shows how
+ the described strategy is implemented.
+ Note that the entire function is not shown, due to its lengthy implementation,
+ and only relevant parts are presented.
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+lstparams "breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+def simulate_bets():
+\end_layout
+
+\begin_layout Plain Layout
+
+	fixtures = csv.DictReader(open("fixtures.csv"))
+\end_layout
+
+\begin_layout Plain Layout
+
+	roi = 0
+\end_layout
+
+\begin_layout Plain Layout
+
+	# '...' refers to code to generate market and 
+\end_layout
+
+\begin_layout Plain Layout
+
+	# predicted odds for each player.
+ This code has
+\end_layout
+
+\begin_layout Plain Layout
+
+	# been described in previous sections
+\end_layout
+
+\begin_layout Plain Layout
+
+	...
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+	for fixture in fixtures:
+\end_layout
+
+\begin_layout Plain Layout
+
+		# winner is set to 1 if player 1 won the match,
+\end_layout
+
+\begin_layout Plain Layout
+
+		# and set to 2 if player 2 won the match
+\end_layout
+
+\begin_layout Plain Layout
+
+		winner = get_winner_of_fixture(fixture)
+\end_layout
+
+\begin_layout Plain Layout
+
+		if (market_odds_p1>predicted_odds_p1):
+\end_layout
+
+\begin_layout Plain Layout
+
+			# Bet on player 1 if the actual market odds 
+\end_layout
+
+\begin_layout Plain Layout
+
+			# are better than the calculated predicted
+\end_layout
+
+\begin_layout Plain Layout
+
+			# odds
+\end_layout
+
+\begin_layout Plain Layout
+
+			betted = 1
+\end_layout
+
+\begin_layout Plain Layout
+
+		elif (market_odds_p2>predicted_odds_p2):
+\end_layout
+
+\begin_layout Plain Layout
+
+			# Bet on player 2
+\end_layout
+
+\begin_layout Plain Layout
+
+			betted = 2
+\end_layout
+
+\begin_layout Plain Layout
+
+		if (betted==1 and winner==1):
+\end_layout
+
+\begin_layout Plain Layout
+
+			# if bet on player 1 and player 1 won the match
+\end_layout
+
+\begin_layout Plain Layout
+
+			# add the profit to the overall roi
+\end_layout
+
+\begin_layout Plain Layout
+
+			roi+=(market_odds_p1 - 1)
+\end_layout
+
+\begin_layout Plain Layout
+
+		elif (betted==2 and winner==2): 
+\end_layout
+
+\begin_layout Plain Layout
+
+			roi+=(market_odds_p2 - 1)
+\end_layout
+
+\begin_layout Plain Layout
+
+		elif (betted!=winner):
+\end_layout
+
+\begin_layout Plain Layout
+
+			# if bet incorrectly, subtract 1 pound from
+\end_layout
+
+\begin_layout Plain Layout
+
+			# the overall roi
+\end_layout
+
+\begin_layout Plain Layout
+
+			roi-=1
+\end_layout
+
+\begin_layout Plain Layout
+
+	return roi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To demonstrate this method on a specific example, we take the match played
+ between Tommy Haas and Mikhail Youzhny in the Round of 32 of the US Open
+ on September 2nd 2013.
+ Using our model, we calculate predicted odds as 2.230 and 1.769 for each
+ player, respectively.
+ The market odds for that same match were 1.527 and 2.762, respectively, making
+ Tommy Haas the clear favorite.
+ As we can see, the market odds for Youzhny were higher than the predicted
+ odds from our model 
+\begin_inset Formula $(2.762>1.769)$
+\end_inset
+
+.
+ Hence, we bet one pound on Youzhny in our simulation.
+ Youzhny was the eventual winner, so we add the profit of £1.762 (
+\begin_inset Formula $2.762-1)$
+\end_inset
+
+ to the overall return of investment.
+\end_layout
+
+\begin_layout Subsubsection
+Results
+\end_layout
+
+\begin_layout Standard
+After using the method described in the previous section, we arrive at the
+ return of investment for our set of fixtures.
+ The table of results can be seen in Table 1 [table reference].
+ We have split our findings by surface, to investigate how our ROI results
+ vary based on the court surface.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Surface
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bets Made
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Binary Success Rate
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Profit (£)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Return on Investment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hard Court
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+170
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+61.76%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17.037
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.02%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grass Court
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70.59%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.937
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+29.04%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Clay Court
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+86
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+62.79%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-1.144
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-1.33%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Overall
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+273
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+62.64%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20.83
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.63%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Results obtained for fixtures involving our selected set of the top 33 players
+ from January 2013 to May 2014
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The results above are certainly very interesting.
+ Over the 273 bets made, with one pound bet on the predicted winner for
+ each match, the return of investment calculated was 7.63%.
+ The positive return is certainly an indication of the successfulness of
+ the model.
+ It is important to keep in mind that although the return on investment
+ of Grass court matches was significantly higher than that of hard and clay
+ courts, there was a significantly fewer amount of bets made on matches.
+ The binary success rate (choosing the correct winner) is above 61% on all
+ courts, and is 62.64% overall, indicating a promising success rate using
+ the technique of similar players found through clustering.
+ Detailed results for each of the bets placed are available in Appendix
+ [appendix reference].
+\end_layout
+
+\begin_layout Standard
+It is also very important to recognize the fact that in our model, we only
+ have predicted fixtures which included the top ranked players playing against
+ each other (as discussed before, we focused our analysis on a specific
+ set of 33 players, which included the set of top 30 ranked players).
+ Unlike other models, there were significantly fewer games in our predicted
+ fixtures which included very strong favorites.
+ For example, in other models, there are several matches which might include
+ a top ranked player versus a wildcard to the tournament, which are significantl
+y 'easier' to predict than an encounter between two players in the top 30.
+\end_layout
+
+\begin_layout Standard
+It is important to note that there were only 273 bets made overall.
+ This number is less than the total number of fixtures for two reasons:
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Not enough similar players:
+\shape default
+ When the total number of similar players was less than or equal to 1 for
+ either player, the fixture was not bet on.
+ For example, if in a match up between player A and B, if player A hasn't
+ played B before in our dataset and player A hasn't played against similar
+ players to B according to general player profiles, then the total number
+ of similar players is equal to zero, and hence, we cannot perform our method
+ of using the difference in service and return points won against similar
+ players.
+ We also choose not to bet on matches where there is only one similar player,
+ to avoid the significant amount of bias on that single match.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Market odds are too poor:
+\shape default
+ When the predicted odds (for the predicted winner) are less than the market
+ odds we do not bet on a match.
+\end_layout
+
+\begin_layout Subsubsection
+Comparison to other models
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+It is also very important to recognize the fact that only matches amongst
+ the top ranked players were analysed, since these were the selected players
+ in our dataset.
+ Unlike other models, games which included very strong favorites were not
+ taken into account.
+\end_layout
+
+\begin_layout Standard
+common opponent - higher ROI in ours but smaller and most importantly a
+ different dataset used.
+ this dataset was 2014.
+ Comparable results show that this method should be pursued further.
+ smaller success rate but with good reason - only focus on the top 30 players.
+ very strong against each other so much higher likelihood of upsets
+\end_layout
+
+\begin_layout Standard
+betting on favorite - 
+\end_layout
+
+\begin_layout Section
+Appendix
+\end_layout
+
+\begin_layout Subsection*
+A: Coefficient Matrices Used in O'Malley's Tennis Formulae
+\end_layout
+
+\begin_layout Subsubsection*
+A.1: Table A
+\end_layout
+
+\begin_layout Standard
+Table A was used in the tiebreaker tennis formula 
+\begin_inset Formula $TB(p,q)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.8
+\begin_inset Formula $A=\left(\begin{array}{cccccc}
+1 & 3 & 0 & 4 & 0 & 0\\
+3 & 3 & 1 & 4 & 0 & 0\\
+4 & 4 & 0 & 3 & 1 & 0\\
+6 & 3 & 2 & 4 & 0 & 0\\
+16 & 4 & 1 & 3 & 1 & 0\\
+6 & 5 & 0 & 2 & 2 & 0\\
+10 & 2 & 3 & 5 & 0 & 0\\
+40 & 3 & 2 & 4 & 1 & 0\\
+30 & 4 & 1 & 3 & 2 & 0\\
+4 & 5 & 0 & 2 & 3 & 0\\
+5 & 1 & 4 & 6 & 0 & 0\\
+50 & 2 & 3 & 5 & 1 & 0\\
+100 & 3 & 2 & 4 & 2 & 0\\
+50 & 4 & 1 & 3 & 3 & 0\\
+5 & 5 & 0 & 2 & 4 & 0\\
+1 & 1 & 5 & 6 & 0 & 0\\
+30 & 2 & 4 & 5 & 1 & 0\\
+150 & 3 & 3 & 4 & 2 & 0\\
+200 & 4 & 2 & 3 & 3 & 0\\
+75 & 5 & 1 & 2 & 4 & 0\\
+6 & 6 & 0 & 1 & 5 & 0\\
+1 & 0 & 6 & 6 & 0 & 1\\
+36 & 1 & 5 & 5 & 1 & 1\\
+225 & 2 & 4 & 4 & 2 & 1\\
+400 & 3 & 3 & 3 & 3 & 1\\
+225 & 4 & 2 & 2 & 4 & 1\\
+36 & 5 & 1 & 1 & 5 & 1\\
+1 & 6 & 0 & 0 & 6 & 1
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+A.2: Table B
+\end_layout
+
+\begin_layout Standard
+Table B was used in the set winning probability 
+\begin_inset Formula $S(p,q)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.8
+\begin_inset Formula $B=\left(\begin{array}{cccccc}
+1 & 3 & 0 & 3 & 0 & 0\\
+3 & 3 & 1 & 3 & 0 & 0\\
+3 & 4 & 0 & 2 & 1 & 0\\
+6 & 2 & 2 & 4 & 0 & 0\\
+12 & 3 & 1 & 3 & 1 & 0\\
+3 & 4 & 0 & 2 & 2 & 0\\
+4 & 2 & 3 & 4 & 0 & 0\\
+24 & 3 & 2 & 3 & 1 & 0\\
+24 & 4 & 1 & 2 & 2 & 0\\
+4 & 5 & 0 & 1 & 3 & 0\\
+5 & 1 & 4 & 5 & 0 & 0\\
+40 & 2 & 3 & 4 & 1 & 0\\
+60 & 3 & 2 & 3 & 2 & 0\\
+20 & 4 & 1 & 2 & 3 & 0\\
+1 & 5 & 0 & 1 & 4 & 0\\
+1 & 0 & 5 & 5 & 0 & 1\\
+25 & 1 & 4 & 4 & 1 & 1\\
+100 & 2 & 3 & 3 & 2 & 1\\
+100 & 3 & 2 & 2 & 3 & 1\\
+25 & 4 & 1 & 1 & 4 & 1\\
+1 & 5 & 0 & 0 & 5 & 1
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document

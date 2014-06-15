@@ -166,4 +166,4 @@ def match_up(player1, player2):
 	print "Only bet on Player 1 if the odds>$"+str(predicted_odds_p1)
 	print "Only bet on Player 2 if the odds>$"+str(predicted_odds_p2)
 
-match_up("Gilles Simon", "Chardy")
+match_up("Anderson", "Tsonga")

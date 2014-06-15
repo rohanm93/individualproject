@@ -1,0 +1,286 @@
+winner,loser,tournament,winner_market_odds,loser_market_odds,winnings
+Andy Murray,Roger Federer,Australian Open Slam,1.716,2.304,-1
+Jeremy Chardy,Juan Martin del Potro,Australian Open Slam,16.225,1.045,-1
+John Isner,Kevin Anderson,Delray Beach,1.985,1.948,0.985
+Juan Martin Del Potro,Andy Murray,ATP World Tour Masters 1000 Indian Wells,2.71,1.543,-1
+Andy Murray,Grigor Dimitrov,ATP World Tour Masters 1000 Miami,1.111,8.55,0.111
+Richard Gasquet,Mikhail Youzhny,ATP World Tour Masters 1000 Miami,1.272,4.328,0.272
+Jo-Wilfried Tsonga,Stan Wawrinka,ATP World Tour Masters 1000 Monte Carlo,2.125,1.83,-1
+Ernests Gulbis,Fernando Verdasco,Barcelona,1.4,2.85,-1
+Tommy Haas,Ernests Gulbis,Munich,2.139,1.82,1.139
+Tomas Berdych,Kevin Anderson,ATP World Tour Masters 1000 Madrid,1.366,3.51,0.366
+Tomas Berdych,Jerzy Janowicz,ATP World Tour Masters 1000 Madrid,1.351,3.611,0.351
+David Ferrer,Tommy Haas,ATP World Tour Masters 1000 Madrid,1.404,3.284,0.404
+Stan Wawrinka,Jo-Wilfried Tsonga,ATP World Tour Masters 1000 Madrid,1.653,2.428,0.653
+Andy Murray,Gilles Simon,ATP World Tour Masters 1000 Madrid,1.212,5.209,0.212
+Jeremy Chardy,Feliciano Lopez,ATP World Tour Masters 1000 Rome,1.632,2.474,-1
+Kevin Anderson,Marin Cilic,ATP World Tour Masters 1000 Rome,2.757,1.528,-1
+Jerzy Janowicz,Richard Gasquet,ATP World Tour Masters 1000 Rome,3.297,1.401,-1
+Mikhail Youzhny,Tommy Haas,ATP World Tour Masters 1000 Rome,3.084,1.444,-1
+Rafael Nadal,David Ferrer,ATP World Tour Masters 1000 Rome,1.158,6.52,0.158
+Fabio Fognini,Andreas Seppi,ATP World Tour Masters 1000 Rome,1.868,2.077,-1
+Philipp Kohlschreiber,Milos Raonic,ATP World Tour Masters 1000 Rome,2.737,1.535,-1
+Tomas Berdych,Andy Murray,ATP World Tour Masters 1000 Madrid,2.058,1.883,-1
+Novak Djokovic,Grigor Dimitrov,French Open Slam,1.093,9.817,0.093
+Roger Federer,Gilles Simon,French Open Slam,1.055,14.4,0.055
+Tommy Haas,Mikhail Youzhny,French Open Slam,1.823,2.135,-1
+Tommy Haas,John Isner,French Open Slam,1.373,3.467,0.373
+Gilles Simon,Lleyton Hewitt,French Open Slam,1.155,6.612,0.155
+Rafael Nadal,Fabio Fognini,French Open Slam,1.015,31.008,0.015
+Tommy Robredo,Nicolas Almagro,French Open Slam,5.047,1.221,-1
+David Ferrer,Jo-Wilfried Tsonga,French Open Slam,1.682,2.367,0.682
+Jo-Wilfried Tsonga,Jeremy Chardy,French Open Slam,1.276,4.29,-1
+Andy Murray,Marin Cilic,London / Queen's Club,1.224,4.996,0.224
+Marin Cilic,Feliciano Lopez,London / Queen's Club,1.42,2.81,0.42
+Mikhail Youzhny,Richard Gasquet,Halle,2.662,1.559,-1
+Roger Federer,Tommy Haas,Halle,1.367,3.501,0.367
+Tommy Haas,Gael Monfils,Halle,1.426,3.166,0.426
+Gael Monfils,Milos Raonic,Halle,2.73,1.51,1.73
+Mikhail Youzhny,Philipp Kohlschreiber,Halle,3.131,1.433,2.131
+Tomas Berdych,Kevin Anderson,Wimbledon Slam,1.208,5.287,0.208
+Marin Cilic,Tomas Berdych,London / Queen's Club,3.326,1.396,2.326
+Novak Djokovic,Juan Martin del Potro,Wimbledon Slam,1.155,6.625,0.155
+Tommy Haas,Feliciano Lopez,Wimbledon Slam,1.515,2.801,-1
+Andreas Seppi,Kei Nishikori,Wimbledon Slam,3.467,1.373,-1
+Fernando Verdasco,Ernests Gulbis,Wimbledon Slam,2.447,1.644,-1
+Lleyton Hewitt,Stan Wawrinka,Wimbledon Slam,2.38,1.676,-1
+Andy Murray,Jerzy Janowicz,Wimbledon Slam,1.216,5.145,0.216
+Jerzy Janowicz,Nicolas Almagro,Wimbledon Slam,1.799,2.169,-1
+Tommy Haas,Ernests Gulbis,Stuttgart,1.669,2.394,0.669
+Lleyton Hewitt,John Isner,Newport,2.188,1.786,1.188
+Philipp Kohlschreiber,Gael Monfils,Stuttgart,2.571,1.592,1.571
+Fernando Verdasco,Nicolas Almagro,Bastad,2.289,1.724,1.289
+Andy Murray,Mikhail Youzhny,Wimbledon Slam,1.077,11.256,0.077
+Fernando Verdasco,Jerzy Janowicz,Hamburg,1.786,2.187,-1
+John Isner,Lleyton Hewitt,Atlanta,1.816,2.144,-1
+Tommy Robredo,Andreas Seppi,Umag,1.592,2.571,-1
+John Isner,Kevin Anderson,Atlanta,1.995,1.939,0.995
+Tommy Haas,Grigor Dimitrov,Washington,1.976,1.958,0.976
+Fabio Fognini,Tommy Haas,Hamburg,2.571,1.592,1.571
+Ernests Gulbis,Feliciano Lopez,ATP World Tour Masters 1000 Canada,1.513,2.808,0.513
+Juan Martin Del Potro,Kevin Anderson,Washington,1.315,3.902,0.315
+Juan Martin Del Potro,Tommy Haas,Washington,1.279,4.247,0.279
+Kei Nishikori,Andreas Seppi,ATP World Tour Masters 1000 Canada,1.535,2.737,-1
+Milos Raonic,Ernests Gulbis,ATP World Tour Masters 1000 Canada,1.687,2.357,0.687
+Milos Raonic,Jeremy Chardy,ATP World Tour Masters 1000 Canada,1.272,4.33,-1
+Feliciano Lopez,Gilles Simon,Wimbledon Slam,1.685,2.36,0.685
+Feliciano Lopez,Jeremy Chardy,ATP World Tour Masters 1000 Cincinnati,1.806,2.159,-1
+John Isner,Juan Martin Del Potro,ATP World Tour Masters 1000 Cincinnati,2.962,1.472,-1
+Rafael Nadal,Roger Federer,ATP World Tour Masters 1000 Cincinnati,1.318,3.874,0.318
+Tommy Haas,Kevin Anderson,ATP World Tour Masters 1000 Cincinnati,1.93,2.004,0.93
+Rafael Nadal,Grigor Dimitrov,ATP World Tour Masters 1000 Cincinnati,1.168,6.217,0.168
+Feliciano Lopez,Kei Nishikori,ATP World Tour Masters 1000 Cincinnati,3.151,1.429,-1
+John Isner,Milos Raonic,ATP World Tour Masters 1000 Cincinnati,1.724,2.289,-1
+Tommy Robredo,Stan Wawrinka,ATP World Tour Masters 1000 Cincinnati,3.178,1.424,2.178
+Rafael Nadal,Tomas Berdych,ATP World Tour Masters 1000 Cincinnati,1.343,3.668,0.343
+Fabio Fognini,Gael Monfils,Umag,1.559,2.662,-1
+Tomas Berdych,Tommy Robredo,ATP World Tour Masters 1000 Cincinnati,1.224,4.996,-1
+Stan Wawrinka,Tomas Berdych,US Open Slam,3.467,1.373,-1
+Novak Djokovic,Mikhail Youzhny,US Open Slam,1.04,17,0.04
+Roger Federer,Tommy Haas,ATP World Tour Masters 1000 Cincinnati,1.423,3.184,0.423
+Lleyton Hewitt,Juan Martin del Potro,US Open Slam,8.377,1.114,7.377
+John Isner,Gael Monfils,US Open Slam,1.424,3.178,-1
+Gael Monfils,Alexandr Dolgopolov,Winston-Salem,1.613,2.519,0.613
+Gael Monfils,Fernando Verdasco,Winston-Salem,1.698,2.337,0.698
+Rafael Nadal,Novak Djokovic,US Open Slam,1.755,2.236,0.755
+Rafael Nadal,Novak Djokovic,US Open Slam,1.755,2.236,0.755
+Gael Monfils,Tommy Robredo,Winston-Salem,1.611,2.523,-1
+Stan Wawrinka,Andy Murray,US Open Slam,4.08,1.29,3.08
+Mikhail Youzhny,Lleyton Hewitt,US Open Slam,1.594,2.567,-1
+Mikhail Youzhny,Alexandr Dolgopolov,US Open Slam,1.646,2.442,-1
+Andy Murray,Mikhail Youzhny,ATP World Tour Masters 1000 Cincinnati,1.215,5.147,0.215
+David Ferrer,Roberto Bautista Agut,US Open Slam,1.177,5.965,0.177
+Philipp Kohlschreiber,John Isner,US Open Slam,3.6,1.353,2.6
+Fernando Verdasco,Alexandr Dolgopolov,Davis Cup,1.55,2.4,0.55
+Gilles Simon,Jo-Wilfried Tsonga,Metz,3.222,1.415,-1
+Richard Gasquet,Mikhail Youzhny,Bangkok,1.68,2.37,0.68
+Milos Raonic,Feliciano Lopez,Bangkok,1.506,2.834,0.506
+Juan Martin Del Potro,Alexandr Dolgopolov,Tokyo,1.231,4.879,-1
+Richard Gasquet,David Ferrer,Beijing,1.958,1.976,0.958
+Mikhail Youzhny,Tommy Haas,US Open Slam,2.762,1.527,1.762
+Rafael Nadal,Fabio Fognini,Beijing,1.065,12.872,0.065
+Rafael Nadal,Philipp Kohlschreiber,Beijing,1.068,12.462,0.068
+Kei Nishikori,Feliciano Lopez,Tokyo,1.454,3.036,0.454
+Juan Martin Del Potro,Milos Raonic,Tokyo,1.724,2.289,-1
+Jo-Wilfried Tsonga,Gael Monfils,Tokyo,1.543,2.712,-1
+Stan Wawrinka,Andreas Seppi,Beijing,1.216,5.132,0.216
+Roberto Bautista Agut,Grigor Dimitrov,Beijing,2.407,1.663,-1
+Tomas Berdych,Feliciano Lopez,ATP World Tour Masters 1000 Shanghai,1.491,2.889,0.491
+Novak Djokovic,Fabio Fognini,ATP World Tour Masters 1000 Shanghai,1.085,10.46,0.085
+Roger Federer,Andreas Seppi,ATP World Tour Masters 1000 Shanghai,1.182,5.857,0.182
+Novak Djokovic,Richard Gasquet,Beijing,1.109,8.672,0.109
+Lleyton Hewitt,Tommy Haas,Beijing,2.579,1.589,-1
+Juan Martin Del Potro,Rafael Nadal,ATP World Tour Masters 1000 Shanghai,3.814,1.325,-1
+Milos Raonic,Fernando Verdasco,ATP World Tour Masters 1000 Shanghai,1.466,2.985,0.466
+Rafael Nadal,Stan Wawrinka,ATP World Tour Masters 1000 Shanghai,1.206,5.327,0.206
+Stan Wawrinka,Kevin Anderson,ATP World Tour Masters 1000 Shanghai,1.397,3.323,0.397
+Juan Martin Del Potro,Philipp Kohlschreiber,ATP World Tour Masters 1000 Shanghai,1.259,4.493,-1
+Nicolas Almagro,Fabio Fognini,Valencia,1.445,3.075,-1
+Juan Martin Del Potro,Nicolas Almagro,ATP World Tour Masters 1000 Shanghai,1.459,3.014,0.459
+Roger Federer,Grigor Dimitrov,Basel,1.464,2.996,0.464
+Jeremy Chardy,John Isner,Valencia,3.151,1.429,-1
+John Isner,Ernests Gulbis,Valencia,2.364,1.683,-1
+Mikhail Youzhny,Philipp Kohlschreiber,Valencia,2.057,1.884,1.057
+David Ferrer,Tomas Berdych,ATP World Tour Masters 1000 Paris,1.976,1.958,-1
+Juan Martin Del Potro,Grigor Dimitrov,ATP World Tour Masters 1000 Paris,1.362,3.538,0.362
+Novak Djokovic,Juan Martin Del Potro,ATP World Tour Masters 1000 Shanghai,1.378,3.431,0.378
+Roger Federer,Juan Martin Del Potro,ATP World Tour Masters 1000 Paris,1.948,1.985,0.948
+Roger Federer,Philipp Kohlschreiber,ATP World Tour Masters 1000 Paris,1.248,4.632,0.248
+Roger Federer,Kevin Anderson,ATP World Tour Masters 1000 Paris,1.176,5.989,0.176
+Juan Martin Del Potro,Roger Federer,Basel,1.773,2.207,-1
+Richard Gasquet,Kei Nishikori,ATP World Tour Masters 1000 Paris,1.479,2.933,-1
+Richard Gasquet,Fernando Verdasco,ATP World Tour Masters 1000 Paris,1.345,3.654,-1
+Philipp Kohlschreiber,Tommy Haas,Valencia,2.364,1.683,-1
+Rafael Nadal,Jerzy Janowicz,ATP World Tour Masters 1000 Paris,1.18,5.894,0.18
+David Ferrer,Rafael Nadal,ATP World Tour Masters 1000 Paris,6.609,1.155,-1
+Kei Nishikori,Jo-Wilfried Tsonga,ATP World Tour Masters 1000 Paris,3.026,1.456,-1
+Fernando Verdasco,Ernests Gulbis,ATP World Tour Masters 1000 Paris,2.69,1.55,1.69
+Stan Wawrinka,Nicolas Almagro,ATP World Tour Masters 1000 Paris,1.609,2.528,0.609
+Stan Wawrinka,Feliciano Lopez,ATP World Tour Masters 1000 Paris,1.359,3.557,-1
+Philipp Kohlschreiber,Andreas Seppi,ATP World Tour Masters 1000 Paris,1.799,2.168,-1
+Novak Djokovic,David Ferrer,ATP World Tour Masters 1000 Paris,1.171,6.134,0.171
+Rafael Nadal,Richard Gasquet,ATP World Tour Masters 1000 Paris,1.202,5.407,0.202
+Novak Djokovic,Rafael Nadal,Barclays ATP World Tour Finals,1.592,2.571,0.592
+Novak Djokovic,Stan Wawrinka,Barclays ATP World Tour Finals,1.19,5.658,0.19
+Novak Djokovic,Tomas Berdych,Davis Cup,1.087,10.342,0.087
+Fabio Fognini,Tommy Robredo,ATP World Tour Masters 1000 Shanghai,2.35,1.691,1.35
+Fabio Fognini,Tommy Robredo,Beijing,2.983,1.467,1.983
+Kei Nishikori,Marin Cilic,Brisbane,2.144,1.816,1.144
+Rafael Nadal,Roger Federer,Barclays ATP World Tour Finals,1.34,3.693,0.34
+David Ferrer,Alexandr Dolgopolov,Doha,1.22,5.059,0.22
+Lleyton Hewitt,Feliciano Lopez,Brisbane,1.55,2.69,-1
+Rafael Nadal,Ernests Gulbis,Doha,1.237,4.792,-1
+David Ferrer,Gilles Simon,ATP World Tour Masters 1000 Paris,1.373,3.467,0.373
+Philipp Kohlschreiber,Tommy Haas,ATP World Tour Masters 1000 Paris,2.322,1.706,-1
+David Ferrer,Gael Monfils,Valencia,1.541,2.717,0.541
+Gael Monfils,Richard Gasquet,Doha,1.636,2.465,-1
+Kevin Anderson,Mikhail Youzhny,ATP World Tour Masters 1000 Paris,2.727,1.538,-1
+Stan Wawrinka,Tomas Berdych,Australian Open Slam,1.815,2.145,0.815
+Tomas Berdych,David Ferrer,Australian Open Slam,1.554,2.46,-1
+Tomas Berdych,Kevin Anderson,Australian Open Slam,1.109,6.753,0.109
+David Ferrer,Jeremy Chardy,Australian Open Slam,1.395,3.334,0.395
+Jeremy Chardy,Alexandr Dolgopolov,Australian Open Slam,2.26,1.741,-1
+Novak Djokovic,Fabio Fognini,Australian Open Slam,1.013,15.802,0.013
+Roger Federer,Andy Murray,Australian Open Slam,1.724,2.289,0.724
+Roger Federer,Jo-Wilfried Tsonga,Australian Open Slam,1.554,2.46,0.554
+Lleyton Hewitt,Roger Federer,Brisbane,6.053,1.174,-1
+Andreas Seppi,Lleyton Hewitt,Australian Open Slam,4.206,1.283,3.206
+Rafael Nadal,Grigor Dimitrov,Australian Open Slam,1.114,6.575,0.114
+Rafael Nadal,Kei Nishikori,Australian Open Slam,1.029,12.817,0.029
+Rafael Nadal,Gael Monfils,Australian Open Slam,1.1,7.098,0.1
+Grigor Dimitrov,Milos Raonic,Australian Open Slam,2.125,1.726,-1
+Stan Wawrinka,Tommy Robredo,Australian Open Slam,1.358,3.191,-1
+Stan Wawrinka,Rafael Nadal,Australian Open Slam,6.025,1.175,-1
+Stan Wawrinka,Novak Djokovic,Australian Open Slam,7.979,1.081,-1
+Roberto Bautista Agut,Juan Martin del Potro,Australian Open Slam,13.033,1.064,12.033
+John Isner,Roberto Bautista Agut,Auckland,1.53,2.752,0.53
+John Isner,Philipp Kohlschreiber,Auckland,2.245,1.749,1.245
+Rafael Nadal,Roger Federer,Australian Open Slam,1.654,2.424,0.654
+Fabio Fognini,Nicolas Almagro,Vina del Mar,1.806,2.159,-1
+Richard Gasquet,Jerzy Janowicz,Montpellier,1.567,2.639,0.567
+Grigor Dimitrov,Roberto Bautista Agut,Australian Open Slam,1.63,2.51,-1
+David Ferrer,Nicolas Almagro,Buenos Aires,1.357,3.571,0.357
+Nicolas Almagro,Jeremy Chardy,Buenos Aires,1.424,3.176,0.424
+Tomas Berdych,Marin Cilic,Rotterdam,1.472,2.962,0.472
+Tomas Berdych,Jerzy Janowicz,Rotterdam,1.366,3.51,0.366
+Jeremy Chardy,Alexandr Dolgopolov,Buenos Aires,1.73,2.279,-1
+Marin Cilic,Andy Murray,Rotterdam,2.752,1.53,-1
+Marin Cilic,Jo-Wilfried Tsonga,Rotterdam,2.619,1.574,1.619
+Ernests Gulbis,Juan Martin Del Potro,Rotterdam,3.447,1.376,-1
+Juan Martin Del Potro,Gael Monfils,Rotterdam,1.584,2.593,0.584
+Gael Monfils,Richard Gasquet,Montpellier,2.096,1.852,1.096
+Tommy Haas,Fernando Verdasco,Rotterdam,1.853,2.095,0.853
+Fabio Fognini,Tommy Robredo,Buenos Aires,1.724,2.289,0.724
+David Ferrer,Jeremy Chardy,Rio de Janeiro,1.145,6.948,0.145
+Marin Cilic,Kevin Anderson,Delray Beach,1.357,3.571,0.357
+Marin Cilic,John Isner,Delray Beach,1.47,2.971,0.47
+Alexandr Dolgopolov,David Ferrer,Rio de Janeiro,4.792,1.237,-1
+Jerzy Janowicz,Tommy Haas,Rotterdam,1.724,2.288,-1
+Rafael Nadal,Alexandr Dolgopolov,Rio de Janeiro,1.183,5.821,0.183
+Ernests Gulbis,Jo-Wilfried Tsonga,Marseille,2.327,1.703,1.327
+Ernests Gulbis,Roberto Bautista Agut,Marseille,1.432,3.136,0.432
+Kevin Anderson,Alexandr Dolgopolov,Acapulco,2.752,1.53,-1
+Kevin Anderson,David Ferrer,Acapulco,3.555,1.359,-1
+Roger Federer,Tomas Berdych,Dubai,1.719,2.298,-1
+Tomas Berdych,Philipp Kohlschreiber,Dubai,1.152,6.716,0.152
+Tomas Berdych,Jo-Wilfried Tsonga,Dubai,1.384,3.397,0.384
+Alexandr Dolgopolov,Jeremy Chardy,Acapulco,1.598,2.556,0.598
+Grigor Dimitrov,Andy Murray,Acapulco,2.861,1.498,-1
+Grigor Dimitrov,Ernests Gulbis,Acapulco,1.83,2.125,-1
+Philipp Kohlschreiber,Andreas Seppi,Dubai,1.384,3.394,0.384
+David Ferrer,Feliciano Lopez,Acapulco,1.314,3.909,0.314
+Andy Murray,Gilles Simon,Acapulco,1.155,6.609,0.155
+Roberto Bautista Agut,Tomas Berdych,ATP World Tour Masters 1000 Indian Wells,6.888,1.147,-1
+Ernests Gulbis,Grigor Dimitrov,ATP World Tour Masters 1000 Indian Wells,1.883,2.058,0.883
+Novak Djokovic,John Isner,ATP World Tour Masters 1000 Indian Wells,1.219,5.085,0.219
+Novak Djokovic,Marin Cilic,ATP World Tour Masters 1000 Indian Wells,1.198,5.489,0.198
+Roger Federer,Kevin Anderson,ATP World Tour Masters 1000 Indian Wells,1.212,5.209,0.212
+Kevin Anderson,Lleyton Hewitt,ATP World Tour Masters 1000 Indian Wells,1.376,3.444,-1
+John Isner,Ernests Gulbis,ATP World Tour Masters 1000 Indian Wells,2.27,1.735,-1
+John Isner,Fernando Verdasco,ATP World Tour Masters 1000 Indian Wells,1.629,2.48,-1
+Alexandr Dolgopolov,Rafael Nadal,ATP World Tour Masters 1000 Indian Wells,7.624,1.129,-1
+Alexandr Dolgopolov,Milos Raonic,ATP World Tour Masters 1000 Indian Wells,2.159,1.806,-1
+Marin Cilic,Tommy Robredo,ATP World Tour Masters 1000 Indian Wells,1.341,3.689,0.341
+Kevin Anderson,Stan Wawrinka,ATP World Tour Masters 1000 Indian Wells,4.426,1.264,-1
+Ernests Gulbis,Roberto Bautista Agut,ATP World Tour Masters 1000 Indian Wells,1.387,3.378,0.387
+John Isner,Nicolas Almagro,ATP World Tour Masters 1000 Miami,1.708,2.317,0.708
+Tomas Berdych,Alexandr Dolgopolov,ATP World Tour Masters 1000 Miami,1.376,3.447,0.376
+Tomas Berdych,John Isner,ATP World Tour Masters 1000 Miami,1.412,3.237,0.412
+Novak Djokovic,Jeremy Chardy,ATP World Tour Masters 1000 Miami,1.033,20.546,0.033
+David Ferrer,Andreas Seppi,ATP World Tour Masters 1000 Miami,1.135,7.365,0.135
+Tommy Haas,Kei Nishikori,ATP World Tour Masters 1000 Indian Wells,2.828,1.507,-1
+Tommy Haas,Jeremy Chardy,ATP World Tour Masters 1000 Indian Wells,2.014,1.922,-1
+Fabio Fognini,Gael Monfils,ATP World Tour Masters 1000 Indian Wells,3.204,1.419,-1
+Rafael Nadal,Milos Raonic,ATP World Tour Masters 1000 Miami,1.145,6.958,0.145
+Kei Nishikori,Grigor Dimitrov,ATP World Tour Masters 1000 Miami,2.058,1.883,1.058
+Roberto Bautista Agut,Jerzy Janowicz,ATP World Tour Masters 1000 Miami,1.764,2.221,-1
+Fabio Fognini,Roberto Bautista Agut,ATP World Tour Masters 1000 Miami,2.27,1.735,1.27
+Andy Murray,Feliciano Lopez,ATP World Tour Masters 1000 Miami,1.214,5.17,0.214
+Kei Nishikori,Roger Federer,ATP World Tour Masters 1000 Miami,5.973,1.177,-1
+Andy Murray,Andreas Seppi,Davis Cup,1.213,5.201,0.213
+Fernando Verdasco,Nicolas Almagro,Houston,2.72,1.54,1.72
+Richard Gasquet,Kevin Anderson,ATP World Tour Masters 1000 Miami,1.859,2.087,-1
+Fernando Verdasco,Richard Gasquet,ATP World Tour Masters 1000 Indian Wells,3.156,1.428,-1
+Rafael Nadal,Andreas Seppi,ATP World Tour Masters 1000 Monte Carlo,1.014,32.211,0.014
+Milos Raonic,Tommy Robredo,ATP World Tour Masters 1000 Monte Carlo,2.116,1.837,1.116
+Jo-Wilfried Tsonga,Fabio Fognini,ATP World Tour Masters 1000 Monte Carlo,2.27,1.735,1.27
+Stan Wawrinka,Roger Federer,ATP World Tour Masters 1000 Monte Carlo,2.357,1.687,-1
+Stan Wawrinka,Milos Raonic,ATP World Tour Masters 1000 Monte Carlo,1.391,3.353,0.391
+Andreas Seppi,Mikhail Youzhny,ATP World Tour Masters 1000 Monte Carlo,1.948,1.985,-1
+Fabio Fognini,Roberto Bautista Agut,ATP World Tour Masters 1000 Monte Carlo,1.482,2.923,0.482
+Jo-Wilfried Tsonga,Philipp Kohlschreiber,ATP World Tour Masters 1000 Monte Carlo,1.571,2.628,0.571
+Nicolas Almagro,Fernando Verdasco,Barcelona,1.957,1.976,0.957
+Nicolas Almagro,Rafael Nadal,Barcelona,7.041,1.143,-1
+Marin Cilic,Tommy Robredo,Barcelona,2.24,1.752,1.24
+Tommy Haas,Andreas Seppi,Munich,1.445,3.075,0.445
+Rafael Nadal,Tomas Berdych,ATP World Tour Masters 1000 Madrid,1.165,6.296,0.165
+Tomas Berdych,Grigor Dimitrov,ATP World Tour Masters 1000 Madrid,1.713,2.308,0.713
+Tomas Berdych,Kevin Anderson,ATP World Tour Masters 1000 Madrid,1.199,5.459,0.199
+Roger Federer,Novak Djokovic,ATP World Tour Masters 1000 Monte Carlo,3.738,1.334,-1
+Roger Federer,Jo-Wilfried Tsonga,ATP World Tour Masters 1000 Monte Carlo,1.292,4.118,0.292
+David Ferrer,Ernests Gulbis,ATP World Tour Masters 1000 Madrid,1.428,3.156,0.428
+Ernests Gulbis,Alexandr Dolgopolov,ATP World Tour Masters 1000 Madrid,1.876,2.067,-1
+Rafael Nadal,Kei Nishikori,ATP World Tour Masters 1000 Madrid,1.131,7.533,0.131
+Milos Raonic,Jeremy Chardy,ATP World Tour Masters 1000 Madrid,1.34,3.693,0.34
+Roberto Bautista Agut,Tommy Robredo,ATP World Tour Masters 1000 Madrid,2.312,1.711,-1
+Feliciano Lopez,Mikhail Youzhny,ATP World Tour Masters 1000 Madrid,2.129,1.827,1.129
+Roberto Bautista Agut,Fernando Verdasco,ATP World Tour Masters 1000 Madrid,2.067,1.876,-1
+Rafael Nadal,Roberto Bautista Agut,ATP World Tour Masters 1000 Madrid,1.058,13.912,0.058
+Alexandr Dolgopolov,Fabio Fognini,ATP World Tour Masters 1000 Madrid,1.786,2.187,0.786
+Ernests Gulbis,Jerzy Janowicz,ATP World Tour Masters 1000 Madrid,1.292,4.118,0.292
+Jo-Wilfried Tsonga,Kevin Anderson,ATP World Tour Masters 1000 Rome,1.397,3.323,-1
+Grigor Dimitrov,Tomas Berdych,ATP World Tour Masters 1000 Rome,2.409,1.661,-1
+Novak Djokovic,Milos Raonic,ATP World Tour Masters 1000 Rome,1.16,6.453,0.16
+Novak Djokovic,David Ferrer,ATP World Tour Masters 1000 Rome,1.37,3.486,0.37
+Jeremy Chardy,Roger Federer,ATP World Tour Masters 1000 Rome,7.67,1.128,-1
+Grigor Dimitrov,Tommy Haas,ATP World Tour Masters 1000 Rome,1.467,2.98,-1
+Tommy Haas,Stan Wawrinka,ATP World Tour Masters 1000 Rome,5.821,1.183,-1
+Tommy Haas,Andreas Seppi,ATP World Tour Masters 1000 Rome,2.004,1.93,1.004
+Novak Djokovic,Rafael Nadal,ATP World Tour Masters 1000 Rome,2.236,1.755,1.236
+Novak Djokovic,Rafael Nadal,ATP World Tour Masters 1000 Rome,2.236,1.755,1.236
+Rafael Nadal,Mikhail Youzhny,ATP World Tour Masters 1000 Rome,1.076,11.442,0.076
+Rafael Nadal,Gilles Simon,ATP World Tour Masters 1000 Rome,1.036,19.367,0.036
+Kei Nishikori,Feliciano Lopez,ATP World Tour Masters 1000 Madrid,1.162,6.402,0.162
+Milos Raonic,Jeremy Chardy,ATP World Tour Masters 1000 Rome,1.359,3.555,0.359
+Philipp Kohlschreiber,Tommy Robredo,ATP World Tour Masters 1000 Rome,2.465,1.636,1.465
+Philipp Kohlschreiber,Jerzy Janowicz,ATP World Tour Masters 1000 Rome,1.868,2.077,-1

@@ -148,7 +148,7 @@ def calculate_spw(player_list, player2):
 		#this means that we use all past head to head encounters. cluster_name is a list of clusters
 		#if (rec[11]==cluster_name[0]) or same_profile:
 		#if (rec[11] in cluster_name) or same_profile:
-		same_profile = 0 # FOR CLUSTER TEST PURPOSES ONLY, REMOVE LATER
+		#same_profile = 0 # FOR CLUSTER TEST PURPOSES ONLY, REMOVE LATER
 		print str(cluster_labels) + "," + str(counter_2) 
 		if (cluster_labels[counter_2] in cluster_list) or same_profile:
 			swp_p2 = float(rec[0])
@@ -163,6 +163,9 @@ def calculate_spw(player_list, player2):
 		counter_2+=1
 	# only take their last fixture head to head, not all of them
 	'''
+	# add people in other player2's clusters
+	# eg. fed vs nadal, for fed, people in nadals cluster, and other clusters 
+	# that those same people in nadal's cluster were in. only take most rec game
 	d = {}
 	for rec in player_list:
 		if (rec[11] not in cluster_name) and (rec not in added):
@@ -215,16 +218,71 @@ def get_fixtures_to_predict():
 			if any(x in rec[2] for x in players_list):
 				writer.writerow(rec)
 
-def simulate_bets():
+def simulate_bets_on_favorite():
 	fixtures = csv.DictReader(open("final_fixtures.csv"))
 	roi = 0
 	matches_bet_on = 0
 	correct_bets = 0
 	wrong_bets = 0
 	for fixture in fixtures:
+		winner = -1
+		five_setter=0
+		if (fixture["winner"]==fixture["player1"]):
+			winner=1
+		elif (fixture["winner"]==fixture["player2"]):
+			winner=2
+		if winner<0:
+			print "ERROR, DOES NOT READ PLAYER 1 AND 2 CORRECTLY"
+		# remove the $ symbol and convert to float
+		market_odds_p1 = float(fixture["p1odds"][1:])
+		market_odds_p2 = float(fixture["p2odds"][1:])
+		#betted = 1 if bet on player 1, =2 if bet on player 2
+		betted = -1
+		if (market_odds_p1<market_odds_p2 and market_odds_p1<2):
+			# bet pound on p1
+			betted = 1
+			matches_bet_on +=1
+		elif (market_odds_p2<market_odds_p1 and market_odds_p2<2):
+			# bet pound on p2
+			betted = 2
+			matches_bet_on +=1
+		if betted<0:
+			#print "NO BET"
+			continue
+
+		if (betted==1 and winner==1):
+			roi+=(market_odds_p1-1)
+			correct_bets+=1
+		elif (betted==2 and winner==2):
+			roi+=(market_odds_p2-1)
+			correct_bets+=1
+		elif (betted==1 and winner==2):
+			#print fixture["date"] + "  "+ fixture["player1"] + " vs " + fixture["player2"] + ", bet on: "+ fixture["player1"]
+			roi-=1
+			wrong_bets+=1
+		elif (betted==2 and winner==1):
+			print fixture["date"] + "  "+ fixture["player1"] + " vs " + fixture["player2"] + ", bet on: "+ fixture["player2"]
+			roi-=1
+			wrong_bets+=1
+	print "$"+str(roi)
+	print "Bet on " + str(matches_bet_on) + " matches"
+	print "Correct bets:" + str(correct_bets)
+	print "Incorrect bets:" + str(wrong_bets)
+	
+
+def simulate_bets():
+	fixtures = csv.DictReader(open("final_fixtures.csv"))
+	roi = 0
+	matches_bet_on = 0
+	correct_bets = 0
+	wrong_bets = 0
+	output_results = []
+	for fixture in fixtures:
 		delta_a_b = 0
 		winner = -1
 		five_setter=0
+		if ("Jerzy" in fixture["player1"]) or ("Jerzy" in fixture["player2"]):
+			continue
 		if (fixture["winner"]==fixture["player1"]):
 			winner=1
 		elif (fixture["winner"]==fixture["player2"]):
@@ -243,7 +301,7 @@ def simulate_bets():
 		p1_spwcount = float(fixture["p1_spwcount"])
 		p2_spwcount = float(fixture["p2_spwcount"])
 		#if (p1_spwcount==0 or p2_spwcount==0 or p1_spwcount==1 or p2_spwcount==1):
-		if (p1_spwcount==0 or p2_spwcount==0):
+		if (p1_spwcount==0 or p2_spwcount==0 or p1_spwcount==1 or p2_spwcount==1):
 			#dont bet because there isnt enough clustering info
 			continue
 		#normalizing values
@@ -278,6 +336,124 @@ def simulate_bets():
 			betted = 2
 			matches_bet_on +=1
 		if betted<0:
+			# NO BET
+			continue
+
+		if (betted==1 and winner==1):
+			roi+=(market_odds_p1-1)
+			correct_bets+=1
+			output_results.append([fixture["player1"], fixture["player2"], tournament, market_odds_p1, market_odds_p2, market_odds_p1-1])
+		elif (betted==2 and winner==2):
+			roi+=(market_odds_p2-1)
+			correct_bets+=1
+			output_results.append([fixture["player2"], fixture["player1"], tournament, market_odds_p2, market_odds_p1, market_odds_p2-1])
+		elif (betted==1 and winner==2):
+			#print fixture["date"] + "  "+ fixture["player1"] + " vs " + fixture["player2"] + ", bet on: "+ fixture["player1"]
+			roi-=1
+			wrong_bets+=1
+			output_results.append([fixture["player2"], fixture["player1"], tournament, market_odds_p2, market_odds_p1, -1])
+		elif (betted==2 and winner==1):
+			print fixture["date"] + "  "+ fixture["player1"] + " vs " + fixture["player2"] + ", bet on: "+ fixture["player2"]
+			roi-=1
+			wrong_bets+=1
+			output_results.append([fixture["player1"], fixture["player2"], tournament, market_odds_p1, market_odds_p2, -1])
+	print "$"+str(roi)
+	print "Bet on " + str(matches_bet_on) + " matches"
+	print "Correct bets:" + str(correct_bets)
+	print "Incorrect bets:" + str(wrong_bets)
+	output_file = csv.writer(open("output_results.csv", "wb"), delimiter=',')
+	headers = ["winner", "loser", "tournament", "winner_market_odds", "loser_market_odds", "winnings"]
+	output_file.writerow(headers)
+	output_file.writerows(output_results)
+
+def roi_split():
+	records = csv.DictReader(open("+20.83/output_results.csv"))
+	hard_roi = 0
+	hard_matches_bet_on = 0
+	hard_correct_bets = 0
+	hard_wrong_bets = 0
+	clay_roi = 0
+	clay_matches_bet_on = 0
+	clay_correct_bets = 0
+	clay_wrong_bets = 0
+	grass_roi = 0
+	grass_matches_bet_on = 0
+	grass_correct_bets = 0
+	grass_wrong_bets = 0
+	for rec in records:
+		surface = tournament_surface(rec["tournament"])
+		if surface=="Hard":
+			hard_matches_bet_on+=1
+			hard_roi += float(rec["winnings"])
+			if float(rec["winnings"])>0:
+				hard_correct_bets+=1
+			else:
+				hard_wrong_bets+=1
+		elif surface=="Clay":
+			clay_matches_bet_on+=1
+			clay_roi += float(rec["winnings"])
+			if float(rec["winnings"])>0:
+				clay_correct_bets+=1
+			else:
+				clay_wrong_bets+=1
+		elif surface=="Grass":
+			grass_matches_bet_on+=1
+			grass_roi += float(rec["winnings"])
+			if float(rec["winnings"])>0:
+				grass_correct_bets+=1
+			else:
+				grass_wrong_bets+=1			
+		#ignore davis cup
+	print "Hard court:"
+	print "Total bets: " + str(hard_matches_bet_on)
+	print "Correct bets: " + str(hard_correct_bets)
+	print "Wrong bets: " + str(hard_wrong_bets)
+	print "Total ROI: " + str(hard_roi)
+	print ""
+	print "Clay court:"
+	print "Total bets: " + str(clay_matches_bet_on)
+	print "Correct bets: " + str(clay_correct_bets)
+	print "Wrong bets: " + str(clay_wrong_bets)
+	print "Total ROI: " + str(clay_roi)
+	print ""
+	print "Grass court:"
+	print "Total bets: " + str(grass_matches_bet_on)
+	print "Correct bets: " + str(grass_correct_bets)
+	print "Wrong bets: " + str(grass_wrong_bets)
+	print "Total ROI: " + str(grass_roi)
+
+def tournament_surface(tournament_name):
+	tournaments = csv.DictReader(open("tournament_list.csv"))
+	for tournament in tournaments:
+		if tournament_name==tournament["tournament"]:
+			return tournament["surface"]
+
+def simulate_bets_on_favorite2):
+	fixtures = csv.DictReader(open("+20.83/output_results.csv"))
+	roi = 0
+	matches_bet_on = 0
+	correct_bets = 0
+	wrong_bets = 0
+	for fixture in fixtures:
+		market_odds_p1 = float(fixture["winner_market_odds"])
+		market_odds_p2 = float(fixture["loser_market_odds"])		
+		if (market_odds_p1<market_odds_p2):
+			#bet on winner
+			roi += (market_odds_p1-1)
+		else:
+			#bet on loser
+			roi -= 1
+
+		betted = -1
+		if (market_odds_p1<market_odds_p2 and market_odds_p1<2):
+			# bet pound on p1
+			betted = 1
+			matches_bet_on +=1
+		elif (market_odds_p2<market_odds_p1 and market_odds_p2<2):
+			# bet pound on p2
+			betted = 2
+			matches_bet_on +=1
+		if betted<0:
 			#print "NO BET"
 			continue
 
@@ -288,7 +464,7 @@ def simulate_bets():
 			roi+=(market_odds_p2-1)
 			correct_bets+=1
 		elif (betted==1 and winner==2):
-			print fixture["date"] + "  "+ fixture["player1"] + " vs " + fixture["player2"] + ", bet on: "+ fixture["player1"]
+			#print fixture["date"] + "  "+ fixture["player1"] + " vs " + fixture["player2"] + ", bet on: "+ fixture["player1"]
 			roi-=1
 			wrong_bets+=1
 		elif (betted==2 and winner==1):
@@ -299,20 +475,12 @@ def simulate_bets():
 	print "Bet on " + str(matches_bet_on) + " matches"
 	print "Correct bets:" + str(correct_bets)
 	print "Incorrect bets:" + str(wrong_bets)
-
-		# normalize the p1spw and p2spw using the p1_spwcount and p2_spwcount
-		# get difference (triangle)
-		# predict the probability of winning using methods in markov.py
-		# if  predicted odds > market odds then bet a pound; check for both p1 and p2
-		# check winner; if winner is p1 and bet on p1 then add winnings
-		# if loss then subtract from total roi
-
-#def predict_matchup(player1, player2):
-
-
+	
 # odds = 1/p where p is the probability of a player winning a match 
 
+roi_split()
 #get_fixtures_to_predict()
 #predictions()
-simulate_bets()
+#simulate_bets()
+#simulate_bets_on_favorite()
 #print get_similar_profile_players("Milos Raonic")
