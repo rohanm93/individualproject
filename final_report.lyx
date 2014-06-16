@@ -2221,7 +2221,6 @@ In the last section, we looked at the various attributes that we use to
  serve speed.
  In this section, we focus on how we use clustering to classify these player
  statistics and attributes into different clusters.
- 
 \end_layout
 
 \begin_layout Subsection
@@ -2536,7 +2535,7 @@ reference "sec:Difference-servicepointswon"
 \end_layout
 
 \begin_layout Subsubsection
-Clustering algorithms 
+Clustering algorithms: k-means 
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Clustering-algorithms-general"
@@ -2544,10 +2543,6 @@ name "sub:Clustering-algorithms-general"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsubsection*
-k-means
 \end_layout
 
 \begin_layout Standard
@@ -2604,26 +2599,477 @@ Value of k:
  The k-means algorithm is considered to be an extremely simple and efficient
  algorithm.
  However, it involves knowing the value of k prior to the clustering.
- This value of k determines how many clusters there will be in the result.
+ This value of k determines how many centroids/clusters there will be in
+ the result.
  One straightforward rule of thumb sets the value of k to 
 \begin_inset Formula $\approx\sqrt{n/2}$
 \end_inset
 
- where n is the number of observations in the dataset.
+ where n is the number of observations in the dataset 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ruleofthumb"
+
+\end_inset
+
+.
  There are other more advanced methods such as analyzing the gap statistic,
  or using an information criterion approach.
  When choosing a value for k, it is important to keep in mind that in this
  project, this value of k is equal to the number of different playing styles.
  For example, we are analyzing a total of over 30 players and if we want
- to have approximately 6 players in each cluster (or playing style), we
- can select the value of k to be 5.
+ to have approximately 6 players in each cluster (assuming that the players
+ are equally divided across all clusters), we can select the value of k
+ to be 5.
  The appropriate value of k varies based on the application.
- We tested a variety of different values of k to find which gave and present
- the plots next.
+ We tested a variety of different values of k and present the plots next.
  We also try to find the optimal number of centroids (value of k) using
  X-Means, a clustering algorithm which extends the k-means approach and
  uses the Bayesian Information Criteria (BIC) to find the appropriate number
  of centroids.
+\end_layout
+
+\begin_layout Subsubsection
+k-means: Number of centroids k = 4
+\end_layout
+
+\begin_layout Standard
+The resulting clusters and cluster centroids are shown for a range of different
+ values of k.
+ As an initial value of k, we use the rule of thumb calculation 
+\begin_inset Formula $k\approx\sqrt{n/2}$
+\end_inset
+
+, proposed by Mardia 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ruleofthumb"
+
+\end_inset
+
+.
+ Since we have 33 records to cluster, we have that 
+\begin_inset Formula $k=4.06\approx4$
+\end_inset
+
+.
+ Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:k-means-cluster-results"
+
+\end_inset
+
+ presents the players in each cluster.
+ We provide the ranking (as of May 2014) of each player, to allow the readers
+ unfamiliar with these tennis players to get an idea of the performance
+ of each member in each cluster.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:plotk4"
+
+\end_inset
+
+ plots the centroids (average center of each cluster) of the 4 clusters.
+ The actual centroid values are presented in the Appendix [appendix reference].
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle" tabularwidth="9cm">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cluster number
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Players in cluster (Rank)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nadal (1), Djokovic (2), Federer (4), Wawrinka (3), Ferrer (5), Gasquet
+ (13), Murray (8), Nishikori (10)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Simon (30), Agut (28), Lopez (27), Kohlschreiber (29), Dolgopolov (21),
+ Hewitt (44), Seppi (33), Chardy (40)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Isner (11), Berdych (6), del Potro (7), Raonic (9), Dimitrov (12), Cilic
+ (26), Gulbis (19), Anderson (20), Janowicz (23)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tsonga (14), Youzhny (16), Haas (17), Robredo (18), Monfils (24), Almagro
+ (22), Verdasco (25), Fognini (15)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+k-means cluster results when k=4
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:k-means-cluster-results"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename markovmodel/+14.811 4clusters/centroidplot.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Plot of k-means centroids when k=4.
+ The key is provided in the top left of the figure
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:plotk4"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We can make several observations from Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:plotk4"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+Cluster 0 (blue line) is the cluster with the 'best' players in terms of
+ their ranking and general performance.
+ We can see in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:k-means-cluster-results"
+
+\end_inset
+
+ that the Top 5 players are all present in this cluster.
+ Additionally, the average performance on all courts (hard, clay, grass),
+ as well as their performance versus the Top 10, is significantly higher
+ than all other centroid values.
+ The average return points won for players in Cluster 0 are higher than
+ all other clusters, indicating that these players, have a good return of
+ service, a characteristic that is common to very successful tennis players.
+ As expected, the end of year ranking is significantly lower than all other
+ centroids (the lower the rank the better).
+ We can also gather some other interesting insights.
+ Firstly, we notice that the average first serve speed is significantly
+ lower in this cluster than the same value in clusters 2 and 3.
+ Considering that the top 5 ranked players are in this cluster, we get an
+ indication that the top players rely a lot 
+\shape italic
+less 
+\shape default
+on their service than other players in other clusters, and can perhaps be
+ considered as more all-rounded players.
+ Secondly, we also see that players in this cluster have an average age
+ of 0.394 in the 0-1 scale, which amounts to just over 28 years of age.
+ This suggests that most successful players currently are the ones with
+ experience, but at the same time not too old.
+ Interestingly, the centroid of this cluster had a height which was less
+ than all other clusters.
+\end_layout
+
+\begin_layout Enumerate
+Cluster 1 (turquoise line) seems to contain most of the players who are
+ the lowest ranked in our dataset.
+ These set of players performed worst against the Top 10 players.
+ The age of these players are on the latter end of the scale, with an average
+ age of almost 30 years.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Cluster 2 (light green line) is the cluster which seems to contain the known
+ tennis playing style, 
+\begin_inset Quotes eld
+\end_inset
+
+serve and volley
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Players in this category have a very fast average first serve and have
+ quite a high average value of net approaches (although similar to most
+ other clusters).
+ Among all surfaces, the grass court surface seems to be the surface where
+ these players excel in, which is very understandable.
+ This is because the grass court is known as the 
+\begin_inset Quotes eld
+\end_inset
+
+fastest
+\begin_inset Quotes erd
+\end_inset
+
+ surface in terms of bounce and speed, and where their serve is understandably
+ most effective.
+ The clay court, which is known as the slowest surface, is unsurprisingly
+ the court surface where players in this 'serve and volley' cluster perform
+ worst on, due to the fact that their serve is not as effective.
+ It is also interesting to note that players in this cluster are taller
+ than others.
+ Height is considered to be a particularly important characteristic in tennis,
+ especially for servers, as it makes a player's service harder to return
+ because of the power, height, and bounce that is generated from a serve
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "serveinfo"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Cluster 3 (red line) contains the rest of the players.
+ These players do not seem to fit into any particular known playing style,
+ and we can see that the red line is sandwiched between other lines in most
+ categories.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Limitations and the need to increase the value of k
+\end_layout
+
+\begin_layout Standard
+As we have seen, these four clusters give us a lot of information about
+ the specific sets of players, particularly on the highest ranked players
+ and players that can be classified as serve and volley players.
+ It is promising to see that the k-means algorithm classifies players into
+ groups that make sense.
+ However, there certainly some players which seem to be rather inconsistent
+ to their respective clusters.
+ For instance, although Cluster 2 is strongly indicative of a serve and
+ volley player, there are some players in this cluster who are strong servers
+ but do not approach the net.
+ An example of such a player is Ernests Gulbis - according to 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "gulbiswiki"
+
+\end_inset
+
+, Gulbis' playing style can be characterised as 
+\begin_inset Quotes eld
+\end_inset
+
+aggressive baseline game is coupled with an extremely powerful serve
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Since there is only one cluster which encompass strong servers, Gulbis
+ is put into the same category as other players who can be categorized as
+ strictly serve and volley players.
+ Due to this, it seems necessary to increase the total number of cluster
+ centroids k.
+ Increasing the value of k ensures that these four clusters are broken down
+ even further, and may give us insight into more specific playing styles.
+ Since a key aim of our project is to be obtain an accurate set of similar
+ players, we thus want to increase the value of k to ensure we can capture
+ any additional playing styles.
+\end_layout
+
+\begin_layout Subsubsection
+k-means: Number of centroids k = 7
+\end_layout
+
+\begin_layout Standard
+We now increase the value of k to 7 to see if we can observe any further
+ trends in the player profiles.
+ We present a graph showing the values of each attribute for each of the
+ seven centroids, as we did for k=4, in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:plotk7"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Plot of k-means centroids when k=7.
+ The key is provided in the top left of the figure
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:plotk7"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2636,7 +3082,7 @@ one of the diagrams is x-means
 \end_layout
 
 \begin_layout Subsubsection*
-k-medoids
+Clustering k-medoids
 \end_layout
 
 \begin_layout Standard
@@ -5197,9 +5643,10 @@ Improving general player profiles
 To make a prediction, our model finds a set of similar players for each
  opponent and calculates the probability of either player winning the match
  based on each player's performance against similar players to his opponent.
- Hence, we can see that our model relies significantly on players who are
- similar to one another.
- It is thus very important that we generate the correct set of similar players.
+ Hence, we can see that our model relies heavily on players who are 'similar'
+ to one another.
+ For our model to generate correct predictions, it is thus very important
+ that we generate the correct set of similar players.
 \end_layout
 
 \begin_layout Standard
@@ -5225,12 +5672,55 @@ However, there are many additonal attributes that can characterise a player,
  and can be used to find similar players.
  For example, we could add an attribute which quantifies a player's court
  speed (how fast he moves around the court).
+ Additionally, according to a few sources 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "playingstyles1,playingstyles2"
+
+\end_inset
+
+, tennis players can often be categorized into the four playing styles:
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Serve and Volley
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+All-court
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\begin_inset Quotes eld
+\end_inset
+
+Defensive baseliner
+\begin_inset Quotes erd
+\end_inset
+
+, and 
+\begin_inset Quotes eld
+\end_inset
+
+Offensive baseliner
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Player characteristics such as whether they are offensive or defensive
+ are difficult to represent by the statistics we have available to us.
  Obtaining more information would allow us to improve the clustering and
  ensure that our resulting clusters are even more indicative of real player
  styles.
  Information like this was not available when conducting this project, but
- can be measured and used in our model in the future to predict fixtures
- more accurately.
+ if it can be measured and used in our model, it is likely that our model
+ would be able to predict fixtures more accurately.
 \end_layout
 
 \begin_layout Subsection
