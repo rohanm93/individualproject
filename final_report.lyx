@@ -27,6 +27,7 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement H
 \paperfontsize 11
 \spacing other 1.1499999999999999
 \use_hyperref false
@@ -68,6 +69,22 @@
 \end_header
 
 \begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
 
 \begin_layout Section
 Background
@@ -567,7 +584,14 @@ Coefficient matrix
 \begin_inset Formula $A(x,y)$
 \end_inset
 
- is presented in the Appendix [appendix reference].
+ is presented in the Appendix, see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:appendixTable-A"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -665,7 +689,14 @@ Coefficient matrix
 \begin_inset Formula $B(x,y)$
 \end_inset
 
- is presented in the Appendix [appendix reference]
+ is presented in the Appendix, see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:appendixTable-B"
+
+\end_inset
+
+
 \begin_inset VSpace defskip
 \end_inset
 
@@ -909,7 +940,14 @@ Finally, we want to combine both of these player statistics when a player
 \begin_inset Formula $f_{ij}$
 \end_inset
 
-, is below in equation [equation reference].
+, is below in equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:barnett3"
+
+\end_inset
+
+.
  
 \end_layout
 
@@ -1008,6 +1046,13 @@ Cluster analysis is achieved by different algorithms that differ significantly
 
 \begin_layout Subsubsection
 K-means Clustering
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:K-means-Clustering-background"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1720,7 +1765,7 @@ After this data was collected separately by two different scrapers, it was
 \end_layout
 
 \begin_layout Section
-Developing a model
+Similar Players & Opponents
 \end_layout
 
 \begin_layout Standard
@@ -1730,40 +1775,47 @@ There are often similar aspects and styles between two tennis players.
  strong servers, but win a relatively higher percentage of points when returning.
  In addition, there are some players who perform above the market expectations
  when they play on their preferred tennis court surface.
-\end_layout
-
-\begin_layout Standard
-In this project, we aim to capture various types of players by analysing
- a range of match statistics and player information and use this data to
- build a model to help us get an indication of the eventual winner of a
- tennis match.
+ We aim to capture various types of players by analysing a range of match
+ statistics and player information and use this data to build a model to
+ help us get an indication of the eventual winner of a tennis match.
  In the general sense, we can use this information to find out whether,
  in a match up between two players, a certain player with a particular playing
  style has an advantage over another player with another playing style.
- We use clustering techniques over our match statistics and player profiles
- to identify these different playing styles, and to classify 'similar' players
- into specific clusters.
-\end_layout
-
-\begin_layout Subsection
-Similar players
+ 
 \end_layout
 
 \begin_layout Standard
-In this project, we introduce the idea of players with similar profiles
- in our model.
- We focus on two sets of attributes to identify similar players: general
- player profiles and past opponent profiles.
- In this section, we will first look at the attributes that belong to each
- set, and then proceed to how we can use clustering to group players into
- categories using these attributes.
+We introduce the idea of players with similar profiles in our model.
+ We focus on two sets of attributes to identify similar players/opponents:
+ general player profiles (which focuses on obtaining a set of similar players
+ over a set of general attributes) and past opponent profiles (which focuses
+ on obtaining a set of similar opponents for a particular player).
+ In this section, we will look at the attributes that belong to each set
+ of profiles.
+ In the next section (Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Clustering"
+
+\end_inset
+
+) , we show how we can use clustering techniques over our match statistics
+ and player profiles to identify these different playing styles and to classify
+ 'similar' players into specific clusters.
 \end_layout
 
 \begin_layout Standard
 For this project, we focus our analysis on the top 30 ranked players on
  the ATP tour as of May 20th 2014.
- Rankings of all players investigated in this study are provided in Appendix
- B.
+ Rankings of all players investigated in this study are provided in the
+ Appendix, see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:B:-ATP-Rankings"
+
+\end_inset
+
+.
  In addition, we have also included three other players in our analysis:
  Jeremy Chardy (ranked 40), Lleyton Hewitt (ranked 44), and Andreas Seppi
  (ranked 33), since these three players introduce interesting aspects into
@@ -1773,8 +1825,15 @@ For this project, we focus our analysis on the top 30 ranked players on
  over the past two years.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 General player profiles
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:General-player-profiles-attributes"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1833,13 +1892,19 @@ End of year ranking
 \end_layout
 
 \begin_layout Enumerate
-Win percentage against the Top 20 ranked players (past year)
+Win percentage against the Top 10 ranked players (past year)
 \end_layout
 
 \begin_layout Standard
 These statistics were collected for each player and fed into a CSV (Comma-separa
-ted values) file, which is used to perform clustering over in section [section
- reference].
+ted values) file, which is used to perform clustering over in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Clustering"
+
+\end_inset
+
+.
  As we will see in more detail later, clustering takes all these eleven
  statistics and groups players with similar statistics.
  Each cluster refers to a set of 'similar' players, which is what we try
@@ -1887,12 +1952,12 @@ reference "sub:O'Malley's-Formulae"
 \end_inset
 
 .
- The final two statistics, win percentage against the top 20 and the end
+ The final two statistics, win percentage against the top 10 and the end
  of year ranking, encompass a large variety of different attributes in one
  statistic, as described next in Limitations.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Limitations
 \end_layout
 
@@ -1923,7 +1988,7 @@ It is a challenge to capture different playing styles of players through
  
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Normalising Statistics
 \end_layout
 
@@ -1933,9 +1998,16 @@ The above attributes are presented in a wide range of units.
  speed is in kilometres per hour.
  Especially for clustering techniques used later on in the project, it is
  very integral that data is normalised and that there is no bias.
- Clustering techniques used later [section reference] make use of a distance
- measure, particularly the Euclidean distance, and if data was not rescaled
- or normalized, there would be significant biases in the clusters.
+ Clustering techniques used later in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Clustering"
+
+\end_inset
+
+ make use of a distance measure, particularly the Euclidean distance, and
+ if data was not rescaled or normalized, there would be significant biases
+ in the clusters.
  The reason for this is that the clusters are influenced strongly by the
  magnitudes of the variables, especially in clustering techniques like k-means.
 \end_layout
@@ -1973,8 +2045,8 @@ The statistics that were normalised were height, age, average net approaches,
  equal importance and weighted equally.
 \end_layout
 
-\begin_layout Subsubsection
-Past opponent profiles
+\begin_layout Subsection
+Past opponent profiles & Similar opponents
 \end_layout
 
 \begin_layout Standard
@@ -1987,7 +2059,8 @@ There is a significant limitation introduced if only general player profiles
  A than another opponent B, even though both players A and B are similar
  statistically.
  This is why we also introduce 'past opponent profiles' to determine similar
- players.
+ players, or more accurately, similar opponents (as this set is specific
+ to each player).
  Essentially, this means that for a certain player, we look at the performances
  of each of his past opponents (in his last 100 matches) and group together
  opponents who perform similarly, in terms of service and return points
@@ -1998,9 +2071,9 @@ There is a significant limitation introduced if only general player profiles
 \end_layout
 
 \begin_layout Standard
-Let us look at an example of the limitation introduced if solely the general
- player profiles were used to determine similar players, and how the concept
- of 'past opponent profiles' minimize this limitation.
+Let us look at a specific example of the limitation introduced if solely
+ the general player profiles were used to determine similar players, and
+ how the concept of 'past opponent profiles' minimize this limitation.
  Roger Federer and Novak Djokovic are similar players in terms of general
  player profiles and statistics (both players have a consistent record against
  the top 10 players, have similar service and return points won percentages,
@@ -2014,9 +2087,11 @@ Let us look at an example of the limitation introduced if solely the general
  very similar statistically (as in the case of Federer and Djokovic), their
  particular opponent is a key factor in determining the outcome of the tennis
  match.
+ This is why we feel it is essential to include a set of similar opponents
+ in our comparisons
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Using Service & Return Points Won
 \end_layout
 
@@ -2040,7 +2115,14 @@ reference "sub:O'Malley's-Formulae"
 , the importance of the difference in service points and return points won
  percentages to the overall outcome of the tennis match.
  In fact, we later use only this difference in percentages to predict the
- probability of a player winning a match [section reference to 3].
+ probability of a player winning a match (Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Estimating-matchwinningprobability"
+
+\end_inset
+
+).
  
 \end_layout
 
@@ -2093,10 +2175,22 @@ In our overall model, for a match up between player A and player B, we first
  We look at all the players that have performed similarly to B in terms
  of service points and return points won percentages.
  We get this group of players by using clustering techniques, such as k-means,
- which we describe in further detail later in section [Section reference
- to clustering techniques].
- This is the set of similar players that we use later in Section 2.2.1 [section
- reference to spw Si] to generate predictions.
+ which we describe in further detail later in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Clustering-algorithms-general"
+
+\end_inset
+
+.
+ This resulting set of similar players is what we use later in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Difference-servicepointswon"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -2106,8 +2200,15 @@ In our overall model, for a match up between player A and player B, we first
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Clustering
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Clustering"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2123,13 +2224,13 @@ In the last section, we looked at the various attributes that we use to
  
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Clustering the general player profiles 
 \end_layout
 
 \begin_layout Standard
-To group the general player profiles, discussed in section [section reference],
- into clusters, we use the software, RapidMiner.
+To group the general player profiles into clusters, we use the software,
+ RapidMiner.
  As described in the Background 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2151,8 +2252,8 @@ reference "fig:RapidMiner-generalplayerprofiles"
 \end_layout
 
 \begin_layout Enumerate
-Reads our CSV file: The CSV file that we read is just a list of players
- and their attributes, that we created in section [section reference]
+Reads our CSV file: The CSV file that we read is our dataset, which is just
+ a list of players and their attributes
 \end_layout
 
 \begin_layout Enumerate
@@ -2167,8 +2268,6 @@ Select attributes & Set roles for clustering: We select all the fields that
 \begin_layout Enumerate
 Clustering: We focus on the k-means algorithm, and we vary its parameters
  for different trials.
- The output of each of these algorithms are compared in Section [section
- reference]
 \end_layout
 
 \begin_layout Enumerate
@@ -2225,7 +2324,7 @@ name "fig:RapidMiner-generalplayerprofiles"
 
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Implementation in overall system
 \end_layout
 
@@ -2426,12 +2525,25 @@ reference "fig:PythonFindSimilarPlayers"
  It is useful to note that 'player2' itself is included in the list of similar
  players returned by the function, because we consider 'player2' to be similar
  to itself.
- The output list that is returned is used in Section 2.3.1 [section reference]
- to create predictions of tennis matches.
+ The output list that is returned is used in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Difference-servicepointswon"
+
+\end_inset
+
+ to generate predictions for tennis matches.
 \end_layout
 
-\begin_layout Subsubsection*
-Clustering algorithms
+\begin_layout Subsubsection
+Clustering algorithms 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Clustering-algorithms-general"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -2439,8 +2551,14 @@ k-means
 \end_layout
 
 \begin_layout Standard
-The k-means algorithm was explained in the Background section [section reference
-].
+The k-means algorithm was explained in the Background section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:K-means-Clustering-background"
+
+\end_inset
+
+.
  The algorithm aims to partition a set of n observations into a k number
  of clusters.
  There are two important aspects that need to be considered when using this
@@ -2536,7 +2654,7 @@ As described in the background, the k-medoids algorithm is very similar
  
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Past opponent profile clustering
 \end_layout
 
@@ -2773,12 +2891,12 @@ We use the rule of thumb technique,
 
 , where n is the total number of records in the dataset, to set the number
  of clusters k, at every step of the clustering.
- Since we perform this clustering for close to 500 fixtures that we predict
- later in Section [section reference], we aim to minimize the computational
- overhead associated with the clustering by using this heuristic.
+ Since we perform this clustering for close to 500 fixtures, we aim to minimize
+ the computational overhead associated with the clustering by using this
+ heuristic.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Data Preprocessing
 \end_layout
 
@@ -2948,7 +3066,7 @@ It is important to consider the possibility that there are some records
 tly larger than the removal of five valid records (out of a dataset of 100).
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Flagging Specific Records
 \end_layout
 
@@ -2980,7 +3098,7 @@ Exhibition and Davis Cup matches: These are matches which do not count towards
  in the dataset.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Limitations
 \end_layout
 
@@ -3037,7 +3155,7 @@ Let's assume Player B is a very good player and Match 1 represents the true
  Hence, we consider players in both clusters.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection
 Summary so far
 \end_layout
 
@@ -3074,8 +3192,22 @@ In the next section, we introduce how we predict the outcome of a tennis
  up with a probability of each player winning the match.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Difference in service points won
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Difference-servicepointswon"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3166,7 +3298,7 @@ B
  players.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Formulas and Implementation
 \end_layout
 
@@ -3298,7 +3430,14 @@ reference "sub:O'Malley's-Formulae"
 \end_inset
 
 .
- We revisit O'Malley's formulae in section 3.2 [Reference].
+ We revisit O'Malley's formulae later in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Implementation-of-Omalley"
+
+\end_inset
+
+.
  In equation 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -3336,7 +3475,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset listings
-lstparams "breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
+lstparams "basicstyle={\scriptsize},breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
 inline false
 status open
 
@@ -3629,6 +3768,13 @@ name "fig:Python-triangleAB"
 
 \begin_layout Section
 Estimating a player's match winning probability
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Estimating-matchwinningprobability"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3640,7 +3786,11 @@ The calculation of a player's match winning probability is a key aspect
 
 , which is the value that represents the advantage or disadvantage that
  a player A has over player B in terms of the proportion of service points
- won against opponent Si.
+ won against opponent 
+\begin_inset Formula $S_{i}$
+\end_inset
+
+.
  We use this value to influence the probability of winning a point on serve
  for each player in a match between player A and player B.
  Using this player's probability of winning a point on serve, we calculate
@@ -3752,6 +3902,13 @@ Implementation
 
 \begin_layout Subsubsection
 Implementation of Formulas
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Implementation-of-Omalley"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3962,9 +4119,9 @@ Match Level
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-M_{3}(p,q)=S(p,q)^{2}[1+2(1-S(p,q))]
-\]
+\begin{equation}
+M_{3}(p,q)=S(p,q)^{2}[1+2(1-S(p,q))]\label{eq:m3omalley}
+\end{equation}
 
 \end_inset
 
@@ -3973,9 +4130,9 @@ M_{3}(p,q)=S(p,q)^{2}[1+2(1-S(p,q))]
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-M_{5}(p,q)=S(p,q)^{3}[1+3(1-S(p,q))+6(1-S(p,q))^{2}]
-\]
+\begin{equation}
+M_{5}(p,q)=S(p,q)^{3}[1+3(1-S(p,q))+6(1-S(p,q))^{2}]\label{eq:m5omalley}
+\end{equation}
 
 \end_inset
 
@@ -3983,8 +4140,21 @@ M_{5}(p,q)=S(p,q)^{3}[1+3(1-S(p,q))+6(1-S(p,q))^{2}]
 \end_layout
 
 \begin_layout Standard
-The formula in Equation [equation reference] are for best of 3 matches and
- best of 5 matches respectively.
+The formulae in Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:m3omalley"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:m5omalley"
+
+\end_inset
+
+, and are for best of 3 matches and best of 5 matches respectively.
  For Grand Slam matches, the second formula was used, since all Grand Slam
  matches are best of five set encounters.
  For other matches on the ATP tour, the best of three set formula was used.
@@ -4017,7 +4187,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset listings
-lstparams "breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
+lstparams "basicstyle={\scriptsize},breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
 inline false
 status open
 
@@ -4211,20 +4381,19 @@ Evaluating the correctness of the implementation
 
 \begin_deeper
 \begin_layout Enumerate
-The data collected in Section [section reference] from websites such as
- TennisInsight and ATP World Tour have been scraped correctly.
+The data collected from websites such as TennisInsight and ATP World Tour
+ have been scraped correctly.
  
 \end_layout
 
 \begin_layout Enumerate
-O'Malley's hierarchical equations described in Section [section reference]
- ,for calculating the probability of winning have been implemented correctly
+O'Malley's hierarchical equations for calculating the probability of winning
+ have been implemented correctly
 \end_layout
 
 \begin_layout Enumerate
 Clustering functions, including the use of the Python clustering library
- Pycluster as described in Section [section reference], are used and implemented
- in the right way
+ Pycluster, are used and implemented in the right way
 \end_layout
 
 \end_deeper
@@ -4310,7 +4479,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset listings
-lstparams "breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
+lstparams "basicstyle={\scriptsize},breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
 inline false
 status open
 
@@ -4999,27 +5168,191 @@ O'Malley's formulas were used extensively in this project to predict the
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-btprint "btPrintAll"
-bibfiles "references"
-options "plain"
-
+\begin_inset Newpage pagebreak
 \end_inset
 
 
 \end_layout
 
 \begin_layout Section
-Appendix
+Conclusion
 \end_layout
 
-\begin_layout Subsection*
-A: Coefficient Matrices Used in O'Malley's Tennis Formulae
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
-\begin_layout Subsubsection*
-A.1: Table A
+\begin_layout Section
+Future work
+\end_layout
+
+\begin_layout Subsection
+Improving general player profiles
+\end_layout
+
+\begin_layout Standard
+To make a prediction, our model finds a set of similar players for each
+ opponent and calculates the probability of either player winning the match
+ based on each player's performance against similar players to his opponent.
+ Hence, we can see that our model relies significantly on players who are
+ similar to one another.
+ It is thus very important that we generate the correct set of similar players.
+\end_layout
+
+\begin_layout Standard
+In section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:General-player-profiles-attributes"
+
+\end_inset
+
+, we discussed the attributes that were chosen to describe each player.
+ To recall, examples of attributes used included the player's performance
+ on different kinds of surfaces, as well as the player's age and height.
+ The complete set of information on all players was clustered based on all
+ these attributes.
+ We have shown that the generated clusters were in fact indicative of actual
+ player styles, as described in section [section reference].
+ 
+\end_layout
+
+\begin_layout Standard
+However, there are many additonal attributes that can characterise a player,
+ and can be used to find similar players.
+ For example, we could add an attribute which quantifies a player's court
+ speed (how fast he moves around the court).
+ Obtaining more information would allow us to improve the clustering and
+ ensure that our resulting clusters are even more indicative of real player
+ styles.
+ Information like this was not available when conducting this project, but
+ can be measured and used in our model in the future to predict fixtures
+ more accurately.
+\end_layout
+
+\begin_layout Subsection
+Using more clustering techniques
+\end_layout
+
+\begin_layout Standard
+Only the k-means clustering algorithm (and variations such as the k-medoids
+ and x-means) was investigated.
+ There are several different clustering algorithms, including the expectation-ma
+ximization algorithm and DBSCAN.
+ Using different algorithms would result in different types of similar players
+ generated and thus differing predictions from our current model.
+ It would be worth attempting these different algorithms on a larger dataset,
+ and comparing the resulting clusters of each one.
+\end_layout
+
+\begin_layout Subsection
+Expanding analysis to more players
+\end_layout
+
+\begin_layout Standard
+As mentioned previously, in this project, we have focused our analysis on
+ a select set of 33 players.
+ This set included the top 30 ranked players as of May 20th 2014, as well
+ as three other players who are ranked 33, 40, and 44.
+ As we have found that it is worth pursuing our model on the set of 33 players,
+ it is certainly useful to expand our analysis to as many players as possible.
+ This would give us an increased range of fixtures to predict.
+ In addition, more players means that it is likely a player would have a
+ larger set of similar players, thus resulting in more clustering data for
+ predictions.
+\end_layout
+
+\begin_layout Subsection
+Improving the overall betting strategy
+\end_layout
+
+\begin_layout Standard
+We currently use a very straightforward betting strategy, betting one pound
+ on a player to win if the market odds are higher that the calculated predicted
+ odds.
+ For an even higher return on investment, it is certainly possible to add
+ a 'risk level' to each prediction.
+ If the risk level for the prediction is too high, we can wager a smaller
+ amount to minimize the risk of losing more money, instead of consistently
+ betting a fixed unit of one pound.
+ We can generate this risk level based the amount of data we have used to
+ make a prediction.
+ For example, a prediction that is based on only 2 datapoints is likely
+ to have a higher risk level associated to it that a prediction that is
+ based on 30 datapoints.
+\end_layout
+
+\begin_layout Subsection
+Implementing multiple hierarchical models
+\end_layout
+
+\begin_layout Standard
+In this project, we implemented O'Malley's heirarchical tennis formulae
+ to generate the probability of a player winning a match.
+ As described in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Estimating-matchwinningprobability"
+
+\end_inset
+
+, there are other models that can be used to predict the probability of
+ winning a match.
+ An example of such a model is Barnett's heirarchical Markov model.
+ It is very straightforward to adapt our model to use Barnett's model instead
+ of O'Malley's since they both take the same input - the probability of
+ both players winning a point on their serve.
+ As part of future work, it will be interesting to compare the differences
+ between using both models.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "references"
+options "bibtotoc,plain"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+\start_of_appendix
+Appendices
+\end_layout
+
+\begin_layout Section
+Coefficient Matrices Used in O'Malley's Tennis Formulae
+\end_layout
+
+\begin_layout Subsection
+Table A
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:appendixTable-A"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5067,8 +5400,15 @@ Table A was used in the tiebreaker tennis formula
 
 \end_layout
 
-\begin_layout Subsubsection*
-A.2: Table B
+\begin_layout Subsection
+Table B
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:appendixTable-B"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -5109,8 +5449,7 @@ Table B was used in the set winning probability
 
 \end_layout
 
-\begin_layout Subsection*
-B: 
+\begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:B:-ATP-Rankings"
