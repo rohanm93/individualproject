@@ -3,13 +3,16 @@
 \begin_document
 \begin_header
 \textclass article
+\begin_preamble
+\usepackage{url}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
 \language_package default
 \inputencoding auto
 \fontencoding T1
-\font_roman lmodern
+\font_roman ae
 \font_sans default
 \font_typewriter default
 \font_default_family default
@@ -24,10 +27,10 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize default
-\spacing single
+\paperfontsize 11
+\spacing other 1.1499999999999999
 \use_hyperref false
-\papersize default
+\papersize custom
 \use_geometry true
 \use_amsmath 1
 \use_esint 1
@@ -43,10 +46,12 @@
 \shortcut idx
 \color #008000
 \end_index
-\leftmargin 4cm
-\topmargin 4.5cm
-\rightmargin 4cm
-\bottommargin 4.5cm
+\paperwidth 8.27in
+\paperheight 11.69in
+\leftmargin 3.7cm
+\topmargin 4.2cm
+\rightmargin 3.7cm
+\bottommargin 4.2cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -160,6 +165,13 @@ As mentioned earlier, players play a tiebreaker game in most cases where
 
 \begin_layout Subsection
 Modelling in Tennis
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Modelling-in-Tennis"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -179,7 +191,14 @@ For the ease of modelling a tennis game, most papers take the assumption
  This means that the probability of a player winning a point is independent
  of the outcome of the point played before and after and it remains constant
  throughout the entire match.
- This assumption was analyzed by Klaasen and Magnus[reference 1].
+ This assumption was analyzed by Klaasen and Magnus 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "KlaasenMagnusArePointsIid"
+
+\end_inset
+
+.
  They found that points were neither identically nor independently distributed.
  However, they concluded that the deviations from the i.i.d.
  assumption were small and hence, this assumption is considered to be a
@@ -236,11 +255,17 @@ To define the term, a Markov chain is a sequence of random variables
 \end_inset
 
  with the Markov property.
- [reference 4] The Markov property can be formally expressed as 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "WikiMarkov"
+
+\end_inset
+
+ The Markov property can be formally expressed as 
 \begin_inset Formula 
-\[
-P(X_{n+1}=x\,|\, X_{1}=x_{1},\, X_{2}=x_{2},...,\, X_{n}=x_{n})=P(X_{n+1}=x\,|\, X_{n}=x_{n})
-\]
+\begin{equation}
+P(X_{n+1}=x\,|\, X_{1}=x_{1},\, X_{2}=x_{2},...,\, X_{n}=x_{n})=P(X_{n+1}=x\,|\, X_{n}=x_{n})\label{eq:markovproperty}
+\end{equation}
 
 \end_inset
 
@@ -286,6 +311,18 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename diagrams/markovgame.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -305,6 +342,7 @@ name "fig:markov"
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 
 \shape italic
 p represents the probability of winning a point for the server
@@ -320,7 +358,14 @@ Tennis Equations
 \end_layout
 
 \begin_layout Standard
-James O'Malley[reference 2], in his paper 
+James O'Malley
+\begin_inset CommandInset citation
+LatexCommand cite
+key "OMalley"
+
+\end_inset
+
+, in his paper 
 \begin_inset Quotes eld
 \end_inset
 
@@ -328,7 +373,14 @@ Probability Formulas and Statistical Analysis in Tennis
 \begin_inset Quotes erd
 \end_inset
 
-, and Tristan Barnett[reference 3], in his paper 
+, and Tristan Barnett
+\begin_inset CommandInset citation
+LatexCommand cite
+key "BarnettClarke"
+
+\end_inset
+
+, in his paper 
 \begin_inset Quotes eld
 \end_inset
 
@@ -346,6 +398,13 @@ ies of players winning a tennis match.
 
 \begin_layout Subsubsection
 O'Malley's Formulae
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:O'Malley's-Formulae"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -354,6 +413,10 @@ Using point level statistics (probability of each player winning a point
  and a tiebreaker game.
  We then use these calculated probabilities to derive the probability of
  a player winning a set and also hence winning the match.
+ Since we use just point level statistics (probability of winning point
+ on serve and probability of winning point on return) to predict the entire
+ probability of winning, it is crucial that they are estimated appropriately
+ when making predictions
 \end_layout
 
 \begin_layout Standard
@@ -362,7 +425,14 @@ Using the idea that the probability that a player wins a point is a Bernoulli
 \begin_inset Formula $p$
 \end_inset
 
-, O'Malley [reference 2] derived the following expressions:
+, O'Malley 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "OMalley"
+
+\end_inset
+
+ derived the following expressions:
 \end_layout
 
 \begin_layout Subsubsection*
@@ -404,9 +474,9 @@ G(p)=P(player\, wins\, game)
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-=p^{4}(15-4p-\frac{10p^{2}}{1-2p(1-p)})
-\]
+\begin{equation}
+=p^{4}(15-4p-\frac{10p^{2}}{1-2p(1-p)})\label{eq:gameprob}
+\end{equation}
 
 \end_inset
 
@@ -421,10 +491,16 @@ G(p)=P(player\, wins\, game)
 \end_layout
 
 \begin_layout Standard
-O'Malley, in this equation, considers four different scenarios from which
- the game can be won: the player can win without losing any points, losing
- one point, losting two points, and winning the game after the score is
- 
+O'Malley, in Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:gameprob"
+
+\end_inset
+
+, considers four different scenarios from which the game can be won: the
+ player can win without losing any points, losing one point, losting two
+ points, and winning the game after the score is 
 \begin_inset Quotes eld
 \end_inset
 
@@ -455,9 +531,9 @@ Probability of a player winning a tiebreaker
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-TB(p,q)=\sum_{i=1}^{28}A(i,1)p^{A(i,2)}(1-p)^{A(i,3)}q^{A(i,4)}(1-q)^{A(i,5)}d(p,q)^{A(i,6)}
-\]
+\begin{equation}
+TB(p,q)=\sum_{i=1}^{28}A(i,1)p^{A(i,2)}(1-p)^{A(i,3)}q^{A(i,4)}(1-q)^{A(i,5)}d(p,q)^{A(i,6)}\label{eq:tbprob}
+\end{equation}
 
 \end_inset
 
@@ -557,9 +633,9 @@ S(p,q)=\sum_{i=1}^{21}B(i,1)G(p)^{B(i,2)}(1-G(p))^{B(i,3)}G(q)^{B(i,4)}(1-G(q))^
 \noun off
 \color none
 \begin_inset Formula 
-\[
-\qquad\:\times(G(p)G(q)+(G(p)(1-G(q))+(1-G(p))G(q))T(p,q))^{B(i,6)}
-\]
+\begin{equation}
+\qquad\:\times(G(p)G(q)+(G(p)(1-G(q))+(1-G(p))G(q))T(p,q))^{B(i,6)}\label{eq:setprob}
+\end{equation}
 
 \end_inset
 
@@ -597,7 +673,14 @@ Coefficient matrix
 \end_layout
 
 \begin_layout Standard
-It can be seen that 
+It can be seen that in Equation
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:setprob"
+
+\end_inset
+
+, 
 \begin_inset Formula $S(p,q)$
 \end_inset
 
@@ -625,9 +708,9 @@ Probability of a player winning a match
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-M_{3}(p,q)=S(p,q)^{2}[1+2(1-S(p,q))]
-\]
+\begin{equation}
+M_{3}(p,q)=S(p,q)^{2}[1+2(1-S(p,q))]\label{eq:match3prob}
+\end{equation}
 
 \end_inset
 
@@ -636,9 +719,9 @@ M_{3}(p,q)=S(p,q)^{2}[1+2(1-S(p,q))]
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-M_{5}(p,q)=S(p,q)^{3}[1+3(1-S(p,q))+6(1-S(p,q))^{2}]
-\]
+\begin{equation}
+M_{5}(p,q)=S(p,q)^{3}[1+3(1-S(p,q))+6(1-S(p,q))^{2}]\label{eq:match5prob}
+\end{equation}
 
 \end_inset
 
@@ -646,8 +729,21 @@ M_{5}(p,q)=S(p,q)^{3}[1+3(1-S(p,q))+6(1-S(p,q))^{2}]
 \end_layout
 
 \begin_layout Standard
-The formulae in Equation [equation reference] are for best of 3 matches
- and best of 5 matches respectively.
+The formulae in Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:match3prob"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:match5prob"
+
+\end_inset
+
+ are for best of 3 matches and best of 5 matches respectively.
  For Grand Slam matches, the second formula is used, since all Grand Slam
  matches are best of five set encounters.
  For other matches on the ATP tour, the best of three set formula was used.
@@ -670,16 +766,22 @@ Combining player statistics using Barnett and Clarke's formulae
 There is a significant amount of data available regarding match statistics,
  but its important to combine them to produce an accurate estimation of
  the probability of winning a point.
- Barnett and Clarke[ reference 3] came up with the following formulae to
- combine certain statistics to give an accurate point winning probability
- on serve:
+ Barnett and Clarke 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "BarnettClarke"
+
+\end_inset
+
+ came up with the following formulae to combine certain statistics to give
+ an accurate point winning probability on serve:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-f_{i}=a_{i}b_{i}+(1-a_{i})c_{i}
-\]
+\begin{equation}
+f_{i}=a_{i}b_{i}+(1-a_{i})c_{i}\label{eq:barnett}
+\end{equation}
 
 \end_inset
 
@@ -723,7 +825,14 @@ percentage of points won on serve for player i.
 \end_layout
 
 \begin_layout Standard
-The above formula is straightforward to understand.
+The formula in Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:barnett"
+
+\end_inset
+
+ is straightforward to understand.
  The percentage of points won on serve for player i is the sum of the points
  won on the first serve and the points won on the second serve (when the
  player misses his first serve).
@@ -735,9 +844,9 @@ Taking into account the opponent, we have the following:
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-g_{i}=a_{avg}d_{i}+(1-a_{avg})e_{i}
-\]
+\begin{equation}
+g_{i}=a_{avg}d_{i}+(1-a_{avg})e_{i}\label{eq:barnett2}
+\end{equation}
 
 \end_inset
 
@@ -806,9 +915,9 @@ Finally, we want to combine both of these player statistics when a player
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-f_{ij}=f_{t}+(f_{i}-f_{avg})-(g_{i}-g_{avg})
-\]
+\begin{equation}
+f_{ij}=f_{t}+(f_{i}-f_{avg})-(g_{i}-g_{avg})\label{eq:barnett3}
+\end{equation}
 
 \end_inset
 
@@ -851,10 +960,16 @@ In the same paper, Barnett describes a hierarchical Markov model which,
  match.
  It is important to note that the actual values of the point winning probabiliti
 es themselves are not as crucial as the relative difference between them.
- O'Malley [reference] has also reasoned that it is the difference between
- the serve winning probabilities of each player that is integral to calculating
- a player's point winning probability and hence overall match winning probabilit
-y.
+ O'Malley 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "OMalley"
+
+\end_inset
+
+ has also reasoned that it is the difference between the serve winning probabili
+ties of each player that is integral to calculating a player's point winning
+ probability and hence overall match winning probability.
  
 \end_layout
 
@@ -918,15 +1033,21 @@ The k-means clustering algorithm is a straightforward unsupervised learning
 \end_layout
 
 \begin_layout Standard
-More formally, we have the cluster assignment step as the following [reference
- 5]:
+More formally, we have the cluster assignment step as the following 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kmeansWiki"
+
+\end_inset
+
+:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-S_{i}^{(t)}=\{x_{p}:\parallel x_{p}-m_{i}^{(t)}\parallel^{2}\leq\parallel x_{p}-m_{i}^{(t)}\parallel^{2}\forall j,\,1\leq j\leq k\}
-\]
+\begin{equation}
+S_{i}^{(t)}=\{x_{p}:\parallel x_{p}-m_{i}^{(t)}\parallel^{2}\leq\parallel x_{p}-m_{i}^{(t)}\parallel^{2}\forall j,\,1\leq j\leq k\}\label{eq:kmeans}
+\end{equation}
 
 \end_inset
 
@@ -965,8 +1086,14 @@ K-medoids clustering is a variation of the k-means algorithm.
  The only difference is that k-medoids chooses actual datapoints as centres,
  instead of imaginary centroids as in k-means.
  The k-medoids clustering has been implemented by the Partitioning Around
- Medoids (PAM) algorithm, which works in the following way [reference http://anu
-radhasrinivas.files.wordpress.com/2013/04/lesson8-clustering.pdf]:
+ Medoids (PAM) algorithm, which works in the following way 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "kmedoids"
+
+\end_inset
+
+:
 \end_layout
 
 \begin_layout Enumerate
@@ -1049,7 +1176,14 @@ X-means: Extending K-means with Efficient Estimation of the Number of Clusters
 \begin_inset Quotes erd
 \end_inset
 
- by Pelleg and Moore [reference to this paper].
+ by Pelleg and Moore 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "xmeans"
+
+\end_inset
+
+.
  The algorithm takes as input a minimum k value and a maximum k value, and
  aims to find the optimal amount of clusters by optimizing information criteria,
  using a criterion known as the Bayesian Information Criterion (BIC).
@@ -1061,6 +1195,13 @@ Tools
 
 \begin_layout Subsubsection
 RapidMiner
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:RapidMinerBackground"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1075,7 +1216,7 @@ RapidMiner is a popular data mining tool that allows you to use several
  such as 'Clustering', 'Import Data', etc.
  Later in this report, we present the different processes that have been
  used in RapidMiner.
- A screenshot of the RapidMiner tool is shown in Figure 
+ A screenshot of the RapidMiner tool is shown in 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:rminerscreenshot"
@@ -1091,6 +1232,16 @@ reference "fig:rminerscreenshot"
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename diagrams/background_rapidminer.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -1112,6 +1263,7 @@ name "fig:rminerscreenshot"
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 
 \shape italic
 A complete process is shown which consists of operators that import data
@@ -1148,10 +1300,18 @@ l tennis match played since the site was inaugurated.
 \begin_layout Standard
 A feature has launched on the website TennisInsight called Player Traits,
  which lets users tag players with characteristic traits.
+ These traits are used later in the Evaluation, to measure the successfulness
+ of clustering algorithms.
  In this project, based on statistics of players alone, we determine similar
  player traits.
- Furthermore, we look at the significance of each of these traits in the
- eventual outcome of the match.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1205,21 +1365,81 @@ This is the first component of the web scraper.
  corresponding links to more detailed match statistics (which are on either
  the ATP's website or TennisInsight).
  We can see an excerpt of a scraped page, which contains a list of Roger
- Federer's matches, in Figure [figure reference].
+ Federer's matches, in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:scrapyplayeractivity"
+
+\end_inset
+
+.
  An example hyperlink to the match statistics is shown by the red box.
  
 \end_layout
 
 \begin_layout Standard
-Example match statistics links are shown in Figure [figure reference to
- code].
- We can see that the TennisInsight website either points to an external
- page on the ATP website (atpworldtour.com) or points to a page on TennisInsight.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename diagrams/scrapy-playeractivitypage.png
+	scale 75
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:scrapyplayeractivity"
+
+\end_inset
+
+Excerpt of a player's past 100 matches.
+ This is an example of one of the pages that were scraped.
+ The statistics for each match can be accessed by clicking on the Match
+ Stats link highlighted in the red box
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These hyperlinks point to match statistics pages like the ones shown in
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Match-Statistics-Pages"
+
+\end_inset
+
+.
  Our scraper finds each of these links by using both regular expressions
  and xpaths.
  We use regular expressions to match the pattern of the links we want to
- open (see Figure [figure reference]), and xpaths to point to specific nodes
- on the HTML page.
+ open (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Using-regular-expressions"
+
+\end_inset
+
+), and xpaths to point to specific nodes on the HTML page.
  As an example, the URLs we wanted to open belonged to the xpath 
 \begin_inset Formula $//td[@class="matchStyle"]$
 \end_inset
@@ -1229,9 +1449,55 @@ Example match statistics links are shown in Figure [figure reference to
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename diagrams/matchstatspages-TI&atp.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Match-Statistics-Pages"
+
+\end_inset
+
+Match Statistics Pages
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Our scraper opens each of these links, and parses the target webpage.
  These target web pages contain the statistics of each match, and are of
- the form shown in Figure [figure reference to matchstatspagesTI&atp].
+ the form shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Match-Statistics-Pages"
+
+\end_inset
+
+.
  In this figure, on the left is an example of the Match Statistics page
  on the TennisInsight website, while on the right, we have an example of
  the Match Statistics page on the ATP website.
@@ -1259,6 +1525,12 @@ Aces,
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset listings
 lstparams "basicstyle={\small\sffamily}"
 inline false
@@ -1272,6 +1544,10 @@ Form of URLs wanted:
 \begin_layout Plain Layout
 
 javascript:makePopup('match_stats_popup.php?matchID=186134402')
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -1361,6 +1637,33 @@ d+&p=...."
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Using-regular-expressions"
+
+\end_inset
+
+Using regular expressions to point to the required match statistics links
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Odds Scraper
 \end_layout
@@ -1405,8 +1708,15 @@ Linking scraped records from both scrapers
 After this data was collected separately by two different scrapers, it was
  important for them to be linked together to form complete records to simplify
  processing at later stages in the project.
- SQLite, a SQL database engine was used for this purpose, providing a quick
- and straightforward way to join tables using standard SQL commands.
+ SQLite, a serverless SQL database engine was used for this purpose, providing
+ a quick and straightforward way to join tables using standard SQL commands.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1451,11 +1761,13 @@ In this project, we introduce the idea of players with similar profiles
 
 \begin_layout Standard
 For this project, we focus our analysis on the top 30 ranked players on
- the ATP tour as of May 20th 2014 [reference put rank list in appendix].
- [change why chosen the top 30 players] In addition, we have also included
- three other players in our analysis: Jeremy Chardy (ranked 40), Lleyton
- Hewitt (ranked 44), and Andreas Seppi (ranked 33), since these three players
- introduce interesting aspects into the project.
+ the ATP tour as of May 20th 2014.
+ Rankings of all players investigated in this study are provided in Appendix
+ B.
+ In addition, we have also included three other players in our analysis:
+ Jeremy Chardy (ranked 40), Lleyton Hewitt (ranked 44), and Andreas Seppi
+ (ranked 33), since these three players introduce interesting aspects into
+ the project.
  For example, Lleyton Hewitt was ranked as world number 1 in 2001/02, but
  is currently 44, while Jeremy Chardy has caused some significant upsets
  over the past two years.
@@ -1542,8 +1854,14 @@ istic in classifying players, as this statistic is likely to give us an
  Height is considered to be a particularly important characteristic in tennis,
  especially for servers, as it makes a player's service harder to return
  because of the power, height, and bounce that is generated from a serve
- [reference to http://edition.cnn.com/2012/10/15/sport/tennis/tennis-nishikori-jap
-an-size/index.html].
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "serveinfo"
+
+\end_inset
+
+.
  In tennis, many players are seen to have their 'favorite' tennis court
  surface, and we introduce their win rate on the three different major surfaces
  to take this into account.
@@ -1560,8 +1878,15 @@ serve and volley players
 ).
  The service and return points won percentages are useful indicators of
  a player's overall performance across all their opponents.
- We describe the importance of these two statistics in the background section[re
-ference to Tennis Equations].
+ We describe the importance of these two statistics in the background section,
+ see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:O'Malley's-Formulae"
+
+\end_inset
+
+.
  The final two statistics, win percentage against the top 20 and the end
  of year ranking, encompass a large variety of different attributes in one
  statistic, as described next in Limitations.
@@ -1582,19 +1907,19 @@ It is a challenge to capture different playing styles of players through
  used in shots would certainly be beneficial for identifying more accurate
  playing styles.
  We aim to minimise the influence of this data limitation by including 'generic'
- attributes, such as the player's performance versus the Top 20 (for the
+ attributes, such as the player's performance versus the Top 10 (for the
  previous year) or their end of year ranking, into the clustering analysis.
  'Generic' attributes encompass a player's performance over several games,
  and is likely to include certain factors that cannot be measured individually.
- For example, Rafael Nadal's has won 80% of his last ten matches against
- the Top 20 over the past year (as of June 8 2014), while Jerzy Janowicz
- has won 20%.
+ For example, Rafael Nadal's has won 69% of his last ten matches against
+ the Top 10 over the past year (as of June 8 2014), while Alexandr Dolgopolov
+ has won 27%.
  This clearly tells us first that Nadal is the stronger player, winning
  a higher majority of his matches against a higher ranked opposition.
- However, this 80% value also serves as a statistic which measures Nadal's
+ However, this 69% value also serves as a statistic which measures Nadal's
  overall performance in these particular games, likely to be indicating
  his performance in specific (often unmeasurable) factors such as more accurate
- shots and a better tactical performance against the Top 20 players.
+ shots and a better tactical performance against the Top 10 players.
  
 \end_layout
 
@@ -1617,15 +1942,22 @@ The above attributes are presented in a wide range of units.
 
 \begin_layout Standard
 The formula used to rescale each attribute to the range [0,1] is presented
- in equation [equation reference].
+ in equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:normalising"
+
+\end_inset
+
+.
  It is also known as feature scaling.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-X_{new}=\frac{X-X_{min}}{X_{max}-X_{min}}
-\]
+\begin{equation}
+X_{new}=\frac{X-X_{min}}{X_{max}-X_{min}}\label{eq:normalising}
+\end{equation}
 
 \end_inset
 
@@ -1638,7 +1970,7 @@ The statistics that were normalised were height, age, average net approaches,
  The other statistics are already percentages in the range of [0,1], so
  there is no need to rescale them.
  Since every attribute was in the same range, all attributes were given
- equal importance.
+ equal importance and weighted equally.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1671,7 +2003,7 @@ Let us look at an example of the limitation introduced if solely the general
  of 'past opponent profiles' minimize this limitation.
  Roger Federer and Novak Djokovic are similar players in terms of general
  player profiles and statistics (both players have a consistent record against
- the top 20 players, have similar service and return points won percentages,
+ the top 10 players, have similar service and return points won percentages,
  and have similar heights and similar service speeds).
  However, let us look at these player's previous performances when playing
  current world number one Rafael Nadal.
@@ -1698,9 +2030,15 @@ d as a separate record.
  service points won and return points won percentages of each opponent are
  used for the next phase, which is the clustering phase.
  There are a few reasons that this decision was made.
- We have discussed in the background [section reference] the importance
- of the difference in service points and return points won percentages to
- the overall outcome of the tennis match.
+ We have discussed in the background, section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:O'Malley's-Formulae"
+
+\end_inset
+
+, the importance of the difference in service points and return points won
+ percentages to the overall outcome of the tennis match.
  In fact, we later use only this difference in percentages to predict the
  probability of a player winning a match [section reference to 3].
  
@@ -1761,6 +2099,13 @@ In our overall model, for a match up between player A and player B, we first
  reference to spw Si] to generate predictions.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Clustering
 \end_layout
@@ -1785,9 +2130,23 @@ Clustering the general player profiles
 \begin_layout Standard
 To group the general player profiles, discussed in section [section reference],
  into clusters, we use the software, RapidMiner.
- As described in the Background [section reference], RapidMiner is a platform
- that provides a complete environment for machine learning and data mining.
- An image of how RapidMiner is used can be seen in Figure [figure reference].
+ As described in the Background 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:RapidMinerBackground"
+
+\end_inset
+
+, RapidMiner is a platform that provides a complete environment for machine
+ learning and data mining.
+ An image of how RapidMiner is used can be seen in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:RapidMiner-generalplayerprofiles"
+
+\end_inset
+
+.
  We design a process which:
 \end_layout
 
@@ -1819,6 +2178,53 @@ Write CSV: This ends the process by appending a column to the input CSV
  players.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename diagrams/rapidminer-clusteringplayerprofiles.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+RapidMiner process used to cluster general player profiles 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:RapidMiner-generalplayerprofiles"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection*
 Implementation in overall system
 \end_layout
@@ -1826,11 +2232,80 @@ Implementation in overall system
 \begin_layout Standard
 Python code has been developed to read the output CSV from RapidMiner and
  find players belonging to a particular cluster.
- An excerpt of RapidMiner's CSV output can be seen in Figure [figure reference].
- Python code is reproduced in Figure [figure reference]
+ An excerpt of RapidMiner's CSV output can be seen in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:RM-CSVoutput"
+
+\end_inset
+
+.
+ Python code is reproduced in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:PythonFindSimilarPlayers"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename diagrams/csvoutputrapidminer.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Excerpt of RapidMiner's CSV output after clustering the general player profiles.
+ As we can see, RapidMiner appends a column 'cluster' to each attribute,
+ which defines what cluster the player belongs to
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:RM-CSVoutput"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset listings
 lstparams "breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
 inline false
@@ -1906,9 +2381,40 @@ def get_similar_profile_players(player2):
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Python code to find set of similar players from RapidMiner's CSV output
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:PythonFindSimilarPlayers"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
-In Figure [figure reference], we find similar players to 'player2', which
- is a string of the player's name.
+In Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:PythonFindSimilarPlayers"
+
+\end_inset
+
+, we find similar players to 'player2', which is a string of the player's
+ name.
  We first iterate through the RapidMiner's CSV output by opening the file
  and loading it into a Python dictionary list.
  We then find the cluster that the player belongs to by iterating through
@@ -1960,7 +2466,14 @@ k-means++: The Advantages of Careful Seeding
 \begin_inset Quotes erd
 \end_inset
 
- [reference].
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "goodstartvalues"
+
+\end_inset
+
+.
  This ensures that the results of the clustering is the same over repeated
  trials.
 \end_layout
@@ -2044,13 +2557,26 @@ To recall, we create a separate past opponent profile for each player in
 \end_layout
 
 \begin_layout Standard
-For the k-means clustering algorithm, we use the clustering library PyCluster
+For the k-means clustering algorithm, we use the clustering library Pycluster
  and scientific toolkit SciPy.
- PyCluster provides its own implementation of the k-means algorithm and
- it is used in the following way:
+ Pycluster provides its own implementation of the k-means algorithm and
+ it is used in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Using-Pycluster's-kcluster"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset listings
 lstparams "breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
 inline false
@@ -2111,9 +2637,44 @@ def kmeans_cluster(past_opponent_records):
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Using Pycluster's kcluster function to perform k-means
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Using-Pycluster's-kcluster"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
-As we can see, this function takes the argument 'past_opponent_records',
- which is a list of records.
+As we can see in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Using-Pycluster's-kcluster"
+
+\end_inset
+
+, this function takes the argument 'past_opponent_records', which is a list
+ of records.
  Each record contains the opponent's name, odds for a player to win the
  match, the serve and return points won percentages, as well as additional
  match statistics.
@@ -2130,9 +2691,23 @@ As we can see, this function takes the argument 'past_opponent_records',
 One of the function's return values is 'labels', a list of integers where
  each integer corresponds to a separate cluster.
  A straightforward example of the output of the Pycluster function is shown
- in Figure [figure reference].
- In Figure [figure reference], we input four service and return points won
- percentages, and provide a k-value of 2 i.e.
+ in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:pycluster"
+
+\end_inset
+
+.
+ In Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:pycluster"
+
+\end_inset
+
+, we input four service and return points won percentages, and provide a
+ k-value of 2 i.e.
  2 clusters.
  The output is in the final line 
 \begin_inset Quotes eld
@@ -2144,6 +2719,51 @@ clusters: [0 1 0 1]
 
 , and this simply means that the first and third set of values belong to
  cluster 0, while the remaining values belong to cluster 1.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename diagrams/pyclusters.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Demonstration of the Pycluster function
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:pycluster"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2200,7 +2820,14 @@ Efficient Algorithms for Mining Outliers from Large Data Sets
 \begin_inset Quotes erd
 \end_inset
 
- by Ramaswamy, Rastogi, and Shim [reference to this paper].
+ by Ramaswamy, Rastogi, and Shim 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "outliers"
+
+\end_inset
+
+.
  The outlier detection approach is straightforward.
  Each point is ranked based on its Euclidean distance to its k-th nearest
  neighbour, and the top n ranked points in this ranking are detected as
@@ -2228,8 +2855,15 @@ The reason outliers were removed was because it was noticed that in certain
 \end_layout
 
 \begin_layout Standard
-In Figure [figure reference], we can see a screenshot of the RapidMiner
- process which includes the outlier detection and removal operators.
+In Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:RapidMiner-process-outliers"
+
+\end_inset
+
+, we can see a screenshot of the RapidMiner process which includes the outlier
+ detection and removal operators.
  This process was run for each player's dataset separately.
  We have instructed RapidMiner to 
 \end_layout
@@ -2251,14 +2885,57 @@ Detect Outliers: RapidMiner detects outliers according to the method described
 \end_layout
 
 \begin_layout Enumerate
-Filter Examples: We filter out all records (referred to as examples in RapidMine
-r) which have the attribute 'outlier' set to True.
+Filter Examples: We filter out all records (referred to as 'examples' in
+ RapidMiner) which have the attribute 'outlier' set to True.
  After this stage, all outliers have been successfully removed.
 \end_layout
 
 \begin_layout Enumerate
 Write CSV: Write all the records which aren't outliers to a CSV file, which
  we use for the next stage (the clustering phase).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename diagrams/outlierdetection.jpg
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+RapidMiner process to detect and remove outliers
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:RapidMiner-process-outliers"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2413,17 +3090,30 @@ As mentioned earlier in the report, a key indicator of a player's performance
 \end_layout
 
 \begin_layout Standard
-O'Malley [reference] reasoned that it is the difference between the serve
- winning probabilities of each player that is integral to calculating a
- player's point winning probability and hence overall match winning probability.
+O'Malley 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "OMalley"
+
+\end_inset
+
+ reasoned that it is the difference between the serve winning probabilities
+ of each player that is integral to calculating a player's point winning
+ probability and hence overall match winning probability.
  It is important to note that the actual values of the point winning probabiliti
 es themselves are not as crucial as the relative difference between them.
 \end_layout
 
 \begin_layout Standard
 The above findings have been used in recent tennis models, such as in the
- common opponent model proposed by Knottenbelt [reference], as well as in
- this project.
+ common opponent model proposed by Knottenbelt 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Knottenbelt"
+
+\end_inset
+
+, as well as in this project.
  In the common opponent model, the difference in service points won by each
  player is derived from each player's relative performance against common
  opponents.
@@ -2472,8 +3162,8 @@ B
  different styles and may perform better against certain types of players.
  This is a limitation that our proposed model addresses through the use
  of similar players.
- NOTE: COMMON OPP MODEL IS TRANSITIVITY OVER PARTICULAR PLAYERS, WHILE MY
- MODEL IS OVER SETS OF PLAYERS SO MORE ACCURATE
+ In our model, we essentially utilise transitivity over sets of similar
+ players.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2504,7 +3194,14 @@ In a match between player A and B as before, we instead look first at the
 \begin_layout Standard
 The below formulas describe how each is calculated.
  These formulas are very similar to what has been presented by Knottenbelt
- [reference], except that instead of common opponents
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Knottenbelt"
+
+\end_inset
+
+, except that instead of common opponents
 \begin_inset Formula $C_{i}$
 \end_inset
 
@@ -2533,9 +3230,9 @@ For each similar opponent,
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-\triangle_{i}^{AB}=(spw(A,S_{i})-(1-rpw(A,S_{i})))-(spw(B,S_{i})-(1-rpw(B,S_{i})))
-\]
+\begin{equation}
+\triangle_{i}^{AB}=(spw(A,S_{i})-(1-rpw(A,S_{i})))-(spw(B,S_{i})-(1-rpw(B,S_{i})))\label{eq:deltaAB}
+\end{equation}
 
 \end_inset
 
@@ -2559,9 +3256,9 @@ from player B's probability of winning a point on serve.
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-P(A\, beats\, B)\approx\frac{M_{3}(0.6+\triangle_{i}^{AB},\,(1-0.6))+M_{3}(0.6,\,1-(0.6-\triangle_{i}^{AB}))}{2}
-\]
+\begin{equation}
+P(A\, beats\, B)\approx\frac{M_{3}(0.6+\triangle_{i}^{AB},\,(1-0.6))+M_{3}(0.6,\,1-(0.6-\triangle_{i}^{AB}))}{2}\label{eq:ProbAbeatsB}
+\end{equation}
 
 \end_inset
 
@@ -2573,8 +3270,21 @@ The function
 \begin_inset Formula $M_{3}(p,q)$
 \end_inset
 
- was proposed by O'Malley [reference], and was introduced earlier in the
- background section [section reference].
+ was proposed by O'Malley 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "OMalley"
+
+\end_inset
+
+, and was introduced earlier in the background section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:O'Malley's-Formulae"
+
+\end_inset
+
+.
  It takes as inputs p, which is the probability of player A winning a point
  on his serve, and q, which is the probability of player B winning a point
  on his serve, and outputs a probability of player A beating B in a three
@@ -2589,15 +3299,28 @@ The function
 
 .
  We revisit O'Malley's formulae in section 3.2 [Reference].
- In equation [equation reference], we take the average of the two match
- winning probabilities calculated.
+ In equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:ProbAbeatsB"
+
+\end_inset
+
+, we take the average of the two match winning probabilities calculated.
  
 \end_layout
 
 \begin_layout Standard
 As with the rest of the project, Python was used to implement the above
  logic.
- Figure [code reference] presents the implementation of how 
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Python-triangleAB"
+
+\end_inset
+
+ presents the implementation of how 
 \begin_inset Formula $\triangle_{i}^{AB}$
 \end_inset
 
@@ -2606,6 +3329,12 @@ As with the rest of the project, Python was used to implement the above
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset listings
 lstparams "breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
 inline false
@@ -2859,6 +3588,45 @@ def calculate_spw_difference(player_list,opponent):
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Python implementation of how 
+\begin_inset Formula $\triangle_{i}^{AB}$
+\end_inset
+
+ is calculated
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Python-triangleAB"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Estimating a player's match winning probability
 \end_layout
@@ -2880,9 +3648,23 @@ The calculation of a player's match winning probability is a key aspect
 \end_layout
 
 \begin_layout Standard
-O'Malley [reference] and Barnett [reference] have proposed hierarchical
- models of computing the game, set, and match winning probabilities using
- only the probabilities of a player winning a point on serve and on return.
+O'Malley 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "OMalley"
+
+\end_inset
+
+ and Barnett 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "BarnettClarke"
+
+\end_inset
+
+ have proposed hierarchical models of computing the game, set, and match
+ winning probabilities using only the probabilities of a player winning
+ a point on serve and on return.
  Both of these methods have been briefly discussed in the background section
  of the report.
  There are key differences between these two models.
@@ -2911,7 +3693,14 @@ A key assumption that both of these aforementioned models (Barnett's and
  O'Malley's) take into account is that each point is independently and identical
 ly distributed (iid).
  This assumption was briefly touched upon in the background section of this
- project report [reference to section chapter].
+ project report, see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Modelling-in-Tennis"
+
+\end_inset
+
+.
  This iid assumption is that the probability of a player winning a point
  is independent of the outcome of the previous point(s) and it remains constant
  throughout the entire match.
@@ -2928,7 +3717,14 @@ ly distributed (iid).
 \end_layout
 
 \begin_layout Standard
-This assumption was analyzed by Klaasen and Magnus [1].
+This assumption was analyzed by Klaasen and Magnus 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "KlaasenMagnusArePointsIid"
+
+\end_inset
+
+.
  They tested the iid assumption using point to point data on four years
  of Wimbledon men's and women's singles matches.
  They reasoned that points are neither 
@@ -2966,9 +3762,16 @@ We have implemented O'Malley's key formulas for each stage of the hierarchical
  and a tiebreaker game.
  We then use these calculated probabilities to derive the probability of
  a player winning a set and also hence winning the match.
- As an example, the formulas for the game level and three or five set match
- level of the hierarchy are revisited below.
- All formulas have been presented in the Background [reference].
+ As an example, the formulas for the game level, set level and three and
+ five set match level of the hierarchy are revisited below.
+ All formulas have been presented in the Background, see section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:O'Malley's-Formulae"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -2999,9 +3802,9 @@ G(p)=P(player\, wins\, game)
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-=p^{4}+4p^{4}(1-p)+10p^{4}(1-p)^{2}+20p^{3}(1-p)^{3}\centerdot\sum_{i=3}^{\infty}\{2p(1-p)\}^{i-3}
-\]
+\begin{equation}
+=p^{4}+4p^{4}(1-p)+10p^{4}(1-p)^{2}+20p^{3}(1-p)^{3}\centerdot\sum_{i=3}^{\infty}\{2p(1-p)\}^{i-3}\label{eq:gpomalley}
+\end{equation}
 
 \end_inset
 
@@ -3030,8 +3833,14 @@ G(p)=P(player\, wins\, game)
 \begin_inset VSpace defskip
 \end_inset
 
-The formula in Equation [equation reference] covers each case for a player
- to win a game on his serve.
+The formula in Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:gpomalley"
+
+\end_inset
+
+ covers each case for a player to win a game on his serve.
  He can either win four straight service points, win four points to win
  a game while losing one or two points during the game, and finally the
  case for 30-30/Deuce.
@@ -3046,9 +3855,9 @@ Set Level
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
-S(p,q)=\sum_{i=1}^{21}B(i,1)G(p)^{B(i,2)}(1-G(p))^{B(i,3)}G(q)^{B(i,4)}(1-G(q))^{B(i,,5)}
-\]
+\begin{equation}
+S(p,q)=\sum_{i=1}^{21}B(i,1)G(p)^{B(i,2)}(1-G(p))^{B(i,3)}G(q)^{B(i,4)}(1-G(q))^{B(i,,5)}\label{eq:setlevelomalley}
+\end{equation}
 
 \end_inset
 
@@ -3107,8 +3916,14 @@ S(p,q)=\sum_{i=1}^{21}B(i,1)G(p)^{B(i,2)}(1-G(p))^{B(i,3)}G(q)^{B(i,4)}(1-G(q))^
 \end_layout
 
 \begin_layout Standard
-The formula in Equation [equation reference] sums up the probabilities of
- all 21 game scores combinations in a set.
+The formula in Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:setlevelomalley"
+
+\end_inset
+
+ sums up the probabilities of all 21 game scores combinations in a set.
  
 \begin_inset Formula $S(p,q)$
 \end_inset
@@ -3127,11 +3942,18 @@ The formula in Equation [equation reference] sums up the probabilities of
 
 .
  The probability formula for the tiebreaker game has been described in the
- Background [section reference].
+ Background in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:O'Malley's-Formulae"
+
+\end_inset
+
+.
  To implement the definition of the matrix B(x,y), the Python library 'Numpy'
  was used, which provided increased readability versus an implementation
  using a list of lists.
- This matrix is presented in the appendix [reference].
+ This matrix is presented in the appendix A.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -3174,13 +3996,26 @@ Python code
 
 \begin_layout Standard
 To predict a specific match up between two players, player A and player
- B, the Python code presented in Figure [fig reference] is used.
+ B, the Python code presented in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:matchwprobPython"
+
+\end_inset
+
+ is used.
  Note that this is not the complete function; user input methods have been
  removed for increased readability.
  Comments have been included to explain relevant parts of the code.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset listings
 lstparams "breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
 inline false
@@ -3309,6 +4144,42 @@ def match_up(player1, player2):
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Python code showing how the match winning probability formulas are implemented
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:matchwprobPython"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Evaluation
 \end_layout
@@ -3419,13 +4290,25 @@ Once we use our model to generate predictions of the outcomes of all fixtures,
  lost for each bet.
  This allows us the significant advantage of being able to judge to what
  extent our model is successful when put to use in the real market.
- Python code is presented in Figure [figure reference], which shows how
- the described strategy is implemented.
+ Python code is presented in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pythonplacingbets"
+
+\end_inset
+
+, which shows how the described strategy is implemented.
  Note that the entire function is not shown, due to its lengthy implementation,
  and only relevant parts are presented.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
 \begin_inset listings
 lstparams "breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
 inline false
@@ -3535,12 +4418,17 @@ def simulate_bets():
 
 \begin_layout Plain Layout
 
-			# if bet on player 1 and player 1 won the match
+			# if bet on player 1 and player 1 won 
 \end_layout
 
 \begin_layout Plain Layout
 
-			# add the profit to the overall roi
+			# the match add the profit to 
+\end_layout
+
+\begin_layout Plain Layout
+
+			# the overall roi
 \end_layout
 
 \begin_layout Plain Layout
@@ -3581,6 +4469,34 @@ def simulate_bets():
 \begin_layout Plain Layout
 
 	return roi
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Python code demonstrating how bets are placed in the simulation
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Pythonplacingbets"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -3663,7 +4579,14 @@ Results
 \begin_layout Standard
 After using the method described in the previous section, we arrive at the
  return of investment for our set of fixtures.
- The table of results can be seen in Table 1 [table reference].
+ The table of results can be seen in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Results-obtained-for"
+
+\end_inset
+
+.
  We have split our findings by surface, to investigate how our ROI results
  vary based on the court surface.
 \end_layout
@@ -3931,6 +4854,13 @@ Overall
 \begin_layout Plain Layout
 Results obtained for fixtures involving our selected set of the top 33 players
  from January 2013 to May 2014
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Results-obtained-for"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -4068,6 +4998,18 @@ O'Malley's formulas were used extensively in this project to predict the
  presented originally by O'Malley.
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "references"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Appendix
 \end_layout
@@ -4162,6 +5104,721 @@ Table B was used in the set winning probability
 25 & 4 & 1 & 1 & 4 & 1\\
 1 & 5 & 0 & 0 & 5 & 1
 \end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+B: 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:B:-ATP-Rankings"
+
+\end_inset
+
+ATP Rankings (as of May 20th 2014)
+\end_layout
+
+\begin_layout Standard
+The analysis in this study was focused on the top 30 players in the ATP
+ rankings, in addition to 3 other players which lie not far off from the
+ top 30.
+ The following table shows all the players that we focused on.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="34" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape italic
+Rank
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\shape italic
+Player Name
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rafael Nadal
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Novak Djokovic
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stan Wawrinka
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Roger Federer
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+David Ferrer
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tomas Berdych
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Juan Martin Del Potro
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Andy Murray
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Milos Raonic
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kei Nishikori
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+John Isner
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grigor Dimitrov
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Richard Gasquet
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Jo-Wilfried Tsonga
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fabio Fognini
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mikhail Youzhny
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tommy Haas
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tommy Robredo
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ernests Gulbis
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kevin Anderson
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Alexandr Dolgopolov
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+22
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nicolas Almagro
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+23
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Jerzy Janowicz
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gael Monfils
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fernando Verdasco
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+26
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Marin Cilic
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+27
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Feliciano Lopez
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+28
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Roberto Bautista Agut
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+29
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Philipp Kohlschreiber
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gilles Simon
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Andreas Seppi
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+40
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Jeremy Chardy
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lleyton Hewitt
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
 \end_inset
 
 
