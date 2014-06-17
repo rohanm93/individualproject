@@ -1577,7 +1577,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset listings
-lstparams "basicstyle={\small\sffamily}"
+lstparams "basicstyle={\scriptsize\sffamily}"
 inline false
 status open
 
@@ -2338,7 +2338,7 @@ reference "fig:RM-CSVoutput"
 \end_inset
 
 .
- Python code is reproduced in Figure 
+ Part of the Python code is reproduced in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:PythonFindSimilarPlayers"
@@ -2405,7 +2405,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset listings
-lstparams "breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
+lstparams "basicstyle={\scriptsize},breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
 inline false
 status open
 
@@ -2535,7 +2535,7 @@ reference "sec:Difference-servicepointswon"
 \end_layout
 
 \begin_layout Subsubsection
-Clustering algorithms: k-means 
+Clustering Algorithms: k-means 
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:Clustering-algorithms-general"
@@ -2671,8 +2671,17 @@ reference "fig:plotk4"
 
 \end_inset
 
- plots the centroids (average center of each cluster) of the 4 clusters.
- The actual centroid values are presented in the Appendix [appendix reference].
+ plots the centroids of the 4 clusters.
+ Centroids are the average center of each cluster, and can be considered
+ to be strongly indicative of the rest of the data in the cluster.
+ The actual centroid values are presented in the Appendix, see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:k4centroid"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -2683,9 +2692,10 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="2">
+<lyxtabular version="3" rows="5" columns="3">
 <features tabularvalignment="middle" tabularwidth="9cm">
 <column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <row>
 <cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
@@ -2706,6 +2716,15 @@ Players in cluster (Rank)
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total players
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
@@ -2717,12 +2736,21 @@ Players in cluster (Rank)
 
 \end_inset
 </cell>
-<cell multirow="3" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Nadal (1), Djokovic (2), Federer (4), Wawrinka (3), Ferrer (5), Gasquet
  (13), Murray (8), Nishikori (10)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
 \end_layout
 
 \end_inset
@@ -2738,12 +2766,21 @@ Nadal (1), Djokovic (2), Federer (4), Wawrinka (3), Ferrer (5), Gasquet
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Simon (30), Agut (28), Lopez (27), Kohlschreiber (29), Dolgopolov (21),
  Hewitt (44), Seppi (33), Chardy (40)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
 \end_layout
 
 \end_inset
@@ -2759,12 +2796,21 @@ Simon (30), Agut (28), Lopez (27), Kohlschreiber (29), Dolgopolov (21),
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Isner (11), Berdych (6), del Potro (7), Raonic (9), Dimitrov (12), Cilic
  (26), Gulbis (19), Anderson (20), Janowicz (23)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
 \end_layout
 
 \end_inset
@@ -2780,12 +2826,21 @@ Isner (11), Berdych (6), del Potro (7), Raonic (9), Dimitrov (12), Cilic
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Tsonga (14), Youzhny (16), Haas (17), Robredo (18), Monfils (24), Almagro
  (22), Verdasco (25), Fognini (15)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
 \end_layout
 
 \end_inset
@@ -3001,14 +3056,15 @@ key "gulbiswiki"
 \begin_inset Quotes eld
 \end_inset
 
-aggressive baseline game is coupled with an extremely powerful serve
+baseline game is coupled with an extremely powerful serve
 \begin_inset Quotes erd
 \end_inset
 
 .
  Since there is only one cluster which encompass strong servers, Gulbis
  is put into the same category as other players who can be categorized as
- strictly serve and volley players.
+ serve and volley players, although he is considered a baseline (from the
+ end of the court) player.
  Due to this, it seems necessary to increase the total number of cluster
  centroids k.
  Increasing the value of k ensures that these four clusters are broken down
@@ -3034,7 +3090,302 @@ reference "fig:plotk7"
 \end_inset
 
 .
- 
+ We also again present the table showing the players in each cluster in
+ Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:k-means-cluster-results-7"
+
+\end_inset
+
+.
+ The actual centroid values are presented in the Appendix, see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:k7centroid"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="3">
+<features tabularvalignment="middle" tabularwidth="9cm">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cluster number
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Players in cluster (Rank)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total players
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Isner (11), Berdych (6), del Potro (7), Raonic (9), Dimitrov (12), Cilic
+ (26), Anderson (20), Janowicz (23)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hewitt (44)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gulbis (19), Almagro (22)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tsonga (14), Youzhny (16), Haas (17), Robredo (18), Verdasco (25), Lopez
+ (27)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nishikori (10), Gasquet (13), Fognini (15), Dolgopolov (21), Agut (28),
+ Kohlschreiber (29)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Monfils (24), Chardy (40), Seppi (33), Simon (30)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nadal (1), Murray (8), Federer (4), Djokovic (2), Wawrinka (3), Ferrer (5)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+k-means cluster results when k=7
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:k-means-cluster-results-7"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3042,6 +3393,15 @@ reference "fig:plotk7"
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename markovmodel/+28.39 312matches 7clusters/centroidplot.png
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -3073,16 +3433,648 @@ name "fig:plotk7"
 \end_layout
 
 \begin_layout Standard
-DIAGRAMS TRYING MANY DIFFERENT K's, showing centroids clearly.
- think about doing graphs in excel if cant get the labels properly
+There are several overlapping trends that exist when k=7 that were also
+ present when k=4.
+ Cluster 0 in k=4, which represented the top performing and highest ranked
+ players, reappears here as Cluster 6 (red line) with a subset of the players
+ that were initially in Cluster 0 when k=4.
+ This is very interesting since that now with the increased number of distinct
+ clusters, two players, specifically Nishikori and Gasquet, have been placed
+ instead in Cluster 4 (indicated by the yellow-green line).
+ 
 \end_layout
 
 \begin_layout Standard
-one of the diagrams is x-means
+Let us look at this cluster, Cluster 4, in more detail.
+ The significant differentiators between the centroids of cluster 6 and
+ cluster 4 are age, performance against the top 10, first serve speed, and
+ the ranking.
+ The rest of the attributes are very comparable.
+ Looking at these differentiating factors, we can say that cluster 4 represents
+ a playing style that resembles that of the best performing players (who
+ are in cluster 6).
+ 
 \end_layout
 
-\begin_layout Subsubsection*
-Clustering k-medoids
+\begin_layout Itemize
+Players in this cluster, however, have a slower serve speed and thus seem
+ to win a lesser amount of points on their serve.
+ However, they have a strong return, one that is higher than all other clusters
+ except for the Cluster 6, which represents the best players.
+ 
+\end_layout
+
+\begin_layout Itemize
+It is interesting to note, in addition, that players in Cluster 4 are much
+ younger than those of Cluster 6, by an average age of 3.5 years.
+ Hence, it is possible that these players are 'ones to watch out for' and
+ are likely to be even more successful in the future, especially if they
+ improve their service.
+\end_layout
+
+\begin_layout Standard
+We were introduced to particular inconsistencies we faced with a value of
+ k=4, particularly the example mentioned involving tennis player Gulbis.
+ When k was set to 4, we found that Gulbis was clustered into the category
+ of players who were not only strong servers but also players who approached
+ the net more frequently than others.
+ Upon increasing the value of k to 7, we notice that Gulbis is in fact moved
+ to another cluster, cluster 2.
+ 
+\end_layout
+
+\begin_layout Itemize
+Cluster 2 can be characterized as players with very strong services, with
+ a notably lesser average amount of net approaches per match, while cluster
+ 0 represents players who rely on their serve more and can be characterized
+ as more serve and volley players.
+ 
+\end_layout
+
+\begin_layout Itemize
+Other differentiating factors between centroids of clusters 2 and 0 include
+ height (players in cluster 0 appear to be notably taller), performance
+ on clay (players in cluster 0 seem to perform slightly worse on clay),
+ and the performance on hard court (players in cluster 0 seem to perform
+ better on hard court surfaces).
+\end_layout
+
+\begin_layout Standard
+Furthermore, it is also interesting to note that tennis player Hewitt was
+ categorized into his own cluster.
+ In other words, there was no other player in our dataset that is similar
+ to him in terms of statistics.
+ Hewitt is the lowest ranked player in our dataset so it is unsurprising
+ that he is not considered to be similar to other players in our dataset.
+ We must be wary of overfitting data since we do not want to end up in a
+ situation where most players have their own cluster, which would render
+ the clustering step as uninformative.
+ In this case with Hewitt, we accept the fact that Hewitt has his own cluster
+ because each of his statistics are very different to other players in our
+ dataset.
+\end_layout
+
+\begin_layout Standard
+Other clusters, particularly clusters 3 and 5, represent what we describe
+ as an average player.
+ The statistics across both cluster centroids are largely similar, including
+ attributes such as the amount of service and return points won, performance
+ against the top 10, the average net approaches, and the average first serve
+ speed.
+ However, differentiating attributes between both centroids include overall
+ ranking and age.
+ Players in cluster 3 are older and have a better ranking, suggesting that
+ experience plays a role in the outcome of tennis matches too.
+\end_layout
+
+\begin_layout Standard
+Although setting k to 7 seems to improve our categorizing of player styles
+ from our previous attempt of setting k to 4, it is important to still investiga
+te any inconsistencies.
+ One particular aspect to note is that the top performing/ranked players
+ have all remained in the same cluster, cluster 6.
+ This suggests that they are similar to one another.
+ However, almost everyone who has watched these players play tennis will
+ argue that although there are a few similarities, there are significant
+ differences between their playing styles.
+ Understandably, the statistics we have are limited and we cannot expect
+ the k-means algorithm to classify players exactly as they are, unless we
+ have more enhanced details on players in our dataset.
+\end_layout
+
+\begin_layout Subsubsection
+k-means: Number of centroids k = 9 & the problem of overfitting data
+\end_layout
+
+\begin_layout Standard
+We attempt to increase the value of k even further, to investigate any further
+ trends.
+ However, we must be very cautious of the problem of overfitting that we
+ briefly touched upon previously.
+ A model that is overfit generally has poor predictive performance, as it
+ often overstresses minor fluctuations in the data.
+ We must ensure that our model simply does not 'memorize' the training profile
+ data, but rather 'learns' groups of player characteristics from the data
+ we have provided.
+ 
+\end_layout
+
+\begin_layout Standard
+In our case, overfitting would lead to similar players being placed in different
+ clusters, due to minor differences in specific statistics.
+ To illustrate this principle, in the extreme case, we do not want the case
+ where two players are considered to be different (i.e.
+ placed in different clusters) simply because their height differs by a
+ few centimetres!
+\end_layout
+
+\begin_layout Standard
+For k=9, we again present a graph showing the values of each attribute for
+ each of the nine centroids, as we did for k=4 and k=7, in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:plotk9"
+
+\end_inset
+
+.
+ We also again present the table showing the players in each cluster in
+ Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:k-means-cluster-results-9"
+
+\end_inset
+
+.
+ The actual centroid values are presented in the Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:k9centroid"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="3">
+<features tabularvalignment="middle" tabularwidth="9cm">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cluster number
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Players in cluster (Rank)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total players
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nadal (1), Murray (8), Djokovic (2)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hewitt (44)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Janowicz (23), Cilic (26), Anderson (20)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gulbis (19), Almagro (22)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tsonga (14), Youzhny (16), Haas (17), Robredo (18), Lopez (27)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nishikori (10), Gasquet (13), Fognini (15), Dolgopolov (21), Agut (28),
+ Kohlschreiber (29)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Isner (11), Berdych (6), del Potro (7), Raonic (9), Dimitrov (12)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Monfils (24), Chardy (40), Seppi (33), Simon (30), Verdasco (25)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Federer (4), Wawrinka (3), Ferrer (5)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+k-means cluster results when k=9
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:k-means-cluster-results-9"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename markovmodel/+20.83 273matches 9clusters/centroidplot.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Plot of k-means centroids when k=9.
+ The key is provided in the top left of the figure
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:plotk9"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The clusters presented in k=9 are largely unchanged from those presented
+ in k=7.
+ Nevertheless, we can still notice two very significant changes:
+\end_layout
+
+\begin_layout Enumerate
+Split of the cluster that previously contained the top ranked players: We
+ immediately notice, from the results of the clustering presented in Table
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:k-means-cluster-results-9"
+
+\end_inset
+
+, a significant difference in these set of results.
+ In k=4 and k=7, the top performing/ranked players (particularly Nadal (1),
+ Murray (8), Federer (4), Djokovic (2), Wawrinka (3), Ferrer (5)) were consisten
+tly in the same cluster.
+ In k=9, however, we can see from the clustering results that these top
+ ranked players are now divided into two different clusters, clusters 0
+ (containing Nadal (1), Murray (8), Djokovic (2)) and 8 (containing Federer
+ (4), Wawrinka (3), Ferrer (5)).
+ This was bound to happen as we continued increasing the value of k.
+ There were two key differences in centroids.
+ Firstly the average age in cluster 8 (31 years) is significantly older
+ than that of cluster 0 (27 years).
+ Secondly, the centroid in cluster 0 had slightly better statistics than
+ the centroid in cluster 8 over all court surfaces.
+\end_layout
+
+\begin_layout Enumerate
+Split of the 'Strong servers' cluster: We also notice that the category
+ of servers, which previously contained the players Isner (11), Berdych
+ (6), del Potro (7), Raonic (9), Dimitrov (12), Cilic (26), Anderson (20),
+ Janowicz (23), has been divided into two different clusters, 2 and 6.
+ Statistics between the centroids of each cluster were very similar; both
+ centroids had very comparable service and return points won percentages
+ and almost identical years of age.
+ The reasons for the separation into multiple clusters is because cluster
+ 2's centroid's performance on hard and clay courts was worse than that
+ of cluster 6.
+ In addition, the average ranking of players in cluster 6 was better than
+ that of cluster 2.
+\end_layout
+
+\begin_layout Subsubsection
+Important Considerations
+\end_layout
+
+\begin_layout Standard
+The above described changes to the clusters are very reasonable, and seem
+ to be more representative of actual player's characteristics than the clusters
+ obtained when k=7.
+ Attributes such as age and perfomance on different courts are usually integral
+ to classifying player's performance.
+ 
+\end_layout
+
+\begin_layout Standard
+Unfortunately, however, there is a significant limitation introduced when
+ using a value of k=9.
+ Out of the 9 clusters, the majority (5 clusters) have 3 or fewer players
+ per cluster.
+ When using k=7, on the other hand, only 2 clusters out of the 7 clusters
+ consist of 3 players or fewer.
+ 
+\end_layout
+
+\begin_layout Standard
+It is important to remind ourselves how our model is built; it is based
+ on the set of similar players generated for each player.
+ A fewer amount of similar players generated per player results in a significant
+ly lesser amount of information available to make predictions.
+ It is important to strike a balance between the accuracy of the clusters
+ and the amount of information we leave ourselves with to make predictions.
+ 
+\end_layout
+
+\begin_layout Standard
+This was a significant issue to consider.
+ If the choice was made to select a higher value of k, for example k=9,
+ certainly, we might have more accurate clusters.
+ Unfortunately, since this decision results in our model having less information
+ to make predictions, it is very possible that we end up with the opposite
+ effect of our model make less accurate predictions.
+ Additionally, we do not want to overfit the data, as we have discussed
+ previously.
+ There is a strong case that the data has been overfitted for k=9 since
+ the majority of clusters have 3 or fewer players.
+\end_layout
+
+\begin_layout Standard
+Taking all the above considerations into account, the value of k was chosen
+ to be 7 for our dataset of 33 players.
+ This k-value provides us with a significant degree of accuracy of clusters,
+ at the same time maintaining an average of over 4 players per cluster.
+ We evaluate this choice again in section [section reference].
+\end_layout
+
+\begin_layout Subsubsection
+Other Algorithms: K-Medoids & X-Means
 \end_layout
 
 \begin_layout Standard
@@ -3094,10 +4086,45 @@ As described in the background, the k-medoids algorithm is very similar
  a real player.
  Thus, we cluster players that match an exact existing type of player (centroid)
 , unlike in k-means where we cluster the players that match an imaginary
- centroid.
- For completeness, we plot the clusters of k-medoids to investigate any
- further trends in Figures [figure reference in the appendix??].
- 
+ centroid which is the average of all values.
+ The resulting clusters for various values of k were similar to that of
+ k-means in some cases, with a few clusters having identical members in
+ both algorithms.
+ However, it was noted that in general, the k-medoids clusters differed
+ quite significantly those of k-means.
+ In addition, the clusters were less representative of different playing
+ styles than the original k-means algorithm used.
+ Hence, we do not proceed to use the k-medoids algorithm any further.
+ For completeness, we show the tables of cluster centroids and the members
+ of each cluster for different values of k using k-medoids in the Appendix,
+ see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:K-medoids-clustering-results"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+We also attempted to find the optimal number of centroids (value of k) using
+ the X-means approach.
+ We provide the algorithm with a starting and end value of k, and the algorithm
+ uses the Bayesian Information Criteria (BIC) to find the optimal number
+ of centroids.
+ Due to the small size of our dataset (33 records), this X-means approach
+ suggested that k=2.
+ As we have seen earlier, even k=4 is not sufficient to group players into
+ appropriate clusters.
+ We thus disregard the X-means approach.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -3132,6 +4159,7 @@ reference "fig:Using-Pycluster's-kcluster"
 \end_inset
 
 .
+ Comments have been included to explain relevant parts of the code.
 \end_layout
 
 \begin_layout Standard
@@ -3142,7 +4170,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset listings
-lstparams "breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
+lstparams "basicstyle={\scriptsize},breaklines=true,language=Python,numbers=left,showstringspaces=false,stepnumber=1"
 inline false
 status open
 
@@ -3911,6 +4939,7 @@ reference "fig:Python-triangleAB"
 
  is calculated.
  This is calculated for each player in every game.
+ Comments have been included to explain relevant parts of the code.
 \end_layout
 
 \begin_layout Standard
@@ -4915,6 +5944,7 @@ reference "fig:Pythonplacingbets"
 , which shows how the described strategy is implemented.
  Note that the entire function is not shown, due to its lengthy implementation,
  and only relevant parts are presented.
+ Comments have been included to explain relevant parts of the code.
 \end_layout
 
 \begin_layout Standard
@@ -5141,7 +6171,7 @@ To demonstrate this method on a specific example, we take the match played
  to the overall return of investment.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsubsection
 Keeping Training and Test Sets Separate
 \end_layout
 
@@ -6647,6 +7677,990 @@ Lleyton Hewitt
 </cell>
 </row>
 </lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+K-means clustering centroid values
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:appendix-centroid"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+k=4 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:k4centroid"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+k=7
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:k7centroid"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+k=9
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:k9centroid"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+K-medoids clustering results
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:K-medoids-clustering-results"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+k=4 
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:kmedoid4centroid"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle" tabularwidth="9cm">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cluster number
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Players in cluster (Rank)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total players
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Berdych (6), Federer (4), Haas (17), Chardy (40), Verdasco (25), Lopez (27)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Isner (11), del Potro (7), Raonic (9), Cilic (26), Anderson (20), Janowicz
+ (23), Gulbis (19), Dimitrov (12)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nadal (1), Murray (8), Djokovic (2), Wawrinka (3), Ferrer (5), Nishikori
+ (10), Monfils (24), Dolgopolov (21), Almagro (22), Tsonga (14), Youzhny
+ (16), Robredo (18), Gasquet (13), Fognini (15), Kohlschreiber (29)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hewitt (44), Seppi (33), Agut (28), Simon (30)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+k-medoids cluster results when k=4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename diagrams/kmedoid/k4.png
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+k-medoid centroids for each cluster when k=4
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+k=7
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:kmedoid7centroid"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="3">
+<features tabularvalignment="middle" tabularwidth="9cm">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cluster number
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Players in cluster (Rank)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total players
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Berdych (6), Haas (17), Chardy (40), Verdasco (25), Lopez (27)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nadal (1), Murray (8), Federer (4), Djokovic (2), Wawrinka (3), Ferrer (5)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Isner (11), del Potro (7), Raonic (9), Cilic (26), Anderson (20), Janowicz
+ (23), Gulbis (19)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hewitt (44)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nishikori (10), Dimitrov (12), Monfils (24), Dolgopolov (21)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Simon (30), Seppi (33), Agut (28)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Almagro (22), Tsonga (14), Youzhny (16), Robredo (18), Gasquet (13), Fognini
+ (15), Kohlschreiber (29)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+k-medoids cluster results when k=7
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename diagrams/kmedoid/k7.png
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+k-medoid centroids for each cluster when k=7
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+k=9
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:kmedoid9centroid"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="3">
+<features tabularvalignment="middle" tabularwidth="9cm">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cluster number
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Players in cluster (Rank)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total players
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Kohlschreiber (29), Agut (28), Simon (30)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Murray (8), Tsonga (14), Youzhny (16), Haas (17), Robredo (18), Monfils
+ (24), Seppi (33), Verdasco (25)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Isner (11), Berdych (6), del Potro (7), Raonic (9), Cilic (26), Anderson
+ (20)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nadal (1), Federer (4), Djokovic (2), Wawrinka (3), Ferrer (5)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Janowicz (23)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hewitt (44)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Almagro (22), Gulbis (19)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nishikori (10), Dimitrov (12), Dolgopolov (21), Gasquet (13), Fognini (15)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Chardy (40), Lopez (27)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+k-medoids cluster results when k=9
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename diagrams/kmedoid/k9.png
+	scale 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+k-medoid centroids for each cluster when k=9
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
