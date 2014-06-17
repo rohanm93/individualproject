@@ -4021,6 +4021,13 @@ Split of the 'Strong servers' cluster: We also notice that the category
 
 \begin_layout Subsubsection
 Important Considerations
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:choosingvalueofk"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4565,8 +4572,8 @@ Matches where a player has been injured: If a player has either withdrawn
 \end_layout
 
 \begin_layout Enumerate
-Exhibition and Davis Cup matches: These are matches which do not count towards
- a player's ATP points, or their professional ranking.
+Exhibition matches: These are matches which do not count towards a player's
+ ATP points, or their professional ranking.
  Since they are not as 'important' as matches on the ATP tour, it is possible
  that players may underperform in matches like these, so they aren't included
  in the dataset.
@@ -6234,6 +6241,937 @@ reference "tab:Results-obtained-for"
 .
  We have split our findings by surface, to investigate how our ROI results
  vary based on the court surface.
+ Note that the value of k used for the k-means clustering of the general
+ player profiles is 7.
+ See sections 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Clustering-algorithms-general"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:choosingvalueofk"
+
+\end_inset
+
+ for a full discussion on why this value was chosen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Surface
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bets Made
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Binary Success Rate
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Profit (£)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Return on Investment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hard Court
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+199
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+64.82%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18.512
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9.30%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grass Court
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+75.00%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.405
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21.28%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Clay Court
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+97
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+67.01%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.473
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.67%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Overall
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+312
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+66.03%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+28.39
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9.10%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Results obtained for fixtures involving our selected set of the top 33 players
+ from January 2013 to May 2014
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Results-obtained-for"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Over the 312 bets made, with one pound bet on the predicted winner for each
+ match, the return of investment calculated was 9.10%.
+ The positive return is certainly an indication of the successfulness of
+ the model.
+ It is important to keep in mind that although the return on investment
+ of Grass court matches was significantly higher than that of hard and clay
+ courts, there was a significantly fewer amount of bets made on matches.
+ The binary success rate (choosing the correct winner) is above 64% on all
+ courts, and is 66.03% overall, indicating a promising success rate using
+ the technique of similar players found through clustering.
+ Detailed results for each of the bets placed are available in Appendix
+ [appendix reference].
+\end_layout
+
+\begin_layout Standard
+It is also very important to recognize the fact that in our model, we only
+ have predicted fixtures which included the top ranked players playing against
+ each other (as discussed before, we focused our analysis on a specific
+ set of 33 players, which included the set of top 30 ranked players).
+ Unlike other models, there were significantly fewer games in our predicted
+ fixtures that included very strong favorites.
+ Matches predicted by our model are arguably much 'harder' to predict because
+ they are made up of encounters between players who are closely matched
+ (as they are all in the top 30 ranked players); thus, there exists a higher
+ likelihood of upsets in the fixtures we have chosen to predict.
+ Other models predict fixtures which might include a top ranked player versus
+ a wildcard to the tournament, which are significantly 'easier' to predict
+ than an encounter between two players in the top 30.
+ 
+\end_layout
+
+\begin_layout Standard
+It is important to note that there were only 312 bets made overall.
+ This number is less than the total number of fixtures for two reasons:
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Not enough similar players:
+\shape default
+ When the total number of similar players was less than or equal to 1 for
+ either player, the fixture was not bet on.
+ For example, if in a match up between player A and B, if player A hasn't
+ played B before in our dataset and player A hasn't played against similar
+ players to B according to general player profiles, then the total number
+ of similar players is equal to zero, and hence, we cannot perform our method
+ of using the difference in service and return points won against similar
+ players.
+ We also choose not to bet on matches where there is only one similar player,
+ to avoid the significant amount of bias on that single match.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\shape italic
+Market odds are too poor:
+\shape default
+ When the predicted odds (for the predicted winner) are less than the market
+ odds, we do not bet on a match.
+\end_layout
+
+\begin_layout Subsubsection
+Comparison to a model which always bets on the favourite
+\end_layout
+
+\begin_layout Standard
+In this section, we evaluate our model in comparison to a simple tennis
+ model which always bets on the favourite, which in other words, is the
+ player with the lower odds to win.
+ We compare our model to this simple model to verify whether or not results
+ obtained are an improvement over models which choose the player most likely
+ to win according to bookmakers.
+ For consistency and accuracy of the comparison, we only passed the 312
+ fixtures our model chose to predict.
+ The results of this model are presented in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:ResultsFavoriteModel"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bets Made
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Binary Success Rate
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Profit (£)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Return on Investment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Overall
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+312
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+63.78%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-33.505
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-10.74%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Results obtained for the 312 fixtures (predicted by our model) using a model
+ which only bets on the favorite
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:ResultsFavoriteModel"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The return on investment over these 312 fixtures is -£33.505, resulting in
+ a poor cumulative return of investment of -10.74%.
+ In addition, the favorite in these 312 matches won 63.78% of the time, which
+ our model also outperformed.
+ The fact that our 'similar players' model outperforms a model which always
+ bets on favourites, we can confirm that our model, in this specific dataset,
+ outperforms bookmaker predictions.
+\end_layout
+
+\begin_layout Subsection
+Evaluating the correctness of implementation
+\end_layout
+
+\begin_layout Standard
+Each part of our model needed to be evaluated in terms of correctness, to
+ ensure that the results produced in this project are valid.
+ Firstly, it was integral that all the match statistics and odds collected
+ from TennisInsight were correctly scraped by our web scraper.
+ To verify that the data scraped was indeed accurate, a number of scraped
+ examples were manually checked.
+ 
+\end_layout
+
+\begin_layout Standard
+To cluster our past opponent profiles using the k-means algorithm, the Python
+ clustering library Pycluster was used.
+ To ensure that the k-means algorithm worked as expected, a significant
+ amount of test examples were inputted into Pycluster's k-means function,
+ and all the results were verified.
+ Additionally, to make sure the function worked well with our datasets,
+ a smaller dataset of the same format was used and examples and resulting
+ clusters were checked manually.
+\end_layout
+
+\begin_layout Standard
+O'Malley's formulas were used extensively in this project to predict the
+ probability of a player winning a match.
+ To verify that the formulae were implemented correctly, we compared the
+ results produced by our implemented functions to the results presented
+ in O'Malley's paper for specific input values.
+ Hence, we can be assured that the formulae are implemented as they were
+ presented originally by O'Malley.
+\end_layout
+
+\begin_layout Subsection
+Evaluating different values of k, used in k-means clustering of the general
+ player profiles
+\end_layout
+
+\begin_layout Standard
+Choosing the number of centroids/clusters k for the general player profiles
+ was a very crucial decision to be made when developing our model.
+ A value of k was chosen only for the general player profiles.
+ For the past opponent profiles, the value of k was computed automatically
+ based on the size of the dataset available at that point in time.
+ It was important not to choose a very high value of k, so as to not overfit
+ the data set provided.
+ Additionally, there is a significant tradeoff between the accuracy of clusters
+ of the general player profiles and the accuracy of predictions.
+ A higher accuracy of clusters means that there are fewer players per cluster
+ (because clusters are more specific), and thus, less information available
+ to make predictions, due to a smaller generated set of similar players.
+ See sections 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Clustering-algorithms-general"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:choosingvalueofk"
+
+\end_inset
+
+ for a full discussion on the different values of k considered and how the
+ decision was made to select k=7.
+ 
+\end_layout
+
+\begin_layout Standard
+Although the value of k=7 was chosen, it's important to investigate the
+ effect of varying the value of k on the overall return on investment, over
+ the same set of fixtures.
+ We look at the performance of our model, using different values of k, specifica
+lly the cases where k=4 and k=9.
+\end_layout
+
+\begin_layout Subsubsection
+Results of prediction model, setting k=4
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Surface
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bets Made
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Binary Success Rate
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Profit (£)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Return on Investment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hard Court
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+223
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+63.22%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.425
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.33%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grass Court
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+75.00%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.941
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24.71%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Clay Court
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+128
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+61.72%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.574
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.23%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Overall
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+371
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+63.34%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13.94
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.76%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Results obtained for fixtures involving our selected set of the top 33 players
+ from January 2013 to May 2014; k=4 for general player profiles clustering
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Resultsk4"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The results presented in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Resultsk4"
+
+\end_inset
+
+ show a 3.76% ROI over 371 matches.
+ We can see that, compared to our model where we have used k=7, it is a
+ much lower ROI.
+ However, since k=4, which is lower than the 7 used before, there was more
+ information available to the model and hence more bets were able to be
+ placed than before (371 bets as compared to 312 bets).
+ The ROI is expected to be lower than when we used k=7 because the clustering
+ is not as effective at distinguishing player styles, and hence does not
+ calculate effectively the advantage or disadvantage a player has over another
+ player when predicting the outcome of an encounter between them.
+\end_layout
+
+\begin_layout Subsubsection
+Results of prediction model, setting k=9
 \end_layout
 
 \begin_layout Standard
@@ -6498,10 +7436,10 @@ Overall
 
 \begin_layout Plain Layout
 Results obtained for fixtures involving our selected set of the top 33 players
- from January 2013 to May 2014
+ from January 2013 to May 2014; k=9 for general player profiles clustering
 \begin_inset CommandInset label
 LatexCommand label
-name "tab:Results-obtained-for"
+name "tab:Resultsk9"
 
 \end_inset
 
@@ -6519,128 +7457,16 @@ name "tab:Results-obtained-for"
 \end_layout
 
 \begin_layout Standard
-Over the 273 bets made, with one pound bet on the predicted winner for each
- match, the return of investment calculated was 7.63%.
- The positive return is certainly an indication of the successfulness of
- the model.
- It is important to keep in mind that although the return on investment
- of Grass court matches was significantly higher than that of hard and clay
- courts, there was a significantly fewer amount of bets made on matches.
- The binary success rate (choosing the correct winner) is above 61% on all
- courts, and is 62.64% overall, indicating a promising success rate using
- the technique of similar players found through clustering.
- Detailed results for each of the bets placed are available in Appendix
- [appendix reference].
-\end_layout
-
-\begin_layout Standard
-It is also very important to recognize the fact that in our model, we only
- have predicted fixtures which included the top ranked players playing against
- each other (as discussed before, we focused our analysis on a specific
- set of 33 players, which included the set of top 30 ranked players).
- Unlike other models, there were significantly fewer games in our predicted
- fixtures that included very strong favorites.
- Thus, the binary success rate of other models which focus on a much greater
- set of players is likely to be higher than that of our model.
- However, matches predicted by our model are arguably much 'harder' to predict
- because they are made up of encounters between players who are closely
- matched (as they are all in the top 30 ranked players); thus, there exists
- a higher likelihood of upsets in the fixtures we have chosen to predict.
- Other models predict fixtures which might include a top ranked player versus
- a wildcard to the tournament, which are significantly 'easier' to predict
- than an encounter between two players in the top 30.
- 
-\end_layout
-
-\begin_layout Standard
-It is important to note that there were only 273 bets made overall.
- This number is less than the total number of fixtures for two reasons:
-\end_layout
-
-\begin_layout Enumerate
-
-\shape italic
-Not enough similar players:
-\shape default
- When the total number of similar players was less than or equal to 1 for
- either player, the fixture was not bet on.
- For example, if in a match up between player A and B, if player A hasn't
- played B before in our dataset and player A hasn't played against similar
- players to B according to general player profiles, then the total number
- of similar players is equal to zero, and hence, we cannot perform our method
- of using the difference in service and return points won against similar
- players.
- We also choose not to bet on matches where there is only one similar player,
- to avoid the significant amount of bias on that single match.
- 
-\end_layout
-
-\begin_layout Enumerate
-
-\shape italic
-Market odds are too poor:
-\shape default
- When the predicted odds (for the predicted winner) are less than the market
- odds, we do not bet on a match.
+-data was overfit so not as successful overall, less matches bet on because
+ less information
 \end_layout
 
 \begin_layout Subsubsection
-Comparison to a model which always bets on the favourite
-\end_layout
-
-\begin_layout Standard
-In this section, we evaluate our model in comparison to a simple tennis
- model which always bets on the favourite, which in other words, is the
- player with the lower odds to win.
- We compare our model to this simple model to verify whether or not results
- obtained are an improvement over models which choose the player most likely
- to win according to bookmakers.
- For consistency and accuracy of the comparison, we only passed the 273
- fixtures our model chose to predict.
- 
-\end_layout
-
-\begin_layout Standard
-The profit over these 273 fixtures was found to be -£18.97, resulting in
- a cumulative return of investment of -6.95%.
- The fact that our 'similar players' model outperforms a model which always
- bets on favourites, we can confirm that our model, in this specific dataset,
- outperforms bookmaker predictions.
+Results of prediction model, for other values of k
 \end_layout
 
 \begin_layout Subsection
-Evaluating the correctness of implementation
-\end_layout
-
-\begin_layout Standard
-Each part of our model needed to be evaluated in terms of correctness, to
- ensure that the results produced in this project are valid.
- Firstly, it was integral that all the match statistics and odds collected
- from TennisInsight were correctly scraped by our web scraper.
- To verify that the data scraped was indeed accurate, a number of scraped
- examples were manually checked.
- 
-\end_layout
-
-\begin_layout Standard
-To cluster our past opponent profiles using the k-means algorithm, the Python
- clustering library Pycluster was used.
- To ensure that the k-means algorithm worked as expected, a significant
- amount of test examples were inputted into Pycluster's k-means function,
- and all the results were verified.
- Additionally, to make sure the function worked well with our datasets,
- a smaller dataset of the same format was used and examples and resulting
- clusters were checked manually.
-\end_layout
-
-\begin_layout Standard
-O'Malley's formulas were used extensively in this project to predict the
- probability of a player winning a match.
- To verify that the formulae were implemented correctly, we compared the
- results produced by our implemented functions to the results presented
- in O'Malley's paper for specific input values.
- Hence, we can be assured that the formulae are implemented as they were
- presented originally by O'Malley.
+Evaluating the effectiveness of clustering in generating player profiles
 \end_layout
 
 \begin_layout Standard
